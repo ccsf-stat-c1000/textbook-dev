@@ -14,8 +14,8 @@ This project uses a hybrid **conda + pip** environment — conda for compiled da
 ### 1. Create a conda environment
 
 ```bash
-conda create -n mybook python=3.11
-conda activate mybook
+conda create -n statc1000book python=3.11
+conda activate statc1000book
 ```
 
 ### 2. Install data science packages via conda
@@ -53,7 +53,7 @@ conda env export > environment.yml
 ```bash
 # From environment.yml (recommended — captures everything)
 conda env create -f environment.yml
-conda activate mybook
+conda activate statc1000book
 
 # Or pip only
 pip install -r requirements.txt
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ## environment.yml reference
 
 ```yaml
-name: mybook
+name: statc1000book
 channels:
   - defaults
 dependencies:
