@@ -1,0 +1,25 @@
+name: statc1000book
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - nodejs
+  - jupyterlab
+  - jupyterlab-myst
+  - jupytext
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - ipywidgets
+  - pip
+  - pip:
+    - jupyter-book
+    - datascience
+    - polars
+    - plotly
