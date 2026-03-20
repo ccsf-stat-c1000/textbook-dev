@@ -12,39 +12,28 @@ This project uses a hybrid **conda + pip** environment — conda for compiled da
 ### 1. Create a conda environment
 
 ```bash
-conda create -n mybook python=3.11
-conda activate mybook
+conda create -n statc1000book python=3.11
+conda activate statc1000book
 ```
 
-### 2. Install packages via conda
+### 2. Clone the textbook repo
 
 ```bash
-conda install -c conda-forge \
-  nodejs \
-  jupyterlab \
-  jupyterlab-myst \
-  jupytext \
-  ipykernel \
-  numpy \
-  pandas \
-  matplotlib \
-  seaborn \
-  scikit-learn \
-  scipy \
-  statsmodels \
-  ipywidgets
-
-### 3. Install additional packages via pip
-
-```bash
-pip install jupyter-book datascience polars plotly
-```
+git clone https://github.com/ccsf-stat-c1000/textbook-dev.git
+cd textbook-dev
 ```
 
-### 4. Build the book
+### 3. Install all packages via environment.yml
 
 ```bash
-jupyter-book build .
+conda env create -f environment.yml
+conda activate statc1000book
+```
+
+### 4. Start the book
+
+```bash
+jupyter book start
 ```
 
 ## Reproducibility
@@ -64,38 +53,8 @@ conda env export > environment.yml
 ```bash
 # From environment.yml (recommended — captures everything)
 conda env create -f environment.yml
-conda activate mybook
+conda activate statc1000book
 
 # Or pip only
 pip install -r requirements.txt
-```
-
-## environment.yml reference
-
-```yaml
-name: mybook
-channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - python=3.11
-  - nodejs
-  - jupyterlab
-  - jupyterlab-myst
-  - jupytext
-  - ipykernel
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - scikit-learn
-  - scipy
-  - statsmodels
-  - ipywidgets
-  - pip
-  - pip:
-    - jupyter-book
-    - datascience
-    - polars
-    - plotly
 ```
