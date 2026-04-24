@@ -14,7 +14,7 @@ For the reason illustrated in the examples at the end of the previous page, the 
 
 2. The z-score of a normal value (a value that comes from a normal distribution) is:
 
-$z=\frac{value&minus;mean}{standard deviation}$
+$z=\frac{\text{value}-\text{mean}}{\text{standard deviation}}$
 
 and it represents how many standard deviations below or above the mean the value is.
 
@@ -26,7 +26,7 @@ From fact 1, we know that the values of the sample proportion ($\hat{p}$) are no
 
 Using fact 2, we conclude that the z-score of $\hat{p}$ when $p=p_{0}$ is:
 
-$z=\frac{\hat{p}&minus;p_{0}}{\sqrt{\frac{p_{0}(1&minus;p_{0})}{n}}}$
+$z=\frac{\hat{p}-p_{0}}{\sqrt{\frac{p_{0}(1-p_{0})}{n}}}$
 
 *This is the test statistic.* It represents the difference between the sample proportion ($\hat{p}$) and the null value ($p_{0}$), measured in standard deviations.
 

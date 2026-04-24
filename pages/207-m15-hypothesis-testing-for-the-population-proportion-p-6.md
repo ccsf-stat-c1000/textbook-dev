@@ -31,7 +31,7 @@ By *"extreme"* we mean extreme *in the direction of the alternative* hypothesis.
 
 1. If the alternative hypothesis is $H_{a}:p<p_{0}$ (*less* than), then "extreme" means *small*, and the p-value is: The probability of observing a test statistic *as small as that observed or smaller* if the null hypothesis is true.
 2. If the alternative hypothesis is $H_{a}:p>p_{0}$ (*greater* than), then "extreme" means *large*, and the p-value is: The probability of observing a test statistic *as large as that observed or larger* if the null hypothesis is true.
-3. if the alternative is $H_{a}:p\neqp_{0}$ (*different* from), then "extreme" means extreme in either direction *either small or large (i.e., large in magnitude)*, and the p-value therefore is: The probability of observing a test statistic *as large in magnitude as that observed or larger* if the null hypothesis is true.
+3. if the alternative is $H_{a}:p \neq p_{0}$ (*different* from), then "extreme" means extreme in either direction *either small or large (i.e., large in magnitude)*, and the p-value therefore is: The probability of observing a test statistic *as large in magnitude as that observed or larger* if the null hypothesis is true.
 
 (Examples: If z = -2.5: p-value = probability of observing a test statistic as small as -2.5 or smaller or as large as 2.5 or larger.
 
@@ -41,7 +41,7 @@ If z = 1.5: p-value = probability of observing a test statistic as large as 1.5 
 
 Recall the important comment from our discussion about our test statistic,
 
-$z=\frac{\hat{p}&minus;p_{0}}{\sqrt{\frac{p_{0}(1&minus;p_{0}}{n}}}$
+$z=\frac{\hat{p}-p_{0}}{\sqrt{\frac{p_{0}(1-p_{0})}{n}}}$
 
 which said that when the null hypothesis is true (i.e., when $p=p_{0}$), the possible values of our test statistic (because it is a z-score) follow a standard normal (N(0,1), denoted by Z) distribution. Therefore, the p-value calculations (which assume that H~o~ is true) are simply standard normal distribution calculations for the 3 possible alternative hypotheses.
 

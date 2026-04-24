@@ -17,7 +17,7 @@ to be the conditions under which it is safe to use the methods we developed in t
 
 ## Let's Summarize
 
-In general, a confidence interval for the unknown population proportion (p) is $\hat{p}\pmz^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$, where z* is 1.645 for 90% confidence, 2 for 95% confidence, and 2.576 for 99% confidence.
+In general, a confidence interval for the unknown population proportion (p) is $\hat{p} \pm z^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$, where z* is 1.645 for 90% confidence, 2 for 95% confidence, and 2.576 for 99% confidence.
 
 To obtain a desired margin of error (m) in a confidence interval for an unknown population proportion, a conservative sample size is $n=\frac{1}{m^{2}}$.
 

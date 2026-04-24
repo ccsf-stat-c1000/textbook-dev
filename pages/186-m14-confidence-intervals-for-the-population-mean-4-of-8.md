@@ -13,7 +13,7 @@ Is there a way to bypass this trade-off? In other words, is there a way to incre
 
 We explored the confidence interval for μ for different levels of confidenceand found that, in general, it has the following form:
 
-$\bar{x}\pmz^{*}⋅\frac{\sigma}{\sqrt{n}}$ ,
+$\bar{x} \pm z^{*}⋅\frac{\sigma}{\sqrt{n}}$ ,
 
 where z* is a general notation for the multiplier that depends on the level of confidence. As we discussed before:
 
@@ -25,7 +25,7 @@ For a 99% level of confidence, z* = 2.576
 
 To start our discussion about the structure of the confidence interval, let's denote the $z^{*}⋅\frac{\sigma}{\sqrt{n}}$ formula by m.
 
-The confidence interval, then, has the form: $\bar{x}\pmm$:
+The confidence interval, then, has the form: $\bar{x} \pm m$:
 
 ```{figure} images/image062.gif
 :alt: A formula: x-bar ± z-star × σ/√n Note that z-star × σ/√n is m.
@@ -55,7 +55,7 @@ x-bar is the point estimator. It is either added to or subtracted by the margin 
 
 This structure:
 
-$estimate\pmmargin of error$ ,
+$\text{estimate} \pm \text{margin of error}$ ,
 
 where the margin of error is further composed of the product of a confidence multiplier and the standard deviation (or, as we'll see, the standard error) is the general structure of all confidence intervals that we will encounter in this course.
 

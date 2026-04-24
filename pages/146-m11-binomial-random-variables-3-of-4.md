@@ -31,15 +31,15 @@ Let's look at another example:
 
     Recall that the general formula for the probability distribution of a binomial random variable with n trials and probability of success p is:
 
-    $P(X=x)=\frac{n!}{x!(n&minus;x)!} p^{x}(1&minus;p)^{(n&minus;x)}$ for x = 0, 1, 2, 3, ... , n
+    $P(X=x)=\frac{n!}{x!(n-x)!} p^{x}(1-p)^{(n-x)}$ for x = 0, 1, 2, 3, ... , n
 
     In our case, X is a binomial random variable with n = 4 and p = .4, so its probability distribution is:
 
-    $P(X=x)=\frac{4!}{x!(4&minus;x)!} (0.4)^{x}(0.6)^{4&minus;x}$ for x = 0, 1, 2, 3, 4
+    $P(X=x)=\frac{4!}{x!(4-x)!} (0.4)^{x}(0.6)^{4-x}$ for x = 0, 1, 2, 3, 4
 
     Let's use this formula to find P(X = 2) and see that we get exactly what we got before.
 
-    $P(X=2)=\frac{4!}{2!(4&minus;2)!} (0.4)^{2}(0.6)^{4&minus;2}=\frac{1^{&lowast;}2^{&lowast;}3^{&lowast;}4}{(1^{&lowast;}2)(1^{&lowast;}2)} (0.4)^{2}(0.6)^{2}=0.3456$
+    $P(X=2)=\frac{4!}{2!(4-2)!} (0.4)^{2}(0.6)^{4-2}=\frac{1 \cdot 2 \cdot 3 \cdot 4}{(1 \cdot 2)(1 \cdot 2)} (0.4)^{2}(0.6)^{2}=0.3456$
 ```
 
 ```{note}

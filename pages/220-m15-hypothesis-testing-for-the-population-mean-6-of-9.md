@@ -54,7 +54,7 @@ A table which has two columns and two rows, and is titled &quot;Conditions: z-te
 
 Assuming that the conditions are met, we calculate the sample mean $\bar{x}$ and the sample standard deviation, S (which replaces σ), and summarize the data with a test statistic. As in the z-test, our test statistic will be the standardized score of $\bar{x}$assuming that $\mu=\mu_{0}$ (H~o~ is true). The difference here is that we don't know σ, so we use S instead. The test statistic for the t-test for the population mean is therefore:
 
-$t=\frac{\bar{x}&minus;\mu_{0}}{\frac{s}{\sqrt{n}}}$
+$t=\frac{\bar{x}-\mu_{0}}{\frac{s}{\sqrt{n}}}$
 
 The change is in the denominator: while in the z-test we divided by the standard *deviation* of $\bar{X}$, namely $\frac{\sigma}{\sqrt{n}}$, here we divide by the standard *error* of $\bar{X}$, namely $\frac{s}{\sqrt{n}}$. Does this have an effect on the rest of the test? Yes. The t-test statistic in the test for the mean does not follow a standard normal distribution. Rather, it follows another bell-shaped distribution called the t distribution. So we first need to introduce you to this new distribution as a general object. Then, we’ll come back to our discussion of the t-test for the mean and how the t-distribution arises in that context.
 

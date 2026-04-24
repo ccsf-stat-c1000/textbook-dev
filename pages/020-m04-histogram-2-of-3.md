@@ -70,7 +70,7 @@ A distribution is called *skewed left* if, as in the histogram above, the left t
 
 *Comments:*
 
-1. Note that skewed distributions can also be bimodal. Here is an example. A medium size neighborhood 24-hour convenience store collected data from 537 customers on the amount of money spend in a single visit to the store. The following histogram displays the data. Note that the overall shape of the distribution is skewed to the right with a clear mode around $25. In addition it has another (smaller) “peak” (mode) around $50-55. The majority of the customers spend around $25 but there is a cluster of customers who enter the store and spend around $50-55.
+1. Note that skewed distributions can also be bimodal. Here is an example. A medium size neighborhood 24-hour convenience store collected data from 537 customers on the amount of money spend in a single visit to the store. The following histogram displays the data. Note that the overall shape of the distribution is skewed to the right with a clear mode around \$25. In addition it has another (smaller) “peak” (mode) around \$50-55. The majority of the customers spend around \$25 but there is a cluster of customers who enter the store and spend around \$50-55.
 2. If a distribution has more than two modes, we say that the distribution is *multimodal*.
 
 Recall our grades example:

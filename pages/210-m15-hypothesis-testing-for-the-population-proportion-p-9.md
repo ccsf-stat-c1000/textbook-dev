@@ -41,11 +41,11 @@ $z=\frac{\hat{p}−p_{0}}{\sqrt{\frac{p_{0}\left(1−p_{0}\right)}{n}}}$.
 
 Find the p-value of the test either by using software or by using the test statistic as follows:
 
-* for $H_{a}:p<p_{0}:P\left(Z\leqz\right)$
+* for $H_{a}:p<p_{0}:P\left(Z \leq z\right)$
 
-* for $H_{a}:p>p_{0}:P\left(Z\geqz\right)$
+* for $H_{a}:p>p_{0}:P\left(Z \geq z\right)$
 
-* for $H_{a}:p\neqp_{0}:2P\left(Z\geq|z|\right)$
+* for $H_{a}:p \neq p_{0}:2P\left(Z\geq|z|\right)$
 
 ##### Step 4
 

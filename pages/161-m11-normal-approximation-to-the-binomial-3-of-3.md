@@ -20,7 +20,7 @@ It can be improved upon by making the *continuity correction:*
 
 in this case, we would have
 
-$P(X_{B}\leq8)\approxP(X_{N}\leq8.5)=P(Z\leq\frac{8.5-10}{2.24})=P(Z\leq-0.67)=0.2514$, which is much closer to the actual binomial probability of .2517 than our original approximation (.1867) was.
+$P(X_{B}\leq8) \approx P(X_{N}\leq8.5)=P(Z\leq\frac{8.5-10}{2.24})=P(Z\leq-0.67)=0.2514$, which is much closer to the actual binomial probability of .2517 than our original approximation (.1867) was.
 
 Similarly, suppose I wanted to answer: What is the probability that the student gets at least 13 questions right?
 
@@ -32,7 +32,7 @@ The same histogram as above, but in this case we are trying to find P(X ≥ 13).
 
 Here, to calculate the exact probability we are including the area of the entire rectangle over 13, which actually starts from 12.5. Our normal approximation only included the area from 13. The continuity correction in this case would be:
 
-$P(X_{B}\geq13)\approxP(X_{N}\geq12.5)=P(Z\geq\frac{12.5-10}{2.24})=P(Z\geq1.12)=(symmetry)=P(Z\leq-1.12)=(table)=0.1314$
+$P(X_{B}\geq13) \approx P(X_{N}\geq12.5)=P(Z\geq\frac{12.5-10}{2.24})=P(Z\geq1.12)=(symmetry)=P(Z\leq-1.12)=(table)=0.1314$
 
 It turns out that the exact probability in this case (using software) is .1316, so the approximation is excellent.
 

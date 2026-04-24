@@ -44,11 +44,11 @@ By now we have had practice in solving normal probability problems in both direc
 ## Steps in Solving Two Types of Normal Problems
 
 1. Given a normal value x, solve for probability:
-  1. Standardize: calculate $z=\frac{x&minus;\mu}{&sigma;}$
+  1. Standardize: calculate $z=\frac{x-\mu}{\sigma}$
   2. Locate z in the margins of the normal table (ones and tenths for the row, hundredths for the column). Find the corresponding probability (given to four decimal places) of a normal random variable taking a value below z inside the table. (Adjust if the problem involves something other than a "less-than" probability, by invoking either symmetry or the fact that the total area under the normal curve is 1.)
 2. Given a probability, solve for normal value x:
   1. (Adjust if the problem involves something other than a "less-than" probability, by invoking either symmetry or the fact that the total area under the normal curve is 1.) Locate the probability (given to four decimal places) inside the normal table. Find the corresponding z value in the margins (row for ones and tenths, column for hundredths).
-  2. "Unstandardize": calculate $x=\mu+z&lowast;&sigma;$.
+  2. "Unstandardize": calculate $x=\mu+z\cdot\sigma$.
 
 This next activity is a continuation of the previous one, and will give you guided practice in solving word problems involving the normal distribution. In particular, we'll solve problems like the ones you just solved, in which you are given a probability and you are asked to find the normal value associated with it.
 

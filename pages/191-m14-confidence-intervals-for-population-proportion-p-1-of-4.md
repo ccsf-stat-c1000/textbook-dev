@@ -21,11 +21,11 @@ We are now moving on to interval estimation of p. In other words, we would like 
 
 Recall that the general form of any confidence interval for an unknown parameter is:
 
-$estimate\pmmargin of error$
+$\text{estimate} \pm \text{margin of error}$
 
 Since the unknown parameter here is the population proportion p, the point estimator (as I reminded you above) is the sample proportion $\hat{p}$. The confidence interval for p, therefore, has the form:
 
-$\hat{p}\pmm$
+$\hat{p} \pm m$
 
 (Recall that m is the notation for the margin of error.) The margin of error (m) tells us with a certain confidence what the maximum estimation error is that we are making, or in other words, that $\hat{p}$ is different from p (the parameter it estimates) by no more than m units.
 
@@ -39,12 +39,12 @@ To figure out what these two components are, we need to go back to a result we o
 
 * The standard deviation of our estimator $\hat{p}$ is $\sqrt{\frac{p(1−p)}{n}}$
 
-Putting it all together, we find that the confidence interval for p should be: $\hat{p}\pmz^{*}⋅\sqrt{\frac{p\left(1−p\right)}{n}}$. We just have to solve one practical problem and we're done. We're trying to estimate the *unknown* population proportion *p*, so having it appear in the confidence interval doesn't make any sense. To overcome this problem, we'll do the obvious thing...
+Putting it all together, we find that the confidence interval for p should be: $\hat{p} \pm z^{*}⋅\sqrt{\frac{p\left(1−p\right)}{n}}$. We just have to solve one practical problem and we're done. We're trying to estimate the *unknown* population proportion *p*, so having it appear in the confidence interval doesn't make any sense. To overcome this problem, we'll do the obvious thing...
 
 We'll replace p with its sample counterpart,$\hat{p}$, and work with the *standard error of*$\hat{p}$, $\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$.
 
 Now we're done. The confidence interval for the population proportion p is:
 
-$\hat{p}\pmz^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$
+$\hat{p} \pm z^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$
 
 As you'll see from the examples we'll present in this unit, estimating the population proportion comes up a lot in the context of polls.

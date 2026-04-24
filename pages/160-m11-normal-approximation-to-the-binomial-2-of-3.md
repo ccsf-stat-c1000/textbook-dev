@@ -39,7 +39,7 @@ Estimate the binomial probability of $X_{B}$ taking a value over a certain inter
 
     Then we solve in the usual way using normal tables:
 
-    $P(X_{B}\leq8)\approxP(X_{N}\leq8)=P(Z\leq\frac{8-10}{2.24})=P(Z\leq-0.89)=0.1867$
+    $P(X_{B}\leq8) \approx P(X_{N}\leq8)=P(Z\leq\frac{8-10}{2.24})=P(Z\leq-0.89)=0.1867$
 ```
 
 Unfortunately, the approximated probability, .1867, is quite a bit different from the actual probability, .2517. However, this example constitutes something of a "worst-case scenario" according to the usual criteria for use of a normal approximation.

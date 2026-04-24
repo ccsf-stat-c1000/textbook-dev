@@ -24,7 +24,7 @@ For illustration purposes, we are actually going to use example 2* (where out of
     *(Interactive activity — available in the OLI platform)*
 ```
 
-Indeed, in example 2* we suspect from the outset (based on the rumors) that the overall proportion (p) of marijuana smokers at the college is *higher* than the reported national proportion of .157, and therefore the appropriate alternative is H~o~:p>.157. In example 2**, as a result of the change of wording (which eliminated the part about the rumors), we simply wonder if p is *different* (in either direction) from the reported national proportion of .157, and therefore the appropriate alternative is the two-sided test: $H_{a}:p\neqp_{0}$. Would switching to the two-sided alternative have an effect on our results?
+Indeed, in example 2* we suspect from the outset (based on the rumors) that the overall proportion (p) of marijuana smokers at the college is *higher* than the reported national proportion of .157, and therefore the appropriate alternative is H~o~:p>.157. In example 2**, as a result of the change of wording (which eliminated the part about the rumors), we simply wonder if p is *different* (in either direction) from the reported national proportion of .157, and therefore the appropriate alternative is the two-sided test: $H_{a}:p \neq p_{0}$. Would switching to the two-sided alternative have an effect on our results?
 
 Let's explore that.
 

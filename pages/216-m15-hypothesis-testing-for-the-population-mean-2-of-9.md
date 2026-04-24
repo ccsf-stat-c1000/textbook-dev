@@ -85,7 +85,7 @@ When we discussed probability models based on sampling distributions, we conclud
 
 Based on this description of the sampling distribution of $\bar{X}$, we can define a test statistic that measures the distance between the hypothesized value of µ (denoted µ~o~) and the sample mean (determined by the data) in standard deviation units.
 
-The test statistic is: $z=\frac{\bar{x}&minus;\mu_{0}}{\frac{&sigma;}{\sqrt{n}}}$ .
+The test statistic is: $z=\frac{\bar{x}-\mu_{0}}{\frac{\sigma}{\sqrt{n}}}$ .
 
 ## Comments
 

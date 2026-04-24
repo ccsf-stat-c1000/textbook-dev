@@ -64,7 +64,7 @@ A probability density curve. The vertical axis is labeled "Density" and the hori
 
 Now that we see how probabilities are found for continuous random variables, we understand why it is more complicated than finding probabilities in the discrete case. As anyone who has studied calculus can attest, finding the area under a curve can be difficult. The general approach is to use *integrals.* For those of you who did study calculus, the following should be familiar....
 
-$P(a\leqX\leqb)=(area between a and b and below the density curve)=∫_{a}^{b}f(x)dx$ , where f(x) represents the density curve.
+$P(a \leq X \leq b)=(area between a and b and below the density curve)=\int_{a}^{b}f(x)dx$ , where f(x) represents the density curve.
 
 For those who did not study calculus, don't worry about it. This kind of calculation is definitely beyond the scope of this course.
 

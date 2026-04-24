@@ -9,7 +9,7 @@
 
 * When the population is normal and/or the sample is large, a confidence interval for unknown population mean μ when σ is known is:
 
-$\bar{x}\pmz\times\frac{\sigma}{\sqrt{n}}$, where z* is 1.645 for 90% confidence, 2 for 95% confidence, and 2.576 for 99% confidence.
+$\bar{x} \pm z\times\frac{\sigma}{\sqrt{n}}$, where z* is 1.645 for 90% confidence, 2 for 95% confidence, and 2.576 for 99% confidence.
 
 * There is a trade-off between the level of confidence and the precision of the interval estimation. The price we have to pay for more precision is sacrificing level of confidence.
 
@@ -23,12 +23,12 @@ $n=\left(\frac{z^{*}\sigma}{m}\right)^{2}$
 
 * When σ is unknown, we use the sample standard deviation, s, instead, but as a result we also need to use a different set of confidence multipliers (t*) associated with the t distribution. The interval is therefore
 
-$\bar{x}\pmt^{*}\times\frac{s}{\sqrt{n}}$
+$\bar{x} \pm t^{*}\times\frac{s}{\sqrt{n}}$
 
 * These new multipliers have the added complexity that they depend not only on the level of confidence, but also on the sample size. Software is therefore very useful for calculating confidence intervals in this case.
 
 * For large values of n, the t* multipliers are not that different from the z* multipliers, and therefore using the interval formula:
 
-$\bar{x}\pmz^{\times}\times\frac{s}{\sqrt{n}}$
+$\bar{x} \pm z^{*}\times\frac{s}{\sqrt{n}}$
 
 for μ when σ is unknown provides a pretty good approximation.

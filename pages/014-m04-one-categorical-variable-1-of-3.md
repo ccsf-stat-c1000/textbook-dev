@@ -27,7 +27,7 @@ In order to summarize the distribution of a categorical variable, we first creat
 
 | category | Count | Percent |
 | --- | --- | --- |
-| About right | 855 | $\left(\frac{855}{1200}\right) \times 100 = 71.3%$ |
-| Overweight | 235 | $\left(\frac{235}{1200}\right) \times 100 = 19.6%$ |
-| Underweight | 110 | $\left(\frac{110}{1200}\right) \times 100 = 9.2%$ |
+| About right | 855 | $\left(\frac{855}{1200}\right) \times 100 = 71.3\%$ |
+| Overweight | 235 | $\left(\frac{235}{1200}\right) \times 100 = 19.6\%$ |
+| Underweight | 110 | $\left(\frac{110}{1200}\right) \times 100 = 9.2\%$ |
 | *Total* | *n=1200* | *100%* |

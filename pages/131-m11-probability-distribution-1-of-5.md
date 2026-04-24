@@ -56,5 +56,5 @@ Note that events of the type (X = x) are subject to the principles of probabilit
 
 Any probability distribution of a discrete random variable must satisfy:
 
-1. $0\leqP(X=x)\leq1$
+1. $0 \leq P(X=x) \leq 1$
 2. $\sum_{x}P(X=x)=1$

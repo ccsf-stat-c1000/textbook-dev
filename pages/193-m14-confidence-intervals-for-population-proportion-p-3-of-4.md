@@ -17,7 +17,7 @@ Let's see how we do that.
 
 The 95% confidence interval for p is
 
-$\hat{p}\pmz^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$
+$\hat{p} \pm z^{*}⋅\sqrt{\frac{\hat{p}\left(1−\hat{p}\right)}{n}}$
 
 The margin of error, then, is
 

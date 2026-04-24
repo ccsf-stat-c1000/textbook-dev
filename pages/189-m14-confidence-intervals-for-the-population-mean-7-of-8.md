@@ -15,7 +15,7 @@ We are almost done with this section. We need to discuss just a few more questio
 
 One of the most important things to learn with any inference method is the conditions under which it is safe to use it. It is very tempting to apply a certain method, but if the conditions under which this method was developed are not met, then using this method will lead to unreliable results, which can then lead to wrong and/or misleading conclusions. As you'll see throughout this section, we always discuss the conditions under which each method can be safely used.
 
-In particular, the confidence interval for μ (when σ is known), $\bar{x}\pmz^{*}\times\frac{\sigma}{\sqrt{n}}$, was developed assuming that the sampling distribution of $\bar{X}$ is normal; in other words, that the Central Limit Theorem applies. In particular, this allowed us to determine the values of z*, the confidence multiplier, for different levels of confidence.
+In particular, the confidence interval for μ (when σ is known), $\bar{x} \pm z^{*}\times\frac{\sigma}{\sqrt{n}}$, was developed assuming that the sampling distribution of $\bar{X}$ is normal; in other words, that the Central Limit Theorem applies. In particular, this allowed us to determine the values of z*, the confidence multiplier, for different levels of confidence.
 
 First, *the sample must be random.* Assuming that the sample is random, recall from the Probability unit that the Central Limit Theorem works when the *sample size is large* (a common rule of thumb for "large" is n > 30), or, for *smaller sample sizes*, if it is known that the quantitative *variable* of interest is *distributed normally* in the population. The only situation in which we cannot use the confidence interval, then, is when the sample size is small and the variable of interest is not known to have a normal distribution. In that case, other methods, called nonparametric methods, which are beyond the scope of this course, need to be used. This can be summarized in the following table:
 
@@ -75,7 +75,7 @@ The bad news is that once σ has been replaced by s, we lose the Central Limit T
 
 The confidence interval for the population mean (μ) when (σ) is unknown is therefore:
 
-$\bar{x}\pmt^{*}\times\frac{s}{\sqrt{n}}$
+$\bar{x} \pm t^{*}\times\frac{s}{\sqrt{n}}$
 
 (Note that this interval is very similar to the one when σ is known, with the obvious changes: s replaces σ, and t* replaces z* as discussed above.)
 
@@ -107,6 +107,6 @@ There is an important difference between the confidence multipliers we have used
 
 It turns out that for large values of n, the t* multipliers are not that different from the z* multipliers, and therefore using the interval formula:
 
-$\bar{x}\pmz^{\times}\times\frac{s}{\sqrt{n}}$
+$\bar{x} \pm z^{*}\times\frac{s}{\sqrt{n}}$
 
 for μ when σ is unknown provides a pretty good approximation.
