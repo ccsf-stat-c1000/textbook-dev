@@ -1,0 +1,3 @@
+# Examining Relationships
+
+So far we have dealt with data obtained from one variable (either categorical or quantitative), and learned how to describe the distribution of the variable using the appropriate visual displays and numerical measures. In this section, examining relationships, we will look at *two*variables at a time and, as the title suggests, explore the relationship between them using (as before) visual displays and numerical summaries. This module starts with a section that gives general definitions, lays out the framework for the whole module, and lists the different cases that the module will cover.

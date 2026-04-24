@@ -1,0 +1,69 @@
+# Case Q→Q (3 of 3)
+
+```{admonition} Learning Objectives
+    - In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
+```
+
+So far the researchers have observed linearity in the data, and based on a test concluded that this linear relationship between age and legibility distance can be generalized to the entire population of drivers.
+
+Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the least squares regression line, which is the line that minimizes the sum of the squared vertical deviations:
+
+```{figure} images/image148.gif
+:alt: A regression line has been drawn on the histogram. From each point on the histogram a vertical line has been drawn to the regression line. This vertical line makes up one side of a square, so that square's area is the vertical line squared. So, for every point we have a square. The goal of the least squares regression line is to minimize the area of all of the squares.
+
+A regression line has been drawn on the histogram. From each point on the histogram a vertical line has been drawn to the regression line. This vertical line makes up one side of a square, so that square's area is the vertical line squared. So, for every point we have a square. The goal of the least squares regression line is to minimize the area of all of the squares.
+```
+
+In the Exploratory Data Analysis section, we presented the actual formulas for the slope and intercept of the line. We are not going to repeat those here, we will obtain those values from the output:
+
+```{figure} images/image181.gif
+:alt: Regression Analysis: Distance vs. Age The regression equation is Distance = 577 - 3.01 Age Predictor: Constant: Coef = 576.68, SE Coef = 23.47, T = 24.57, P = 0.000 Predictor: Age: Coef = -3.0068, SE Coef = 0.4243, T = -7.09, P = 0.000 S = 49.7616, R-Sq = 64.2%, R-Sq(adj) = 62.9%
+
+Regression Analysis: Distance vs. Age The regression equation is Distance = 577 - 3.01 Age Predictor: Constant: Coef = 576.68, SE Coef = 23.47, T = 24.57, P = 0.000 Predictor: Age: Coef = -3.0068, SE Coef = 0.4243, T = -7.09, P = 0.000 S = 49.7616, R-Sq = 64.2%, R-Sq(adj) = 62.9%
+```
+
+and ask the software to plot it for us on the scatterplot so we can see how well it fits the data.
+
+```{figure} images/image149.gif
+:alt: A histogram with a regression line drawn on top of it, titled "Fitted Line Plot." The scatter plot is the same as the previous scatter plot, with a vertical distance axis and horizontal age axis. The data shows a negative relationship, and since it is roughly linear it is approximated well with the regression line.
+
+A histogram with a regression line drawn on top of it, titled "Fitted Line Plot." The scatter plot is the same as the previous scatter plot, with a vertical distance axis and horizontal age axis. The data shows a negative relationship, and since it is roughly linear it is approximated well with the regression line.
+```
+
+Based on the observed data, the researchers conclude that the linear relationship between age and legibility distance among drivers can be summarized with the line:
+
+*DISTANCE = 576.7 - 3.007*AGE*
+
+In particular, the slope of the line is roughly -3, which means that for every year that a driver gets older (1 unit increase in X), the maximum legibility distance is reduced, on average, by 3 feet (Y changes by the value of the slope).
+
+The researchers can also use this line to make predictions, remembering to beware of extrapolations (predictions for X values that are outside of the range of the original data). For example, using the equation of the line, we predict that the maximum legibility distance of a 60-year-old driver is: *distance = 576.7 - 3.007(60) = 396.28*. The following figure illustrates this prediction.
+
+```{figure} images/image150.gif
+:alt: The same histogram with regression line. In order to find out what the maximum legibility distance of a 60-year-old driver is, we find where the regression line crosses an imaginary vertical line at age=60. It crosses at (60, 396.28), so then we know that the maximum legibility distance is 396.28 .
+
+The same histogram with regression line. In order to find out what the maximum legibility distance of a 60-year-old driver is, we find where the regression line crosses an imaginary vertical line at age=60. It crosses at (60, 396.28), so then we know that the maximum legibility distance is 396.28 .
+```
+
+Let's summarize all that the researchers have done in a figure:
+
+```{figure} images/image151.gif
+:alt: A large circle represents the population of all drivers. The question we want to answer about the population is "How is legibility distance (Y) related to age (X)?" To do this, we take an SRS of size 30, and from the data, create a scatterplot and r. We observe that the scatterplot is linear and know that, calculate r = -0.8 . In the inference step, we conclude that the evidence of linear relationship in the data is strong enough, allowing us to generalize it to the population of all drivers. From the data, we estimate that the line that governs the relationship in the population is: Distance = 577 - 3 * Age .
+
+A large circle represents the population of all drivers. The question we want to answer about the population is "How is legibility distance (Y) related to age (X)?" To do this, we take an SRS of size 30, and from the data, create a scatterplot and r. We observe that the scatterplot is linear and know that, calculate r = -0.8 . In the inference step, we conclude that the evidence of linear relationship in the data is strong enough, allowing us to generalize it to the population of all drivers. From the data, we estimate that the line that governs the relationship in the population is: Distance = 577 - 3 * Age .
+```
+
+```{note}
+    **Learn By Doing**
+
+    Case Q→Q
+
+    *(Interactive activity — available in the OLI platform)*
+```
+
+```{note}
+    **Lab**
+
+    Monthly Premiums of Auto Insurance
+
+    *(Interactive activity — available in the OLI platform)*
+```

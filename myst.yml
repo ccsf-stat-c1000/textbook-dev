@@ -1,13 +1,22 @@
 version: 1
 project:
+  license: CC-BY-4.0
   title: Introduction to Statistics
   authors:
-    - name: City College of San Francisco Mathematics Department
+    - name: Shawn Wiggins
+      affiliations: City College of San Francisco 
+  exclude:
+    - README.md
+    - unsorted_pages/*.md
+    - _toc.yml
+
+extends:
+  - toc.yml
 
 site:
   options:
     folders: true
+    logo: ccsf.png
+    favicon: favicon.ico
+    logo_text: "Introduction to Statistics"
   template: book-theme
-
-extends:
-  - toc.yml
