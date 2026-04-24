@@ -10,8 +10,6 @@ Recall the role-type classification table for framing our discussion about the r
 
 ```{figure} images/casei1.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q). In this section we will be working on C→Q
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q). In this section we will be working on C→Q
 ```
 
 We are now ready to start with Case C→Q, exploring the relationship between two variables where the explanatory variable is categorical, and the response variable is quantitative. As you'll discover, exploring relationships of this type is something we've already discussed in this course, but we didn't frame the discussion this way.
@@ -28,8 +26,6 @@ We are now ready to start with Case C→Q, exploring the relationship between tw
 
     ```{figure} images/casei2.gif
     :alt: A table of the data. There are three columns, &quot;Brand&quot;, &quot;Type&quot;, and &quot;Calories&quot;. &quot;Type&quot; is the Explanatory variable, and &quot;Calories&quot; is the Response variable. Some example data: Brand 1, Beef, 186; Brand 2, Poultry, 129; Brand 3, Beef, 181; Brand 4, Meat, 183; ... (abbreviated) ... Brand 54, Poultry, 144
-
-    A table of the data. There are three columns, &quot;Brand&quot;, &quot;Type&quot;, and &quot;Calories&quot;. &quot;Type&quot; is the Explanatory variable, and &quot;Calories&quot; is the Response variable. Some example data: Brand 1, Beef, 186; Brand 2, Poultry, 129; Brand 3, Beef, 181; Brand 4, Meat, 183; ... (abbreviated) ... Brand 54, Poultry, 144
     ```
 
     The raw data are a list of types and calorie contents, and are not very useful in that form. To explore how the number of calories is related to the type of hot dog, we need an informative visual display of the data that will compare the three types of hot dogs with respect to their calorie content.
@@ -38,8 +34,6 @@ We are now ready to start with Case C→Q, exploring the relationship between tw
 
     ```{figure} images/casei3.gif
     :alt: Three box plots. The vertical axis is labeled &quot;Calories&quot;. There are three box plots, one each for Beef, Other Meat, and Poultry. The box plot characteristics are summarized in the table below.
-
-    Three box plots. The vertical axis is labeled &quot;Calories&quot;. There are three box plots, one each for Beef, Other Meat, and Poultry. The box plot characteristics are summarized in the table below.
     ```
 
     As before, we supplement the side-by-side boxplots with the descriptive statistics of the calorie content (response) for each type of hot dog separately (i.e., for each level of the explanatory variable separately):

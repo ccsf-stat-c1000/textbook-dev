@@ -16,8 +16,6 @@ Let's introduce our leading example, which was actually our leading example in t
 
     ```{figure} images/image179.gif
     :alt: A two column table, with column headers &quot;Age&quot; and &quot;Distance.&quot; Here is the data in the table, by row (in &quot;Age: Distance&quot; format): 18: 510; 20: 590; 22: 560; 23: 510; 23: 460; 25: 490; 27: 560; ... ... 77: 360; 79: 310; 82: 360;
-
-    A two column table, with column headers &quot;Age&quot; and &quot;Distance.&quot; Here is the data in the table, by row (in &quot;Age: Distance&quot; format): 18: 510; 20: 590; 22: 560; 23: 510; 23: 460; 25: 490; 27: 560; ... ... 77: 360; 79: 310; 82: 360;
     ```
 
     *Exploratory Analysis:*
@@ -26,8 +24,6 @@ Let's introduce our leading example, which was actually our leading example in t
 
     ```{figure} images/image147.gif
     :alt: A scatterplot of Distance vs. Age. Distance is on the vertical axis, and age is on the horizontal axis. The histogram has a negative relationship, and it seems like it could be reasonably linear.
-
-    A scatterplot of Distance vs. Age. Distance is on the vertical axis, and age is on the horizontal axis. The histogram has a negative relationship, and it seems like it could be reasonably linear.
     ```
 
     and observe a negative linear relationship in the data. In order to quantify the strength of that linear relationship, the researchers supplement the scatterplot with a numerical measure—the correlation coefficient (r), which turns out to be r = -.801, confirming the researchers' visual assessment of a negative, fairly strong linear relationship between age and legibility distance.

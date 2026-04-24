@@ -12,8 +12,6 @@ Let's look at another example, and then you'll do one yourself.
 
     ```{figure} images/image194.gif
     :alt: For males 20-29 years old, n = 712, Y-bar = 83.4, S = 18.7. For males 75+ years old, n = 1001, Y-bar = 78.5, S = 19.0
-
-    For males 20-29 years old, n = 712, Y-bar = 83.4, S = 18.7. For males 75+ years old, n = 1001, Y-bar = 78.5, S = 19.0
     ```
 
     Do the data provide evidence that the younger male population weighs more (on average) than the older male population? (Note that here the data are given in a summarized form, unlike the previous problem, where the raw data were given.)
@@ -22,8 +20,6 @@ Let's look at another example, and then you'll do one yourself.
 
     ```{figure} images/image043.gif
     :alt: We have two populations, from the two categories in the variable Age Group(X). Population 1 is Males 20-29 years old, and Population 2 is Males 75+ years old. Population 1&apos;s Weight (Y) mean is μ_1, and population 2&apos;s weight (Y) mean is μ_2. For population 1, a SRS of size 712 is generated. It has a mean of 83.4 and SD of 18.7 . For population 2, another SRS is generated of size 1001. It has a mean of 78.5 and SD of 19.0 .
-
-    We have two populations, from the two categories in the variable Age Group(X). Population 1 is Males 20-29 years old, and Population 2 is Males 75+ years old. Population 1&apos;s Weight (Y) mean is μ_1, and population 2&apos;s weight (Y) mean is μ_2. For population 1, a SRS of size 712 is generated. It has a mean of 83.4 and SD of 18.7 . For population 2, another SRS is generated of size 1001. It has a mean of 78.5 and SD of 19.0 .
     ```
 
     Note that we defined the younger age group and the older age group as population 1 and population 2, respectively, and μ~1~ and μ~2~ as the mean weight of population 1 and population 2, respectively.
@@ -34,16 +30,12 @@ Let's look at another example, and then you'll do one yourself.
 
     ```{figure} images/image044.gif
     :alt: H_0: μ_1 - μ_2 = 0, H_a: μ_1 - μ_2 &gt; 0
-
-    H_0: μ_1 - μ_2 = 0, H_a: μ_1 - μ_2 &gt; 0
     ```
 
     or equivalently,
 
     ```{figure} images/image045.gif
     :alt: H_0: μ_1 = μ_2, H_a: μ_1 &gt; μ_2
-
-    H_0: μ_1 = μ_2, H_a: μ_1 &gt; μ_2
     ```
 
     *Step 2:*

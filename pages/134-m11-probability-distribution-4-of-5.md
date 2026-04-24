@@ -11,8 +11,6 @@ We've seen how probability distributions are created. Now it's time to use them 
 
     ```{figure} images/image_prob_dist_chg_major.gif
     :alt: A probability distribution table in which the rows are labeled quot; and "P(X = x)". Here is the data in the table, given in column format (x: P(X=x)): 0: .28; 1: .37; 2: .23; 3: .09; 4: .02; 5: .01;
-
-    A probability distribution table in which the rows are labeled quot; and "P(X = x)". Here is the data in the table, given in column format (x: P(X=x)): 0: .28; 1: .37; 2: .23; 3: .09; 4: .02; 5: .01;
     ```
 
     Using this probability distribution we can answer probability questions such as: What is the probability that a randomly selected senior has changed majors more than once? This can be written as P(X > 1).
@@ -73,8 +71,6 @@ Before we move on to the next section on the means and variances of a probabilit
 
 ```{figure} images/image_prob_dist_chg_major.gif
 :alt: A probability distribution table in which the rows are labeled quot; and "P(X = x)". Here is the data in the table, given in column format (x: P(X=x)): 0: .28; 1: .37; 2: .23; 3: .09; 4: .02; 5: .01;
-
-A probability distribution table in which the rows are labeled quot; and "P(X = x)". Here is the data in the table, given in column format (x: P(X=x)): 0: .28; 1: .37; 2: .23; 3: .09; 4: .02; 5: .01;
 ```
 
 ```{admonition} Question & Answer

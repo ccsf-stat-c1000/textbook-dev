@@ -12,8 +12,6 @@ Recall that when we described the distribution of a single quantitative variable
 
 ```{figure} images/scatterplot5.gif
 :alt: When describing the relationship between two quantitative variables using a scatterplot, we look at: (1) The overall pattern, which can be described using direction, form, and strength. We also look at (2) Deviations from the pattern, which result from outliers.
-
-When describing the relationship between two quantitative variables using a scatterplot, we look at: (1) The overall pattern, which can be described using direction, form, and strength. We also look at (2) Deviations from the pattern, which result from outliers.
 ```
 
 As the figure explains, when describing the *overall pattern* of the relationship we look at its direction, form and strength.
@@ -26,6 +24,4 @@ Data points that *deviate from the pattern* of the relationship are called *outl
 
 ```{figure} images/scatterplot14.gif
 :alt: A scatterplot which has a positive relationship. Most of the points are in a line-like shape from the bottom left of the plot to the top right. However, there are two points which do not match this trend. One is far below the majority of the points and the other is far left. These points do not participate in the line-like shape at all.
-
-A scatterplot which has a positive relationship. Most of the points are in a line-like shape from the bottom left of the plot to the top right. However, there are two points which do not match this trend. One is far below the majority of the points and the other is far left. These points do not participate in the line-like shape at all.
 ```

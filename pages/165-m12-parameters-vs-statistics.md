@@ -12,24 +12,18 @@ To better understand the relationship between sample and population, let's consi
 
     ```{figure} images/image002.gif
     :alt: A pie chart titled "Blood Types (population)." Type A is 42% of the chart, type O takes up 45% of the chart, type B is 10% of the chart, and type AB is 4%.
-
-    A pie chart titled "Blood Types (population)." Type A is 42% of the chart, type O takes up 45% of the chart, type B is 10% of the chart, and type AB is 4%.
     ```
 
     Assume now that we take a *sample* of 500 people in the United States, record their blood type, and display the sample results:
 
     ```{figure} images/image003.gif
     :alt: A pie char titled "Blood Type (sample 1)." Here is the data for each slice on the chart: A: 198, 39.6%; O: 221, 44.2%; B: 59, 11.8%; AB: 22, 4.4%;
-
-    A pie char titled "Blood Type (sample 1)." Here is the data for each slice on the chart: A: 198, 39.6%; O: 221, 44.2%; B: 59, 11.8%; AB: 22, 4.4%;
     ```
 
     Note that the percentages (or proportions) that we got in our sample are slightly different than the population percentages. This is really not surprising. Since we took a sample of just 500, we cannot expect that our sample will behave exactly like the population, but if the sample is random (as it was), we expect to get results which are not that far from the population (as we did). If we took yet another sample of size 500:
 
     ```{figure} images/image004.gif
     :alt: A pie char titled "Blood Type (sample 2)." Here is the data for each slice on the chart: A: 216, 43.2%; O: 213, 42.6%; B: 39, 7.8%; AB: 32, 6.4%;
-
-    A pie char titled "Blood Type (sample 2)." Here is the data for each slice on the chart: A: 216, 43.2%; O: 213, 42.6%; B: 39, 7.8%; AB: 32, 6.4%;
     ```
 
     we again get sample results that are slightly different from the population figures, and also different from what we got in the first sample. This very intuitive idea, that sample results change from sample to sample, is called *sampling variability.*
@@ -44,16 +38,12 @@ Let's look at another example:
 
     ```{figure} images/image007.gif
     :alt: A probability histogram, in which the horizontal axis is labeled "Male Height." The axis ranges from 57.6 to 80.0, and the mode of the histogram is at a height of 69. The histogram's shape is very close to a normal bell shape.
-
-    A probability histogram, in which the horizontal axis is labeled "Male Height." The axis ranges from 57.6 to 80.0, and the mode of the histogram is at a height of 69. The histogram's shape is very close to a normal bell shape.
     ```
 
     A sample of 200 males was chosen, and their heights were recorded. Here are the sample results:
 
     ```{figure} images/image009.gif
     :alt: A distribution histogram for the sample. The mode for this histogram is at a height of about 70. The bars to the left of the mode are an acceptable approximation of a normal bell curve, but to the right of the mode, the bars drop off too suddenly to approximate a bell curve.
-
-    A distribution histogram for the sample. The mode for this histogram is at a height of about 70. The bars to the left of the mode are an acceptable approximation of a normal bell curve, but to the right of the mode, the bars drop off too suddenly to approximate a bell curve.
     ```
 
     The sample mean is $\bar{x}=68.7$ inches and the sample standard deviation is s = 2.95 inches.
@@ -62,8 +52,6 @@ Let's look at another example:
 
     ```{figure} images/image011.gif
     :alt: A distribution histogram of another sample. The mode is once again at about 70. The bars to the left of the mode approximate a bell curve except for a few which are too low. To the right of the mean we have the same problem as before - the values drop off too fast to model a bell curve.
-
-    A distribution histogram of another sample. The mode is once again at about 70. The bars to the left of the mode approximate a bell curve except for a few which are too low. To the right of the mean we have the same problem as before - the values drop off too fast to model a bell curve.
     ```
 
     The sample mean is $\bar{x}=69.065$ inches and the sample standard deviation is s = 2.659 inches.

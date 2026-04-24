@@ -21,8 +21,6 @@ First, *the sample must be random.* Assuming that the sample is random, recall f
 
 ```{figure} images/image077.gif
 :alt: A table with two columns and two rows. The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size.&quot; The row headings are &quot;Variable varies normally&quot; and &quot;Variable doesn&apos;t vary normally.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally, Small sample size: OK; Variable varies normally, Large sample size: OK; Variable doesn&apos;t vary normally, Small sample size: NOT OK; Variable doesn&apos;t vary normally, Large sample size: OK;
-
-A table with two columns and two rows. The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size.&quot; The row headings are &quot;Variable varies normally&quot; and &quot;Variable doesn&apos;t vary normally.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally, Small sample size: OK; Variable varies normally, Large sample size: OK; Variable doesn&apos;t vary normally, Small sample size: NOT OK; Variable doesn&apos;t vary normally, Large sample size: OK;
 ```
 
 ```{note}
@@ -67,8 +65,6 @@ The good news is that we can easily replace the population standard deviation, �
 
 ```{figure} images/image078.gif
 :alt: A large circle represents the population of interest. μ is unknown and σ is unknown. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS, and we can also obtain S. We use this instead of the unknown σ.
-
-A large circle represents the population of interest. μ is unknown and σ is unknown. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS, and we can also obtain S. We use this instead of the unknown σ.
 ```
 
 The bad news is that once σ has been replaced by s, we lose the Central Limit Theorem, together with the normality of $\bar{X}$, and therefore the confidence multipliers z* for the different levels of confidence (1.645, 2, 2.576) are (generally) not accurate any more. The new multipliers come from a different distribution called the "t distribution" and are therefore denoted by t* (instead of z*). We will discuss the t distribution in more detail when we talk about hypothesis testing.

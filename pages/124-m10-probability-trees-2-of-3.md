@@ -25,8 +25,6 @@ Now that we understand how to construct the probability tree, let's use the tree
 
     ```{figure} images/image011.gif
     :alt: A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Each branch-off represents the path we take when we need to take a branch, and the probability for taking that branch is provided. {C: .4; V: .9}; {C: .4; not V: .1}; {not C: .6; V: .3}; {not C: .6; not V: .7}; Now, focus on the {C: .4, V: .9} branch. From this branch we can conclude that P(C and V) = P(C) * P(V|C) = .4 * .9 = .36 . Also, the other branch {not C: .6, V: .3} branch shows that P(not C and V) = P(not C) * P(V | not C) = .6 * .3 = .18 . From these two, we can obtain P(V) = P(C and V) + P(not C and V) = .36 + .18 = .54 .
-
-    A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Each branch-off represents the path we take when we need to take a branch, and the probability for taking that branch is provided. {C: .4; V: .9}; {C: .4; not V: .1}; {not C: .6; V: .3}; {not C: .6; not V: .7}; Now, focus on the {C: .4, V: .9} branch. From this branch we can conclude that P(C and V) = P(C) * P(V|C) = .4 * .9 = .36 . Also, the other branch {not C: .6, V: .3} branch shows that P(not C and V) = P(not C) * P(V | not C) = .6 * .3 = .18 . From these two, we can obtain P(V) = P(C and V) + P(not C and V) = .36 + .18 = .54 .
     ```
 ```
 
@@ -38,8 +36,6 @@ In order to illustrate the background situation of either getting the commission
 
 ```{figure} images/image012.gif
 :alt: The entire sample space is represented by a large rectangle. This rectangle is divided into two pieces. One side is for C and the other side is for not C. In the middle of the rectangle is a circle, which has one part in C and the other in not C. The circle represents V, and the part of the circle in C represents C and V, and the other part (in not C) represents not C and V.
-
-The entire sample space is represented by a large rectangle. This rectangle is divided into two pieces. One side is for C and the other side is for not C. In the middle of the rectangle is a circle, which has one part in C and the other in not C. The circle represents V, and the part of the circle in C represents C and V, and the other part (in not C) represents not C and V.
 ```
 
 The diagram shows that V = (C and V) or (not C and V), where (C and V) and (not C and V) are disjoint. Applying first the Addition Rule for Disjoint Events and then the General Multiplication Rule, we have P(V) = P(C and V) + P(not C and V) = P(C) * P(V | C) + P(not C) * P(V | not C), just as we saw in our tree diagram.
@@ -61,8 +57,6 @@ We can generalize our solution to obtain an expression for the probability of an
 
     ```{figure} images/image013.gif
     :alt: A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Each branch-off represents the path we take when we need to take a branch, and the probability for taking that branch is provided. {C: .4; V: .9}; {C: .4; not V: .1}; {not C: .6; V: .3}; {not C: .6; not V: .7}; From this tree, we observe that the branch {C: .4, V: .9} represents P(C and V) = P(C) and P(V|C) = .4 * .9 = .36. We also observe that the branch {not C: .6, V: .3} represents P(not C and V) = P(not C) and P(V|not C) = .6 * .3 = .18 . From these two we calculate P(V) = P(C and V) or P(not C and V) = .36 + .18 = .54. We also know that P(C|V) = P(C and V)/P(V) = .36/.54 = .67, giving us our answer.
-
-    A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Each branch-off represents the path we take when we need to take a branch, and the probability for taking that branch is provided. {C: .4; V: .9}; {C: .4; not V: .1}; {not C: .6; V: .3}; {not C: .6; not V: .7}; From this tree, we observe that the branch {C: .4, V: .9} represents P(C and V) = P(C) and P(V|C) = .4 * .9 = .36. We also observe that the branch {not C: .6, V: .3} represents P(not C and V) = P(not C) and P(V|not C) = .6 * .3 = .18 . From these two we calculate P(V) = P(C and V) or P(not C and V) = .36 + .18 = .54. We also know that P(C|V) = P(C and V)/P(V) = .36/.54 = .67, giving us our answer.
     ```
 ```
 

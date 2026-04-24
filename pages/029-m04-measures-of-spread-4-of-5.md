@@ -20,8 +20,6 @@ The following picture illustrates this rule:
 
 ```{figure} images/spread10.gif
 :alt: A line representing all of the data. The data is ordered so that the minimum point is the leftmost on the line and the maximum point is the rightmost. At the center of the line is M, the median, and to the left of M is Q1. Even farther to the left of Q1 is Q1-1.5(IQR). Points farther left than this are suspected outliers. To the right of M is Q3, and farther to the right is Q3+1.5(IQR). Points even farther than this are also suspected outliers.
-
-A line representing all of the data. The data is ordered so that the minimum point is the leftmost on the line and the maximum point is the rightmost. At the center of the line is M, the median, and to the left of M is Q1. Even farther to the left of Q1 is Q1-1.5(IQR). Points farther left than this are suspected outliers. To the right of M is Q3, and farther to the right is Q3+1.5(IQR). Points even farther than this are also suspected outliers.
 ```
 
 ```{admonition} Example: Best Actress Oscar Winners
@@ -36,8 +34,6 @@ A line representing all of the data. The data is ordered so that the minimum poi
 
     ```{figure} images/eda_examining_distributions_best_actress_histogram_outliers.jpg
     :alt: A histogram of the Oscar winners in which for x=62 the frequency is 3 and for x=74 and x=80, the frequency is 1. Those points are thought to be possible outliers.
-
-    A histogram of the Oscar winners in which for x=62 the frequency is 3 and for x=74 and x=80, the frequency is 1. Those points are thought to be possible outliers.
     ```
 
     We can now use the 1.5(IQR) criterion to check whether the 5 observations should indeed be classified as outliers:

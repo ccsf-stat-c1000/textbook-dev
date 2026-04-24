@@ -21,8 +21,6 @@ As we learned in the beginning of this module, the distribution of a quantitativ
 
     ```{figure} images/boxplot8.gif
     :alt: A box plot titled &quot;Average High Temperature: San Francisco vs. Pittsburgh&quot;. The vertical axis is in units of Temperature (F), and it goes from 30-80. There are two box plots, one for Pittsburgh and one for San Francisco.
-
-    A box plot titled &quot;Average High Temperature: San Francisco vs. Pittsburgh&quot;. The vertical axis is in units of Temperature (F), and it goes from 30-80. There are two box plots, one for Pittsburgh and one for San Francisco.
     ```
 
     | Statistic | San Francisco | Pittsburgh |

@@ -12,8 +12,6 @@ In this part, we continue to handle situations involving one categorical explana
 
 ```{figure} images/image093.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
 ```
 
 So far we have discussed the two samples and matched pairs designs, in which the categorical explanatory variable is two-valued. As we saw, in these cases, examining the relationship between the explanatory and the response variables amounts to comparing the mean of the response variable (Y) in two populations, which are defined by the two values of the explanatory variable (X). The difference between the two samples and matched pairs designs is that in the former, the two samples are independent, and in the latter, the samples are dependent.
@@ -22,8 +20,6 @@ We are now moving on to cases in which the categorical explanatory variable take
 
 ```{figure} images/image094.gif
 :alt: The Explanatory (X): has k values. This means we have k populations, and for each population a Y mean μ. Each of these populations also has a sample, each with its own size. We end up with k independent samples.
-
-The Explanatory (X): has k values. This means we have k populations, and for each population a Y mean μ. Each of these populations also has a sample, each with its own size. We end up with k independent samples.
 ```
 
 ### Comment
@@ -41,8 +37,6 @@ Let's start by introducing our leading example.
 
     ```{figure} images/image095.gif
     :alt: The X variable is major, and it has four categories, which are Business, English, Mathematics, and Psychology. We have four populations, one for each of these categories. We are interested in the level of frustration (Y) mean for each population, so we have 4 μ, one for each population. For each population we take a sample of size 35, resulting in 4 separate samples.
-
-    The X variable is major, and it has four categories, which are Business, English, Mathematics, and Psychology. We have four populations, one for each of these categories. We are interested in the level of frustration (Y) mean for each population, so we have 4 μ, one for each population. For each population we take a sample of size 35, resulting in 4 separate samples.
     ```
 
     The figure highlights what we have already mentioned: examining the relationship between major (X) and frustration level (Y) amounts to comparing the mean frustration levels ($\mu_{1},\mu_{2},\mu_{3},\mu_{4}$ ) among the four majors defined by X. Also, the figure reminds us that we are dealing with a case where the samples are independent.

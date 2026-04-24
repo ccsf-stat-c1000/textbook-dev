@@ -19,8 +19,6 @@ Here is another example:
 
     ```{figure} images/image029a.gif
     :alt: A two row probability distribution table, in which the rows are labeled "X" and "P(X=x)". Here is the data in column oriented format (X: P(X=x), comment): +1200: .995 (live); 1200-100,000: .005 (die);
-
-    A two row probability distribution table, in which the rows are labeled "X" and "P(X=x)". Here is the data in column oriented format (X: P(X=x), comment): +1200: .995 (live); 1200-100,000: .005 (die);
     ```
 
     Their average, or expected, gain overall is
@@ -37,8 +35,6 @@ Here is another example:
 
     ```{figure} images/image030a.gif
     :alt: A two-row probability distribution table, in which the rows are labeled "X" and "P(X=x)". Here is the data in column oriented format (X: P(X=x), comment): N: .9925 (live); N-100,000: .0075 (die);
-
-    A two-row probability distribution table, in which the rows are labeled "X" and "P(X=x)". Here is the data in column oriented format (X: P(X=x), comment): N: .9925 (live); N-100,000: .0075 (die);
     ```
 
     | We need to solve: | 700 | = | (N)(.9925) + (N - 100,000)(.0075) |

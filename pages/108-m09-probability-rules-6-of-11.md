@@ -17,8 +17,6 @@ When dealing with probabilities, the word *"and"* will always be associated with
 
     ```{figure} images/image011.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
     ```
 
     Two people are selected simultaneously and at random from all people in the United States. What is the probability that both have blood type O?
@@ -59,16 +57,12 @@ So far we have looked at examples where we have to consider and apply only one o
 
     ```{figure} images/image011.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
     ```
 
     Two people are chosen simultaneously and at random. What is the probability that both have the same blood type? For both to have the same blood type there are four possibilities. Both have blood type O *or* both have blood type A *or* both have blood type B *or* both have blood type AB.
 
     ```{figure} images/image023.gif
     :alt: A diagram showing the four possibilities.
-
-    A diagram showing the four possibilities.
     ```
 
     In other words, and using our regular notations,
@@ -79,8 +73,6 @@ So far we have looked at examples where we have to consider and apply only one o
 
     ```{figure} images/image024.gif
     :alt: P(O and O) = .44 * .44 P(B and B) = .42 * .42 P(B and B) = .10 * .10 P(AB and AB) = .04 * .04 P(Both having the same blood type) = P(O and O) + P(A and A) + P(B and B) + P(AB and AB) = 0.3816
-
-    P(O and O) = .44 * .44 P(B and B) = .42 * .42 P(B and B) = .10 * .10 P(AB and AB) = .04 * .04 P(Both having the same blood type) = P(O and O) + P(A and A) + P(B and B) + P(AB and AB) = 0.3816
     ```
 
     About 38% of the time, two randomly chosen U.S. people would have the same blood type. Note that in this example we used the Addition Rule and the Multiplication Rule one after the other, justifying along the way why it is appropriate to do so.

@@ -11,8 +11,6 @@ Here is another example:
 
     ```{figure} images/casei5.gif
     :alt: A table of the data. There are three columns: Student, Gender, and SSHA Score. Gender is the Explanatory variable, and SSHA Score is the Response variable. Some example data: Student 1, Female, 154; Student 2, Female, 109; Student 3, Male, 108; Student 4, Female, 115; ... (abbreviated) ... Student 40, Male, 140;
-
-    A table of the data. There are three columns: Student, Gender, and SSHA Score. Gender is the Explanatory variable, and SSHA Score is the Response variable. Some example data: Student 1, Female, 154; Student 2, Female, 109; Student 3, Male, 108; Student 4, Female, 115; ... (abbreviated) ... Student 40, Male, 140;
     ```
 
     (Source: Moore, David S., and George P. McCabe. (2003). *Introduction to the Practice of Statistics*, 4th ed. New York: W. H. Freeman.)
@@ -21,8 +19,6 @@ Here is another example:
 
     ```{figure} images/casei7.gif
     :alt: Three box plots. The vertical axis is labeled SSHA Score. There are two boxplots, one for Female and one for Male. The boxplot characteristics are summarized in the table below.
-
-    Three box plots. The vertical axis is labeled SSHA Score. There are two boxplots, one for Female and one for Male. The boxplot characteristics are summarized in the table below.
     ```
 
     | Statistic | Female | Male |

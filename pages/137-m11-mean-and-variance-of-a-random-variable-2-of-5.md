@@ -23,8 +23,6 @@ Here are two examples:
 
     ```{figure} images/image024a.gif
     :alt: A probability distribution table with two rows, labeled "X" "P(X=x)." Here is the data in columns (X: P(X=x)): +4: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = +4, and P(X = +4) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
-
-    A probability distribution table with two rows, labeled "X" "P(X=x)." Here is the data in columns (X: P(X=x)): +4: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = +4, and P(X = +4) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
     ```
 
     Therefore,
@@ -39,8 +37,6 @@ Here are two examples:
 
     ```{figure} images/image026a.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in columns (X: P(X=x)): N-6: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = N-6, and P(X = N-6) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in columns (X: P(X=x)): N-6: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = N-6, and P(X = N-6) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
     ```
 
     Next, setting $\mu_{X}$ equal to +3.90 instead of +3, we solve
@@ -103,8 +99,6 @@ The Acme Shipping Company has learned from experience that it costs $14.80 to de
 
     ```{figure} images/image_raffle.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in column oriented format (X: P(X=x), comment): 20: 10/20000 (movie package); 45: 5/2000 (dinner for two); 195: 2/2000 (smart phone); 1495: 1/2000 (TV); -5: 1982/2000 (Nothing);
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in column oriented format (X: P(X=x), comment): 20: 10/20000 (movie package); 45: 5/2000 (dinner for two); 195: 2/2000 (smart phone); 1495: 1/2000 (TV); -5: 1982/2000 (Nothing);
     ```
 
     $\mu_{X}=E(X)=20(\frac{10}{2000})+45(\frac{5}{2000})+195(\frac{2}{2000})+1495(\frac{1}{2000})+(-5)(\frac{1982}{2000})$

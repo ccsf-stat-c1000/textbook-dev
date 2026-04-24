@@ -11,8 +11,6 @@ Here again is the general situation which requires us to use the two-sample t-te
 
 ```{figure} images/image014.gif
 :alt: Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
-
-Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
 ```
 
 Our goal is to compare the means μ~1~ and μ~2~ based on the two independent samples.
@@ -55,8 +53,6 @@ Note that our parameter of interest in this case (the parameter about which we a
 
     ```{figure} images/image030.gif
     :alt: H_0: μ_1 - μ_2 = 0, H_a: μ_1 - μ_2 ≠ 0
-
-    H_0: μ_1 - μ_2 = 0, H_a: μ_1 - μ_2 ≠ 0
     ```
 
     where μ~1~ represents the mean importance for females and μ~2~ represents the mean importance for males.
@@ -74,8 +70,6 @@ In order to check the claim that the pregnancy length of women who smoke during 
 
 ```{figure} images/image156.gif
 :alt: The Smoking (X) variable gives us our two populations. These are Population 1: Pregnant women who smoke, and Pop 2: Pregnant Women who don't smoke. For each of these populations we have the variable Length (Y) and its mean. For smokers we have μ_1, and for non-smokers we have μ_2. From the population of smokers, we create an SRS of size 35, and from the population of non-smokers we create an SRS of 35.
-
-The Smoking (X) variable gives us our two populations. These are Population 1: Pregnant women who smoke, and Pop 2: Pregnant Women who don't smoke. For each of these populations we have the variable Length (Y) and its mean. For smokers we have μ_1, and for non-smokers we have μ_2. From the population of smokers, we create an SRS of size 35, and from the population of non-smokers we create an SRS of 35.
 ```
 
 ```{note}

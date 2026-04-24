@@ -116,8 +116,6 @@ Hopefully by now, you understand the logic behind the statistical hypothesis tes
 
 ```{figure} images/image205.gif
 :alt: A flow chart describing the process. First, we state Claim 1 and Claim 2. Claim 1 says "nothing special is going on" and is challenged by claim 2. Second, we collect relevant data and summarize it. Third, we assess how surprising it woudl be to observe data like that observed if Claim 1 is true. Fourth, we draw conclusions in context.
-
-A flow chart describing the process. First, we state Claim 1 and Claim 2. Claim 1 says "nothing special is going on" and is challenged by claim 2. Second, we collect relevant data and summarize it. Third, we assess how surprising it woudl be to observe data like that observed if Claim 1 is true. Fourth, we draw conclusions in context.
 ```
 
 ### Learn By Doing

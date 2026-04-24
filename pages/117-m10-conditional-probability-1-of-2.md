@@ -12,8 +12,6 @@ In the first part of this module, we'll introduce the concept of conditional pro
 
     ```{figure} images/image001.gif
     :alt: A table of the data. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
-
-    A table of the data. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
     ```
 
     (Note that this is a two-way table of counts that was first introduced when we talked about the relationship between two categorical variables. It is not surprising that we are using it again in this example, since we indeed have two categorical variables here: *Gender:* M or F (in our notation, "not M"), and *Pierced:* Yes or No)

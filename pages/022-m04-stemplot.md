@@ -30,8 +30,6 @@ Separate each data point into a stem and leaf, as follows:
 
     ```{figure} images/eda_examining_distributions_best_actress_stemplot.jpg
     :alt: The result of steps 1, 2, and 3 on the given data set results in the following: first row: 2|7169658992 second row: 3|3376231383694355023 third row: 4|2119124954 fourth row: 5| fifth row: 6|112 sixth row: 7|4 seventh row: 8|0 Step 4 results in: first row: 2|1256678999 second row: 3|0122333333445566789 third row: 4|1112244599 fourth row: 5| fifth row: 6|112 sixth row: 7|4 seventh row: 8|0 Following the extra step(*): first row: 2|12 second row: 2|56678999 third row: 3|012233333344 fourth row: 3|5566789 fifth row: 4|1112244 sixth row: 4|599 seventh row: 5| eighth row: 5| ninth row: 6|112 tenth row: 7|4 eleventh row:7| twelfth row: 8|0
-
-    The result of steps 1, 2, and 3 on the given data set results in the following: first row: 2|7169658992 second row: 3|3376231383694355023 third row: 4|2119124954 fourth row: 5| fifth row: 6|112 sixth row: 7|4 seventh row: 8|0 Step 4 results in: first row: 2|1256678999 second row: 3|0122333333445566789 third row: 4|1112244599 fourth row: 5| fifth row: 6|112 sixth row: 7|4 seventh row: 8|0 Following the extra step(*): first row: 2|12 second row: 2|56678999 third row: 3|012233333344 fourth row: 3|5566789 fifth row: 4|1112244 sixth row: 4|599 seventh row: 5| eighth row: 5| ninth row: 6|112 tenth row: 7|4 eleventh row:7| twelfth row: 8|0
     ```
 
     * When some of the stems hold a large number of leaves, we can split each stem into two: one holding the leaves 0-4, and the other holding the leaves 5-9. A statistical software package will often do the splitting for you, when appropriate.
@@ -40,8 +38,6 @@ Separate each data point into a stem and leaf, as follows:
 
     ```{figure} images/eda_examining_distributions_best_actress_stemplot_rotated.jpg
     :alt: A rotated stem plot. This is the same as the last stem plot given in the previous image, but rotated so that the stems are at the bottom, with the leaves on top.
-
-    A rotated stem plot. This is the same as the last stem plot given in the previous image, but rotated so that the stems are at the bottom, with the leaves on top.
     ```
 
     This orientation makes the right-skewedness of the distribution clearly visible.
@@ -58,8 +54,6 @@ There is another type of display that we can use to summarize a quantitative var
 
 ```{figure} images/eda_examining_distributions_best_actress_dotplot.jpg
 :alt: A dotplot titled &quot;Dotplot of Age&quot; A number line is at the bottom of the image, labeled in units of age from 24 to 80. At each age on the number line the a line of dots, each representing one winner of that age, appears above the place of that age on the number line.
-
-A dotplot titled &quot;Dotplot of Age&quot; A number line is at the bottom of the image, labeled in units of age from 24 to 80. At each age on the number line the a line of dots, each representing one winner of that age, appears above the place of that age on the number line.
 ```
 
 ## Let's Summarize

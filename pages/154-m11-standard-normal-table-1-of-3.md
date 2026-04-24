@@ -14,8 +14,6 @@ Since normal curves are symmetric about their mean, it follows that the curve of
 
 ```{figure} images/image133.gif
 :alt: A normal probability distribution curve. The horizontal axis represents z-scores. The mean&apos;s z-score has been marked as 0, and -3 and 3 have been marked. The area to the right of the mean is .5, and the area to the left of the mean is .5 . Since the area between -3 and 0 is almost all of the area under the bell curve to the left of the mean, that area is approximately .5 . The same goes for the area between 0 and 3.
-
-A normal probability distribution curve. The horizontal axis represents z-scores. The mean&apos;s z-score has been marked as 0, and -3 and 3 have been marked. The area to the right of the mean is .5, and the area to the left of the mean is .5 . Since the area between -3 and 0 is almost all of the area under the bell curve to the left of the mean, that area is approximately .5 . The same goes for the area between 0 and 3.
 ```
 
 The normal table outlines the precise behavior of the standard normal random variable Z, the number of standard deviations a normal value x is below or above its mean. The normal table provides probabilities that a standardized normal random variable Z would take a value less than or equal to a particular value z*.
@@ -43,8 +41,6 @@ By construction, the probability P(Z < z*) equals the area under the z curve to 
 
 ```{figure} images/image135.gif
 :alt: A normal probability distribution curve. The Horizontal axis is in z-score units. On the axis z* is marked, and the area under the curve to the left of z* is shaded. The area is equal to P(Z &lt; z*)
-
-A normal probability distribution curve. The Horizontal axis is in z-score units. On the axis z* is marked, and the area under the curve to the left of z* is shaded. The area is equal to P(Z &lt; z*)
 ```
 
 A quick sketch is often the key to solving normal problems easily and correctly.

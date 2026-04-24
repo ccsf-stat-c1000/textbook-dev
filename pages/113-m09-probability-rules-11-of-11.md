@@ -12,8 +12,6 @@ Now that we know how to build a two-way probability table, let's see how we can 
 
     ```{figure} images/image033.gif
     :alt: The table has 3 columns and 3 rows. The columns are: "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here is the cell data in "Row, Column: Value" format. A,B: 0.75; A,not B: .15; A,Total: .90; not A, B: .05; not A, not B: .05; not A, Total: .10; Total, B: .80; Total, not B: .20; Total, Total: 1.00
-
-    The table has 3 columns and 3 rows. The columns are: "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here is the cell data in "Row, Column: Value" format. A,B: 0.75; A,not B: .15; A,Total: .90; not A, B: .05; not A, not B: .05; not A, Total: .10; Total, B: .80; Total, not B: .20; Total, Total: 1.00
     ```
 
     What is the probability of on-time delivery of the document using the two services strategy?
@@ -26,16 +24,12 @@ Now that we know how to build a two-way probability table, let's see how we can 
 
     ```{figure} images/image034.gif
     :alt: Cells are given in "{Row,Column: Value}" format. The same table as the previous, except that the cells {A,B: 0.75}, {A, Total: 0.90}, and {Total, B: 0.80} have been highlighted.
-
-    Cells are given in "{Row,Column: Value}" format. The same table as the previous, except that the cells {A,B: 0.75}, {A, Total: 0.90}, and {Total, B: 0.80} have been highlighted.
     ```
 
     (ii) Another way to use the table is to use the fact that in probability, "A or B" actually means "A or B or both." The corresponding cells for these three options are shaded below and are 0.15 (only A), 0.05 (only B), and 0.75 (both). We can add these up to get P(A or B) = 0.95.
 
     ```{figure} images/image035.gif
     :alt: Cells are given in "{Row,Column}" format. The same table as the previous, except that the cells {A,B: 0.75}, {A, not B: 0.15}, and {not A, B: 0.05} have been highlighted.
-
-    Cells are given in "{Row,Column}" format. The same table as the previous, except that the cells {A,B: 0.75}, {A, not B: 0.15}, and {not A, B: 0.05} have been highlighted.
     ```
 ```
 
@@ -46,8 +40,6 @@ Now that we know how to build a two-way probability table, let's see how we can 
 
     ```{figure} images/image036.gif
     :alt: Cells are given in "{Row,Column}" format. The same table as the previous, except that the cells {A, not B: 0.15} and {not A, B: 0.05} have been highlighted.
-
-    Cells are given in "{Row,Column}" format. The same table as the previous, except that the cells {A, not B: 0.15} and {not A, B: 0.05} have been highlighted.
     ```
 ```
 
@@ -56,8 +48,6 @@ Now that we know how to build a two-way probability table, let's see how we can 
 
     ```{figure} images/image037.gif
     :alt: Cells are given in "{Row,Column}" format. The same table as the previous, except that the cell {not A, not B: 0.05} has been highlighted.
-
-    Cells are given in "{Row,Column}" format. The same table as the previous, except that the cell {not A, not B: 0.05} has been highlighted.
     ```
 ```
 

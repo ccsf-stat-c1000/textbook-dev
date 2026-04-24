@@ -18,16 +18,12 @@ Population, then, is the entire group that is the target of our interest:
 
 ```{figure} images/population.png
 :alt: Pictorial representation of a population
-
-Pictorial representation of a population
 ```
 
 In most cases, the population is so large that, as much as we want to, there is absolutely no way we can study all of it (imagine trying to get the opinions of *all* U.S. adults about the death penalty). A more practical approach would be to examine and collect data only from a subgroup of the population, which we call a *sample*. We call this first step, which involves choosing a sample and collecting data from it, *producing data*.
 
 ```{figure} images/data.png
 :alt: Producing data is visualized as taking a subset of the population, and creating a new set of points.
-
-Producing data is visualized as taking a subset of the population, and creating a new set of points.
 ```
 
 It should be noted that since, for practical reasons, we need to compromise and examine only a sub-group of the population rather than the whole population, we should make an effort to choose a sample in such a way that it will represent the population well. For example, if we choose a sample from the population of U.S. adults, and ask their opinions about the death penalty, we do not want our sample to consist of only Republicans or only Democrats.
@@ -36,8 +32,6 @@ Once the data have been collected, what we have is a long list of answers to que
 
 ```{figure} images/eda.png
 :alt: Exploratory data analysis is performed on the data which is a subset of the population.
-
-Exploratory data analysis is performed on the data which is a subset of the population.
 ```
 
 Now we've obtained the sample results and summarized them, but we are not done. Remember that our goal is to study the population, so what we want is to be able to draw conclusions about the population based on the sample results. Before we can do so, we need to look at how the sample we're using may differ from the population as a whole, so that we can factor that into our analysis. To examine this difference, we use *probability*.
@@ -46,16 +40,12 @@ In essence, probability is the "machinery" that allows us to draw conclusions ab
 
 ```{figure} images/probability.png
 :alt: The data and summarization of the data created from data analysis are examined using probability, which is the first step in allowing us to draw conclusions about the population based on the data.
-
-The data and summarization of the data created from data analysis are examined using probability, which is the first step in allowing us to draw conclusions about the population based on the data.
 ```
 
 Finally, we can use what we've discovered about our sample to draw conclusions about our population. We call this final step in the process *inference*.
 
 ```{figure} images/inference.png
 :alt: First, a set of data was created from a subset of the population. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions.
-
-First, a set of data was created from a subset of the population. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions.
 ```
 
 This is the *Big Picture of statistics*.
@@ -71,8 +61,6 @@ This is the *Big Picture of statistics*.
 
     ```{figure} images/big_picture_example.png
     :alt: A visual representation of the poll conducted about the opinions of U.S. adults about the death penalty. The large population, which represents the U.S. adults, and data was produced from 1082 of these adults by asking them about the death penalty. In the data set, we have 1082 responses, and exploratory data analysis tells us that 65% are in in favor of the death penalty. Using both probability and inference, we can draw the conclusion that we are 95% sure that the population percentage is within 3% of 65% (i.e., between 62% and 68%). This brings us back to where we started, the population.
-
-    A visual representation of the poll conducted about the opinions of U.S. adults about the death penalty. The large population, which represents the U.S. adults, and data was produced from 1082 of these adults by asking them about the death penalty. In the data set, we have 1082 responses, and exploratory data analysis tells us that 65% are in in favor of the death penalty. Using both probability and inference, we can draw the conclusion that we are 95% sure that the population percentage is within 3% of 65% (i.e., between 62% and 68%). This brings us back to where we started, the population.
     ```
 ```
 
@@ -82,8 +70,6 @@ The structure of this entire course is based on the Big Picture. The course has 
 
 ```{figure} images/big_picture_units.png
 :alt: Producing data (step 1 in the big picture) is covered in Unit 2. Exploratory data analysis (step 2) is covered in Unit 1. Probability (step 3) is covered in Unit 3, and inference (step 4) is covered in Unit 4.
-
-Producing data (step 1 in the big picture) is covered in Unit 2. Exploratory data analysis (step 2) is covered in Unit 1. Probability (step 3) is covered in Unit 3, and inference (step 4) is covered in Unit 4.
 ```
 
 As you’ll see, the Big Picture is the basis upon which the entire course is built, both conceptually and structurally. We will refer to it often, and having it in mind will help you as you go through the course.

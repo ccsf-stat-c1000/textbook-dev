@@ -10,8 +10,6 @@ Let's think about how we would go about testing whether the population means $\m
 
 ```{figure} images/image7.png
 :alt: For each of the four populations (Business, English, Math, and Psych majors), we wish to find the level of frustration (Y) mean, so we have taken a sample size of 35 for each population. For each sample, we have calculated Y-bar, so we have Y-bar_1, Y-bar_2, Y-bar_3, and Y-bar_4.
-
-For each of the four populations (Business, English, Math, and Psych majors), we wish to find the level of frustration (Y) mean, so we have taken a sample size of 35 for each population. For each sample, we have calculated Y-bar, so we have Y-bar_1, Y-bar_2, Y-bar_3, and Y-bar_4.
 ```
 
 and see how far apart these sample means are, or in other words, measure the variation between the sample means. If we find that the four sample means are not all close together, we'll say that we have evidence against H~o~, and otherwise, if they are close together, we'll say that we do not have evidence against H~o~. This seems quite simple, but is this enough? Let's see.
@@ -30,14 +28,10 @@ Below we present two possible scenarios for our example. In both cases, we const
 
 ```{figure} images/image111.gif
 :alt: In this set of box plots, we see that for each population, the interval between the first and third quartile is very large - for Business majors, the first quartile is at about 2, and the third quartile is at about 17. The rest of the majors have smaller ranges, but they are still large, covering 10 or more frustration points. The mean for business is about 9, for English 12, mathematics 13, and psychology about a 13. Every majors' mean is in the interval of every other major's first and third quartiles.
-
-In this set of box plots, we see that for each population, the interval between the first and third quartile is very large - for Business majors, the first quartile is at about 2, and the third quartile is at about 17. The rest of the majors have smaller ranges, but they are still large, covering 10 or more frustration points. The mean for business is about 9, for English 12, mathematics 13, and psychology about a 13. Every majors' mean is in the interval of every other major's first and third quartiles.
 ```
 
 ```{figure} images/image112.gif
 :alt: In this set of box plots, the interval between the first and third quartile for each major is much narrower - the worse case is about 7. In addition, we also see that while the means for each major are the same as in the first set of box plots, the box plot for business does not contain any other major's mean in its first and third quartile interval. We also see that no other majors' first and third quartile interval includes business's mean. In fact, they don't even include its third quartile.
-
-In this set of box plots, the interval between the first and third quartile for each major is much narrower - the worse case is about 7. In addition, we also see that while the means for each major are the same as in the first set of box plots, the box plot for business does not contain any other major's mean in its first and third quartile interval. We also see that no other majors' first and third quartile interval includes business's mean. In fact, they don't even include its third quartile.
 ```
 
 ```{note}
@@ -58,8 +52,6 @@ In order to answer this question using our data, we obviously need to look at th
 
 ```{figure} images/image163.gif
 :alt: variation among sample means / variation within groups
-
-variation among sample means / variation within groups
 ```
 
 which measures to what extent the difference among the sampled groups' means dominates over the usual variation within sampled groups (which reflects differences in individuals that are typical in random samples).

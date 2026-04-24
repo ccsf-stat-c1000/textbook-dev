@@ -21,8 +21,6 @@ Before moving on to the other rules, let's first look at an example that will pr
 
     ```{figure} images/image010.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: ?; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: ?; B: 0.10; AB: 0.04;
     ```
 
     .
@@ -33,8 +31,6 @@ Before moving on to the other rules, let's first look at an example that will pr
 
     ```{figure} images/image011.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
     ```
 ```
 
@@ -50,8 +46,6 @@ This is a good place to compare and contrast what we're doing here with what we 
 
 ```{figure} images/image012.gif
 :alt: A pie chart, titled "Blood Types." Type O takes up 44% of the pie chart, A uses 42%, AB represents 4%, and B represents the rest, 10%.
-
-A pie chart, titled "Blood Types." Type O takes up 44% of the pie chart, A uses 42%, AB represents 4%, and B represents the rest, 10%.
 ```
 
 Even though what we're doing here is indeed similar to what we've done in the EDA section, there is a subtle but important difference between the underlying situations in this section and the ones in the Exploratory Data Analysis section. In EDA, we summarized data that were obtained from a *sample* of individuals for whom values of the variable of interest were recorded. Here, when we present the frequency, or probability, of each blood type, we have in mind the entire *population* of people in the United States, for which we are presuming to know the overall frequency of values taken by the variable of interest.

@@ -8,8 +8,6 @@ Let's move on to rule 3. In probability and in its applications, we are frequent
 
 ```{figure} images/image013.gif
 :alt: The entire sample space S is represented with a gray box. Inside of this box is a blue circle, representing all outcomes in A. Everything else in the gray box but outside of the blue circle is "not A".
-
-The entire sample space S is represented with a gray box. Inside of this box is a blue circle, representing all outcomes in A. Everything else in the gray box but outside of the blue circle is "not A".
 ```
 
 ## Comment
@@ -27,8 +25,6 @@ Rule 3 deals with the relationship between the probability of an event and the p
 
     ```{figure} images/image011.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
     ```
 
     Here is some additional information:
@@ -42,8 +38,6 @@ Rule 3 deals with the relationship between the probability of an event and the p
 
     ```{figure} images/image014.gif
     :alt: A pie chart, titled "Blood Types." Type O takes up 44% of the pie chart, A uses 42%, AB represents 4%, and B represents the rest, 10%. Note that the types of blood which are "not O" take up 56% of the pie chart.
-
-    A pie chart, titled "Blood Types." Type O takes up 44% of the pie chart, A uses 42%, AB represents 4%, and B represents the rest, 10%. Note that the types of blood which are "not O" take up 56% of the pie chart.
     ```
 ```
 

@@ -13,8 +13,6 @@ Recall our grades example:
 
 ```{figure} images/histogram1.gif
 :alt: The exam grades histogram. The y-axis is labeled count, and the x-axis is labeled score. There is 1 count in 40-50 score interval, 2 counts in the 50-60 score interval, 4 counts in the 60-70 score interval, 5 counts in the 70-80 score interval, 2 counts in the 80-90 score interval, and 1 count in the 90-100 score interval.
-
-The exam grades histogram. The y-axis is labeled count, and the x-axis is labeled score. There is 1 count in 40-50 score interval, 2 counts in the 50-60 score interval, 4 counts in the 60-70 score interval, 5 counts in the 70-80 score interval, 2 counts in the 80-90 score interval, and 1 count in the 90-100 score interval.
 ```
 
 As you can see from the histogram, the center of the grades distribution is roughly 70 (7 students scored below 70, and 8 students scored above 70).
@@ -36,8 +34,6 @@ In our example:
 
 ```{figure} images/histogram7.gif
 :alt: A histogram with frequency on the Y-axis. As we go from left to right on the x-axis, the frequency increases to a peak at x=5, then decreases. Eventually, we reach 0 at x=11. All of x &gt; 10 have a frequency of 0, exception for x=15, which has a frequency of greater than zero. This is a outlier.
-
-A histogram with frequency on the Y-axis. As we go from left to right on the x-axis, the frequency increases to a peak at x=5, then decreases. Eventually, we reach 0 at x=11. All of x &gt; 10 have a frequency of 0, exception for x=15, which has a frequency of greater than zero. This is a outlier.
 ```
 
 Go back and check the histogram of scores at the top of this page. As you can see, there are no outliers.

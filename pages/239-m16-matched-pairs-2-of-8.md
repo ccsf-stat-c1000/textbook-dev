@@ -20,40 +20,30 @@ In other words, by reducing the two samples to one sample of differences, we are
 
 ```{figure} images/image054.gif
 :alt: The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
-
-The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
 ```
 
 to a problem where we are making an inference about a single mean — the mean of the differences:
 
 ```{figure} images/image055.gif
 :alt: The population of drivers is represented by a large circle. We are interested in μ for this population, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). We generate a sample of size n = 20, and get 20 differences.
-
-The population of drivers is represented by a large circle. We are interested in μ for this population, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). We generate a sample of size n = 20, and get 20 differences.
 ```
 
 In general, in every matched pairs problem, our data consist of 2 samples which are organized in n pairs:
 
 ```{figure} images/image056.gif
 :alt: A set of matched pairs, numbered 1 through n. The first element in each pair is sample 1 and the second element in each pair is sample 2. The data is presented in a table which has 3 rows, labeled "Pairs," "Sample 1," and "Sample 2."
-
-A set of matched pairs, numbered 1 through n. The first element in each pair is sample 1 and the second element in each pair is sample 2. The data is presented in a table which has 3 rows, labeled "Pairs," "Sample 1," and "Sample 2."
 ```
 
 We reduce the two samples to only one by calculating for each pair the difference between the two observations (in the figure we used $d_{1},d_{2},d_{3},...,d_{n}$ to denote the differences).
 
 ```{figure} images/image058.gif
 :alt: Each pair is reduced to a difference, by calculating sample1 - sample2. This is shown on the table by adding an extra row labeled " differences" and for each column, adding a value in the differences row describing the pair represented by the column.
-
-Each pair is reduced to a difference, by calculating sample1 - sample2. This is shown on the table by adding an extra row labeled " differences" and for each column, adding a value in the differences row describing the pair represented by the column.
 ```
 
 The paired t-test is based on this one sample of n differences,
 
 ```{figure} images/image059.gif
 :alt: We can now ignore the sample 1 and sample 2 data in each pair and instead just focus on the differences.
-
-We can now ignore the sample 1 and sample 2 data in each pair and instead just focus on the differences.
 ```
 
 and it uses those differences as data for a simple t-test on a single mean — the mean of the differences.

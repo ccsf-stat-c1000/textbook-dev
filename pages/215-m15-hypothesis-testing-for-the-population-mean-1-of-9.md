@@ -36,8 +36,6 @@ We'll start by introducing two examples that will be our leading examples for th
 
     ```{figure} images/image311.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we want to answer is &quot;is the mean SAT-M 500 (national mean) or is it higher? (Assume: SD = 100).&quot; We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we want to answer is &quot;is the mean SAT-M 500 (national mean) or is it higher? (Assume: SD = 100).&quot; We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
     ```
 ```
 
@@ -50,8 +48,6 @@ We'll start by introducing two examples that will be our leading examples for th
 
     ```{figure} images/image314.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. The question we want to answer is &quot;is the mean concentration the required 250ppm or not? (Assume: SD = 12).&quot; Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. The question we want to answer is &quot;is the mean concentration the required 250ppm or not? (Assume: SD = 12).&quot; Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
     ```
 ```
 

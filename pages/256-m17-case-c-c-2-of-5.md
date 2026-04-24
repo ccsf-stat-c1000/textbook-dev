@@ -49,8 +49,6 @@ The idea behind the chi-square test, much like previous tests that we've introdu
 
 ```{figure} images/image131.gif
 :alt: The two-way table with counts. The cells which are not in a Total row or column are the observed counts. Full description: A two-way table, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619; The observed counts are Male, Yes; Male, No; Female, Yes; Female, No;
-
-The two-way table with counts. The cells which are not in a Total row or column are the observed counts. Full description: A two-way table, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619; The observed counts are Male, Yes; Male, No; Female, Yes; Female, No;
 ```
 
 How will we represent the null hypothesis?
@@ -72,8 +70,6 @@ Here again are the observed counts:
 
 ```{figure} images/image132.gif
 :alt: A two-way table, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
-
-A two-way table, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
 ```
 
 Applying the rule to the first (top left) cell, if driving drunk and gender were independent then:
@@ -98,8 +94,6 @@ Notice that this expression is the product of the column and row totals for that
 
 ```{figure} images/image133.gif
 :alt: P(Drunk and Male) is calculated using 3 cells from the two-way table. These are the row total (Male, Total) cell, the column total (Total, Yes) cell, and table total (Total, Total) cell. P(Drunk and Male) = (column total * row total)/(table total)
-
-P(Drunk and Male) is calculated using 3 cells from the two-way table. These are the row total (Male, Total) cell, the column total (Total, Yes) cell, and table total (Total, Total) cell. P(Drunk and Male) = (column total * row total)/(table total)
 ```
 
 Similarly, if the variables are independent,
@@ -114,8 +108,6 @@ Again, the expected count equals the product of the corresponding column and row
 
 ```{figure} images/image134.gif
 :alt: P(Drunk and Female) is calculated using 3 cells from the two-way table. These are the row total (Female, Total) cell, the column total (Total, Yes) cell, and table total (Total, Total) cell. P(Drunk and Female) = (column total * row total)/(table total)
-
-P(Drunk and Female) is calculated using 3 cells from the two-way table. These are the row total (Female, Total) cell, the column total (Total, Yes) cell, and table total (Total, Total) cell. P(Drunk and Female) = (column total * row total)/(table total)
 ```
 
 This will always be the case, and will help streamline our calculations:
@@ -138,14 +130,10 @@ Here is the complete table of expected counts, followed by the table of observed
 
 ```{figure} images/image136.gif
 :alt: A two-way table for expected counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: (93 * 481)/619 = 72.3; Male, No: (526 * 481)/619 = 408.7; Male, Total: 481; Female, Yes: (93 * 138)/619 = 20.7; Female, No: (526 * 138)/619 = 117.3; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
-
-A two-way table for expected counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: (93 * 481)/619 = 72.3; Male, No: (526 * 481)/619 = 408.7; Male, Total: 481; Female, Yes: (93 * 138)/619 = 20.7; Female, No: (526 * 138)/619 = 117.3; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
 ```
 
 ```{figure} images/image137.gif
 :alt: A two-way table for observed counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
-
-A two-way table for observed counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 77; Male, No: 404; Male, Total: 481; Female, Yes: 16; Female, No: 122; Female, Total: 138; Total, Yes: 93; Total, No: 526; Total, Total: 619;
 ```
 
 ## Did I Get This?
@@ -154,8 +142,6 @@ A study was done on the relationship between gender and piercing among high-scho
 
 ```{figure} images/image425.gif
 :alt: A two way table with &quot;Yes Piercing,&quot; &quot;No Pierceing,&quot; and &quot;Total&quot; columns. The rows are &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Female, Yes: 576; Female, No: 64; Female, Total: 640; Male, Yes: 72; Male, No: 288; Male, Total: 360; Total, Yes: 648; Total, No: 352; Total, Total: 1000
-
-A two way table with &quot;Yes Piercing,&quot; &quot;No Pierceing,&quot; and &quot;Total&quot; columns. The rows are &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Female, Yes: 576; Female, No: 64; Female, Total: 640; Male, Yes: 72; Male, No: 288; Male, Total: 360; Total, Yes: 648; Total, No: 352; Total, Total: 1000
 ```
 
 ```{note}

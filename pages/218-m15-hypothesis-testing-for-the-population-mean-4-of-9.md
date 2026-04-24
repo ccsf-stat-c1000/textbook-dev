@@ -17,8 +17,6 @@ Here we assess the significance of the results (based on the p-value compared wi
 
     ```{figure} images/image343.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and since our conditions are met, we can calculate that z = 1. We also calculate that the p-value = .159 . This p-value is too high so we conclude that we cannot reject H_0.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and since our conditions are met, we can calculate that z = 1. We also calculate that the p-value = .159 . This p-value is too high so we conclude that we cannot reject H_0.
     ```
 ```
 
@@ -31,8 +29,6 @@ Here we assess the significance of the results (based on the p-value compared wi
 
     ```{figure} images/image344.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12. Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that z = -2.5, and that the p-value = .012. This p-value is low enough to let us conclude that we can reject H_0.
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12. Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that z = -2.5, and that the p-value = .012. This p-value is low enough to let us conclude that we can reject H_0.
     ```
 ```
 

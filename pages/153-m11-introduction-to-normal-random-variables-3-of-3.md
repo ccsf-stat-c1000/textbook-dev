@@ -10,8 +10,6 @@ How likely or unlikely is it for a male's foot length to be more than 13 inches?
 
 ```{figure} images/image129.gif
 :alt: The probability distribution curve for foot lengths. It takes the shape of a normal bell curve. The boundaries for the first, second, and third standard deviations have been marked, and we see that no line falls on X=13 . We need the area under the bell curve to the right of X=13 .
-
-The probability distribution curve for foot lengths. It takes the shape of a normal bell curve. The boundaries for the first, second, and third standard deviations have been marked, and we see that no line falls on X=13 . We need the area under the bell curve to the right of X=13 .
 ```
 
 Since 13 inches doesn't happen to be exactly 1, 2, or 3 standard deviations away from the mean, we would only be able to give a very rough estimate of the probability at this point. Clearly, the Standard Deviation Rule only describes the tip of the iceberg, and while it serves well as an introduction to the normal curve, and gives us a good sense of what would be considered likely and unlikely values, it is very limited in the probability questions it can help us answer.
@@ -20,8 +18,6 @@ Here is another familiar normal distribution:
 
 ```{figure} images/image_normal_sat1.jpg
 :alt: A normal bell curve representing the probability distribution curve for the scores on the math portion of the SAT. The horizontal axis is labeled "X - SAT scores." μ = 500, and σ = 100 . We want to know the probability that a student scores 633 or higher. This is the area under the bell curve to the right of X=633 . Note that 633 is not covered by the Standard Deviation Rule.
-
-A normal bell curve representing the probability distribution curve for the scores on the math portion of the SAT. The horizontal axis is labeled "X - SAT scores." μ = 500, and σ = 100 . We want to know the probability that a student scores 633 or higher. This is the area under the bell curve to the right of X=633 . Note that 633 is not covered by the Standard Deviation Rule.
 ```
 
 Suppose we are interested in knowing the probability that a randomly selected student will score 633 or more on the math portion of his or her SAT (this is represented by the red area). Again, 633 does not fall exactly 1, 2, or 3 standard deviations above the mean. Notice, however, that an SAT score of 633 and a foot length of 13 are both about 1/3 of the way between 1 and 2 standard deviations. As you continue to read this page, you'll realize that this positioning relative to the mean is the key to finding probabilities.
@@ -52,14 +48,10 @@ Notice that since $\sigma$ is always positive, for values of x above the mean ($
 
 ```{figure} images/image131.gif
 :alt: The probability distribution curve for male foot length. We see that the mean (μ) is 11 and that 13 has been marked on the horizontal axis.
-
-The probability distribution curve for male foot length. We see that the mean (μ) is 11 and that 13 has been marked on the horizontal axis.
 ```
 
 ```{figure} images/image132.gif
 :alt: The same probability distribution curve as the above image, except that the horizontal axis now represents "standardized foot length z." The location where the mean used to be is now labeled with the z-score of the mean, which is 0. The location of 13 is now labeled 13's z-score, which is 1.33 .
-
-The same probability distribution curve as the above image, except that the horizontal axis now represents "standardized foot length z." The location where the mean used to be is now labeled with the z-score of the mean, which is 0. The location of 13 is now labeled 13's z-score, which is 1.33 .
 ```
 
 ```{admonition} Example: Standardizing Foot Measurements

@@ -15,8 +15,6 @@ Point estimation is the form of statistical inference in which, based on the sam
 
     ```{figure} images/image012.gif
     :alt: A large circle represents the Population of all Students at SU. We are interested in the variable IQ, and the parameter is μ, the population mean IQ level. From this population we create a sample of size n=100, represented by a smaller circle. In this sample, we find that x bar (the point estimator) is 115. Using point estimation we estimate μ using x bar.
-
-    A large circle represents the Population of all Students at SU. We are interested in the variable IQ, and the parameter is μ, the population mean IQ level. From this population we create a sample of size n=100, represented by a smaller circle. In this sample, we find that x bar (the point estimator) is 115. Using point estimation we estimate μ using x bar.
     ```
 ```
 
@@ -29,8 +27,6 @@ Here is another example.
 
     ```{figure} images/image015.gif
     :alt: A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .56 . Using point estimation we can estimate p.
-
-    A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .56 . Using point estimation we can estimate p.
     ```
 ```
 

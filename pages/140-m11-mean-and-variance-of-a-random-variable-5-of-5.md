@@ -11,8 +11,6 @@ The concept of standard deviation is a bit harder to grasp than that of the mean
 
     ```{figure} images/image039.gif
     :alt: Two probability distribution tables. The first has two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10; The second table also has two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .05; 1: .05; 2: .10; 3: .75; 4: .05;
-
-    Two probability distribution tables. The first has two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10; The second table also has two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .05; 1: .05; 2: .10; 3: .75; 4: .05;
     ```
 
     Look carefully at both probability distributions. Both X and Y take the same possible values (0, 1, 2, 3, 4). However, they are very different in the way the probability is distributed among these values. We saw before that this makes a difference in means:
@@ -44,14 +42,10 @@ Here are the histograms for the production lines:
 
 ```{figure} images/image_xavier_histo_mean.jpg
 :alt: Histogram for Xavier's production line. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The data in the histogram is the same as the data in the probability table for Xavier's line. Moving from left to right across the horizontal axis we see that a peak in probability is reached at X=1, but it is not much higher than X=0. In addition, going right from X=1, the values decay, ultimately to 0.10 at X=4. The mean for Xavier's line is at X=1.8 .
-
-Histogram for Xavier's production line. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The data in the histogram is the same as the data in the probability table for Xavier's line. Moving from left to right across the horizontal axis we see that a peak in probability is reached at X=1, but it is not much higher than X=0. In addition, going right from X=1, the values decay, ultimately to 0.10 at X=4. The mean for Xavier's line is at X=1.8 .
 ```
 
 ```{figure} images/image_yves_histo_mean.jpg
 :alt: For Yves's line is another histogram with the same axes. Going left to right, we see a peak at X=3, which is much higher than the other values. All of the other values are roughly the same. The mean is at X=2.7 .
-
-For Yves's line is another histogram with the same axes. Going left to right, we see a peak at X=3, which is much higher than the other values. All of the other values are roughly the same. The mean is at X=2.7 .
 ```
 
 When we compare distributions, the distribution in which it is *more likely* to find values that are further from the mean will have a *larger* standard deviation. Likewise, the distribution in which it is *less likely* to find values that are further from the mean will have the *smaller* standard deviation.
@@ -66,26 +60,18 @@ The following graphs will be used in the next "Did I Get This?" exercise.
 
 ```{figure} images/u4_m3_meanvariance5_digt_imagea.jpg
 :alt: A histogram titled "Graph A" showing the following data (presented in "horizontal value: vertical value format"): 1: .07; 2: .10; 3: .12; 4: .13; 5: .16; 6: .13; 7: .12; 8: .10; 9: .07;
-
-A histogram titled "Graph A" showing the following data (presented in "horizontal value: vertical value format"): 1: .07; 2: .10; 3: .12; 4: .13; 5: .16; 6: .13; 7: .12; 8: .10; 9: .07;
 ```
 
 ```{figure} images/u4_m3_meanvariance5_digt_imageb.jpg
 :alt: A histogram titled "Graph B" showing the following data (presented in "horizontal value: vertical value format"): 1: .02; 2: .08; 3: .10; 4: .15; 5: .30; 6: .15; 7: .10; 8: .08; 9: .02;
-
-A histogram titled "Graph B" showing the following data (presented in "horizontal value: vertical value format"): 1: .02; 2: .08; 3: .10; 4: .15; 5: .30; 6: .15; 7: .10; 8: .08; 9: .02;
 ```
 
 ```{figure} images/u4_m3_meanvariance5_digt_imagec.jpg
 :alt: A histogram titled "Graph C" showing the following data (presented in "horizontal value: vertical value format"): 1: .01; 2: .01; 3: .10; 4: .18; 5: .40; 6: .18; 7: .10; 8: .01; 9: .01;
-
-A histogram titled "Graph C" showing the following data (presented in "horizontal value: vertical value format"): 1: .01; 2: .01; 3: .10; 4: .18; 5: .40; 6: .18; 7: .10; 8: .01; 9: .01;
 ```
 
 ```{figure} images/u4_m3_meanvariance5_digt_imaged.jpg
 :alt: A histogram titled "Graph D" showing the following data (presented in "horizontal value: vertical value format"): 1: .01; 2: .01; 3: .02; 4: .11; 5: .70; 6: .11; 7: .02; 8: .01; 9: .01;
-
-A histogram titled "Graph D" showing the following data (presented in "horizontal value: vertical value format"): 1: .01; 2: .01; 3: .02; 4: .11; 5: .70; 6: .11; 7: .02; 8: .01; 9: .01;
 ```
 
 ```{note}
@@ -105,8 +91,6 @@ As we have stated before, using the mean and standard deviation gives us another
 
     ```{figure} images/image_xavier_histo_mean.jpg
     :alt: Histogram for Xavier's production line. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The data in the histogram is the same as the data in the probability table for Xavier's line. Moving from left to right across the horizontal axis we see that a peak in probability is reached at X=1, but it is not much higher than X=0. In addition, going right from X=1, the values decay, to about 0.10 at X=4. The mean for Xavier's line is at X=1.8 .
-
-    Histogram for Xavier's production line. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The data in the histogram is the same as the data in the probability table for Xavier's line. Moving from left to right across the horizontal axis we see that a peak in probability is reached at X=1, but it is not much higher than X=0. In addition, going right from X=1, the values decay, to about 0.10 at X=4. The mean for Xavier's line is at X=1.8 .
     ```
 
     Would it be considered unusual to have 4 defective parts per hour?
@@ -143,24 +127,18 @@ If a variable's possible values just differ somewhat, with some only marginally 
 
     ```{figure} images/image043.gif
     :alt: A probability table with has two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 14,000: 1; In other words, X only has one value, 14,000, and P(X=14,000) = 1.
-
-    A probability table with has two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 14,000: 1; In other words, X only has one value, 14,000, and P(X=14,000) = 1.
     ```
 
     Investment X is what we'd call a "sure thing," with a guaranteed return of $14,000: there is no risk involved at all.
 
     ```{figure} images/image044.gif
     :alt: A probability table with two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .98; 1,000,000: .02; In other words, P(Y = 0) = .98 and P(Y = 1,000,000) = .02
-
-    A probability table with two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .98; 1,000,000: .02; In other words, P(Y = 0) = .98 and P(Y = 1,000,000) = .02
     ```
 
     Investment Y is extremely risky, with a high probability (.98) of no gain at all, contrasted by a slight probability (.02) of "making a killing" with a return of a million dollars.
 
     ```{figure} images/image045.gif
     :alt: A probability table with two rows, labeled "Z" and "P(Z=z)." The data in column format (Y: P(Z=z)): 10,000: .5; 20,000: .5; In other words, P(Z = 10,000) = .5 and P(Z = 20,000) = .5
-
-    A probability table with two rows, labeled "Z" and "P(Z=z)." The data in column format (Y: P(Z=z)): 10,000: .5; 20,000: .5; In other words, P(Z = 10,000) = .5 and P(Z = 20,000) = .5
     ```
 
     Investment Z is somewhere in between: there is an equal chance for either a return that's on the low side or a return that's on the high side.

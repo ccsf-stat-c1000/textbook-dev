@@ -10,8 +10,6 @@ The test statistic of the ANOVA F-test, called the *F statistic*, has the form
 
 ```{figure} images/image164.gif
 :alt: F = Variation Among Sample Means / Variation Within Groups
-
-F = Variation Among Sample Means / Variation Within Groups
 ```
 
 It has a different structure from all the test statistics we've looked at so far, but it is similar in that it is still a measure of the evidence against H~0~. The larger F is (which happens when the denominator, the variation within groups, is small relative to the numerator, the variation among the sample means), the more evidence we have against H~0~.
@@ -22,8 +20,6 @@ Consider the following generic situation:
 
 ```{figure} images/image16.png
 :alt: We have a situation in which k = 3. So, we have 3 populations, each with its own μ. For Population 1, we obtain a sample of size 100, and find that its Y-bar_1 = 35. For Population 2, we also get a sample of size 100. Y-bar_2 = 30. For the third sample of size 100 generated from the Population 3, we find that Y-bar_3 = 25. These are three independent samples.
-
-We have a situation in which k = 3. So, we have 3 populations, each with its own μ. For Population 1, we obtain a sample of size 100, and find that its Y-bar_1 = 35. For Population 2, we also get a sample of size 100. Y-bar_2 = 30. For the third sample of size 100 generated from the Population 3, we find that Y-bar_3 = 25. These are three independent samples.
 ```
 
 In this case, we are testing
@@ -35,14 +31,10 @@ The following are two possible scenarios of the data (note in both scenarios the
 
 ```{figure} images/image154.gif
 :alt: Scenario 1, illustrated by a dot plot. The dot plot is split with three horizontal axes, one for each sample. We see that for each population, the distribution is approximately normal and there is very little, if any, overlap between each distribution.
-
-Scenario 1, illustrated by a dot plot. The dot plot is split with three horizontal axes, one for each sample. We see that for each population, the distribution is approximately normal and there is very little, if any, overlap between each distribution.
 ```
 
 ```{figure} images/image155.gif
 :alt: Scenario 2, with a dot plot as in the previous image. However, each sample&apos;s distribution has a much wider spread. Samples 2 and 3 approximate a normal distribution, but sample 1 does not. In addition, the distributions have data points in common. They overlap quite a lot.
-
-Scenario 2, with a dot plot as in the previous image. However, each sample&apos;s distribution has a much wider spread. Samples 2 and 3 approximate a normal distribution, but sample 1 does not. In addition, the distributions have data points in common. They overlap quite a lot.
 ```
 
 ```{note}

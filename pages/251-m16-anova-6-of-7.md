@@ -24,8 +24,6 @@ Before we give you hands-on practice in carrying out the ANOVA F-test, let's loo
 
     ```{figure} images/image19.png
     :alt: The variable Education Level (X) has three categories: High, Medium, and Low. From these categories, we form our populations: High education level magazines, medium education level magazines, and low education level magazines. Each population has its own # of words in ads (Y) mean. From each population we create a sample of size 18. We find that for High level magazines, Y-bar_1 = 140.0 . For medium level, Y-bar_2 = 121.4, and for low level, Y-bar_3 = 106.5
-
-    The variable Education Level (X) has three categories: High, Medium, and Low. From these categories, we form our populations: High education level magazines, medium education level magazines, and low education level magazines. Each population has its own # of words in ads (Y) mean. From each population we create a sample of size 18. We find that for High level magazines, Y-bar_1 = 140.0 . For medium level, Y-bar_2 = 121.4, and for low level, Y-bar_3 = 106.5
     ```
 
     Our question of interest is whether the number of words in ads (Y) is related to the educational level of the magazine (X). To answer this question, we need to compare $\mu_{1},\mu_{2},\mu_{3}$, the mean number of words in ads of the three magazine groups. Note in the figure that the sample means are provided. It seems that what the data suggest makes sense; the magazines in group 1 have the largest number of words per ad (on average) followed by group 2, and then group 3.
@@ -38,8 +36,6 @@ Before we give you hands-on practice in carrying out the ANOVA F-test, let's loo
 
     ```{figure} images/image120.gif
     :alt: H_0: μ_1 = μ_2 = μ_3. H_a: not all μ&apos;s are equal
-
-    H_0: μ_1 = μ_2 = μ_3. H_a: not all μ&apos;s are equal
     ```
 
     Conceptually, the null hypothesis claims that the number of words in ads is not related to the educational level of the magazine, and the alternative hypothesis claims that there is a relationship.
@@ -52,8 +48,6 @@ Before we give you hands-on practice in carrying out the ANOVA F-test, let's loo
 
     ```{figure} images/image169_excel.gif
     :alt: Group 1 StDev: 74.0 Group 2 StDev: 64.3 Group 3 StDev: 57.6
-
-    Group 1 StDev: 74.0 Group 2 StDev: 64.3 Group 3 StDev: 57.6
     ```
 
     (ii) The graph does not display any alarming violations of the normality assumption. It seems like there is some skewness in groups 2 and 3, but not extremely so, and there are no outliers in the data.

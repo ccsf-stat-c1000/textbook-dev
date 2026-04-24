@@ -8,8 +8,6 @@ In the Exploratory Data Analysis unit of this course, we encountered data sets, 
 
 ```{figure} images/image110a.gif
 :alt: The symmetric unimodal bell shape.
-
-The symmetric unimodal bell shape.
 ```
 
 Many variables, such as pregnancy lengths, shoe sizes, foot lengths, and other human physical characteristics exhibit these properties: symmetry indicates that the variable is just as likely to take a value a certain distance below its mean as it is to take a value that same distance above its mean; the bell-shape indicates that values closer to the mean are more likely, and it becomes increasingly unlikely to take values far from the mean in either direction. The particular shape exhibited by these variables has been studied since the early part of the nineteenth century, when they were first called "normal" as a way of suggesting their depiction of a common, natural pattern.
@@ -20,8 +18,6 @@ There are many normal distributions. Even though all of them have the bell-shape
 
 ```{figure} images/image_normal1a.gif
 :alt: Three normal normal distribution curves which vary in height and mean.
-
-Three normal normal distribution curves which vary in height and mean.
 ```
 
 More specifically, the center of the distribution is determined by its *mean* ($\mu$) and the spread is determined by its standard deviation ( $\sigma$).

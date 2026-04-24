@@ -14,8 +14,6 @@ However, it is not possible to know when either Type I or Type II error has occu
 
 ```{figure} images/type_i_ii_errors.png
 :alt: A table describing when errors occur. When H_0 is true, and we reject H_0, we have made a Type I error. If we fail to reject H_0, this is the correct decision. When H_0 is false (H_a is true), and we reject H_0, we have made the correct decision. If we fail to reject H_0, this is a type II error.
-
-A table describing when errors occur. When H_0 is true, and we reject H_0, we have made a Type I error. If we fail to reject H_0, this is the correct decision. When H_0 is false (H_a is true), and we reject H_0, we have made the correct decision. If we fail to reject H_0, this is a type II error.
 ```
 
 ## End-of-Lesson

@@ -14,8 +14,6 @@
 
     ```{figure} images/image090.gif
     :alt: A large circle represents the population of all US Adults (18+). We are interested in the parameter is p, the proportion who know what Viagra is used for. From this population we create a sample of size n=1005, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .64 .
-
-    A large circle represents the population of all US Adults (18+). We are interested in the parameter is p, the proportion who know what Viagra is used for. From this population we create a sample of size n=1005, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .64 .
     ```
 
     Therefore,

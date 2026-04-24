@@ -27,16 +27,12 @@ Here is a more practical example:
 
     ```{figure} images/image014.gif
     :alt: A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Here is the tree: {S: 0.001 (red), D: 0.80 (red)}; {S: 0.001 (red), not D: 0.20}; {not S: 0.999, D: 0.16 (red)}; {not S: 0.999, not D: 0.84};
-
-    A probability tree. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Here is the tree: {S: 0.001 (red), D: 0.80 (red)}; {S: 0.001 (red), not D: 0.20}; {not S: 0.999, D: 0.16 (red)}; {not S: 0.999, not D: 0.84};
     ```
 
     (b) What is the probability that a randomly chosen employee is not a spy, and the test does not detect the employee as one? In other words, what is P(not S and not D)?
 
     ```{figure} images/image015.gif
     :alt: In the probability tree we take the path {not S: 0.999, not D: 0.84}.
-
-    In the probability tree we take the path {not S: 0.999, not D: 0.84}.
     ```
 
     P(not S and not D) = P(not S) * P(not D | not S) = 0.999 * 0.84 = 0.83916
@@ -45,8 +41,6 @@ Here is a more practical example:
 
     ```{figure} images/image016.gif
     :alt: In the probability tree we take the path {S: 0.001, not D: 0.20}.
-
-    In the probability tree we take the path {S: 0.001, not D: 0.20}.
     ```
 
     P(S and not D) = P(S) * P(not D | S) = 0.001 * 0.20 = 0.0002
@@ -63,8 +57,6 @@ Here is a more practical example:
 
     ```{figure} images/image017.gif
     :alt: In order to calculate P(S | D), we attempt to calculate P(S | D) = P(S and D)/P(D). First, we note that P(S and D) comes from the tree path {S: 0.001, D: 0.80}, so P(S and D) = P(S) and P(D|S) = 0.001 * 0.80 = 0.0008. We also note that P(not S and D) comes from the tree path {not S: 0.999, D: 0.16 }, so P(not S and D) = P(not S) and P(D | not S) = 0.999 * 0.16 = 0.15984. So, now we can calculate P(D) = P(S and D) or P(not S and D) = 0.0008 + 0.15984 = 0.16064. Now, we can calculate P(S | D) = P(S and D)/P(D) = 0.0008/0.16064 = 0.005.
-
-    In order to calculate P(S | D), we attempt to calculate P(S | D) = P(S and D)/P(D). First, we note that P(S and D) comes from the tree path {S: 0.001, D: 0.80}, so P(S and D) = P(S) and P(D|S) = 0.001 * 0.80 = 0.0008. We also note that P(not S and D) comes from the tree path {not S: 0.999, D: 0.16 }, so P(not S and D) = P(not S) and P(D | not S) = 0.999 * 0.16 = 0.15984. So, now we can calculate P(D) = P(S and D) or P(not S and D) = 0.0008 + 0.15984 = 0.16064. Now, we can calculate P(S | D) = P(S and D)/P(D) = 0.0008/0.16064 = 0.005.
     ```
 ```
 
@@ -88,8 +80,6 @@ and in a previous activity we displayed the information using a probability tree
 
 ```{figure} images/lbd002.gif
 :alt: Here is the probability tree with paths through the tree shown in "{ 1st branch-off: probability of 1st branch off, 2nd branch-off: probability of 2nd branch off}": {H: 0.03, W: 0.98}; {H: 0.03, not W: 0.02}; {not H: 0.97, W: 0.01}; {not H: 0.97, not W: 0.99};
-
-Here is the probability tree with paths through the tree shown in "{ 1st branch-off: probability of 1st branch off, 2nd branch-off: probability of 2nd branch off}": {H: 0.03, W: 0.98}; {H: 0.03, not W: 0.02}; {not H: 0.97, W: 0.01}; {not H: 0.97, not W: 0.99};
 ```
 
 ```{note}

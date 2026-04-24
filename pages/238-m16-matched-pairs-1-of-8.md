@@ -14,8 +14,6 @@ So far we have introduced the first procedure—the two-sample t-test that is us
 
 ```{figure} images/image051.gif
 :alt: The X variable is a two-valued categorical explanatory variable. Using the categories we split the population into Population 1 and population 2. Each has its own Y mean, μ_1 and μ_2. For each population we generate a matched pair SRS of size n.
-
-The X variable is a two-valued categorical explanatory variable. Using the categories we split the population into Population 1 and population 2. Each has its own Y mean, μ_1 and μ_2. For each population we generate a matched pair SRS of size n.
 ```
 
 One of the most common cases where dependent samples occur is when both samples have the same subjects and they are "*paired by subject*." In other words, each subject is measured twice on the response variable, typically before and then after some kind of treatment/intervention in order to assess its effectiveness.
@@ -25,8 +23,6 @@ One of the most common cases where dependent samples occur is when both samples 
 
     ```{figure} images/image052.gif
     :alt: The X variable is whether a student has gone to prep class (Yes/No). From this we split the population into two populations: Population 1 which has Students with no SAT prep class, and Population 2, which has students that take the SAT prep class. Each population has its own SAT Score (Y) Mean, which is μ_1 for population 1 and μ_2 for population 2. We use the same subjects in both samples, but when we generate the SRS for population 1, we do it before the students take the prep class, and after they take the prep class we generate the SRS for population 2.
-
-    The X variable is whether a student has gone to prep class (Yes/No). From this we split the population into two populations: Population 1 which has Students with no SAT prep class, and Population 2, which has students that take the SAT prep class. Each population has its own SAT Score (Y) Mean, which is μ_1 for population 1 and μ_2 for population 2. We use the same subjects in both samples, but when we generate the SRS for population 1, we do it before the students take the prep class, and after they take the prep class we generate the SRS for population 2.
     ```
 
     Recall that the two populations represent the two values of the explanatory variable. In this situation, those two values come from *a single set of subjects*. In other words, both populations really have the *same students*. However, each population has a different value of the explanatory variable. Those values are: no prep class, prep class.
@@ -41,8 +37,6 @@ This section on matched pairs design will be organized very much like the previo
 
     ```{figure} images/image053.gif
     :alt: The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
-
-    The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
     ```
 ```
 

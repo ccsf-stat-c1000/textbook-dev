@@ -8,16 +8,12 @@ Furthermore, within the sub-case of comparing two means (i.e., examining the rel
 
 ```{figure} images/image014.gif
 :alt: Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
-
-Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
 ```
 
 In other cases, a matched pairs sample design may be used, where each observation in one sample is *matched/paired/linked* with an observation in the other sample. These are sometimes called "*dependent samples*."
 
 ```{figure} images/image015.gif
 :alt: Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS by using a paired method with respect to the SRS for Sub-population 1, generating a SRS of size n_2. The two samples are paired/matched.
-
-Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS by using a paired method with respect to the SRS for Sub-population 1, generating a SRS of size n_2. The two samples are paired/matched.
 ```
 
 Matching could be by person (if the same person is measured twice), or could actually be a pair of individuals who belong together in a relevant way (husband and wife, siblings). In this design, then, the same individual or a matched pair of individuals is used to make two measurements of the response—one for each of the two categorical values.

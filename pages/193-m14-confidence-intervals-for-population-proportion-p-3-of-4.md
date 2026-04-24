@@ -33,8 +33,6 @@ Practically, you first determine the sample size, then you choose a random sampl
 
 ```{figure} images/image095.gif
 :alt: A large circle represents the Population, for which we wish to find p. Step I is to determine the sample size n needed. Step II is to choose an SRS of size n. This is represented by an arrow, which leads to a smaller circle representing the SRS of size n. For the SRS we calculate p-hat. Step III is to use the obtained data to find p.
-
-A large circle represents the Population, for which we wish to find p. Step I is to determine the sample size n needed. Step II is to choose an SRS of size n. This is represented by an arrow, which leads to a smaller circle representing the SRS of size n. For the SRS we calculate p-hat. Step III is to use the obtained data to find p.
 ```
 
 So the fact that the expression above for determining the sample size depends on $\hat{p}$ is problematic.

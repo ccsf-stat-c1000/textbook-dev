@@ -12,8 +12,6 @@ The following picture illustrates this idea: (Think about the horizontal line as
 
 ```{figure} images/spread2.gif
 :alt: A horizontal line representing all of the data. The entire line represents the range of the data, and the leftmost point is the minimum data point. The rightmost point is the maximum data point. 25% of the range spanning the area between the leftmost point and 1/4 of the line from the leftmost point is labeled the Bottom 25% of the data. The area from the 1/4 point to the 3/4 point is labeled the middle 50% of the data. This is where the IQR is calculated. Indeed, the middle 50% represents half of the line. The rest of the line, the remaining 1/4 from the 3/4 point to the rightmost point, is the top 25% of the data.
-
-A horizontal line representing all of the data. The entire line represents the range of the data, and the leftmost point is the minimum data point. The rightmost point is the maximum data point. 25% of the range spanning the area between the leftmost point and 1/4 of the line from the leftmost point is labeled the Bottom 25% of the data. The area from the 1/4 point to the 3/4 point is labeled the middle 50% of the data. This is where the IQR is calculated. Indeed, the middle 50% represents half of the line. The rest of the line, the remaining 1/4 from the 3/4 point to the rightmost point, is the top 25% of the data.
 ```
 
 Here is how the IQR is actually found:

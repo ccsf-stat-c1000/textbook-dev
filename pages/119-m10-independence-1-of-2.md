@@ -11,8 +11,6 @@ As we saw in the Exploratory Data Analysis section, whenever a situation involve
 
     ```{figure} images/image001.gif
     :alt: The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
-
-    The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
     ```
 
     Would you expect those two variables to be related? That is, would you expect having pierced ears to depend on whether the student is male or female? Or, to put it yet another way, would knowing a student's gender affect the probability that the student's ears are pierced? To answer this, we may compare the overall probability of having pierced ears to the conditional probability of having pierced ears, given that a student is male. Our intuition would tell us that the latter should be lower: male students tend not to have their ears pierced, whereas female students do. Indeed, for students in general, the probability of having pierced ears (event E) is P(E) = 324/500 = .648. But the probability of having pierced ears given that a student is male is only P(E | M) = 36/180 = .20.
@@ -44,8 +42,6 @@ A homeowner has smoke alarms installed in the dining room (adjacent to the kitch
 
 ```{figure} images/dig002.gif
 :alt: A table, in which the column headings are "B," "not B," and "Total." The rows are "D," "not D," and "Total." Here is the data in "Row,Column: Value" format: D, B: .38; D, not B: .57; D, Total: .95; not D, B: .02; not D, not B: .03; not D, Total: .05; Total, B: .40; Total, not B: .60; Total, Total: 1.00;
-
-A table, in which the column headings are "B," "not B," and "Total." The rows are "D," "not D," and "Total." Here is the data in "Row,Column: Value" format: D, B: .38; D, not B: .57; D, Total: .95; not D, B: .02; not D, not B: .03; not D, Total: .05; Total, B: .40; Total, not B: .60; Total, Total: 1.00;
 ```
 
 ```{note}

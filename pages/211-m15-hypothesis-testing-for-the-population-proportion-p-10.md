@@ -27,8 +27,6 @@ Larger sample sizes give us more information to pin down the true nature of the 
 ```{admonition} Example: 2
     ```{figure} images/image276.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19, z = .91, and p-value = .182 . Since the p-value is too large we conclude that H_0 cannot be rejected.
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19, z = .91, and p-value = .182 . Since the p-value is too large we conclude that H_0 cannot be rejected.
     ```
 
     The data *do not* provide enough evidence that the proportion of marijuana users at the college is higher than the proportion among all U.S. college students, which is .157. So far, nothing new. Let's make small changes to the problem (and call it example 2*). The changes are highlighted and the problem is followed by a new figure that reflects the changes.
@@ -39,8 +37,6 @@ Larger sample sizes give us more information to pin down the true nature of the 
 
     ```{figure} images/image288.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 400 students, represented by a smaller circle, and find that 76 use marijuana.
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 400 students, represented by a smaller circle, and find that 76 use marijuana.
     ```
 
     We now have a larger sample (400 instead of 100), and also we changed the number of marijuana users (76 instead of 19).
@@ -61,16 +57,12 @@ Larger sample sizes give us more information to pin down the true nature of the 
 
     ```{figure} images/image289.gif
     :alt: p-hat = 76/400 = .19
-
-    p-hat = 76/400 = .19
     ```
 
     This is the same sample proportion as in the original problem, so it seems that the data give us the same evidence, but when we calculate the test statistic, we see that actually this is not the case:
 
     ```{figure} images/image290.gif
     :alt: z = (.19 - .157) / √[( .157 (1 - .157) )/400 ] ≈ 1.81
-
-    z = (.19 - .157) / √[( .157 (1 - .157) )/400 ] ≈ 1.81
     ```
 
     Even though the sample proportion is the same (.19), since here it is based on a larger sample (400 instead of 100), it is 1.81 standard deviations above the null value of .157 (as opposed to .91 standard deviations in the original problem).
@@ -87,8 +79,6 @@ Larger sample sizes give us more information to pin down the true nature of the 
 
     ```{figure} images/image291.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 400 students, represented by a smaller circle, and find that 76 use marijuana. Conditions are met to use our method, so p-hat = 76/400 = .19, z = 1.81, and p-value = .035 . The p-value is low enough to let us conclude that we can reject H_0.
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 400 students, represented by a smaller circle, and find that 76 use marijuana. Conditions are met to use our method, so p-hat = 76/400 = .19, z = 1.81, and p-value = .035 . The p-value is low enough to let us conclude that we can reject H_0.
     ```
 ```
 

@@ -12,16 +12,12 @@ However, the ANOVA F-test does not provide any insight into why H~0~ was rejecte
 
 ```{figure} images/image28.png
 :alt: Illustrated are the confidence intervals for μ_i and μ_j on a number line. We see that they overlap, so there is an overlap in plausible values.
-
-Illustrated are the confidence intervals for μ_i and μ_j on a number line. We see that they overlap, so there is an overlap in plausible values.
 ```
 
 * If the confidence interval for $\mu_{i}$ does not overlap with the confidence interval for $\mu_{j}$ , then $\mu_{i}$ and $\mu_{j}$ do not share plausible values, which means that the data suggest that these two ’s are different.
 
 ```{figure} images/image34.png
 :alt: Illustrated are the confidence intervals for μ_i and μ_j on a number line. We see that do not overlap, so there is no overlap in plausible values.
-
-Illustrated are the confidence intervals for μ_i and μ_j on a number line. We see that do not overlap, so there is no overlap in plausible values.
 ```
 
 Furthermore, if like in the figure above the confidence interval (set of plausible values) for $\mu_{i}$ lies entirely below the confidence interval (set of plausible values) for $\mu_{j}$, then the data suggest that $\mu_{i}$ is smaller than $\mu_{j}$.
@@ -31,8 +27,6 @@ Furthermore, if like in the figure above the confidence interval (set of plausib
 
     ```{figure} images/image171_excel.gif
     :alt: Business: Mean = 7.314, StDev = 2.898. The 95% Confidence Interval is about (6.5, 8.5) English: Mean = 11.771, StDev = 2.088. The 95% Confidence Interval is about (11, 13) Mathematics: Mean = 13.2, StDev = 2.153. The 95% Confidence Interval is about (12.5, 14.5) Psychology: Mean = 14.029, StDev = 3.082. The 95% Confidence Interval is about (13, 15)
-
-    Business: Mean = 7.314, StDev = 2.898. The 95% Confidence Interval is about (6.5, 8.5) English: Mean = 11.771, StDev = 2.088. The 95% Confidence Interval is about (11, 13) Mathematics: Mean = 13.2, StDev = 2.153. The 95% Confidence Interval is about (12.5, 14.5) Psychology: Mean = 14.029, StDev = 3.082. The 95% Confidence Interval is about (13, 15)
     ```
 
     Based on the small p-value, we rejected H~o~ and concluded that not all four frustration level means are equal, or in other words that frustration level is related to the student's major. To get more insight into that relationship, we can look at the confidence intervals above (marked in red). The top confidence interval is the set of plausible values for $\mu$ ~1~, the mean frustration level of business students. The confidence interval below it is the set of plausible values for $\mu$ ~2~, the mean frustration level of English students, etc.

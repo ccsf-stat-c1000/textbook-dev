@@ -21,8 +21,6 @@ We will not go into the formula and calculation of the confidence interval, but 
 
     ```{figure} images/image047.gif
     :alt: The Gender(X) Variable has two categories, which gives us Population 1: Females and Population 2: Males. Each population has its own Y-Mean μ, so population 1&apos;s mean is μ_1 and population 2&apos;s mean is μ_2. For each population we take an SRS. For Population 1, an SRS of size 150 is taken, and for population 2 an SRS of size 85 is taken.
-
-    The Gender(X) Variable has two categories, which gives us Population 1: Females and Population 2: Males. Each population has its own Y-Mean μ, so population 1&apos;s mean is μ_1 and population 2&apos;s mean is μ_2. For each population we take an SRS. For Population 1, an SRS of size 150 is taken, and for population 2 an SRS of size 85 is taken.
     ```
 
     StatCrunchRMinitabExcel 2007TI CalculatorExcel 2019 PCExcel 2019 MacTip: Alternative versions are available, click the arrow to switch. Here again is the output:Here again is the output:Here again is the output:In this case, Excel tells us that the 95% confidence interval is (-3.69590, -1.49625).Here is the output for STAT/TESTS/0:2-SampTInt:In this case, Excel tells us that the 95% confidence interval is (-3.69590, -1.49625).In this case, Excel tells us that the 95% confidence interval is (-3.69590, -1.49625).

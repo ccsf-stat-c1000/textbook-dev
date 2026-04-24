@@ -40,16 +40,12 @@ This is a good opportunity to illustrate an important idea that was discussed ea
 
 ```{figure} images/image144.gif
 :alt: A two-way table for observed counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; (categories of Drank Alcohol in the last 2 hours?) and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 231; Male, No: 1212; Male, Total: 1443; Female, Yes: 48; Female, No: 366; Female, Total: 414; Total, Yes: 279; Total, No: 1578; Total, Total: 1875;
-
-A two-way table for observed counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; (categories of Drank Alcohol in the last 2 hours?) and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 231; Male, No: 1212; Male, Total: 1443; Female, Yes: 48; Female, No: 366; Female, Total: 414; Total, Yes: 279; Total, No: 1578; Total, Total: 1875;
 ```
 
 and see what would have happened if these were the original data. Obviously, the conditional counts would remain the same:
 
 ```{figure} images/image145.gif
 :alt: A two-way table for conditional counts, in which the columns are labeled &quot;Yes&quot; and &quot;No&quot; (categories of Drank Alcohol in the last 2 hours?). The rows are labeled &quot;Male&quot; and &quot;Female.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 231/1443 = 16.0% Male, No: 1212/1443 = 84.0% Female, Yes: 48/414 = 11.6% Female, No: 366/414 = 88.4%
-
-A two-way table for conditional counts, in which the columns are labeled &quot;Yes&quot; and &quot;No&quot; (categories of Drank Alcohol in the last 2 hours?). The rows are labeled &quot;Male&quot; and &quot;Female.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: 231/1443 = 16.0% Male, No: 1212/1443 = 84.0% Female, Yes: 48/414 = 11.6% Female, No: 366/414 = 88.4%
 ```
 
 In other words, the sample provides the "same" results, but this time they are based on a much larger sample (1857 instead of 619). This is reflected by the chi-square test. In this case, software gives us a chi-square statistic of 4.910 and a p-value of 0.027.

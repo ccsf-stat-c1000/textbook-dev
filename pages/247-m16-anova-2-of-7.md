@@ -28,8 +28,6 @@ As we mentioned earlier, here we have just one alternative hypothesis, which cla
 
     ```{figure} images/image100.gif
     :alt: The X variable is major, and it has four categories, which are Business, English, Mathematics, and Psychology. We have four populations, one for each of these categories. We are interested in the level of frustration (Y) mean for each population, so we have 4 μ, one for each population. For each population we take a sample of size 35, resulting in 4 separate samples.
-
-    The X variable is major, and it has four categories, which are Business, English, Mathematics, and Psychology. We have four populations, one for each of these categories. We are interested in the level of frustration (Y) mean for each population, so we have 4 μ, one for each population. For each population we take a sample of size 35, resulting in 4 separate samples.
     ```
 
     ```{note}
@@ -42,8 +40,6 @@ As we mentioned earlier, here we have just one alternative hypothesis, which cla
 
     ```{figure} images/image101.gif
     :alt: H_0: μ_1 = μ_2 = μ_3 = μ_4, H_a: not all the μ's are equal
-
-    H_0: μ_1 = μ_2 = μ_3 = μ_4, H_a: not all the μ's are equal
     ```
 
     Note that there are many ways for $\mu_{1},\mu_{2},\mu_{3},\mu_{4}$ not to be all equal, and	$\mu_{1}\neq\mu_{2}\neq\mu_{3}\neq\mu_{4}$	is just one of them. Another way could be	$\mu_{1}=\mu_{2}=\mu_{3}\neq\mu_{4}$ or	$\mu_{1}=\mu_{2}\neq\mu_{3}=\mu_{4}$. The alternative of the ANOVA F-test simply states that not all of the means are equal, and is not specific about the way in which they are different.

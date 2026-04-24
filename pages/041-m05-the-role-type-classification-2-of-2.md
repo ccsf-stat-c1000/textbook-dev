@@ -15,8 +15,6 @@ This role-type classification can be summarized and easily visualized in the fol
 
 ```{figure} images/relationships_overview1.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q)
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q)
 ```
 
 This role-type classification serves as the infrastructure for this entire section. In each of the four cases, different statistical tools (displays and numerical measures) should be used to explore the relationship between the two variables. This suggests the following important principle:
@@ -71,8 +69,6 @@ For your convenience, here again is the role-type classification table:
 
 ```{figure} images/relationships_overview1.gif
 :alt: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), Quantitative Explanatory → Quantitative Response (Q→Q)
-
-Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), Quantitative Explanatory → Quantitative Response (Q→Q)
 ```
 
 ```{note}

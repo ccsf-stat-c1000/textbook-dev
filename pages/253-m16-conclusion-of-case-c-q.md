@@ -6,8 +6,6 @@ The following table summarizes when each of the three sub-cases, covered in this
 
 ```{figure} images/c-q_table.png
 :alt: A Two-sample test is used in circumstances: * Categorical explanatory variable with two categories * Comparing two population means based on two independent samples * Either normal populations or large sample size A Paired t-test (special case of the one sample t-test) is used when: * Categorical explanatory variable with two categories * Comparing the two population means, when the samples are dependent on each other or "matched pairs." *Samples are dependent in the sense that every observation in one sample is linked to an observation in another sample. Examples of dependent samples include: -same subjects measured twice, -twins ANOVA is used when * Categorical explanatory variable with more than two categories. * Comparing more than two population means based on independent samples
-
-A Two-sample test is used in circumstances: * Categorical explanatory variable with two categories * Comparing two population means based on two independent samples * Either normal populations or large sample size A Paired t-test (special case of the one sample t-test) is used when: * Categorical explanatory variable with two categories * Comparing the two population means, when the samples are dependent on each other or "matched pairs." *Samples are dependent in the sense that every observation in one sample is linked to an observation in another sample. Examples of dependent samples include: -same subjects measured twice, -twins ANOVA is used when * Categorical explanatory variable with more than two categories. * Comparing more than two population means based on independent samples
 ```
 
 The following summary discusses each of the above named sub-cases of C→Q within the context of the hypothesis testing process.
@@ -16,8 +14,6 @@ The following summary discusses each of the above named sub-cases of C→Q withi
 
 ```{figure} images/c-q_table2.png
 :alt: In a Two-Sample t-test, the hypotheses are: H_0: μ_1 - μ_2 = 0 (or H_0: μ_1 = μ_2), and one of: * H_a: μ_1 - μ_2 < 0 (same as H_a: μ_1 < μ_2) * H_a: μ_1 - μ_2 > 0 (same as H_a: μ_1 > μ_2) * H_a: μ_1 - μ_2 ≠ 0 (same as H_a: μ_1 ≠ μ_2) For a paired t-test, the hypotheses are H_0: μ_d = 0, and one of: * H_a: μ_d < 0, * H_a: μ_d > 0, * H_0: μ_0 ≠ 0. For ANOVA, H_0: μ_0 = μ_2 = ... = μ_k, and H_a:not all μ's are equal
-
-In a Two-Sample t-test, the hypotheses are: H_0: μ_1 - μ_2 = 0 (or H_0: μ_1 = μ_2), and one of: * H_a: μ_1 - μ_2 < 0 (same as H_a: μ_1 < μ_2) * H_a: μ_1 - μ_2 > 0 (same as H_a: μ_1 > μ_2) * H_a: μ_1 - μ_2 ≠ 0 (same as H_a: μ_1 ≠ μ_2) For a paired t-test, the hypotheses are H_0: μ_d = 0, and one of: * H_a: μ_d < 0, * H_a: μ_d > 0, * H_0: μ_0 ≠ 0. For ANOVA, H_0: μ_0 = μ_2 = ... = μ_k, and H_a:not all μ's are equal
 ```
 
 *II. Check Conditions, and Summarize the Data Using a Test Statistic*
@@ -41,8 +37,6 @@ For the Paired t-test (as a special case of a one-sample t-test), the conditions
 
 ```{figure} images/image074.gif
 :alt: A table which has two columns and two rows. The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally" and "Variable doesn't vary normally." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally, Small sample size: OK (in this case, we should check normality visually using a histogram of the sample differences); Variable varies normally, Large sample size: OK; Variable doesn't vary normally, Small sample size: NOT OK; Variable doesn't vary normally, Large sample size: OK;
-
-A table which has two columns and two rows. The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally" and "Variable doesn't vary normally." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally, Small sample size: OK (in this case, we should check normality visually using a histogram of the sample differences); Variable varies normally, Large sample size: OK; Variable doesn't vary normally, Small sample size: NOT OK; Variable doesn't vary normally, Large sample size: OK;
 ```
 
 For an ANOVA, the conditions are:

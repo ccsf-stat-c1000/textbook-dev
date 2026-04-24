@@ -17,16 +17,12 @@ It is not uncommon for experiments to feature two or more explanatory variables 
 
     ```{figure} images/image009.gif
     :alt: The column headings for the table are for the Diet variable: "No-diet", "Special diet 1" and "Special diet 2." The Rows are for the drug variable: "Placebo," "Drug 1," and "Drug 2." There are 9 cells in the table, one for every possible combination of row and column. These cells are labeled "tttX", where X is in the range of [1-9], representing each combination.
-
-    The column headings for the table are for the Diet variable: "No-diet", "Special diet 1" and "Special diet 2." The Rows are for the drug variable: "Placebo," "Drug 1," and "Drug 2." There are 9 cells in the table, one for every possible combination of row and column. These cells are labeled "tttX", where X is in the range of [1-9], representing each combination.
     ```
 
     Subjects would be randomly assigned to one of the nine treatment groups. If we find differences in the proportions of subjects who achieve the lower "moderate zone" blood pressure among the nine treatment groups, then we have evidence that the diets and/or drugs may be effective for reducing blood pressure.
 
     ```{figure} images/image010.gif
     :alt: From the population we generate a sample. The individuals of the sample are represented as a whole visually with a circle. These individuals are then divided by randomly assigning them to one of the 9 treatment groups. These treatment groups are "ttt1: no-diet and placebo,", "ttt2: diet 1 and placebo", "ttt3: diet 2 and placebo", and so on, up to "ttt9: diet 2 and drug 2." The responses from each of these treatment groups are compared.
-
-    From the population we generate a sample. The individuals of the sample are represented as a whole visually with a circle. These individuals are then divided by randomly assigning them to one of the 9 treatment groups. These treatment groups are "ttt1: no-diet and placebo,", "ttt2: diet 1 and placebo", "ttt3: diet 2 and placebo", and so on, up to "ttt9: diet 2 and drug 2." The responses from each of these treatment groups are compared.
     ```
 ```
 

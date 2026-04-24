@@ -13,8 +13,6 @@ When the data provide enough evidence to reject H~o~, we can conclude (depending
 
     ```{figure} images/image277.gif
     :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = .64 and H_a: p ≠ .64 . We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675, z = 2.31, and the p-value is .021 , which is small enough to let us reject H_0.
-
-    A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = .64 and H_a: p ≠ .64 . We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675, z = 2.31, and the p-value is .021 , which is small enough to let us reject H_0.
     ```
 
     we concluded that the proportion of U.S. adults who support the death penalty for convicted murderers has changed since 2003, when it was .64. It is probably of interest not only to know that the proportion has changed, but also to estimate what it has changed to. We've calculated the 95% confidence interval for p on the previous page and found that it is (.645, .705).
@@ -31,8 +29,6 @@ When the data provide enough evidence to reject H~o~, we can conclude (depending
 
     ```{figure} images/image275.gif
     :alt: A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = .20 and H_a: p < .20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16, and z = -2 and p-value = .023 . Since the p-value is small we conclude that H_0 can be rejected.
-
-    A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = .20 and H_a: p < .20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16, and z = -2 and p-value = .023 . Since the p-value is small we conclude that H_0 can be rejected.
     ```
 
     We conclude that as a result of the repair, the proportion of defective products has been reduced to below .20 (which was the proportion prior to the repair). It is probably of great interest to the company not only to know that the proportion of defective has been reduced, but also estimate what it has been reduced to, to get a better sense of how effective the repair was. A 95% confidence interval for p in this case is:

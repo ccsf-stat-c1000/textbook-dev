@@ -13,8 +13,6 @@ In inference for relationships, so far we have learned inference procedures for 
 
 ```{figure} images/image122.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
 ```
 
 In the Exploratory Data Analysis section, we examined the relationship between sample values for two quantitative variables by looking at a scatterplot and focused on the linear relationship by supplementing the scatterplot with the correlation coefficient r.
@@ -25,8 +23,6 @@ If we conclude that we can generalize the observed linear relationship to the en
 
 ```{figure} images/image146.gif
 :alt: We represent our population of interest with a large circle. The question we which want to answer about the population is "Are the two quantitative variables X and Y related?" To answer this, we take an SRS of size n, generating our data. The data is summarized with a scatterplot and r, and we observe the linearity of the relationship between X and Y. Then, in the inference step we ask ourselves "is the evidence of linear relationship in the data strong enough that we can generalize it to the entire population?" If it is strong enough, we use the data to estimate the lne that governs the relationship between X and Y in the populations.
-
-We represent our population of interest with a large circle. The question we which want to answer about the population is "Are the two quantitative variables X and Y related?" To answer this, we take an SRS of size n, generating our data. The data is summarized with a scatterplot and r, and we observe the linearity of the relationship between X and Y. Then, in the inference step we ask ourselves "is the evidence of linear relationship in the data strong enough that we can generalize it to the entire population?" If it is strong enough, we use the data to estimate the lne that governs the relationship between X and Y in the populations.
 ```
 
 Note that the figure summarizes the whole process. Let's review it again.

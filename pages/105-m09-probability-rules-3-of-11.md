@@ -47,14 +47,10 @@ Here are two examples:
 
     ```{figure} images/image015.gif
     :alt: A Venn diagram titled "A and B are Disjoint." The entire sample space is represented as a rectangle. Inside the rectangle are two separate circles. One circle represents the events in A and the other represents the events in B.
-
-    A Venn diagram titled "A and B are Disjoint." The entire sample space is represented as a rectangle. Inside the rectangle are two separate circles. One circle represents the events in A and the other represents the events in B.
     ```
 
     ```{figure} images/image016.gif
     :alt: A Venn diagram titled "A and B are NOT Disjoint." The entire sample space is represented as a rectangle. Inside the rectangle are two circles. One circle represents the occurrences in A and the other represents the occurrences in B. These two are not disjoint, so the two circles partially overlap each other. (Being NOT disjoint, two circles could overlap each other completely, but in this example they do not.)
-
-    A Venn diagram titled "A and B are NOT Disjoint." The entire sample space is represented as a rectangle. Inside the rectangle are two circles. One circle represents the occurrences in A and the other represents the occurrences in B. These two are not disjoint, so the two circles partially overlap each other. (Being NOT disjoint, two circles could overlap each other completely, but in this example they do not.)
     ```
 ```
 

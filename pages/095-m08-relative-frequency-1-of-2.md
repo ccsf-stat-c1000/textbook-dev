@@ -20,8 +20,6 @@ To estimate the probability of event A, written P(A), we may repeat the random e
 
 ```{figure} images/image005a.gif
 :alt: Relative Frequency of Event A = (number of times A occurred)/(total number of repetitions).
-
-Relative Frequency of Event A = (number of times A occurred)/(total number of repetitions).
 ```
 
 ## Did I Get This?

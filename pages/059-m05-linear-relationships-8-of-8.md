@@ -20,8 +20,6 @@ Predicted distance = 576 + (- 3 * 60) = 396
 
 ```{figure} images/linear21.gif
 :alt: The scatterplot for Introductory Course Average vs. Upper Level Course Average. In addition to the data plotted on the scatterplot, we have a least squares regression line. The line's equation is Y = -1.4 + X.
-
-The scatterplot for Introductory Course Average vs. Upper Level Course Average. In addition to the data plotted on the scatterplot, we have a least squares regression line. The line's equation is Y = -1.4 + X.
 ```
 
 ```{note}

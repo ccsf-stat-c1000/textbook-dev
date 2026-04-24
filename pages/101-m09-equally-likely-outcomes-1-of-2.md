@@ -21,8 +21,6 @@ In the Introduction to Probability (Module 7), we learned how the relative frequ
 
     ```{figure} images/image006.gif
     :alt: The 6 possible outcomes of rolling a die. These are 1, 2, 3, 4, 5, or 6. Of these, 2, 4, 6 are in our event E.
-
-    The 6 possible outcomes of rolling a die. These are 1, 2, 3, 4, 5, or 6. Of these, 2, 4, 6 are in our event E.
     ```
 
     the probability of event E is simply P(E) = 3/6.
@@ -34,8 +32,6 @@ In the special situation where all the outcomes in S are equally likely, we can 
 
 ```{figure} images/image007.gif
 :alt: P(A) = (number of outcomes in A)/(number of outcomes in S)
-
-P(A) = (number of outcomes in A)/(number of outcomes in S)
 ```
 
 The purpose of the next activity is to give you guided practice on how to find the probability of an event in situations in which all the possible outcomes are equally likely.

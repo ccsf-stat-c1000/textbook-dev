@@ -26,8 +26,6 @@ $0.997=P(\mu-3\sigma<X<\mu+3\sigma)$
 
 ```{figure} images/image121.gif
 :alt: A normal bell curve with some ranges marked. At the center (peak) of the bell curve is μ. The area under the bell curve between μ-σ < X < μ+σ compromises of 0.68 of the total area under the bell curve (which is 1). The area under the bell curve between μ-2σ < X < μ+2σ is 0.95 of the total area under the curve. Capturing even more area under the bell curve is the range of μ-3σ < X < μ+3σ, which is 0.997 of the total area under the curve.
-
-A normal bell curve with some ranges marked. At the center (peak) of the bell curve is μ. The area under the bell curve between μ-σ < X < μ+σ compromises of 0.68 of the total area under the bell curve (which is 1). The area under the bell curve between μ-2σ < X < μ+2σ is 0.95 of the total area under the curve. Capturing even more area under the bell curve is the range of μ-3σ < X < μ+3σ, which is 0.997 of the total area under the curve.
 ```
 
 ## Comment
@@ -36,20 +34,14 @@ Notice that the information from the rule can be interpreted from the perspectiv
 
 ```{figure} images/image122.gif
 :alt: A normal bell curve, in which μ, μ-σ, and μ+σ have been marked on the horizontal axis. The probability of being within one standard deviation of μ, or between μ-σ and μ+σ, is .68 . The probability of being below one standard deviation from the mean is the area under the bell curve to the left of μ-σ which is .16 . Likewise, the probability of being further than one standard deviation above the mean is the area under the bell curve to the right of μ+σ, which is .16 .
-
-A normal bell curve, in which μ, μ-σ, and μ+σ have been marked on the horizontal axis. The probability of being within one standard deviation of μ, or between μ-σ and μ+σ, is .68 . The probability of being below one standard deviation from the mean is the area under the bell curve to the left of μ-σ which is .16 . Likewise, the probability of being further than one standard deviation above the mean is the area under the bell curve to the right of μ+σ, which is .16 .
 ```
 
 ```{figure} images/image123.gif
 :alt: A normal bell curve. The probability of being within two standard deviation of μ is .95 . The probability of being further than two standard deviations below the mean is the area under the bell curve to the left of μ-2σ which is .025 . The probability of being further than two standard deviation above the mean is the area under the bell curve to the right of μ+2σ, which is .025 .
-
-A normal bell curve. The probability of being within two standard deviation of μ is .95 . The probability of being further than two standard deviations below the mean is the area under the bell curve to the left of μ-2σ which is .025 . The probability of being further than two standard deviation above the mean is the area under the bell curve to the right of μ+2σ, which is .025 .
 ```
 
 ```{figure} images/image124.gif
 :alt: A normal bell curve. The probability of being within three standard deviation of μ is .997 . The probability of being below three standard deviations from the mean is the area under the bell curve to the left of μ-3σ which is .0015 . The probability of being further than three standard deviation above the mean is the area under the bell curve to the right of μ+3σ, which is .0015 .
-
-A normal bell curve. The probability of being within three standard deviation of μ is .997 . The probability of being below three standard deviations from the mean is the area under the bell curve to the left of μ-3σ which is .0015 . The probability of being further than three standard deviation above the mean is the area under the bell curve to the right of μ+3σ, which is .0015 .
 ```
 
 ```{admonition} Example
@@ -57,8 +49,6 @@ A normal bell curve. The probability of being within three standard deviation of
 
     ```{figure} images/image127.gif
     :alt: A probability distribution curve in which the horizontal axis is labeled "X - Foot Length." The curve is a normal bell curve. The mean, μ, is at X=11. The first standard deviation is at X=9.5 and X=12.5, with probability of .68 . The second standard deviation is X=8 and X=14, with probability of .95 . The third standard deviation is at X=6.5 and X=15.5, with probability of .997 .
-
-    A probability distribution curve in which the horizontal axis is labeled "X - Foot Length." The curve is a normal bell curve. The mean, μ, is at X=11. The first standard deviation is at X=9.5 and X=12.5, with probability of .68 . The second standard deviation is X=8 and X=14, with probability of .95 . The third standard deviation is at X=6.5 and X=15.5, with probability of .997 .
     ```
 
     *(a)* What is the probability that a randomly chosen adult male will have a foot length between 8 and 14 inches? .95, or 95%.
@@ -69,8 +59,6 @@ A normal bell curve. The probability of being within three standard deviation of
 
     ```{figure} images/image128.gif
     :alt: The probability distribution curve for foot lengths. The 2nd standard deviation boundaries from the mean have been marked at X=8 and X=14 . The probability of being within 2 standard deviations of the mean is .95, and the probability of being above 2 standard deviations (X > 14) is .025 . The probability of being below the 2nd standard deviation (X < 8) is also .025 .
-
-    The probability distribution curve for foot lengths. The 2nd standard deviation boundaries from the mean have been marked at X=8 and X=14 . The probability of being within 2 standard deviations of the mean is .95, and the probability of being above 2 standard deviations (X > 14) is .025 . The probability of being below the 2nd standard deviation (X < 8) is also .025 .
     ```
 
     Now you should try a few. (Use the figure that is just before *part (a)* to help you.)

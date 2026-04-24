@@ -11,8 +11,6 @@ Let's generalize the IQ example. Suppose that we are interested in estimating th
 
 ```{figure} images/image036.gif
 :alt: A large circle represents the population of interest. μ is unknown, but σ is known about the population. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS.
-
-A large circle represents the population of interest. μ is unknown, but σ is known about the population. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS.
 ```
 
 The values of $\bar{x}$ follow a normal distribution with (unknown) mean μ and standard deviation $\frac{\sigma}{\sqrt{n}}$ (known, since both σ and n are known). By the (second part of the) Standard Deviation Rule, this means that:
@@ -46,8 +44,6 @@ Let's look at another example.
 
     ```{figure} images/image045.gif
     :alt: A large circle represents the population of Community college students in the researcher&apos;s state. μ is unknown, but σ is known about the population. From the population we create a SRS of size n=650, represented by a smaller circle. We can find that x-bar=475 for this SRS.
-
-    A large circle represents the population of Community college students in the researcher&apos;s state. μ is unknown, but σ is known about the population. From the population we create a SRS of size n=650, represented by a smaller circle. We can find that x-bar=475 for this SRS.
     ```
 
     Based on this information, let's estimate μ with a 95% confidence interval.
@@ -102,8 +98,6 @@ We just saw that one interpretation of a 95% confidence interval is that we are 
 
     ```{figure} images/image050.gif
     :alt: A number line, on which the 95% confidence interval for μ has been marked, from 467 to 483. At 480 is the mean SAT-M score in the general population of college students in the state.
-
-    A number line, on which the 95% confidence interval for μ has been marked, from 467 to 483. At 480 is the mean SAT-M score in the general population of college students in the state.
     ```
 
     This means that μ could be 480 (or even higher, up to 483), and therefore we cannot conclude that the mean SAT-M score among community college students in the state is lower than the mean in the general population of college students in that state. (Note that the fact that most of the plausible values for μ fall below 480 is not a consideration here.)

@@ -11,8 +11,6 @@ The next example will illustrate another way in which a lurking variable might i
 
     ```{figure} images/causation4.gif
     :alt: A side-by-side boxplot. The vertical axis is labeled "SAT Math Score", and it ranges from 450 to 800. The horizontal axis is labeled "Country" and has two categories, "Other" and "US".
-
-    A side-by-side boxplot. The vertical axis is labeled "SAT Math Score", and it ranges from 450 to 800. The horizontal axis is labeled "Country" and has two categories, "Other" and "US".
     ```
 
     The distribution of international students' scores is higher than that of U.S. students. The international students' median score (about 700) exceeds the third quartile of U.S. students' scores. Can we conclude that the country of origin is the *cause* of the difference in SAT Math scores, and that students in the United States are weaker at math than students in other countries?
@@ -23,8 +21,6 @@ The next example will illustrate another way in which a lurking variable might i
 
     ```{figure} images/causation5.gif
     :alt: A flowchart. We have two causes, one of which is "Education level of SAT Takers". This is a "Lurking variable " The other cause is "Nationality (X)". Both of these might be causes of " SAT-Math score (Y)". We have observed an association between "Nationality (X)" and "SAT-Math Score (Y)". Notice that between these two variables is also a suspected cause relationship.
-
-    A flowchart. We have two causes, one of which is "Education level of SAT Takers". This is a "Lurking variable " The other cause is "Nationality (X)". Both of these might be causes of " SAT-Math score (Y)". We have observed an association between "Nationality (X)" and "SAT-Math Score (Y)". Notice that between these two variables is also a suspected cause relationship.
     ```
 
     Here, the explanatory variable (X) *may* have a causal relationship with the response variable (Y), but the lurking variable might be a contributing factor as well, which makes it very hard to isolate the effect of the explanatory variable and prove that it has a causal link with the response variable. In this case, we say that the lurking variable is *confounded* with the explanatory variable, since their effects on the response variable cannot be distinguished from each other.

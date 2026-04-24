@@ -30,8 +30,6 @@ $H_{a}:\mu\neq\mu_{0}$ (two-sided)
 
     ```{figure} images/image311.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we want to answer is &quot;is the mean SAT-M 500 (national mean) or is it higher? (Assume: SD = 100).&quot; We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we want to answer is &quot;is the mean SAT-M 500 (national mean) or is it higher? (Assume: SD = 100).&quot; We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
     ```
 ```
 
@@ -52,16 +50,12 @@ $H_{a}:\mu\neq\mu_{0}$ (two-sided)
 
     ```{figure} images/image314.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. The question we want to answer is &quot;is the mean concentration the required 250ppm or not? (Assume: SD = 12).&quot; Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. The question we want to answer is &quot;is the mean concentration the required 250ppm or not? (Assume: SD = 12).&quot; Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
     ```
 
     The null and alternative hypotheses in this case are therefore:
 
     ```{figure} images/image320.gif
     :alt: H_0: μ = 250, H_a: μ ≠ 250
-
-    H_0: μ = 250, H_a: μ ≠ 250
     ```
 ```
 
@@ -99,8 +93,6 @@ The test statistic is: $z=\frac{\bar{x}-\mu_{0}}{\frac{\sigma}{\sqrt{n}}}$ .
 
 ```{figure} images/image325.gif
 :alt: A table with two columns and two rows, titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size.&quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
-
-A table with two columns and two rows, titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size.&quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
 ```
 
 3. If the conditions are met, then $\bar{X}$ values vary normally, or at least close enough to normally to use a normal model to calculate probabilities. When $\bar{X}$ values are normal, then the z-scores will be normally distributed with a mean of 0 and a standard deviation of 1.
@@ -112,8 +104,6 @@ Let's go back to our examples.
 
     ```{figure} images/image327.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550.
     ```
 
     Let's start by checking the conditions:
@@ -124,8 +114,6 @@ Let's go back to our examples.
 
     ```{figure} images/image328.gif
     :alt: The same table as before. The &quot;Variable varies normally in the population, Small sample size&quot; case is what this example is. As a recap, the table has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK, (this is the case this example is); Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
-
-    The same table as before. The &quot;Variable varies normally in the population, Small sample size&quot; case is what this example is. As a recap, the table has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK, (this is the case this example is); Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
     ```
 
     The sample mean is $\bar{x}=550$, and so the test statistic is:
@@ -136,16 +124,12 @@ Let's go back to our examples.
 
     ```{figure} images/image331.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and with our conditions met, we can find that z = 1.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and with our conditions met, we can find that z = 1.
     ```
 ```
 
 ```{admonition} Example: 2
     ```{figure} images/image332.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12). Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12). Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247.
     ```
 
     In this case, the conditions that allow us to carry out the z-test are met since:
@@ -156,8 +140,6 @@ Let's go back to our examples.
 
     ```{figure} images/image333.gif
     :alt: The same table as before. The &quot;Variable doesn&apos;t vary normally in the population, Large sample size&quot; case is what this example is. As a recap, the table has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK, (this is the case this example is);
-
-    The same table as before. The &quot;Variable doesn&apos;t vary normally in the population, Large sample size&quot; case is what this example is. As a recap, the table has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK, (this is the case this example is);
     ```
 
     The z-statistic in this case is: $z=\frac{247−250}{\frac{12}{\sqrt{100}}}=−2.5$
@@ -166,8 +148,6 @@ Let's go back to our examples.
 
     ```{figure} images/image335.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12). Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that z = -2.5
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12). Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that z = -2.5
     ```
 ```
 
@@ -189,8 +169,6 @@ Use the following histogram to answer the question below.
 
 ```{figure} images/_u5_m1_dig24a_01.gif
 :alt: A histogram titled &quot;Histogram 1&quot;, and the vertical axis is labeled &quot;Frequency.&quot; Here is the data shown on the histogram, given in &quot;Horizontal axis value, vertical axis value&quot; format: 7: 1 8: 3 9: 3 10: 1 11: 4 12: 1 13: 1 14: 1
-
-A histogram titled &quot;Histogram 1&quot;, and the vertical axis is labeled &quot;Frequency.&quot; Here is the data shown on the histogram, given in &quot;Horizontal axis value, vertical axis value&quot; format: 7: 1 8: 3 9: 3 10: 1 11: 4 12: 1 13: 1 14: 1
 ```
 
 ```{note}

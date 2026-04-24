@@ -4,8 +4,6 @@ Recall the Big Picture—the four-step process that encompasses statistics (as i
 
 ```{figure} images/big_picture_probability.gif
 :alt: The Big Picture of Statistics. First, a set of data was created from subset of the population. This is the Producing Data step. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions. In this unit we will be looking at the Probability step.
-
-The Big Picture of Statistics. First, a set of data was created from subset of the population. This is the Producing Data step. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions. In this unit we will be looking at the Probability step.
 ```
 
 So far, we've discussed the first two steps:
@@ -27,8 +25,6 @@ Recall from the Sampling module that when we say a random sample represents the 
 
     ```{figure} images/image002.gif
     :alt: We have a large circle representing the entire population of US Adults. We are interested in the population's opinions on the death penalty. From this population we take out a random sample of 1200 adults, and find that within this sample, 62% are in favor of the death penalty.
-
-    We have a large circle representing the entire population of US Adults. We are interested in the population's opinions on the death penalty. From this population we take out a random sample of 1200 adults, and find that within this sample, 62% are in favor of the death penalty.
     ```
 
     Our goal here is to do inference—learn and draw conclusions about the opinions of the entire population of U.S. adults regarding the death penalty, based on the opinions of only 1,200 of them.

@@ -14,8 +14,6 @@ Using a Venn diagram, we can visualize "A and B," which is represented by the ov
 
 ```{figure} images/image019.gif
 :alt: A rectangle represents the entire sample space. Inside this rectangle are two circles, one for the occurrences in A and one for the occurrences in B. These two circles partially overlap. The area in the overlap contains the ocurrences for A and B.
-
-A rectangle represents the entire sample space. Inside this rectangle are two circles, one for the occurrences in A and one for the occurrences in B. These two circles partially overlap. The area in the overlap contains the ocurrences for A and B.
 ```
 
 ## Comment
@@ -65,8 +63,6 @@ Here are a few examples:
 
     ```{figure} images/image020.gif
     :alt: The coins in the woman's pocket. There are 2 Quarters and 2 Nickels.
-
-    The coins in the woman's pocket. There are 2 Quarters and 2 Nickels.
     ```
 
     and therefore the P(Q2) = 2/4 = 1/2 regardless of whether Q1 occurred.
@@ -83,16 +79,12 @@ Here are a few examples:
 
     ```{figure} images/image021.gif
     :alt: One Quarter and Two Nickels
-
-    One Quarter and Two Nickels
     ```
 
     In this case, P(Q2) = 1/3. However, if Q1 has not occurred (i.e., the first coin was not a quarter, but a nickel), then when the woman is selecting the second coin, she has in her pocket:
 
     ```{figure} images/image022.gif
     :alt: Two Quarters and One Nickel.
-
-    Two Quarters and One Nickel.
     ```
 
     In this case, P(Q2) = 2/3.

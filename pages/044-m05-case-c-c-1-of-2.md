@@ -10,8 +10,6 @@ Recall the role-type classification table for framing our discussion about the r
 
 ```{figure} images/caseii1.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), which we have already covered, Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q). In this section we will be working on C→C
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), which we have already covered, Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q). In this section we will be working on C→C
 ```
 
 We are done with case C→Q, and will now move on to case C→C, where we examine the relationship between two categorical variables.
@@ -29,8 +27,6 @@ Here is what the raw data look like when we include the gender of each student:
 
 ```{figure} images/caseii2.gif
 :alt: A table of the data. There are three columns, &quot;Student&quot;, &quot;Gender&quot;, and &quot;Body Image&quot;. &quot;Gender&quot; is the Explanatory variable, and &quot;Body Image&quot; is the Response variable. Some example data: ... (abbreviated) ... student 25, M, overweight; student 26, M, about right; student 27, F, underweight; student 28, F, about right; student 29, M, about right; ... (abbreviated) ...
-
-A table of the data. There are three columns, &quot;Student&quot;, &quot;Gender&quot;, and &quot;Body Image&quot;. &quot;Gender&quot; is the Explanatory variable, and &quot;Body Image&quot; is the Response variable. Some example data: ... (abbreviated) ... student 25, M, overweight; student 26, M, about right; student 27, F, underweight; student 28, F, about right; student 29, M, about right; ... (abbreviated) ...
 ```
 
 Once again the raw data is a long list of 1,200 genders and responses, and thus not very useful in that form. To start our exploration of how body image is related to gender, we need an informative display that summarizes the data. In order to summarize the relationship between two categorical variables, we create a display called a *two-way table*.
@@ -39,8 +35,6 @@ Here is the two-way table for our example:
 
 ```{figure} images/caseii3.gif
 :alt: A two-way table. The columns are for each possible category in &quot;Body Image&quot;. These categories are &quot;About Right&quot;, &quot;Overweight &quot;, &quot;Underweight&quot;. There is also an additional column for Total. In addition, there is a row for each of the categories in &quot;Gender&quot;. These are &quot;Female&quot; and &quot;Male&quot; There is also an additional Total row. So, overall, there are 4 columns of the names &quot;About Right&quot;, &quot;Overweight&quot;, &quot;Underweight&quot;, and &quot;Total&quot;. There are 3 rows, &quot;Female&quot;, &quot;Male&quot;, and &quot;Total&quot;. Here are the values in the cells, in Row,Column: Value format: Female, About Right: 560; Female, Overweight: 163; Female, Underweight: 37; Female, Total: 760; Male, About Right: 295; Male, Overweight: 72; Male, Underweight: 73; Male, Total: 440; Total, About Right: 855; Total, Overweight: 235; Total, Under Weight: 110; Total, Total (Total # of Responses): 1200;
-
-A two-way table. The columns are for each possible category in &quot;Body Image&quot;. These categories are &quot;About Right&quot;, &quot;Overweight &quot;, &quot;Underweight&quot;. There is also an additional column for Total. In addition, there is a row for each of the categories in &quot;Gender&quot;. These are &quot;Female&quot; and &quot;Male&quot; There is also an additional Total row. So, overall, there are 4 columns of the names &quot;About Right&quot;, &quot;Overweight&quot;, &quot;Underweight&quot;, and &quot;Total&quot;. There are 3 rows, &quot;Female&quot;, &quot;Male&quot;, and &quot;Total&quot;. Here are the values in the cells, in Row,Column: Value format: Female, About Right: 560; Female, Overweight: 163; Female, Underweight: 37; Female, Total: 760; Male, About Right: 295; Male, Overweight: 72; Male, Underweight: 73; Male, Total: 440; Total, About Right: 855; Total, Overweight: 235; Total, Under Weight: 110; Total, Total (Total # of Responses): 1200;
 ```
 
 The table has the possible genders in the rows, and the possible responses regarding body image in the columns. At each intersection between row and column, we put the counts for how many times that combination of gender and body image occurred in the data. We sum across the rows to fill in the Total column, and we sum across the columns to fill in the Total row.

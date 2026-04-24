@@ -31,8 +31,6 @@ If $\mu_{0}$ falls inside the confidence interval, do not reject H~o~.
 
     ```{figure} images/image354.gif
     :alt: A number line showing the 95% confidence interval, which is (244.6, 249.4). 250 is also marked on the number line, and it isn&apos;t within the interval, so we can be confident that μ isn&apos;t 250. In other words, we can reject the hypothesis H_0:μ = 250
-
-    A number line showing the 95% confidence interval, which is (244.6, 249.4). 250 is also marked on the number line, and it isn&apos;t within the interval, so we can be confident that μ isn&apos;t 250. In other words, we can reject the hypothesis H_0:μ = 250
     ```
 ```
 
@@ -42,20 +40,14 @@ One of the following is an actual Minitab output; the others were edited to be i
 
 ```{figure} images/image392.gif
 :alt: Output: One-Sample Z: Test of mu=264 vs not = 264 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.047
-
-Output: One-Sample Z: Test of mu=264 vs not = 264 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.047
 ```
 
 ```{figure} images/image393.gif
 :alt: Output: One-Sample Z: Test of mu=267 vs not = 267 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.087
-
-Output: One-Sample Z: Test of mu=267 vs not = 267 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.087
 ```
 
 ```{figure} images/image394.gif
 :alt: Output: One-Sample Z: Test of mu=266 vs not = 266 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.027
-
-Output: One-Sample Z: Test of mu=266 vs not = 266 The assumed standard deviation = 16 N: 35 Mean: 260.000 SE Mean: 2.704 95% CI: (254.699, 265.301) Z: -2.22 P: 0.027
 ```
 
 ```{note}

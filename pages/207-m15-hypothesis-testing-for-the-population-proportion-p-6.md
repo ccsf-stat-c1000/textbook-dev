@@ -51,14 +51,10 @@ The probability of observing a test statistic as *small as that observed or smal
 
 ```{figure} images/image258.gif
 :alt: Ha: p &lt; p_0 ⇒ p-value = P(Z ≤ z)
-
-Ha: p &lt; p_0 ⇒ p-value = P(Z ≤ z)
 ```
 
 ```{figure} images/image259.gif
 :alt: A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0 and z. z is to the left of 0 because it is for a test statistic which is smaller than p_0. The p-value is the area to the left of z under the curve.
-
-A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0 and z. z is to the left of 0 because it is for a test statistic which is smaller than p_0. The p-value is the area to the left of z under the curve.
 ```
 
 Looking at the shaded region, you can see why this is often referred to as a *left-tailed* test. We shaded to the left of the test statistic, since less than is to the left.
@@ -69,14 +65,10 @@ The probability of observing a test statistic as *large as that observed or larg
 
 ```{figure} images/image260.gif
 :alt: Ha: p &gt; p_0 ⇒ p-value = P(Z ≥ z)
-
-Ha: p &gt; p_0 ⇒ p-value = P(Z ≥ z)
 ```
 
 ```{figure} images/image261.gif
 :alt: A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0 and z. z is to the right of 0 because it is for a test statistic which is larger than p_0. The p-value is the area to the right of z under the curve.
-
-A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0 and z. z is to the right of 0 because it is for a test statistic which is larger than p_0. The p-value is the area to the right of z under the curve.
 ```
 
 Looking at the shaded region, you can see why this is often referred to as a *right-tailed* test. We shaded to the right of the test statistic, since greater than is to the right.
@@ -87,14 +79,10 @@ The probability of observing a test statistic which is as large as in *magnitude
 
 ```{figure} images/image262.gif
 :alt: Ha: p ≠ p_0 ⇒ p-value = P(Z &lt; |z|) + P(Z ≥ |z|) = 2P(Z ≥ |z|)
-
-Ha: p ≠ p_0 ⇒ p-value = P(Z &lt; |z|) + P(Z ≥ |z|) = 2P(Z ≥ |z|)
 ```
 
 ```{figure} images/image263.gif
 :alt: A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0, -|z|, and |z|, where |z| and -|z| is the z-score of the observed test statistic. The p-value is the sum of the area to the right of |z| under the curve and the area to the left of -|z| under the curve.
-
-A normal distribution curve (N(0,1)). Marked on the horizontal axis are z-scores of 0, -|z|, and |z|, where |z| and -|z| is the z-score of the observed test statistic. The p-value is the sum of the area to the right of |z| under the curve and the area to the left of -|z| under the curve.
 ```
 
 This is often referred to as a *two-tailed* test, since we shaded in both directions.

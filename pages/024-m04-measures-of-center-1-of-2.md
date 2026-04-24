@@ -118,8 +118,6 @@ The median M is the midpoint of the distribution. It is the number such that hal
 
     ```{figure} images/center1.gif
     :alt: When there are n=7 ordered observations, the median M is the center observation, which is located in the (7+1)/2 = 4th spot in the ordered list. When there are n=8 ordered observations, the mediam M is the mean of the two center observations, which in this care are located at the 8/2=4th and 8/2+1=5th spots in the ordered list.
-
-    When there are n=7 ordered observations, the median M is the center observation, which is located in the (7+1)/2 = 4th spot in the ordered list. When there are n=8 ordered observations, the mediam M is the mean of the two center observations, which in this care are located at the 8/2=4th and 8/2+1=5th spots in the ordered list.
     ```
 ```
 
@@ -135,8 +133,6 @@ The median M is the midpoint of the distribution. It is the number such that hal
 
     ```{figure} images/eda_examining_distributions_best_actress_stemplot_median2.jpg
     :alt: A stem plot in which the 16th and 17th leaves are highlighted. The stem plot is described in a stem|leaves format in row order. The highlighted entries are surrounded by *: 2|12 2|56678999 3|012233333344 3|5566789 4|1112244 4|599 5| 5| 6|112 6| 7|4 7| 8|0
-
-    A stem plot in which the 16th and 17th leaves are highlighted. The stem plot is described in a stem|leaves format in row order. The highlighted entries are surrounded by *: 2|12 2|56678999 3|012233333344 3|5566789 4|1112244 4|599 5| 5| 6|112 6| 7|4 7| 8|0
     ```
 ```
 

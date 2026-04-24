@@ -7,8 +7,6 @@
 ```{admonition} Example: 1
     ```{figure} images/image264.gif
     :alt: A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = .20 and H_a: p &lt; .20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16, and z = -2.
-
-    A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = .20 and H_a: p &lt; .20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16, and z = -2.
     ```
 
     The p-value in this case is:
@@ -27,8 +25,6 @@
 
     ```{figure} images/image266.gif
     :alt: A normal N(0,1) curve. Marked on the horizontal axis are z-scores of 0 and -2. We are interested in the area to the left of -2, which is the p-value.
-
-    A normal N(0,1) curve. Marked on the horizontal axis are z-scores of 0 and -2. We are interested in the area to the left of -2, which is the p-value.
     ```
 
     To find $P\left(Z\leq−2\right)$ we can either use a table or software. Eventually, after we understand the details, we will use software to run the test for us and the output will give us all the information we need. The p-value that the statistical software provides for this specific example is 0.023. The p-value tells me that it is pretty unlikely (probability of .023) to get data like those observed (test statistic of -2 or less) assuming that H~o~ is true.
@@ -37,8 +33,6 @@
 ```{admonition} Example: 2
     ```{figure} images/image268.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19, and z = .91
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = .157 and H_a: p &gt; .157 . We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19, and z = .91
     ```
 
     The p-value in this case is:
@@ -57,8 +51,6 @@
 
     ```{figure} images/image270.gif
     :alt: A N(0,1) curve for the sampling distribution. Marked on the horizontal axis are z-scores of 0 and .91 . The p-value is the area under the curve to the right of .91 .
-
-    A N(0,1) curve for the sampling distribution. Marked on the horizontal axis are z-scores of 0 and .91 . The p-value is the area under the curve to the right of .91 .
     ```
 
     Again, at this point we can either use a table or software to find that the p-value is 0.182.
@@ -69,8 +61,6 @@
 ```{admonition} Example: 3
     ```{figure} images/image271.gif
     :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = .64 and H_a: p ≠ .64 . We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675, and z = 2.31
-
-    A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = .64 and H_a: p ≠ .64 . We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675, and z = 2.31
     ```
 
     The p-value in this case is:
@@ -89,8 +79,6 @@
 
     ```{figure} images/image274.gif
     :alt: A N(0,1) sampling distribution curve, with the z-scores -2.31, 0, and 2.31 marked on the horizontal axis. The p-value is the sum of the area under the curve to the left of -2.31 and the area under the curve to the right of 2.31
-
-    A N(0,1) sampling distribution curve, with the z-scores -2.31, 0, and 2.31 marked on the horizontal axis. The p-value is the sum of the area under the curve to the left of -2.31 and the area under the curve to the right of 2.31
     ```
 
     Again, at this point we can either use a table or software to find that the p-value is 0.021.
@@ -129,8 +117,6 @@ In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial s
 
 ```{figure} images/1_img5.gif
 :alt: Test and CI for One Proportion. Test of p = 0.45 vs p &lt; 0.45 Sample: 1: X = 39 N = 100 Sample p = 0.390000 95% Upper Bound = 0.485600 Z-Value = -1.21 P-Value = 0.114
-
-Test and CI for One Proportion. Test of p = 0.45 vs p &lt; 0.45 Sample: 1: X = 39 N = 100 Sample p = 0.390000 95% Upper Bound = 0.485600 Z-Value = -1.21 P-Value = 0.114
 ```
 
 ```{note}
@@ -163,8 +149,6 @@ The trustees of a local school district commission a survey to determine voter o
 
 ```{figure} images/1_img6.gif
 :alt: Minitab output: Test and CI for One Proportion Test of p=0.55 vs p &gt; 0.55 Sample: 1 X: 178 N: 293 Sample p: 0.607509 95% Upper Bound: 0.66342 Z-Value: 1.98 P-Value: 0.024
-
-Minitab output: Test and CI for One Proportion Test of p=0.55 vs p &gt; 0.55 Sample: 1 X: 178 N: 293 Sample p: 0.607509 95% Upper Bound: 0.66342 Z-Value: 1.98 P-Value: 0.024
 ```
 
 ```{note}

@@ -29,8 +29,6 @@ By solving the above example, we inadvertently discovered the quartiles of a nor
 
 ```{figure} images/image160.gif
 :alt: A normal probability distribution curve which has a horizontal axis in z-score units. The first quartile is at Z=-.67 . To the left of this, under the curve, is an area of .25 . The second quartile, is at Z=0, the median. To the left of this is an area of .50 under the curve. The third quartile is Z=.67, and to the left is .75 area. To the right of the third quartile is the remaining .25 of area.
-
-A normal probability distribution curve which has a horizontal axis in z-score units. The first quartile is at Z=-.67 . To the left of this, under the curve, is an area of .25 . The second quartile, is at Z=0, the median. To the left of this is an area of .50 under the curve. The third quartile is Z=.67, and to the left is .75 area. To the right of the third quartile is the remaining .25 of area.
 ```
 
 ```{admonition} Example: Length of a Human Pregnancy

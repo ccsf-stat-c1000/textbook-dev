@@ -47,8 +47,6 @@ Whereas we denoted the mean of a sample as $\bar{x}$, we now denote the mean of 
 
     ```{figure} images/image012.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
     ```
 
     How many defective parts are typically produced in an hour on Xavier's production line? If we sum up the possible values of X, each weighted with its probability, we have
@@ -69,8 +67,6 @@ Here is the general definition of the mean of a discrete random variable:
 
 ```{figure} images/image011.gif
 :alt: white space
-
-white space
 ```
 
 In general, the mean of a random variable tells us its "long-run" average value. It is sometimes referred to as the *expected value* of the random variable. But this expression may be somewhat misleading, because in many cases it is impossible for a random variable to actually equal its expected value. For example, the mean number of goals for a World Cup soccer game is 2.36. But we can never expect any single game to result in 2.36 goals, since it is not possible to score a fraction of a goal. Rather, 2.36 is the long-run average of all World Cup soccer games. In the case of Xavier's production line, the mean number of defective parts produced in an hour is 1.8. But the actual number of defective parts produced in any given hour can never equal 1.8, since it must take whole number values.
@@ -82,16 +78,12 @@ To get a better feel for the mean of a random variable, let's extend the defecti
 
     ```{figure} images/image012.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
     ```
 
     The number of defective parts produced each hour by Yves' production line is a random variable Y with the following probability distribution:
 
     ```{figure} images/image022.gif
     :alt: A probability distribution table with two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .05; 1: .05; 2: .10; 3: .75; 4: .05;
-
-    A probability distribution table with two rows, labeled "Y" and "P(Y=y)." The data in column format (Y: P(Y=y)): 0: .05; 1: .05; 2: .10; 3: .75; 4: .05;
     ```
 
     Look at both probability distributions. Both X and Y take the same possible values (0, 1, 2, 3, 4).

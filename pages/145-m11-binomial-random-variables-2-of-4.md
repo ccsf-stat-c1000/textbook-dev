@@ -21,16 +21,12 @@ Now that we understand what a binomial random variable is, and when it arises, i
 
     ```{figure} images/image078.gif
     :alt: A table of all of the outcomes. Here is the data in the table, given in &quot;Outcome: Value of X, Probability&quot; format: NNN: 0, 3/4 × 3/4 × 3/4; NND: 1, 3/4 × 3/4 × 1/4; NDN: 1, 3/4 × 1/4 × 3/4; DNN: 1, 1/4 × 3/4 × 3/4; NDD: 2, 3/4 × 1/4 × 1/4; DND: 2, 1/4 × 3/4 × 1/4; DDN: 2, 1/4 × 1/4 × 1/4; DDD: 3, 1/4 × 1/4 × 1/4;
-
-    A table of all of the outcomes. Here is the data in the table, given in &quot;Outcome: Value of X, Probability&quot; format: NNN: 0, 3/4 × 3/4 × 3/4; NND: 1, 3/4 × 3/4 × 1/4; NDN: 1, 3/4 × 1/4 × 3/4; DNN: 1, 1/4 × 3/4 × 3/4; NDD: 2, 3/4 × 1/4 × 1/4; DND: 2, 1/4 × 3/4 × 1/4; DDN: 2, 1/4 × 1/4 × 1/4; DDD: 3, 1/4 × 1/4 × 1/4;
     ```
 
     With the help of the addition principle, we condense the information in this table to construct the actual probability distribution table:
 
     ```{figure} images/image079.gif
     :alt: The probability distribution table has two rows, labeled &quot;X&quot; and &quot;P(X=x).&quot; Here is the data in the table, organized by column. The format is &quot;(X, P(X=x))&quot; 0: 1(3/4)³ 1: 3(1/4)¹(3/4)² 2: 3(1/4)²(3/4)¹ 3: 1(1/4)³
-
-    The probability distribution table has two rows, labeled &quot;X&quot; and &quot;P(X=x).&quot; Here is the data in the table, organized by column. The format is &quot;(X, P(X=x))&quot; 0: 1(3/4)³ 1: 3(1/4)¹(3/4)² 2: 3(1/4)²(3/4)¹ 3: 1(1/4)³
     ```
 ```
 
@@ -38,24 +34,18 @@ In order to establish a general formula for the probability that a binomial rand
 
 ```{figure} images/image080.gif
 :alt: P(X=x) = [ Number of possible outcomes with x successes out of 3 ] × [ Probability that each of the outcomes that has x successes out of 3 ]
-
-P(X=x) = [ Number of possible outcomes with x successes out of 3 ] × [ Probability that each of the outcomes that has x successes out of 3 ]
 ```
 
 Let's start with the second part, the probability that there will be x successes out of 3, where the probability of success is 1/4. Notice that the fractions multiplied in each case are for the probability of x successes (where each success has a probability of p = 1/4) and the remaining (3 - x) failures (where each failure has probability of 1 - p = 3/4).
 
 ```{figure} images/image081.gif
 :alt: This probability distribution table is nearly the same as the previous one, but presents the calculations in a different way. The table has two rows, labeled &quot;X&quot; and &quot;P(X=x).&quot; Here is the data in the table, organized by column. The format is &quot;(X, P(X=x))&quot; 0: 1 × (1/4)^0 × (3/4)^(3-0); 1: 3 × (1/4)^1 × (3/4)^(3-1); 2: 3 × (1/4)^2 × (3/4)^(3-2); 3: 1 × (1/4)^3 × (3/4)^(3-3);
-
-This probability distribution table is nearly the same as the previous one, but presents the calculations in a different way. The table has two rows, labeled &quot;X&quot; and &quot;P(X=x).&quot; Here is the data in the table, organized by column. The format is &quot;(X, P(X=x))&quot; 0: 1 × (1/4)^0 × (3/4)^(3-0); 1: 3 × (1/4)^1 × (3/4)^(3-1); 2: 3 × (1/4)^2 × (3/4)^(3-2); 3: 1 × (1/4)^3 × (3/4)^(3-3);
 ```
 
 So in general:
 
 ```{figure} images/image082.gif
 :alt: [ Probability of each of the outcomes that has x successes out of 3 ] = (1/4)^x × (3/4)^(3-x)
-
-[ Probability of each of the outcomes that has x successes out of 3 ] = (1/4)^x × (3/4)^(3-x)
 ```
 
 Let's move on to talk about the number of possible outcomes with x successes out of three. Here it is harder to see the pattern, so we'll give the following mathematical result.
@@ -96,8 +86,6 @@ In general, then
 
 ```{figure} images/image086.gif
 :alt: [ Number of possible outcomes with x successes out of 3 ] = ( 3! ) / [ x! × (3-x)! ]
-
-[ Number of possible outcomes with x successes out of 3 ] = ( 3! ) / [ x! × (3-x)! ]
 ```
 
 Putting it all together, we get that the probability distribution of X, which is binomial with n = 3 and p = 1/4 is:

@@ -13,8 +13,6 @@ For comparison purposes, we will use a modified version of the two problems we u
 
     ```{figure} images/image372.gif
     :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we need to answer is "is the mean SAT-M 500 (national mean) or is it higher?" We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and S = 100.
-
-    A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. The question we need to answer is "is the mean SAT-M 500 (national mean) or is it higher?" We take a sample from the population of size n = 4, represented by a smaller circle. For this sample, x-bar = 550, and S = 100.
     ```
 
     Note that the problem was changed so that the population standard deviation (which was assumed to be 100 before) is now unknown, and instead we assume that the sample of 4 students produced a sample mean of 550 (no change) and a sample standard deviation of s=100. (Sample standard deviations are never such nice rounded numbers, but for the sake of comparison we left it as 100.) Note that due to the changes, the z-test for the population mean is no longer appropriate, and we need to use the t-test.
@@ -25,8 +23,6 @@ For comparison purposes, we will use a modified version of the two problems we u
 
     ```{figure} images/image373.gif
     :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. We need to answer "is the mean concentration the required 250ppm or not?" Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247 and S=12.
-
-    A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. We need to answer "is the mean concentration the required 250ppm or not?" Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247 and S=12.
     ```
 
     The changes are similar to example 1: we no longer assume that the population standard deviation is known, and instead use the sample standard deviation of 12. Again, the problem was thus changed from a z-test problem to a t-test problem.
@@ -42,8 +38,6 @@ Let's carry out the t-test for both of these problems:
 
 ```{figure} images/image374.gif
 :alt: H_0: μ = 500, H_a: μ > 500
-
-H_0: μ = 500, H_a: μ > 500
 ```
 
 2. The conditions that allow us to use the t-test are met since:
@@ -56,8 +50,6 @@ In other words, we are in the following situation:
 
 ```{figure} images/image328.gif
 :alt: A table which has two columns and two rows, and is titled "Conditions: z-test for a population mean." The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally in the population" and "Variable doesn't vary normally in the population." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally in the population, Small sample size: OK (this is the case this example falls in); Variable varies normally in the population, Large sample size: OK; Variable doesn't vary normally in the population, Small sample size: NOT OK; Variable doesn't vary normally in the population, Large sample size: OK;
-
-A table which has two columns and two rows, and is titled "Conditions: z-test for a population mean." The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally in the population" and "Variable doesn't vary normally in the population." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally in the population, Small sample size: OK (this is the case this example falls in); Variable varies normally in the population, Large sample size: OK; Variable doesn't vary normally in the population, Small sample size: NOT OK; Variable doesn't vary normally in the population, Large sample size: OK;
 ```
 
 The test statistic is $t=\frac{\bar{x}−\mu_{0}}{\frac{s}{\sqrt{n}}}=\frac{550−500}{\frac{100}{\sqrt{4}}}=1$
@@ -72,8 +64,6 @@ in the t-test case, is t(n-1). In our case, in which n = 4, the p-value is calcu
 
 ```{figure} images/image376.gif
 :alt: A t(3) distribution with t-scores 0 and 1 marked. The p-value is the area under the curve to the right of t-score 1.
-
-A t(3) distribution with t-scores 0 and 1 marked. The p-value is the area under the curve to the right of t-score 1.
 ```
 
 Using statistical software, we find that the p-value is 0.196. For comparison purposes, the p-value that we got when we carried out the z-test for this problem (when we assumed that 100 is the known $\sigma$ rather the calculated sample standard deviation, s) was 0.159.
@@ -88,8 +78,6 @@ Here is a summary:
 
 ```{figure} images/image377.gif
 :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ > 500. We take a sample of size n = 4 from the population, represented by a smaller circle. For this sample, we calculate that x-bar = 550 and S = 100. Our conditions are met, so we can find t = 1, and p-value = .196 . This p-value is too high, so the conclusion is that H_0 cannot be rejected.
-
-A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ > 500. We take a sample of size n = 4 from the population, represented by a smaller circle. For this sample, we calculate that x-bar = 550 and S = 100. Our conditions are met, so we can find t = 1, and p-value = .196 . This p-value is too high, so the conclusion is that H_0 cannot be rejected.
 ```
 
 Example 2:
@@ -107,8 +95,6 @@ Example 2:
 
 ```{figure} images/image333.gif
 :alt: The same table as before. The case this example is in is the "Variable doesn't vary normally in the population, Large sample size" case. The table has two columns and two rows, and is titled "Conditions: z-test for a population mean." The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally in the population" and "Variable doesn't vary normally in the population." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn't vary normally in the population, Small sample size: NOT OK; Variable doesn't vary normally in the population, Large sample size: OK (this is the case this example falls in);
-
-The same table as before. The case this example is in is the "Variable doesn't vary normally in the population, Large sample size" case. The table has two columns and two rows, and is titled "Conditions: z-test for a population mean." The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally in the population" and "Variable doesn't vary normally in the population." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn't vary normally in the population, Small sample size: NOT OK; Variable doesn't vary normally in the population, Large sample size: OK (this is the case this example falls in);
 ```
 
 The test statistic is: $t=\frac{\bar{x}−\mu_{0}}{\frac{s}{\sqrt{n}}}=\frac{247−250}{\frac{12}{\sqrt{100}}}=−2.5$
@@ -119,8 +105,6 @@ The data (represented by the sample mean) are 2.5 standard errors below the null
 
 ```{figure} images/image379.gif
 :alt: A t(99) curve, for which the horizontal axis has been labeled with t-scores of -2.5 and 2.5 . The area under the curve and to the left of -2.5 and to the right of 2.5 is the p-value.
-
-A t(99) curve, for which the horizontal axis has been labeled with t-scores of -2.5 and 2.5 . The area under the curve and to the left of -2.5 and to the right of 2.5 is the p-value.
 ```
 
 To find the p-value we use statistical software, and we calculate a p-value of 0.014 with a 95% confidence interval of (244.619, 249.381). For comparison purposes, the output we got when we carried out the z-test for the same problem was a p-value of 0.012 with a 95% confidence interval of (244.648, 249.352).
@@ -135,8 +119,6 @@ Here is a summary:
 
 ```{figure} images/image380.gif
 :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that t = -2.5, and that the p-value = .014. This p-value is low enough to let us conclude that we can reject H_0.
-
-A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that t = -2.5, and that the p-value = .014. This p-value is low enough to let us conclude that we can reject H_0.
 ```
 
 ## Comments
@@ -153,8 +135,6 @@ A group of Internet users 50-65 years of age were randomly chosen and asked to r
 
 ```{figure} images/image396.gif
 :alt: One-Sample T: hr. online. Test of mu = 12.5 vs mu not = 12.5 Variable: hr. online N: 125 Mean: 12.008 StDev: 3.214 SE Mean: 0.287 95% CI: (11,439, ) T: -1.71 P: 0.090
-
-One-Sample T: hr. online. Test of mu = 12.5 vs mu not = 12.5 Variable: hr. online N: 125 Mean: 12.008 StDev: 3.214 SE Mean: 0.287 95% CI: (11,439, ) T: -1.71 P: 0.090
 ```
 
 ```{note}
@@ -213,8 +193,6 @@ whose null distribution is t(n - 1) (under which the p-values are calculated).
 
 ```{figure} images/image387.png
 :alt: A table. Here is the data in the table: With large sample size (regardless of whether the population is normal or not), we use the z-test if sigma is known, otherwise we use the t-test, keeping in mind that the z-test is a good approximation. With a small sample size, and normal population(* footnote), the z-test is used when we know sigma, and when we don't, we use the t-test. With a small sample size which has a population shape which is not normal or is unknown, we can't use the z-test or t-test. (*)Footnote: by "Population normal" we mean that either the population is known to be normal, or else that the population can be reasonably assumed to be normal as judged by the shape of the data histogram.
-
-A table. Here is the data in the table: With large sample size (regardless of whether the population is normal or not), we use the z-test if sigma is known, otherwise we use the t-test, keeping in mind that the z-test is a good approximation. With a small sample size, and normal population(* footnote), the z-test is used when we know sigma, and when we don't, we use the t-test. With a small sample size which has a population shape which is not normal or is unknown, we can't use the z-test or t-test. (*)Footnote: by "Population normal" we mean that either the population is known to be normal, or else that the population can be reasonably assumed to be normal as judged by the shape of the data histogram.
 ```
 
 The following activity will reinforce the topics illustrated in the graphic above.
@@ -239,8 +217,6 @@ Now, suppose that Intel is testing a brand new manufacturing process, for which 
 
 ```{figure} images/image502.gif
 :alt: 4 Histograms, all titled "Histogram of thickness (mm)," with a vertical axis for frequency and horizontal axis for thickness (mm). Histogram A roughly follows a normal shape and has the following data, organized in "thickness: frequency" order: 8: 1.0 9: 2.0 10: 3.0 11: 2.0 12: 1.0 Histogram B is right-skewed: 8: 7 9: 8 10: 5 11: 3 12: 2 13: 2 14: 2 15: 1 16: 1 17: 1 18: 1 19: 1 20: 1 Histogram C is also right skewed: (same data as Histogram B) Histogram D is right skewed: 8: 3.0 9: 2.0 10: 1.0 11: 1.0 12: 1.0 13: 1.0
-
-4 Histograms, all titled "Histogram of thickness (mm)," with a vertical axis for frequency and horizontal axis for thickness (mm). Histogram A roughly follows a normal shape and has the following data, organized in "thickness: frequency" order: 8: 1.0 9: 2.0 10: 3.0 11: 2.0 12: 1.0 Histogram B is right-skewed: 8: 7 9: 8 10: 5 11: 3 12: 2 13: 2 14: 2 15: 1 16: 1 17: 1 18: 1 19: 1 20: 1 Histogram C is also right skewed: (same data as Histogram B) Histogram D is right skewed: 8: 3.0 9: 2.0 10: 1.0 11: 1.0 12: 1.0 13: 1.0
 ```
 
 ```{note}

@@ -16,8 +16,6 @@ $H_{0}:p=p_{0}$
 
 ```{figure} images/image279.gif
 :alt: H_a : p { one of &lt;, &gt;, or ≠ } p_0
-
-H_a : p { one of &lt;, &gt;, or ≠ } p_0
 ```
 
 where the choice of the appropriate alternative (out of the three) is usually quite clear from the context of the problem.

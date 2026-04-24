@@ -22,8 +22,6 @@ Consider the random variable X with a probability distribution as shown in the h
 
 ```{figure} images/image055.gif
 :alt: A histogram in which the vertical axis is labeled &quot;Probability&quot; and the horizontal axis is labeled &quot;X.&quot; Here is the data represented by the histogram: P(X = -2) = 0.1; P(X = -1) = 0.1; P(X = 0) = 0.6; P(X = 1) = 0.1; P(X = 2) = 0.1; So, the histogram is entire flat with probability = 0.1, except at X=0, where probability is 0.6
-
-A histogram in which the vertical axis is labeled &quot;Probability&quot; and the horizontal axis is labeled &quot;X.&quot; Here is the data represented by the histogram: P(X = -2) = 0.1; P(X = -1) = 0.1; P(X = 0) = 0.6; P(X = 1) = 0.1; P(X = 2) = 0.1; So, the histogram is entire flat with probability = 0.1, except at X=0, where probability is 0.6
 ```
 
 It can easily be shown that X has a mean of 0, and a standard deviation of 1.
@@ -34,8 +32,6 @@ What would the mean and standard deviation be if we shifted the entire histogram
 
 ```{figure} images/image056.gif
 :alt: The same histogram, except that the bars have been shifted over 6 units. This that the data now represented is: P(X = 4) = 0.1; P(X = 5) = 0.1; P(X = 6) = 0.6; P(X = 7) = 0.1; P(X = 8) = 0.1;
-
-The same histogram, except that the bars have been shifted over 6 units. This that the data now represented is: P(X = 4) = 0.1; P(X = 5) = 0.1; P(X = 6) = 0.6; P(X = 7) = 0.1; P(X = 8) = 0.1;
 ```
 
 We observe that shifting the distribution over to the right 6 units also shifts the center over 6 units: in other words, the mean of (X + 6) should equal the (mean of X) + 6. However, the spread of the distribution is unchanged: in other words, the standard deviation of (X + 6) should equal the standard deviation of X.
@@ -44,8 +40,6 @@ Again consider the random variable X with the probability distribution shown in 
 
 ```{figure} images/image055.gif
 :alt: The original histogram we began with. The vertical axis is labeled &quot;Probability&quot; and the horizontal axis is labeled &quot;X.&quot; Here is the data represented by the histogram: P(X = -2) = 0.1; P(X = -1) = 0.1; P(X = 0) = 0.6; P(X = 1) = 0.1; P(X = 2) = 0.1; So, the histogram is entire flat with probability = 0.1, except at X=0, where probability is 0.6
-
-The original histogram we began with. The vertical axis is labeled &quot;Probability&quot; and the horizontal axis is labeled &quot;X.&quot; Here is the data represented by the histogram: P(X = -2) = 0.1; P(X = -1) = 0.1; P(X = 0) = 0.6; P(X = 1) = 0.1; P(X = 2) = 0.1; So, the histogram is entire flat with probability = 0.1, except at X=0, where probability is 0.6
 ```
 
 ## Subtracting a Constant from X
@@ -54,8 +48,6 @@ What would the mean and standard deviation be if we shifted the entire histogram
 
 ```{figure} images/image057.gif
 :alt: The same histogram, except that the bars have been shifted over -7 units. This that the data now represented is: P(X = -9) = 0.1; P(X = -8) = 0.1; P(X = -7) = 0.6; P(X = -6) = 0.1; P(X = -5) = 0.1;
-
-The same histogram, except that the bars have been shifted over -7 units. This that the data now represented is: P(X = -9) = 0.1; P(X = -8) = 0.1; P(X = -7) = 0.6; P(X = -6) = 0.1; P(X = -5) = 0.1;
 ```
 
 The mean also shifts to the left by 7, from 0 to -7. The standard deviation remains unchanged at 1.
@@ -66,8 +58,6 @@ What would the mean and standard deviation be if we stretched the entire histogr
 
 ```{figure} images/image058.gif
 :alt: The histogram has been stretched by 4 times (but has not moved because the mean is at X=0). The data the histogram represents now is: P(X = -8) = 0.1; P(X = -4) = 0.1; P(X = 0) = 0.6; P(X = 4) = 0.1; P(X = 8) = 0.1;
-
-The histogram has been stretched by 4 times (but has not moved because the mean is at X=0). The data the histogram represents now is: P(X = -8) = 0.1; P(X = -4) = 0.1; P(X = 0) = 0.6; P(X = 4) = 0.1; P(X = 8) = 0.1;
 ```
 
 Multiplying X by 4 results in a mean that is 4 times the original mean. In this case, the mean transforms from 0 to 4(0) = 0. Multiplying X by 4 is tantamount to stretching the distribution by 4 units, and so the standard deviation will be 4 times the original standard deviation. In other words, the mean of 4X is 4 times the mean of X; the standard deviation of 4X is 4 times the standard deviation of X. The variance, or squared standard deviation, would be 4squared times the original variance;the variance of 4X is 16 times the variance of X.
@@ -78,8 +68,6 @@ Finally, what would the mean and standard deviation be if we shrunk the entire h
 
 ```{figure} images/image059.gif
 :alt: The histogram has been shrunk by 4 times (but has not moved because the mean is at X=0). The data the histogram represents now is: P(X = -½) = 0.1; P(X = -¼) = 0.1; P(X = 0) = 0.6; P(X = ¼) = 0.1; P(X = ½) = 0.1;
-
-The histogram has been shrunk by 4 times (but has not moved because the mean is at X=0). The data the histogram represents now is: P(X = -½) = 0.1; P(X = -¼) = 0.1; P(X = 0) = 0.6; P(X = ¼) = 0.1; P(X = ½) = 0.1;
 ```
 
 Dividing X by 4 results in a mean that is 1/4 the original mean. In this case, the mean transforms from 0 to (1/4)(0) = 0. Dividing X by 4 is tantamount to shrinking the distribution by 4 units, and so the standard deviation will be 1/4 of the original standard deviation. In other words, the mean of (1/4)X is 1/4 times the mean of X; the standard deviation of (1/4)X is 1/4 times the standard deviation of X. The variance, or squared standard deviation, would be 1/4squared times the original variance;the variance of (1/4)X is 1/16 times the variance of X.

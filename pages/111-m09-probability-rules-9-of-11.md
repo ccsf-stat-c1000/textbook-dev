@@ -11,8 +11,6 @@ So far, we’ve introduced the Addition Rule for finding P(A or B) in the specia
 
 ```{figure} images/image1.png
 :alt: A Venn Diagram titled "A and B are Disjoint. The entire sample space S is represented as a gray rectangle. Inside are two, separate, non-overlapping blue circles. One circle is for the occurrences in A and the other for occurrences in B.
-
-A Venn Diagram titled "A and B are Disjoint. The entire sample space S is represented as a gray rectangle. Inside are two, separate, non-overlapping blue circles. One circle is for the occurrences in A and the other for occurrences in B.
 ```
 
 In this special case P(A or B) refers to the probability of either event A occurring or event B occurring and we said that P(A or B)=P(A) + P(B). Visually, in the Venn diagram above we can clearly see that P(A or B), represented by the total blue area, can be found by adding the areas of the two circles, one representing P(A) and the other P(B).
@@ -21,8 +19,6 @@ As we mentioned above the case when A and B are disjoint is a special case and i
 
 ```{figure} images/image2.png
 :alt: A venn diagram titled "A and B are NOT Disjoint." A gray box represents the sample space, and inside are two blue circles which have an overlapping area. One circle is labeled A and the other is labeled B. The area where the two circles overlap represents that Events A and B can occur at the same time, so P(A and B) ≠ 0.
-
-A venn diagram titled "A and B are NOT Disjoint." A gray box represents the sample space, and inside are two blue circles which have an overlapping area. One circle is labeled A and the other is labeled B. The area where the two circles overlap represents that Events A and B can occur at the same time, so P(A and B) ≠ 0.
 ```
 
 We are now ready to learn how to find P(A or B) in this more general case - when A and B are not necessarily disjoint. We'll call this rule the "General Addition Rule".
@@ -50,8 +46,6 @@ When A and B are not disjoint P(A or B) means P(A occurs or B occurs or both eve
 
     ```{figure} images/image3.png
     :alt: Three Venn Diagrams. In all of them there is a large rectangle representing all of the sample space S. Inside this rectangle are two circles which overlap partially. One circle is labeled A and the other is labeled B. In the first Venn Diagram the circle for A is colored blue, and we see that P(A) = 0.90 . In some sense P(A) is the area of the A circle. In the second Venn Diagram the circle for B is colored blue, and it is marked that P(B) = 0.80 . Just like in the first Venn diagram it can be thought that the circle for B has an area of 0.80 . In the third Venn Diagram the area which is the overlap of circles A and B is colored blue. P(A and B) = 0.75 . The area of the overlap can be thought of as having an area of 0.75 .
-
-    Three Venn Diagrams. In all of them there is a large rectangle representing all of the sample space S. Inside this rectangle are two circles which overlap partially. One circle is labeled A and the other is labeled B. In the first Venn Diagram the circle for A is colored blue, and we see that P(A) = 0.90 . In some sense P(A) is the area of the A circle. In the second Venn Diagram the circle for B is colored blue, and it is marked that P(B) = 0.80 . Just like in the first Venn diagram it can be thought that the circle for B has an area of 0.80 . In the third Venn Diagram the area which is the overlap of circles A and B is colored blue. P(A and B) = 0.75 . The area of the overlap can be thought of as having an area of 0.75 .
     ```
 
     In the context of this problem, the obvious question of interest is:
@@ -64,8 +58,6 @@ When A and B are not disjoint P(A or B) means P(A occurs or B occurs or both eve
 
     ```{figure} images/image6.png
     :alt: The same Venn Diagram except the area of the two circles has been colored blue (shaded). This means the area in the overlap is also colored blue. Note that the overlap area has only been colored once, so even though it is in both circles we will count it once.
-
-    The same Venn Diagram except the area of the two circles has been colored blue (shaded). This means the area in the overlap is also colored blue. Note that the overlap area has only been colored once, so even though it is in both circles we will count it once.
     ```
 
     We can now use the three Venn diagrams representing P(A), P(B) and P(A and B) to see that we can find P(A or B) by:
@@ -76,8 +68,6 @@ When A and B are not disjoint P(A or B) means P(A occurs or B occurs or both eve
 
     ```{figure} images/image7.png
     :alt: The area of both circles in the Venn diagram (counting the overlap area once) is calculated as: the area of A's circle (which includes the overlap) + the area of B's circle (which also includes the overlap) - the area of the overlap. We therefore get: P(A or B) = P(A) + P(B) - P(A and B).
-
-    The area of both circles in the Venn diagram (counting the overlap area once) is calculated as: the area of A's circle (which includes the overlap) + the area of B's circle (which also includes the overlap) - the area of the overlap. We therefore get: P(A or B) = P(A) + P(B) - P(A and B).
     ```
 
     If we apply this to our example, we find that:

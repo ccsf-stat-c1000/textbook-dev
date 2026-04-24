@@ -17,8 +17,6 @@ When dealing with probabilities, the word "or" will always be associated with th
 
     ```{figure} images/image011.gif
     :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-    Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
     ```
 
     Here is some additional information:
@@ -37,8 +35,6 @@ When dealing with probabilities, the word "or" will always be associated with th
 
     ```{figure} images/image017a.gif
     :alt: A pie chart titled "Blood Types." Type A takes up 42% of the pie chart, and type O takes up 44%. Together, as A or O, they take up 86% of the pie chart.
-
-    A pie chart titled "Blood Types." Type A takes up 42% of the pie chart, and type O takes up 44%. Together, as A or O, they take up 86% of the pie chart.
     ```
 ```
 
@@ -56,8 +52,6 @@ Recall the blood type example:
 
 ```{figure} images/lbd004.gif
 :alt: Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
-
-Data given in "Blood Type: Probability" Format: O: 0.44; A: 0.42; B: 0.10; AB: 0.04;
 ```
 
 with the following additional information:
@@ -104,8 +98,6 @@ The Addition Rule for Disjoint Events can naturally be extended to more than two
 
 ```{figure} images/image018.gif
 :alt: A Venn Diagram showing 3 disjoint events. As usual there is a gray box showing the entire sample space. Inside this gray box are three completely separate circles. The first circle is for the occurrences in A, the second for occurrences in B, and the third for occurrences in C.
-
-A Venn Diagram showing 3 disjoint events. As usual there is a gray box showing the entire sample space. Inside this gray box are three completely separate circles. The first circle is for the occurrences in A, the second for occurrences in B, and the third for occurrences in C.
 ```
 
 then P(A or B or C) = P(A) + P(B) + P(C). The rule is the same for any number of disjoint events.

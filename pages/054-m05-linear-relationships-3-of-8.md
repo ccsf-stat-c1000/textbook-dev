@@ -11,8 +11,6 @@ Now that we understand the use of *r* as a numerical measure for assessing the d
 
     ```{figure} images/linear3.gif
     :alt: The scatterplot for highway sign visibility. The vertical axis is labeled "Sign Legibility Distance (feet)" and the horizontal axis is labeled "Driver Age (years)"
-
-    The scatterplot for highway sign visibility. The vertical axis is labeled "Sign Legibility Distance (feet)" and the horizontal axis is labeled "Driver Age (years)"
     ```
 
     Since r < 0, it confirms that the direction of the relationship is negative (although we really didn't need r to tell us that). Since *r* is relatively close to -1, it suggests that the relationship is moderately strong. In context, the negative correlation confirms that the maximum distance at which a sign is legible generally decreases with age. Since the value of r indicates that the linear relationship is moderately strong, but not perfect, we can expect the maximum distance to vary somewhat, even among drivers of the same age.
@@ -23,8 +21,6 @@ Now that we understand the use of *r* as a numerical measure for assessing the d
 
     ```{figure} images/linear4.gif
     :alt: A scatterplot for the data, in which the vertical axis is labeled "Upper Level Course Average" and the horizontal axis is labeled "Introductory Course Average".
-
-    A scatterplot for the data, in which the vertical axis is labeled "Upper Level Course Average" and the horizontal axis is labeled "Introductory Course Average".
     ```
 
     The scatterplot suggests a relationship that is *positive* in direction, *linear* in form, and seems quite strong. The value of the correlation that we find between the two variables is *r* = 0.931, which is very close to 1, and thus confirms that indeed the linear relationship is very strong.

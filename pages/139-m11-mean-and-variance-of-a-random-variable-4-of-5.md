@@ -17,16 +17,12 @@ We will also focus more frequently than before on the squared standard deviation
 
     ```{figure} images/image012.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in column format (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
     ```
 
     We found the mean number of defective parts produced per hour to be $\mu_{X}$ = 1.8. Obviously, there is variation about this mean: some hours as few as 0 defective parts are produced, whereas in other hours as many as 4 are produced. Typically, how far does the number of defective parts fall from the mean of 1.8? As we did for the spread of sample values, we measure the spread of a random variable by calculating the square root of the average squared deviation from the mean. Now "average" is a weighted average, where more probable values of the random variable are accordingly given more weight. Let's begin with the variance, or average squared deviation from the mean, and then take its square root to find the standard deviation:
 
     ```{figure} images/image033.gif
     :alt: A table describing for several characteristics of of possible values of X. For X=0, Dev. from mean = (0-1.8), Sq. deviation = (0-1.8)², and P(X=0) = .15 . For X=1, Dev. from mean = (1-1.8), Sq. deviation = (1-1.8)², and P(X=1) = .30. For X=2, Dev. from mean = (2-1.8), Sq. deviations = (2-1.8)², and P(X=2) = .25 . For X=3, Dev. from mean = (3-1.8), Sq. deviations = (3-1.8)², and P(X=3) = .20 . For X=4, Dev. from mean = (4-1.8), Sq. deviations = (4-1.8)², and P(X=4) = .10 .
-
-    A table describing for several characteristics of of possible values of X. For X=0, Dev. from mean = (0-1.8), Sq. deviation = (0-1.8)², and P(X=0) = .15 . For X=1, Dev. from mean = (1-1.8), Sq. deviation = (1-1.8)², and P(X=1) = .30. For X=2, Dev. from mean = (2-1.8), Sq. deviations = (2-1.8)², and P(X=2) = .25 . For X=3, Dev. from mean = (3-1.8), Sq. deviations = (3-1.8)², and P(X=3) = .20 . For X=4, Dev. from mean = (4-1.8), Sq. deviations = (4-1.8)², and P(X=4) = .10 .
     ```
 
     $Variance=\sigma_{X}^{2}=(0-1.8)^{2}(0.15)+(1-1.8)^{2}(0.30)+(2-1.8)^{2}(0.25)+(3-1.8)^{2}(0.20)+(4-1.8)^{2}(0.1)=1.46$
@@ -60,8 +56,6 @@ Here is the formal definition:
 
 ```{figure} images/image011.gif
 :alt: white space
-
-white space
 ```
 
 ```{note}

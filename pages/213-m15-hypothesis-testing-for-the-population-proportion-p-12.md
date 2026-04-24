@@ -20,8 +20,6 @@ Suppose we want to carry out the *two-sided test:*
 
 ```{figure} images/image299.gif
 :alt: H_0: p = p_0 and H_a: p ≠ p_0
-
-H_0: p = p_0 and H_a: p ≠ p_0
 ```
 
 using a significance level of .05.
@@ -45,16 +43,12 @@ Let's look at two examples:
 
     ```{figure} images/image223.gif
     :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The question we want to answer is &quot;has p changed since 2003 (when it was .64)?&quot; We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat =675/1000 = .675.
-
-    A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The question we want to answer is &quot;has p changed since 2003 (when it was .64)?&quot; We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat =675/1000 = .675.
     ```
 
     We are testing:
 
     ```{figure} images/image300.gif
     :alt: H_0: p = .64 and H_a: p ≠ .64;
-
-    H_0: p = .64 and H_a: p ≠ .64;
     ```
 
     and as the figure reminds us, we took a sample of 1,000 U.S. adults, and the data told us that 675 supported the death penalty for convicted murderers (i.e. $\hat{p}=.675$).
@@ -67,8 +61,6 @@ Let's look at two examples:
 
     ```{figure} images/image302.gif
     :alt: A number line illustrating the 95% confidence interval for p. The interval is (.645, .705). In H_0, p = .64, which is outside of this interval, so we can reject H_0: p = .64 .
-
-    A number line illustrating the 95% confidence interval for p. The interval is (.645, .705). In H_0, p = .64, which is outside of this interval, so we can reject H_0: p = .64 .
     ```
 ```
 
@@ -81,8 +73,6 @@ Let's look at two examples:
 
     ```{figure} images/image303.gif
     :alt: H_0: p = .5, H_a: p ≠ .5
-
-    H_0: p = .5, H_a: p ≠ .5
     ```
 
     The data we have are that out of n=80 tosses, we got 48 heads, or that the sample proportion of heads is:$\hat{p}=\frac{48}{80}=.6$
@@ -95,8 +85,6 @@ Let's look at two examples:
 
     ```{figure} images/image306.gif
     :alt: A number line showing the 95% confidence interval for p, which is (.49, .71). H_0 is p = .5, which falls within this interval, so we cannot reject H_0: p = .5 .
-
-    A number line showing the 95% confidence interval for p, which is (.49, .71). H_0 is p = .5, which falls within this interval, so we cannot reject H_0: p = .5 .
     ```
 ```
 
@@ -106,8 +94,6 @@ The UCLA Internet Report (February 2003) estimated that roughly 8.7% of Internet
 
 ```{figure} images/image390.gif
 :alt: H_0: p = .087, H_a: p ≠ .087
-
-H_0: p = .087, H_a: p ≠ .087
 ```
 
 Based on the collected data, a 95% confidence interval for p was found to be (.08, .14).
@@ -122,8 +108,6 @@ The UCLA Internet Report (February 2003) estimated that roughly 60.5% of U.S. ad
 
 ```{figure} images/image391.gif
 :alt: H_0: p = .605, H_a: p ≠ .605
-
-H_0: p = .605, H_a: p ≠ .605
 ```
 
 Based on the collected data, the p-value of the test was found to be .001.

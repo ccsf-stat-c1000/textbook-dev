@@ -24,8 +24,6 @@ Now that we’ve completed the table, it is important to understand what each of
 
 ```{figure} images/prob_table_explained.png
 :alt: The table has columns "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here are is some information about the table, organized by cell: At the cell A,B, the value there (0.75) is P(A and B) = P(on-time delivery by both services). At the cell A,not B, the value there (0.15) is P(A and Not B) = P(on-time delivery ONLY by service A). At cell Not A and B, the value (0.05) is P(not A and B) = P(on-time delivery ONLY by service B). At cell Not A and Not B, the value (0.05) is P(not A and not B) = P(Neither service A nor B delivered on time).
-
-The table has columns "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here are is some information about the table, organized by cell: At the cell A,B, the value there (0.75) is P(A and B) = P(on-time delivery by both services). At the cell A,not B, the value there (0.15) is P(A and Not B) = P(on-time delivery ONLY by service A). At cell Not A and B, the value (0.05) is P(not A and B) = P(on-time delivery ONLY by service B). At cell Not A and Not B, the value (0.05) is P(not A and not B) = P(Neither service A nor B delivered on time).
 ```
 
 ## Comment
@@ -36,8 +34,6 @@ Looking at the probability table is a great way to clear-up this confusion:
 
 ```{figure} images/prob_table.png
 :alt: The table's first row has been highlighted. Here is the highlighted data in "Row, Column" format: A, B: P(A and B) = 0.75; A, not B: P(A and not B) = 0.15; A, Total: P(A) = 0.90 = P(A and B) + P(A and not B)
-
-The table's first row has been highlighted. Here is the highlighted data in "Row, Column" format: A, B: P(A and B) = 0.75; A, not B: P(A and not B) = 0.15; A, Total: P(A) = 0.90 = P(A and B) + P(A and not B)
 ```
 
 P(A) = 0.90 means that in 90% of the cases when service A is used, it delivers the document on time.
@@ -53,8 +49,6 @@ Similarly,
 
 ```{figure} images/prob_table2.png
 :alt: The table's first column has been highlighted. Here is the highlighted data in "Row, Column" format: A,B: P(A and B) = 0.75; not A, B: P(not A and B) = 0.05; B,Total: P(B) = 0.80 = P(A and B) + P(not A and B)
-
-The table's first column has been highlighted. Here is the highlighted data in "Row, Column" format: A,B: P(A and B) = 0.75; not A, B: P(not A and B) = 0.05; B,Total: P(B) = 0.80 = P(A and B) + P(not A and B)
 ```
 
 P(B) = 0.80 means that in 80% of the cases when service B is used, it delivers the document on time.
@@ -113,16 +107,12 @@ In both the delivery problem and the smoke detector problem, we knew P(A), P(B) 
 
 ```{figure} images/image031.gif
 :alt: The table has columns "B," "not B," and "Total." The rows are "A," "not A," and "Total." We will be naming cells by "{Row, Column}" notation. Cells {A,B}, {A, Total}, and {Total, B} have been shaded.
-
-The table has columns "B," "not B," and "Total." The rows are "A," "not A," and "Total." We will be naming cells by "{Row, Column}" notation. Cells {A,B}, {A, Total}, and {Total, B} have been shaded.
 ```
 
 This, however, is not the only combination of three cells that would provide sufficient information to complete the table. Essentially, as long as we are given (or can calculate) one cell in each of the margins (the total row and column), and one of the four cells in the body of the table, we'll be able to complete the entire table. Visually, we need:
 
 ```{figure} images/image032.gif
 :alt: The same table. We need information about one of the cells in the body of the table. These cells are {A,B}, {A, not B}, {not A, B}, and {not A, not B}. In addition, we need information from one of the cells on the right margin. These cells are {A, Total} and {not A, Total}. The last group of cells we need information from is the bottom margin. These cells are {Total, B} and {Total, not B}. With one cell from each of these three groups we can fill in the entire table.
-
-The same table. We need information about one of the cells in the body of the table. These cells are {A,B}, {A, not B}, {not A, B}, and {not A, not B}. In addition, we need information from one of the cells on the right margin. These cells are {A, Total} and {not A, Total}. The last group of cells we need information from is the bottom margin. These cells are {Total, B} and {Total, not B}. With one cell from each of these three groups we can fill in the entire table.
 ```
 
 ```{note}

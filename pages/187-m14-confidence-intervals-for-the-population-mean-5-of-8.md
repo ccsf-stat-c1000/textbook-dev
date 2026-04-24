@@ -42,8 +42,6 @@ Let's look at an example first and then explain why increasing the sample size i
 
     ```{figure} images/image067.gif
     :alt: A large circle represents the Population of all Students at SU. We are interested in the variable IQ, and the unknown parameter is μ, the population mean IQ level. In addition, we know that σ = 15. From this population we create a sample of size n=400, represented by a smaller circle. In this sample, we find that x bar = 115.
-
-    A large circle represents the Population of all Students at SU. We are interested in the variable IQ, and the unknown parameter is μ, the population mean IQ level. In addition, we know that σ = 15. From this population we create a sample of size n=400, represented by a smaller circle. In this sample, we find that x bar = 115.
     ```
 
     In this case, the 95% confidence interval for μ is:
@@ -63,8 +61,6 @@ As we saw in our discussion about point estimates, probability theory tells us t
 
 ```{figure} images/image069.gif
 :alt: Two sampling distribution curves for x-bar. One is squished down and wider, while the other is much taller and narrower. Both curves share the same μ. The tall, narrow distribution was based on a larger sample size, which has a smaller standard deviation, and so is less spread out. This means that values of x-bar are more likely to be closer to μ when the sample size is larger.
-
-Two sampling distribution curves for x-bar. One is squished down and wider, while the other is much taller and narrower. Both curves share the same μ. The tall, narrow distribution was based on a larger sample size, which has a smaller standard deviation, and so is less spread out. This means that values of x-bar are more likely to be closer to μ when the sample size is larger.
 ```
 
 This explains why with a larger sample size the margin of error (which represents how far apart we believe $\bar{x}$ might be from μ for a given level of confidence) is smaller.

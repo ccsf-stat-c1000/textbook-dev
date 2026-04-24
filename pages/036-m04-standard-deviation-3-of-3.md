@@ -38,8 +38,6 @@ Use the Standard Deviation Rule to answer the following questions. This picture 
 
 ```{figure} images/eda_examining_distributions_didigetthis_deviation3_02q1.gif
 :alt: The graph shows a normal distribution of 327 to 345 days gestation for the horse. The mean is 336 days, and the standard deviation is 3 days. The area of standard deviation, from 333 to 339, is shaded red, accounting for 68% of pregnancies. Two unshaded areas, to the left and right of the center 68%, account for 16% each for a total of 32% outside the standard deviation.
-
-The graph shows a normal distribution of 327 to 345 days gestation for the horse. The mean is 336 days, and the standard deviation is 3 days. The area of standard deviation, from 333 to 339, is shaded red, accounting for 68% of pregnancies. Two unshaded areas, to the left and right of the center 68%, account for 16% each for a total of 32% outside the standard deviation.
 ```
 
 ```{note}

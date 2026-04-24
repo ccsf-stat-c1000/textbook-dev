@@ -23,8 +23,6 @@ So far, we have used the normal table to find a probability, given the number (z
 
     ```{figure} images/image145.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis is a z-scores of -2.33 . The area under the curve to the left of -2.33 is .01.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis is a z-scores of -2.33 . The area under the curve to the left of -2.33 is .01.
     ```
 
     (b) The probability is .15 that a standardized normal variable takes a value *above* what particular value of z?
@@ -43,16 +41,12 @@ So far, we have used the normal table to find a probability, given the number (z
 
     ```{figure} images/image147.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis are z-scores of -1.04 and 1.04 . The area under the curve to the left of -1.04 is .15, and since the curve is symmetric, the area under the curve to the right of 1.04 is also .15.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis are z-scores of -1.04 and 1.04 . The area under the curve to the left of -1.04 is .15, and since the curve is symmetric, the area under the curve to the right of 1.04 is also .15.
     ```
 
     *Method 2:* If .15 is the probability of being above the value we seek, then 1 - .15 = .85 must be the probability of being below the value we seek. According to the table, .85 (actually .8508) is the probability of being below +1.04.
 
     ```{figure} images/image148.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis is a z-score of 1.04. The area under the curve to the right of 1.04 is .15. Knowing this we can calculate the area to the left of 1.04, which is 1-.15 = .85 .
-
-    A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis is a z-score of 1.04. The area under the curve to the right of 1.04 is .15. Knowing this we can calculate the area to the left of 1.04, which is 1-.15 = .85 .
     ```
 
     In other words, we have found .15 to be the probability that a normal variable takes a value more than 1.04 standard deviations above its mean.
@@ -63,8 +57,6 @@ So far, we have used the normal table to find a probability, given the number (z
 
     ```{figure} images/image149.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis are z-scores of 1.96 and -1.96 . The area under the curve between these two z-scores is .95 . Since the curve is symmetric, we can calculate the area to the left of -1.96 , which is (1-.95/2 = .025 . The area to the right of 1.96 is the same.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores . Marked on the axis are z-scores of 1.96 and -1.96 . The area under the curve between these two z-scores is .95 . Since the curve is symmetric, we can calculate the area to the left of -1.96 , which is (1-.95/2 = .025 . The area to the right of 1.96 is the same.
     ```
 ```
 

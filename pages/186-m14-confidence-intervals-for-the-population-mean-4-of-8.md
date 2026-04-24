@@ -29,8 +29,6 @@ The confidence interval, then, has the form: $\bar{x} \pm m$:
 
 ```{figure} images/image062.gif
 :alt: A formula: x-bar ± z-star × σ/√n Note that z-star × σ/√n is m.
-
-A formula: x-bar ± z-star × σ/√n Note that z-star × σ/√n is m.
 ```
 
 $\bar{x}$ is the sample mean, the point estimator for the unknown population mean (μ).
@@ -49,8 +47,6 @@ Here is a summary of the different components of the confidence interval and its
 
 ```{figure} images/image063.gif
 :alt: x-bar is the point estimator. It is either added to or subtracted by the margin of error (m). The margin of error is composed of the confidence multiplier, z-star, which is multiplied by the standard deviation of the point estimator, which is σ/√n .
-
-x-bar is the point estimator. It is either added to or subtracted by the margin of error (m). The margin of error is composed of the confidence multiplier, z-star, which is multiplied by the standard deviation of the point estimator, which is σ/√n .
 ```
 
 This structure:
@@ -65,8 +61,6 @@ Since the structure of the confidence interval is such that it has a margin of e
 
 ```{figure} images/image065.gif
 :alt: A number line, on which the estimate has been placed. To the left and to the right are two intervals with the size m. So, the confidence interval, which comprises of both margins of errors (the left one and right one) is of width 2m.
-
-A number line, on which the estimate has been placed. To the left and to the right are two intervals with the size m. So, the confidence interval, which comprises of both margins of errors (the left one and right one) is of width 2m.
 ```
 
 The margin of error, m, is therefore "in charge" of the width (or precision) of the confidence interval, and the estimate is in charge of its location (and has no effect on the width).

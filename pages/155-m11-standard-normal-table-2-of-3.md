@@ -18,8 +18,6 @@
 
     ```{figure} images/image137.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of 2.8, and the area to the left of 2.8 under the curve is equal to 0.9974.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of 2.8, and the area to the left of 2.8 under the curve is equal to 0.9974.
     ```
 
     *(b)* What is the probability of a normal random variable taking a value lower than 1.47 standard deviations below its mean? P(Z < −1.47) = 0.0708, or 7.08%.
@@ -33,8 +31,6 @@
 
     ```{figure} images/image140.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of −1.47, and the area to the left of −1.47 under the curve is equal to 0.0708.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of −1.47, and the area to the left of −1.47 under the curve is equal to 0.0708.
     ```
 
     *(c)* What is the probability of a normal random variable taking a value *more* than 0.75 standard deviations above its mean?
@@ -45,8 +41,6 @@
 
     ```{figure} images/image141.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis are z-scores of 0.75 and −0.75. The area under the curve to the left of −0.75 is 0.2266, and since the curve is symmetric, the area under the curve to the right of 0.75 is also 0.2266.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis are z-scores of 0.75 and −0.75. The area under the curve to the left of −0.75 is 0.2266, and since the curve is symmetric, the area under the curve to the right of 0.75 is also 0.2266.
     ```
 
     *Method 2:* Because the total area under the normal curve is 1,
@@ -55,8 +49,6 @@
 
     ```{figure} images/image142.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of 0.75. The area under the curve to the left of 0.75 is 0.7734, and since the area under the curve is 1, the area to the right of z-score 0.75 is 1 − 0.7734 = 0.2266.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis is a z-score of 0.75. The area under the curve to the left of 0.75 is 0.7734, and since the area under the curve is 1, the area to the right of z-score 0.75 is 1 − 0.7734 = 0.2266.
     ```
 
     *Note:* Most students prefer to use Method 1, which does not require subtracting 4-digit probabilities from 1.
@@ -69,8 +61,6 @@
 
     ```{figure} images/image143.gif
     :alt: A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis are z-scores of 1 and −1. The area under the curve to the left of −1 is 0.1587, and the area to the left of 1 is 0.8413. To find the area between −1 and 1, we subtract: 0.8413 − 0.1587 = 0.6826.
-
-    A normal probability distribution curve with its horizontal axis representing z-scores. Marked on the axis are z-scores of 1 and −1. The area under the curve to the left of −1 is 0.1587, and the area to the left of 1 is 0.8413. To find the area between −1 and 1, we subtract: 0.8413 − 0.1587 = 0.6826.
     ```
 ```
 

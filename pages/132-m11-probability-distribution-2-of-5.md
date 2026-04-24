@@ -13,16 +13,12 @@ The probability distribution for two flips of a coin was simple enough to constr
 
     ```{figure} images/image006.gif
     :alt: A table with two columns, labeled "Outcome," and "Probability." Here is the data, arranged by row: HHH: ½ × ½ × ½ = 1/8; HHT: 1/8; HTH: 1/8; THH: 1/8; HTT: 1/8; THT: 1/8; TTH: 1/8; TTT: 1/8;
-
-    A table with two columns, labeled "Outcome," and "Probability." Here is the data, arranged by row: HHH: ½ × ½ × ½ = 1/8; HHT: 1/8; HTH: 1/8; THH: 1/8; HTT: 1/8; THT: 1/8; TTH: 1/8; TTT: 1/8;
     ```
 
     Next, we figure out what the value of X is (number of tails) for each possible outcome.
 
     ```{figure} images/image007.gif
     :alt: A table with three columns, labeled "Outcome," and "Probability," and "X." The data is the same as in the previous table execpt the "X" column has been added. Here is the data, arranged by row (Outcome: Probability, X): HHH: 1/8, 0; HHT: 1/8, 1; HTH: 1/8, 1; THH: 1/8, 1; HTT: 1/8, 2; THT: 1/8, 2; TTH: 1/8, 2; TTT: 1/8, 3
-
-    A table with three columns, labeled "Outcome," and "Probability," and "X." The data is the same as in the previous table execpt the "X" column has been added. Here is the data, arranged by row (Outcome: Probability, X): HHH: 1/8, 0; HHT: 1/8, 1; HTH: 1/8, 1; THH: 1/8, 1; HTT: 1/8, 2; THT: 1/8, 2; TTH: 1/8, 2; TTT: 1/8, 3
     ```
 
     Next, we use the addition principle to assert that
@@ -33,16 +29,12 @@ The probability distribution for two flips of a coin was simple enough to constr
 
     ```{figure} images/image008a.gif
     :alt: The previous table, annotated with the calculations to calculate P(X=x). For P(X=0), there is only one outcome in the table, so P(X=0) = 1/8. For P(X=1), there are thee outcomes, so P(X=1) = 3 × 1/8 = 3/8. The same thing happens for P(X=2) = 3 × 1/8 = 3/8. For P(X=3), there is only one case so P(X=3) = 1/8.
-
-    The previous table, annotated with the calculations to calculate P(X=x). For P(X=0), there is only one outcome in the table, so P(X=0) = 1/8. For P(X=1), there are thee outcomes, so P(X=1) = 3 × 1/8 = 3/8. The same thing happens for P(X=2) = 3 × 1/8 = 3/8. For P(X=3), there is only one case so P(X=3) = 1/8.
     ```
 
     The resulting probability distribution is:
 
     ```{figure} images/image009.gif
     :alt: A two-row probability distribution table. The rows are labeled "X" and "P(X=x)". Here is the data in the table, arranged by column (in "X: P(X=x)" format): 0: 1/8; 1: 3/8; 2: 3/8; 3: 1/8;
-
-    A two-row probability distribution table. The rows are labeled "X" and "P(X=x)". Here is the data in the table, arranged by column (in "X: P(X=x)" format): 0: 1/8; 1: 3/8; 2: 3/8; 3: 1/8;
     ```
 ```
 

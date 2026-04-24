@@ -28,8 +28,6 @@ As we expected, $\chi^{2}$ is based on each of the differences: observed count -
 
     ```{figure} images/image141.gif
     :alt: A two-way table for observed and expected counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: observed: 77 expected: 72.3 Male, No: observed: 404 expected: 408.7 Male, Total: 481 Female, Yes: observed: 16, expected: 20.7 Female, No: observed: 122, expected: 117.3 Female, Total: 138 Total, Yes: 93, Total, No: 526 Total, Total: 619
-
-    A two-way table for observed and expected counts, in which the columns are labeled &quot;Yes,&quot; &quot;No,&quot; and &quot;Total.&quot; The rows are labeled &quot;Male,&quot; &quot;Female,&quot; and &quot;Total.&quot; Here is the data in the table, given in cell format (&quot;Row, Column: Value&quot;): Male, Yes: observed: 77 expected: 72.3 Male, No: observed: 404 expected: 408.7 Male, Total: 481 Female, Yes: observed: 16, expected: 20.7 Female, No: observed: 122, expected: 117.3 Female, Total: 138 Total, Yes: 93, Total, No: 526 Total, Total: 619
     ```
 
     Checking the conditions:

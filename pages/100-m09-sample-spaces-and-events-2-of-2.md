@@ -35,8 +35,6 @@ Once we have defined a random experiment, we can talk about an *event* of intere
 
     ```{figure} images/image003.gif
     :alt: We have a large rectangle labeled "S" which represents the entirety of the sample space. Inside this rectangle we have two circles labeled "A" and "C." A contains only "TTT". Inside of C, we see "HHH," "THH," "HTH," "HHT," and a circle representing event B. Inside B are "HHT," "THT," and "TTH." Note that all of the items inside B are also inside C, so C fully encloses B.
-
-    We have a large rectangle labeled "S" which represents the entirety of the sample space. Inside this rectangle we have two circles labeled "A" and "C." A contains only "TTT". Inside of C, we see "HHH," "THH," "HTH," "HHT," and a circle representing event B. Inside B are "HHT," "THT," and "TTH." Note that all of the items inside B are also inside C, so C fully encloses B.
     ```
 
     From this visual representation of the events, it is easy to see that event B is totally included in event C, in the sense that every outcome in event B is also an outcome in event C. Also, note that event A stands apart from events B and C, in the sense that they have no outcome in common, or no overlap. At this point these are only noteworthy observations, but as you'll discover later, they are very important ones.
@@ -68,8 +66,6 @@ The following figure summarizes the information in this section:
 
 ```{figure} images/image004.gif
 :alt: A flow chart. We start with a Random Experiment, which leads to a Sample Space, called S. Then, we define Events (A, B, C...) which correspond to a collection of outcomes in S. After that, we obtain the probability of the events, resulting in P(A), P(B),...
-
-A flow chart. We start with a Random Experiment, which leads to a Sample Space, called S. Then, we define Events (A, B, C...) which correspond to a collection of outcomes in S. After that, we obtain the probability of the events, resulting in P(A), P(B),...
 ```
 
 ## Section Questions

@@ -37,8 +37,6 @@ Note from the previous example and the previous "Did I Get This?" activity, that
 
 ```{figure} images/image058.gif
 :alt: A number line illustrating confidence intervals for μ. x-bar is marked at 115. The interval 112.5 and 117.5 is the 90% confidence interval. Enclosing this interval is the interval 112 and 118, which is the 95% confidence interval. Even larger is the 99% confidence interval, ranging from 111 to 119.
-
-A number line illustrating confidence intervals for μ. x-bar is marked at 115. The interval 112.5 and 117.5 is the 90% confidence interval. Enclosing this interval is the interval 112 and 118, which is the 95% confidence interval. Even larger is the 99% confidence interval, ranging from 111 to 119.
 ```
 
 This is not very surprising, given that in the 99% interval we multiply the standard deviation by 2.576, in the 95% by 2, and in the 90% only by 1.645. Beyond this numerical explanation, there is a very clear intuitive explanation and an important implication of this result.
@@ -67,8 +65,6 @@ In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and as
 
 ```{figure} images/_u5_m1_dig3a.gif
 :alt: Three number lines illustrating three confidence intervals. The first is shows an interval of (3,4). The second, an interval of (2.5, 4.5), and the third, (2,5).
-
-Three number lines illustrating three confidence intervals. The first is shows an interval of (3,4). The second, an interval of (2.5, 4.5), and the third, (2,5).
 ```
 
 ```{note}

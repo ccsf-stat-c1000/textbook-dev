@@ -17,24 +17,18 @@ Let's go back to our three examples and add this step to our figures.
 ```{admonition} Example: 1
     ```{figure} images/image221.gif
     :alt: A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The question we wish to answer is &quot;is p still .20 or has it been reduced?&quot; We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16
-
-    A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The question we wish to answer is &quot;is p still .20 or has it been reduced?&quot; We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = .16
     ```
 ```
 
 ```{admonition} Example: 2
     ```{figure} images/image222.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The question we wish to answer is &quot;is p .157 (like the national figure) or higher?&quot; We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The question we wish to answer is &quot;is p .157 (like the national figure) or higher?&quot; We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = .19
     ```
 ```
 
 ```{admonition} Example: 3
     ```{figure} images/image223.gif
     :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The question we wish to answer is &quot;has p changed since 2003 (when it was .64)?&quot; We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675
-
-    A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The question we wish to answer is &quot;has p changed since 2003 (when it was .64)?&quot; We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = .675
     ```
 ```
 

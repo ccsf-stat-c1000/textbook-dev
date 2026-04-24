@@ -46,8 +46,6 @@ Let's check the conditions in our three examples.
 
     ```{figure} images/image250.gif
     :alt: * n × p_0 = 80 ≥ 10 * n × (1 - p_0) = 320 ≥ 10
-
-    * n × p_0 = 80 ≥ 10 * n × (1 - p_0) = 320 ≥ 10
     ```
 ```
 
@@ -57,8 +55,6 @@ Let's check the conditions in our three examples.
 
     ```{figure} images/image252.gif
     :alt: * n × p_0 = 15.7 ≥ 10 * n × (1 - p_0) = 84.3 ≥ 10
-
-    * n × p_0 = 15.7 ≥ 10 * n × (1 - p_0) = 84.3 ≥ 10
     ```
 ```
 
@@ -68,8 +64,6 @@ Let's check the conditions in our three examples.
 
     ```{figure} images/image254.gif
     :alt: * n × p_0 = 640 ≥ 10 * n × (1 - p_0) = 360 ≥ 10
-
-    * n × p_0 = 640 ≥ 10 * n × (1 - p_0) = 360 ≥ 10
     ```
 ```
 

@@ -40,8 +40,6 @@ Below you'll find three sample outputs of the two-sided two-sample t-test:
 
 ```{figure} images/image157.gif
 :alt: H_0: μ_1 - μ_2 = 0 vs. H_a: μ_1 - μ_2 ≠ 0
-
-H_0: μ_1 - μ_2 = 0 vs. H_a: μ_1 - μ_2 ≠ 0
 ```
 
 However, only one of the outputs could be correct (the other two contain an inconsistency). Your task is to decide which of the following outputs is the correct one (*Hint:* No calculations are necessary in order to answer this question. Instead pay attention to the p-value and confidence interval).

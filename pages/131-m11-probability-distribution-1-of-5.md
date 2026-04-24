@@ -21,8 +21,6 @@ Recall our first example, when we introduced the idea of a random variable. In t
 
     ```{figure} images/image001.gif
     :alt: In each outcome, the first letter represents the first coin toss and the second represents the second coin toss. Each of the outcomes HH, HT, TH, and TT have 1/4 chance of happening.
-
-    In each outcome, the first letter represents the first coin toss and the second represents the second coin toss. Each of the outcomes HH, HT, TH, and TT have 1/4 chance of happening.
     ```
 
     X takes the value 0 only for the outcome HH, so the probability that X = 0 is 1/4.
@@ -33,16 +31,12 @@ Recall our first example, when we introduced the idea of a random variable. In t
 
     ```{figure} images/image002.gif
     :alt: A visual diagram for the mapping of outcomes to values of X.
-
-    A visual diagram for the mapping of outcomes to values of X.
     ```
 
     The *probability distribution of the random variable X* is easily summarized in a table:
 
     ```{figure} images/image003.gif
     :alt: This table has two rows, labeled "x" and "P(X=x)." The row for "x" represents the list of possible values, and the row for "P(X=x)" represents the probability of each value. Here is the data in the table, organized by column and presented in "x: P(X=x)" order: 0: ¼; 1: ½; 2: ¼;
-
-    This table has two rows, labeled "x" and "P(X=x)." The row for "x" represents the list of possible values, and the row for "P(X=x)" represents the probability of each value. Here is the data in the table, organized by column and presented in "x: P(X=x)" order: 0: ¼; 1: ½; 2: ¼;
     ```
 ```
 

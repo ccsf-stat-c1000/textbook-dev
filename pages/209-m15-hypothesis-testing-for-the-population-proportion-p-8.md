@@ -28,8 +28,6 @@ Let's go back to our three examples and draw conclusions.
 
     ```{figure} images/image275.gif
     :alt: A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = 0.20 and H_a: p &lt; 0.20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = 0.16, and z = -2 and p-value = 0.023. Since the p-value is small we conclude that H_0 can be rejected.
-
-    A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = 0.20 and H_a: p &lt; 0.20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = 0.16, and z = -2 and p-value = 0.023. Since the p-value is small we conclude that H_0 can be rejected.
     ```
 ```
 
@@ -44,8 +42,6 @@ Let's go back to our three examples and draw conclusions.
 
     ```{figure} images/image276.gif
     :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = 0.157 and H_a: p &gt; 0.157. We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = 0.19, z = 0.91, and p-value = 0.182. Since the p-value is too large, we conclude that H_0 cannot be rejected.
-
-    A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = 0.157 and H_a: p &gt; 0.157. We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = 0.19, z = 0.91, and p-value = 0.182. Since the p-value is too large, we conclude that H_0 cannot be rejected.
     ```
 ```
 
@@ -66,8 +62,6 @@ Let's go back to our three examples and draw conclusions.
 
     ```{figure} images/image277.gif
     :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = 0.64 and H_a: p ≠ 0.64. We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = 0.675, z = 2.31, and p-value = 0.021. Because the p-value is small, we conclude that H_0 can be rejected.
-
-    A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = 0.64 and H_a: p ≠ 0.64. We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = 0.675, z = 2.31, and p-value = 0.021. Because the p-value is small, we conclude that H_0 can be rejected.
     ```
 ```
 

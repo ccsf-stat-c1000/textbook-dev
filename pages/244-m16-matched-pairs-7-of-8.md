@@ -23,16 +23,12 @@ In particular, if the test has rejected $H_{0}:\mu_{d}=0$, a confidence interval
 
     ```{figure} images/image054.gif
     :alt: The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
-
-    The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
     ```
 
     which is reduced to inference about a single mean, the mean of the differences (before - after):
 
     ```{figure} images/image067.gif
     :alt: For the population of all drivers, we are trying to find μ_d, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). To do this, we generate a sample from the population. The sample consists of 20 differences.
-
-    For the population of all drivers, we are trying to find μ_d, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). To do this, we generate a sample from the population. The sample consists of 20 differences.
     ```
 
     The p-value of our test, $H_{0}:\mu_{d}=0$ vs. $H_{0}:\mu_{d}<0$ was .009, and we therefore rejected H~o~ and concluded that the mean difference in total reaction time (before beer - after beer) was negative, or in other words, that drivers are impaired after having two beers. As a follow-up to this conclusion, it would be interesting to quantify the effect that two beers have on the driver, using the 95% confidence interval for $\mu_{d}$.
@@ -66,8 +62,6 @@ The appropriate hypotheses for testing whether the typing speeds differ when usi
 
 ```{figure} images/image417.gif
 :alt: H_0: μ_d = 0, H_a: μ_d ≠ 0
-
-H_0: μ_d = 0, H_a: μ_d ≠ 0
 ```
 
 ```{note}

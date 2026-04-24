@@ -6,8 +6,6 @@ We are about to start the fourth part of the process and the final section of th
 
 ```{figure} images/big_picture_inference.gif
 :alt: The Big Picture of Statistics. First, a set of data was created from subset of the population. This is the Producing Data step. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions. In this unit, we look at the Inference step.
-
-The Big Picture of Statistics. First, a set of data was created from subset of the population. This is the Producing Data step. Then, we perform exploratory data analysis on the data. With these results, we apply probability which is our first step in drawing conclusions about the population from the data. After we have applied probability to the data, we can draw conclusions. This is called inference, the second step in drawing conclusions. In this unit, we look at the Inference step.
 ```
 
 The purpose of this introduction is to review how we got here and how the previous units fit together to allow us to make reliable inferences. Also, we will introduce the various forms of statistical inference that will be discussed in this section, and give a general outline of how this section is organized.

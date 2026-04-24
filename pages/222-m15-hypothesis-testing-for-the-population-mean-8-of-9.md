@@ -14,38 +14,26 @@ Even though tables exist for the different t distributions, we will only use sof
 
 ```{figure} images/image366.gif
 :alt: H_a: μ &lt; μ_0 ⇒ p-value = P(t(n-1) ≤ t)
-
-H_a: μ &lt; μ_0 ⇒ p-value = P(t(n-1) ≤ t)
 ```
 
 ```{figure} images/image367.gif
 :alt: A t(n-1) distribution with t-scores on its horizontal axis. T-scores of 0 and t have been marked, with t to the left of 0. t has been generated from a observed test statistic. The area to the left of t under the curve is the p-value.
-
-A t(n-1) distribution with t-scores on its horizontal axis. T-scores of 0 and t have been marked, with t to the left of 0. t has been generated from a observed test statistic. The area to the left of t under the curve is the p-value.
 ```
 
 ```{figure} images/image368.gif
 :alt: H_a: μ &gt; μ_0 ⇒ p-value = P(t(n-1) ≥ t)
-
-H_a: μ &gt; μ_0 ⇒ p-value = P(t(n-1) ≥ t)
 ```
 
 ```{figure} images/image369.gif
 :alt: A t(n-1) distribution with t-scores on its horizontal axis. T-scores of 0 and t have been marked, with t to the right of 0. t has been generated from a observed test statistic. The area to the right of t under the curve is the p-value.
-
-A t(n-1) distribution with t-scores on its horizontal axis. T-scores of 0 and t have been marked, with t to the right of 0. t has been generated from a observed test statistic. The area to the right of t under the curve is the p-value.
 ```
 
 ```{figure} images/image370.gif
 :alt: Ha: μ ≠ μ_0 ⇒ p-value = P(t(n-1) ≤ -|t|) + P(t(n-1) ≥ |t|) = 2P(t(n-1) ≥ |t|)
-
-Ha: μ ≠ μ_0 ⇒ p-value = P(t(n-1) ≤ -|t|) + P(t(n-1) ≥ |t|) = 2P(t(n-1) ≥ |t|)
 ```
 
 ```{figure} images/image371.gif
 :alt: A t(n-1) distribution with t-scores on its horizontal axis. T-scores of -|t|, 0, and |t| have been marked. -|t| is to the left of 0, and |t| is to the right. t has been generated from a observed test statistic. The sum of the area under the curve to the left of -|t| and to the right of |t| is the p-value.
-
-A t(n-1) distribution with t-scores on its horizontal axis. T-scores of -|t|, 0, and |t| have been marked. -|t| is to the left of 0, and |t| is to the right. t has been generated from a observed test statistic. The sum of the area under the curve to the left of -|t| and to the right of |t| is the p-value.
 ```
 
 ## Comment

@@ -16,8 +16,6 @@ Our next (and final) goal for this course is to perform inference about relation
 
 ```{figure} images/image001.gif
 :alt: A large circle represents the Population of Interest. We are interested in whether X and Y are related in the population. To figure this out, we take a SRS of size n, represented by a smaller circle. This is the data that we use to perform inference. Based on the observed data, do we have significant evidence that X and Y are related?
-
-A large circle represents the Population of Interest. We are interested in whether X and Y are related in the population. To figure this out, we take a SRS of size n, represented by a smaller circle. This is the data that we use to perform inference. Based on the observed data, do we have significant evidence that X and Y are related?
 ```
 
 We are interested in studying whether a relationship exists between the variables X and Y in a population of interest. We choose a random sample and collect data on both variables from the subjects. Our goal is to determine whether these data provide strong enough evidence for us to generalize the observed relationship in the sample and conclude (with some acceptable and agreed-upon level of uncertainty) that a relationship between X and Y exists in the entire population.
@@ -26,8 +24,6 @@ The primary inference form that we will use in this module, then, is hypothesis 
 
 ```{figure} images/image002.gif
 :alt: H_0: There is no relationship between X and Y. H_a: There is a significant relationship between X and Y.
-
-H_0: There is no relationship between X and Y. H_a: There is a significant relationship between X and Y.
 ```
 
 (We will also discuss point and interval estimation, but our discussion about these forms of inference will be framed around the test.)
@@ -38,8 +34,6 @@ In other words, we will go through 3 sections corresponding to cases C→Q, C→
 
 ```{figure} images/image003.gif
 :alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
-
-It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
 ```
 
 (Recall that case Q→C is not discussed in this course.)

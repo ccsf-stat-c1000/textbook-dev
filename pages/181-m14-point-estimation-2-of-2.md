@@ -12,8 +12,6 @@ Probability theory does more than this; it actually gives an explanation (beyond
 
 ```{figure} images/image019.gif
 :alt: A normal distribution curve, in which the horizontal axis is labeled "X bar." The possible values of x-bar are centered at μ.
-
-A normal distribution curve, in which the horizontal axis is labeled "X bar." The possible values of x-bar are centered at μ.
 ```
 
 $\bar{X}$ is therefore said to be an *unbiased estimator* for $\mu$ . Any particular sample mean might turn out to be less than the actual population mean, or it might turn out to be more. But in the long run, such sample means are "on target" in that they will not underestimate any more or less often than they overestimate.
@@ -22,8 +20,6 @@ Likewise, we learned that the sampling distribution of the sample proportion, $\
 
 ```{figure} images/image020.gif
 :alt: A normal distribution curve with a horizontal axis labeled "p hat." The possible values of p-hat are centered at p .
-
-A normal distribution curve with a horizontal axis labeled "p hat." The possible values of p-hat are centered at p .
 ```
 
 As stated in the introduction, probability theory plays an essential role as we establish results for statistical inference. Our assertion above that sample mean and sample proportion are unbiased estimators is the first such instance.
@@ -50,8 +46,6 @@ Recall that the sampling distribution of the sample mean $\bar{X}$ is, as we men
 
 ```{figure} images/image022.gif
 :alt: Two sampling distribution curves for x-bar. One is squished down and wider, while the other is much taller and narrower. Both curves share the same μ. The tall, narrow distribution was based on a larger sample size, which has a smaller standard deviation, and so is less spread out. This means that values of x-bar are more likely to be closer to μ when the sample size is larger.
-
-Two sampling distribution curves for x-bar. One is squished down and wider, while the other is much taller and narrower. Both curves share the same μ. The tall, narrow distribution was based on a larger sample size, which has a smaller standard deviation, and so is less spread out. This means that values of x-bar are more likely to be closer to μ when the sample size is larger.
 ```
 
 Similarly, since the sampling distribution of $\hat{p}$ is centered at p and has a standard deviation of $\sqrt{\frac{p(1−p)}{n}}$, which decreases as the sample size gets larger, values of $\hat{p}$ are more likely to be closer to p when the sample size is larger.

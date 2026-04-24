@@ -15,8 +15,6 @@ The paired t-test, as a special case of a one-sample t-test, can be safely used 
 
 ```{figure} images/image074.gif
 :alt: A table which has two columns and two rows. The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally" and "Variable doesn't vary normally." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally, Small sample size: OK (in this case, we should check normality visually using a histogram of the sample differences); Variable varies normally, Large sample size: OK; Variable doesn't vary normally, Small sample size: NOT OK; Variable doesn't vary normally, Large sample size: OK;
-
-A table which has two columns and two rows. The column headings are: "Small Sample Size" and "Large Sample Size. " The row headings are "Variable varies normally" and "Variable doesn't vary normally." Here is the data in the table by cell in "Row, Column: Value" format: Variable varies normally, Small sample size: OK (in this case, we should check normality visually using a histogram of the sample differences); Variable varies normally, Large sample size: OK; Variable doesn't vary normally, Small sample size: NOT OK; Variable doesn't vary normally, Large sample size: OK;
 ```
 
 In other words, in order to use the paired t-test safely, the differences should vary normally unless the sample size is large, in which case it is safe to use the paired t-test regardless of whether the differences vary normally or not. As we indicated in the figure above (and have seen many times already), in practice, normality is checked by looking at the histogram of differences and as long as no clear violation of normality (such as extreme skewness and/or outliers) is apparent, normality is assumed. Assuming that the we can safely use the paired t-test, the data are summarized by a test statistic:
@@ -44,8 +42,6 @@ where $\bar{x_{d}}$ is the sample mean of the differences, and $s_{d}$ is the sa
 
     ```{figure} images/image173_excel.gif
     :alt: n = 20, mean difference = -0.501500, stdev difference = 0.868600, t-value = -2.58
-
-    n = 20, mean difference = -0.501500, stdev difference = 0.868600, t-value = -2.58
     ```
 
     According to the output, the test statistic is -2.58, indicating that the data (represented by the sample mean of the differences) are 2.58 standard errors below the null hypothesis (represented by the null value, 0). Note in the output, that beyond the test statistic itself, we also highlighted the part of the output that provides the ingredients needed in order to calculate it: $n=20, \bar{x_{d}}=−0.5015, s_{d}=0.8686$. Indeed $\frac{−0.5015}{\frac{0.8686}{\sqrt{20}}}=−2.58$.

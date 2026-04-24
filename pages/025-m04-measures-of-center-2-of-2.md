@@ -26,24 +26,18 @@ Therefore:
 
 ```{figure} images/center4.gif
 :alt: A unimodal, symmetric distribution. The single mode is centered around x=10. The Median=10 and the Mean=10.001
-
-A unimodal, symmetric distribution. The single mode is centered around x=10. The Median=10 and the Mean=10.001
 ```
 
 - For skewed right distributions and/or datasets with high outliers: $\bar{x} >M$
 
 ```{figure} images/center5.gif
 :alt: A skewed-right distribution, titled Age of best actress Oscar winners (1970-2001). The median=35, and the mean=38.5 . The mode is 32.
-
-A skewed-right distribution, titled Age of best actress Oscar winners (1970-2001). The median=35, and the mean=38.5 . The mode is 32.
 ```
 
 - For skewed left distributions and/or datasets with low outliers: $\bar{x} <M$
 
 ```{figure} images/center6.gif
 :alt: A skewed-left distribution. The mean=69, and the median=72. The mode is at about x=78.
-
-A skewed-left distribution. The mean=69, and the median=72. The mode is at about x=78.
 ```
 
 We will therefore use $\bar{x}$ as a measure of center for symmetric distributions with no outliers. Otherwise, the median will be a more appropriate measure of the center of our data.

@@ -39,8 +39,6 @@ Let's look at another example:
 
     ```{figure} images/image030.gif
     :alt: A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat is .56 .
-
-    A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat is .56 .
     ```
 
     If we wanted to estimate p, the population proportion, by a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample proportion $\hat{p}=\frac{560}{1000}=.56$.

@@ -12,8 +12,6 @@ As we mentioned in the summary of the introduction to Case C→Q, the first case
 
 ```{figure} images/image014.gif
 :alt: Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
-
-Sub-Population 1 has a Y Mean of μ_1, and Sub-Population 2 has a Y Mean of μ_2. From Sub-population 1 we take an SRS of size n_1, and from Sub-population 2 we take an SRS of size n_2. Both of these samples are independent.
 ```
 
 Recall that here we are interested in the effect of a two-valued (k = 2) categorical variable (X) on a quantitative response (Y). Samples are drawn independently from the two sub-populations (defined by the two categories of X), and we need to evaluate whether or not the data provide enough evidence for us to believe that the two sub-population means are different.
@@ -54,8 +52,6 @@ We first introduce our leading example, and then go in detail through the four s
 
     ```{figure} images/image018.gif
     :alt: We have two populations, Females and Males. This is our Gender (X) Variable. For each of these populations, there is a Score (Y) mean, μ_1 for Females and μ_2 for Males. For the Female population we generate an SRS of size 150. For Males, we generate a SRS of size 85.
-
-    We have two populations, Females and Males. This is our Gender (X) Variable. For each of these populations, there is a Score (Y) mean, μ_1 for Females and μ_2 for Males. For the Female population we generate an SRS of size 150. For Males, we generate a SRS of size 85.
     ```
 
     *Comments:*

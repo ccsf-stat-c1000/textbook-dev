@@ -10,8 +10,6 @@ So far we have learned about different ways to quantify the center of a distribu
 
 ```{figure} images/spread1.gif
 :alt: Two dot plots of exam scores. The first plot has a median of approximately 70, but there are scores from below 50 to above 90. In the second dot plot, the median is once again about 70, but this time the range of scores is from about 60 to about 80.
-
-Two dot plots of exam scores. The first plot has a median of approximately 70, but there are scores from below 50 to above 90. In the second dot plot, the median is once again about 70, but this time the range of scores is from about 60 to about 80.
 ```
 
 In order to describe the distribution, we therefore need to supplement the graphical display not only with a measure of center, but also with a measure of the variability (or spread) of the distribution.

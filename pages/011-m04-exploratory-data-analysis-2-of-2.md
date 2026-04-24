@@ -13,8 +13,6 @@ A *dataset* is a set of data identified with particular circumstances. Datasets 
 
     ```{figure} images/introduction1.gif
     :alt: A table in which the rows represent patients and each column represents a variable. For example, the third row is for Patient #3, and each cell in the row is in a particular column. The first column is Gender, and Patient #3&apos;s gender is female, so there is an F in the first column of the third row.
-
-    A table in which the rows represent patients and each column represents a variable. For example, the third row is for Patient #3, and each cell in the row is in a particular column. The first column is Gender, and Patient #3&apos;s gender is female, so there is an F in the first column of the third row.
     ```
 
     In this example, the individuals are patients, and the variables are Gender, Age, Weight, Height, Smoking, and Race. Each row, then, gives us all the information about a particular individual (in this case, patient), and each column gives us information about a particular characteristic of all the patients.

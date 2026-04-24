@@ -16,8 +16,6 @@ Let's start with a motivating example. Consider the following two scatterplots.
 
 ```{figure} images/linear1.gif
 :alt: Two scatterplots, displaying the same data. However, the first scatterplot has a much larger scale on its axes than the second. Because of this, the first scatterplot has its data points clustered closer together than in the second scatterplot. Both have their points arranged roughly in a linear manner. In addition, the second scatterplot appears to have some outliers. All this is merely due to the scale change.
-
-Two scatterplots, displaying the same data. However, the first scatterplot has a much larger scale on its axes than the second. Because of this, the first scatterplot has its data points clustered closer together than in the second scatterplot. Both have their points arranged roughly in a linear manner. In addition, the second scatterplot appears to have some outliers. All this is merely due to the scale change.
 ```
 
 We can see that in both cases, the direction of the relationship is *positive* and the form of the relationship is *linear*. What about the strength? Recall that the strength of a relationship is the extent to which the data follow its form.

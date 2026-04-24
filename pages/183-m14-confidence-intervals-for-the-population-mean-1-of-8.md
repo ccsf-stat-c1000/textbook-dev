@@ -37,8 +37,6 @@ Recall the IQ example:
 
     ```{figure} images/2_iq.png
     :alt: A distribution curve with a horizontal axis labeled "X bar." The curve is centered at X-bar=μ, and marked on the axis is μ+3 and μ-3. There is a 95% chance that any x-bar will fall between μ-3 and μ+3.
-
-    A distribution curve with a horizontal axis labeled "X bar." The curve is centered at X-bar=μ, and marked on the axis is μ+3 and μ-3. There is a 95% chance that any x-bar will fall between μ-3 and μ+3.
     ```
 
     * Obviously, if there is a certain distance between the sample mean and the population mean, we can describe that distance by starting at either value. So, if the sample mean ($\bar{x}$) falls within a certain distance of the population mean μ, then the population mean μ falls within the same distance of the sample mean.

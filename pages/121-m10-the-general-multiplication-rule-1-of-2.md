@@ -17,8 +17,6 @@ We begin with an example that contrasts P(A and B) for independent and dependent
 
     ```{figure} images/image007.gif
     :alt: All of the suit possibilities of picking one card, then replacing it and picking a second card. These possibilities are: SC, SD, SH, SS, HC, HD, HH, HS, DC, DD, DH, DS, CC, CD, CH, CS. Note that 1/4 of these have C picked first (the last 4, out of 16 total). Out of these, only one is CD, which is 1/4 of all of the possibilities with C picked first.
-
-    All of the suit possibilities of picking one card, then replacing it and picking a second card. These possibilities are: SC, SD, SH, SS, HC, HD, HH, HS, DC, DD, DH, DS, CC, CD, CH, CS. Note that 1/4 of these have C picked first (the last 4, out of 16 total). Out of these, only one is CD, which is 1/4 of all of the possibilities with C picked first.
     ```
 ```
 
@@ -29,8 +27,6 @@ We begin with an example that contrasts P(A and B) for independent and dependent
 
     ```{figure} images/image008.gif
     :alt: All of the suit possibilities of picking one card then a second card, without replacing any cards. These possibilities are: SC, SD, SH, HC, HD, HS, DC, DH, DS, CD, CH, CS. Note that 1/4 of these have C picked first (the last 3, out of 12 total). Out of these, only one is CD. CD is 1/3 of all of the possibilities with C picked first.
-
-    All of the suit possibilities of picking one card then a second card, without replacing any cards. These possibilities are: SC, SD, SH, HC, HD, HS, DC, DH, DS, CD, CH, CS. Note that 1/4 of these have C picked first (the last 3, out of 12 total). Out of these, only one is CD. CD is 1/3 of all of the possibilities with C picked first.
     ```
 ```
 

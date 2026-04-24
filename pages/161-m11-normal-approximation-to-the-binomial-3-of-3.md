@@ -12,8 +12,6 @@ It is possible to improve the normal approximation to the binomial by adjusting 
 
 ```{figure} images/image186.gif
 :alt: The probability histogram with a normal distribution curve drawn over it. The vertical axis is labeled "Probability" and horizontal axis is for X. The histogram and curve are the same as the previously shown ones, with a mean of 10 and standard deviation of 2.24 . Since the histogram uses bars, there is a bar which is centered over X=8 . It has a width of 1, so the bar's boundaries are actually 7.5 and 8.5. Thus, in order to calculate P(X ≤ 8), we get the area of all the bars for X=0 to X=8. This means for X=8, we are getting the area of the bar which is P(X = 8) high and 1 wide. In contrast, for the curve, we get the area under the curve to the left of X = 8. This means we do not capture the area in the bar for X=8 from X=8 to X=8.5, since that half of the bar is outside of the normal curve's approximated area.
-
-The probability histogram with a normal distribution curve drawn over it. The vertical axis is labeled "Probability" and horizontal axis is for X. The histogram and curve are the same as the previously shown ones, with a mean of 10 and standard deviation of 2.24 . Since the histogram uses bars, there is a bar which is centered over X=8 . It has a width of 1, so the bar's boundaries are actually 7.5 and 8.5. Thus, in order to calculate P(X ≤ 8), we get the area of all the bars for X=0 to X=8. This means for X=8, we are getting the area of the bar which is P(X = 8) high and 1 wide. In contrast, for the curve, we get the area under the curve to the left of X = 8. This means we do not capture the area in the bar for X=8 from X=8 to X=8.5, since that half of the bar is outside of the normal curve's approximated area.
 ```
 
 It can be improved upon by making the *continuity correction:*
@@ -26,8 +24,6 @@ Similarly, suppose I wanted to answer: What is the probability that the student 
 
 ```{figure} images/image188.gif
 :alt: The same histogram as above, but in this case we are trying to find P(X ≥ 13). So, the curve has shaded in the area to the right of X=13. The histogram has shaded in the bars for X=13 through X=20. The approximation that the curve provides does not cover the left half of the bar for X=13, because the bar for X=13 starts at X=12.5 and ends at X=13.5, so it misses X=12.5 thourgh X=13 . This missing area makes the approximation worse.
-
-The same histogram as above, but in this case we are trying to find P(X ≥ 13). So, the curve has shaded in the area to the right of X=13. The histogram has shaded in the bars for X=13 through X=20. The approximation that the curve provides does not cover the left half of the bar for X=13, because the bar for X=13 starts at X=12.5 and ends at X=13.5, so it misses X=12.5 thourgh X=13 . This missing area makes the approximation worse.
 ```
 
 Here, to calculate the exact probability we are including the area of the entire rectangle over 13, which actually starts from 12.5. Our normal approximation only included the area from 13. The continuity correction in this case would be:

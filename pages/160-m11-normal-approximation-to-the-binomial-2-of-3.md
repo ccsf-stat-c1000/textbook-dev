@@ -8,16 +8,12 @@ Consider the appearance of the probability histogram for the distribution of X:
 
 ```{figure} images/image176.gif
 :alt: A probability histogram. The vertical axis is labeled "Probability" and the horizontal axis is labeled "binomial X; n=20, p=.5" . It is in roughly a normal shape, with the mode at X = 10.
-
-A probability histogram. The vertical axis is labeled "Probability" and the horizontal axis is labeled "binomial X; n=20, p=.5" . It is in roughly a normal shape, with the mode at X = 10.
 ```
 
 Clearly, the shape of the distribution of X for n = 20, p = .5 has a normal appearance: symmetric, bulging at the middle, and tapering at the ends. The following figure should help you visualize this:
 
 ```{figure} images/image177.gif
 :alt: The same probability histogram with a normal bell curve drawn on top, showing how the histogram closely resembles a normal bell curve.
-
-The same probability histogram with a normal bell curve drawn on top, showing how the histogram closely resembles a normal bell curve.
 ```
 
 This suggests a method of approximating binomial probabilities:
@@ -33,8 +29,6 @@ Estimate the binomial probability of $X_{B}$ taking a value over a certain inter
 
     ```{figure} images/image182.gif
     :alt: A probability histogram with a probability distribution curve drawn on top. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The histogram is for binomial X, with mean=10 and standard deviation of 2.24 . The normal curve is for normal X, with mean 10 and standard deviation of 2.24 , the same as for the histogram.
-
-    A probability histogram with a probability distribution curve drawn on top. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X." The histogram is for binomial X, with mean=10 and standard deviation of 2.24 . The normal curve is for normal X, with mean 10 and standard deviation of 2.24 , the same as for the histogram.
     ```
 
     Then we solve in the usual way using normal tables:

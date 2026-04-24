@@ -22,16 +22,12 @@ The t score, in the context of a test for a mean, is summarized by the following
 
 ```{figure} images/image365.gif
 :alt: The z-score is calculated with z = ( x-bar - μ ) / [ σ/√n ]. Note that there is only one source of variation, x-bar. The standard deviation of x-bar is the denominator, σ/√n. This Z (standard normal) distribution is centered at 0, bell shaped, and has a standard devation of 1. The t-score is calculated with t = ( x-bar - μ) / [ s/√n ] . Note that the denominator, s/√n, is the standard error of x-bar. Also notice that we now have two sources of variation, x-bar and s. The t-distribution (with n-1 d.f.) is centered at zero, bell shaped, and has a larger spread.
-
-The z-score is calculated with z = ( x-bar - μ ) / [ σ/√n ]. Note that there is only one source of variation, x-bar. The standard deviation of x-bar is the denominator, σ/√n. This Z (standard normal) distribution is centered at 0, bell shaped, and has a standard devation of 1. The t-score is calculated with t = ( x-bar - μ) / [ s/√n ] . Note that the denominator, s/√n, is the standard error of x-bar. Also notice that we now have two sources of variation, x-bar and s. The t-distribution (with n-1 d.f.) is centered at zero, bell shaped, and has a larger spread.
 ```
 
 In fact, the t score that arises in the context of a test for a mean is a t score with (n – 1) degrees of freedom. Recall that each t distribution is indexed according to "degrees of freedom." Notice that, in the context of a test for a mean, the degrees of freedom depend on the sample size in the study. Remember that we said that higher degrees of freedom indicatethat the t distribution is closer to normal. So in the context of a test for the mean, the *larger the sample size*, the higher the degrees of freedom, and *the closer the t distribution is to a normal z distribution*. This is summarized with the notation near the bottom on the following image:
 
 ```{figure} images/image419.gif
 :alt: The larger the sample size n, the closer the t-distribution gets to the standard normal.
-
-The larger the sample size n, the closer the t-distribution gets to the standard normal.
 ```
 
 As a result, in the context of a test for a mean, the effect of the t distribution is *most important* for a study with a *relatively small sample size*.

@@ -32,16 +32,12 @@ The following figures illustrate the two study designs:
 
 ```{figure} images/image001.gif
 :alt: A visual representation of the Observational Study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up unevenly into 4 pieces, each piece representing one value of the explanatory variable (method), which have been "Self- Assigned" by the people in the sample.
-
-A visual representation of the Observational Study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up unevenly into 4 pieces, each piece representing one value of the explanatory variable (method), which have been "Self- Assigned" by the people in the sample.
 ```
 
 2. Experiment:
 
 ```{figure} images/image002.gif
 :alt: A visual representation of the Experimental Study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up evenly into 4 pieces, each piece representing one value of the explanatory variable (method), which have been assigned by the researchers.
-
-A visual representation of the Experimental Study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up evenly into 4 pieces, each piece representing one value of the explanatory variable (method), which have been assigned by the researchers.
 ```
 
 Both the observational study and the experiment begin with a random sample from the population of smokers just now beginning to quit. In both cases, the individuals in the sample can be divided into categories based on the values of the explanatory variable: method used to quit. The response variable is success or failure after one year. Finally, in both cases, we would assess the relationship between the variables by comparing the proportions of success of the individuals using each method, using a two-way table and conditional percentages.
@@ -52,8 +48,6 @@ Now that we have outlined two possible study designs, let's return to the origin
 
 ```{figure} images/image003.gif
 :alt: A Table describing the results of the study. The columns are labeled: "Quit," "Didn't Quit," "Total," and "% Who Quit." The Rows are labeled "Cold Turkey," "Drugs Only," "Therapy only," and "Drugs & Therapy." Here is the data in "Row,Column: Value" format: Cold Turkey, Quit: 12; Cold Turkey, Didn't Quit: 238; Cold Turkey, Total: 250; Cold Turkey, % Who Quit: 5%; Drugs Only, Quit: 60; Drugs Only, Didn't Quit: 190; Drugs Only, Total: 250; Drugs Only, % Who Quit: 24%; Therapy Only, Quit: 59; Therapy Only, Didn't Quit: 191; Therapy Only, Total: 250; Therapy Only, % Who Quit: 24%; Drugs & Therapy, Quit: 83; Drugs & Therapy, Didn't Quit: 167; Drugs & Therapy, Total: 250; Drugs & Therapy, % Who Quit: 33%
-
-A Table describing the results of the study. The columns are labeled: "Quit," "Didn't Quit," "Total," and "% Who Quit." The Rows are labeled "Cold Turkey," "Drugs Only," "Therapy only," and "Drugs & Therapy." Here is the data in "Row,Column: Value" format: Cold Turkey, Quit: 12; Cold Turkey, Didn't Quit: 238; Cold Turkey, Total: 250; Cold Turkey, % Who Quit: 5%; Drugs Only, Quit: 60; Drugs Only, Didn't Quit: 190; Drugs Only, Total: 250; Drugs Only, % Who Quit: 24%; Therapy Only, Quit: 59; Therapy Only, Didn't Quit: 191; Therapy Only, Total: 250; Therapy Only, % Who Quit: 24%; Drugs & Therapy, Quit: 83; Drugs & Therapy, Didn't Quit: 167; Drugs & Therapy, Total: 250; Drugs & Therapy, % Who Quit: 33%
 ```
 
 Can we conclude that using the combination drugs and therapy method caused the smokers to quit most successfully? Which type of design was implemented will play an important role in the answer to this question.

@@ -9,8 +9,6 @@ A good visual illustration of this conditional probability is provided by the tw
 
 ```{figure} images/image002.gif
 :alt: The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500; In this table, the first row (Male) has been highlighted. The {Male, Pierced: 36} cell is in dark green, and the rest is in light green, showing that we can use this row to calculate the conditional probability.
-
-The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500; In this table, the first row (Male) has been highlighted. The {Male, Pierced: 36} cell is in dark green, and the rest is in light green, showing that we can use this row to calculate the conditional probability.
 ```
 
 which shows us that conditional probability is not very different from (and actually quite the same as) the conditional percents we calculated back in section 1.
@@ -21,8 +19,6 @@ Consider the piercing example, where the following two-way table is given,
 
 ```{figure} images/dig001.gif
 :alt: The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
-
-The same table of the data for piercings. The column headings are "Pierced," "Not Pierced," and "Total." The Rows are "Male," "Female," and "Total." The data in the cells is given in "Row, Column: Value" format: Male, Pierced: 36; Male, Not Pierced: 144; Male, Total: 180; Female, Pierced: 288; Female, Not Pierced: 32; Female, Total: 320; Total, Pierced: 324; Total, Not Pierced: 176; Total, Total: 500;
 ```
 
 Recall also that M represents the event of being a male ("not M" represents being a female), and E represents the event of having one or both ears pierced.
@@ -37,8 +33,6 @@ Another way to visualize conditional probability is using a Venn diagram:
 
 ```{figure} images/image003.gif
 :alt: A Venn Diagram, in which a large rectangle represents all of the sample space. There are two circles in the rectangle, labeled M (for Male) and E (for Ear Pierced). Circle M and circle E overlap (but not totally). P(M) = 180/500 = .36, so this is somewhat like the area of circle M. The overlap is the event M and E. P(M and E) = 36/500 = .072, which is also like the area of the overlap area.
-
-A Venn Diagram, in which a large rectangle represents all of the sample space. There are two circles in the rectangle, labeled M (for Male) and E (for Ear Pierced). Circle M and circle E overlap (but not totally). P(M) = 180/500 = .36, so this is somewhat like the area of circle M. The overlap is the event M and E. P(M and E) = 36/500 = .072, which is also like the area of the overlap area.
 ```
 
 In both the two-way table and the Venn diagram, the reduced sample space (comprised of only males) is shaded light green, and within this sample space, the event of interest (having ears pierced) is shaded darker green. The two-way table illustrates the idea via counts, while the Venn diagram converts the counts to probabilities, which are presented as regions rather than cells.
@@ -99,8 +93,6 @@ It is vital that a certain document reach its destination within one day. To max
 
 ```{figure} images/lbd001.gif
 :alt: A table. The column headings are "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here is the cell data in "Row, Column: Value" format: A,B : .75; A, not B: .15; A, Total: .90; not A, B: .05; not A, not B: .05; not A, Total: .10; Total, B: .80; Total, not B: .20; Total, Total: 1.00;
-
-A table. The column headings are "B," "not B," and "Total." The rows are "A," "not A," and "Total." Here is the cell data in "Row, Column: Value" format: A,B : .75; A, not B: .15; A, Total: .90; not A, B: .05; not A, not B: .05; not A, Total: .10; Total, B: .80; Total, not B: .20; Total, Total: 1.00;
 ```
 
 ```{note}
@@ -127,8 +119,6 @@ Recall the smoke alarms example from the previous module. A homeowner has smoke 
 
 ```{figure} images/dig002.gif
 :alt: A table, in which the column headings are "B," "not B," and "Total." The rows are "D," "not D," and "Total." Here is the data in "Row,Column: Value" format: D, B: .38; D, not B: .57; D, Total: .95; not D, B: .02; not D, not B: .03; not D, Total: .05; Total, B: .40; Total, not B: .60; Total, Total: 1.00;
-
-A table, in which the column headings are "B," "not B," and "Total." The rows are "D," "not D," and "Total." Here is the data in "Row,Column: Value" format: D, B: .38; D, not B: .57; D, Total: .95; not D, B: .02; not D, not B: .03; not D, Total: .05; Total, B: .40; Total, not B: .60; Total, Total: 1.00;
 ```
 
 ```{note}

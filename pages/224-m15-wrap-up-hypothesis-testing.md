@@ -4,8 +4,6 @@ This module covered the z-test for population proportion and both the z-test and
 
 ```{figure} images/tests.png
 :alt: A table of types of hypothesis tests and the circumstances in which they are used. Here is the data in the table: A z-test for the Population Proportion is used when: * testing the population proportion(p) * variable of interest is categorical * population proportion is unknown A z-test for the Population Mean is used when: * testing the Population Mean (μ) * Variable of interest is Quantitative * Population standard deviation is known (σ) A t-test for the Population mean is used when: * Testing the Population Mean (μ) * Response Variable is Quantitative * Population standard deviation is unknown, so sample standard deviation is used (s) instead.
-
-A table of types of hypothesis tests and the circumstances in which they are used. Here is the data in the table: A z-test for the Population Proportion is used when: * testing the population proportion(p) * variable of interest is categorical * population proportion is unknown A z-test for the Population Mean is used when: * testing the Population Mean (μ) * Variable of interest is Quantitative * Population standard deviation is known (σ) A t-test for the Population mean is used when: * Testing the Population Mean (μ) * Response Variable is Quantitative * Population standard deviation is unknown, so sample standard deviation is used (s) instead.
 ```
 
 The module is also loaded with very important ideas that apply to the general process of hypothesis testing. Thus, the following summary discusses each of the above named hypothesis tests within the context of the hypothesis testing process.
@@ -30,8 +28,6 @@ For the *z-test for the Population Mean*and the *t-test for the Population Mean*
 
 ```{figure} images/image387.png
 :alt: A table. Here is the data in the table: With large sample size (regardless of whether the population is normal or not), we use the z-test if sigma is known, otherwise we use the t-test, keeping in mind that the z-test is a good approximation. With a small sample size, and normal population(* footnote), the z-test is used when we know sigma, and when we don't, we use the t-test. With a small sample size which has a population shape which is not normal or is unknown, we can't use the z-test or t-test. (*)Footnote: by "Population normal" we mean that either the population is known to be normal, or else that the population can be reasonably assumed to be normal as judged by the shape of the data histogram.
-
-A table. Here is the data in the table: With large sample size (regardless of whether the population is normal or not), we use the z-test if sigma is known, otherwise we use the t-test, keeping in mind that the z-test is a good approximation. With a small sample size, and normal population(* footnote), the z-test is used when we know sigma, and when we don't, we use the t-test. With a small sample size which has a population shape which is not normal or is unknown, we can't use the z-test or t-test. (*)Footnote: by "Population normal" we mean that either the population is known to be normal, or else that the population can be reasonably assumed to be normal as judged by the shape of the data histogram.
 ```
 
 ***Summarize the data using a test statistic.**

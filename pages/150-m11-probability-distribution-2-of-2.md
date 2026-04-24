@@ -8,8 +8,6 @@ Now consider another random variable X = foot length of adult males. Unlike shoe
 
 ```{figure} images/image104.gif
 :alt: A probability density curve. The horizontal axis is labeled X=Male Foot Length. On this graph, a curve is drawn. The curve appears to be a bell curve (looks like the cross section of a bell), centered at x=11. The area below the curve is equal to 1.
-
-A probability density curve. The horizontal axis is labeled X=Male Foot Length. On this graph, a curve is drawn. The curve appears to be a bell curve (looks like the cross section of a bell), centered at x=11. The area below the curve is equal to 1.
 ```
 
 Like the modified probability histogram above, the total area under the density curve equals 1, and the curve represents probabilities by area.
@@ -18,16 +16,12 @@ The probability that X gets values in any interval is represented by the area ab
 
 ```{figure} images/image105.gif
 :alt: The area under the curve and above the horizontal axis from X=10 to X=12 has been shaded in blue. This area is P(10 < X < 12).
-
-The area under the curve and above the horizontal axis from X=10 to X=12 has been shaded in blue. This area is P(10 < X < 12).
 ```
 
 If, for example, we are interested in P(X < 9), the probability that a randomly chosen male has a foot length of less than 9 inches, we'll have to find the area shaded in blue below:
 
 ```{figure} images/image106.gif
 :alt: The area under the curve and above the horizontal axis from X = 6 (the left end of the graph) to X = 9 has been shaded. This area is P(X < 9).
-
-The area under the curve and above the horizontal axis from X = 6 (the left end of the graph) to X = 9 has been shaded. This area is P(X < 9).
 ```
 
 ## Comments
@@ -58,8 +52,6 @@ The probability that X gets a value in any interval of interest is the area abov
 
 ```{figure} images/image108.gif
 :alt: A probability density curve. The vertical axis is labeled "Density" and the horizontal axis is labeled "X." The density curve of x has been drawn on the graph, and on the horizontal axis, two points a and b, a < b, have been marked. The area under the density curve and above the horizontal axis from a < X < b has been shaded. This area is P(a ≤ X ≤ b).
-
-A probability density curve. The vertical axis is labeled "Density" and the horizontal axis is labeled "X." The density curve of x has been drawn on the graph, and on the horizontal axis, two points a and b, a < b, have been marked. The area under the density curve and above the horizontal axis from a < X < b has been shaded. This area is P(a ≤ X ≤ b).
 ```
 
 Now that we see how probabilities are found for continuous random variables, we understand why it is more complicated than finding probabilities in the discrete case. As anyone who has studied calculus can attest, finding the area under a curve can be difficult. The general approach is to use *integrals.* For those of you who did study calculus, the following should be familiar....

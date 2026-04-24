@@ -22,8 +22,6 @@ Your intuition may already tell you, correctly, that *random assignment to treat
 
 ```{figure} images/image008.gif
 :alt: A visual representation of the experimental study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up evenly into 4 pieces, each piece representing one value of the explanatory variable (method). The pieces are treatment groups randomly assigned by researchers.
-
-A visual representation of the experimental study. A large circle represents the entire population. Through random selection we generate the sample, which is represented as a smaller circle. The circle representing the samples is divided up evenly into 4 pieces, each piece representing one value of the explanatory variable (method). The pieces are treatment groups randomly assigned by researchers.
 ```
 
 ## Comment

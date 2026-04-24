@@ -15,16 +15,12 @@ Let's look at another example:
 
     ```{figure} images/image090.gif
     :alt: The probability distribution table, with three columns, &quot;S,&quot; &quot;X,&quot; and &quot;Probability.&quot; Here is the data in the table, given in row format (S: X, Probability): NNNN: 0, .4^0 × .6^4; NNNA: 1, .4^1 × .6^3; NNAN: 1, .4^1 × .6^3; NANN: 1, .4^1 × .6^3; ANNN: 1, .4^1 × .6^3; NNAA: 2, .4^2 × .6^2; NANA: 2, .4^2 × .6^2; NAAN: 2, .4^2 × .6^2; ANNA: 2, .4^2 × .6^2; ANAN: 2, .4^2 × .6^2; AANN: 2, .4^2 × .6^2; NAAA: 3, .4^3 × .6^1; ANAA: 3, .4^3 × .6^1; AANA: 3, .4^3 × .6^1; AAAN: 3, .4^3 × .6^1; AAAA: 4, .4^4 × .6^0;
-
-    The probability distribution table, with three columns, &quot;S,&quot; &quot;X,&quot; and &quot;Probability.&quot; Here is the data in the table, given in row format (S: X, Probability): NNNN: 0, .4^0 × .6^4; NNNA: 1, .4^1 × .6^3; NNAN: 1, .4^1 × .6^3; NANN: 1, .4^1 × .6^3; ANNN: 1, .4^1 × .6^3; NNAA: 2, .4^2 × .6^2; NANA: 2, .4^2 × .6^2; NAAN: 2, .4^2 × .6^2; ANNA: 2, .4^2 × .6^2; ANAN: 2, .4^2 × .6^2; AANN: 2, .4^2 × .6^2; NAAA: 3, .4^3 × .6^1; ANAA: 3, .4^3 × .6^1; AANA: 3, .4^3 × .6^1; AAAN: 3, .4^3 × .6^1; AAAA: 4, .4^4 × .6^0;
     ```
 
     As usual, the addition rule lets us combine probabilities for each possible value of X:
 
     ```{figure} images/image091.gif
     :alt: A table with two columns, labeled &quot;X,&quot; and &quot;Probability.&quot; Here is the data, in row format (X, Probability): 0: (1) × .4^0 × .6^4 = .1296; 1: (4) × .4^1 × .6^3 = .3456; 2: (6) × .4^2 × .6^2 = .3456; 3: (4) × .4^3 × .6^1 = .1536; 4: (1) × .4^4 × .6^0 = .0256;
-
-    A table with two columns, labeled &quot;X,&quot; and &quot;Probability.&quot; Here is the data, in row format (X, Probability): 0: (1) × .4^0 × .6^4 = .1296; 1: (4) × .4^1 × .6^3 = .3456; 2: (6) × .4^2 × .6^2 = .3456; 3: (4) × .4^3 × .6^1 = .1536; 4: (1) × .4^4 × .6^0 = .0256;
     ```
 
     Now let's apply the formula for the probability distribution of a binomial random variable, and see that by using it, we get exactly what we got the long way.

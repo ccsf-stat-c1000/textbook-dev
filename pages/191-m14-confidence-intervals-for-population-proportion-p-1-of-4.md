@@ -13,8 +13,6 @@ To refresh your memory, here is a picture that summarizes an example we looked a
 
 ```{figure} images/image015.gif
 :alt: A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .56 . Using point estimation we estimate p.
-
-A large circle represents the population of all US Adults. We are interested in the parameter p, the proportion who believe marijuana should be legalized. From this population we create a sample of size n=1000, represented by a smaller circle. In this sample, we find that p hat (the point estimator) is .56 . Using point estimation we estimate p.
 ```
 
 We are now moving on to interval estimation of p. In other words, we would like to develop a set of intervals that, with different levels of confidence, will capture the value of p. We've actually done all the groundwork and discussed all the big ideas of interval estimation when we talked about interval estimation for μ, so we'll be able to go through it much faster. Let's begin.

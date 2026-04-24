@@ -22,8 +22,6 @@ They are "classical" because their values are determined by the game itself.
 ```{admonition} Example: Flipping a Fair Coin
     ```{figure} images/coinflip.png
     :alt: hand flipping a coin
-
-    hand flipping a coin
     ```
 
     A coin has two sides; we usually call them "heads" and "tails." For a "fair" coin (one that is not unevenly weighted, and does not have identical images on both sides) the chances that a "flip" will result in either side facing up are equally likely. Thus, P(heads) = P(tails) = 1/2 or 0.5. Letting *H* represent "heads," we can abbreviate the probability: *P(H) = 0.5.*
@@ -34,8 +32,6 @@ They are "classical" because their values are determined by the game itself.
 ```{admonition} Example: Rolling Fair Dice
     ```{figure} images/dice.png
     :alt: two die
-
-    two die
     ```
 
     Each traditional (cube-shaped) die has six sides, marked in dots with the numbers 1 through 6. On a "fair" die, these numbers are equally likely to end up face-up when the die is rolled. Thus, P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6 or about 0.167.
@@ -46,8 +42,6 @@ They are "classical" because their values are determined by the game itself.
 ```{admonition} Example: Spinners
     ```{figure} images/image_spinner3.gif
     :alt: three color spinner, half blue, one-quarter red, one-quarter yellow
-
-    three color spinner, half blue, one-quarter red, one-quarter yellow
     ```
 
     This particular spinner has three colors, but each color is not equally likely to be the result of a spin, since the portions are not the same size.
@@ -65,20 +59,14 @@ They are "classical" because their values are determined by the game itself.
 
     ```{figure} images/image_student1.jpg
     :alt: first student
-
-    first student
     ```
 
     ```{figure} images/image_student2.jpg
     :alt: second student
-
-    second student
     ```
 
     ```{figure} images/image_student3.jpg
     :alt: third student
-
-    third student
     ```
 
     Since we are selecting randomly, each is equally likely to be chosen. Thus, each has a probability of 1/3 of being chosen.

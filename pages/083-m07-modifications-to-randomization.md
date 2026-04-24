@@ -12,8 +12,6 @@ For example, consider again our experiment examining the differences between thr
 
 ```{figure} images/image011.gif
 :alt: We have 2 blocks, 3 treatment groups each (by random assignment). From the population we generate a sample. This sample of individuals is then split into two blocks, Males and Females. Each block is then randomly split further into the three treatment groups: "tt1: existing software," "ttt2 new software 1," and "ttt3 new software 2." So, we end up with 6 total groups. Within each group the responses from the treatment groups are compared to each other, generating results separately for each block.
-
-We have 2 blocks, 3 treatment groups each (by random assignment). From the population we generate a sample. This sample of individuals is then split into two blocks, Males and Females. Each block is then randomly split further into the three treatment groups: "tt1: existing software," "ttt2 new software 1," and "ttt3 new software 2." So, we end up with 6 total groups. Within each group the responses from the treatment groups are compared to each other, generating results separately for each block.
 ```
 
 ```{admonition} Example
@@ -21,8 +19,6 @@ We have 2 blocks, 3 treatment groups each (by random assignment). From the popul
 
     ```{figure} images/image012.gif
     :alt: This example consists of 2 blocks, 2 treatment groups each (by random assignment). From the population we generate a sample, then separate it into two blocks, "Small" and "Large," according to the vehicle size.; Within these blocks we randomly assign vehicles to use either Gasoline A or Gasoline B (So, each block is split into two treatment groups, "ttt1: Gasoline A", and "ttt2: Gasoline B"), resulting in 4 total groups. Then, within each block, we compare the responses, so we obtain results for each block individually.
-
-    This example consists of 2 blocks, 2 treatment groups each (by random assignment). From the population we generate a sample, then separate it into two blocks, "Small" and "Large," according to the vehicle size.; Within these blocks we randomly assign vehicles to use either Gasoline A or Gasoline B (So, each block is split into two treatment groups, "ttt1: Gasoline A", and "ttt2: Gasoline B"), resulting in 4 total groups. Then, within each block, we compare the responses, so we obtain results for each block individually.
     ```
 ```
 
@@ -33,8 +29,6 @@ In the extreme, researchers may examine a relationship for a sample of blocks of
 
     ```{figure} images/image013.gif
     :alt: In this Matched Pairs Design we have n blocks of individual cars, with 2 treatment groups each, done by random assignment. From the population we generate the sample group. The sample group is then placed into n blocks for each individual car. Each of these blocks is subjected to two treatments by random assignment. These treatments are "ttt1 Gasoline A" and "ttt2 Gasoline B." For each car, the responses to each treatment are compared, resulting in a treatment for each
-
-    In this Matched Pairs Design we have n blocks of individual cars, with 2 treatment groups each, done by random assignment. From the population we generate the sample group. The sample group is then placed into n blocks for each individual car. Each of these blocks is subjected to two treatments by random assignment. These treatments are "ttt1 Gasoline A" and "ttt2 Gasoline B." For each car, the responses to each treatment are compared, resulting in a treatment for each
     ```
 ```
 
@@ -45,8 +39,6 @@ Such a study design, called *matched pairs*, may enable us to pinpoint the effec
 
     ```{figure} images/image014.gif
     :alt: Paired Design. There are n blocks, each represented by a circle with two identical twins in them. Randomly, the treatment of tartar or regular toothpaste is given to each twin. So, each circle has two twins, two types of toothpaste, and each twin randomly gets assigned one type of toothpaste.
-
-    Paired Design. There are n blocks, each represented by a circle with two identical twins in them. Randomly, the treatment of tartar or regular toothpaste is given to each twin. So, each circle has two twins, two types of toothpaste, and each twin randomly gets assigned one type of toothpaste.
     ```
 ```
 

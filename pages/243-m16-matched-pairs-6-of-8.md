@@ -20,8 +20,6 @@ The "driving after having 2 beers" example is a case in which observations are p
 
     ```{figure} images/image083.gif
     :alt: The variable X takes on two categories: Upbringing by birth parents or someone else. These two categories form population 1 and population 2. For each population, we have a IQ (Y) mean, μ_1 for population 1 and μ_2 for population 2. We generate the samples in matched pairs by using the relationship of twins separated at birth. So, we generate an SRS of size 32 for population 1 and also one of size 32 for population 2 using this relationship, paired by twins.
-
-    The variable X takes on two categories: Upbringing by birth parents or someone else. These two categories form population 1 and population 2. For each population, we have a IQ (Y) mean, μ_1 for population 1 and μ_2 for population 2. We generate the samples in matched pairs by using the relationship of twins separated at birth. So, we generate an SRS of size 32 for population 1 and also one of size 32 for population 2 using this relationship, paired by twins.
     ```
 
     Here are the important things to note in the figure:

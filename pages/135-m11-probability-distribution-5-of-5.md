@@ -11,8 +11,6 @@ Here is another example in which we’ll use a probability distribution that is 
 
     ```{figure} images/image012.gif
     :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
-
-    A probability distribution table with two rows, labeled "X" and "P(X=x)." The data in columns (X: P(X=x)): 0: .15; 1: .30; 2: .25; 3: .20; 4: .10;
     ```
 
     Using the probability distribution of a random variable, we can answer some probability questions:
@@ -44,8 +42,6 @@ The number of sales that a telemarketing salesperson makes in an hour is a rando
 
 ```{figure} images/lbd049.gif
 :alt: A probability distribution table with two rows, labeled "x" and "P(X=x)." Here is the data in columns (x: P(X=x)): 0: 10/50; 1: 12/50; 2: 12/50; 3: 10/50; 4: 6/50;
-
-A probability distribution table with two rows, labeled "x" and "P(X=x)." Here is the data in columns (x: P(X=x)): 0: 10/50; 1: 12/50; 2: 12/50; 3: 10/50; 4: 6/50;
 ```
 
 ```{note}

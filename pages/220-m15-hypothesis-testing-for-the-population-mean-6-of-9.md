@@ -10,8 +10,6 @@ As we mentioned earlier, only in a few cases is it reasonable to assume that the
 
 ```{figure} images/image355.gif
 :alt: A large circle represents the population of interest. μ is unknown and σ is unknown. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS, and we can also obtain S. We use this instead of the unknown σ.
-
-A large circle represents the population of interest. μ is unknown and σ is unknown. From the population we create a SRS of size n, represented by a smaller circle. We can find x-bar for this SRS, and we can also obtain S. We use this instead of the unknown σ.
 ```
 
 Is that it? Can we just use S instead of σ, and the rest is the same as the previous case? Unfortunately, it's not that simple, but not very complicated either.
@@ -48,8 +46,6 @@ Technically, this step only changes slightly compared to what we do in the z-tes
 
 ```{figure} images/image325.gif
 :alt: A table which has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
-
-A table which has two columns and two rows, and is titled &quot;Conditions: z-test for a population mean.&quot; The column headings are: &quot;Small Sample Size&quot; and &quot;Large Sample Size. &quot; The row headings are &quot;Variable varies normally in the population&quot; and &quot;Variable doesn&apos;t vary normally in the population.&quot; Here is the data in the table by cell in &quot;Row, Column: Value&quot; format: Variable varies normally in the population, Small sample size: OK; Variable varies normally in the population, Large sample size: OK; Variable doesn&apos;t vary normally in the population, Small sample size: NOT OK; Variable doesn&apos;t vary normally in the population, Large sample size: OK;
 ```
 
 Assuming that the conditions are met, we calculate the sample mean $\bar{x}$ and the sample standard deviation, S (which replaces σ), and summarize the data with a test statistic. As in the z-test, our test statistic will be the standardized score of $\bar{x}$assuming that $\mu=\mu_{0}$ (H~o~ is true). The difference here is that we don't know σ, so we use S instead. The test statistic for the t-test for the population mean is therefore:
@@ -74,8 +70,6 @@ The following picture illustrates the fundamental difference between the normal 
 
 ```{figure} images/image363.gif
 :alt: A standard normal curve modeling the Z-distribution and a curve modeling the t-distribution. Both have been scaled so that the area under the curve is 1. The standard normal curve has less spread than the t-distribution curve. This means that the left and right tails are closer to each other than in the t-distribution, and that it is taller than the t-distribution. The t-distribution is narrower than the standard normal distribution when close to the center. Because of this, the curves intersect once on each side of the center.
-
-A standard normal curve modeling the Z-distribution and a curve modeling the t-distribution. Both have been scaled so that the area under the curve is 1. The standard normal curve has less spread than the t-distribution curve. This means that the left and right tails are closer to each other than in the t-distribution, and that it is taller than the t-distribution. The t-distribution is narrower than the standard normal distribution when close to the center. Because of this, the curves intersect once on each side of the center.
 ```
 
 You can see in the picture that the t distribution has *slightly less area near the expected central value* than the normal distribution does, and you can see that the t distribution has correspondingly *more area in the "tails"* than the normal distribution does. (It’s often said that the t distribution has "fatter tails" or "heavier tails" than the normal distribution.)
@@ -90,8 +84,6 @@ The following picture illustrates this idea with just a couple of t distribution
 
 ```{figure} images/image417.gif
 :alt: The standard normal z-distribution curve overlaid with a t-distribution with 5 d.f., and a t-distribution with 2 d.f. The distribution with 2 t.f. is shorter and has more spread than the t-distribution with 5 d.f., which in turn is shorter and wider than the standard normal distribution.
-
-The standard normal z-distribution curve overlaid with a t-distribution with 5 d.f., and a t-distribution with 2 d.f. The distribution with 2 t.f. is shorter and has more spread than the t-distribution with 5 d.f., which in turn is shorter and wider than the standard normal distribution.
 ```
 
 ### Learn By Doing
@@ -100,8 +92,6 @@ The following figure of the standard normal distribution together with a t distr
 
 ```{figure} images/image395.gif
 :alt: The standard normal Z distribution curve and the t-distribution curve overlaid on top of each other, centered at a z-score of 0. At z-score = 3, a blue vertical line has been drawn. Here, the t distribution&apos;s wider spread causes it to be higher than the standard normal curve. Going right, we see that the standard normal curve reaches zero much sooner compared to the t distribution curve.
-
-The standard normal Z distribution curve and the t-distribution curve overlaid on top of each other, centered at a z-score of 0. At z-score = 3, a blue vertical line has been drawn. Here, the t distribution&apos;s wider spread causes it to be higher than the standard normal curve. Going right, we see that the standard normal curve reaches zero much sooner compared to the t distribution curve.
 ```
 
 ```{note}
@@ -116,8 +106,6 @@ The following figure of the standard normal distribution together with a t distr
 
 ```{figure} images/image418.gif
 :alt: The standard normal Z distribution curve and the t distribution curve overlaid on top of each other, centered at a z-score of 0. At z-score = -2, a blue vertical line has been drawn. Here, the t distribution and standard normal curve intersect. Going left, we see that the standard normal curve reaches zero much sooner compared to the t distribution curve, and that the t distribution is above the standard normal distribution. Going right from the vertical blue line, we see that the t distribution is under the standard normal distribution and ultimately will have a lower peak value compared to the standard normal distribution.
-
-The standard normal Z distribution curve and the t distribution curve overlaid on top of each other, centered at a z-score of 0. At z-score = -2, a blue vertical line has been drawn. Here, the t distribution and standard normal curve intersect. Going left, we see that the standard normal curve reaches zero much sooner compared to the t distribution curve, and that the t distribution is above the standard normal distribution. Going right from the vertical blue line, we see that the t distribution is under the standard normal distribution and ultimately will have a lower peak value compared to the standard normal distribution.
 ```
 
 ```{note}
