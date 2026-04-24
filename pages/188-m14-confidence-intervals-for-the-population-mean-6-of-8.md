@@ -65,7 +65,7 @@ The purpose of the next activity is to give you guided practice in sample size c
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Comment
+### Comment
 
 In the preceding activity, you saw that in order to calculate the sample size when planning a study, you needed to know the population standard deviation, sigma (σ). In practice, sigma is usually not known, because it is a parameter. (The rare exceptions are certain variables like IQ score or standardized tests that might be constructed to have a particular known sigma.)
 
@@ -75,7 +75,7 @@ However, in some cases, there might not be any prior studies on the topic. In su
 
 The purpose of the next activity is to give you some experience with a method for roughly estimating sigma (σ, the population standard deviation) when no prior studies are available, in order to compute sample size when planning a first study.
 
-##### Learn By Doing
+### Learn By Doing
 
 An increasing global population requires more food from crops. With the world’s farmland limited due to overuse and a warming globe, one solution may come from crops that are genetically-engineered to grow in harsh desert soil.
 

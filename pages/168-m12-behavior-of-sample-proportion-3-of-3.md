@@ -40,7 +40,7 @@ The purpose of this next activity is to give guided practice in finding the samp
 
 ($\hat{p}$), and use it to draw conclusions about what values of $\hat{p}$ we are most likely to get.
 
-##### Learn By Doing
+### Learn By Doing
 
 The proportion of left-handed people in the general population is about 0.1. Suppose a random sample of 225 people is observed.
 

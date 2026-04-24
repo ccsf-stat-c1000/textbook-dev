@@ -43,7 +43,7 @@ In this activity we
 - Practice classifying variables by their type: quantitative or categorical.
 - Learn how to handle categorical variables whose values are numerically coded.
 
-##### Background to Dataset
+### Background to Dataset
 
 Clinical depression is the most common mental illness in the United States, affecting 19 million adults each year (Source: NIMH, 1999). Nearly 50% of individuals who experience a major episode will have a recurrence within 2 to 3 years. Researchers are interested in comparing therapeutic solutions that could delay or reduce the incidence of recurrence.
 

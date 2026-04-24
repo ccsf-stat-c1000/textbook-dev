@@ -96,7 +96,7 @@ Similarly, in example 1 (defective products), where we are testing:
 
 in order to reject H~o~ and accept H~a~, we will need to get a sample proportion of defective products which is much *smaller* than .20.
 
-##### Learn By Doing
+### Learn By Doing
 
 In each of the following examples, a test for the population proportion (p) is called for. You are asked to select the right null and alternative hypotheses.
 
@@ -124,7 +124,7 @@ In each of the following examples, a test for the population proportion (p) is c
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 In each of the following examples, a test for the population proportion (p) is called for. You are asked to select the right null and alternative hypotheses.
 

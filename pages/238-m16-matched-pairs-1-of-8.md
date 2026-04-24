@@ -6,7 +6,7 @@
 
 ## Comparing Two Means—Matched Pairs (Paired t-Test)
 
-##### Overview
+### Overview
 
 We are still in Case C→Q of inference about relationships, where the explanatory variable is categorical and the response variable is quantitative. As we mentioned in the introduction, we introduce three inferential procedures in this case.
 

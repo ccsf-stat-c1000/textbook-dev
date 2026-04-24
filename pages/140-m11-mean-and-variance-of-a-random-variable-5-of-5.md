@@ -94,7 +94,7 @@ A histogram titled "Graph D" showing the following data (presented in "horizonta
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Comment
+### Comment
 
 As we have stated before, using the mean and standard deviation gives us another way to assess which values of a random variable are unusual. Any values of a random variable that fall within 2 standard deviations of the mean would be considered ordinary (not unusual).
 

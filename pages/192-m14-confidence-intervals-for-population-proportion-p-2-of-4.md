@@ -53,7 +53,7 @@ We would like to share with you the methodology part of the poll release of the 
 
 The purpose of the next activity is to provide guided practice in calculating and interpreting the confidence interval for the population proportion p, and drawing conclusions from it.
 
-##### Learn By Doing
+### Learn By Doing
 
 A poll asked a random sample of 1,000 U.S. adults, "Do you think that the use of marijuana should be legalized?" 560 of those asked answered yes.
 

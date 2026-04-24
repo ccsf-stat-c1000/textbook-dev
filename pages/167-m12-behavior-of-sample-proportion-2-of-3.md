@@ -20,7 +20,7 @@ Let's apply this result to our example and see how it compares with our simulati
 
 In our example, n = 25 (sample size) and p = 0.6. Note that np = 15 ≥ 10 and n(1 - p) = 10 ≥ 10. Therefore we can conclude that $\hat{p}$ is approximately a normal distribution with mean p = 0.6 and standard deviation $\sqrt{\frac{p(1-p)}{n}}=\sqrt{\frac{0.6(1-0.6)}{25}}=0.097$ (which is very close to what we saw in our simulation).
 
-##### Learn By Doing
+### Learn By Doing
 
 According to the National Postsecondary Student Aid Study conducted by the U.S. Department of Education in 2008, 62% of graduates from public universities had student loans.
 
@@ -42,7 +42,7 @@ According to the National Postsecondary Student Aid Study conducted by the U.S. 
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 ```{note}
     **Sectionnest**

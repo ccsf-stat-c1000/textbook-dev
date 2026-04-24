@@ -102,7 +102,7 @@ However, in example 2*, we saw that when the sample proportion of .19 is obtaine
 
 The following activity will allow you to practice the ideas and terminology used in hypothesis testing when a result is not statistically significant.
 
-##### Learn By Doing
+### Learn By Doing
 
 Suppose that only 40% of the U.S. public supported the general direction of the previous U.S. administration's policies. To gauge whether the nationwide proportion, p, of support for the *current* administration is higher than 40%, a major polling organization conducts a random poll to test the hypotheses:
 

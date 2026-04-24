@@ -36,7 +36,7 @@ It is not uncommon for experiments to feature two or more explanatory variables 
 
 2. In order to gain optimal information about individuals in all the various treatment groups, we would like to make assignments not just randomly, but also evenly. If there are 90 subjects in the blood pressure study described above, and 9 possible treatment groups, then each group should be filled randomly with 10 individuals. A simple random sample of 10 could be taken from the larger group of 90, and those individuals would be assigned to the first treatment group. Next, the second treatment group would be filled by a simple random sample of 10 taken from the remaining 80 subjects. This process would be repeated until all 9 groups are filled with 10 individuals each.
 
-##### Did I Get This?
+### Did I Get This?
 
 A university was interested in examining the overall effectiveness of its online statistics course, along with the effectiveness of particular aspects of the course. First, the university wanted to see whether the online course was better than a standard course. Second, the university wanted to know whether students learned best using Excel, using Minitab, or using no statistical package at all. The university randomly selected a group of 30 students and administered one of the different variants of the course (i.e., traditional or online, coupled with one of the software options) to each student. The success of each variant was measured by the students' average improvement between a pre-test and a post-test.
 

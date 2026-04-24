@@ -71,7 +71,7 @@ Let's go back to our three examples and draw conclusions.
     ```
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 Two hypothesis tests were conducted.
 

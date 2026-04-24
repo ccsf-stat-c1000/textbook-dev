@@ -35,7 +35,7 @@ Let's go back to our three examples and apply the new notation:
 - *H~a~:* Performance on the SAT is related to gender -
                             males score higher.
 
-##### Learn By Doing
+### Learn By Doing
 
 According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is .22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
 
@@ -53,7 +53,7 @@ A study investigated whether there are differences between the mean IQ level of 
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 Data were collected in order to determine whether there is a relationship between a person's level of education and whether or not the person is a smoker.
 
@@ -83,7 +83,7 @@ In our three examples, the p-values were given to you (and you were reassured th
 
 Obviously, the smaller the p-value, the more surprising it is to get data like ours when H~0~ is true, and therefore, the stronger the evidence the data provide against H~0~. Looking at the three p-values of our three examples, we see that the data that we observed in example 2 provide the strongest evidence against the null hypothesis, followed by example 1, while the data in example 3 provides the least evidence against H~0~.
 
-##### Comments:
+### Comments:
 
 Right now we will not go into specific details about p-value calculations, but just mention that since the p-value is the probability of getting *data* like those observed when H~0~ is true, it would make sense that the calculation of the p-value will be based on the data summary, which, as we mentioned, is the test statistic. Indeed, this is the case. In practice, we will mostly use software to provide the p-value for us.
 

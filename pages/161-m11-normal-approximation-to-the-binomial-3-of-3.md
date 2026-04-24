@@ -38,7 +38,7 @@ It turns out that the exact probability in this case (using software) is .1316, 
 
 The purpose of the next activity is to give you guided practice in solving word problems involving a binomial random variable, when the normal approximation is appropriate and is extremely helpful.
 
-##### Learn By Doing
+### Learn By Doing
 
 Roughly 10% of all college students in the United States are left-handed. Most academic institutions, therefore, try to have at least a few left-handed chairs in each classroom. 225 students are about to enter a lecture hall that has 30 left-handed chairs for a lecture. What is the probability that this is not going to be enough; in other words, what is the probability that more than 30 (or at least 31) of the 225 students are left-handed?
 

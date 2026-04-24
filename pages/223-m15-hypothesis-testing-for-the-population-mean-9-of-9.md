@@ -147,7 +147,7 @@ A large circle represents the population, which is the shipment. μ represents t
 
 However, it is always worthwhile knowing what happens behind the scenes.
 
-##### Did I Get This?
+### Did I Get This?
 
 A group of Internet users 50-65 years of age were randomly chosen and asked to report the weekly number of hours they spend online. The purpose of the study was to determine whether the mean weekly number of hours that Internet users in that age group spend online differs from the mean for Internet users in general, which is 12.5 (as reported by "The Digital Future Report: Surveying the Digital Future, Year Four"). The following information is available:
 

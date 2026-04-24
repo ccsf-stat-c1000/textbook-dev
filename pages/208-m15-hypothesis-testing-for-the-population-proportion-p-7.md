@@ -123,7 +123,7 @@ Step 3: Completed
 
 Step 4: This is what we will work on next.
 
-##### Learn By Doing
+### Learn By Doing
 
 In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial situation as “good.” We want to know if the proportion is smaller this year. We gather a random sample of 100 U.S. adults this year and find that 39 rate their financial situation as “good.” Use the output from Minitab to complete the following statements about the p-value. Use numbers from the output to fill in the blanks.
 
@@ -157,7 +157,7 @@ Test and CI for One Proportion. Test of p = 0.45 vs p &lt; 0.45 Sample: 1: X = 3
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 The trustees of a local school district commission a survey to determine voter opinions about a possible bond measure to fund school upgrades. In a poll of 293 of the district’s 5,019 registered voters, 178 would support the bond measure. A hypothesis test was conducted using Minitab to determine if such a bond would pass with the required 55% of the vote.
 
@@ -173,7 +173,7 @@ Minitab output: Test and CI for One Proportion Test of p=0.55 vs p &gt; 0.55 Sam
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 Do zinc supplements reduce a child's risk of catching a cold? A medical study reports a p-value of 0.03. Are the following interpretations of the p-value valid or invalid?
 

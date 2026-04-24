@@ -31,7 +31,7 @@ A table with two columns and two rows. The column headings are: &quot;Small Samp
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### 
+### 
 
 Below are four different situations in which a confidence interval formula would be useful:
 

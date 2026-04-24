@@ -120,7 +120,7 @@ Hopefully by now, you understand the logic behind the statistical hypothesis tes
 A flow chart describing the process. First, we state Claim 1 and Claim 2. Claim 1 says "nothing special is going on" and is challenged by claim 2. Second, we collect relevant data and summarize it. Third, we assess how surprising it woudl be to observe data like that observed if Claim 1 is true. Fourth, we draw conclusions in context.
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 For many years "working full-time" has meant 40 hours per week. Nowadays it seems that corporate employers expect their employees to work more than this amount. A researcher decides to investigate this hypothesis.
 
@@ -155,7 +155,7 @@ To check his claim, the sociologist chooses a random sample of 375 African-Ameri
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 The most commonly accepted tradition is that college students will study 2 hours outside of class for every hour in class. This means 30 hours/week for a full-time student taking 15 units (hours of class). An educator suspects that this figure is different now than in the past.
 

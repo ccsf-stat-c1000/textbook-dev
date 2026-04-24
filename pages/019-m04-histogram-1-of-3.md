@@ -61,7 +61,7 @@ Break the range of values into intervals and count how many observations fall in
                         100. In this case, it would be .53*100 = 53 or 53%.
 ```
 
-##### 
+### 
 
 Here is the table from above, use it to answer the question.
 

@@ -68,7 +68,7 @@ Note that our parameter of interest in this case (the parameter about which we a
     H~a~: Score (of looks vs. personality) is related to gender
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 In order to check the claim that the pregnancy length of women who smoke during pregnancy is shorter, on average, than the pregnancy length of women who do not smoke, a random sample of 35 pregnant women who smoke and a random sample of 35 pregnant women who do not smoke were chosen and their pregnancy lengths were recorded. Here is a figure of this example:
 

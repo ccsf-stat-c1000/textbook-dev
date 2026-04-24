@@ -8,7 +8,7 @@ So far, we have discussed and illustrated cases in which the matched pairs desig
 
 ## The Paired t-test
 
-##### Idea
+### Idea
 
 The idea behind the paired t-test is to reduce this two-sample situation, where we are comparing two means, to a single sample situation where we are doing inference on a single mean, and then use a simple t-test that we introduced in the previous module. We will first illustrate this idea using our example, and then more generally.
 

@@ -6,7 +6,7 @@
 
 ## Comparing Two Means—Two Independent Samples (The Two-Sample t-Test)
 
-##### Overview
+### Overview
 
 As we mentioned in the summary of the introduction to Case C→Q, the first case that we will deal with is comparing two means when the two samples are independent:
 

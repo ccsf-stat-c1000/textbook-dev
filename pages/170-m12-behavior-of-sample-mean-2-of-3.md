@@ -10,7 +10,7 @@ The results we got in our simulations are not surprising. Advanced probability t
 
 If repeated random samples of a given size n are taken from a population of values for a quantitative variable, where the population mean is $\mu$ and the population standard deviation is $\sigma$, then the mean of all sample means ($\bar{x}$) is population mean $\mu$. As for the spread of all sample means, theory dictates the behavior much more precisely than saying that there is less spread for larger samples. In fact, the standard deviation of all sample means ($\bar{x}$) is exactly $\frac{\sigma}{\sqrt{n}}$. Since the square root of sample size n appears in the denominator, the standard deviation does decrease as sample size increases.
 
-##### Learn By Doing
+### Learn By Doing
 
 The Federal Pell Grant Program provides need-based grants to low-income undergraduate and certain postbaccalaureate students to promote access to postsecondary education. According to the National Postsecondary Student Aid Study conducted by the U.S. Department of Education in 2008, the average Pell grant award for 2007-2008 was $2,600. Assume that the standard deviation in Pell grant awards was $500.
 

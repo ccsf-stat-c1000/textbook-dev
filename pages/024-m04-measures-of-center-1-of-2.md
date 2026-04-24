@@ -146,7 +146,7 @@ The median M is the midpoint of the distribution. It is the number such that hal
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Calculating mean, median, and mode
+### Calculating mean, median, and mode
 
 ```{note} Video
 [Finding mean, median, and mode | Descriptive statistics | Probability and Statistics | Khan Academy](https://www.youtube.com/watch?v=k3aKKasOmIw)

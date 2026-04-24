@@ -61,7 +61,7 @@ Let's look at another example.
     We are 95% confident that the mean SAT-M score of all community college students in the researcher's state is covered by the interval (467, 483). Note that the confidence interval was obtained by taking $475\pm8$ (rounded). This means that we are 95% confident that by using the sample mean ($\bar{x}=475$) to estimate μ, our error is no more than 8.
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 A study was done on pregnant women who smoked during their pregnancies. In particular, the researchers wanted to study the effect that smoking has on pregnancy length. A sample of 114 pregnant women who were smokers participated in the study and were followed until the birth of their child. At the end of the study, the collected data were analyzed and it was found that the average pregnancy length of the 114 women was 260 days. From a large body of research, it is known that length of human pregnancy has a standard deviation of 16 days.
 

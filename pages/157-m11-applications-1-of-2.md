@@ -49,7 +49,7 @@ A normal probability distribution curve which has a horizontal axis in z-score u
 
 The purpose of the next activity is to give you guided practice at solving word problems that involve normal random variables. In particular, we'll solve problems like the examples you just went over, in which you are asked to find the probability that a normal random variable falls within a certain interval.
 
-##### Learn By Doing
+### Learn By Doing
 
 According to the College Board website, the scores on the math part of the SAT (SAT-M) in a certain year had a mean of 507 and standard deviation of 111. Assume that SAT scores follow a normal distribution.
 

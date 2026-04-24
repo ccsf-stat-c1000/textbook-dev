@@ -100,7 +100,7 @@ Let's look at two examples:
     ```
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 The UCLA Internet Report (February 2003) estimated that roughly 8.7% of Internet users are extremely concerned about credit card fraud when buying online. A study was designed in order to examine whether that proportion has changed since. Let p be the proportion of all Internet users who are concerned about credit card fraud. In this study we are therefore testing:
 

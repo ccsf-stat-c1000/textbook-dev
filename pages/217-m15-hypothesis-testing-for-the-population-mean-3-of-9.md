@@ -8,7 +8,7 @@
 
 The p-value — the probability of getting data (summarized with the test statistic) as extreme as those observed or even more extreme (in the direction of the alternative hypothesis) when H~o~ is true — for the z-test for the population mean is found exactly like the p-value in the z-test for the population proportion. We've already learned that the p-value is found under the null distribution of the test statistic, and since for both means (with σ known) and proportions the null distribution of the test statistic is N(0,1), the p-value is calculated as follows:
 
-##### Less Than
+### Less Than
 
 ```{figure} images/image336.gif
 :alt: H_a: μ &lt; μ_0 ⇒ p-value = P(Z ≤ z)
@@ -22,7 +22,7 @@ H_a: μ &lt; μ_0 ⇒ p-value = P(Z ≤ z)
 A N(0,1) curve for which the horizontal axis has been marked with two z-scores, z and 0, where z is the observed test statistic. z is to the left of 0, and the area to the left of z under the curve is the p-value.
 ```
 
-##### Greater Than
+### Greater Than
 
 ```{figure} images/image337.gif
 :alt: H_a: μ &gt; μ_0 ⇒ p-value = P(Z ≥ z)
@@ -36,7 +36,7 @@ H_a: μ &gt; μ_0 ⇒ p-value = P(Z ≥ z)
 A N(0,1) curve for which the horizontal axis has been marked with two z-scores, z and 0, where z is the observed test statstic. z is to the right of 0, and the area to the right of z under the curve is the p-value.
 ```
 
-##### Not Equal To
+### Not Equal To
 
 ```{figure} images/image338.gif
 :alt: H_a: μ ≠ μ_0 ⇒ p-value = P(Z ≤ -|z|) + P(Z ≥ |z|) = 2P(Z ≥ |z|)

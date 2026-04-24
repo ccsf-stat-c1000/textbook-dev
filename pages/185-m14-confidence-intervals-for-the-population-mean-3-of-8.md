@@ -61,7 +61,7 @@ The important practical implication here is that researchers must decide whether
 
 The price we have to pay for a higher level of confidence is that the unknown population mean will be estimated with less precision (i.e., with a wider confidence interval). If we would like to estimate μ with more precision (i.e., a narrower confidence interval), we will need to sacrifice and report an interval with a lower level of confidence.
 
-##### Did I Get This?
+### Did I Get This?
 
 In a recent study, 1,115 males 25 to 35 years of age were randomly chosen and asked about their exercise habits. Based on the study results, the researchers estimated the mean time that a male 25 to 35 years of age spends exercising with 90%, 95%, and 99% confidence intervals. These were (not necessarily in the same order):
 

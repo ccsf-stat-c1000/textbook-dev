@@ -6,7 +6,7 @@
 
 ## Comparing More Than Two Means—ANOVA
 
-##### Overview
+### Overview
 
 In this part, we continue to handle situations involving one categorical explanatory variable and one quantitative response variable, which is case C→Q in our role/type classification table:
 
@@ -26,7 +26,7 @@ We are now moving on to cases in which the categorical explanatory variable take
 The Explanatory (X): has k values. This means we have k populations, and for each population a Y mean μ. Each of these populations also has a sample, each with its own size. We end up with k independent samples.
 ```
 
-##### Comment
+### Comment
 
 The extension of the matched pairs design to more than two dependent samples is called "Repeated Measures" and is beyond the scope of this course.
 
@@ -48,7 +48,7 @@ Let's start by introducing our leading example.
     The figure highlights what we have already mentioned: examining the relationship between major (X) and frustration level (Y) amounts to comparing the mean frustration levels ($\mu_{1},\mu_{2},\mu_{3},\mu_{4}$ ) among the four majors defined by X. Also, the figure reminds us that we are dealing with a case where the samples are independent.
 ```
 
-##### Comment
+### Comment
 
 There are two ways to record data in the ANOVA setting:
 

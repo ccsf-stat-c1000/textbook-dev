@@ -116,7 +116,7 @@ Recall that the probability of committing a type I error is α. Why is this? Wel
 
 It is more complicated to calculate the probability of a type II error. The best way to reduce the probability of a type II error is to increase the sample size. But once the sample size is set, larger values of α will decrease the probability of a type II error while increasing the probability of a type I error.
 
-##### 
+### 
 
 A double-blind experiment is conducted to investigate the side effects of hormone replacement therapy for women with menopausal symptoms. The experiment randomly assigns more than 16,000 American women to either a hormone treatment or a placebo. After five years, the HRT study finds no significant difference in the proportion of women developing breast cancer and heart disease. Researchers decide, based on this finding, to allow the study to continue. As the null hypothesis was not rejected, there is a chance that the researchers made a type II error.
 
@@ -134,7 +134,7 @@ Suppose that at the end of the five-year study described above, a greater propor
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### 
+### 
 
 An NBC News/*Wall Street Journal*poll conducted in 2010 determined that 61 percent of Americans did not support the Tea Party movement. In a poll of 1,000 Americans this year, 64 percent say they do not support the Tea Party movement. Has opposition to the Tea Party movement increased since 2010?
 

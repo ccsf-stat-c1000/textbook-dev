@@ -7,7 +7,7 @@
 
 ## Inference for the Linear Relationships between Two Quantitative Variables
 
-##### Overview
+### Overview
 
 In inference for relationships, so far we have learned inference procedures for both cases C→Q and C→C from the role/type classification table below. The last case to be considered in this course is case Q→Q, where both the explanatory and response variables are quantitative. (Case Q→C requires statistical methods that go beyond the scope of this course, but might be part of extension modules in the future).
 
@@ -49,7 +49,7 @@ Then we get to the inference part of the process, which we are going to learn he
                                         relationship between X and Y in the population, and can use
                                         it to make predictions (see comment 1 below).
 
-##### Comments
+### Comments
 
 1. We estimate the line that governs the linear relationship between X and Y in the population by the line that best fits the linear pattern in our observed data. Recall that in the Exploratory Data Analysis unit we've actually already learned how to find the least squares regression line—the line that best fits the observed data. You can now see that finding the least squares regression line actually belongs to the inference unit, and while it is true that it is the line that best fits (in some sense) the observed data, it is really an estimate of the true linear relationship that exists in the population. The good thing is that we already learned how to obtain this line, so we'll only need to review it.
 

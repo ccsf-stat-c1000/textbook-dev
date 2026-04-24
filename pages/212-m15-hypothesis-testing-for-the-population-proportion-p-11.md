@@ -90,7 +90,7 @@ Two &apos;races&apos; which illustrate why in the two-sided example we could not
 
 We can summarize and say that in general it is harder to reject H~o~ against a two-sided H~a~ because the p-value is twice as large. Intuitively, a one-sided alternative gives us a head-start, and on top of that we have the evidence provided by the data. When our alternative is the two-sided test, we get no head-start and all we have are the data, and therefore it is harder to cross the finish line and reject H~o~.
 
-##### Did I Get This?
+### Did I Get This?
 
 Consider the following two hypothesis testing scenarios for the population proportion (p) and corresponding studies:
 

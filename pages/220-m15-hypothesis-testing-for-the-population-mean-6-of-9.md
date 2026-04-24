@@ -94,7 +94,7 @@ The following picture illustrates this idea with just a couple of t distribution
 The standard normal z-distribution curve overlaid with a t-distribution with 5 d.f., and a t-distribution with 2 d.f. The distribution with 2 t.f. is shorter and has more spread than the t-distribution with 5 d.f., which in turn is shorter and wider than the standard normal distribution.
 ```
 
-##### Learn By Doing
+### Learn By Doing
 
 The following figure of the standard normal distribution together with a t distribution will visually help you answer the following questions.
 
@@ -110,7 +110,7 @@ The standard normal Z distribution curve and the t-distribution curve overlaid o
     *(Interactive activity — available in the OLI platform)*
 ```
 
-##### Did I Get This?
+### Did I Get This?
 
 The following figure of the standard normal distribution together with a t distribution will visually help you answer the following questions.
 
