@@ -4,293 +4,59 @@ project:
   - file: pages/intro.md
   - title: "Unit 1: Introduction"
     children:
-    - file: pages/002-m01-welcome.md
-      title: "Module 1: Introduction"
+    - title: "Module 1: Introduction"
       children:
-      - file: pages/003-m01-pre-course-survey.md
-    - file: pages/005-m02-strategies-for-learning.md
-      title: "Module 2: Learning Strategies"
+      - pattern: pages/*m01*.md
+    - title: "Module 2: Learning Strategies"
       children:
-      - file: pages/006-m02-developing-skills-for-independent-learning-1-of-2.md
-      - file: pages/007-m02-developing-skills-for-independent-learning-2-of-2.md
-    - file: pages/009-m03-the-big-picture.md
-      title: "Module 3: The Big Picture"
+      - pattern: pages/*m02*.md
+    - title: "Module 3: The Big Picture"
+      children:
+      - pattern: pages/*m03*.md
   - title: "Unit 2: Exploratory Data Analysis"
     children:
-    - file: pages/010-m04-exploratory-data-analysis-1-of-2.md
-      title: "Module 4: Examining Distributions"
+    - title: "Module 4: Examining Distributions"
       children:
-      - file: pages/011-m04-exploratory-data-analysis-2-of-2.md
-      - file: pages/013-m04-examining-distributions.md
-      - file: pages/014-m04-one-categorical-variable-1-of-3.md
-      - file: pages/015-m04-one-categorical-variable-2-of-3.md
-      - file: pages/016-m04-one-categorical-variable-3-of-3.md
-      - file: pages/017-m04-one-quantitative-variable.md
-      - file: pages/018-m04-graphs.md
-      - file: pages/019-m04-histogram-1-of-3.md
-      - file: pages/020-m04-histogram-2-of-3.md
-      - file: pages/021-m04-histogram-3-of-3.md
-      - file: pages/022-m04-stemplot.md
-      - file: pages/023-m04-numerical-measures.md
-      - file: pages/024-m04-measures-of-center-1-of-2.md
-      - file: pages/025-m04-measures-of-center-2-of-2.md
-      - file: pages/026-m04-measures-of-spread-1-of-5.md
-      - file: pages/027-m04-measures-of-spread-2-of-5.md
-      - file: pages/028-m04-measures-of-spread-3-of-5.md
-      - file: pages/029-m04-measures-of-spread-4-of-5.md
-      - file: pages/030-m04-measures-of-spread-5-of-5.md
-      - file: pages/031-m04-boxplot-1-of-3.md
-      - file: pages/032-m04-boxplot-2-of-3.md
-      - file: pages/033-m04-boxplot-3-of-3.md
-      - file: pages/034-m04-standard-deviation-1-of-3.md
-      - file: pages/035-m04-standard-deviation-2-of-3.md
-      - file: pages/036-m04-standard-deviation-3-of-3.md
-      - file: pages/037-m04-wrap-up-distributions.md
-    - file: pages/039-m05-examining-relationships.md
-      title: "Module 5: Examining Relationships"
+      - pattern: pages/*m04*.md
+    - title: "Module 5: Examining Relationships"
       children:
-      - file: pages/040-m05-the-role-type-classification-1-of-2.md
-      - file: pages/041-m05-the-role-type-classification-2-of-2.md
-      - file: pages/042-m05-case-c-q-1-of-2.md
-      - file: pages/043-m05-case-c-q-2-of-2.md
-      - file: pages/044-m05-case-c-c-1-of-2.md
-      - file: pages/045-m05-case-c-c-2-of-2.md
-      - file: pages/046-m05-case-q-q.md
-      - file: pages/047-m05-scatterplot-1-of-5.md
-      - file: pages/048-m05-scatterplot-2-of-5.md
-      - file: pages/049-m05-scatterplot-3-of-5.md
-      - file: pages/050-m05-scatterplot-4-of-5.md
-      - file: pages/051-m05-scatterplot-5-of-5.md
-      - file: pages/052-m05-linear-relationships-1-of-8.md
-      - file: pages/053-m05-linear-relationships-2-of-8.md
-      - file: pages/054-m05-linear-relationships-3-of-8.md
-      - file: pages/055-m05-linear-relationships-4-of-8.md
-      - file: pages/056-m05-linear-relationships-5-of-8.md
-      - file: pages/057-m05-linear-relationships-6-of-8.md
-      - file: pages/058-m05-linear-relationships-7-of-8.md
-      - file: pages/059-m05-linear-relationships-8-of-8.md
-      - file: pages/060-m05-causation-and-lurking-variables-1-of-5.md
-      - file: pages/061-m05-causation-and-lurking-variables-2-of-5.md
-      - file: pages/062-m05-causation-and-lurking-variables-3-of-5.md
-      - file: pages/063-m05-causation-and-lurking-variables-4-of-5.md
-      - file: pages/064-m05-causation-and-lurking-variables-5-of-5.md
-      - file: pages/065-m05-wrap-up-relationships.md
-      - file: pages/066-m05-summary-eda.md
+      - pattern: pages/*m05*.md
   - title: "Unit 3: Producing Data"
     children:
-    - file: pages/067-m06-introduction-to-producing-data.md
-      title: "Module 6: Sampling"
+    - title: "Module 7: Designing Studies"
       children:
-      - file: pages/069-m06-sampling-1-of-2.md
-      - file: pages/070-m06-sampling-2-of-2.md
-      - file: pages/071-m06-wrap-up-sampling.md
-    - file: pages/073-m07-designing-studies.md
-      title: "Module 7: Designing Studies"
-      children:
-      - file: pages/074-m07-introduction.md
-      - file: pages/075-m07-identifying-study-design-1-of-2.md
-      - file: pages/076-m07-identifying-study-design-2-of-2.md
-      - file: pages/077-m07-causation-and-observational-studies-1-of-2.md
-      - file: pages/078-m07-causation-and-observational-studies-2-of-2.md
-      - file: pages/079-m07-causation-and-experiments-1-of-3.md
-      - file: pages/080-m07-causation-and-experiments-2-of-3.md
-      - file: pages/081-m07-causation-and-experiments-3-of-3.md
-      - file: pages/082-m07-experiments-with-more-than-one-explanatory-variable.md
-      - file: pages/083-m07-modifications-to-randomization.md
-      - file: pages/084-m07-sample-surveys-1-of-2.md
-      - file: pages/085-m07-sample-surveys-2-of-2.md
-      - file: pages/086-m07-wrap-up-designing-studies.md
-      - file: pages/087-m07-summary-producing-data.md
+      - pattern: pages/*m07*.md
   - title: "Unit 4: Probability"
     children:
-    - file: pages/089-m08-probability.md
-      title: "Module 8: Introduction (Probability)"
+    - title: "Module 8: Introduction (Probability)"
       children:
-      - file: pages/090-m08-introduction-to-probability-1-of-5.md
-      - file: pages/091-m08-introduction-to-probability-2-of-5.md
-      - file: pages/092-m08-introduction-to-probability-3-of-5.md
-      - file: pages/093-m08-introduction-to-probability-4-of-5.md
-      - file: pages/094-m08-introduction-to-probability-5-of-5.md
-      - file: pages/095-m08-relative-frequency-1-of-2.md
-      - file: pages/096-m08-relative-frequency-2-of-2.md
-    - file: pages/098-m09-finding-probability-of-events.md
-      title: "Module 9: Finding Probability of Events"
+      - pattern: pages/*m08*.md
+    - title: "Module 9: Finding Probability of Events"
       children:
-      - file: pages/099-m09-sample-spaces-and-events-1-of-2.md
-      - file: pages/100-m09-sample-spaces-and-events-2-of-2.md
-      - file: pages/101-m09-equally-likely-outcomes-1-of-2.md
-      - file: pages/102-m09-equally-likely-outcomes-2-of-2.md
-      - file: pages/103-m09-probability-rules-1-of-11.md
-      - file: pages/104-m09-probability-rules-2-of-11.md
-      - file: pages/105-m09-probability-rules-3-of-11.md
-      - file: pages/106-m09-probability-rules-4-of-11.md
-      - file: pages/107-m09-probability-rules-5-of-11.md
-      - file: pages/108-m09-probability-rules-6-of-11.md
-      - file: pages/109-m09-probability-rules-7-of-11.md
-      - file: pages/110-m09-probability-rules-8-of-11.md
-      - file: pages/111-m09-probability-rules-9-of-11.md
-      - file: pages/112-m09-probability-rules-10-of-11.md
-      - file: pages/113-m09-probability-rules-11-of-11.md
-      - file: pages/114-m09-wrap-up-finding-probability-of-events.md
-    - file: pages/116-m10-conditional-probability-and-independence.md
-      title: "Module 10: Conditional Probability and Independence"
+      - pattern: pages/*m09*.md
+    - title: "Module 10: Conditional Probability and Independence"
       children:
-      - file: pages/117-m10-conditional-probability-1-of-2.md
-      - file: pages/118-m10-conditional-probability-2-of-2.md
-      - file: pages/119-m10-independence-1-of-2.md
-      - file: pages/120-m10-independence-2-of-2.md
-      - file: pages/121-m10-the-general-multiplication-rule-1-of-2.md
-      - file: pages/122-m10-the-general-multiplication-rule-2-of-2.md
-      - file: pages/123-m10-probability-trees-1-of-3.md
-      - file: pages/124-m10-probability-trees-2-of-3.md
-      - file: pages/125-m10-probability-trees-3-of-3.md
-      - file: pages/126-m10-wrap-up-conditional-probability-and-independence.md
-    - file: pages/128-m11-random-variables-1-of-2.md
-      title: "Module 11: Random Variables"
+      - pattern: pages/*m10*.md
+    - title: "Module 11: Random Variables"
       children:
-      - file: pages/129-m11-random-variables-2-of-2.md
-      - file: pages/130-m11-discrete-random-variables.md
-      - file: pages/131-m11-probability-distribution-1-of-5.md
-      - file: pages/132-m11-probability-distribution-2-of-5.md
-      - file: pages/133-m11-probability-distribution-3-of-5.md
-      - file: pages/134-m11-probability-distribution-4-of-5.md
-      - file: pages/135-m11-probability-distribution-5-of-5.md
-      - file: pages/136-m11-mean-and-variance-of-a-random-variable-1-of-5.md
-      - file: pages/137-m11-mean-and-variance-of-a-random-variable-2-of-5.md
-      - file: pages/138-m11-mean-and-variance-of-a-random-variable-3-of-5.md
-      - file: pages/139-m11-mean-and-variance-of-a-random-variable-4-of-5.md
-      - file: pages/140-m11-mean-and-variance-of-a-random-variable-5-of-5.md
-      - file: pages/141-m11-rules-for-means-and-variances-of-random-variables-1-of.md
-      - file: pages/142-m11-rules-for-means-and-variances-of-random-variables-2-of.md
-      - file: pages/143-m11-rules-for-means-and-variances-of-random-variables-3-of.md
-      - file: pages/144-m11-binomial-random-variables-1-of-4.md
-      - file: pages/145-m11-binomial-random-variables-2-of-4.md
-      - file: pages/146-m11-binomial-random-variables-3-of-4.md
-      - file: pages/147-m11-binomial-random-variables-4-of-4.md
-      - file: pages/148-m11-continuous-random-variables.md
-      - file: pages/149-m11-probability-distribution-1-of-2.md
-      - file: pages/150-m11-probability-distribution-2-of-2.md
-      - file: pages/151-m11-introduction-to-normal-random-variables-1-of-3.md
-      - file: pages/152-m11-introduction-to-normal-random-variables2-of-3.md
-      - file: pages/153-m11-introduction-to-normal-random-variables-3-of-3.md
-      - file: pages/154-m11-standard-normal-table-1-of-3.md
-      - file: pages/155-m11-standard-normal-table-2-of-3.md
-      - file: pages/156-m11-standard-normal-table-3-of-3.md
-      - file: pages/157-m11-applications-1-of-2.md
-      - file: pages/158-m11-applications-2-of-2.md
-      - file: pages/159-m11-normal-approximation-to-the-binomial-1-of-3.md
-      - file: pages/160-m11-normal-approximation-to-the-binomial-2-of-3.md
-      - file: pages/161-m11-normal-approximation-to-the-binomial-3-of-3.md
-      - file: pages/162-m11-wrap-up-random-variables.md
-    - file: pages/164-m12-sampling-distributions.md
-      title: "Module 12: Sampling Distributions"
+      - pattern: pages/*m11*.md
+    - title: "Module 12: Sampling Distributions"
       children:
-      - file: pages/165-m12-parameters-vs-statistics.md
-      - file: pages/166-m12-behavior-of-sample-proportion-1-of-3.md
-      - file: pages/167-m12-behavior-of-sample-proportion-2-of-3.md
-      - file: pages/168-m12-behavior-of-sample-proportion-3-of-3.md
-      - file: pages/169-m12-behavior-of-sample-mean-1-of-3.md
-      - file: pages/170-m12-behavior-of-sample-mean-2-of-3.md
-      - file: pages/171-m12-behavior-of-sample-mean-3-of-3.md
-      - file: pages/172-m12-wrap-up-sampling-distributions.md
-      - file: pages/173-m12-summary-probability.md
+      - pattern: pages/*m12*.md
   - title: "Unit 5: Inference"
     children:
-    - file: pages/174-m13-statistical-inference.md
-      title: "Module 13: Introduction to Inference"
+    - title: "Module 13: Introduction to Inference"
       children:
-      - file: pages/178-m13-inference-for-one-variable.md
-    - file: pages/176-m13-introduction-to-inference-1-of-2.md
-      title: "Module 13: Introduction (Inference)"
+      - pattern: pages/*m13*.md
+    - title: "Module 14: Estimation"
       children:
-      - file: pages/177-m13-introduction-to-inference-2-of-2.md
-    - file: pages/180-m14-point-estimation-1-of-2.md
-      title: "Module 14: Estimation"
+      - pattern: pages/*m14*.md
+    - title: "Module 15: Hypothesis Testing"
       children:
-      - file: pages/181-m14-point-estimation-2-of-2.md
-      - file: pages/182-m14-interval-estimation.md
-      - file: pages/183-m14-confidence-intervals-for-the-population-mean-1-of-8.md
-      - file: pages/184-m14-confidence-intervals-for-the-population-mean-2-of-8.md
-      - file: pages/185-m14-confidence-intervals-for-the-population-mean-3-of-8.md
-      - file: pages/186-m14-confidence-intervals-for-the-population-mean-4-of-8.md
-      - file: pages/187-m14-confidence-intervals-for-the-population-mean-5-of-8.md
-      - file: pages/188-m14-confidence-intervals-for-the-population-mean-6-of-8.md
-      - file: pages/189-m14-confidence-intervals-for-the-population-mean-7-of-8.md
-      - file: pages/190-m14-confidence-intervals-for-the-population-mean-8-of-8.md
-      - file: pages/191-m14-confidence-intervals-for-population-proportion-p-1-of-4.md
-      - file: pages/192-m14-confidence-intervals-for-population-proportion-p-2-of-4.md
-      - file: pages/193-m14-confidence-intervals-for-population-proportion-p-3-of-4.md
-      - file: pages/194-m14-confidence-intervals-for-population-proportion-p-4-of-4.md
-    - file: pages/196-m15-hypothesis-testing.md
-      title: "Module 15: Hypothesis Testing"
+      - pattern: pages/*m15*.md
+    - title: "Module 16: Inference for Relationships"
       children:
-      - file: pages/197-m15-overview-1-of-4.md
-      - file: pages/198-m15-overview-2-of-4.md
-      - file: pages/199-m15-overview-3-of-4.md
-      - file: pages/200-m15-overview-4-of-4.md
-      - file: pages/201-m15-overview-wrap-up.md
-      - file: pages/202-m15-hypothesis-testing-for-the-population-proportion-p-1.md
-      - file: pages/203-m15-hypothesis-testing-for-the-population-proportion-p-2.md
-      - file: pages/204-m15-hypothesis-testing-for-the-population-proportion-p-3.md
-      - file: pages/205-m15-hypothesis-testing-for-the-population-proportion-p-4.md
-      - file: pages/206-m15-hypothesis-testing-for-the-population-proportion-p-5.md
-      - file: pages/207-m15-hypothesis-testing-for-the-population-proportion-p-6.md
-      - file: pages/208-m15-hypothesis-testing-for-the-population-proportion-p-7.md
-      - file: pages/209-m15-hypothesis-testing-for-the-population-proportion-p-8.md
-      - file: pages/210-m15-hypothesis-testing-for-the-population-proportion-p-9.md
-      - file: pages/211-m15-hypothesis-testing-for-the-population-proportion-p-10.md
-      - file: pages/212-m15-hypothesis-testing-for-the-population-proportion-p-11.md
-      - file: pages/213-m15-hypothesis-testing-for-the-population-proportion-p-12.md
-      - file: pages/214-m15-hypothesis-testing-for-the-population-proportion-p-13.md
-      - file: pages/215-m15-hypothesis-testing-for-the-population-mean-1-of-9.md
-      - file: pages/216-m15-hypothesis-testing-for-the-population-mean-2-of-9.md
-      - file: pages/217-m15-hypothesis-testing-for-the-population-mean-3-of-9.md
-      - file: pages/218-m15-hypothesis-testing-for-the-population-mean-4-of-9.md
-      - file: pages/219-m15-hypothesis-testing-for-the-population-mean-5-of-9.md
-      - file: pages/220-m15-hypothesis-testing-for-the-population-mean-6-of-9.md
-      - file: pages/221-m15-hypothesis-testing-for-the-population-mean-7-of-9.md
-      - file: pages/222-m15-hypothesis-testing-for-the-population-mean-8-of-9.md
-      - file: pages/223-m15-hypothesis-testing-for-the-population-mean-9-of-9.md
-      - file: pages/224-m15-wrap-up-hypothesis-testing.md
-      - file: pages/225-m15-type-i-and-type-ii-errors.md
-      - file: pages/226-m15-wrap-up-type-i-and-type-ii-errors.md
-    - file: pages/228-m16-introduction.md
-      title: "Module 16: Inference for Relationships"
+      - pattern: pages/*m16*.md
+    - title: "Module 17: Inference for Relationships Continued"
       children:
-      - file: pages/229-m16-case-c-q-1-of-2.md
-      - file: pages/230-m16-case-c-q-2-of-2.md
-      - file: pages/231-m16-two-independent-samples-1-of-7.md
-      - file: pages/232-m16-two-independent-samples-2-of-7.md
-      - file: pages/233-m16-two-independent-samples-3-of-7.md
-      - file: pages/234-m16-two-independent-samples-4-of-7.md
-      - file: pages/235-m16-two-independent-samples-5-of-7.md
-      - file: pages/236-m16-two-independent-samples-6-of-7.md
-      - file: pages/237-m16-two-independent-samples-7-of-7.md
-      - file: pages/238-m16-matched-pairs-1-of-8.md
-      - file: pages/239-m16-matched-pairs-2-of-8.md
-      - file: pages/240-m16-matched-pairs-3-of-8.md
-      - file: pages/241-m16-matched-pairs-4-of-8.md
-      - file: pages/242-m16-matched-pairs-5-of-8.md
-      - file: pages/243-m16-matched-pairs-6-of-8.md
-      - file: pages/244-m16-matched-pairs-7-of-8.md
-      - file: pages/245-m16-matched-pairs-8-of-8.md
-      - file: pages/246-m16-anova-1-of-7.md
-      - file: pages/247-m16-anova-2-of-7.md
-      - file: pages/248-m16-anova-3-of-7.md
-      - file: pages/249-m16-anova-4-of-7.md
-      - file: pages/250-m16-anova-5-of-7.md
-      - file: pages/251-m16-anova-6-of-7.md
-      - file: pages/252-m16-anova-7-of-7.md
-      - file: pages/253-m16-conclusion-of-case-c-q.md
-    - file: pages/255-m17-case-c-c-1-of-5.md
-      title: "Module 17: Inference for Relationships Continued"
-      children:
-      - file: pages/256-m17-case-c-c-2-of-5.md
-      - file: pages/257-m17-case-c-c-3-of-5.md
-      - file: pages/258-m17-case-c-c-4-of-5.md
-      - file: pages/259-m17-case-c-c-5-of-5.md
-      - file: pages/260-m17-case-q-q-1-of-3.md
-      - file: pages/261-m17-case-q-q-2-of-3.md
-      - file: pages/262-m17-case-q-q-3-of-3.md
-      - file: pages/263-m17-wrap-up-inference-for-relationships.md
-      - file: pages/264-m17-summary-inference.md
+      - pattern: pages/*m17*.md
