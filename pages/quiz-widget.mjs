@@ -1,40 +1,27 @@
 /**
- * quiz-widget.mjs
+ * quiz-widget.mjs — MyST anywidget for interactive quiz / concept-check questions.
  *
- * MyST anywidget for interactive quiz / concept-check questions.
- * Used via the {anywidget} directive — see README in quiz.mjs for usage.
- *
- * Model keys (set via the directive JSON body):
- *   question   {string}   The question text (plain or with $math$)
- *   choices    {Array}    [{text, correct}]  — correct is boolean
- *   multi      {boolean}  true = checkboxes, false = radio (default)
- *   hint       {string}   Optional hint text
- *   explanation {string}  Optional explanation shown after submission
+ * Model keys:
+ *   question    {string}   Question text (plain or with $math$)
+ *   choices     {Array}    [{text, correct, feedback}]
+ *   multi       {boolean}  true = checkboxes, false = radio
+ *   hint        {string}   Optional hint text
+ *   explanation {string}   Optional explanation shown after submission
  */
 
-// ── Escape helpers ────────────────────────────────────────────────────────────
+// ── Inline renderers ──────────────────────────────────────────────────────────
 
 function esc(s) {
   return String(s ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-/**
- * Very small inline renderer: handles `code`, $math$, and plain text.
- * Full KaTeX is not available inside Shadow DOM so we render math as
- * styled italic spans — sufficient for most concept-check use cases.
- * For full KaTeX support call renderMathInElement on el after mounting.
- */
 function renderInline(text) {
   let html = esc(text);
-  // inline code
   html = html.replace(/`([^`]+)`/g, (_, c) =>
     `<code style="background:#e2e8f0;border-radius:3px;padding:1px 4px;font-size:.88em;font-family:ui-monospace,monospace">${c}</code>`
   );
-  // inline math $...$  → italic span (anywidget shadow DOM won't have KaTeX)
   html = html.replace(/\$([^$]+)\$/g, (_, m) =>
     `<em style="font-style:italic">${m}</em>`
   );
@@ -42,7 +29,6 @@ function renderInline(text) {
 }
 
 function renderChoice(text) {
-  // fenced code block  ```lang\n...\n```
   const fence = text.match(/^```(\w*)\n([\s\S]*)\n```$/);
   if (fence) {
     const lang = esc(fence[1]);
@@ -52,7 +38,7 @@ function renderChoice(text) {
   return renderInline(text);
 }
 
-// ── Styles (injected into Shadow DOM) ─────────────────────────────────────────
+// ── Styles ────────────────────────────────────────────────────────────────────
 
 const CSS = `
 :host { display: block; font-family: inherit; font-size: 1rem; margin: 1.5em 0; }
@@ -75,6 +61,9 @@ const CSS = `
 .question { font-weight: 500; line-height: 1.55; margin: 0 0 10px; }
 .multinote { font-size: .83em; color: #64748b; font-style: italic; margin: -4px 0 8px; }
 .choices { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+
+/* Choice row — wraps input + content + feedback pill */
+.choice-wrap { display: flex; flex-direction: column; }
 .choice {
   display: flex; align-items: flex-start; gap: 8px;
   padding: 8px 10px; border-radius: 4px;
@@ -86,9 +75,40 @@ const CSS = `
 .choice:hover { border-color: #0284c7; background: #f0f9ff; }
 .choice input { margin-top: 2px; accent-color: #0284c7; flex-shrink: 0; cursor: pointer; }
 .choice-text { flex: 1; }
-.choice.ok  { border-color: #16a34a !important; background: #f0fdf4 !important; }
-.choice.bad { border-color: #dc2626 !important; background: #fef2f2 !important; }
+
+/* Per-choice feedback shown beneath the choice after submission */
+.choice-feedback {
+  display: none;
+  margin: 3px 0 0 2px;
+  padding: 5px 10px;
+  border-radius: 0 0 4px 4px;
+  font-size: .86em;
+  line-height: 1.45;
+  border-left: 3px solid #94a3b8;
+  background: #f8fafc;
+  color: #475569;
+}
+.choice-feedback.visible { display: block; }
+.choice-feedback.fb-correct {
+  border-left-color: #16a34a;
+  background: #f0fdf4;
+  color: #15803d;
+}
+.choice-feedback.fb-incorrect {
+  border-left-color: #dc2626;
+  background: #fef2f2;
+  color: #b91c1c;
+}
+.choice-feedback.fb-missed {
+  border-left-color: #d97706;
+  background: #fffbeb;
+  color: #92400e;
+}
+
+.choice.ok     { border-color: #16a34a !important; background: #f0fdf4 !important; }
+.choice.bad    { border-color: #dc2626 !important; background: #fef2f2 !important; }
 .choice.missed { border-color: #d97706 !important; background: #fffbeb !important; }
+
 .fb {
   padding: 8px 12px; border-radius: 4px;
   margin-bottom: 10px; font-size: .93em; font-weight: 600;
@@ -115,6 +135,7 @@ button {
 .btn-hint:hover { background: #fef08a; }
 .btn-reset { background: transparent; color: #0284c7; border-color: #0284c7; display: none; }
 .btn-reset:hover { background: #e0f2fe; }
+
 @media (prefers-color-scheme: dark) {
   .quiz { background: #0c1a27; border-color: #1e3a4f; border-left-color: #0284c7; color: #e2e8f0; }
   .quiz-hdr { background: #0c2940; border-color: #1e4060; color: #7dd3fc; }
@@ -123,6 +144,10 @@ button {
   .choice.ok     { background: #052e16 !important; border-color: #16a34a !important; }
   .choice.bad    { background: #2d0a0a !important; border-color: #dc2626 !important; }
   .choice.missed { background: #1c1208 !important; border-color: #d97706 !important; }
+  .choice-feedback { background: #1e2d3d; color: #94a3b8; border-left-color: #475569; }
+  .choice-feedback.fb-correct  { background: #052e16; color: #4ade80; border-left-color: #16a34a; }
+  .choice-feedback.fb-incorrect{ background: #2d0a0a; color: #f87171; border-left-color: #dc2626; }
+  .choice-feedback.fb-missed   { background: #1c1208; color: #fcd34d; border-left-color: #d97706; }
   .fb.ok  { background: #052e16; color: #4ade80; border-color: #14532d; }
   .fb.bad { background: #2d0a0a; color: #f87171; border-color: #7f1d1d; }
   .hint-box { background: #1c1208; color: #fde68a; }
@@ -133,7 +158,7 @@ button {
 }
 `;
 
-// ── Render function ───────────────────────────────────────────────────────────
+// ── Render ────────────────────────────────────────────────────────────────────
 
 function render({ model, el }) {
   const question    = model.get('question') ?? '';
@@ -142,17 +167,12 @@ function render({ model, el }) {
   const hint        = model.get('hint')     ?? '';
   const explanation = model.get('explanation') ?? '';
 
-  const correctIndices = choices
-    .map((c, i) => (c.correct ? i : -1))
-    .filter(i => i >= 0);
-
+  const correctIndices = choices.map((c, i) => c.correct ? i : -1).filter(i => i >= 0);
   const inputType = multi ? 'checkbox' : 'radio';
   const NAME = `quiz-${Math.random().toString(36).slice(2)}`;
 
-  // ── Build DOM ──────────────────────────────────────────────────────────────
-
+  // ── Shadow DOM ──────────────────────────────────────────────────────────────
   const shadow = el.attachShadow({ mode: 'open' });
-
   const style = document.createElement('style');
   style.textContent = CSS;
   shadow.appendChild(style);
@@ -173,10 +193,15 @@ function render({ model, el }) {
       ${multi ? '<p class="multinote">Select <strong>all</strong> that apply.</p>' : ''}
       <div class="choices">
         ${choices.map((c, i) => `
-          <label class="choice" data-idx="${i}">
-            <input type="${inputType}" name="${NAME}" value="${i}">
-            <span class="choice-text">${renderChoice(c.text)}</span>
-          </label>`).join('')}
+          <div class="choice-wrap">
+            <label class="choice" data-idx="${i}">
+              <input type="${inputType}" name="${NAME}" value="${i}">
+              <span class="choice-text">${renderChoice(c.text)}</span>
+            </label>
+            ${c.feedback
+              ? `<div class="choice-feedback" id="cf-${i}">${renderInline(c.feedback)}</div>`
+              : ''}
+          </div>`).join('')}
       </div>
       ${hint ? `<div class="hint-box"><span class="box-lbl">💡 Hint</span>${renderInline(hint)}</div>` : ''}
       <div class="fb"></div>
@@ -189,21 +214,19 @@ function render({ model, el }) {
     </div>`;
   shadow.appendChild(root);
 
-  // ── References ─────────────────────────────────────────────────────────────
-  const choiceEls = [...shadow.querySelectorAll('.choice')];
-  const inputs    = [...shadow.querySelectorAll('input')];
-  const fb        = shadow.querySelector('.fb');
-  const hintBox   = shadow.querySelector('.hint-box');
-  const explBox   = shadow.querySelector('.expl-box');
-  const btnCheck  = shadow.querySelector('.btn-check');
-  const btnReset  = shadow.querySelector('.btn-reset');
-  const btnHint   = shadow.querySelector('.btn-hint');
+  // ── References ──────────────────────────────────────────────────────────────
+  const choiceEls  = [...shadow.querySelectorAll('.choice')];
+  const inputs     = [...shadow.querySelectorAll('input')];
+  const fb         = shadow.querySelector('.fb');
+  const hintBox    = shadow.querySelector('.hint-box');
+  const explBox    = shadow.querySelector('.expl-box');
+  const btnCheck   = shadow.querySelector('.btn-check');
+  const btnReset   = shadow.querySelector('.btn-reset');
+  const btnHint    = shadow.querySelector('.btn-hint');
 
-  // ── Submit ─────────────────────────────────────────────────────────────────
+  // ── Submit ──────────────────────────────────────────────────────────────────
   btnCheck.addEventListener('click', () => {
-    const selected = inputs
-      .filter(i => i.checked)
-      .map(i => +i.value);
+    const selected = inputs.filter(i => i.checked).map(i => +i.value);
 
     if (!selected.length) {
       fb.textContent = 'Please select an answer before checking.';
@@ -220,15 +243,24 @@ function render({ model, el }) {
 
     choiceEls.forEach((lbl, i) => {
       lbl.classList.remove('ok', 'bad', 'missed');
-      if      (sset.has(i) && cset.has(i))  lbl.classList.add('ok');
-      else if (sset.has(i))                  lbl.classList.add('bad');
-      else if (cset.has(i))                  lbl.classList.add('missed');
+      const cfEl = shadow.getElementById(`cf-${i}`);
+
+      if (sset.has(i) && cset.has(i)) {
+        lbl.classList.add('ok');
+        if (cfEl) { cfEl.classList.add('visible', 'fb-correct'); }
+      } else if (sset.has(i) && !cset.has(i)) {
+        lbl.classList.add('bad');
+        if (cfEl) { cfEl.classList.add('visible', 'fb-incorrect'); }
+      } else if (!sset.has(i) && cset.has(i)) {
+        lbl.classList.add('missed');
+        if (cfEl) { cfEl.classList.add('visible', 'fb-missed'); }
+      }
       lbl.querySelector('input').disabled = true;
     });
 
     fb.textContent = ok
       ? (multi ? '✅ Correct! You selected all the right answers.' : '✅ Correct!')
-      : (multi ? '❌ Not quite — amber = answers you missed.' : '❌ Not quite — correct answer highlighted in green.');
+      : (multi ? '❌ Not quite.' : '❌ Not quite.');
     fb.className = 'fb ' + (ok ? 'ok' : 'bad');
     fb.style.display = 'block';
 
@@ -237,7 +269,7 @@ function render({ model, el }) {
     btnReset.style.display = 'inline-block';
   });
 
-  // ── Hint ───────────────────────────────────────────────────────────────────
+  // ── Hint ────────────────────────────────────────────────────────────────────
   if (btnHint && hintBox) {
     btnHint.addEventListener('click', () => {
       const show = hintBox.style.display !== 'block';
@@ -246,12 +278,14 @@ function render({ model, el }) {
     });
   }
 
-  // ── Reset ──────────────────────────────────────────────────────────────────
+  // ── Reset ───────────────────────────────────────────────────────────────────
   btnReset.addEventListener('click', () => {
     inputs.forEach(i => { i.checked = false; i.disabled = false; });
     choiceEls.forEach(l => l.classList.remove('ok', 'bad', 'missed'));
-    fb.style.display = 'none';
-    fb.textContent = '';
+    shadow.querySelectorAll('.choice-feedback').forEach(el => {
+      el.classList.remove('visible', 'fb-correct', 'fb-incorrect', 'fb-missed');
+    });
+    fb.style.display = 'none'; fb.textContent = '';
     if (explBox)  explBox.style.display = 'none';
     if (hintBox)  hintBox.style.display = 'none';
     if (btnHint)  btnHint.textContent = 'Show hint';

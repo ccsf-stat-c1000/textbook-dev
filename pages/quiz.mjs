@@ -4,23 +4,27 @@
  * Provides {quiz} and {quiz-multi} directives that render interactive
  * concept-check widgets via MyST's anywidget system.
  *
- * Files needed (place both next to myst.yml):
+ * Files needed (place both in pages/):
  *   quiz.mjs           ← this file (directive plugin)
  *   quiz-widget.mjs    ← the anywidget render module
  *
  * myst.yml:
  *   project:
  *     plugins:
- *       - quiz.mjs
+ *       - pages/quiz.mjs
  *
  * ── Single-answer ────────────────────────────────────────────────────────────
  *
  *   :::{quiz} What is the time complexity of binary search?
  *   :hint: Think about how many elements are eliminated each step.
  *   :explanation: Each step halves the search space, giving $O(\log n)$.
+ *   :feedback-0: O(n) is linear — binary search is faster than that.
+ *   :feedback-1: Correct! Each step halves the remaining search space.
+ *   :feedback-2: O(n²) would be very slow — think simpler.
+ *   :feedback-3: O(1) means constant time — binary search still needs to look.
  *   * O(n)
- *   * *O(\log n)      ← prefix * on the choice marks it as correct
- *   * O(n^2)
+ *   * *O(\log n)
+ *   * O(n²)
  *   * O(1)
  *   :::
  *
@@ -28,6 +32,10 @@
  *
  *   :::{quiz-multi} Which are valid Python keywords?
  *   :explanation: `pass` and `yield` are reserved; `func` and `val` are not.
+ *   :feedback-0: Correct — `pass` is a valid keyword.
+ *   :feedback-1: `func` is not a Python keyword.
+ *   :feedback-2: Correct — `yield` is a valid keyword.
+ *   :feedback-3: `val` is not a Python keyword.
  *   * *pass
  *   * func
  *   * *yield
@@ -37,6 +45,8 @@
  * ── Code-block answer ────────────────────────────────────────────────────────
  *
  *   :::{quiz} Which snippet reverses a list without modifying it?
+ *   :feedback-0: Correct! Slice with step -1 returns a new reversed list.
+ *   :feedback-1: `reverse()` mutates in place and returns None.
  *   * *```python
  *     xs[::-1]
  *     ```
@@ -44,31 +54,12 @@
  *     xs.reverse()
  *     ```
  *   :::
- *
- * ── Inline math ──────────────────────────────────────────────────────────────
- *
- *   :::{quiz} What is the derivative of $x^n$?
- *   * $x^{n-1}$
- *   * *$n x^{n-1}$
- *   * $n x^n$
- *   :::
  */
 
-// Path to the anywidget render module, relative to the .md files that use it.
-// e.g. if pages are in pages/ and quiz-widget.mjs is in the project root: '../quiz-widget.mjs'
-// e.g. if quiz-widget.mjs is in the same folder as the pages: './quiz-widget.mjs'
-const WIDGET_PATH = 'quiz-widget.mjs';
+const WIDGET_PATH = './quiz-widget.mjs';
 
 // ── Choice parser ─────────────────────────────────────────────────────────────
 
-/**
- * Parse the directive body into an array of choice objects.
- * Lines starting with "* " are choices; "* *" prefix marks correct answer(s).
- * Fenced code blocks (```…```) beneath a choice line are collected into
- * that choice's text.
- *
- * Returns: Array<{ text: string, correct: boolean }>
- */
 function parseChoices(body) {
   const lines = (body ?? '').split('\n');
   const choices = [];
@@ -78,7 +69,6 @@ function parseChoices(body) {
   let fenceLines = [];
 
   for (const line of lines) {
-    // Start of fenced code block inside a choice
     if (cur && !inFence) {
       const m = line.match(/^(\s*)```(\w*)$/);
       if (m) {
@@ -88,7 +78,6 @@ function parseChoices(body) {
         continue;
       }
     }
-    // Inside fence
     if (inFence) {
       if (line.match(/^(\s*)```$/)) {
         cur.text += `\`\`\`${fenceLang}\n${fenceLines.join('\n')}\n\`\`\``;
@@ -98,14 +87,12 @@ function parseChoices(body) {
       }
       continue;
     }
-    // New choice line: "* " or "* *"
     const m = line.match(/^\* (\*?)(.*)$/);
     if (m) {
       if (cur) choices.push(cur);
-      cur = { correct: m[1] === '*', text: m[2].trim() };
+      cur = { correct: m[1] === '*', text: m[2].trim(), feedback: '' };
       continue;
     }
-    // Continuation
     if (cur && line.trim()) cur.text += '\n' + line.trim();
   }
   if (cur) choices.push(cur);
@@ -119,6 +106,11 @@ function buildDirective(data, multi) {
   const choices     = parseChoices(data.body);
   const hint        = data.options?.hint ?? '';
   const explanation = data.options?.explanation ?? '';
+
+  // Attach per-choice feedback from :feedback-N: options
+  choices.forEach((c, i) => {
+    c.feedback = data.options?.[`feedback-${i}`] ?? '';
+  });
 
   return [{
     type: 'anywidget',
@@ -141,18 +133,20 @@ const quizDirective = {
   options: {
     hint:        { type: String, doc: 'Optional hint shown on demand.' },
     explanation: { type: String, doc: 'Optional explanation shown after submission.' },
+    'feedback-0':  { type: String, doc: 'Feedback for choice 0.' },
+    'feedback-1':  { type: String, doc: 'Feedback for choice 1.' },
+    'feedback-2':  { type: String, doc: 'Feedback for choice 2.' },
+    'feedback-3':  { type: String, doc: 'Feedback for choice 3.' },
+    'feedback-4':  { type: String, doc: 'Feedback for choice 4.' },
+    'feedback-5':  { type: String, doc: 'Feedback for choice 5.' },
   },
   body: {
     type: String,
     required: true,
     doc: 'Answer choices, one per line, starting with `* `. ' +
-         'Prefix the correct choice with `* *`. ' +
-         'Choices support inline code (`…`), math ($…$), ' +
-         'and fenced code blocks (```lang … ```).',
+         'Prefix the correct choice with `* *`.',
   },
-  run(data) {
-    return buildDirective(data, false);
-  },
+  run(data) { return buildDirective(data, false); },
 };
 
 // ── {quiz-multi} — multi-select ───────────────────────────────────────────────
@@ -169,15 +163,19 @@ const quizMultiDirective = {
   options: {
     hint:        { type: String, doc: 'Optional hint shown on demand.' },
     explanation: { type: String, doc: 'Optional explanation shown after submission.' },
+    'feedback-0':  { type: String, doc: 'Feedback for choice 0.' },
+    'feedback-1':  { type: String, doc: 'Feedback for choice 1.' },
+    'feedback-2':  { type: String, doc: 'Feedback for choice 2.' },
+    'feedback-3':  { type: String, doc: 'Feedback for choice 3.' },
+    'feedback-4':  { type: String, doc: 'Feedback for choice 4.' },
+    'feedback-5':  { type: String, doc: 'Feedback for choice 5.' },
   },
   body: {
     type: String,
     required: true,
     doc: 'Answer choices. Prefix every correct one with `* *`.',
   },
-  run(data) {
-    return buildDirective(data, true);
-  },
+  run(data) { return buildDirective(data, true); },
 };
 
 // ── Plugin export ─────────────────────────────────────────────────────────────
