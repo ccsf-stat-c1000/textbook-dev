@@ -34,7 +34,9 @@ We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 
 :::{quiz} Who are the individuals described by this data?
 :hint: Individuals are the people or objects described by the data.
-:explanation: The U.S. Census is completed by people living in the United States.
+:feedback-0: State is a variable.
+:feedback-1: People with families are a subset of this sample, but the individuals represent a larger group.
+:feedback-2: The U.S. Census is completed by people living in the United States.
 * States
 * People with families in the year 2000
 * *People living in the United States in the year 2000
