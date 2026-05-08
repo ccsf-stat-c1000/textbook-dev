@@ -10,8 +10,7 @@ project:
     - _toc.yml
   plugins:
     - pages/quiz.mjs
-  jupyter: true
-  
+
 extends:
   - toc.yml
 
