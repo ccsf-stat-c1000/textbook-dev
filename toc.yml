@@ -23,6 +23,9 @@ project:
       - pattern: pages/*m05*.md
   - title: "Unit 3: Producing Data"
     children:
+    - title: "Module 6: Sampling"
+      children:
+      - pattern: pages/*m06*.md
     - title: "Module 7: Designing Studies"
       children:
       - pattern: pages/*m07*.md
