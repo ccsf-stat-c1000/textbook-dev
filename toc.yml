@@ -4,62 +4,62 @@ project:
   - file: pages/intro.md
   - title: "Unit 1: Introduction"
     children:
-    - title: "Module 1: Introduction"
+    - title: "Section 1: Introduction"
       children:
       - pattern: pages/*m01*.md
-    - title: "Module 2: Learning Strategies"
+    - title: "Section 2: Learning Strategies"
       children:
       - pattern: pages/*m02*.md
-    - title: "Module 3: The Big Picture"
+    - title: "Section 3: The Big Picture"
       children:
       - pattern: pages/*m03*.md
   - title: "Unit 2: Exploratory Data Analysis"
     children:
-    - title: "Module 4: Examining Distributions"
+    - title: "Section 4: Examining Distributions"
       children:
       - pattern: pages/*m04*.md
-    - title: "Module 5: Examining Relationships"
+    - title: "Section 5: Examining Relationships"
       children:
       - pattern: pages/*m05*.md
   - title: "Unit 3: Producing Data"
     children:
-    - title: "Module 6: Sampling"
+    - title: "Section 6: Sampling"
       children:
       - pattern: pages/*m06*.md
-    - title: "Module 7: Designing Studies"
+    - title: "Section 7: Designing Studies"
       children:
       - pattern: pages/*m07*.md
   - title: "Unit 4: Probability"
     children:
-    - title: "Module 8: Introduction (Probability)"
+    - title: "Section 8: Introduction (Probability)"
       children:
       - pattern: pages/*m08*.md
-    - title: "Module 9: Finding Probability of Events"
+    - title: "Section 9: Finding Probability of Events"
       children:
       - pattern: pages/*m09*.md
-    - title: "Module 10: Conditional Probability and Independence"
+    - title: "Section 10: Conditional Probability and Independence"
       children:
       - pattern: pages/*m10*.md
-    - title: "Module 11: Random Variables"
+    - title: "Section 11: Random Variables"
       children:
       - pattern: pages/*m11*.md
-    - title: "Module 12: Sampling Distributions"
+    - title: "Section 12: Sampling Distributions"
       children:
       - pattern: pages/*m12*.md
   - title: "Unit 5: Inference"
     children:
-    - title: "Module 13: Introduction to Inference"
+    - title: "Section 13: Introduction to Inference"
       children:
       - pattern: pages/*m13*.md
-    - title: "Module 14: Estimation"
+    - title: "Section 14: Estimation"
       children:
       - pattern: pages/*m14*.md
-    - title: "Module 15: Hypothesis Testing"
+    - title: "Section 15: Hypothesis Testing"
       children:
       - pattern: pages/*m15*.md
-    - title: "Module 16: Inference for Relationships"
+    - title: "Section 16: Inference for Relationships"
       children:
       - pattern: pages/*m16*.md
-    - title: "Module 17: Inference for Relationships Continued"
+    - title: "Section 17: Inference for Relationships Continued"
       children:
       - pattern: pages/*m17*.md
