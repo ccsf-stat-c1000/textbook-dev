@@ -15,8 +15,6 @@ from medicine to economics to everyday decision-making.
 
 ## About This Course
 
-[STAT C1000: Introduction to Statistics Course Outline of Record](https://ccsf.curricunet.com/DynamicReports/AllFieldsReportByEntity/14744?entityType=Course&reportId=28)
-
 ### Course Description
 This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis, including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.
 
