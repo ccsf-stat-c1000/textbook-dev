@@ -63,3 +63,6 @@ project:
     - title: "Section 17: Inference for Relationships Continued"
       children:
       - pattern: pages/*m17*.md
+  - title: "Appendix: Technology Activities"
+    children:
+    - pattern: notebooks/notebook06.ipynb
