@@ -54,8 +54,10 @@
  *   :::
  */
 
-// Path to the anywidget render module, relative to myst.yml
-const WIDGET_PATH = './quiz-widget.mjs';
+// Path to the anywidget render module, relative to the .md files that use it.
+// e.g. if pages are in pages/ and quiz-widget.mjs is in the project root: '../quiz-widget.mjs'
+// e.g. if quiz-widget.mjs is in the same folder as the pages: './quiz-widget.mjs'
+const WIDGET_PATH = 'quiz-widget.mjs';
 
 // ── Choice parser ─────────────────────────────────────────────────────────────
 
@@ -118,21 +120,10 @@ function buildDirective(data, multi) {
   const hint        = data.options?.hint ?? '';
   const explanation = data.options?.explanation ?? '';
 
-  // The anywidget directive takes:
-  //   arg  → path to the widget .mjs file
-  //   body → JSON model initialisation
-  const modelJson = JSON.stringify(
-    { question, choices, multi, hint, explanation },
-    null,
-    2
-  );
-
   return [{
-    type: 'mystDirective',
-    name: 'anywidget',
-    args: WIDGET_PATH,
-    value: modelJson,
-    children: [],
+    type: 'anywidget',
+    esm: WIDGET_PATH,
+    model: { question, choices, multi, hint, explanation },
   }];
 }
 
