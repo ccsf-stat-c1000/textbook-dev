@@ -6,12 +6,10 @@ We further discussed the idea of independence and discussed different ways to ch
 
 We finished this module by introducing *probability trees*, visual displays of events that happen in sequence and that involve conditional probability, and used some examples to show how trees can be useful in solving practical probability problems.
 
-## End-of-Lesson Questions
+## Reflect
 
-```{note}
-    **My Response**
+Before moving on, check your understanding:
 
-    About Conditional Probability and Independence
-
-    *(Interactive activity — available in the OLI platform)*
-```
+- Can you compute and interpret a conditional probability from a two-way table, and explain why P(A | B) generally differs from P(B | A)?
+- Can you check whether two events are independent, using whichever of the four equivalent checks is most convenient?
+- Given a staged problem (like a diagnostic test), can you build the probability tree, find joint and total probabilities, and use Bayes' Rule to reverse the conditioning?

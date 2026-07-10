@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Table grid -->
+  <text x="80" y="40" font-size="13" font-weight="bold" fill="#333333">Pair</text>
+  <text x="80" y="80" font-size="13" font-weight="bold" fill="#333333">Sample 1</text>
+  <text x="80" y="120" font-size="13" font-weight="bold" fill="#333333">Sample 2</text>
+  <text x="80" y="180" font-size="13" font-weight="bold" fill="#c53030">Difference</text>
+  <!-- Columns -->
+  <text x="220" y="40" text-anchor="middle" font-size="13" fill="#333333">1</text>
+  <text x="300" y="40" text-anchor="middle" font-size="13" fill="#333333">2</text>
+  <text x="380" y="40" text-anchor="middle" font-size="13" fill="#333333">3</text>
+  <text x="460" y="40" text-anchor="middle" font-size="13" fill="#333333">&#8230;</text>
+  <text x="540" y="40" text-anchor="middle" font-size="13" fill="#333333">n</text>
+  <text x="220" y="80" text-anchor="middle" font-size="13" fill="#333333">y&#8321;&#8321;</text>
+  <text x="300" y="80" text-anchor="middle" font-size="13" fill="#333333">y&#8321;&#8322;</text>
+  <text x="380" y="80" text-anchor="middle" font-size="13" fill="#333333">y&#8321;&#8323;</text>
+  <text x="460" y="80" text-anchor="middle" font-size="13" fill="#333333">&#8230;</text>
+  <text x="540" y="80" text-anchor="middle" font-size="13" fill="#333333">y&#8321;&#8345;</text>
+  <text x="220" y="120" text-anchor="middle" font-size="13" fill="#333333">y&#8322;&#8321;</text>
+  <text x="300" y="120" text-anchor="middle" font-size="13" fill="#333333">y&#8322;&#8322;</text>
+  <text x="380" y="120" text-anchor="middle" font-size="13" fill="#333333">y&#8322;&#8323;</text>
+  <text x="460" y="120" text-anchor="middle" font-size="13" fill="#333333">&#8230;</text>
+  <text x="540" y="120" text-anchor="middle" font-size="13" fill="#333333">y&#8322;&#8345;</text>
+  <!-- Arrows down -->
+  <line x1="220" y1="132" x2="220" y2="160" stroke="#c53030" stroke-width="1.5"/>
+  <polygon points="215,158 225,158 220,168" fill="#c53030"/>
+  <line x1="300" y1="132" x2="300" y2="160" stroke="#c53030" stroke-width="1.5"/>
+  <polygon points="295,158 305,158 300,168" fill="#c53030"/>
+  <line x1="380" y1="132" x2="380" y2="160" stroke="#c53030" stroke-width="1.5"/>
+  <polygon points="375,158 385,158 380,168" fill="#c53030"/>
+  <line x1="540" y1="132" x2="540" y2="160" stroke="#c53030" stroke-width="1.5"/>
+  <polygon points="535,158 545,158 540,168" fill="#c53030"/>
+  <text x="220" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">d&#8321;</text>
+  <text x="300" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">d&#8322;</text>
+  <text x="380" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">d&#8323;</text>
+  <text x="460" y="185" text-anchor="middle" font-size="13" fill="#c53030">&#8230;</text>
+  <text x="540" y="185" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">d&#8345;</text>
+  <text x="320" y="230" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">d&#7522; = (sample 1 value) &#8722; (sample 2 value) for each pair: one sample of n differences</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="26" text-anchor="middle" font-size="16" font-weight="bold">Stemplot Rotated 90&#176; (split stems)</text>
+  <g font-family="Courier New, monospace" font-size="15" text-anchor="middle" fill="#2b6cb0" font-weight="bold">
+    <!-- stem 2: 1 2 -->
+    <text x="90" y="262">1</text><text x="90" y="244">2</text>
+    <!-- stem 2*: 5 6 6 7 8 9 9 9 -->
+    <text x="126" y="262">5</text><text x="126" y="244">6</text><text x="126" y="226">6</text><text x="126" y="208">7</text>
+    <text x="126" y="190">8</text><text x="126" y="172">9</text><text x="126" y="154">9</text><text x="126" y="136">9</text>
+    <!-- stem 3: 0 1 2 2 3 3 3 3 3 4 4 4 -->
+    <text x="162" y="262">0</text><text x="162" y="244">1</text><text x="162" y="226">2</text><text x="162" y="208">2</text>
+    <text x="162" y="190">3</text><text x="162" y="172">3</text><text x="162" y="154">3</text><text x="162" y="136">3</text>
+    <text x="162" y="118">3</text><text x="162" y="100">4</text><text x="162" y="82">4</text><text x="162" y="64">4</text>
+    <!-- stem 3*: 5 5 6 6 7 8 9 -->
+    <text x="198" y="262">5</text><text x="198" y="244">5</text><text x="198" y="226">6</text><text x="198" y="208">6</text>
+    <text x="198" y="190">7</text><text x="198" y="172">8</text><text x="198" y="154">9</text>
+    <!-- stem 4: 1 1 1 2 2 4 -->
+    <text x="234" y="262">1</text><text x="234" y="244">1</text><text x="234" y="226">1</text><text x="234" y="208">2</text>
+    <text x="234" y="190">2</text><text x="234" y="172">4</text>
+    <!-- stem 4*: 5 5 9 9 -->
+    <text x="270" y="262">5</text><text x="270" y="244">5</text><text x="270" y="226">9</text><text x="270" y="208">9</text>
+    <!-- stems 5, 5*: empty -->
+    <!-- stem 6: 1 1 2 -->
+    <text x="378" y="262">1</text><text x="378" y="244">1</text><text x="378" y="226">2</text>
+    <!-- stem 7: 4 -->
+    <text x="450" y="262">4</text>
+    <!-- stem 8: 0 -->
+    <text x="522" y="262">0</text>
+  </g>
+  <line x1="70" y1="272" x2="560" y2="272" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="15" text-anchor="middle" font-weight="bold">
+    <text x="90" y="292">2</text><text x="126" y="292">2</text><text x="162" y="292">3</text><text x="198" y="292">3</text>
+    <text x="234" y="292">4</text><text x="270" y="292">4</text><text x="306" y="292">5</text><text x="342" y="292">5</text>
+    <text x="378" y="292">6</text><text x="414" y="292">6</text><text x="450" y="292">7</text><text x="486" y="292">7</text>
+    <text x="522" y="292">8</text>
+  </g>
+  <text x="320" y="318" text-anchor="middle" font-size="14" font-style="italic">Stems (tens digit); each column of leaves acts like a histogram bar</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="330" y="24" text-anchor="middle" font-size="16" font-weight="bold">A Positive Direction, with Increasing Variation</text>
+  <defs>
+    <marker id="arrR2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#2f855a"/>
+    </marker>
+  </defs>
+  <g fill="#2b6cb0">
+    <circle cx="91.4" cy="262.9" r="5"/><circle cx="102.9" cy="269.7" r="5"/><circle cx="114.3" cy="240.6" r="5"/>
+    <circle cx="125.7" cy="258.4" r="5"/><circle cx="137.1" cy="269.7" r="5"/><circle cx="137.1" cy="238.9" r="5"/>
+    <circle cx="148.6" cy="259.4" r="5"/><circle cx="160" cy="228.6" r="5"/><circle cx="171.4" cy="240.6" r="5"/>
+    <circle cx="171.4" cy="197.7" r="5"/><circle cx="194.3" cy="258.4" r="5"/><circle cx="194.3" cy="221.7" r="5"/>
+    <circle cx="217.1" cy="259.4" r="5"/><circle cx="217.1" cy="184" r="5"/><circle cx="217.1" cy="137.7" r="5"/>
+    <circle cx="228.6" cy="238.9" r="5"/><circle cx="240" cy="201.1" r="5"/><circle cx="251.4" cy="245.7" r="5"/>
+    <circle cx="251.4" cy="182.3" r="5"/><circle cx="262.9" cy="166.9" r="5"/><circle cx="285.7" cy="225.1" r="5"/>
+    <circle cx="308.6" cy="194.3" r="5"/><circle cx="308.6" cy="154.9" r="5"/><circle cx="331.4" cy="180.6" r="5"/>
+    <circle cx="365.7" cy="215.9" r="5"/><circle cx="377.1" cy="122.3" r="5"/>
+  </g>
+  <circle cx="537.1" cy="58.9" r="6" fill="#c53030"/>
+  <line x1="90" y1="268" x2="540" y2="70" stroke="#2f855a" stroke-width="3" marker-end="url(#arrR2)"/>
+  <g stroke="#c53030" stroke-width="3">
+    <line x1="137.1" y1="269.7" x2="137.1" y2="238.9"/>
+    <line x1="217.1" y1="259.4" x2="217.1" y2="137.7"/>
+  </g>
+  <line x1="80" y1="40" x2="80" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="80" y="298">0</text><text x="194.3" y="298">10</text><text x="308.6" y="298">20</text>
+    <text x="422.9" y="298">30</text><text x="537.1" y="298">40</text>
+  </g>
+  <g font-size="13" text-anchor="end">
+    <text x="72" y="285">0</text><text x="72" y="216.4">200</text><text x="72" y="147.9">400</text><text x="72" y="79.3">600</text>
+  </g>
+  <text x="330" y="330" font-size="15" text-anchor="middle">Longevity (years)</text>
+  <text x="24" y="160" font-size="15" text-anchor="middle" transform="rotate(-90 24 160)">Gestation (days)</text>
+</svg>

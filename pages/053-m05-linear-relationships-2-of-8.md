@@ -1,7 +1,9 @@
 # Linear Relationships (2 of 8)
 
 ```{admonition} Learning Objectives
-    - Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
+:class: note
+
+- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
 ```
 
 ## The Correlation Coefficient—r
@@ -15,20 +17,40 @@ The numerical measure that assesses the strength of a linear relationship is cal
 
 *Definition:* The correlation coefficient (r) is a numerical measure that measures the *strength* and *direction* of a linear relationship between two quantitative variables.
 
-*Calculation:*r is calculated using the following formula: $r=\frac{1}{n-1}\sum_{i=1}^{n}(\frac{x_{i}-\bar{x}}{S_{x}})(\frac{y_{i}-\bar{y}}{S_{y}})$
+*Calculation:* r is calculated using the following formula:
 
-However, the calculation of the correlation (r) is not the focus of this course. We will use a statistics package to calculate r for us, and the emphasis of this course is on the *interpretation* of its value.
+$$r=\frac{1}{n-1}\sum_{i=1}^{n}\left(\frac{x_{i}-\bar{x}}{S_{x}}\right)\left(\frac{y_{i}-\bar{y}}{S_{y}}\right)$$
+
+However, the calculation of the correlation (r) is not the focus of this course. We will use statistical software or a calculator to compute r for us, and the emphasis of this course is on the *interpretation* of its value.
 
 ## Interpretation
 
-Once we obtain the value of r, its interpretation with respect to the strength of linear relationships is quite simple, as this walkthrough illustrates:
+Once we obtain the value of r, its interpretation with respect to the strength of linear relationships is quite simple:
+
+- The correlation is always between −1 and 1: $-1 \le r \le 1$.
+- The *sign* of r tells us the *direction* of the linear relationship: positive r means a positive relationship; negative r means a negative relationship.
+- The *magnitude* of r tells us the *strength*: values close to −1 or 1 indicate points tightly clustered around a line (a strong linear relationship); values close to 0 indicate a weak (or no) linear relationship.
+- r = 1 or r = −1 only when the points fall *exactly* on a straight line.
 
 ```{note} Video
+
 [Interpreting the value of r](https://www.youtube.com/watch?v=Bt-Ey2ebfvs)
 ```
 
-To see a static version of this walkthrough, click here.
+To get a better sense of how the value of r relates to the strength of the linear relationship, examine the scatterplots below, which show data with correlations ranging from 1 down to −1:
 
-To get a better sense of how the value of r relates to the strength of the linear relationship, take a look at the activity below.
+```{figure} images/gen/m05-r-values.svg
+:alt: Six scatterplots arranged in a grid, labeled r equals 1, 0.7, 0.3, negative 0.3, negative 0.7, and negative 1. At r equals 1 and negative 1 the points fall exactly on a rising or falling line. At 0.7 and negative 0.7 the points cluster fairly tightly around a line. At 0.3 and negative 0.3 the points form only a loose upward or downward trend.
+```
 
-The slider bar at the top of the HTML activity allows us to vary the value of the correlation coefficient (r) between −1 and 1 in order to observe the effect on a scatterplot. Click the *Switch Sign* button to change the sign of the correlation (positive or negative) while keeping the value the same.
+## Concept Check
+
+:::{quiz} Which value of r indicates the strongest linear relationship: r = 0.6, r = −0.9, or r = 0.1?
+:hint: Strength is measured by how close r is to −1 or 1, regardless of sign.
+:feedback-0: 0.6 indicates a moderate relationship, but another value is closer to ±1.
+:feedback-1: Correct! Strength depends on the magnitude of r; |−0.9| = 0.9 is the closest to 1, so it is the strongest (a strong negative relationship).
+:feedback-2: 0.1 is close to 0, indicating a very weak linear relationship.
+* r = 0.6
+* *r = −0.9
+* r = 0.1
+:::

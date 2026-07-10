@@ -6,14 +6,16 @@ When starting an online course, most people neglect to plan, opting instead to j
 
 In this course, we want to help you work as efficiently and effectively as possible, given what you already know. Some of you have already taken a statistics course and are familiar with many of the concepts. You may not need to work through all of the activities in the course; just enough to make sure that you've "got it." For others, this is your first exposure to statistics, and you will want to do more of the activities, since you are learning these concepts for the first time.
 
-Improving your planning skills as you work through the material in the course will help you to become a more strategic and thoughtful learner and will enable you to more effectively plan your approach to assignments, exams and projects in other courses.
+Improving your planning skills as you work through the material in the course will help you to become a more strategic and thoughtful learner and will enable you to more effectively plan your approach to assignments, exams, and projects in other courses.
 
 ## Metacognition
 
 This idea of planning your approach to the course before you start is called *metacognition*.
 
 ```{admonition} Definition: Metacognition
-    Metacognition, or “thinking about thinking,” refers to your awareness of yourself as a learner and your ability to regulate your own learning.
+:class: note
+
+Metacognition, or "thinking about thinking," refers to your awareness of yourself as a learner and your ability to regulate your own learning.
 ```
 
 Metacognition involves five distinct skills:
@@ -27,23 +29,31 @@ Metacognition involves five distinct skills:
 These five skills are applied over and over again in a cycle—within the same course, as well as from one course to another.
 
 ```{admonition} Example: Metacognition in Action
-    You get an assignment and ask yourself: “What exactly does this assignment involve and what have I learned in this course that is relevant to it?”
+:class: tip
 
-    You are exercising metacognitive skills (1) and (2) by assessing the task and evaluating your strengths and weaknesses in relation to it.
+You get an assignment and ask yourself: "What exactly does this assignment involve and what have I learned in this course that is relevant to it?"
 
-    If you think about what steps you need to take to complete the assignment and determine when it is reasonable to begin, you are exercising skill (3) by planning.
+You are exercising metacognitive skills (1) and (2) by assessing the task and evaluating your strengths and weaknesses in relation to it.
 
-    If you start in on your plan and realize that you are working more slowly than you anticipated, you are putting skill (4) to work by applying a strategy and monitoring your performance.
+If you think about what steps you need to take to complete the assignment and determine when it is reasonable to begin, you are exercising skill (3) by planning.
 
-    Finally, if you reflect on your performance in relation to your timeframe for the task, and discover an equally effective but more efficient way to work, you are engaged in skill (5); reflecting and adjusting your approach as needed.
+If you start in on your plan and realize that you are working more slowly than you anticipated, you are putting skill (4) to work by applying a strategy and monitoring your performance.
+
+Finally, if you reflect on your performance in relation to your timeframe for the task, and discover an equally effective but more efficient way to work, you are engaged in skill (5); reflecting and adjusting your approach as needed.
 ```
 
-```{admonition} Example: Joe's Learning Strategies
-    ```{note}
-        **Learn By Doing**
+## Concept Check
 
-        *(Interactive activity — available in the OLI platform)*
-    ```
-```
+:::{quiz} Joe has a statistics exam in two weeks. Before opening his notes, he lists the topics the exam covers, notices that the exam is worth 30% of his grade, and figures out how many evenings he has available to study. Which metacognitive skill is Joe exercising?
+:hint: Joe hasn't started studying yet—he is figuring out what the job actually involves.
+:feedback-0: Correct! Listing what the exam covers and what constraints he faces (time, grade weight) is assessing the task.
+:feedback-1: Joe isn't judging his own skills yet—he's figuring out what the exam involves.
+:feedback-2: Joe hasn't started working, so there is nothing to monitor yet.
+:feedback-3: Joe hasn't finished the task, so there is nothing to reflect on yet.
+* *Assess the task
+* Evaluate his strengths and weaknesses
+* Apply strategies and monitor his performance
+* Reflect and adjust
+:::
 
-Metacognition is not rocket science. In some respects, it is fairly ordinary and intuitive. Yet you’d be surprised how often people lack strong metacognitive skills; and you’d be amazed by how much weak metacognitive skills can undermine performance.
+Metacognition is not rocket science. In some respects, it is fairly ordinary and intuitive. Yet you'd be surprised how often people lack strong metacognitive skills; and you'd be amazed by how much weak metacognitive skills can undermine performance.

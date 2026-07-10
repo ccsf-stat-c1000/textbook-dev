@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="330" y="24" text-anchor="middle" font-size="16" font-weight="bold">Calories vs. Sodium by Type of Hot Dog</text>
+  <!-- Beef: blue circles -->
+  <g fill="#2b6cb0">
+    <circle cx="204" cy="200" r="5"/><circle cx="284" cy="193.2" r="5"/><circle cx="300" cy="200.8" r="5"/>
+    <circle cx="324" cy="165.6" r="5"/><circle cx="352" cy="170" r="5"/><circle cx="368" cy="188" r="5"/>
+    <circle cx="372" cy="150" r="5"/><circle cx="388" cy="144" r="5"/><circle cx="392" cy="172" r="5"/>
+    <circle cx="412" cy="154" r="5"/><circle cx="464" cy="150" r="5"/><circle cx="476" cy="158" r="5"/>
+    <circle cx="484" cy="129.2" r="5"/><circle cx="496" cy="127.2" r="5"/><circle cx="504" cy="122" r="5"/>
+    <circle cx="520" cy="62" r="5"/>
+  </g>
+  <!-- Meat: green squares -->
+  <g fill="#2f855a">
+    <rect x="183" y="257.4" width="10" height="10"/><rect x="295" y="153" width="10" height="10"/>
+    <rect x="307" y="179.4" width="10" height="10"/><rect x="315" y="143.8" width="10" height="10"/>
+    <rect x="339" y="161.8" width="10" height="10"/><rect x="367" y="79.8" width="10" height="10"/>
+    <rect x="387" y="109.8" width="10" height="10"/><rect x="447" y="131.8" width="10" height="10"/>
+    <rect x="515" y="97" width="10" height="10"/><rect x="535" y="110.6" width="10" height="10"/>
+  </g>
+  <!-- Poultry: orange triangles -->
+  <g fill="#dd6b20">
+    <polygon points="104,170.8 98,182.8 110,182.8"/><polygon points="136,165.6 130,177.6 142,177.6"/>
+    <polygon points="156,171.2 150,183.2 162,183.2"/><polygon points="168,155.6 162,167.6 174,167.6"/>
+    <polygon points="184,160.8 178,172.8 190,172.8"/><polygon points="212,108.8 206,120.8 218,120.8"/>
+    <polygon points="276,142 270,154 282,154"/><polygon points="288,164 282,176 294,176"/>
+    <polygon points="300,143.6 294,155.6 306,155.6"/><polygon points="328,108.8 322,120.8 334,120.8"/>
+    <polygon points="336,96 330,108 342,108"/><polygon points="368,78.8 362,90.8 374,90.8"/>
+  </g>
+  <line x1="80" y1="40" x2="80" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="80" y="298">80</text><text x="240" y="298">120</text><text x="400" y="298">160</text><text x="560" y="298">200</text>
+  </g>
+  <g font-size="13" text-anchor="end">
+    <text x="72" y="285">100</text><text x="72" y="205">300</text><text x="72" y="125">500</text><text x="72" y="45">700</text>
+  </g>
+  <text x="330" y="330" font-size="15" text-anchor="middle">Calories</text>
+  <text x="24" y="160" font-size="15" text-anchor="middle" transform="rotate(-90 24 160)">Sodium (mg)</text>
+  <!-- legend -->
+  <circle cx="110" cy="55" r="5" fill="#2b6cb0"/><text x="122" y="60" font-size="14">Beef</text>
+  <rect x="175" y="49" width="10" height="10" fill="#2f855a"/><text x="192" y="60" font-size="14">Meat</text>
+  <polygon points="250,49 244,61 256,61" fill="#dd6b20"/><text x="264" y="60" font-size="14">Poultry</text>
+</svg>

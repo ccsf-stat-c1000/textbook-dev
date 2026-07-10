@@ -1,24 +1,33 @@
 # Two Independent Samples (4 of 7)
 
 ```{admonition} Learning Objectives
-    - In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
+:class: note
+
+- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
 ```
 
-## Step 3: Finding the p-value of the test
+## Step 3: Finding the P-value of the Test
 
-Since our test is called the two-sample t test ,we know that the p-values are calculated under a t distribution. Indeed, it turns out that the null distribution of our test statistic is approximately t. Figuring out which one of the t distributions (in other words, how many degrees of freedom this t distribution has) is quite involved and will not be discussed here. Instead, we use a statistics package to find that the p-value in this case is 0.
+Since our test is called the two-sample t-test, we know that the p-values are calculated under a t distribution. Indeed, it turns out that the null distribution of our test statistic is approximately t. Figuring out which one of the t distributions (in other words, how many degrees of freedom this t distribution has) is quite involved and will not be discussed here. Instead, we use statistical software to find the p-value.
 
-```{admonition} Example
-    RStatCrunchMinitabExcel 2007Excel 2003TI CalculatorExcel 2019 PCExcel 2019 MacTip: Alternative versions are available, click the arrow to switch. Here, again is the relevant output for our example:According to R the p-value of this test is so small that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. Here, again is the relevant output for our example:According to the output the p-value of this test is less than 0.0001. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.596 (that difference is 10.733 - 13.329 = -2.596) or higher. Here, again is the relevant output for our example:According to the output the p-value of this test is so small that the software reports it to be 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. According to Excel the p-value of this test is so small that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. According to Excel the p-value of this test is so small that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. Here, again is the relevant output for our example:According to the TI graphing calculator the p-value of this test is so small (6.14E-6) that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is 2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. According to Excel the p-value of this test is so small that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher. According to Excel the p-value of this test is so small that it is essentially 0. How do we interpret this?A p-value which is practically 0 means that it would be almost impossible to get data like that observed (or even more extreme) had the null hypothesis been true.More specifically to our example, if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is -2.6 (that difference is 10.73 - 13.33 = -2.6) or higher.
+:::{admonition} Example: Looks vs. Personality
+:class: tip
 
-    Comment: Note that the output tells us that $\bar{y_{1}}− \bar{y_{2}}$ is approximately -2.6. But more importantly, we want to know if this difference is significant. To answer this, we use the fact that this difference is 4.66 standard errors below the null value.
-```
+For our example, statistical software reports the p-value of this test to be so small that it is essentially 0. How do we interpret this?
 
-## Step 4: Conclusion in context
+A p-value which is practically 0 means that it would be almost impossible to get data like those observed (or even more extreme) had the null hypothesis been true.
 
-As usual a small p-value provides evidence against H~o~. In our case our p-value is practically 0 (which smaller than any level of significance that we will choose). The data therefore provide very strong evidence against H~o~ so we reject it and conclude that the mean Importance score (of looks vs personality) of males differs from that of females. In other words, males and females differ with respect to how they value looks vs. personality.
+More specifically for our example: if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is as far from 0 as −2.6 (that difference is 10.73 − 13.33 = −2.6).
 
-## Comments
+*Comment:* note that the output tells us that $\bar{y}_1-\bar{y}_2$ is approximately −2.6. But more importantly, we want to know whether this difference is significant. To answer this, we use the fact that this difference is 4.66 standard errors below the null value.
+:::
+
+## Step 4: Conclusion in Context
+
+As usual, a small p-value provides evidence against $H_0$. In our case the p-value is practically 0 (which is smaller than any level of significance that we might choose). The data therefore provide very strong evidence against $H_0$, so we reject it and conclude that the mean importance score (of looks vs. personality) of males differs from that of females. In other words, males and females differ with respect to how they value looks vs. personality.
+
+```{admonition} Comments
+:class: important
 
 You might ask yourself: "Where do we use the test statistic?"
 
@@ -27,4 +36,17 @@ It is true that for all practical purposes all we have to do is check that the c
 However, we feel that it is important to mention the test statistic for two reasons:
 
 1. The test statistic is what's behind the scenes; based on its null distribution and its value, the p-value is calculated.
-2. Apart from being the key for calculating the p-value, the test statistic is also itself a measure of the evidence stored in the data against H~o~. As we mentioned, it measures (in standard errors) how different our data is from what is claimed in the null hypothesis.
+2. Apart from being the key for calculating the p-value, the test statistic is also itself a measure of the evidence stored in the data against $H_0$. As we mentioned, it measures (in standard errors) how different our data are from what is claimed in the null hypothesis.
+```
+
+## Concept Check
+
+:::{quiz} A two-sample t-test comparing mean test scores of two teaching methods yields t = −0.85 and a p-value of 0.40. Using α = 0.05, what is the correct conclusion?
+:hint: Is 0.40 small?
+:feedback-0: Correct! The p-value is large, so the data do not provide enough evidence of a difference between the two methods' mean scores.
+:feedback-1: 0.40 is much larger than 0.05—the results are not significant.
+:feedback-2: Failing to reject H₀ does not prove the two methods are equally effective; we simply lack evidence of a difference.
+* *Do not reject H₀—there is not enough evidence that the mean scores differ
+* Reject H₀ and conclude the methods differ
+* Accept H₀ and conclude the methods are equally effective
+:::

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="16" font-weight="bold">Larger Samples Give a Less Spread-Out Sampling Distribution</text>
+  <!-- wide: small n -->
+  <polyline points="110,238.8 145,235.4 180,225.8 215,205.9 250,176.3 285,147.4 320,135 355,147.4 390,176.3 425,205.9 460,225.8 495,235.4 530,238.8" fill="none" stroke="#c53030" stroke-width="2.5"/>
+  <!-- narrow: large n -->
+  <polyline points="197.5,238 215,233.3 232.5,221.6 250,198.2 267.5,160.8 285,115.1 302.5,75.7 320,60 337.5,75.7 355,115.1 372.5,160.8 390,198.2 407.5,221.6 425,233.3 442.5,238" fill="none" stroke="#2b6cb0" stroke-width="2.5"/>
+  <line x1="90" y1="240" x2="570" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <line x1="320" y1="60" x2="320" y2="240" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="320" y="260" text-anchor="middle" font-size="14" font-weight="bold">&#956;</text>
+  <text x="435" y="90" font-size="13" font-weight="bold" fill="#2b6cb0">larger n: x&#772; is likely close to &#956;</text>
+  <text x="440" y="180" font-size="13" font-weight="bold" fill="#c53030">smaller n: more spread</text>
+</svg>

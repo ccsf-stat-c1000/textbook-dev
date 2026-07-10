@@ -1,20 +1,16 @@
 # Standard Normal Table (1 of 3)
 
 ```{admonition} Learning Objectives
-    - Find probabilities associated with the normal distribution.
+:class: note
+
+- Find probabilities associated with the normal distribution.
 ```
 
 ## Finding Probabilities with the Normal Table
 
-Now that you have learned to assess the relative value of any normal value by standardizing, the next step is to evaluate probabilities. In other contexts, as mentioned before, we will first take the conventional approach of referring to a *normal table*, which tells the probability of a normal variable taking a value *less than* any standardized score z.
+Now that you have learned to assess the relative value of any normal value by standardizing, the next step is to evaluate probabilities. As mentioned before, we will first take the conventional approach of referring to a *normal table*, which tells the probability of a normal variable taking a value *less than* any standardized score z. (A complete standard normal table appears in most statistics references, and your instructor can provide one; statistical software and calculators give these probabilities directly.)
 
-Click here to access the normal table.
-
-Since normal curves are symmetric about their mean, it follows that the curve of z scores must be symmetric about 0. Since the total area under any normal curve is 1, it follows that the areas on either side of z = 0 are both .5. Also, according to the Standard Deviation Rule, most of the area under the standardized curve falls between z = -3 and z = +3.
-
-```{figure} images/image133.gif
-:alt: A normal probability distribution curve. The horizontal axis represents z-scores. The mean&apos;s z-score has been marked as 0, and -3 and 3 have been marked. The area to the right of the mean is .5, and the area to the left of the mean is .5 . Since the area between -3 and 0 is almost all of the area under the bell curve to the left of the mean, that area is approximately .5 . The same goes for the area between 0 and 3.
-```
+Since normal curves are symmetric about their mean, it follows that the curve of z scores must be symmetric about 0. Since the total area under any normal curve is 1, it follows that the areas on either side of z = 0 are both 0.5. Also, according to the Standard Deviation Rule, most of the area under the standardized curve falls between z = −3 and z = +3.
 
 The normal table outlines the precise behavior of the standard normal random variable Z, the number of standard deviations a normal value x is below or above its mean. The normal table provides probabilities that a standardized normal random variable Z would take a value less than or equal to a particular value z*.
 
@@ -39,8 +35,20 @@ These particular values are listed in the form *.* in rows along the left margin
 
 By construction, the probability P(Z < z*) equals the area under the z curve to the left of that particular value z*.
 
-```{figure} images/image135.gif
-:alt: A normal probability distribution curve. The Horizontal axis is in z-score units. On the axis z* is marked, and the area under the curve to the left of z* is shaded. The area is equal to P(Z &lt; z*)
+```{figure} images/gen/m11-z-left-shaded.svg
+:alt: A standard normal curve with a value z-star marked on the axis and the entire area under the curve to the left of z-star shaded. The shaded area equals the probability that Z is less than z-star.
 ```
 
 A quick sketch is often the key to solving normal problems easily and correctly.
+
+## Concept Check
+
+:::{quiz} Using the excerpt of the normal table above, what is P(Z < −2.25)?
+:hint: Find the row for −2.2 and the column for .05.
+:feedback-0: Correct! The −2.2 row and .05 column give 0.0122.
+:feedback-1: 0.0139 is P(Z < −2.20); the extra hundredths matter—use the .05 column.
+:feedback-2: 0.9878 would be P(Z > −2.25), the complement.
+* *0.0122
+* 0.0139
+* 0.9878
+:::

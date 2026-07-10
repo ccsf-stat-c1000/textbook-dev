@@ -1,0 +1,18 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="16" font-weight="bold">Outliers in a Scatterplot</text>
+  <g fill="#2b6cb0">
+    <circle cx="180" cy="212" r="5"/><circle cx="210" cy="196" r="5"/><circle cx="240" cy="200" r="5"/>
+    <circle cx="270" cy="178" r="5"/><circle cx="300" cy="182" r="5"/><circle cx="330" cy="158" r="5"/>
+    <circle cx="360" cy="164" r="5"/><circle cx="390" cy="140" r="5"/><circle cx="420" cy="146" r="5"/>
+    <circle cx="450" cy="122" r="5"/><circle cx="480" cy="128" r="5"/><circle cx="510" cy="104" r="5"/>
+    <circle cx="540" cy="110" r="5"/>
+  </g>
+  <g fill="#c53030">
+    <circle cx="470" cy="240" r="6"/>
+    <circle cx="110" cy="90" r="6"/>
+  </g>
+  <text x="470" y="264" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">outlier</text>
+  <text x="110" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">outlier</text>
+  <line x1="80" y1="40" x2="80" y2="270" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="270" x2="580" y2="270" stroke="#333333" stroke-width="1.5"/>
+</svg>

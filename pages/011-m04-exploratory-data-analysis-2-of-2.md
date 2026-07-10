@@ -11,9 +11,15 @@ A *dataset* is a set of data identified with particular circumstances. Datasets 
 ## Example: Medical Records
 The following dataset shows medical records from a particular survey:
 
-```{figure} images/introduction1.gif
-:alt: A table in which the rows represent patients and each column represents a variable. For example, the third row is for Patient #3, and each cell in the row is in a particular column. The first column is Gender, and Patient #3&apos;s gender is female, so there is an F in the first column of the third row.
-```
+| Individual | Gender (M/F) | Age | Weight (lbs.) | Height (in.) | Smoking (1=No, 2=Yes) | Race |
+| --- | --- | --- | --- | --- | --- | --- |
+| Patient #1 | M | 59 | 175 | 69 | 1 | White |
+| Patient #2 | F | 67 | 140 | 62 | 2 | Black |
+| Patient #3 | F | 73 | 155 | 59 | 1 | Asian |
+| ... | ... | ... | ... | ... | ... | ... |
+| Patient #75 | M | 48 | 90 | 72 | 1 | White |
+
+Each row represents an individual (a patient), and each column represents a variable.
 
 In this example, the individuals are patients, and the variables are Gender, Age, Weight, Height, Smoking, and Race. Each row, then, gives us all the information about a particular individual (in this case, patient), and each column gives us information about a particular characteristic of all the patients.
 
@@ -29,8 +35,14 @@ Categorical variables are sometimes called *qualitative* variables, but in this 
 ## Concept Check
 We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 
-```{figure} images/eda_intro_lbd.png
-```
+|   | State | Zipcode | Family_Size | Annual_income |
+| --- | --- | --- | --- | --- |
+| 1 | Florida | 32716 | 8 | 200 |
+| 2 | Alabama | 35236 | 5 | 800 |
+| 3 | Florida | 32116 | 6 | 13500 |
+| 4 | Florida | 33679 | 5 | 21000 |
+| 5 | Alabama | 36374 | 4 | 21000 |
+| 6 | California | 94565 | 1 | 23000 |
 
 :::{quiz} Who are the individuals described by this data?
 :hint: Individuals are the people or objects described by the data.

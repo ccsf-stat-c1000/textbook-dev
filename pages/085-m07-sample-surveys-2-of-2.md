@@ -1,7 +1,9 @@
 # Sample Surveys (2 of 2)
 
 ```{admonition} Learning Objectives
-    - Determine how the features of a survey impact the collected data and the accuracy of the data.
+:class: note
+
+- Determine how the features of a survey impact the collected data and the accuracy of the data.
 ```
 
 Sometimes, survey questions are ordered in such a way as to deliberately bias the responses by planting an idea in an earlier question that will sway people's thoughts in a later question.
@@ -38,8 +40,10 @@ If respondents answer no, then it is still a possibility that they did use illeg
 
 Effective techniques for collecting accurate data on sensitive questions are a main area of inquiry in statistics. One simple method is *randomized response*, which allows individuals in the sample to answer anonymously, while the researcher still gains information about the population. This technique is best illustrated by an example.
 
-```{admonition} Example: Title
-    For the question, "Have you used illegal drugs in the past year?" respondents are told to flip a fair coin (in private) before answering and then answer based on the result of the coin flip: if the coin flip results in "Heads," they should answer "Yes" (regardless of the truth), if a coin flip results in "Tails," they should answer truthfully. Thus, roughly half of the respondents are "truth-tellers," and the other half give the uncomfortable answer "Yes," without the interviewer's knowledge of who is in which group. The respondent who flips "Tails" and answers truthfully knows that he or she cannot be distinguished from someone who got "Heads" in the coin toss. Hopefully, this is enough to encourage respondents to answer truthfully. As we will learn later in the course, the surveyor can then use probability methods to estimate the proportion of respondents who admit they used illegal drugs in this scenario, while being unable to identify exactly which respondents have been drugabusers.
+```{admonition} Example: Randomized Response
+:class: tip
+
+For the question, "Have you used illegal drugs in the past year?" respondents are told to flip a fair coin (in private) before answering and then answer based on the result of the coin flip: if the coin flip results in "Heads," they should answer "Yes" (regardless of the truth), if a coin flip results in "Tails," they should answer truthfully. Thus, roughly half of the respondents are "truth-tellers," and the other half give the uncomfortable answer "Yes," without the interviewer's knowledge of who is in which group. The respondent who flips "Tails" and answers truthfully knows that he or she cannot be distinguished from someone who got "Heads" in the coin toss. Hopefully, this is enough to encourage respondents to answer truthfully. As we will learn later in the course, the surveyor can then use probability methods to estimate the proportion of respondents who admit they used illegal drugs in this scenario, while being unable to identify exactly which respondents have been drug abusers.
 ```
 
 Besides using the randomized response method, surveyors may encourage honest answers from respondents in various other ways. Tactful wording of questions can be very helpful. Giving people a feeling of anonymity by having them complete questionnaires via computer, rather than paper and pencil, is another commonly used technique.
@@ -62,26 +66,44 @@ Asample surveyis a type of observational study in which respondents assess varia
 
 * Survey method and questions should be carefully designed to elicit honest responses if there are sensitive issues involved.
 
-```{note}
-    **Did I Get This?**
+## Concept Check
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A survey asks: "Do you agree that our city's beautiful new park, which has already brought the community together, deserves continued funding?" What is the main flaw in this question?
+:hint: Can you tell from the wording what answer the surveyor is hoping for?
+:feedback-0: Correct! The flattering description steers respondents toward "yes"—it is a leading (biased) question and should be worded neutrally.
+:feedback-1: It is a closed question, but closed questions are fine when worded neutrally with complete options.
+:feedback-2: The question is about one issue; the problem is the persuasive framing, not complexity.
+* *It is a leading question—its wording pushes respondents toward a "yes" answer
+* It is a closed question, and closed questions are always biased
+* It asks about too many issues at once
+:::
 
-```{note}
-    **Did I Get This?**
+:::{quiz} A questionnaire asks: "Do you agree or disagree: 'I avoid fast food unless I'm traveling, except when healthier options are unavailable or too expensive.'" What is the best critique?
+:hint: How many separate ideas does a respondent have to untangle?
+:feedback-0: Correct! The question tangles several issues together; it should be broken into shorter, more concise questions.
+:feedback-1: The topic is not particularly sensitive; the problem is the convoluted logic.
+:feedback-2: Open questions have their own drawbacks; the fix here is simplifying, not opening, the question.
+* *It is a complicated, multi-part question that should be broken into simpler ones
+* It is too sensitive for respondents to answer honestly
+* It should have been an open question
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} Why does the randomized response technique encourage honest answers to sensitive questions?
+:hint: What does the coin flip do to the meaning of an individual "Yes"?
+:feedback-0: Correct! Because many "Yes" answers come from the coin flip alone, no individual "Yes" reveals anything about that respondent—yet the researcher can still estimate the true proportion using probability.
+:feedback-1: Respondents do sometimes answer untruthfully—the technique works by making truthful answers safe, not by verifying them.
+:feedback-2: The coin flip is private; the interviewer never learns its result.
+* *An individual "Yes" cannot be attributed to actual behavior, so answering truthfully feels safe
+* It guarantees that every respondent tells the truth
+* The interviewer records the coin flip to check each answer
+:::
 
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A rating question offers these options: "Excellent, Very good, Good, Poor." What is the problem with this set of options?
+:hint: Count the favorable versus unfavorable choices.
+:feedback-0: Correct! The options are unbalanced—three favorable and only one unfavorable—which biases summaries toward positive responses.
+:feedback-1: Adding even more favorable options would make the imbalance worse.
+:feedback-2: A "not sure" option is often useful, but the fundamental problem is the imbalance of the scale itself.
+* *The response options are unbalanced, favoring positive answers
+* There are too few favorable options
+* The only problem is the missing "not sure" option
+:::

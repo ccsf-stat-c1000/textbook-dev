@@ -1,68 +1,65 @@
 version: 1
+# UNIT ORDER: Producing Data first, then EDA.
+# To switch back to EDA-first:
+#   1. Swap the "Unit 1"/"Unit 2" blocks below and renumber their sections
+#      (EDA sections become 1-2, Producing Data sections become 3-4).
+#   2. Swap the Unit 1/Unit 2 labels in pages/images/gen/m03-big-picture-units.svg.
+#   3. In pages/009-m03-the-big-picture.md, pages/010-m04-exploratory-data-analysis-1-of-2.md,
+#      and pages/067-m06-introduction-to-producing-data.md, swap the active sentence with
+#      the alternative kept in a "%" comment right next to it.
 project:
   toc:
   - file: pages/intro.md
-  - title: "Unit 1: Introduction"
+  - title: "The Big Picture"
     children:
-    - title: "Section 1: Introduction"
-      children:
-      - pattern: pages/*m01*.md
-    - title: "Section 2: Learning Strategies"
-      children:
-      - pattern: pages/*m02*.md
-    - title: "Section 3: The Big Picture"
-      children:
-      - pattern: pages/*m03*.md
-  - title: "Unit 2: Exploratory Data Analysis"
+    - pattern: pages/*m03*.md
+  - title: "Unit 1: Producing Data"
     children:
-    - title: "Section 4: Examining Distributions"
-      children:
-      - pattern: pages/*m04*.md
-    - title: "Section 5: Examining Relationships"
-      children:
-      - pattern: pages/*m05*.md
-  - title: "Unit 3: Producing Data"
-    children:
-    - title: "Section 6: Sampling"
+    - title: "Section 1: Sampling"
       children:
       - pattern: pages/*m06*.md
-    - title: "Section 7: Designing Studies"
+    - title: "Section 2: Designing Studies"
       children:
       - pattern: pages/*m07*.md
-  - title: "Unit 4: Probability"
+  - title: "Unit 2: Exploratory Data Analysis"
     children:
-    - title: "Section 8: Introduction (Probability)"
+    - title: "Section 3: Examining Distributions"
+      children:
+      - pattern: pages/*m04*.md
+    - title: "Section 4: Examining Relationships"
+      children:
+      - pattern: pages/*m05*.md
+  - title: "Unit 3: Probability"
+    children:
+    - title: "Section 5: Introduction (Probability)"
       children:
       - pattern: pages/*m08*.md
-    - title: "Section 9: Finding Probability of Events"
+    - title: "Section 6: Finding Probability of Events"
       children:
       - pattern: pages/*m09*.md
-    - title: "Section 10: Conditional Probability and Independence"
+    - title: "Section 7: Conditional Probability and Independence"
       children:
       - pattern: pages/*m10*.md
-    - title: "Section 11: Random Variables"
+    - title: "Section 8: Random Variables"
       children:
       - pattern: pages/*m11*.md
-    - title: "Section 12: Sampling Distributions"
+    - title: "Section 9: Sampling Distributions"
       children:
       - pattern: pages/*m12*.md
-  - title: "Unit 5: Inference"
+  - title: "Unit 4: Inference"
     children:
-    - title: "Section 13: Introduction to Inference"
+    - title: "Section 10: Introduction to Inference"
       children:
       - pattern: pages/*m13*.md
-    - title: "Section 14: Estimation"
+    - title: "Section 11: Estimation"
       children:
       - pattern: pages/*m14*.md
-    - title: "Section 15: Hypothesis Testing"
+    - title: "Section 12: Hypothesis Testing"
       children:
       - pattern: pages/*m15*.md
-    - title: "Section 16: Inference for Relationships"
+    - title: "Section 13: Inference for Relationships"
       children:
       - pattern: pages/*m16*.md
-    - title: "Section 17: Inference for Relationships Continued"
+    - title: "Section 14: Inference for Relationships Continued"
       children:
       - pattern: pages/*m17*.md
-  - title: "Appendix: Technology Activities"
-    children:
-    - pattern: notebooks/notebook06.ipynb

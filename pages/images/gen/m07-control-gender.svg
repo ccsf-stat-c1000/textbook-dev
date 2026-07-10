@@ -1,0 +1,20 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <text x="320" y="28" text-anchor="middle" font-size="15" font-weight="bold">Controlling for Gender: Study the Groups Separately</text>
+  <text x="115" y="70" font-size="14" font-weight="bold">Women only:</text>
+  <rect x="80" y="85" width="150" height="46" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="155" y="113" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Method</text>
+  <line x1="235" y1="108" x2="395" y2="108" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="405" y="85" width="180" height="46" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="495" y="113" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Success or failure</text>
+  <text x="115" y="175" font-size="14" font-weight="bold">Men only:</text>
+  <rect x="80" y="190" width="150" height="46" rx="10" fill="#e6f4ea" stroke="#2f855a" stroke-width="2"/>
+  <text x="155" y="218" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f855a">Method</text>
+  <line x1="235" y1="213" x2="395" y2="213" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="405" y="190" width="180" height="46" rx="10" fill="#e6f4ea" stroke="#2f855a" stroke-width="2"/>
+  <text x="495" y="218" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f855a">Success or failure</text>
+</svg>

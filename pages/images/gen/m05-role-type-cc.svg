@@ -1,0 +1,21 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="415" y="30" text-anchor="middle" font-size="15" font-weight="bold">Response variable</text>
+  <text x="330" y="58" text-anchor="middle" font-size="14" font-weight="bold">Categorical</text>
+  <text x="505" y="58" text-anchor="middle" font-size="14" font-weight="bold">Quantitative</text>
+  <text x="30" y="160" text-anchor="middle" font-size="15" font-weight="bold" transform="rotate(-90 30 160)">Explanatory variable</text>
+  <text x="150" y="110" text-anchor="end" font-size="14" font-weight="bold">Categorical</text>
+  <text x="150" y="190" text-anchor="end" font-size="14" font-weight="bold">Quantitative</text>
+  <g stroke="#2b6cb0" stroke-width="2" fill="#eaf2fb">
+    <rect x="415" y="70" width="170" height="70"/>
+    <rect x="245" y="140" width="170" height="70"/>
+    <rect x="415" y="140" width="170" height="70"/>
+  </g>
+  <rect x="245" y="70" width="170" height="70" fill="#fdebd9" stroke="#dd6b20" stroke-width="3"/>
+  <g font-size="20" font-weight="bold" text-anchor="middle" fill="#2b6cb0">
+    <text x="500" y="112">C &#8594; Q</text>
+    <text x="330" y="182">Q &#8594; C</text>
+    <text x="500" y="182">Q &#8594; Q</text>
+  </g>
+  <text x="330" y="112" font-size="20" font-weight="bold" text-anchor="middle" fill="#dd6b20">C &#8594; C</text>
+  <text x="330" y="230" text-anchor="middle" font-size="13" font-style="italic" fill="#dd6b20">this part</text>
+</svg>

@@ -1,7 +1,9 @@
 # Standard Deviation (1 of 3)
 
 ```{admonition} Learning Objectives
-    - Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
+:class: note
+
+- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
 ```
 
 ## Introduction
@@ -20,32 +22,54 @@ There are many notations for the standard deviation: SD, s, Sd, StDev. Here, we'
 
 In order to get a better understanding of the standard deviation, it would be useful to see an example of how it is calculated. In practice, we will use a computer to do the calculation.
 
-```{admonition} Example: Video Store Customers
-    The following are the number of customers who entered a video store in 8 consecutive hours: 7, 9, 5, 13, 3, 11, 15, 9
+:::{admonition} Example: Video Store Customers
+:class: tip
 
-    To find the standard deviation of the number of hourly customers:
+The following are the number of customers who entered a video store in 8 consecutive hours: 7, 9, 5, 13, 3, 11, 15, 9
 
-    1. Find the mean, $\bar{x}$ of your data: $\frac{\left(7  +  9  +  5  + \text{. . .} +  9\right)}{8}  =  9$
-    2. Find the deviations from the mean: the difference between each observation and the mean (7 - 9), (9 - 9), (5 - 9), (13 - 9), (3 - 9), (11 - 9), (15 - 9), (9 - 9) -2, 0, -4, 4, -6, 2, 6, 0 Since the standard deviation is the average (typical) distance between the data points and their mean, it would make sense to average the deviations we got. Note, however, that the sum of the deviations from the mean, $\bar{x}$ is 0 (add them up and see for yourself). This is always the case, and is the reason why we have to do a more complicated calculation to determine the standard deviation:
-    3. Square each of the deviations: The first few are (-2)^2^ = *4*, (0)^2^ = *0*, (-4)^2^ = *16*, and the rest are *16, 36, 4, 36, 0.*
-    4. Average the square deviations by adding them up, and dividing by n - 1, (one less than the sample size): $\frac{\left(4  +  0  +  16  +  16  +  36  +  4  +36  +  0\right)}{(8  −  1)} = \frac{112}{7}  =  16$
-      - the reason why we "sort of" average the square deviations (divide by n - 1) rather than take the actual average (divide by n) is beyond the scope of the course at this point, but will be addressed later.
-      - This average of the squared deviations is called the *variance* of the data.
-    5. The SD of the data is the square root of the variance: $SD = \sqrt{16} = 4$ Recall that the average number of customers who enter the store in an hour is 9. The interpretation of SD = 4 is that on average, the actual number of customers that enter the store each hour is 4 away from 9.
-      - Why do we take the square root? Note that 16 is an average of the squared deviations, and therefore has different units of measurement. In this case 16 is measured in "squared customers," which obviously cannot be interpreted. We therefore take the square root in order to compensate for the fact that we squared our deviations, and in order to go back to the original unit of measurement.
-```
+To find the standard deviation of the number of hourly customers:
+
+1. Find the mean, $\bar{x}$, of your data: $\bar{x} = \frac{7 + 9 + 5 + \cdots + 9}{8} = 9$
+
+2. Find the deviations from the mean—the difference between each observation and the mean:
+
+   (7 − 9), (9 − 9), (5 − 9), (13 − 9), (3 − 9), (11 − 9), (15 − 9), (9 − 9)
+
+   which gives: −2, 0, −4, 4, −6, 2, 6, 0
+
+   Since the standard deviation is the average (typical) distance between the data points and their mean, it would make sense to average the deviations we got. Note, however, that the sum of the deviations from the mean is 0 (add them up and see for yourself). This is always the case, and is the reason why we have to do a more complicated calculation to determine the standard deviation.
+
+3. Square each of the deviations: The first few are (−2)² = 4, (0)² = 0, (−4)² = 16, and the rest are 16, 36, 4, 36, 0.
+
+4. Average the square deviations by adding them up, and dividing by n − 1 (one less than the sample size):
+
+   $$\frac{4 + 0 + 16 + 16 + 36 + 4 + 36 + 0}{8 - 1} = \frac{112}{7} = 16$$
+
+   - The reason why we "sort of" average the square deviations (divide by n − 1) rather than take the actual average (divide by n) is beyond the scope of the course at this point, but will be addressed later.
+   - This average of the squared deviations is called the *variance* of the data.
+
+5. The SD of the data is the square root of the variance: $SD = \sqrt{16} = 4$
+
+   Recall that the average number of customers who enter the store in an hour is 9. The interpretation of SD = 4 is that on average, the actual number of customers that enter the store each hour is 4 away from 9.
+
+   - Why do we take the square root? Note that 16 is an average of the squared deviations, and therefore has different units of measurement. In this case 16 is measured in "squared customers," which obviously cannot be interpreted. We therefore take the square root in order to compensate for the fact that we squared our deviations, and in order to go back to the original unit of measurement.
+:::
 
 *Comment:*
 
 The importance of the numerical figure that we found in #4 above called the variance (=16 in our example) will be discussed much later in the course when we get to the inference part.
 
-```{note}
-    **Learn By Doing**
+## Concept Check
 
-    Standard Deviation
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A barista records the number of drinks made in 4 consecutive hours: 10, 14, 6, 10. The mean is 10. What is the standard deviation?
+:hint: Find the deviations, square them, divide the sum by n − 1 = 3, then take the square root.
+:feedback-0: Correct! Deviations are 0, 4, −4, 0; squared: 0, 16, 16, 0; variance = 32/3 ≈ 10.67; SD = √10.67 ≈ 3.3.
+:feedback-1: 10.67 is the variance—take its square root to return to the original units.
+:feedback-2: Remember to divide by n − 1 = 3, not n = 4, before taking the square root.
+* *About 3.3
+* About 10.7
+* About 2.8
+:::
 
 ## Properties of the Standard Deviation
 

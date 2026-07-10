@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="16" font-weight="bold">Manganous Oxide Content of 48 Roman Pottery Pieces</text>
+  <g fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1">
+    <rect x="80" y="90" width="50" height="150"/>
+    <rect x="130" y="40" width="50" height="200"/>
+    <rect x="180" y="120" width="50" height="120"/>
+    <rect x="230" y="200" width="50" height="40"/>
+    <rect x="280" y="230" width="50" height="10"/>
+  </g>
+  <rect x="530" y="230" width="50" height="10" fill="#c53030" stroke="#c53030"/>
+  <text x="555" y="215" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">outlier (0.394)</text>
+  <line x1="80" y1="240" x2="590" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="80" y="258">0.00</text><text x="205" y="258">0.10</text><text x="330" y="258">0.20</text>
+    <text x="455" y="258">0.30</text><text x="580" y="258">0.40</text>
+  </g>
+  <text x="330" y="286" font-size="15" text-anchor="middle">Manganous oxide (%)</text>
+  <text x="24" y="140" font-size="14" text-anchor="middle" transform="rotate(-90 24 140)">Frequency</text>
+</svg>

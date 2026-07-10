@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold">Horse Gestation Period (mean 336 days, SD 3 days)</text>
+  <path d="M 110 238 L 127.5 235.9 L 145 232.1 L 162.5 225.7 L 180 215.6 L 197.5 201.1 L 215 181.6 L 232.5 157.6 L 250 130.8 L 267.5 104.1 L 285 81.2 L 302.5 65.5 L 320 60 L 337.5 65.5 L 355 81.2 L 372.5 104.1 L 390 130.8 L 407.5 157.6 L 425 181.6 L 442.5 201.1 L 460 215.6 L 477.5 225.7 L 495 232.1 L 512.5 235.9 L 530 238" fill="#7cb2e8" fill-opacity="0.30" stroke="#2b6cb0" stroke-width="2.5"/>
+  <line x1="80" y1="240" x2="560" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <g stroke="#999999" stroke-width="1" stroke-dasharray="4 3">
+    <line x1="250" y1="130.8" x2="250" y2="240"/>
+    <line x1="390" y1="130.8" x2="390" y2="240"/>
+    <line x1="180" y1="215.6" x2="180" y2="240"/>
+    <line x1="460" y1="215.6" x2="460" y2="240"/>
+    <line x1="320" y1="60" x2="320" y2="240"/>
+  </g>
+  <g font-size="13" text-anchor="middle">
+    <text x="110" y="258">327</text><text x="180" y="258">330</text><text x="250" y="258">333</text>
+    <text x="320" y="258">336</text><text x="390" y="258">339</text><text x="460" y="258">342</text><text x="530" y="258">345</text>
+  </g>
+  <path d="M 250 272 L 250 282 L 390 282 L 390 272" fill="none" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="320" y="296" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">68%</text>
+  <path d="M 180 304 L 180 314 L 460 314 L 460 304" fill="none" stroke="#2f855a" stroke-width="2"/>
+  <text x="320" y="328" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f855a">95%</text>
+  <path d="M 110 336 L 110 346 L 530 346 L 530 336" fill="none" stroke="#dd6b20" stroke-width="2"/>
+  <text x="320" y="358" text-anchor="middle" font-size="14" font-weight="bold" fill="#dd6b20">99.7%</text>
+</svg>

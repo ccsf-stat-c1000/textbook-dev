@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="180" y="24" text-anchor="middle" font-size="15" font-weight="bold">Distance in feet: r = &#8722;0.793</text>
+  <g fill="#2b6cb0">
+    <circle cx="60" cy="110" r="4.5"/><circle cx="80" cy="125" r="4.5"/><circle cx="100" cy="120" r="4.5"/>
+    <circle cx="120" cy="145" r="4.5"/><circle cx="140" cy="140" r="4.5"/><circle cx="160" cy="165" r="4.5"/>
+    <circle cx="180" cy="160" r="4.5"/><circle cx="200" cy="185" r="4.5"/><circle cx="220" cy="180" r="4.5"/>
+    <circle cx="240" cy="205" r="4.5"/><circle cx="260" cy="200" r="4.5"/><circle cx="280" cy="220" r="4.5"/>
+  </g>
+  <line x1="45" y1="50" x2="45" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <line x1="45" y1="240" x2="300" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="12" text-anchor="end">
+    <text x="40" y="114">500</text><text x="40" y="169">400</text><text x="40" y="224">300</text>
+  </g>
+  <text x="172" y="262" font-size="13" text-anchor="middle">Driver age</text>
+  <text x="180" y="286" font-size="13" text-anchor="middle" font-style="italic">distance measured in feet</text>
+  <text x="500" y="24" text-anchor="middle" font-size="15" font-weight="bold">Distance in meters: r = &#8722;0.793</text>
+  <g fill="#2f855a">
+    <circle cx="390" cy="110" r="4.5"/><circle cx="410" cy="125" r="4.5"/><circle cx="430" cy="120" r="4.5"/>
+    <circle cx="450" cy="145" r="4.5"/><circle cx="470" cy="140" r="4.5"/><circle cx="490" cy="165" r="4.5"/>
+    <circle cx="510" cy="160" r="4.5"/><circle cx="530" cy="185" r="4.5"/><circle cx="550" cy="180" r="4.5"/>
+    <circle cx="570" cy="205" r="4.5"/><circle cx="590" cy="200" r="4.5"/><circle cx="610" cy="220" r="4.5"/>
+  </g>
+  <line x1="375" y1="50" x2="375" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <line x1="375" y1="240" x2="630" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="12" text-anchor="end">
+    <text x="370" y="114">152</text><text x="370" y="169">122</text><text x="370" y="224">91</text>
+  </g>
+  <text x="502" y="262" font-size="13" text-anchor="middle">Driver age</text>
+  <text x="500" y="286" font-size="13" text-anchor="middle" font-style="italic">same data in meters &#8212; r is unchanged</text>
+</svg>

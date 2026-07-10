@@ -1,0 +1,33 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <text x="320" y="26" text-anchor="middle" font-size="16" font-weight="bold">Observational Study</text>
+  <ellipse cx="110" cy="160" rx="80" ry="70" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="110" y="155" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Population</text>
+  <text x="110" y="173" text-anchor="middle" font-size="12" fill="#2b6cb0">of quitting smokers</text>
+  <line x1="195" y1="160" x2="255" y2="160" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="225" y="145" text-anchor="middle" font-size="12" font-style="italic">random</text>
+  <text x="225" y="188" text-anchor="middle" font-size="12" font-style="italic">selection</text>
+  <circle cx="315" cy="160" r="52" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="315" y="157" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Sample</text>
+  <text x="315" y="175" text-anchor="middle" font-size="12" fill="#2b6cb0">n = 1,000</text>
+  <line x1="372" y1="160" x2="425" y2="160" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="398" y="140" text-anchor="middle" font-size="12" font-weight="bold" fill="#c53030">self-</text>
+  <text x="398" y="185" text-anchor="middle" font-size="12" font-weight="bold" fill="#c53030">assigned</text>
+  <g stroke="#2b6cb0" stroke-width="2" fill="#eaf2fb">
+    <rect x="435" y="55" width="170" height="42" rx="8"/>
+    <rect x="435" y="107" width="170" height="42" rx="8"/>
+    <rect x="435" y="159" width="170" height="42" rx="8"/>
+    <rect x="435" y="211" width="170" height="42" rx="8"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#2b6cb0" font-weight="bold">
+    <text x="520" y="81">Drugs (their choice)</text>
+    <text x="520" y="133">Therapy (their choice)</text>
+    <text x="520" y="185">Both (their choice)</text>
+    <text x="520" y="237">Neither (their choice)</text>
+  </g>
+  <text x="320" y="288" text-anchor="middle" font-size="13" font-style="italic">Group sizes are uneven &#8212; participants chose their own method</text>
+</svg>

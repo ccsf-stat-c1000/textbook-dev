@@ -1,13 +1,18 @@
 version: 1
 project:
-  license: CC-BY-4.0
+  license: CC-BY-NC-SA-4.0
   title: Introduction to Statistics
   authors:
     - name: City College of San Francisco 
   exclude:
     - README.md
+    - STYLE_GUIDE.md
+    - PROGRESS.md
     - unsorted_pages/*.md
     - _toc.yml
+    - pages/unused/*.md
+    - pages/*m01*.md
+    - pages/*m02*.md
   plugins:
     - pages/quiz.mjs
 

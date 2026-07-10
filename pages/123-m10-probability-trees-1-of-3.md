@@ -1,51 +1,64 @@
 # Probability Trees (1 of 3)
 
 ```{admonition} Learning Objectives
-    - Use probability trees as a tool for finding probabilities.
+:class: note
+
+- Use probability trees as a tool for finding probabilities.
 ```
 
 So far, when two categorical variables are involved, we have displayed counts or probabilities for various events with two-way tables and with Venn diagrams. Another display tool, called a *probability tree*, is particularly useful for showing probabilities when the events occur in stages and conditional probabilities are involved.
 
-```{admonition} Example
-    A sales representative tells his friend that the probability of landing a major contract by the end of the week, resulting in a large commission, is .4. If the commission comes through, the probability that he will indulge in a weekend vacation in Bermuda is .9. Even if the commission doesn't come through, he may still go to Bermuda, but only with probability .3.
+:::{admonition} Example: Commission and Vacation
+:class: tip
 
-    First, let's identify the given probabilities for events involving *C* (the commission comes through) and *V* (the sales rep takes a Bermuda vacation):
+A sales representative tells his friend that the probability of landing a major contract by the end of the week, resulting in a large commission, is 0.4. If the commission comes through, the probability that he will indulge in a weekend vacation in Bermuda is 0.9. Even if the commission doesn't come through, he may still go to Bermuda, but only with probability 0.3.
 
-    P(C) = .4 [and so P(not C) = .6],
+First, let's identify the given probabilities for events involving *C* (the commission comes through) and *V* (the sales rep takes a Bermuda vacation):
 
-    P(V | C) = .9 [and so P(not V | C) = .1], and
+- P(C) = 0.4 [and so P(not C) = 0.6],
+- P(V | C) = 0.9 [and so P(not V | C) = 0.1], and
+- P(V | not C) = 0.3 [and so P(not V | not C) = 0.7.]
 
-    P(V | not C) = .3 [and so P(not V | not C) = .7.]
+There are two stages in the problem. First, the sales rep will either get the commission or not. Second, based on what happened in the first stage, the sales rep will either take the Bermuda vacation or not.
 
-    There are two stages in the problem. First, the sales rep will either get the commission or not.
-
-    Second, based on what happened in the first stage, the sales rep will either take the Bermuda vacation or not.
-
-    We follow exactly the same reasoning when we build the probability tree.
-```
+We follow exactly the same reasoning when we build the probability tree.
+:::
 
 ```{note} Video
+
 [Probability Trees](https://www.youtube.com/watch?v=PVQszIj-X_A)
+```
+
+Here is the completed tree:
+
+```{figure} images/gen/m10-tree-commission.svg
+:alt: A probability tree. From the starting point, two branches represent getting the commission, C with probability 0.4, and not C with probability 0.6. From each of these, two more branches represent taking the vacation or not: V given C is 0.9, not V given C is 0.1, V given not C is 0.3, and not V given not C is 0.7. The four leaves show the joint probabilities: P(C and V) equals 0.36, P(C and not V) equals 0.04, P(not C and V) equals 0.18, and P(not C and not V) equals 0.42.
 ```
 
 There are two important things to note here:
 
-1. The probabilities in the *first branch-off are non-conditional probabilities* P(C) = .4, P(not C) = .6. However, the probabilities that appear in the *second branch-off are conditional probabilities.*The top two branches assume that C occurred: P(V | C) = .9, P(not V | C) = .1. The bottom two branches assume that not C occurred: P(V | not C) = .3, P(not V | not C) = .7
+1. The probabilities in the *first branch-off are non-conditional probabilities*: P(C) = 0.4, P(not C) = 0.6. However, the probabilities that appear in the *second branch-off are conditional probabilities.* The top two branches assume that C occurred: P(V | C) = 0.9, P(not V | C) = 0.1. The bottom two branches assume that not C occurred: P(V | not C) = 0.3, P(not V | not C) = 0.7.
 
-```{figure} images/image009.gif
-:alt: A probability tree. The bottom of the tree (where there is the trunk) represents the first event (in this case, getting the commission). From there, two branches (lines) are drawn. This is the branch-off. One branch is represents getting the commission and the other represents not getting the commission. Each of these branches lead to a point. At both of these points is the second event (going to a vacation). Each of these points has two branches. These represent either going on vacation or not going on vacation. Notice that this tree has two levels of points, one for each event. We will be naming paths through the tree with the notation "{first branch-off: probability of branch-off; second branch-off: probability of branch-off; ...}". Each branch-off represents the path we take when we need to take a branch, and the probability for taking that branch is provided. This probability tree demonstrates how branches map to probabilities. {C: .4} represents P(C); {not C: .6} represents P(not C); {C: .4; V: .9} represents P(V|C); {C: .4; not V: .1} represents P(not V|C); {not C: .6; V: .3} represents P(V|not C); {not C: .6; not V: .7} represents P(not V|not C);
-```
+2. The second thing to note is that probabilities of branches that branch out from the same point always add up to one: 0.4 + 0.6 = 1 at the first stage, and 0.9 + 0.1 = 1 and 0.3 + 0.7 = 1 at the second stage.
 
-2. The second thing to note is that probabilities of branches that branch out from the same point always add up to one.
+## Concept Check
 
-```{figure} images/image010.gif
-:alt: A probability tree demonstrating the rule. For the point intersecting C, we have the branches {C, .4} and {C, .6}. Note that .4 + .6 = 1. For the point intersecting {C: .4, V: .9} and {C: .4, not V: .1}, note that the probabilities for V and not V add up to 1 (.9 + .1 = 1). For the last point intersecting {not C: .6, V: .3} and {not C: .6, not V: .7}, note that the probabilities for V and not V add up to 1 (.3 + .7 = 1)
-```
+:::{quiz} In a probability tree for a two-stage problem, what kind of probabilities appear on the second set of branches?
+:hint: The second stage happens after (and depends on) the first stage's outcome.
+:feedback-0: The non-conditional probabilities appear only on the first branch-off.
+:feedback-1: Correct! Second-stage branches carry conditional probabilities, given the outcome of the first stage.
+:feedback-2: Joint probabilities appear at the ends of the tree (the leaves), computed by multiplying along a path.
+* Non-conditional probabilities
+* *Conditional probabilities, given the first-stage outcome
+* Joint probabilities of both events
+:::
 
-The following "bare" tree is missing the appropriate probabilities in each of its branches. Complete them.
-
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A tree's first stage has branches with probabilities 0.25 and p. What must p be?
+:hint: Branches from the same point sum to 1.
+:feedback-0: Correct! Branches from the same point always add up to 1, so p = 1 − 0.25 = 0.75.
+:feedback-1: 0.25 would make the branch probabilities sum to 0.5, not 1.
+:feedback-2: The complement of 0.25 is 0.75.
+* *0.75
+* 0.25
+* 0.5
+:::

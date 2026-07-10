@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="16" font-weight="bold">Xavier's Line: &#956; = 1.8, &#963; = 1.21</text>
+  <g fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1">
+    <rect x="100" y="190" width="80" height="90"/>
+    <rect x="190" y="100" width="80" height="180"/>
+    <rect x="280" y="130" width="80" height="150"/>
+    <rect x="370" y="160" width="80" height="120"/>
+    <rect x="460" y="220" width="80" height="60"/>
+  </g>
+  <line x1="302" y1="50" x2="302" y2="280" stroke="#c53030" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="302" y="44" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">mean = 1.8</text>
+  <line x1="80" y1="280" x2="560" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="14" text-anchor="middle">
+    <text x="140" y="300">0</text><text x="230" y="300">1</text><text x="320" y="300">2</text>
+    <text x="410" y="300">3</text><text x="500" y="300">4</text>
+  </g>
+  <text x="320" y="328" font-size="15" text-anchor="middle">Defective parts per hour (X)</text>
+  <text x="24" y="170" font-size="14" text-anchor="middle" transform="rotate(-90 24 170)">Probability</text>
+</svg>

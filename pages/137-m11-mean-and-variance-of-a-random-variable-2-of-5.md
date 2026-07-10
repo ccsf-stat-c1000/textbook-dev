@@ -1,7 +1,9 @@
 # Mean and Variance of a Random Variable (2 of 5)
 
 ```{admonition} Learning Objectives
-    - Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
+:class: note
+
+- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
 ```
 
 ## Applications of the Mean
@@ -10,111 +12,107 @@ Means of random variables are useful for telling us about long-run gains in sale
 
 Here are two examples:
 
-```{admonition} Example: Pizza Delivery #1
-    Your favorite pizza place delivers only one kind of pizza, which is sold for $10, and costs the pizza place $6 to make. The pizza place has the following policy regarding delivery: if the pizza takes longer than half an hour to arrive, there is no charge. Let the random variable X be the pizza place's gain for any one pizza.
+:::{admonition} Example: Pizza Delivery #1
+:class: tip
 
-    Experience has shown that delivery takes longer than half an hour only 10 percent of the time.
+Your favorite pizza place delivers only one kind of pizza, which is sold for \$10, and costs the pizza place \$6 to make. The pizza place has the following policy regarding delivery: if the pizza takes longer than half an hour to arrive, there is no charge. Let the random variable X be the pizza place's gain for any one pizza.
 
-    Find the mean gain per pizza, $\mu_{X}$.
+Experience has shown that delivery takes longer than half an hour only 10 percent of the time.
 
-    In order to find the mean of X, we first need to establish its probability distribution—the possible values and their probabilities.
+Find the mean gain per pizza, $\mu_{X}$.
 
-    The random variable X has two possible values: either the pizza costs them $6 to make and they sell it for $10, in which case X takes the value $10 - $6 = $4, or it costs them $6 to make and they give it away, in which case X takes the value $0 - $6 = -$6. The probability of the latter case is given to be 10 percent, or .1, so using complements, the former has probability .9. Here, then is the probability distribution of X:
+In order to find the mean of X, we first need to establish its probability distribution—the possible values and their probabilities.
 
-    ```{figure} images/image024a.gif
-    :alt: A probability distribution table with two rows, labeled "X" "P(X=x)." Here is the data in columns (X: P(X=x)): +4: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = +4, and P(X = +4) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
-    ```
+The random variable X has two possible values: either the pizza costs them \$6 to make and they sell it for \$10, in which case X takes the value \$10 − \$6 = \$4, or it costs them \$6 to make and they give it away, in which case X takes the value \$0 − \$6 = −\$6. The probability of the latter case is given to be 10 percent, or 0.1, so using complements, the former has probability 0.9. Here, then, is the probability distribution of X:
 
-    Therefore,
+| x | +4 | −6 |
+| --- | --- | --- |
+| P(X = x) | 0.9 | 0.1 |
 
-    $\mu_{X}=(+4)(.9)+(-6)(.1)=+3$.
+Therefore,
 
-    In the long run, the pizza place gains an average of $3 per pizza delivered.
-```
+$$\mu_{X}=(+4)(0.9)+(-6)(0.1)=+3$$
 
-```{admonition} Example: Pizza Delivery #2
-    If the pizza place wants to increase its mean gain per pizza to $3.90, how much should it raise the price from $10? We need to replace the original cost of 10 with an as-yet-to-be-determined new cost N, resulting in this probability distribution table:
+In the long run, the pizza place gains an average of \$3 per pizza delivered.
+:::
 
-    ```{figure} images/image026a.gif
-    :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in columns (X: P(X=x)): N-6: .9; -6: .1; In other words, when pizza delivery is not longer than half an hour, X = N-6, and P(X = N-6) = .9 . When pizza delivery takes longer than half an hour, X=-6, and P(X = -6) = .1 .
-    ```
+:::{admonition} Example: Pizza Delivery #2
+:class: tip
 
-    Next, setting $\mu_{X}$ equal to +3.90 instead of +3, we solve
+If the pizza place wants to increase its mean gain per pizza to \$3.90, how much should it raise the price from \$10? We need to replace the original price of 10 with an as-yet-to-be-determined new price N, resulting in this probability distribution table:
 
-    $3.9=(N-6)(.9)+(-6)(.1)=.9N-6$ or
+| x | N − 6 | −6 |
+| --- | --- | --- |
+| P(X = x) | 0.9 | 0.1 |
 
-    $.9N=9.9$
+Next, setting $\mu_{X}$ equal to +3.90 instead of +3, we solve
 
-    Therefore, the new price must be 11 dollars.
-```
+$$3.9=(N-6)(0.9)+(-6)(0.1)=0.9N-6$$
+
+so 0.9N = 9.9, and therefore the new price must be 11 dollars.
+:::
 
 ## Learn By Doing
 
 We are going to look at a variation of the pizza delivery example. Here is the scenario.
 
-The Acme Shipping Company has learned from experience that it costs $14.80 to deliver a small package overnight. The company charges $20 for such a shipment, but guarantees that they will refund the $20 charge if it does not arrive within 24 hours.
+The Acme Shipping Company has learned from experience that it costs \$14.80 to deliver a small package overnight. The company charges \$20 for such a shipment, but guarantees that they will refund the \$20 charge if it does not arrive within 24 hours. Suppose that 2% of packages fail to arrive within 24 hours. Let the random variable X be the company's gain on a package.
 
-```{note}
-    **Learn By Doing**
+:::{quiz} What are the possible values of X, the company's gain on one package?
+:hint: The delivery costs \$14.80 either way; the revenue is \$20 or \$0.
+:feedback-0: Correct! On time: 20 − 14.80 = +\$5.20. Late (refunded): 0 − 14.80 = −\$14.80.
+:feedback-1: The cost of delivery is incurred whether or not the package is late.
+:feedback-2: When the package is late, the \$20 is refunded, so the company loses its \$14.80 delivery cost.
+* *+$5.20 (on time) and −$14.80 (late)
+* +$20 (on time) and $0 (late)
+* +$5.20 (on time) and $0 (late)
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} What is the probability distribution of X?
+:hint: 2% of packages are late.
+:feedback-0: Correct! P(X = 5.20) = 0.98 and P(X = −14.80) = 0.02.
+:feedback-1: The two outcomes are far from equally likely—98% of packages arrive on time.
+* *P(X = 5.20) = 0.98; P(X = −14.80) = 0.02
+* P(X = 5.20) = 0.5; P(X = −14.80) = 0.5
+:::
 
-```{note}
-    **Learn By Doing**
+:::{quiz} What is the company's mean gain per package, μ(X)?
+:hint: μ(X) = 5.20(0.98) + (−14.80)(0.02).
+:feedback-0: Correct! μ(X) = 5.096 − 0.296 = \$4.80 per package in the long run.
+:feedback-1: \$5.20 ignores the occasional refunds, which lower the long-run average.
+:feedback-2: Remember to weight each value by its probability before adding.
+* *$4.80
+* $5.20
+* $2.60
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{admonition} Example: Raffle
+:class: tip
 
-```{note}
-    **Learn By Doing**
+In order to raise money, a charity decides to raffle off some prizes. The charity sells 2,000 raffle tickets for \$5 each. The prizes are:
 
-    *(Interactive activity — available in the OLI platform)*
-```
+- 10 movie packages (two tickets plus popcorn) worth \$25 each
+- 5 dinners for two worth \$50 each
+- 2 smart phones worth \$200 each
+- 1 flat-screen TV worth \$1,500
 
-```{admonition} Example: Raffle
-    In order to raise money, a charity decides to raffle off some prizes. The charity sells 2,000 raffle tickets for $5 each. The prizes are:
+What is the expected gain or loss if you buy a single raffle ticket? The expected value can be written as E(X).
 
-    - 10 movie packages (two tickets plus popcorn) worth $25 each
-    - 5 dinners for two worth $50 each
-    - 2 smart phones worth $200 each
-    - 1
-                        flat-screen
-                        TV worth
-                        $1,500
+There are 5 possible outcomes when you buy a ticket: win movie package, win dinner for two, win smart phone, win TV, win nothing.
 
-    What is the expected gain or loss if you buy a single raffle ticket? The expected value can be written as E(X).
+| prize | net gain or loss | probability |
+| --- | --- | --- |
+| movie package | 25 − 5 = 20 | 10/2000 |
+| dinner for two | 50 − 5 = 45 | 5/2000 |
+| smart phone | 200 − 5 = 195 | 2/2000 |
+| TV | 1500 − 5 = 1495 | 1/2000 |
+| nothing | 0 − 5 = −5 | 1982/2000 |
 
-    There are 5 possible outcomes when you buy a ticket: win movie package, win dinner for two, win smart phone, win TV, win nothing.
+$$\mu_{X}=E(X)=20\left(\tfrac{10}{2000}\right)+45\left(\tfrac{5}{2000}\right)+195\left(\tfrac{2}{2000}\right)+1495\left(\tfrac{1}{2000}\right)+(-5)\left(\tfrac{1982}{2000}\right)$$
 
-    | prize | net gain or loss | probability |
-    | --- | --- | --- |
-    | movie package | 25 - 5 | 10 / 2000 |
-    | dinner for two | 50 - 5 | 5 / 2000 |
-    | smart phone | 200 - 5 | 2 / 2000 |
-    | TV | 1500 - 5 | 1 / 2000 |
-    | nothing | 0 - 5 | (2000 - 10 - 5 - 2 - 1) / 2000 |
+$$E(X)=\frac{-7600}{2000}=-3.80$$
 
-    The previous information is summarized below in a probability distribution:
+Since we got a negative number, we have an expected loss of \$3.80 for each raffle ticket purchased. Recall that this is based upon a long-run average.
 
-    ```{figure} images/image_raffle.gif
-    :alt: A probability distribution table with two rows, labeled "X" and "P(X=x)." Here is the data in column oriented format (X: P(X=x), comment): 20: 10/20000 (movie package); 45: 5/2000 (dinner for two); 195: 2/2000 (smart phone); 1495: 1/2000 (TV); -5: 1982/2000 (Nothing);
-    ```
-
-    $\mu_{X}=E(X)=20(\frac{10}{2000})+45(\frac{5}{2000})+195(\frac{2}{2000})+1495(\frac{1}{2000})+(-5)(\frac{1982}{2000})$
-
-    $E(X)=\frac{-7600}{2000}=-3.80$
-
-    Since we got a negative number, we have an expected loss of $3.80 for each raffle ticket purchased. Recall that this is based upon a long-run average.
-
-    Each raffle ticket has only 5 possible outcomes:
-
-    - $20 net gain if you win the movie package
-    - $45 net gain if you win the dinner for two
-    - $195 net gain if you win the smart phone
-    - $1,495 net
-                            gain if you win the TV
-    - $5 net loss if you do not win a prize
-
-    It should not be surprising that you have an expected loss. After all, the charity's goal is to raise money. If you have an expected loss of $3.80 per ticket, they will have an expected gain of $3.80 per ticket. Each ticket gives the charity +5 (it was -5 for you). The prizes are reversed, too. For example, the movie package is -20 + 5 for the charity (it was 20 - 5 for you).
-```
+It should not be surprising that you have an expected loss. After all, the charity's goal is to raise money. If you have an expected loss of \$3.80 per ticket, they will have an expected gain of \$3.80 per ticket. Each ticket gives the charity +5 (it was −5 for you). The prizes are reversed, too. For example, the movie package is −20 + 5 for the charity (it was 20 − 5 for you).
+:::

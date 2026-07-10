@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="170" y="24" text-anchor="middle" font-size="14" font-weight="bold">Outlier NOT consistent with the pattern</text>
+  <g fill="#2b6cb0">
+    <circle cx="55" cy="235" r="4.5"/><circle cx="75" cy="222" r="4.5"/><circle cx="95" cy="212" r="4.5"/>
+    <circle cx="115" cy="198" r="4.5"/><circle cx="135" cy="188" r="4.5"/><circle cx="155" cy="174" r="4.5"/>
+    <circle cx="175" cy="164" r="4.5"/><circle cx="195" cy="150" r="4.5"/><circle cx="215" cy="140" r="4.5"/>
+    <circle cx="235" cy="126" r="4.5"/><circle cx="255" cy="116" r="4.5"/>
+  </g>
+  <circle cx="275" cy="245" r="6" fill="#c53030"/>
+  <text x="275" y="270" text-anchor="middle" font-size="12" font-weight="bold" fill="#c53030">outlier</text>
+  <line x1="40" y1="60" x2="40" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="40" y1="280" x2="300" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <text x="170" y="305" text-anchor="middle" font-size="13" font-style="italic">r drops from 0.99 to about 0.52</text>
+  <text x="470" y="24" text-anchor="middle" font-size="14" font-weight="bold">Outlier consistent with the pattern</text>
+  <g fill="#2b6cb0">
+    <circle cx="360" cy="240" r="4.5"/><circle cx="380" cy="215" r="4.5"/><circle cx="400" cy="230" r="4.5"/>
+    <circle cx="420" cy="195" r="4.5"/><circle cx="440" cy="212" r="4.5"/><circle cx="460" cy="180" r="4.5"/>
+    <circle cx="480" cy="196" r="4.5"/><circle cx="500" cy="165" r="4.5"/><circle cx="520" cy="182" r="4.5"/>
+    <circle cx="540" cy="152" r="4.5"/>
+  </g>
+  <circle cx="600" cy="85" r="6" fill="#c53030"/>
+  <text x="592" y="65" text-anchor="middle" font-size="12" font-weight="bold" fill="#c53030">outlier</text>
+  <line x1="345" y1="60" x2="345" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="345" y1="280" x2="620" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <text x="482" y="305" text-anchor="middle" font-size="13" font-style="italic">r rises from about 0.71 to 0.86</text>
+</svg>

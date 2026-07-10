@@ -1,7 +1,9 @@
 # The Role-Type Classification (2 of 2)
 
 ```{admonition} Learning Objectives
-    - Classify a data analysis situation (involving two variables) according to the "role-type classification," and state the appropriate display and/or numerical measures that should be used in order to summarize the data.
+:class: note
+
+- Classify a data analysis situation (involving two variables) according to the "role-type classification," and state the appropriate display and/or numerical measures that should be used in order to summarize the data.
 ```
 
 If we further classify each of the two relevant variables according to *type* (categorical or quantitative), we get the following four possibilities for *role-type classification*:
@@ -13,80 +15,94 @@ If we further classify each of the two relevant variables according to *type* (c
 
 This role-type classification can be summarized and easily visualized in the following table (note that the explanatory variable is always listed first):
 
-```{figure} images/relationships_overview1.gif
-:alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q)
+```{figure} images/gen/m05-role-type-table.svg
+:alt: A two-by-two table of the role-type classification. The rows give the type of the explanatory variable and the columns the type of the response variable. A categorical explanatory with a categorical response is case C to C; categorical explanatory with quantitative response is case C to Q; quantitative explanatory with categorical response is case Q to C; and quantitative explanatory with quantitative response is case Q to Q.
 ```
 
 This role-type classification serves as the infrastructure for this entire section. In each of the four cases, different statistical tools (displays and numerical measures) should be used to explore the relationship between the two variables. This suggests the following important principle:
 
 ```{admonition} Principle
-    When confronted with a research question that involves exploring the relationship between two variables, the first and most crucial step is to determine which of the four cases represents the data structure of the problem. In other words, the first step should be classifying the two relevant variables according to their role and type, and only then can we determine what statistical tools should be used to analyze them.
+:class: note
+
+When confronted with a research question that involves exploring the relationship between two variables, the first and most crucial step is to determine which of the four cases represents the data structure of the problem. In other words, the first step should be classifying the two relevant variables according to their role and type, and only then can we determine what statistical tools should be used to analyze them.
 ```
 
 Now let's go back to our eight examples and determine which of the four cases represents the data structure of each:
 
-```{admonition} Example: 1
-    | *Gender* is the *explanatory* variable, and it is *categorical*. |
-    | --- |
-    | *Test score* is the *response* variable, and it is *quantitative*. |
-    | Therefore, this is an example of *case                             C→Q*. |
-```
+:::{admonition} Example: 1
+:class: tip
 
-```{admonition} Example: 3
-    | *Light Type* is the *explanatory* variable, and it is *categorical*. |
-    | --- |
-    | *Nearsightedness* is the *response* variable, and it is *categorical*. |
-    | Therefore, this is an example of *case                             C→C*. |
-```
+- *Gender* is the *explanatory* variable, and it is *categorical*.
+- *Test score* is the *response* variable, and it is *quantitative*.
+- Therefore, this is an example of *case C→Q*.
+:::
 
-```{admonition} Example: 5
-    | *SAT Score* is the *explanatory* variable, and it is *quantitative*. |
-    | --- |
-    | *GPA of Freshman Year* is the *response* variable, and it is *quantitative*. |
-    | Therefore, this is an example of *case                             Q→Q*. |
-```
+:::{admonition} Example: 3
+:class: tip
 
-```{admonition} Example: 7
-    | *Time* is the *explanatory* variable, and it is *quantitative*. |
-    | --- |
-    | *Driving Test Outcome* is the *response* variable, and it is *categorical*. |
-    | Therefore, this is an example of *case                             Q→C*. |
-```
+- *Light Type* is the *explanatory* variable, and it is *categorical*.
+- *Nearsightedness* is the *response* variable, and it is *categorical*.
+- Therefore, this is an example of *case C→C*.
+:::
 
-Now you complete the rest (click here to open a separate window with the eight examples).
+:::{admonition} Example: 5
+:class: tip
 
-```{note}
-    **Learn By Doing**
+- *SAT Score* is the *explanatory* variable, and it is *quantitative*.
+- *GPA of Freshman Year* is the *response* variable, and it is *quantitative*.
+- Therefore, this is an example of *case Q→Q*.
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{admonition} Example: 7
+:class: tip
 
-## Did I Get This?
+- *Time* is the *explanatory* variable, and it is *quantitative*.
+- *Driving Test Outcome* is the *response* variable, and it is *categorical*.
+- Therefore, this is an example of *case Q→C*.
+:::
 
-In each of the following three problems, you are presented with a brief description of a study involving two variables. Based on the role-type classification of the two variables, you are asked to determine which of the four cases represents the data structure of the problem.
+## Concept Check
 
-For your convenience, here again is the role-type classification table:
+Now you classify the rest. In each of the following problems, determine which of the four cases represents the data structure of the study.
 
-```{figure} images/relationships_overview1.gif
-:alt: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), Quantitative Explanatory → Quantitative Response (Q→Q)
-```
+:::{quiz} Example 2: How is the number of calories in a hot dog related to the type of hot dog (beef, meat, or poultry)?
+:hint: Type of hot dog explains calories. Classify each variable as categorical or quantitative.
+:feedback-0: Correct! Type of hot dog (categorical) is the explanatory variable, and calories (quantitative) is the response: case C→Q.
+:feedback-1: Calories is quantitative, not categorical—so the response is quantitative.
+:feedback-2: Type of hot dog is categorical, not quantitative—so the explanatory variable is categorical.
+* *C→Q
+* C→C
+* Q→Q
+:::
 
-```{note}
-    **Sectionnest**
+:::{quiz} Example 4: Are the smoking habits of a person (yes, no) related to the person's gender?
+:hint: Both variables place people into categories.
+:feedback-0: Both variables here are categorical—neither is a numerical measurement.
+:feedback-1: Correct! Gender (categorical) is the explanatory variable and smoking (categorical, yes/no) is the response: case C→C.
+:feedback-2: Neither variable is quantitative in this study.
+* C→Q
+* *C→C
+* Q→C
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} Example 6: What is the relationship between a driver's age and the maximum distance at which the driver can read a road sign?
+:hint: Both variables are numerical measurements.
+:feedback-0: Age is a quantitative variable, so the explanatory variable is not categorical.
+:feedback-1: Distance is a quantitative variable, so the response is not categorical.
+:feedback-2: Correct! Age (quantitative) explains sign legibility distance (quantitative): case Q→Q.
+* C→Q
+* Q→C
+* *Q→Q
+:::
 
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} Example 8: Can you predict a person's favorite type of music (classical, rock, jazz) on the basis of his or her IQ level?
+:hint: The predictor is numerical; the outcome is a category.
+:feedback-0: Correct! IQ (quantitative) is the explanatory variable and favorite music type (categorical) is the response: case Q→C.
+:feedback-1: The explanatory variable, IQ, is quantitative, not categorical.
+:feedback-2: The response, favorite music type, is categorical, not quantitative.
+* *Q→C
+* C→C
+* Q→Q
+:::
 
 The remainder of this section on exploring relationships is guided by this role-type classification. In the next three parts, we elaborate on cases C→Q, C→C, and Q→Q. More specifically, we will learn the appropriate statistical tools (visual display and numerical summaries) that will allow us to explore the relationship between the two variables in each of the cases. Case Q→C is *not* discussed in this course and is typically covered in more advanced courses. The section concludes with a discussion on causal relationships.

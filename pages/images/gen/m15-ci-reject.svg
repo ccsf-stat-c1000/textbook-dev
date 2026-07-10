@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 160" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Number line from .60 to .74: x = 60 + (v-.60)*3500 -->
+  <line x1="60" y1="100" x2="580" y2="100" stroke="#333333" stroke-width="1.5"/>
+  <!-- ticks -->
+  <line x1="60" y1="95" x2="60" y2="105" stroke="#333333" stroke-width="1"/>
+  <text x="60" y="125" text-anchor="middle" font-size="13" fill="#333333">0.60</text>
+  <line x1="410" y1="95" x2="410" y2="105" stroke="#333333" stroke-width="1"/>
+  <text x="410" y="125" text-anchor="middle" font-size="13" fill="#333333">0.70</text>
+  <!-- CI bar: .645 -> x=217.5 ; .705 -> x=427.5 -->
+  <line x1="217" y1="70" x2="427" y2="70" stroke="#2b6cb0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="217" y1="95" x2="217" y2="105" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="217" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b6cb0">0.645</text>
+  <line x1="427" y1="95" x2="427" y2="105" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="427" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#2b6cb0">0.705</text>
+  <text x="322" y="55" text-anchor="middle" font-size="13" fill="#2b6cb0">95% confidence interval for p</text>
+  <!-- p0 = .64 -> x=200 -->
+  <circle cx="200" cy="100" r="6" fill="#c53030"/>
+  <text x="200" y="150" text-anchor="middle" font-size="13" font-weight="bold" fill="#c53030">p&#8320; = 0.64 (outside &#8594; reject H&#8320;)</text>
+</svg>

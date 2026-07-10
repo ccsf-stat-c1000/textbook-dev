@@ -1,7 +1,9 @@
 # Introduction to Probability (3 of 5)
 
 ```{admonition} Learning Objectives
-    - Relate the probability of an event to the likelihood of this event occurring.
+:class: note
+
+- Relate the probability of an event to the likelihood of this event occurring.
 ```
 
 ## What is Probability?
@@ -35,30 +37,51 @@ We can think of "*A*" as an "*event*."
 
 | NOTATION | MEANING |
 | --- | --- |
-| P(win lottery) | the probability that a person who has a lottery ticket will win that                             lottery |
+| P(win lottery) | the probability that a person who has a lottery ticket will win that lottery |
 | P(A) | the probability that event A will occur |
 | P(B) | the probability that event B will occur |
 
 ```{admonition} Principle
-    *The "probability" of an event tells us how likely it is that the event will occur.*
+:class: note
+
+*The "probability" of an event tells us how likely it is that the event will occur.*
 ```
 
 What values can the probability of an event take, and what does the value tell us about the likelihood of the event occurring?
 
 ```{note} Video
+
 [Probability of an Event](https://www.youtube.com/watch?v=J2KibEm5f04)
 ```
 
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
-
 ```{admonition} Principle
-    *The probability that an event will occur is between 0 and 1 or 0 ≤ P(A) ≤ 1.*
+:class: note
+
+*The probability that an event will occur is between 0 and 1, or 0 ≤ P(A) ≤ 1.*
 ```
 
-Many people prefer to express probability in percentages. Since all probabilities are decimals, each can be changed to an equivalent percentage. Thus, the latest principle is equivalent to saying, *"The chance that an event will occur is between 0% and 100%*."
+Many people prefer to express probability in percentages. Since all probabilities are decimals, each can be changed to an equivalent percentage. Thus, the latest principle is equivalent to saying, *"The chance that an event will occur is between 0% and 100%."*
+
+## Concept Check
+
+:::{quiz} Which of the following could NOT be the probability of an event?
+:hint: Probabilities are always between 0 and 1 (inclusive).
+:feedback-0: 0 is a valid probability—it describes an event that will never occur.
+:feedback-1: Correct! Probabilities cannot exceed 1 (or 100%), so 1.2 is impossible.
+:feedback-2: 0.999 is a valid probability, describing an event that is almost certain.
+* 0
+* *1.2
+* 0.999
+:::
+
+:::{quiz} An event has probability P(A) = 0.03. Which is the best interpretation?
+:hint: Convert 0.03 to a percentage.
+:feedback-0: Correct! A probability of 0.03 (3%) means the event is very unlikely, though not impossible.
+:feedback-1: An impossible event has probability exactly 0.
+:feedback-2: 0.03 is 3%, not 30%—the event is far from a toss-up.
+* *The event is very unlikely, occurring about 3% of the time
+* The event is impossible
+* The event occurs about a third of the time
+:::
 
 Probabilities can be determined in two fundamental ways. Keep reading to find out what they are.

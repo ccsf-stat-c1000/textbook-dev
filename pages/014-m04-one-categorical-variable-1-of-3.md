@@ -1,7 +1,9 @@
 # One Categorical Variable (1 of 3)
 
 ```{admonition} Learning Objectives
-    - Summarize and describe the distribution of a categorical variable in context.
+:class: note
+
+- Summarize and describe the distribution of a categorical variable in context.
 ```
 
 What is your perception of your own body? Do you feel that you are overweight, underweight, or about right?

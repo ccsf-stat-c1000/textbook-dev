@@ -1,8 +1,10 @@
 # Measures of Spread (4 of 5)
 
 ```{admonition} Learning Objectives
-    - Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-    - Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
+:class: note
+
+- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
+- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
 ```
 
 ## Using the IQR to Detect Outliers
@@ -13,52 +15,60 @@ So far we have quantified the idea of center, and we are in the middle of the di
 
 An observation is considered a suspected outlier if it is:
 
-- below Q1 - 1.5(IQR) or
+- below Q1 − 1.5(IQR) or
 - above Q3 + 1.5(IQR)
 
 The following picture illustrates this rule:
 
-```{figure} images/spread10.gif
-:alt: A line representing all of the data. The data is ordered so that the minimum point is the leftmost on the line and the maximum point is the rightmost. At the center of the line is M, the median, and to the left of M is Q1. Even farther to the left of Q1 is Q1-1.5(IQR). Points farther left than this are suspected outliers. To the right of M is Q3, and farther to the right is Q3+1.5(IQR). Points even farther than this are also suspected outliers.
+```{figure} images/gen/m04-iqr-criterion.svg
+:alt: A number line with Q1, the median M, and Q3 marked in the middle. Red boundary lines mark Q1 minus 1.5 IQR on the left and Q3 plus 1.5 IQR on the right. The shaded zones beyond these boundaries are labeled suspected outliers.
 ```
 
-```{admonition} Example: Best Actress Oscar Winners
-    We will continue with the Best Actress Oscar winners example (To see the data, click here).
+::::{admonition} Example: Best Actress Oscar Winners
+:class: tip
 
-    ```
-    34 34 27 37 42 41 36 32 41 33 31 74 33 49 38 61 21 41 26 80 42 29
-                  33 36 45 49 39 34 26 25 33 35 35 28 30 29 61 32 33 45 29 62 22 44
-    ```
+We will continue with the Best Actress Oscar winners example:
 
-    Recall that when we first looked at the histogram of ages of Best Actress Oscar winners, there were 5 observations that looked like possible outliers:
-
-    ```{figure} images/eda_examining_distributions_best_actress_histogram_outliers.jpg
-    :alt: A histogram of the Oscar winners in which for x=62 the frequency is 3 and for x=74 and x=80, the frequency is 1. Those points are thought to be possible outliers.
-    ```
-
-    We can now use the 1.5(IQR) criterion to check whether the 5 observations should indeed be classified as outliers:
-
-    - For this example we found that $Q1=30.5  and  Q3=42.5 \Rightarrow IQR=11.5$
-    - $Q1 − 1.5\left(IQR\right) = 30.5 − \left(1.5\right)\left(11.5\right) = 13.25$
-    - $Q3 + 1.5\left(IQR\right) = 42.5 + \left(1.5\right)\left(11.5\right) = 59.25$
-
-    The 1.5(IQR) criterion tells us that any observation that is below 13.25 or above 59.25 is considered a suspected outlier.
-
-    We therefore conclude that the observations 61, 61, 62, 74 and 80 should be flagged as suspected outliers in the distribution of ages. Note that since the smallest observation is 21, there are no suspected low outliers in this distribution.
+```
+34 34 27 37 42 41 36 32 41 33 31 74 33 49 38 61 21 41 26 80 42 29
+33 36 45 49 39 34 26 25 33 35 35 28 30 29 61 32 33 45 29 62 22 44
 ```
 
-```{note}
-    **Did I Get This?**
+Recall that when we first looked at the histogram of ages of Best Actress Oscar winners, there were 5 observations that looked like possible outliers:
 
-    *(Interactive activity — available in the OLI platform)*
+```{figure} images/gen/m04-oscar-outliers.svg
+:alt: The histogram of winners' ages with the bars at ages 60 to 64 (three winners), 70 to 74 (one winner), and 80 to 84 (one winner) shown in red and labeled possible outliers.
 ```
 
-*Did You Get It?* If so, then go ahead and move on to the next page. If not, then click the link below for some additional practice.
+We can now use the 1.5(IQR) criterion to check whether the 5 observations should indeed be classified as outliers:
 
-```{note}
-    **Did I Get This?**
+- For this example we found that Q1 = 30.5 and Q3 = 42, so IQR = 11.5
+- $Q1 - 1.5(IQR) = 30.5 - (1.5)(11.5) = 13.25$
+- $Q3 + 1.5(IQR) = 42 + (1.5)(11.5) = 59.25$
 
-    Measures of Spread: Extra Problems
+The 1.5(IQR) criterion tells us that any observation that is below 13.25 or above 59.25 is considered a suspected outlier.
 
-    *(Interactive activity — available in the OLI platform)*
-```
+We therefore conclude that the observations 61, 61, 62, 74 and 80 should be flagged as suspected outliers in the distribution of ages. Note that since the smallest observation is 21, there are no suspected low outliers in this distribution.
+::::
+
+## Concept Check
+
+:::{quiz} A dataset has Q1 = 50 and Q3 = 70. According to the 1.5(IQR) criterion, which of the following observations would be flagged as a suspected high outlier?
+:hint: First find IQR = Q3 − Q1, then compute Q3 + 1.5(IQR).
+:feedback-0: 95 is below the cutoff of Q3 + 1.5(IQR) = 70 + 30 = 100.
+:feedback-1: Correct! IQR = 20, so the high cutoff is 70 + 1.5(20) = 100, and 105 exceeds it.
+:feedback-2: 85 is well within the cutoff of 100.
+* 95
+* *105
+* 85
+:::
+
+:::{quiz} Using the same dataset (Q1 = 50, Q3 = 70), below what value would an observation be flagged as a suspected low outlier?
+:hint: Compute Q1 − 1.5(IQR).
+:feedback-0: Correct! Q1 − 1.5(IQR) = 50 − 30 = 20, so observations below 20 are suspected low outliers.
+:feedback-1: 50 is Q1 itself—the cutoff extends 1.5 IQRs below it.
+:feedback-2: 35 would be the cutoff if you used 0.75(IQR); the criterion uses 1.5(IQR).
+* *20
+* 50
+* 35
+:::

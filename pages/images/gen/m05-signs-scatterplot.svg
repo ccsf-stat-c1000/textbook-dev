@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="330" y="24" text-anchor="middle" font-size="16" font-weight="bold">Driver Age vs. Sign Legibility Distance</text>
+  <!-- gridlines -->
+  <g stroke="#dddddd" stroke-width="1">
+    <line x1="80" y1="251.8" x2="580" y2="251.8"/>
+    <line x1="80" y1="181.2" x2="580" y2="181.2"/>
+    <line x1="80" y1="110.6" x2="580" y2="110.6"/>
+    <line x1="80" y1="40" x2="580" y2="40"/>
+  </g>
+  <g fill="#2b6cb0">
+    <circle cx="115.7" cy="47.1" r="5"/><circle cx="130" cy="68.2" r="5"/><circle cx="137.1" cy="103.5" r="5"/>
+    <circle cx="137.1" cy="138.8" r="5"/><circle cx="151.4" cy="117.6" r="5"/><circle cx="165.7" cy="68.2" r="5"/>
+    <circle cx="172.9" cy="103.5" r="5"/><circle cx="180" cy="138.8" r="5"/><circle cx="201.4" cy="174.1" r="5"/>
+    <circle cx="237.1" cy="167.1" r="5"/><circle cx="265.7" cy="138.8" r="5"/><circle cx="301.4" cy="145.9" r="5"/>
+    <circle cx="322.9" cy="195.3" r="5"/><circle cx="351.4" cy="138.8" r="5"/><circle cx="365.7" cy="167.1" r="5"/>
+    <circle cx="422.9" cy="216.5" r="5"/><circle cx="437.1" cy="167.1" r="5"/><circle cx="444.3" cy="251.8" r="5"/>
+    <circle cx="451.4" cy="174.1" r="5"/><circle cx="458.6" cy="251.8" r="5"/><circle cx="472.9" cy="188.2" r="5"/>
+    <circle cx="480" cy="237.6" r="5"/><circle cx="487.1" cy="202.4" r="5"/><circle cx="494.3" cy="265.9" r="5"/>
+    <circle cx="501.4" cy="167.1" r="5"/><circle cx="508.6" cy="138.8" r="5"/><circle cx="522.9" cy="209.4" r="5"/>
+    <circle cx="537.1" cy="244.7" r="5"/><circle cx="558.6" cy="209.4" r="5"/>
+  </g>
+  <circle cx="101.4" cy="103.5" r="6" fill="#c53030"/>
+  <text x="120" y="93" font-size="13" font-weight="bold" fill="#c53030">(18, 510)</text>
+  <!-- axes -->
+  <line x1="80" y1="40" x2="80" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="115.7" y="298">20</text><text x="187.1" y="298">30</text><text x="258.6" y="298">40</text>
+    <text x="330" y="298">50</text><text x="401.4" y="298">60</text><text x="472.9" y="298">70</text>
+    <text x="544.3" y="298">80</text>
+  </g>
+  <g font-size="13" text-anchor="end">
+    <text x="72" y="256.8">300</text><text x="72" y="186.2">400</text><text x="72" y="115.6">500</text><text x="72" y="45">600</text>
+  </g>
+  <text x="330" y="330" font-size="15" text-anchor="middle">Age (explanatory, X)</text>
+  <text x="24" y="160" font-size="15" text-anchor="middle" transform="rotate(-90 24 160)">Distance in feet (response, Y)</text>
+</svg>

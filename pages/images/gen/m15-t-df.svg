@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Normal curve -->
+  <polyline points="110,238 127.5,235.9 145,232.1 162.5,225.7 180,215.6 197.5,201.1 215,181.6 232.5,157.6 250,130.8 267.5,104.1 285,81.2 302.5,65.5 320,60 337.5,65.5 355,81.2 372.5,104.1 390,130.8 407.5,157.6 425,181.6 442.5,201.1 460,215.6 477.5,225.7 495,232.1 512.5,235.9 530,238" fill="none" stroke="#2b6cb0" stroke-width="2.5"/>
+  <!-- t with 5 df -->
+  <polyline points="110,235.2 140,228 170,214.2 200,191.3 230,160.3 260,126.8 290,100.2 320,90 350,100.2 380,126.8 410,160.3 440,191.3 470,214.2 500,228 530,235.2" fill="none" stroke="#dd6b20" stroke-width="2.5" stroke-dasharray="7,4"/>
+  <!-- t with 2 df -->
+  <polyline points="90,233.6 110,229.6 140,220.1 170,205.5 200,186 230,163.4 260,141.7 290,125.9 320,120 350,125.9 380,141.7 410,163.4 440,186 470,205.5 500,220.1 530,229.6 550,233.6" fill="none" stroke="#c53030" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <!-- Baseline -->
+  <line x1="70" y1="240" x2="570" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <line x1="320" y1="240" x2="320" y2="246" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="262" text-anchor="middle" font-size="14" fill="#333333">0</text>
+  <!-- Legend -->
+  <line x1="120" y1="35" x2="160" y2="35" stroke="#2b6cb0" stroke-width="2.5"/>
+  <text x="168" y="40" font-size="13" fill="#333333">standard normal (Z)</text>
+  <line x1="120" y1="58" x2="160" y2="58" stroke="#dd6b20" stroke-width="2.5" stroke-dasharray="7,4"/>
+  <text x="168" y="63" font-size="13" fill="#333333">t with 5 d.f.</text>
+  <line x1="120" y1="81" x2="160" y2="81" stroke="#c53030" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <text x="168" y="86" font-size="13" fill="#333333">t with 2 d.f.</text>
+</svg>

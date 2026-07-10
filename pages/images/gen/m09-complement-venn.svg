@@ -1,0 +1,8 @@
+<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <rect x="60" y="30" width="520" height="220" fill="#dddddd" fill-opacity="0.5" stroke="#333333" stroke-width="2"/>
+  <text x="78" y="58" font-size="17" font-weight="bold">S</text>
+  <circle cx="260" cy="140" r="80" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="260" y="148" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">A</text>
+  <text x="470" y="145" text-anchor="middle" font-size="16" font-weight="bold">not A</text>
+  <text x="320" y="272" text-anchor="middle" font-size="13" font-style="italic">Together, A and "not A" make up the entire sample space S</text>
+</svg>

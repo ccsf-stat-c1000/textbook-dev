@@ -1,59 +1,69 @@
 # Case Q→Q (3 of 3)
 
 ```{admonition} Learning Objectives
-    - In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
+:class: note
+
+- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
 ```
 
 So far the researchers have observed linearity in the data, and based on a test concluded that this linear relationship between age and legibility distance can be generalized to the entire population of drivers.
 
-Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the least squares regression line, which is the line that minimizes the sum of the squared vertical deviations:
+Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the *least squares regression line*—the line that minimizes the sum of the squared vertical deviations of the points from the line.
 
-```{figure} images/image148.gif
-:alt: A regression line has been drawn on the histogram. From each point on the histogram a vertical line has been drawn to the regression line. This vertical line makes up one side of a square, so that square's area is the vertical line squared. So, for every point we have a square. The goal of the least squares regression line is to minimize the area of all of the squares.
-```
+In the Exploratory Data Analysis unit, we presented the actual formulas for the slope and intercept of the line. We are not going to repeat those here; we will obtain the values from software output:
 
-In the Exploratory Data Analysis section, we presented the actual formulas for the slope and intercept of the line. We are not going to repeat those here, we will obtain those values from the output:
+| Regression analysis: Distance vs. Age | | | | |
+| --- | --- | --- | --- | --- |
+| **Predictor** | **Coef** | **SE Coef** | **T** | **P** |
+| Constant | 576.68 | 23.47 | 24.57 | 0.000 |
+| Age | −3.0068 | 0.4243 | −7.09 | 0.000 |
 
-```{figure} images/image181.gif
-:alt: Regression Analysis: Distance vs. Age The regression equation is Distance = 577 - 3.01 Age Predictor: Constant: Coef = 576.68, SE Coef = 23.47, T = 24.57, P = 0.000 Predictor: Age: Coef = -3.0068, SE Coef = 0.4243, T = -7.09, P = 0.000 S = 49.7616, R-Sq = 64.2%, R-Sq(adj) = 62.9%
-```
+The regression equation is Distance = 577 − 3.01 × Age (with R-sq = 64.2%).
 
-and ask the software to plot it for us on the scatterplot so we can see how well it fits the data.
+Plotting the line on the scatterplot shows that it fits the data well:
 
-```{figure} images/image149.gif
-:alt: A histogram with a regression line drawn on top of it, titled "Fitted Line Plot." The scatter plot is the same as the previous scatter plot, with a vertical distance axis and horizontal age axis. The data shows a negative relationship, and since it is roughly linear it is approximated well with the regression line.
+```{figure} images/gen/m05-signs-regression.svg
+:alt: The scatterplot of legibility distance versus age with the least squares regression line drawn through it. The negative linear pattern in the points is approximated well by the line.
 ```
 
 Based on the observed data, the researchers conclude that the linear relationship between age and legibility distance among drivers can be summarized with the line:
 
-*DISTANCE = 576.7 - 3.007*AGE*
+$$\text{Distance} = 576.7 - 3.007 \times \text{Age}$$
 
-In particular, the slope of the line is roughly -3, which means that for every year that a driver gets older (1 unit increase in X), the maximum legibility distance is reduced, on average, by 3 feet (Y changes by the value of the slope).
+In particular, the slope of the line is roughly −3, which means that for every year that a driver gets older (a 1-unit increase in X), the maximum legibility distance is reduced, on average, by 3 feet (Y changes by the value of the slope).
 
-The researchers can also use this line to make predictions, remembering to beware of extrapolations (predictions for X values that are outside of the range of the original data). For example, using the equation of the line, we predict that the maximum legibility distance of a 60-year-old driver is: *distance = 576.7 - 3.007(60) = 396.28*. The following figure illustrates this prediction.
+The researchers can also use this line to make predictions, remembering to beware of *extrapolation* (predictions for X values that are outside the range of the original data). For example, using the equation of the line, we predict that the maximum legibility distance of a 60-year-old driver is:
 
-```{figure} images/image150.gif
-:alt: The same histogram with regression line. In order to find out what the maximum legibility distance of a 60-year-old driver is, we find where the regression line crosses an imaginary vertical line at age=60. It crosses at (60, 396.28), so then we know that the maximum legibility distance is 396.28 .
-```
+$$\text{Distance} = 576.7 - 3.007(60) \approx 396.3 \text{ feet}$$
 
-Let's summarize all that the researchers have done in a figure:
+To summarize all that the researchers have done: they asked how legibility distance (Y) is related to age (X) in the population of all drivers; took a random sample of 30 drivers; observed a linear pattern in the scatterplot with r = −0.8; concluded via the t-test that the evidence of a linear relationship is strong enough to generalize to the population; and estimated the line that governs the relationship in the population to be Distance = 577 − 3 × Age.
 
-```{figure} images/image151.gif
-:alt: A large circle represents the population of all drivers. The question we want to answer about the population is "How is legibility distance (Y) related to age (X)?" To do this, we take an SRS of size 30, and from the data, create a scatterplot and r. We observe that the scatterplot is linear and know that, calculate r = -0.8 . In the inference step, we conclude that the evidence of linear relationship in the data is strong enough, allowing us to generalize it to the population of all drivers. From the data, we estimate that the line that governs the relationship in the population is: Distance = 577 - 3 * Age .
-```
+## Learn By Doing
 
-```{note}
-    **Learn By Doing**
+:::{quiz} Using the regression line Distance = 576.7 − 3.007 × Age, what is the predicted maximum legibility distance for a 40-year-old driver?
+:hint: Substitute Age = 40 into the equation.
+:feedback-0: Correct! 576.7 − 3.007(40) = 576.7 − 120.3 ≈ 456 feet.
+:feedback-1: Remember to multiply the slope by 40 before subtracting: 3.007 × 40 ≈ 120.
+:feedback-2: The prediction requires substituting the age into the full equation.
+* *About 456 feet
+* About 574 feet
+* About 120 feet
+:::
 
-    Case Q→Q
+:::{quiz} Why would it be inappropriate to use this line to predict the legibility distance of a 10-year-old?
+:hint: The drivers in the study ranged in age from 18 to 82.
+:feedback-0: Correct! Age 10 is outside the range of the data (18-82); the linear pattern may not hold there, so this would be extrapolation.
+:feedback-1: The math produces a number, but there is no evidence the relationship holds outside the observed age range (and 10-year-olds don't drive!).
+:feedback-2: The problem isn't the sign of the prediction—it's that 10 lies outside the observed range of X.
+* *Age 10 lies outside the range of the observed data—the prediction would be an extrapolation
+* The equation cannot be evaluated at age 10
+* The predicted distance would be negative
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Lab**
-
-    Monthly Premiums of Auto Insurance
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A classmate interprets the slope by saying "a 50-year-old driver reads signs exactly 3 feet closer than a 49-year-old driver." What is wrong with this statement?
+:hint: The slope describes an average pattern, not a rule for individuals.
+:feedback-0: Correct! The slope describes the AVERAGE change in legibility distance per year of age across the population—individual drivers vary around the line.
+:feedback-1: The slope's magnitude (about 3) is right; the problem is claiming it applies exactly to every individual.
+* *The slope describes an average change, not an exact change for every individual driver
+* The slope is actually 30 feet per year
+:::

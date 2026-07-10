@@ -1,7 +1,9 @@
 # Probability Distribution (1 of 5)
 
 ```{admonition} Learning Objectives
-    - Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
+:class: note
+
+- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
 ```
 
 ## Probability Distribution
@@ -14,31 +16,23 @@ In the Exploratory Data Analysis unit of this course, we often looked at the dis
 
 Recall our first example, when we introduced the idea of a random variable. In this example we tossed a coin twice.
 
-```{admonition} Example: Flipping a Coin Twice
-    What is the probability distribution of X, where the random variable X is the number of tails appearing in two tosses of a fair coin?
+:::{admonition} Example: Flipping a Coin Twice
+:class: tip
 
-    We first note that since the coin is fair, each of the four outcomes HH, HT, TH, TT in the sample space S is equally likely, and so each has a probability of 1/4. (Alternatively, the multiplication principle can be applied to find the probability of each outcome to be 1/2 * 1/2 = 1/4.)
+What is the probability distribution of X, where the random variable X is the number of tails appearing in two tosses of a fair coin?
 
-    ```{figure} images/image001.gif
-    :alt: In each outcome, the first letter represents the first coin toss and the second represents the second coin toss. Each of the outcomes HH, HT, TH, and TT have 1/4 chance of happening.
-    ```
+We first note that since the coin is fair, each of the four outcomes HH, HT, TH, TT in the sample space S is equally likely, and so each has a probability of 1/4. (Alternatively, the multiplication principle can be applied to find the probability of each outcome to be 1/2 × 1/2 = 1/4.)
 
-    X takes the value 0 only for the outcome HH, so the probability that X = 0 is 1/4.
+- X takes the value 0 only for the outcome HH, so the probability that X = 0 is 1/4.
+- X takes the value 1 for outcomes HT or TH. By the addition principle, the probability that X = 1 is 1/4 + 1/4 = 1/2.
+- Finally, X takes the value 2 only for the outcome TT, so the probability that X = 2 is 1/4.
 
-    X takes the value 1 for outcomes HT or TH. By the addition principle, the probability that X = 1 is 1/4 + 1/4 = 1/2.
+The *probability distribution of the random variable X* is easily summarized in a table:
 
-    Finally, X takes the value 2 only for the outcome TT, so the probability that X = 2 is 1/4.
-
-    ```{figure} images/image002.gif
-    :alt: A visual diagram for the mapping of outcomes to values of X.
-    ```
-
-    The *probability distribution of the random variable X* is easily summarized in a table:
-
-    ```{figure} images/image003.gif
-    :alt: This table has two rows, labeled "x" and "P(X=x)." The row for "x" represents the list of possible values, and the row for "P(X=x)" represents the probability of each value. Here is the data in the table, organized by column and presented in "x: P(X=x)" order: 0: ¼; 1: ½; 2: ¼;
-    ```
-```
+| x | 0 | 1 | 2 |
+| --- | --- | --- | --- |
+| P(X = x) | 1/4 | 1/2 | 1/4 |
+:::
 
 As mentioned before, we write "P(X = x)" to denote "the probability that the random variable X takes the value x."
 
@@ -52,3 +46,15 @@ Any probability distribution of a discrete random variable must satisfy:
 
 1. $0 \leq P(X=x) \leq 1$
 2. $\sum_{x}P(X=x)=1$
+
+## Concept Check
+
+:::{quiz} Which of the following tables is a legitimate probability distribution for a discrete random variable?
+:hint: Each probability must be between 0 and 1, and all probabilities must sum to exactly 1.
+:feedback-0: Correct! 0.2 + 0.5 + 0.3 = 1, and each value is between 0 and 1.
+:feedback-1: These probabilities sum to 0.9, not 1.
+:feedback-2: A probability of 1.1 is impossible—probabilities can't exceed 1.
+* *P(X=1) = 0.2, P(X=2) = 0.5, P(X=3) = 0.3
+* P(X=1) = 0.4, P(X=2) = 0.3, P(X=3) = 0.2
+* P(X=1) = 1.1, P(X=2) = −0.1
+:::

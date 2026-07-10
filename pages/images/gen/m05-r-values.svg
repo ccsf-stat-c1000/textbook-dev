@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <g font-size="14" font-weight="bold" text-anchor="middle">
+    <text x="110" y="30">r = 1</text>
+    <text x="315" y="30">r = 0.7</text>
+    <text x="520" y="30">r = 0.3</text>
+    <text x="110" y="185">r = &#8722;0.3</text>
+    <text x="315" y="185">r = &#8722;0.7</text>
+    <text x="520" y="185">r = &#8722;1</text>
+  </g>
+  <!-- frames -->
+  <g fill="none" stroke="#bbbbbb" stroke-width="1">
+    <rect x="25" y="38" width="170" height="120"/>
+    <rect x="230" y="38" width="170" height="120"/>
+    <rect x="435" y="38" width="170" height="120"/>
+    <rect x="25" y="193" width="170" height="120"/>
+    <rect x="230" y="193" width="170" height="120"/>
+    <rect x="435" y="193" width="170" height="120"/>
+  </g>
+  <!-- r=1 -->
+  <g fill="#2b6cb0">
+    <circle cx="35" cy="148" r="3.5"/><circle cx="50" cy="139" r="3.5"/><circle cx="65" cy="130" r="3.5"/>
+    <circle cx="80" cy="121" r="3.5"/><circle cx="95" cy="112" r="3.5"/><circle cx="110" cy="103" r="3.5"/>
+    <circle cx="125" cy="94" r="3.5"/><circle cx="140" cy="85" r="3.5"/><circle cx="155" cy="76" r="3.5"/>
+    <circle cx="170" cy="67" r="3.5"/><circle cx="185" cy="58" r="3.5"/>
+  </g>
+  <!-- r=0.7 -->
+  <g fill="#2b6cb0">
+    <circle cx="240" cy="144" r="3.5"/><circle cx="255" cy="152" r="3.5"/><circle cx="270" cy="122" r="3.5"/>
+    <circle cx="285" cy="131" r="3.5"/><circle cx="300" cy="101" r="3.5"/><circle cx="315" cy="113" r="3.5"/>
+    <circle cx="330" cy="84" r="3.5"/><circle cx="345" cy="95" r="3.5"/><circle cx="360" cy="66" r="3.5"/>
+    <circle cx="375" cy="77" r="3.5"/><circle cx="390" cy="60" r="3.5"/>
+  </g>
+  <!-- r=0.3 -->
+  <g fill="#2b6cb0">
+    <circle cx="445" cy="125" r="3.5"/><circle cx="460" cy="153" r="3.5"/><circle cx="475" cy="100" r="3.5"/>
+    <circle cx="490" cy="140" r="3.5"/><circle cx="505" cy="88" r="3.5"/><circle cx="520" cy="126" r="3.5"/>
+    <circle cx="535" cy="73" r="3.5"/><circle cx="550" cy="103" r="3.5"/><circle cx="565" cy="58" r="3.5"/>
+    <circle cx="580" cy="80" r="3.5"/><circle cx="595" cy="112" r="3.5"/>
+  </g>
+  <!-- r=-0.3 -->
+  <g fill="#2f855a">
+    <circle cx="35" cy="225" r="3.5"/><circle cx="50" cy="198" r="3.5"/><circle cx="65" cy="252" r="3.5"/>
+    <circle cx="80" cy="215" r="3.5"/><circle cx="95" cy="272" r="3.5"/><circle cx="110" cy="235" r="3.5"/>
+    <circle cx="125" cy="288" r="3.5"/><circle cx="140" cy="255" r="3.5"/><circle cx="155" cy="300" r="3.5"/>
+    <circle cx="170" cy="268" r="3.5"/><circle cx="185" cy="240" r="3.5"/>
+  </g>
+  <!-- r=-0.7 -->
+  <g fill="#2f855a">
+    <circle cx="240" cy="196" r="3.5"/><circle cx="255" cy="222" r="3.5"/><circle cx="270" cy="212" r="3.5"/>
+    <circle cx="285" cy="242" r="3.5"/><circle cx="300" cy="232" r="3.5"/><circle cx="315" cy="262" r="3.5"/>
+    <circle cx="330" cy="250" r="3.5"/><circle cx="345" cy="282" r="3.5"/><circle cx="360" cy="272" r="3.5"/>
+    <circle cx="375" cy="298" r="3.5"/><circle cx="390" cy="296" r="3.5"/>
+  </g>
+  <!-- r=-1 -->
+  <g fill="#2f855a">
+    <circle cx="445" cy="203" r="3.5"/><circle cx="460" cy="212" r="3.5"/><circle cx="475" cy="221" r="3.5"/>
+    <circle cx="490" cy="230" r="3.5"/><circle cx="505" cy="239" r="3.5"/><circle cx="520" cy="248" r="3.5"/>
+    <circle cx="535" cy="257" r="3.5"/><circle cx="550" cy="266" r="3.5"/><circle cx="565" cy="275" r="3.5"/>
+    <circle cx="580" cy="284" r="3.5"/><circle cx="595" cy="293" r="3.5"/>
+  </g>
+  <text x="320" y="333" text-anchor="middle" font-size="13" font-style="italic">The closer r is to &#177;1, the more tightly the points cluster around a line</text>
+</svg>

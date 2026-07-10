@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <text x="320" y="24" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Scenario 2: small variation within groups</text>
+  <!-- Axis -->
+  <line x1="80" y1="40" x2="80" y2="260" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="260" x2="600" y2="260" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="11" fill="#333333" text-anchor="end">
+    <text x="72" y="264">0</text><text x="72" y="209">5</text><text x="72" y="154">10</text><text x="72" y="99">15</text><text x="72" y="44">20</text>
+  </g>
+  <g stroke="#dddddd" stroke-width="1">
+    <line x1="80" y1="205" x2="600" y2="205"/><line x1="80" y1="150" x2="600" y2="150"/><line x1="80" y1="95" x2="600" y2="95"/><line x1="80" y1="40" x2="600" y2="40"/>
+  </g>
+  <!-- Business -->
+  <g stroke="#2b6cb0" stroke-width="1.5" fill="none">
+    <line x1="170" y1="227" x2="170" y2="199.5"/><line x1="150" y1="227" x2="190" y2="227"/>
+    <rect x="135" y="161" width="70" height="38.5" fill="#7cb2e8"/>
+    <line x1="135" y1="177.5" x2="205" y2="177.5" stroke-width="2"/>
+    <line x1="170" y1="161" x2="170" y2="139"/><line x1="150" y1="139" x2="190" y2="139"/>
+  </g>
+  <line x1="140" y1="179.7" x2="200" y2="179.7" stroke="#c53030" stroke-width="3"/>
+  <text x="170" y="285" text-anchor="middle" font-size="12" fill="#333333">Business</text>
+  <!-- English -->
+  <g stroke="#2b6cb0" stroke-width="1.5" fill="none">
+    <line x1="290" y1="172" x2="290" y2="150"/><line x1="270" y1="172" x2="310" y2="172"/>
+    <rect x="255" y="111.5" width="70" height="38.5" fill="#7cb2e8"/>
+    <line x1="255" y1="128" x2="325" y2="128" stroke-width="2"/>
+    <line x1="290" y1="111.5" x2="290" y2="95"/><line x1="270" y1="95" x2="310" y2="95"/>
+  </g>
+  <line x1="260" y1="130.2" x2="320" y2="130.2" stroke="#c53030" stroke-width="3"/>
+  <text x="290" y="285" text-anchor="middle" font-size="12" fill="#333333">English</text>
+  <!-- Mathematics -->
+  <g stroke="#2b6cb0" stroke-width="1.5" fill="none">
+    <line x1="410" y1="155.5" x2="410" y2="133.5"/><line x1="390" y1="155.5" x2="430" y2="155.5"/>
+    <rect x="375" y="95" width="70" height="38.5" fill="#7cb2e8"/>
+    <line x1="375" y1="117" x2="445" y2="117" stroke-width="2"/>
+    <line x1="410" y1="95" x2="410" y2="73"/><line x1="390" y1="73" x2="430" y2="73"/>
+  </g>
+  <line x1="380" y1="114.8" x2="440" y2="114.8" stroke="#c53030" stroke-width="3"/>
+  <text x="410" y="285" text-anchor="middle" font-size="12" fill="#333333">Mathematics</text>
+  <!-- Psychology -->
+  <g stroke="#2b6cb0" stroke-width="1.5" fill="none">
+    <line x1="530" y1="144.5" x2="530" y2="122.5"/><line x1="510" y1="144.5" x2="550" y2="144.5"/>
+    <rect x="495" y="89.5" width="70" height="33" fill="#7cb2e8"/>
+    <line x1="495" y1="106" x2="565" y2="106" stroke-width="2"/>
+    <line x1="530" y1="89.5" x2="530" y2="62"/><line x1="510" y1="62" x2="550" y2="62"/>
+  </g>
+  <line x1="500" y1="106" x2="560" y2="106" stroke="#c53030" stroke-width="3"/>
+  <text x="530" y="285" text-anchor="middle" font-size="12" fill="#333333">Psychology</text>
+  <text x="320" y="310" text-anchor="middle" font-size="12" font-style="italic" fill="#c53030">red line = sample mean (7.3, 11.8, 13.2, 14.0)</text>
+</svg>

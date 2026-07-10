@@ -1,7 +1,9 @@
 # Linear Relationships (1 of 8)
 
 ```{admonition} Learning Objectives
-    - Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
+:class: note
+
+- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
 ```
 
 ## Introduction
@@ -14,16 +16,22 @@ Even though from this point on we are going to focus only on linear relationship
 
 Let's start with a motivating example. Consider the following two scatterplots.
 
-```{figure} images/linear1.gif
-:alt: Two scatterplots, displaying the same data. However, the first scatterplot has a much larger scale on its axes than the second. Because of this, the first scatterplot has its data points clustered closer together than in the second scatterplot. Both have their points arranged roughly in a linear manner. In addition, the second scatterplot appears to have some outliers. All this is merely due to the scale change.
+```{figure} images/gen/m05-scale-illusion.svg
+:alt: Two scatterplots displaying exactly the same data. In Plot A the axes span only the range of the data, so the points fill the plotting area and the scatter around the line is easy to see. In Plot B the axes span a much wider range, so the same points are squeezed together and appear to follow the line much more tightly.
 ```
 
 We can see that in both cases, the direction of the relationship is *positive* and the form of the relationship is *linear*. What about the strength? Recall that the strength of a relationship is the extent to which the data follow its form.
 
-```{note}
-    **Learn By Doing**
+## Concept Check
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} The two scatterplots above display the same 12 data points, yet Plot B appears to show a much stronger relationship than Plot A. What is the correct conclusion?
+:hint: The data haven't changed—only the axis scales have.
+:feedback-0: The underlying relationship is identical in both plots; only the display changed.
+:feedback-1: Correct! Visual impressions of strength depend on the plotting scale, which is exactly why we need a numerical measure of strength.
+:feedback-2: Plot A isn't wrong—both plots are legitimate displays of the same data. The problem is relying on visual impressions alone.
+* The relationship really is stronger in Plot B
+* *Judging strength by eye is unreliable, because it depends on the axis scales—we need a numerical measure
+* Plot A must contain a plotting error
+:::
 
-The purpose of this example was to illustrate how assessing the strength of the linear relationship from a scatterplot alone is problematic, since our judgment might be affected by the scale on which the values are plotted. This example, therefore, provides a motivation for the *need*to supplement the scatterplot with a *numerical measure* that will *measure the strength* of the linear relationship between two quantitative variables.
+The purpose of this example was to illustrate how assessing the strength of the linear relationship from a scatterplot alone is problematic, since our judgment might be affected by the scale on which the values are plotted. This example, therefore, provides a motivation for the *need* to supplement the scatterplot with a *numerical measure* that will *measure the strength* of the linear relationship between two quantitative variables.

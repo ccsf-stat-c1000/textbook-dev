@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="15" font-weight="bold">The Shape of Binomial Distributions (n = 10)</text>
+  <!-- p = 0.1: skewed right -->
+  <g fill="#7cb2e8" stroke="#2b6cb0" stroke-width="0.5">
+    <rect x="40" y="78" width="14" height="122"/>
+    <rect x="56" y="65" width="14" height="135"/>
+    <rect x="72" y="132" width="14" height="68"/>
+    <rect x="88" y="180" width="14" height="20"/>
+    <rect x="104" y="196" width="14" height="4"/>
+    <rect x="120" y="199.5" width="14" height="0.5"/>
+  </g>
+  <line x1="35" y1="200" x2="215" y2="200" stroke="#333333" stroke-width="1.5"/>
+  <text x="125" y="222" text-anchor="middle" font-size="13" font-weight="bold">p = 0.1: skewed right</text>
+  <!-- p = 0.5: symmetric -->
+  <g fill="#2f855a" fill-opacity="0.55" stroke="#2f855a" stroke-width="0.5">
+    <rect x="250" y="199.7" width="14" height="0.3"/>
+    <rect x="266" y="196.5" width="14" height="3.5"/>
+    <rect x="282" y="184.6" width="14" height="15.4"/>
+    <rect x="298" y="159" width="14" height="41"/>
+    <rect x="314" y="128.2" width="14" height="71.8"/>
+    <rect x="330" y="113.9" width="14" height="86.1"/>
+    <rect x="346" y="128.2" width="14" height="71.8"/>
+    <rect x="362" y="159" width="14" height="41"/>
+    <rect x="378" y="184.6" width="14" height="15.4"/>
+    <rect x="394" y="196.5" width="14" height="3.5"/>
+    <rect x="410" y="199.7" width="14" height="0.3"/>
+  </g>
+  <line x1="245" y1="200" x2="429" y2="200" stroke="#333333" stroke-width="1.5"/>
+  <text x="337" y="222" text-anchor="middle" font-size="13" font-weight="bold">p = 0.5: symmetric</text>
+  <!-- p = 0.9: skewed left -->
+  <g fill="#dd6b20" fill-opacity="0.55" stroke="#dd6b20" stroke-width="0.5">
+    <rect x="506" y="199.5" width="14" height="0.5"/>
+    <rect x="522" y="196" width="14" height="4"/>
+    <rect x="538" y="180" width="14" height="20"/>
+    <rect x="554" y="132" width="14" height="68"/>
+    <rect x="570" y="65" width="14" height="135"/>
+    <rect x="586" y="78" width="14" height="122"/>
+  </g>
+  <line x1="455" y1="200" x2="615" y2="200" stroke="#333333" stroke-width="1.5"/>
+  <text x="535" y="222" text-anchor="middle" font-size="13" font-weight="bold">p = 0.9: skewed left</text>
+  <text x="320" y="252" text-anchor="middle" font-size="13" font-style="italic">Small p piles the probability near 0; large p piles it near n; p = 0.5 is symmetric</text>
+</svg>

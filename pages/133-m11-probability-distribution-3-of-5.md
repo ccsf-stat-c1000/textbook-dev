@@ -1,32 +1,30 @@
 # Probability Distribution (3 of 5)
 
 ```{admonition} Learning Objectives
-    - Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
+:class: note
+
+- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
 ```
 
 In the previous two examples and activity, we needed to specify the probability distributions ourselves, based on the physical circumstances of the situation. In some situations, as in the following example, the probability distribution may be specified with an algebraic formula. Such a formula must be consistent with the constraints imposed by the laws of probability, so that the probability of each outcome must be between 0 and 1, and the probabilities of all possible outcomes together must sum to 1.
 
-```{admonition} Example: Formulas to Define Random Variables
-    A random variable X has a probability distribution of
+:::{admonition} Example: Formulas to Define Random Variables
+:class: tip
 
-    *P(X = x) = (x + 2) / 25 for x = 1, 2, 3, 4, 5.*
+A random variable X has a probability distribution of
 
-    Show the probability distribution in a table, and verify that the above requirements are satisfied.
+*P(X = x) = (x + 2) / 25 for x = 1, 2, 3, 4, 5.*
 
-    Substituting x = 1, 2, 3, 4, and 5, respectively, into the formula for P(X = x), we have
+Show the probability distribution in a table, and verify that the above requirements are satisfied.
 
-    ```{figure} images/image010.gif
-    :alt: A two row probability distribution table, in which the rows are labeled "X" and "P(X=x)." Data is given in column oriented format (X: P(X=x)): 1: 3/25; 2: 4/25; 3: 5/25; 4: 6/25; 5: 7/25;
-    ```
+Substituting x = 1, 2, 3, 4, and 5, respectively, into the formula for P(X = x), we have
 
-    Clearly, each probability is between 0 and 1. Also, the probabilities sum to (3 + 4 + 5 + 6 + 7) / 25 = 25/25 = 1.
-```
+| x | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- |
+| P(X = x) | 3/25 | 4/25 | 5/25 | 6/25 | 7/25 |
 
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+Clearly, each probability is between 0 and 1. Also, the probabilities sum to (3 + 4 + 5 + 6 + 7) / 25 = 25/25 = 1.
+:::
 
 ## Probability Histograms
 
@@ -36,16 +34,8 @@ Similarly, we can display the probability distribution of a random variable with
 
 Here is the probability histogram for the previous example:
 
-```{figure} images/image010.gif
-:alt: A two row probability distribution table, in which the rows are labeled "X" and "P(X=x)." Data is given in column oriented format (X: P(X=x)): 1: 3/25; 2: 4/25; 3: 5/25; 4: 6/25; 5: 7/25;
-```
-
-```{figure} images/image_becomes.gif
-:alt: An arrow point right
-```
-
-```{figure} images/image_probdist_histo1.jpg
-:alt: The histogram generated from the table. The vertical axis is labeled "Probability" and the horizontal axis is labeled "X.". The histogram contains vertical bars at which are centered on the value x for which they represent on the horizontal axis, and the bars are as tall as the probability P(X = x).
+```{figure} images/gen/m11-prob-hist-formula.svg
+:alt: A probability histogram with x values 1 through 5 on the horizontal axis and probability on the vertical axis. The bars, centered on each value, have heights 3/25, 4/25, 5/25, 6/25, and 7/25, forming a staircase rising to the right.
 ```
 
 ## Area of a Probability Histogram
@@ -54,34 +44,46 @@ Notice that each rectangle in the histogram has a width of 1 unit. The height of
 
 ## Learn By Doing
 
-Based upon data collected in the 2000 United States Census and an expanded number of households, the following histogram was constructed. It shows the distribution of people per household.
+Based upon data collected in the 2000 United States Census, the following histogram was constructed. It shows the distribution of people per household:
 
-```{figure} images/image_people_household.gif
-:alt: A histogram in which the vertical axis is labeled "Probability" and the horizontal axis is labeled "X." Here is the data represented by the histogram, in "x: P(X=x)" format. 1: 0.28; 2: 0.34; 3: 0.18; 4: 0.14; 5: 0.60;
+```{figure} images/gen/m11-prob-hist-household.svg
+:alt: A probability histogram of people per household. The bars have heights 0.28 for one person, 0.34 for two people, 0.18 for three, 0.14 for four, and 0.06 for five or more.
 ```
 
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} What is the probability that a randomly chosen household has at most 2 people?
+:hint: Add the probabilities for 1 and 2 people.
+:feedback-0: Correct! P(X ≤ 2) = 0.28 + 0.34 = 0.62.
+:feedback-1: 0.34 is only P(X = 2); "at most 2" also includes single-person households.
+:feedback-2: 0.38 is P(X ≥ 3), the complement of "at most 2."
+* *0.62
+* 0.34
+* 0.38
+:::
 
 ## Did I Get This?
 
-The probability distribution of the random variable X is represented by the following histogram.
+The probability distribution of the random variable X is represented by the following histogram:
 
-```{figure} images/dig001.gif
-:alt: A histogram in which the vertical axis is labeled "Probability" and the horizontal axis is labeled "X." Here is the data represented by the histogram, in "x: P(X = x)" format: 1: 0.4; 2: 0.3; 3: 0.2; 4: 0.1;
+```{figure} images/gen/m11-prob-hist-digt.svg
+:alt: A probability histogram for the values 1, 2, 3, and 4 with bar heights 0.4, 0.3, 0.2, and 0.1, descending from left to right.
 ```
 
-```{note}
-    **Sectionnest**
+:::{quiz} What is P(X > 2)?
+:hint: "Greater than 2" means X = 3 or X = 4.
+:feedback-0: Correct! P(X > 2) = P(X = 3) + P(X = 4) = 0.2 + 0.1 = 0.3.
+:feedback-1: 0.6 includes P(X = 2), but "greater than 2" excludes 2 itself.
+:feedback-2: 0.2 is only P(X = 3).
+* *0.3
+* 0.6
+* 0.2
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} What is P(X ≥ 2)?
+:hint: This time 2 is included.
+:feedback-0: Correct! P(X ≥ 2) = 0.3 + 0.2 + 0.1 = 0.6 (or 1 − P(X = 1) = 1 − 0.4).
+:feedback-1: 0.3 is P(X > 2); the "≥" version includes X = 2 as well.
+:feedback-2: 0.4 is P(X = 1), the complement of this event.
+* *0.6
+* 0.3
+* 0.4
+:::

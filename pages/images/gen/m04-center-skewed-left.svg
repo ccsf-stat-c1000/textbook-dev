@@ -1,0 +1,10 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <path d="M 80 218 C 300 180 380 70 460 70 C 520 70 530 210 560 220" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2.5"/>
+  <line x1="425" y1="88" x2="425" y2="220" stroke="#2b6cb0" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="425" y="42" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b6cb0">Median</text>
+  <line x1="425" y1="48" x2="425" y2="80" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="355" y1="125" x2="355" y2="220" stroke="#c53030" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="340" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#c53030">Mean</text>
+  <line x1="60" y1="220" x2="580" y2="220" stroke="#333333" stroke-width="1.5"/>
+  <text x="320" y="248" text-anchor="middle" font-size="14" font-style="italic">Skewed left: the long tail pulls the mean below the median</text>
+</svg>

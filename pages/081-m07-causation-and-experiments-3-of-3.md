@@ -1,8 +1,10 @@
 # Causation and Experiments (3 of 3)
 
 ```{admonition} Learning Objectives
-    - Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-    - Explain how the study design impacts the types of conclusions that can be drawn.
+:class: note
+
+- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
+- Explain how the study design impacts the types of conclusions that can be drawn.
 ```
 
 ## Pitfalls in Experimentation
@@ -17,23 +19,41 @@ In our hypothetical smoking cessation example, both the observational study and 
 
 There are other, more serious drawbacks to experimentation, as illustrated in the following hypothetical examples:
 
-```{admonition} Example
-    Suppose researchers want to determine if the drug Ecstasy causes memory loss. One possible design would be to take a group of volunteers and randomly assign some to take Ecstasy on a regular basis, while the others are given a placebo. Test them periodically to see if the Ecstasy group experiences more memory problems than the placebo group.
+:::{admonition} Example: An Unethical Treatment
+:class: tip
 
-    The obvious flaw in this experiment is that it is unethical (and actually also illegal) to administer a dangerous drug like Ecstasy, even if the subjects are volunteers. The only feasible design to seek answers to this particular research question would be an observational study.
-```
+Suppose researchers want to determine if the drug Ecstasy causes memory loss. One possible design would be to take a group of volunteers and randomly assign some to take Ecstasy on a regular basis, while the others are given a placebo. Test them periodically to see if the Ecstasy group experiences more memory problems than the placebo group.
 
-```{admonition} Example
-    Suppose researchers want to determine whether females wash their hair more frequently than males.
+The obvious flaw in this experiment is that it is unethical (and actually also illegal) to administer a dangerous drug like Ecstasy, even if the subjects are volunteers. The only feasible design to seek answers to this particular research question would be an observational study.
+:::
 
-    It is impossible to assign some subjects to be female and others male, and so an experiment is not an option here. Again, an observational study would be the only way to proceed.
-```
+:::{admonition} Example: An Impossible Treatment
+:class: tip
 
-```{admonition} Example
-    Suppose researchers want to determine whether being in a lower income bracket may be responsible for obesity in women, at least to some extent, because they can't afford more nutritious meals and don't have the means to participate in fitness activities.
+Suppose researchers want to determine whether females wash their hair more frequently than males.
 
-    The socioeconomic status of the study subject is a variable that cannot be controlled by the researchers, so an experiment is impossible. (Even if the researchers could somehow raise the money to provide a random sample of women with substantial salaries, the effects of their eating habits during their lives before the study began would still be present, and would affect the study's outcome.)
-```
+It is impossible to assign some subjects to be female and others male, and so an experiment is not an option here. Again, an observational study would be the only way to proceed.
+:::
+
+:::{admonition} Example: An Impractical Treatment
+:class: tip
+
+Suppose researchers want to determine whether being in a lower income bracket may be responsible for obesity in women, at least to some extent, because they can't afford more nutritious meals and don't have the means to participate in fitness activities.
+
+The socioeconomic status of the study subject is a variable that cannot be controlled by the researchers, so an experiment is impossible. (Even if the researchers could somehow raise the money to provide a random sample of women with substantial salaries, the effects of their eating habits during their lives before the study began would still be present, and would affect the study's outcome.)
+:::
+
+## Concept Check
+
+:::{quiz} Workers in a factory increase their productivity when researchers observe them—regardless of what changes the researchers make to the workplace. What is this phenomenon called?
+:hint: It's named after the factory where it was first documented.
+:feedback-0: Correct! People behaving differently because they know they are being studied is the Hawthorne effect.
+:feedback-1: The placebo effect refers to improvement caused by believing one is receiving a treatment.
+:feedback-2: Noncompliance is the failure of subjects to follow their assigned treatment.
+* *The Hawthorne effect
+* The placebo effect
+* Noncompliance
+:::
 
 These examples should convince you that, depending on the variables of interest, researching their relationship via an experiment may be too unrealistic, unethical, or impractical. Observational studies are subject to flaws, but often they are the only recourse.
 

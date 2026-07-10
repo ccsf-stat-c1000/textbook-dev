@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="320" y="24" text-anchor="middle" font-size="16" font-weight="bold">Same Data with the Outlier Removed (rescaled)</text>
+  <g fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1">
+    <rect x="80" y="80" width="55" height="160" fill="#2f855a" fill-opacity="0.7" stroke="#2f855a"/>
+    <rect x="135" y="220" width="55" height="20"/>
+    <rect x="190" y="170" width="55" height="70"/>
+    <rect x="245" y="120" width="55" height="120"/>
+    <rect x="300" y="105" width="55" height="135"/>
+    <rect x="355" y="130" width="55" height="110"/>
+    <rect x="410" y="180" width="55" height="60"/>
+    <rect x="465" y="215" width="55" height="25"/>
+  </g>
+  <text x="107" y="62" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f855a">10 pieces with</text>
+  <text x="107" y="76" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f855a">almost none</text>
+  <line x1="80" y1="240" x2="590" y2="240" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="80" y="258">0.00</text><text x="245" y="258">0.05</text><text x="410" y="258">0.10</text>
+    <text x="575" y="258">0.15</text>
+  </g>
+  <text x="330" y="286" font-size="15" text-anchor="middle">Manganous oxide (%)</text>
+  <text x="24" y="140" font-size="14" text-anchor="middle" transform="rotate(-90 24 140)">Frequency</text>
+</svg>

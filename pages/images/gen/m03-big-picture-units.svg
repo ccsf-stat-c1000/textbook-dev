@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 130" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <!-- UNIT ORDER: Producing Data = Unit 1, EDA = Unit 2.
+       To switch back to EDA-first, swap those two labels (EDA = Unit 1, Producing Data = Unit 2). -->
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <!-- Producing Data -->
+  <rect x="10" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="80" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Producing Data</text>
+  <text x="80" y="78" text-anchor="middle" font-size="13">Unit 1</text>
+  <line x1="152" y1="61" x2="166" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- EDA -->
+  <rect x="170" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="240" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Exploratory</text>
+  <text x="240" y="65" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Data Analysis</text>
+  <text x="240" y="86" text-anchor="middle" font-size="13">Unit 2</text>
+  <line x1="312" y1="61" x2="326" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Probability -->
+  <rect x="330" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="400" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Probability</text>
+  <text x="400" y="78" text-anchor="middle" font-size="13">Unit 3</text>
+  <line x1="472" y1="61" x2="486" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <!-- Inference -->
+  <rect x="490" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="560" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Inference</text>
+  <text x="560" y="78" text-anchor="middle" font-size="13">Unit 4</text>
+</svg>

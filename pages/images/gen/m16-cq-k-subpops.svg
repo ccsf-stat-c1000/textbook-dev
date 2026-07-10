@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Population -->
+  <circle cx="150" cy="160" r="100" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="150" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Population</text>
+  <text x="150" y="175" text-anchor="middle" font-size="12" font-style="italic" fill="#c53030">Are Y and X related?</text>
+  <text x="150" y="195" text-anchor="middle" font-size="12" fill="#333333">(X has k &#62; 2 categories)</text>
+  <!-- Arrows -->
+  <line x1="242" y1="115" x2="390" y2="60" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="250" y1="160" x2="390" y2="150" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="242" y1="205" x2="390" y2="275" stroke="#2b6cb0" stroke-width="1.5"/>
+  <!-- Subpops -->
+  <ellipse cx="480" cy="55" rx="90" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="51" text-anchor="middle" font-size="13" fill="#333333">Sub-population 1</text>
+  <text x="480" y="69" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean of Y: &#956;&#8321;</text>
+  <ellipse cx="480" cy="148" rx="90" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="144" text-anchor="middle" font-size="13" fill="#333333">Sub-population 2</text>
+  <text x="480" y="162" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean of Y: &#956;&#8322;</text>
+  <text x="480" y="215" text-anchor="middle" font-size="18" fill="#333333">&#8942;</text>
+  <ellipse cx="480" cy="275" rx="90" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="271" text-anchor="middle" font-size="13" fill="#333333">Sub-population k</text>
+  <text x="480" y="289" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean of Y: &#956;&#8342;</text>
+</svg>

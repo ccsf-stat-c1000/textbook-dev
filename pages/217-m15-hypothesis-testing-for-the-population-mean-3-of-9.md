@@ -1,71 +1,77 @@
 # Hypothesis Testing for the Population Mean (3 of 9)
 
 ```{admonition} Learning Objectives
-    - Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
+:class: note
+
+- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
 ```
 
-## 3. Finding the p-value of the test
+## Step 3: Finding the P-value of the Test
 
-The p-value — the probability of getting data (summarized with the test statistic) as extreme as those observed or even more extreme (in the direction of the alternative hypothesis) when H~o~ is true — for the z-test for the population mean is found exactly like the p-value in the z-test for the population proportion. We've already learned that the p-value is found under the null distribution of the test statistic, and since for both means (with σ known) and proportions the null distribution of the test statistic is N(0,1), the p-value is calculated as follows:
+The p-value—the probability of getting data (summarized with the test statistic) as extreme as those observed or even more extreme (in the direction of the alternative hypothesis) when $H_0$ is true—for the z-test for the population mean is found exactly like the p-value in the z-test for the population proportion. We've already learned that the p-value is found under the null distribution of the test statistic, and since for both means (with σ known) and proportions the null distribution of the test statistic is N(0,1), the p-value is calculated as follows:
 
 ### Less Than
 
-```{figure} images/image336.gif
-:alt: H_a: μ &lt; μ_0 ⇒ p-value = P(Z ≤ z)
-```
+For $H_a: \mu < \mu_0$, the p-value is $P(Z \leq z)$—the area under the standard normal curve to the left of the observed test statistic (a left-tailed test).
 
-```{figure} images/image259.gif
-:alt: A N(0,1) curve for which the horizontal axis has been marked with two z-scores, z and 0, where z is the observed test statistic. z is to the left of 0, and the area to the left of z under the curve is the p-value.
+```{figure} images/gen/m15-pvalue-left.svg
+:alt: A standard normal curve with z-scores 0 and z marked on the horizontal axis, where z is to the left of 0. The p-value is the shaded area to the left of z under the curve.
 ```
 
 ### Greater Than
 
-```{figure} images/image337.gif
-:alt: H_a: μ &gt; μ_0 ⇒ p-value = P(Z ≥ z)
-```
+For $H_a: \mu > \mu_0$, the p-value is $P(Z \geq z)$—the area under the standard normal curve to the right of the observed test statistic (a right-tailed test).
 
-```{figure} images/image261.gif
-:alt: A N(0,1) curve for which the horizontal axis has been marked with two z-scores, z and 0, where z is the observed test statstic. z is to the right of 0, and the area to the right of z under the curve is the p-value.
+```{figure} images/gen/m15-pvalue-right.svg
+:alt: A standard normal curve with z-scores 0 and z marked on the horizontal axis, where z is to the right of 0. The p-value is the shaded area to the right of z under the curve.
 ```
 
 ### Not Equal To
 
-```{figure} images/image338.gif
-:alt: H_a: μ ≠ μ_0 ⇒ p-value = P(Z ≤ -|z|) + P(Z ≥ |z|) = 2P(Z ≥ |z|)
+For $H_a: \mu \neq \mu_0$, the p-value is $P(Z \leq -|z|) + P(Z \geq |z|) = 2P(Z \geq |z|)$—the combined area in both tails (a two-tailed test).
+
+```{figure} images/gen/m15-pvalue-two.svg
+:alt: A standard normal curve with z-scores negative absolute z, 0, and positive absolute z marked on the horizontal axis. The p-value is the sum of the shaded areas in both tails.
 ```
 
-```{figure} images/image263.gif
-:alt: A N(0,1) curve for which the horizontal axis has been marked with three z-scores, -|z|, 0, and |z|, where z is the test statistic. -|z| is to the left of 0, and |z| is to the right of 0. The p-value is the sum of the area to the right of |z| under the curve and the area to the left of -|z| under the curve.
-```
+:::{admonition} Example 1: SAT-M Scores at Ross College
+:class: tip
 
-```{admonition} Example: 1
-    In the example about the SAT-M scores of students at Ross College, the test statistic was found to be z = 1. The p-value is therefore P(Z > 1):
+In the example about the SAT-M scores of students at Ross College, the test statistic was found to be z = 1. Since the alternative is $H_a: \mu > 500$, the p-value is P(Z > 1)—the area to the right of 1 under the standard normal curve.
 
-    ```{figure} images/image339.gif
-    :alt: A N(0,1) curve, with a horizontal axis marked with z-scores of 0 and 1. The area to the right of z-score 1 is the area we care about, because it is the p-value.
-    ```
+To find the p-value, we can either:
 
-    To find the p-value, we can either:
+- use the (68% part of the) Standard Deviation Rule for the normal distribution, which tells us that the p-value is approximately 0.16 (since P(−1 < Z < 1) = 0.68, each tail beyond 1 standard deviation holds about 0.16), or
+- use a normal table, or
+- carry out the test using statistical software. In this case, we get a p-value of 0.159.
+:::
 
-    - use the (68% part of the) Standard Deviation Rule for the normal distribution, which tells us that the p-value is approximately 0.16 (since P(-1 < Z < 1) = 0.68), or
-    - use the normal table, or
-    - carry out the test using statistical software. In this case, we get a p-value of 0.159.
+:::{admonition} Example 2: Concentration of a Chemical in a Drug
+:class: tip
 
-    ```{figure} images/image340.gif
-    :alt: A large circle represents all of the Students at Ross College. We are interested in finding μ, or the mean of the SAT-M scores, which has a normal distribution. Our hypotheses are H_0: μ = 500 and H_a: μ &gt; 500, assuming SD = 100. We take a sample of size n = 4 from the population, represented by a smaller circle. For this sample, x-bar = 550, and since our conditions are met, we can calculate that z = 1. We also calculate that the p-value = .159
-    ```
-```
+In the concentration level example, the test statistic was found to be z = −2.5. Since this is a two-sided test ($H_a: \mu \neq 250$), the p-value is the combination of the two tail areas: the area to the left of −2.5 plus the area to the right of 2.5.
 
-```{admonition} Example: 2
-    In the concentration level example, the test statistic was found to be -2.5. Since this is the two-sided test, the p-value is the combination of the two shaded areas in the following figure.
+The p-value is therefore 2 × P(Z > 2.5). We can either use a table or carry out the test using statistical software. In this case, we get a p-value of 0.012.
+:::
 
-    ```{figure} images/image341.gif
-    :alt: A N(0,1) curve, with a horizontal axis marked with z-scores of -2.5, 0, and 2.5. The P-value is the area to the under the curve to the left of -2.5, and the area under the curve to the right of 2.5 .
-    ```
+## Concept Check
 
-    The p-value is therefore twice P(Z > 2.5). We can either use the table, or carry out the test using statistical software. In this case, we get a p-value of 0.012.
+:::{quiz} A z-test for μ with alternative Hₐ: μ < μ₀ produces z = −1.5. Which expression gives the p-value?
+:hint: A "less than" alternative is left-tailed.
+:feedback-0: Correct! For a left-tailed test, the p-value is the area to the left of the observed test statistic: P(Z ≤ −1.5) ≈ 0.067.
+:feedback-1: The area to the right of −1.5 (≈ 0.933) would essentially measure agreement with H₀.
+:feedback-2: Doubling is only for two-sided alternatives.
+* *P(Z ≤ −1.5)
+* P(Z ≥ −1.5)
+* 2P(Z ≤ −1.5)
+:::
 
-    ```{figure} images/image342.gif
-    :alt: A large circle represents the population, which is the shipment. μ represents the concentration of the chemical. Our hypotheses are H_0:mean = 250, and H_a: mean is not 250. We assume that SD = 12). Selected from the population is a sample of size n=100, represented by a smaller circle. x-bar for this sample is 247, and because our conditions are met, we can calculate that z = -2.5, and that the p-value = .012
-    ```
-```
+:::{quiz} In example 2, the p-value was 0.012. Which is the correct interpretation?
+:hint: Condition on H₀ (μ = 250) being true, and remember the two-sided alternative.
+:feedback-0: Correct! If the mean concentration really were 250 ppm, there would be only a 0.012 probability of getting a sample mean at least 2.5 standard deviations away from 250 (in either direction).
+:feedback-1: The p-value is not the probability that H₀ is true.
+:feedback-2: Since the alternative is two-sided, "as extreme" includes both directions, not just below.
+* *If μ were 250 ppm, the probability of a sample mean as far from 250 as 247 is (in either direction) would be 0.012
+* There is a 1.2% chance that the mean concentration is 250 ppm
+* If μ were 250 ppm, the probability of a sample mean of 247 or lower would be 0.012
+:::

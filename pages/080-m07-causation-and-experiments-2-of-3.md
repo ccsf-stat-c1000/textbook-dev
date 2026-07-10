@@ -1,8 +1,10 @@
 # Causation and Experiments (2 of 3)
 
 ```{admonition} Learning Objectives
-    - Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-    - Explain how the study design impacts the types of conclusions that can be drawn.
+:class: note
+
+- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
+- Explain how the study design impacts the types of conclusions that can be drawn.
 ```
 
 ## Blind and Double-Blind Experiments
@@ -19,14 +21,24 @@ When the response of interest is fairly straightforward, such as giving up cigar
 
 The most reliable way to determine whether the explanatory variable is actually causing changes in the response variable is to carry out a *randomized controlled double-blind experiment*. Depending on the variables of interest, such a design may not be entirely feasible, but the closer researchers get to achieving this ideal design, the more convincing their claims of causation (or lack thereof) are.
 
-```{note}
-    **Did I Get This?**
+## Concept Check
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} In a trial of a new headache medication, half the subjects receive the drug and half receive an identical-looking sugar pill, but all believe they may be receiving the real drug. What is the purpose of the sugar pill?
+:hint: What would differ between the groups if the control group received nothing at all?
+:feedback-0: Correct! The placebo keeps subjects blind to their treatment, so any placebo effect (improvement due merely to believing one is treated) affects both groups equally.
+:feedback-1: The placebo has no active ingredient; it isn't intended to treat anything.
+:feedback-2: Reducing costs is not the purpose—the placebo is about controlling psychological effects.
+* *It makes subjects blind to their treatment, so the placebo effect affects both groups equally
+* It provides a mild backup treatment for the control group
+* It reduces the cost of the experiment
+:::
 
-```{note}
-    **Did I Get This?**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} In a depression-treatment study, the psychiatrists who rate each patient's improvement do not know which treatment the patient received, and neither do the patients. What is this design called, and why does the rater's blindness matter?
+:hint: Both the subjects and the evaluators are blind.
+:feedback-0: Correct! This is a double-blind experiment; keeping evaluators blind prevents the experimenter effect—unconsciously rating patients they know were treated as more improved.
+:feedback-1: In a single-blind design only the subjects would be unaware; here the raters are unaware as well.
+:feedback-2: A controlled experiment refers to researcher-assigned treatments; the blinding described here goes further than that.
+* *Double-blind—it prevents the raters' expectations from biasing their assessments
+* Single-blind—only one group needs to be unaware
+* It is simply a controlled experiment; the blinding adds nothing
+:::

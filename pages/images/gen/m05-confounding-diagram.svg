@@ -1,0 +1,21 @@
+<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="40" y="30" width="220" height="52" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="150" y="61" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">X: Nationality</text>
+  <rect x="40" y="180" width="220" height="52" rx="10" fill="#fdebd9" stroke="#dd6b20" stroke-width="2.5"/>
+  <text x="150" y="202" text-anchor="middle" font-size="13" font-weight="bold" fill="#dd6b20">Lurking variable: education</text>
+  <text x="150" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#dd6b20">level of SAT takers</text>
+  <rect x="400" y="105" width="200" height="52" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="500" y="129" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Y: SAT Math</text>
+  <text x="500" y="147" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">score</text>
+  <line x1="262" y1="70" x2="395" y2="118" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="330" y="76" font-size="12" font-style="italic">possible cause?</text>
+  <line x1="262" y1="193" x2="395" y2="145" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="312" y="192" font-size="12" font-style="italic">possible cause?</text>
+  <line x1="150" y1="84" x2="150" y2="176" stroke="#c53030" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="162" y="135" font-size="13" font-weight="bold" fill="#c53030">confounded</text>
+</svg>

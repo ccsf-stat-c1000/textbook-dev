@@ -1,7 +1,9 @@
 # Linear Relationships (5 of 8)
 
 ```{admonition} Learning Objectives
-    - In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
+:class: note
+
+- In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
 ```
 
 ## Linear Regression: Summarizing the Pattern of the Data with a Line
@@ -12,12 +14,15 @@ Again, let's start with a motivating example:
 
 Earlier, we examined the linear relationship between the age of a driver and the maximum distance at which a highway sign was legible, using both a scatterplot and the correlation coefficient. Suppose a government agency wanted to predict the maximum distance at which the sign would be legible for 60-year-old drivers, and thus make sure that the sign could be used safely and effectively.
 
-How would we make this prediction?
+How would we make this prediction? By summarizing the downward linear pattern of the data with a line, and then using that line: to predict the legibility distance for 60-year-old drivers, we find age 60 on the line and read off the corresponding distance—about 396 feet:
+
+```{figure} images/gen/m05-signs-regression.svg
+:alt: The scatterplot of driver age against sign legibility distance with a red line drawn through the downward linear pattern of the points. Dashed green guide lines rise from age 60 on the horizontal axis up to the line and across to the vertical axis, showing a predicted distance of about 396 feet.
+```
 
 ```{note} Video
+
 [Making Predictions](https://www.youtube.com/watch?v=8hf3dMf59cI)
 ```
 
-To see a static version of this movie, click here
-
-How and why did we pick this particular line (the one shown in red in the above walkthrough) to describe the dependence of the maximum distance at which a sign is legible upon the age of a driver? What line exactly did we choose? We will return to this example once we can answer that question with a bit more precision.
+How and why did we pick this particular line (the one shown in red above) to describe the dependence of the maximum distance at which a sign is legible upon the age of a driver? What line exactly did we choose? We will return to this example once we can answer that question with a bit more precision.

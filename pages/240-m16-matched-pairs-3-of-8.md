@@ -1,115 +1,82 @@
 # Matched Pairs (3 of 8)
 
 ```{admonition} Learning Objectives
-    - Specify the null and alternative hypotheses for comparing groups.
+:class: note
+
+- Specify the null and alternative hypotheses for comparing groups.
 ```
 
-## Step 1: Stating the hypotheses.
+## Step 1: Stating the Hypotheses
 
-Recall that in the t-test for a single mean our null hypothesis was:	$H_{o}:\mu=\mu_{o}$ and the alternative was one of	$H_{a}:\mu<or>or\neq\mu_{0}$ . Since the paired t-test is a special case of the one-sample t-test, the hypotheses are the same except that:
+Recall that in the t-test for a single mean our null hypothesis was $H_0: \mu = \mu_0$ and the alternative was one of $H_a: \mu < \mu_0$, $H_a: \mu > \mu_0$, or $H_a: \mu \neq \mu_0$. Since the paired t-test is a special case of the one-sample t-test, the hypotheses are the same, except that:
 
-- Instead of simply	μ
-we use the	notation $\mu_{d}$
-to denote that the parameter of interest is the mean of the differences.
-- In this course our null value	$\mu_{0}$
-is always 0 (although technically, it does not have to be).
+- Instead of simply μ, we use the notation $\mu_d$ to denote that the parameter of interest is the mean of the *differences*.
+- In this course our null value is always 0 (although technically, it does not have to be).
 
-Therefore, in the paired t-test:
+Therefore, in the paired t-test, the null hypothesis is always
 
-The null hypothesis is always:
+$$H_0: \mu_d = 0$$
 
-$H_{o}:\mu_{d}=0$
-
-and the alternative is one of :
-
-```{figure} images/image065.gif
-:alt: H_a: μ_d < 0 (one-sided), H_a: μ_d > 0 (one-sided), H_a: μ_d ≠ 0 (two-sided)
-```
-
-depending on the context.
+and the alternative is one of $H_a: \mu_d < 0$ (one-sided), $H_a: \mu_d > 0$ (one-sided), or $H_a: \mu_d \neq 0$ (two-sided), depending on the context.
 
 Let's go back to our example to see how this works and why it makes sense.
 
-```{admonition} Example: Drunk Driving
-    Recall that in our "Are drivers impaired after drinking two beers?" example, our data was reduced to one sample of differences (one for each driver),
+:::{admonition} Example: Drunk Drivers
+:class: tip
 
-    ```{figure} images/image066.gif
-    :alt: A table with the rows "Driver," "Sample 1 (before)," "Sample 2 (after)," and "Differences (before - after)." We only care about the Driver and Differences row.
-    ```
+Recall that in our "Are drivers impaired after drinking two beers?" example, our data were reduced to one sample of differences (one for each driver), so our problem was reduced to inference about the mean of the differences, $\mu_d$.
 
-    so our problem was reduced to inference about the mean of the differences	$\mu_{d}$	.
+As we mentioned, the null hypothesis is $H_0: \mu_d = 0$. The null hypothesis claims that the differences in reaction times are centered at (or around) 0, indicating that drinking two beers has no real impact on reaction times. In other words, drivers are not impaired after drinking two beers.
 
-    ```{figure} images/image067.gif
-    :alt: For the population of all drivers, we are trying to find μ_d, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). To do this, we generate a sample from the population. The sample consists of 20 differences.
-    ```
+In order to decide which of the alternatives is appropriate here, we have to think about the context of the problem. Recall that we want to check whether drivers are impaired after drinking two beers. Thus, we want to know whether their reaction times are *longer* after the two beers. Since the differences were calculated as (before − after), longer reaction times after the beers would translate into *negative* differences (e.g., 6.25 − 6.85, 2.96 − 4.78, etc.).
 
-    As we mentioned, the null hypothesis is:
+Therefore, the appropriate alternative here is $H_a: \mu_d < 0$, indicating that the differences are centered at a negative number.
+:::
 
-    $H_{o}:\mu_{d}=0$ .
+```{admonition} Comment
+:class: important
 
-    The null hypothesis claims that the differences in reaction times are centered at (or around) 0, indicating that drinking two beers has no real impact on reaction times. In other words, drivers are not impaired after drinking two beers.
+Some students find it helpful to know that it turns out that $\mu_d = \mu_1 - \mu_2$. In other words, the difference between the means in the two-population representation is the same as the mean of the differences in the one-sample representation. Some students find it easier to first think about the hypotheses in terms of $\mu_1-\mu_2$ (as we did in the two-sample case) and then represent them in terms of $\mu_d$.
 
-    In order to decide which of the alternatives is appropriate here we have to think about the context of the problem. Recall that we want to check whether drivers are impaired after drinking two beers. Thus, we want to know whether their reaction times are longer after the two beers. Since the differences were calculated before-after, longer reaction times after the beers would translate into negative differences. These differences are: 6.25 - 6.85, 2.96 - 4.78, etc.
-
-    Therefore, the appropriate alternative here is:
-
-    $H_{a}:\mu_{d}<0$
-
-    indicating that the differences are centered at a negative number.
+In our example, since we want to test whether the reaction times in population 1 (before) are shorter, we are testing $H_0: \mu_1-\mu_2=0$ vs. $H_a: \mu_1-\mu_2<0$, which in the matched pairs design notation is translated to $H_0: \mu_d=0$ vs. $H_a: \mu_d<0$.
 ```
 
-```{note}
-    **Many Students Wonder**
+:::{admonition} Example: Low-Carb Diet
+:class: tip
 
-    Matched Pairs
+Suppose the effectiveness of a low-carb diet is studied with a matched pairs design, recording each participant's weight before and after dieting. What would be the appropriate hypotheses in this case?
 
-    *(Interactive activity — available in the OLI platform)*
-```
-
-## Comment
-
-Recall that originally, the following figure represented our problem:
-
-```{figure} images/image054.gif
-:alt: The X variable is whether the driver had 2 beers or no beers. We have two populations, population 1 of sober drivers and population 2 of drivers who had two beers. For each population we have the Reaction Time (Y) mean, μ_1 for population 1 and μ_2 for population 2. We use the same drivers to generate the samples for both populations. The SRS of size 20 is created for population 1 before the drivers have had 2 beers, and using the same drivers, we generate the SRS of size 20 for population 2 after giving them 2 beers.
-```
-
-Later, we reduced the problem to inference about a single mean, the mean of the differences:
-
-```{figure} images/image067.gif
-:alt: For the population of all drivers, we are trying to find μ_d, which represents the mean of the difference in total reaction time (before 2 beers - after 2 beers). To do this, we generate a sample from the population. The sample consists of 20 differences.
-```
-
-Some students find it helpful to know that it turns out that	$\mu_{d}=\mu_{1}−\mu_{2}$. In other words, the difference between the means $\mu_{1}−\mu_{2}$ in the first representation is the same as the mean of the differences, $\mu_{d}$,in the second one. Some students find it easier to first think about the hypotheses in terms of	$\mu_{1}−\mu_{2}$	(as we did in the two-sample case) and then represent it in terms of	$\mu_{d}$.
-
-In our example, since we want to test whether the reaction times in population 1 are shorter, we are testing $H_{o}:\mu_{1}−\mu_{2}=0 vs. H_{a}:\mu_{1}−\mu_{2}<0 $, which in the matched pairs design notation is translated to	$H_{o}:\mu_{d}=0 vs. H_{a}:\mu_{d}<0 $ .
-
-Here is another example:
-
-```{admonition} Example
-    Suppose the effectiveness of a low-carb diet is studied with a matched pairs design, recording each participant's weight before and after dieting. What would be the appropriate hypotheses in this case?
-
-    As before,	$\mu_{d}$ is the mean of the differences (weight before diet)-(weight after diet). In this case, if the diet is effective and participants' weight after the diet was indeed lower, we would expect the differences to be positive, and therefore the appropriate hypotheses in this case are:	$H_{o}:\mu_{d}=0 vs. H_{a}:\mu_{d}>0 $ .
-```
+As before, $\mu_d$ is the mean of the differences (weight before diet) − (weight after diet). In this case, if the diet is effective and participants' weight after the diet was indeed lower, we would expect the differences to be *positive*, and therefore the appropriate hypotheses are $H_0: \mu_d=0$ vs. $H_a: \mu_d>0$.
+:::
 
 ## Did I Get This?
 
-In each of the following cases, decide based on the context what the appropriate set of hypotheses is.
+In each of the following cases, decide based on the context what the appropriate set of hypotheses is. In every case, the differences are computed as (first measurement) − (second measurement).
 
-```{note}
-    **Sectionnest**
+:::{quiz} A study tests whether a memory-training program improves test scores, measuring each participant's score before the program (first) and after the program (second). Which hypotheses are appropriate?
+:hint: If training helps, "after" scores are higher, so (before − after) would be negative.
+:feedback-0: Correct! Improvement means higher "after" scores, so the differences (before − after) should be centered below 0.
+:feedback-1: Positive differences would mean scores DROPPED after training.
+:feedback-2: The study specifically tests for improvement, so a directional alternative is appropriate.
+* *H₀: μ_d = 0; Hₐ: μ_d < 0
+* H₀: μ_d = 0; Hₐ: μ_d > 0
+* H₀: μ_d = 0; Hₐ: μ_d ≠ 0
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A study examines whether a blood-pressure medication lowers systolic blood pressure, measuring each patient before treatment (first) and after treatment (second). Which hypotheses are appropriate?
+:hint: If the drug works, "after" readings are lower, so (before − after) would be positive.
+:feedback-0: Correct! Lower "after" readings make the (before − after) differences positive.
+:feedback-1: Negative differences would mean blood pressure ROSE after treatment.
+:feedback-2: The research question is directional (lowers), so a one-sided alternative is called for.
+* *H₀: μ_d = 0; Hₐ: μ_d > 0
+* H₀: μ_d = 0; Hₐ: μ_d < 0
+* H₀: μ_d = 0; Hₐ: μ_d ≠ 0
+:::
 
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Sectionnest**
-
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} A study asks whether husbands and wives differ in the number of hours they spend on household chores, with no prior expectation of direction. Each couple provides a pair of measurements (husband first, wife second). Which hypotheses are appropriate?
+:hint: No direction is suspected.
+:feedback-0: Correct! With no suspected direction, the two-sided alternative Hₐ: μ_d ≠ 0 is appropriate.
+:feedback-1: One-sided alternatives require a prior directional expectation, which this study lacks.
+* *H₀: μ_d = 0; Hₐ: μ_d ≠ 0
+* H₀: μ_d = 0; Hₐ: μ_d > 0
+:::

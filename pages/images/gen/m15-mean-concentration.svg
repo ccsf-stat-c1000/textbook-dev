@@ -1,0 +1,19 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Population -->
+  <circle cx="185" cy="160" r="120" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="185" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Population</text>
+  <text x="185" y="110" text-anchor="middle" font-size="13" fill="#333333">The entire shipment</text>
+  <text x="185" y="145" text-anchor="middle" font-size="13" fill="#c53030">&#956; = mean concentration (ppm)</text>
+  <text x="185" y="180" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">Is the mean concentration the</text>
+  <text x="185" y="197" text-anchor="middle" font-size="13" font-style="italic" fill="#333333">required 250 ppm, or not?</text>
+  <text x="185" y="222" text-anchor="middle" font-size="12" fill="#333333">(assume &#963; = 12)</text>
+  <!-- Arrow -->
+  <line x1="310" y1="160" x2="410" y2="160" stroke="#2b6cb0" stroke-width="2"/>
+  <polygon points="408,154 408,166 420,160" fill="#2b6cb0"/>
+  <text x="365" y="145" text-anchor="middle" font-size="12" fill="#333333">random sample</text>
+  <!-- Sample -->
+  <circle cx="510" cy="160" r="85" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="510" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">Sample</text>
+  <text x="510" y="168" text-anchor="middle" font-size="13" fill="#333333">n = 100 portions</text>
+  <text x="510" y="190" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f855a">x&#772; = 247 ppm</text>
+</svg>

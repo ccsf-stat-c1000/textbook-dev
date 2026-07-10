@@ -1,7 +1,9 @@
 # Sample Surveys (1 of 2)
 
 ```{admonition} Learning Objectives
-    - Determine how the features of a survey impact the collected data and the accuracy of the data.
+:class: note
+
+- Determine how the features of a survey impact the collected data and the accuracy of the data.
 ```
 
 ## Sample Surveys

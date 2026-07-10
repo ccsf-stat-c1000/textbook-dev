@@ -1,0 +1,15 @@
+<svg viewBox="0 0 640 130" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <rect x="80" y="35" width="200" height="56" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="180" y="59" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Explanatory variable:</text>
+  <text x="180" y="78" text-anchor="middle" font-size="14" fill="#2b6cb0">method</text>
+  <line x1="285" y1="63" x2="350" y2="63" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="318" y="50" text-anchor="middle" font-size="13" font-style="italic">causes?</text>
+  <rect x="360" y="35" width="200" height="56" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="460" y="59" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Response variable:</text>
+  <text x="460" y="78" text-anchor="middle" font-size="14" fill="#2b6cb0">success or failure</text>
+</svg>

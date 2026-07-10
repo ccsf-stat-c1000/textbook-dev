@@ -1,94 +1,106 @@
 # Hypothesis Testing for the Population Proportion p (8 of 13)
 
 ```{admonition} Learning Objectives
-    - Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
+:class: note
+
+- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
 ```
 
-## 4. Drawing Conclusions Based on the p-Value
+## Step 4: Drawing Conclusions Based on the P-value
 
 This last part of the four-step process of hypothesis testing is the same across all statistical tests, and actually, we've already said basically everything there is to say about it, but it can't hurt to say it again.
 
-The p-value is a measure of how much evidence the data present against H~o~. The smaller the p-value, the more evidence the data present against H~o~.
+The p-value is a measure of how much evidence the data present against $H_0$. The smaller the p-value, the more evidence the data present against $H_0$.
 
-We already mentioned that what determines what constitutes enough evidence against H~o~ is the *significance level* (α), a cutoff point below which the p-value is considered small enough to reject H~o~ in favor of H~a~. The most commonly used significance level is 0.05.
+We already mentioned that what determines what constitutes enough evidence against $H_0$ is the *significance level* (α), a cutoff point below which the p-value is considered small enough to reject $H_0$ in favor of $H_a$. The most commonly used significance level is 0.05.
 
 It is important to mention again that this step has essentially two sub-steps:
 
-1. Based on the p-value, determine whether or not the results are significant (i.e., the data present enough evidence to reject H~o~).
+1. Based on the p-value, determine whether or not the results are significant (i.e., whether the data present enough evidence to reject $H_0$).
 2. State your conclusions in the context of the problem.
 
 Let's go back to our three examples and draw conclusions.
 
-```{admonition} Example: 1
-    (Has the proportion of defective products been reduced from 0.20 as a result of the repair?)
+:::{admonition} Example 1: Defective Products
+:class: tip
 
-    We found that the p-value for this test was 0.023.
+Has the proportion of defective products been reduced from 0.20 as a result of the repair?
 
-    Since 0.023 is small (in particular, 0.023 < 0.05), the data provide enough evidence to reject H~o~ and conclude that as a result of the repair the proportion of defective products has been reduced to below 0.20. The following figure is the complete story of this example, and includes all the steps we went through, starting from stating the hypotheses and ending with our conclusions:
+We found that the p-value for this test was 0.023.
 
-    ```{figure} images/image275.gif
-    :alt: A large circle represents the population of products produced by the machine (following the repair). We want to know p about this population, or what is the proportion of defective products. The two hypotheses are H_0: p = 0.20 and H_a: p &lt; 0.20. We take a sample of 400 products, represented by a smaller circle. We find that 64 of these are defective. p-hat = 64/400 = 0.16, and z = -2 and p-value = 0.023. Since the p-value is small we conclude that H_0 can be rejected.
-    ```
-```
+Since 0.023 is small (in particular, 0.023 < 0.05), the data provide enough evidence to reject $H_0$, and we conclude that as a result of the repair the proportion of defective products has been reduced to below 0.20.
 
-```{admonition} Example: 2
-    (Is the proportion of students who use marijuana at the college higher than the national proportion, which is 0.157?)
+Here is the complete story of this example: $H_0: p = 0.20$ vs. $H_a: p < 0.20$; a random sample of n = 400 gave $\hat{p} = 64/400 = 0.16$; the test statistic was z = −2; the p-value was 0.023; since the p-value is small, we reject $H_0$.
+:::
 
-    We found that the p-value for this test was 0.182.
+:::{admonition} Example 2: Marijuana Use at a Liberal Arts College
+:class: tip
 
-    Since 0.182 is *not* small (in particular, 0.182 > 0.05), the data do not provide enough evidence to reject H~o~.
+Is the proportion of students who use marijuana at the college higher than the national proportion, which is 0.157?
 
-    We therefore do *not* have enough evidence to conclude that the proportion of students at the college who use marijuana is higher than the national figure. Here is the complete story of this example:
+We found that the p-value for this test was 0.182.
 
-    ```{figure} images/image276.gif
-    :alt: A large circle represents the population Students at the college. We want to know p about this population, or what is the population proportion of students using marijuana. The hypotheses are H_0: p = 0.157 and H_a: p &gt; 0.157. We take a sample of 100 students, represented by a smaller circle. We find that 19 use marijuana. p-hat = 19/100 = 0.19, z = 0.91, and p-value = 0.182. Since the p-value is too large, we conclude that H_0 cannot be rejected.
-    ```
-```
+Since 0.182 is *not* small (in particular, 0.182 > 0.05), the data do not provide enough evidence to reject $H_0$. We therefore do *not* have enough evidence to conclude that the proportion of students at the college who use marijuana is higher than the national figure.
 
-```{note}
-    **Learn By Doing**
+Here is the complete story of this example: $H_0: p = 0.157$ vs. $H_a: p > 0.157$; a random sample of n = 100 gave $\hat{p} = 19/100 = 0.19$; the test statistic was z = 0.91; the p-value was 0.182; since the p-value is not small, we cannot reject $H_0$.
+:::
 
-    Hypothesis Testing for the Population Proportion p
+## Learn By Doing
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} In example 2 the sample proportion (0.19) was above the national figure (0.157), yet we did not reject H₀. Which statement best explains this?
+:hint: Think about how much sample proportions vary in samples of only 100 students.
+:feedback-0: Correct! With n = 100, getting a sample proportion of 0.19 when the true proportion is 0.157 is not surprising (probability 0.182)—chance alone is a reasonable explanation.
+:feedback-1: The data leaned in the direction of Hₐ, but not strongly enough to rule out chance.
+:feedback-2: We can never accept H₀; we simply lack evidence against it.
+* *A sample proportion of 0.19 is not surprising when p = 0.157 and n = 100—the difference is within chance variation
+* The sample proportion actually contradicted the alternative hypothesis
+* We proved that the college's marijuana use rate equals the national rate
+:::
 
-```{admonition} Example: 3
-    (Has the proportion of U.S. adults who support the death penalty for convicted murderers changed since 2003, when it was 0.64?)
+:::{admonition} Example 3: Death Penalty Support
+:class: tip
 
-    We found that the p-value for this test was 0.021.
+Has the proportion of U.S. adults who support the death penalty for convicted murderers changed since 2003, when it was 0.64?
 
-    Since 0.021 is small (in particular, 0.021 < 0.05), the data provide enough evidence to reject H~o~, and we conclude that the proportion of adults who support the death penalty for convicted murderers has changed since 2003. Here is the complete story of this example:
+We found that the p-value for this test was 0.021.
 
-    ```{figure} images/image277.gif
-    :alt: A large circle represents the population US Adults. We want to know p about this population, which is population proportion which support the death penalty. The two hypothesis are H_0: p = 0.64 and H_a: p ≠ 0.64. We take a sample of 1000 US Adults, represented by a smaller circle. We find that 675 are in favor. p-hat = 675/1000 = 0.675, z = 2.31, and p-value = 0.021. Because the p-value is small, we conclude that H_0 can be rejected.
-    ```
-```
+Since 0.021 is small (in particular, 0.021 < 0.05), the data provide enough evidence to reject $H_0$, and we conclude that the proportion of adults who support the death penalty for convicted murderers has changed since 2003.
 
-### Did I Get This?
+Here is the complete story of this example: $H_0: p = 0.64$ vs. $H_a: p \neq 0.64$; a random sample of n = 1,000 gave $\hat{p} = 675/1000 = 0.675$; the test statistic was z = 2.31; the p-value was 0.021; since the p-value is small, we reject $H_0$.
+:::
 
-Two hypothesis tests were conducted.
+## Did I Get This?
 
-In test I, a significance level of 0.05 was used, and the p-value was calculated to be 0.025.
+Two hypothesis tests were conducted. In test I, a significance level of 0.05 was used, and the p-value was calculated to be 0.025. In test II, a significance level of 0.01 was used, and the p-value was calculated to be 0.025.
 
-In test II, a significance level of 0.01 was used, and the p-value was calculated to be 0.025.
+:::{quiz} What is the conclusion of test I?
+:hint: Compare the p-value 0.025 with α = 0.05.
+:feedback-0: Correct! 0.025 < 0.05, so the results are significant and H₀ is rejected.
+:feedback-1: 0.025 is smaller than the significance level 0.05, so H₀ IS rejected.
+* *Reject H₀—the results are statistically significant at the 0.05 level
+* Do not reject H₀—the results are not statistically significant
+:::
 
-```{note}
-    **Sectionnest**
+:::{quiz} What is the conclusion of test II?
+:hint: Compare the p-value 0.025 with α = 0.01.
+:feedback-0: Correct! 0.025 > 0.01, so at the stricter 0.01 level the data do not provide enough evidence to reject H₀.
+:feedback-1: At the 0.01 level, a p-value of 0.025 is NOT small enough to reject H₀.
+* *Do not reject H₀—the results are not statistically significant at the 0.01 level
+* Reject H₀—the results are statistically significant
+:::
 
-    *(Interactive activity — available in the OLI platform)*
-```
+:::{quiz} The same p-value (0.025) led to different conclusions in tests I and II. What does this illustrate?
+:hint: The p-value measures the evidence; α is the standard we hold that evidence to.
+:feedback-0: Correct! The conclusion depends not only on the strength of the evidence (the p-value) but also on how demanding a standard of evidence (α) we choose before the test.
+:feedback-1: The p-value was identical in both tests—what differed was the significance level.
+:feedback-2: Neither test was done incorrectly; different fields legitimately use different significance levels.
+* *The conclusion depends on the chosen significance level as well as the p-value
+* The two tests must have had different p-values
+* One of the two tests must have been done incorrectly
+:::
 
-```{note}
-    **Sectionnest**
+```{admonition} Many Students Wonder: Why 0.05?
+:class: important
 
-    *(Interactive activity — available in the OLI platform)*
-```
-
-```{note}
-    **Many Students Wonder**
-
-    Hypothesis Testing for the Population Proportion
-
-    *(Interactive activity — available in the OLI platform)*
+The 0.05 significance level has no deep mathematical justification—it is a convention that has proven practical: strict enough to screen out most chance findings, lenient enough that real effects of reasonable size can be detected with realistic sample sizes. When the consequences of a false rejection are serious (for example, approving a new drug), researchers often use a stricter level such as 0.01. The important thing is to choose the significance level *before* looking at the data.
 ```

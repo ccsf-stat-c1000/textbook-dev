@@ -1,0 +1,31 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <text x="330" y="24" text-anchor="middle" font-size="16" font-weight="bold">Diminishing Returns</text>
+  <g stroke="#c53030" stroke-width="1.5" stroke-dasharray="5 4" fill="none">
+    <path d="M 80 225.1 L 80 280"/>
+    <path d="M 200 132.6 L 200 280"/>
+    <path d="M 440 94.9 L 440 280"/>
+    <path d="M 560 84.6 L 560 280"/>
+    <path d="M 80 225.1 L 60 225.1"/>
+    <path d="M 200 132.6 L 60 132.6"/>
+    <path d="M 440 94.9 L 60 94.9"/>
+    <path d="M 560 84.6 L 60 84.6"/>
+  </g>
+  <g fill="#2b6cb0">
+    <circle cx="80" cy="225.1" r="5"/><circle cx="140" cy="166.9" r="5"/><circle cx="200" cy="132.6" r="5"/>
+    <circle cx="260" cy="115.4" r="5"/><circle cx="320" cy="105.1" r="5"/><circle cx="380" cy="98.3" r="5"/>
+    <circle cx="440" cy="94.9" r="5"/><circle cx="500" cy="89.7" r="5"/><circle cx="560" cy="84.6" r="5"/>
+  </g>
+  <text x="215" y="180" font-size="13" font-weight="bold" fill="#c53030">$0 &#8594; $10: +27% (16% to 43%)</text>
+  <text x="330" y="65" font-size="13" font-weight="bold" fill="#c53030">$30 &#8594; $40: only +3% (54% to 57%)</text>
+  <line x1="80" y1="40" x2="80" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="580" y2="280" stroke="#333333" stroke-width="1.5"/>
+  <g font-size="13" text-anchor="middle">
+    <text x="80" y="298">0</text><text x="200" y="298">10</text><text x="320" y="298">20</text>
+    <text x="440" y="298">30</text><text x="560" y="298">40</text>
+  </g>
+  <g font-size="13" text-anchor="end">
+    <text x="56" y="230">16</text><text x="56" y="137">43</text><text x="56" y="99">54</text><text x="56" y="80">57</text>
+  </g>
+  <text x="330" y="330" font-size="15" text-anchor="middle">Incentive (dollars)</text>
+  <text x="24" y="160" font-size="15" text-anchor="middle" transform="rotate(-90 24 160)">Percentage returned</text>
+</svg>

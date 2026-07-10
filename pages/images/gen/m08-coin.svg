@@ -1,0 +1,6 @@
+<svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <circle cx="80" cy="80" r="55" fill="#f6e05e" stroke="#b7791f" stroke-width="3"/>
+  <text x="80" y="94" text-anchor="middle" font-size="40" font-weight="bold" fill="#b7791f">H</text>
+  <circle cx="220" cy="80" r="55" fill="#f6e05e" stroke="#b7791f" stroke-width="3"/>
+  <text x="220" y="94" text-anchor="middle" font-size="40" font-weight="bold" fill="#b7791f">T</text>
+</svg>

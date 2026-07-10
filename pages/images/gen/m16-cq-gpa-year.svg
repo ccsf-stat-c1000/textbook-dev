@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Population -->
+  <circle cx="150" cy="170" r="105" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="150" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">All U.S. college</text>
+  <text x="150" y="158" text-anchor="middle" font-size="14" font-weight="bold" fill="#333333">students</text>
+  <text x="150" y="188" text-anchor="middle" font-size="12" font-style="italic" fill="#c53030">Are GPA (Y) and</text>
+  <text x="150" y="204" text-anchor="middle" font-size="12" font-style="italic" fill="#c53030">year (X) related?</text>
+  <!-- Arrows to 4 subpops -->
+  <line x1="245" y1="110" x2="395" y2="55" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="255" y1="150" x2="395" y2="135" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="255" y1="190" x2="395" y2="215" stroke="#2b6cb0" stroke-width="1.5"/>
+  <line x1="245" y1="230" x2="395" y2="295" stroke="#2b6cb0" stroke-width="1.5"/>
+  <!-- Subpop ellipses -->
+  <ellipse cx="480" cy="50" rx="85" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="46" text-anchor="middle" font-size="13" fill="#333333">Freshmen</text>
+  <text x="480" y="64" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean GPA &#956;&#8321;</text>
+  <ellipse cx="480" cy="133" rx="85" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="129" text-anchor="middle" font-size="13" fill="#333333">Sophomores</text>
+  <text x="480" y="147" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean GPA &#956;&#8322;</text>
+  <ellipse cx="480" cy="216" rx="85" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="212" text-anchor="middle" font-size="13" fill="#333333">Juniors</text>
+  <text x="480" y="230" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean GPA &#956;&#8323;</text>
+  <ellipse cx="480" cy="299" rx="85" ry="34" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="480" y="295" text-anchor="middle" font-size="13" fill="#333333">Seniors</text>
+  <text x="480" y="313" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">mean GPA &#956;&#8324;</text>
+</svg>

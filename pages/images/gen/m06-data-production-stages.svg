@@ -1,0 +1,15 @@
+<svg viewBox="0 0 640 140" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#333333"/>
+    </marker>
+  </defs>
+  <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="bold">The Two Stages of Producing Data</text>
+  <rect x="80" y="50" width="200" height="60" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="180" y="77" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b6cb0">1. Sampling</text>
+  <text x="180" y="97" text-anchor="middle" font-size="13">choose who is in the sample</text>
+  <line x1="285" y1="80" x2="345" y2="80" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="355" y="50" width="200" height="60" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="455" y="77" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b6cb0">2. Study design</text>
+  <text x="455" y="97" text-anchor="middle" font-size="13">decide how to collect the data</text>
+</svg>

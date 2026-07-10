@@ -1,54 +1,53 @@
 # Case Q→Q (1 of 3)
 
 ```{admonition} Learning Objectives
-    - Choose the appropriate inferential method for examining the relationship between two variables and justify the choice.
-    - In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
+:class: note
+
+- Choose the appropriate inferential method for examining the relationship between two variables and justify the choice.
+- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
 ```
 
-## Inference for the Linear Relationships between Two Quantitative Variables
+## Inference for the Linear Relationship Between Two Quantitative Variables
 
 ### Overview
 
-In inference for relationships, so far we have learned inference procedures for both cases C→Q and C→C from the role/type classification table below. The last case to be considered in this course is case Q→Q, where both the explanatory and response variables are quantitative. (Case Q→C requires statistical methods that go beyond the scope of this course, but might be part of extension modules in the future).
+In inference for relationships, so far we have learned inference procedures for both cases C→Q and C→C from the role-type classification table. The last case to be considered in this course is case Q→Q, where both the explanatory and response variables are quantitative. (Case Q→C requires statistical methods that go beyond the scope of this course.)
 
-```{figure} images/image122.gif
-:alt: It is possible for any type of explanatory variable to be paired with any type of response variable. The possible pairings are: Categorical Explanatory → Categorical Response (C→C), Categorical Explanatory → Quantitative Response (C→Q), Quantitative Explanatory → Categorical Response (Q→C), and Quantitative Explanatory → Quantitative Response (Q→Q).
+```{figure} images/gen/m05-role-type-qq.svg
+:alt: The role-type classification table with the Q to Q case highlighted: a quantitative explanatory variable paired with a quantitative response variable.
 ```
 
-In the Exploratory Data Analysis section, we examined the relationship between sample values for two quantitative variables by looking at a scatterplot and focused on the linear relationship by supplementing the scatterplot with the correlation coefficient r.
+In the Exploratory Data Analysis unit, we examined the relationship between sample values for two quantitative variables by looking at a scatterplot, and focused on the linear relationship by supplementing the scatterplot with the correlation coefficient r.
 
-There was no attempt made to claim that whatever relationship was observed in the sample necessarily held for the larger population from which the sample originated. Now that we have a better understanding of the process of statistical inference, we will present the method for inferring something about the relationship between two quantitative variables in an entire population, based on the relationship seen in the sample. In particular, the method will focus on *linear*relationships and will answer the following question: Is the observed linear relationship due to a true linear relationship between two variables in the population, or could it be that we obtained this kind of pattern in the data just by chance?
+There was no attempt made to claim that whatever relationship was observed in the sample necessarily held for the larger population from which the sample originated. Now that we have a better understanding of the process of statistical inference, we will present the method for inferring something about the relationship between two quantitative variables in an entire population, based on the relationship seen in the sample. In particular, the method will focus on *linear* relationships and will answer the following question: is the observed linear relationship due to a true linear relationship between the two variables in the population, or could it be that we obtained this kind of pattern in the data just by chance?
 
-If we conclude that we can generalize the observed linear relationship to the entire population, we will then use the data to estimate the line that governs the linear relationship between the two variables in the population, and use it to make predictions. The following figure summarizes this process:
+If we conclude that we can generalize the observed linear relationship to the entire population, we will then use the data to estimate the line that governs the linear relationship between the two variables in the population, and use it to make predictions.
 
-```{figure} images/image146.gif
-:alt: We represent our population of interest with a large circle. The question we which want to answer about the population is "Are the two quantitative variables X and Y related?" To answer this, we take an SRS of size n, generating our data. The data is summarized with a scatterplot and r, and we observe the linearity of the relationship between X and Y. Then, in the inference step we ask ourselves "is the evidence of linear relationship in the data strong enough that we can generalize it to the entire population?" If it is strong enough, we use the data to estimate the lne that governs the relationship between X and Y in the populations.
-```
+Let's review the whole process:
 
-Note that the figure summarizes the whole process. Let's review it again.
-
-- We start by asking whether the two quantitative variables are related (in any
-                                way).
+- We start by asking whether the two quantitative variables are related (in any way).
 - We collect data, and when we summarize them with a scatterplot and the correlation r, we observe a linear relationship.
+- Then we get to the inference part of the process, which we are going to learn here: we carry out a test that will tell us whether the observed linear relationship is significant (i.e., can be generalized to the entire population).
+- If the observed linear relationship is significant, we can use the data to estimate the line that governs the linear relationship between X and Y in the population, and can use it to make predictions (see comment 1 below).
 
-Then we get to the inference part of the process, which we are going to learn here:
+```{admonition} Comments
+:class: important
 
-- We will
-                                carry
-                                out a test that will tell us whether the observed linear
-                                relationship is significant (i.e., can be generalized to the entire population).
-  - If the observed linear relationship is not
-                                        significant—too
-                                        bad.
-  - If the observed linear relationship is significant, we can
-                                        use the data to estimate the line that governs the linear
-                                        relationship between X and Y in the population, and can use
-                                        it to make predictions (see comment 1 below).
+1. We estimate the line that governs the linear relationship between X and Y in the population by the line that best fits the linear pattern in our observed data. Recall that in the Exploratory Data Analysis unit we actually already learned how to find the least squares regression line—the line that best fits the observed data. You can now see that finding the least squares regression line actually belongs to the inference unit, and while it is true that it is the line that best fits (in some sense) the observed data, it is really an *estimate* of the true linear relationship that exists in the population. The good thing is that we already learned how to obtain this line, so we'll only need to review it.
 
-### Comments
+2. This section on regression will be very qualitative in nature and will rely mostly on conceptual ideas and on software output.
 
-1. We estimate the line that governs the linear relationship between X and Y in the population by the line that best fits the linear pattern in our observed data. Recall that in the Exploratory Data Analysis unit we've actually already learned how to find the least squares regression line—the line that best fits the observed data. You can now see that finding the least squares regression line actually belongs to the inference unit, and while it is true that it is the line that best fits (in some sense) the observed data, it is really an estimate of the true linear relationship that exists in the population. The good thing is that we already learned how to obtain this line, so we'll only need to review it.
+3. This section will be organized around a leading example, with practice along the way.
+```
 
-2. This section on regression will be very qualitative in nature and will rely mostly on conceptual ideas and on output. An extension module to this course, which will go deeper into the inferential processes of regression, will exist in the near future.
+## Concept Check
 
-3. This section will be organized around a leading example. At some stages along the way, you'll be directed to an activity, where you'll get to have hands-on practice with a different example.
+:::{quiz} A researcher computes a least squares regression line from a random sample. In the framework of inference, what does this line represent?
+:hint: Sample statistics estimate population parameters.
+:feedback-0: Correct! The sample regression line is an estimate of the true line that governs the linear relationship between X and Y in the population.
+:feedback-1: The line fits the sample, but the point of inference is generalizing beyond the sample to the population.
+:feedback-2: Whether the population relationship is significant must first be established by a test—computing the line alone doesn't settle that.
+* *An estimate of the true line governing the linear relationship in the population
+* An exact description of the relationship in the sample only, with no wider meaning
+* Proof that a linear relationship exists in the population
+:::

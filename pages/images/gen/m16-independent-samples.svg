@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- Subpop 1 -->
+  <ellipse cx="150" cy="80" rx="120" ry="55" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="150" y="72" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Sub-population 1</text>
+  <text x="150" y="92" text-anchor="middle" font-size="13" fill="#333333">mean of Y: &#956;&#8321;</text>
+  <!-- Subpop 2 -->
+  <ellipse cx="150" cy="220" rx="120" ry="55" fill="#7cb2e8" fill-opacity="0.35" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="150" y="212" text-anchor="middle" font-size="13" font-weight="bold" fill="#333333">Sub-population 2</text>
+  <text x="150" y="232" text-anchor="middle" font-size="13" fill="#333333">mean of Y: &#956;&#8322;</text>
+  <!-- Arrows -->
+  <line x1="278" y1="80" x2="390" y2="80" stroke="#2b6cb0" stroke-width="2"/>
+  <polygon points="388,74 388,86 400,80" fill="#2b6cb0"/>
+  <text x="335" y="66" text-anchor="middle" font-size="12" fill="#333333">SRS</text>
+  <line x1="278" y1="220" x2="390" y2="220" stroke="#2b6cb0" stroke-width="2"/>
+  <polygon points="388,214 388,226 400,220" fill="#2b6cb0"/>
+  <text x="335" y="206" text-anchor="middle" font-size="12" fill="#333333">SRS</text>
+  <!-- Samples -->
+  <circle cx="480" cy="80" r="55" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="480" y="76" text-anchor="middle" font-size="13" fill="#333333">Sample 1</text>
+  <text x="480" y="94" text-anchor="middle" font-size="13" fill="#333333">size n&#8321;</text>
+  <circle cx="480" cy="220" r="55" fill="#7cb2e8" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="480" y="216" text-anchor="middle" font-size="13" fill="#333333">Sample 2</text>
+  <text x="480" y="234" text-anchor="middle" font-size="13" fill="#333333">size n&#8322;</text>
+  <text x="480" y="155" text-anchor="middle" font-size="12" font-style="italic" fill="#2f855a">independent samples</text>
+</svg>
