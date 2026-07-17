@@ -1,4 +1,4 @@
-# Confidence Intervals for Population Proportion p (3 of 4)
+# Choosing a Sample Size for Estimating a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

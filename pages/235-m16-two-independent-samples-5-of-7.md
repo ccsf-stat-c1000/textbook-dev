@@ -1,4 +1,4 @@
-# Two Independent Samples (5 of 7)
+# The Two-Sample t-Test: A Worked Example
 
 ```{admonition} Learning Objectives
 :class: note

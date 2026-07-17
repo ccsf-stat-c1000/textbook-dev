@@ -1,4 +1,4 @@
-# The General Multiplication Rule (1 of 2)
+# The General Multiplication Rule: P(A and B) Without Independence
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Exploratory Data Analysis (1 of 2)
+# Exploratory Data Analysis: Turning Data into Insight
 
 Recall the Big Picture, the four-step process that encompasses statistics (as it is presented in this course):
 

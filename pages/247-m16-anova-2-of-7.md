@@ -1,4 +1,4 @@
-# ANOVA (2 of 7)
+# The ANOVA F-Test: Stating the Hypotheses
 
 ```{admonition} Learning Objectives
 :class: note

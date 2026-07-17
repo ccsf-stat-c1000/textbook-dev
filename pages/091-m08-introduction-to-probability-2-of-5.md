@@ -1,4 +1,4 @@
-# Introduction to Probability (2 of 5)
+# The Birthday Problem: A Surprising Answer
 
 ```{admonition} Learning Objectives
 :class: note

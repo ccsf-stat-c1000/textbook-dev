@@ -1,4 +1,4 @@
-# Case Q→Q (1 of 3)
+# Case Q→Q: Inference for a Linear Relationship
 
 ```{admonition} Learning Objectives
 :class: note

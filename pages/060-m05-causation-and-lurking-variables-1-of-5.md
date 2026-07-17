@@ -1,4 +1,4 @@
-# Causation and Lurking Variables (1 of 5)
+# Association Is Not Causation
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (9 of 9)
+# The t-Test for a Mean: Worked Examples
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (3 of 8)
+# Confidence Intervals at Other Levels of Confidence
 
 ```{admonition} Learning Objectives
 :class: note

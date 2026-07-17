@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (5 of 9)
+# Tests and Confidence Intervals for a Mean
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Wrap-Up (Relationships)
+# Wrap-Up: Examining Relationships
 
 You have now completed the module on examining relationships, which is the second (and last) module within the Exploratory Data Analysis unit. You've learned how to explore the relationship between the explanatory and response variables using visual displays and numerical measures, and how to choose the type of measure to use based on the role-type classification of the two variables. The module emphasized how important it is to interpret any observed association in the context of the problem, but NOT to be tempted to interpret association as causation, due to the possible presence of lurking variables.
 

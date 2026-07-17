@@ -1,4 +1,4 @@
-# One Categorical Variable (2 of 3)
+# Pie Charts and Bar Charts: Picturing Categories
 
 ```{admonition} Learning Objectives
 :class: note

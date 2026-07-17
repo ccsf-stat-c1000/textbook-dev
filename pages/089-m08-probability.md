@@ -1,4 +1,4 @@
-# Probability
+# Probability: The Machinery Behind Inference
 
 Recall the Big Picture—the four-step process that encompasses statistics (as it is presented in this course):
 

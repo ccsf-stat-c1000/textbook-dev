@@ -1,4 +1,4 @@
-# Matched Pairs (1 of 8)
+# Comparing Two Means from Paired Data
 
 ```{admonition} Learning Objectives
 :class: note

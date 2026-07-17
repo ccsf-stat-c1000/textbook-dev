@@ -1,4 +1,4 @@
-# Probability Rules (8 of 11)
+# "At Least One": Combining the Complement and Multiplication Rules
 
 ```{admonition} Learning Objectives
 :class: note
@@ -6,7 +6,7 @@
 - Apply probability rules in order to find the likelihood of an event.
 ```
 
-## Comment: Finding the Probability of "At Least One of ..."
+## Finding the Probability of "At Least One of ..."
 
 Recall that when we talked about the Complement Rule, we mentioned that we would come back to it later and illustrate its strength. Well, the time has come to do that.
 

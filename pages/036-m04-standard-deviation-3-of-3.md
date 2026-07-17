@@ -1,4 +1,4 @@
-# Standard Deviation (3 of 3)
+# Putting the Standard Deviation Rule to Work
 
 ```{admonition} Learning Objectives
 :class: note

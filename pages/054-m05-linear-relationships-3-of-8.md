@@ -1,4 +1,4 @@
-# Linear Relationships (3 of 8)
+# Interpreting r: What Counts as Strong?
 
 ```{admonition} Learning Objectives
 :class: note
@@ -32,11 +32,13 @@ A statistics department is interested in tracking the progress of its students f
 The scatterplot suggests a relationship that is *positive* in direction, *linear* in form, and seems quite strong. The value of the correlation that we find between the two variables is *r* = 0.931, which is very close to 1, and thus confirms that indeed the linear relationship is very strong.
 ::::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that in both examples we supplemented the scatterplot with the correlation (r). Now that we have the correlation (r), why do we still need to look at a scatterplot when examining the relationship between two quantitative variables?
 
 The *correlation* coefficient can *only* be interpreted as the *measure of the strength of a linear relationship*, so we need the scatterplot to verify that the relationship indeed looks linear. This point and its importance will be clearer after we examine a few properties of r.
+```
 
 ## Concept Check
 

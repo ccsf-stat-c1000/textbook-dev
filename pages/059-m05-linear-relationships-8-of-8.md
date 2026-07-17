@@ -1,4 +1,4 @@
-# Linear Relationships (8 of 8)
+# Predicting with Care: Interpolation vs. Extrapolation
 
 ```{admonition} Learning Objectives
 :class: note
@@ -52,7 +52,7 @@ $$\text{Predicted distance} = 576 - 3 \times 60 = 396$$
 * 2
 :::
 
-## Comment About Predictions
+## Predicting Beyond the Data
 
 Suppose a government agency wanted to design a sign appropriate for an even wider range of drivers than were present in the original study. They want to predict the maximum distance at which the sign would be legible for a 90-year-old. Using the least squares regression line again as our summary of the linear dependence of the distances upon the drivers' ages, the agency predicts that 90-year-old drivers can see the sign at no more than 576 − 3 × 90 = 306 feet:
 

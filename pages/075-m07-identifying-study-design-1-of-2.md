@@ -1,4 +1,4 @@
-# Identifying Study Design (1 of 2)
+# Observational Study or Experiment? Learning to Tell
 
 ```{admonition} Learning Objectives
 :class: note
@@ -34,9 +34,11 @@ This is also an observational study; again, it was the participants themselves w
 This is a sample survey, because the individuals self-assess the relationship between TV watching and snacking.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Notice that in design 2, the values of the variables of interest (TV watching and snack consumption) are recorded forward in time. Such observational studies are called *prospective*. In contrast, in design 3, the values of the variables of interest are recorded backward in time. This is called a *retrospective* observational study. We'll discuss this distinction later in this module.
+```
 
 ## Concept Check
 

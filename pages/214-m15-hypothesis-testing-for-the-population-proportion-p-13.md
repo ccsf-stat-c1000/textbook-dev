@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (13 of 13)
+# Following a Test with a Confidence Interval
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Introduction to Probability (4 of 5)
+# Determining Probability: Coins, Dice, and Spinners
 
 ```{admonition} Learning Objectives
 :class: note

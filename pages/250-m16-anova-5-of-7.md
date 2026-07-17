@@ -1,4 +1,4 @@
-# ANOVA (5 of 7)
+# The ANOVA F-Test: P-value and Conclusion
 
 ```{admonition} Learning Objectives
 :class: note

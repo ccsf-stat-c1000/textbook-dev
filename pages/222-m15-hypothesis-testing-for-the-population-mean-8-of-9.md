@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (8 of 9)
+# Finding the P-value with the t Distribution
 
 ```{admonition} Learning Objectives
 :class: note

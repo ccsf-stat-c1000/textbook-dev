@@ -1,4 +1,4 @@
-# Probability Distribution (5 of 5)
+# Probability Distributions in Action
 
 ```{admonition} Learning Objectives
 :class: note

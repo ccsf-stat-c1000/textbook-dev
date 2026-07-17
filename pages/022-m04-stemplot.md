@@ -1,4 +1,4 @@
-# Stemplot
+# The Stemplot: A Quick Graph by Hand
 
 ```{admonition} Learning Objectives
 :class: note
@@ -89,7 +89,7 @@ The stemplot has additional unique features:
 - It preserves the original data.
 - It sorts the data (which will become very useful in the next section).
 
-## Comment
+## The Dotplot
 
 There is another type of display that we can use to summarize a quantitative variable graphically—the *dotplot*. The dotplot, like the stemplot, shows each observation, but displays it with a dot rather than with its actual value. Here is the dotplot for the ages of Best Actress Oscar winners:
 

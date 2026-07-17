@@ -1,4 +1,4 @@
-# Mean and Variance of a Random Variable (3 of 5)
+# Expected Value in the Real World: Games, Insurance, and Decisions
 
 ```{admonition} Learning Objectives
 :class: note

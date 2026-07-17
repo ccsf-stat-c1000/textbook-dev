@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (8 of 13)
+# Step 4: Drawing Conclusions from the P-value
 
 ```{admonition} Learning Objectives
 :class: note

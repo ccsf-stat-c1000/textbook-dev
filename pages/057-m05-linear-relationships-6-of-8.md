@@ -1,4 +1,4 @@
-# Linear Relationships (6 of 8)
+# Least Squares: Finding the Best-Fitting Line
 
 ```{admonition} Learning Objectives
 :class: note

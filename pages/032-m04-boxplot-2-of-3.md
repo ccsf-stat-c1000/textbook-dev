@@ -1,4 +1,4 @@
-# Boxplot (2 of 3)
+# Building the Boxplot
 
 ```{admonition} Learning Objectives
 :class: note

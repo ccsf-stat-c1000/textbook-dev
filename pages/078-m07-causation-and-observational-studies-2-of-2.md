@@ -1,4 +1,4 @@
-# Causation and Observational Studies (2 of 2)
+# Looking Forward, Looking Back: Prospective and Retrospective Studies
 
 ```{admonition} Learning Objectives
 :class: note

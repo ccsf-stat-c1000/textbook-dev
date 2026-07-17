@@ -1,4 +1,4 @@
-# Case C→Q (2 of 2)
+# Independent Samples vs. Matched Pairs
 
 ```{admonition} Learning Objectives
 :class: note

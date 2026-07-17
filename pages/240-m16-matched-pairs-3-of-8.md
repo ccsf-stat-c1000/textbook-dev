@@ -1,4 +1,4 @@
-# Matched Pairs (3 of 8)
+# The Paired t-Test: Stating the Hypotheses
 
 ```{admonition} Learning Objectives
 :class: note

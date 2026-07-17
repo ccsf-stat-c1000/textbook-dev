@@ -1,4 +1,4 @@
-# Causation and Observational Studies (1 of 2)
+# Why Observational Studies Struggle to Prove Causation
 
 ```{admonition} Learning Objectives
 :class: note

@@ -9,7 +9,7 @@
 
 To better understand the relationship between sample and population, let's consider the two examples that were mentioned in the introduction.
 
-:::{admonition} Example #1: Blood Type
+:::{admonition} Example 1: Blood Type
 :class: tip
 
 In the probability section, we presented the distribution of blood types in the entire U.S. *population*. Assume now that we take a *sample* of 500 people in the United States, record their blood type, and display the sample results. And then we take yet another sample of 500:
@@ -26,7 +26,7 @@ Note that the percentages (or proportions) that we got in each sample are slight
 
 Let's look at another example:
 
-:::{admonition} Example #2: Heights of Adult Males
+:::{admonition} Example 2: Heights of Adult Males
 :class: tip
 
 Heights among the population of all adult males follow a normal distribution with a mean $\mu=69$ inches and a standard deviation $\sigma=2.8$ inches.

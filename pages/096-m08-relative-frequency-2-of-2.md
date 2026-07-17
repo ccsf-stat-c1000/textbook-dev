@@ -1,4 +1,4 @@
-# Relative Frequency (2 of 2)
+# How Good Is the Estimate? Relative Frequency and Sample Size
 
 ```{admonition} Learning Objectives
 :class: note
@@ -16,7 +16,7 @@ The Law of Large Numbers states that as the number of trials increases, the rela
 *Law of Large Numbers:* The actual (or true) probability of an event (A) is estimated by the relative frequency with which the event occurs in a long series of trials.
 ```
 
-## Comments
+## More About Relative Frequency
 
 1. Note that the relative frequency approach provides only an estimate of the probability of an event. However, we can control how good this estimate is by the number of times we repeat the random experiment. The more repetitions that are performed, the closer the *relative frequency* gets to the *true probability* of the event.
 

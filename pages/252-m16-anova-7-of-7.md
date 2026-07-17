@@ -1,4 +1,4 @@
-# ANOVA (7 of 7)
+# After ANOVA: Which Means Differ?
 
 ```{admonition} Learning Objectives
 :class: note

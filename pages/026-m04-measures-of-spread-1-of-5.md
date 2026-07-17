@@ -1,4 +1,4 @@
-# Measures of Spread (1 of 5)
+# Measuring Spread: Why the Center Isn't Enough
 
 ```{admonition} Learning Objectives
 :class: note

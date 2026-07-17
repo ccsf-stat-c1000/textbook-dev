@@ -1,4 +1,4 @@
-# Introduction to Probability (1 of 5)
+# Why Intuition Fails: The Need for Probability Tools
 
 ```{admonition} Learning Objectives
 :class: note

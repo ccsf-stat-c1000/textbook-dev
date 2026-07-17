@@ -1,4 +1,4 @@
-# Sampling (1 of 2)
+# Sampling and Bias: Why How You Choose Matters
 
 ```{admonition} Learning Objectives
 :class: note

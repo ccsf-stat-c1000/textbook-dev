@@ -1,4 +1,4 @@
-# Causation and Experiments (1 of 3)
+# Experiments: Taking Control of the Explanatory Variable
 
 ```{admonition} Learning Objectives
 :class: note
@@ -28,9 +28,11 @@ Your intuition may already tell you, correctly, that *random assignment to treat
 :alt: A diagram of a randomized controlled experiment. From the population, a random sample of 1,000 is selected, and the participants are then randomly assigned to four groups: three treatment groups (drugs, therapy, both) and a control group (neither). Random assignment makes the four groups alike except for the treatment.
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that in a randomized controlled experiment, a randomization procedure may be used in two phases. First, a sample of subjects is collected. Ideally it would be a *random sample* so that it would be perfectly representative of the entire population. (*Comment:* often researchers have no choice but to recruit volunteers. Using volunteers may help to offset one of the drawbacks to experimentation which will be discussed later, namely the problem of noncompliance.) Second, we *assign individuals randomly* to the treatment groups to ensure that the only difference between them will be due to the treatment and we can get evidence of causation. At this stage, randomization is vital.
+```
 
 Let's discuss some other issues related to experimentation.
 
@@ -56,9 +58,11 @@ Recently, experiments have been conducted in which the treatment is a highly inv
 There may even be an experiment designed with only a single treatment. For example, makers of a new hair product may ask a sample of individuals to treat their hair with that product over a period of several weeks, then assess how manageable their hair has become. Such a design is clearly flawed because of the absence of a comparison group, but it is still an experiment because use of the product has been imposed by its manufacturers, rather than chosen naturally by the individuals. A flawed experiment is nevertheless an experiment.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The word *control* is used in at least three different senses. In the context of observational studies, we *control for a confounding variable* by separating it out. Referring to an experiment as a *controlled experiment* stresses that the values of the experiment's explanatory variables (factors) have been assigned by researchers, as opposed to having occurred naturally. In the context of experiments, the *control group* consists of subjects who do not receive a treatment, but who are otherwise handled identically to those who do receive the treatment.
+```
 
 ## Concept Check
 

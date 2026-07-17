@@ -1,4 +1,4 @@
-# Standard Deviation (1 of 3)
+# The Standard Deviation: Measuring Distance from the Mean
 
 ```{admonition} Learning Objectives
 :class: note

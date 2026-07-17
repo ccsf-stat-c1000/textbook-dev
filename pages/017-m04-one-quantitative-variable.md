@@ -1,4 +1,4 @@
-# One Quantitative Variable
+# One Quantitative Variable: An Overview
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (4 of 8)
+# The Structure of a Confidence Interval
 
 ```{admonition} Learning Objectives
 :class: note

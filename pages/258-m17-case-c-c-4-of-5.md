@@ -1,4 +1,4 @@
-# Case C→C (4 of 5)
+# The Chi-Square Test: P-value and Conclusion
 
 ```{admonition} Learning Objectives
 :class: note

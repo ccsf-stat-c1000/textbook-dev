@@ -1,4 +1,4 @@
-# Causation and Lurking Variables (2 of 5)
+# Lurking Variables: The Hidden Third Factor
 
 ```{admonition} Learning Objectives
 :class: note

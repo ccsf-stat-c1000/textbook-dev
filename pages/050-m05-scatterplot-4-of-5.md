@@ -1,4 +1,4 @@
-# Scatterplot (4 of 5)
+# Scatterplot Practice: From Gestation Periods to Fuel Economy
 
 ```{admonition} Learning Objectives
 :class: note
@@ -60,7 +60,8 @@ A study examined how the percentage of participants who completed a survey is af
 * Negative, curvilinear, and strong
 :::
 
-## Comment
+::::{admonition} Comment
+:class: important
 
 This example provides a great opportunity for interpretation of the form of the relationship in context. The positive relationship definitely makes sense in context, but what is the interpretation of the curvilinear form in the context of the problem? How can we explain (in context) the fact that the relationship seems at first to be increasing very rapidly, but then slows down? The following graph will help us:
 
@@ -69,3 +70,4 @@ This example provides a great opportunity for interpretation of the form of the 
 ```
 
 Note that when the monetary incentive increases from \$0 to \$10, the percentage of returned surveys increases sharply—an increase of 27% (from 16% to 43%). However, the same increase of \$10 from \$30 to \$40 doesn't result in the same dramatic increase in the percentage of returned surveys—it results in an increase of only 3% (from 54% to 57%). The form displays the phenomenon of "diminishing returns"—a return rate that after a certain point fails to increase proportionately to additional outlays of investment. \$10 is worth more to people relative to \$0 than it is relative to \$30.
+::::

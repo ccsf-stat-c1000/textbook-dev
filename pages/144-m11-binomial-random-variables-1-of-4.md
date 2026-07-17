@@ -1,4 +1,4 @@
-# Binomial Random Variables (1 of 4)
+# The Binomial Setting: When Is a Variable Binomial?
 
 ```{admonition} Learning Objectives
 :class: note

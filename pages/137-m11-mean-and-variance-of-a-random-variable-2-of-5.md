@@ -1,4 +1,4 @@
-# Mean and Variance of a Random Variable (2 of 5)
+# Expected Value: What Happens in the Long Run
 
 ```{admonition} Learning Objectives
 :class: note

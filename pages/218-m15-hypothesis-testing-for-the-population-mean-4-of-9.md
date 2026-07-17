@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (4 of 9)
+# Step 4: Drawing Conclusions for a Mean
 
 ```{admonition} Learning Objectives
 :class: note

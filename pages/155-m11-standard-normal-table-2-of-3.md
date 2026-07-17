@@ -1,4 +1,4 @@
-# Standard Normal Table (2 of 3)
+# Finding Probabilities from the Table
 
 ```{admonition} Learning Objectives
 :class: note

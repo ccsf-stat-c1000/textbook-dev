@@ -1,4 +1,4 @@
-# Examining Distributions
+# Examining Distributions: One Variable at a Time
 
 As indicated in the introduction, we will begin the EDA part of the course by exploring (or looking at) one variable at a time.
 

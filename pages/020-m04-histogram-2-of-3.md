@@ -1,4 +1,4 @@
-# Histogram (2 of 3)
+# Describing a Distribution: Shape, Center, Spread, and Outliers
 
 ```{admonition} Learning Objectives
 :class: note

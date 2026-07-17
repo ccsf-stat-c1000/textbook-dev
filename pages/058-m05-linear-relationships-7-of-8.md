@@ -1,4 +1,4 @@
-# Linear Relationships (7 of 8)
+# The Regression Line in Action: Slope, Intercept, and Prediction
 
 ```{admonition} Learning Objectives
 :class: note
@@ -20,10 +20,12 @@ Given the five quantities above, the slope and intercept of the least squares re
 
 $$b = r \left(\frac{S_{Y}}{S_{X}}\right) \qquad\qquad a = \bar{Y} - b\bar{X}$$
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Note that since the formula for the intercept *a* depends on the value of the slope, *b*, you need to find *b* first.
 2. The slope of the least squares regression line can be interpreted as the average change in the response variable when the explanatory variable increases by 1 unit.
+```
 
 ::::{admonition} Example: Age-Distance
 :class: tip
@@ -59,9 +61,11 @@ Here is the regression line plotted on the scatterplot:
 As we can see, the regression line fits the linear pattern of the data quite well.
 ::::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 As we mentioned before, hand-calculation is not the focus of this course. We wanted you to see one example in which the least squares regression line is calculated by hand, but in general we'll let statistical software or a calculator do that for us.
+```
 
 ## Concept Check
 

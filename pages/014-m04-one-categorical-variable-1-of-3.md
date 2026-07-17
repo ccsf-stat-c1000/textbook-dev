@@ -1,4 +1,4 @@
-# One Categorical Variable (1 of 3)
+# Summarizing Categorical Data: Counts and Percentages
 
 ```{admonition} Learning Objectives
 :class: note

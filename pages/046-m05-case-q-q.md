@@ -1,4 +1,4 @@
-# Case Q→Q
+# Two Quantitative Variables (Case Q→Q)
 
 ## Case Q→Q: Two Quantitative Variables
 

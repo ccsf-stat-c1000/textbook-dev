@@ -1,4 +1,4 @@
-# Standard Deviation (2 of 3)
+# The Standard Deviation Rule: 68-95-99.7
 
 ```{admonition} Learning Objectives
 :class: note

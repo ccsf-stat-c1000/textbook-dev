@@ -1,4 +1,4 @@
-# Scatterplot (3 of 5)
+# Scatterplots in Action: The Highway Sign Study
 
 ```{admonition} Learning Objectives
 :class: note

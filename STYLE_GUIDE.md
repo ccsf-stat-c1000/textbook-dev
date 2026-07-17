@@ -82,7 +82,10 @@ plain markdown tables labeled "typical software output".
 
 ## Language & math
 
-- Decimals get a leading zero (0.44, not .44).
+- Decimals get a leading zero (0.44, not .44). Exception: the standard normal
+  (z) table pages follow the universal printed-table convention and omit the
+  leading zero for probabilities and the z column/row headers (.0122, .05);
+  keep it that way for those tables and any prose that reads values off them.
 - Math in LaTeX: inline `$\bar{x}$`, display `$$ ... $$`. Prefer LaTeX over
   images of formulas. Standard symbols: $\bar{x}$, $s$, $\mu$, $\sigma$, $\hat{p}$,
   $p$, $H_0$, $H_a$, $\bar{x}_1 - \bar{x}_2$.

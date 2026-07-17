@@ -1,4 +1,4 @@
-# Point Estimation (1 of 2)
+# Point Estimation: Estimating with a Single Number
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Rules (5 of 11)
+# Independent Events: When One Outcome Doesn't Affect Another
 
 ```{admonition} Learning Objectives
 :class: note
@@ -18,7 +18,7 @@ Using a Venn diagram, we can visualize "A and B," which is represented by the ov
 :alt: A Venn diagram with two partially overlapping circles for events A and B inside the sample space rectangle. The overlapping region, highlighted in red, represents the event A and B.
 ```
 
-## Comment
+## Independent Events
 
 There is one special case for which we know what P(A and B) equals without applying any rule.
 
@@ -92,7 +92,7 @@ We can generalize what we learned in the last example and say that when two indi
 
 If we were to change the example to: There are 10 people in a room, 4 of whom have blue eyes. Two people are chosen at random. Let B1 be the event that the first person has blue eyes and let B2 be the event that the second person has blue eyes. In this case, since the two are chosen from a group of only 10 (rather than a large population) the events B1 and B2 are not independent. Clearly, whether or not the first person has blue eyes (i.e., whether or not B1 occurs) does have an effect on whether B2 occurs. You will get more practice on this point in the activities below the next comment.
 
-## Comment: Disjoint vs. Independent
+## Disjoint vs. Independent Events
 
 It is quite common for students to initially get confused about the distinction between the idea of *disjoint events* and the idea of *independent events*. The purpose of this comment (and the activity that follows it) is to help students develop more understanding about these very different ideas.
 

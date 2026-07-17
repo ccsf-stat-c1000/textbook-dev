@@ -1,4 +1,4 @@
-# Modifications to Randomization
+# Blocking and Matched Pairs: Smarter Randomization
 
 ```{admonition} Learning Objectives
 :class: note
@@ -48,9 +48,11 @@ Suppose researchers want to compare the relative merits of toothpastes with and 
 
 "Before-and-after" studies are another common type of matched pairs design. For each individual, the response variable of interest is measured twice: first before the treatment, then again after the treatment. The categorical explanatory variable is which treatment was applied, or whether a treatment was applied, to that participant.
 
-## Comment
+```{admonition} Comment
+:class: important
 
 We have explained data production as a two-stage process: first obtain the sample, then evaluate the variables of interest via an appropriate study design. Even though the steps are carried out in this order chronologically, it is generally best for researchers to decide on a study design before they actually obtain the sample. For the toothpaste example above, researchers would first decide to use the matched pairs design, then obtain a sample of identical twins, then carry out the experiment and assess the results.
+```
 
 ## Concept Check
 

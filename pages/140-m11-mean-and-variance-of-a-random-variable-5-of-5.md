@@ -1,4 +1,4 @@
-# Mean and Variance of a Random Variable (5 of 5)
+# Same Mean, Different Risk: Comparing Random Variables
 
 ```{admonition} Learning Objectives
 :class: note

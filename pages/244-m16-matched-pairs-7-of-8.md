@@ -1,4 +1,4 @@
-# Matched Pairs (7 of 8)
+# A Confidence Interval for the Mean Difference
 
 ```{admonition} Learning Objectives
 :class: note

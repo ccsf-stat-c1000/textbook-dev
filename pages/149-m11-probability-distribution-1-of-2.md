@@ -1,4 +1,4 @@
-# Probability Distribution (1 of 2)
+# From Histogram to Density Curve
 
 ```{admonition} Learning Objectives
 :class: note

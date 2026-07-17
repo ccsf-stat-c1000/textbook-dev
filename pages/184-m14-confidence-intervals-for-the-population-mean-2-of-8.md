@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (2 of 8)
+# Building the 95% Confidence Interval for a Mean
 
 ```{admonition} Learning Objectives
 :class: note

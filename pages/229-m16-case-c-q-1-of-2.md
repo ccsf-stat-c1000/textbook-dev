@@ -1,4 +1,4 @@
-# Case C→Q (1 of 2)
+# Case C→Q: Comparing Groups
 
 ```{admonition} Learning Objectives
 :class: note

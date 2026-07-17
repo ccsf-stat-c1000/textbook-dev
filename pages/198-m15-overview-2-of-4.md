@@ -1,4 +1,4 @@
-# Overview (2 of 4)
+# The Four Steps of a Hypothesis Test
 
 ```{admonition} Learning Objectives
 :class: note

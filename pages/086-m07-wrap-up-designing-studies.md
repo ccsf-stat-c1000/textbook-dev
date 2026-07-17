@@ -1,4 +1,4 @@
-# Wrap-Up (Designing Studies)
+# Wrap-Up: Designing Studies
 
 In this module we distinguished among different types of studies and learned the details of each type of study design. By doing so, we also deepened our understanding of the issue of establishing causation, a theme that also runs through the Exploratory Data Analysis unit of the course. A general principle of statistics is that association does not imply causation: lurking variables might be responsible for the association we observe, which means we cannot establish that there is a causal relationship between our explanatory variable and our response variable.
 

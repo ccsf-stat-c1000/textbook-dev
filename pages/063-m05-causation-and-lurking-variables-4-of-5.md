@@ -1,4 +1,4 @@
-# Causation and Lurking Variables (4 of 5)
+# Simpson's Paradox: When Combining Groups Reverses the Story
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Sample Spaces and Events (1 of 2)
+# Sample Spaces: Listing What Can Happen
 
 ```{admonition} Learning Objectives
 :class: note
@@ -17,7 +17,7 @@ Here are a few examples of random experiments:
 5. Choose a person at random and check his or her blood type. In this random experiment the possible outcomes are the four blood types: {A, B, AB, O}.
 6. There are two job openings for a staff position at a certain college, and 4 equally qualified candidates for the job (Ann, Beth, Jim and Dan). For fairness, the human resources department decides to choose two of the four candidates at random. The possible outcomes of this random experiment are all possible pairs of candidates: { (Ann, Beth), (Ann, Jim), (Ann, Dan), (Beth, Jim), (Beth, Dan), (Jim, Dan) }.
 
-## Comment: Does Order Matter?
+## Does Order Matter?
 
 Note that when a coin is tossed twice, as in example 2, the possible outcome HT (indicating that the first toss was H and the second T) is NOT the same as the outcome TH (indicating that T occurred first and then H), and therefore both outcomes were listed separately. This is an example of a situation when order does matter. However, order does not always matter. Example 6 is a case in which order does not matter. The outcome (Ann, Beth) indicates that Ann and Beth are the two randomly chosen to get the jobs. Whether Ann appears first or Beth does is irrelevant in this case, and therefore (Beth, Ann) was *not* listed as a separate outcome.
 

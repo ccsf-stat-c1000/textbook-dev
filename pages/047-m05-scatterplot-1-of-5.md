@@ -1,4 +1,4 @@
-# Scatterplot (1 of 5)
+# The Scatterplot: Displaying Two Quantitative Variables
 
 ```{admonition} Learning Objectives
 :class: note
@@ -44,6 +44,8 @@ To create a scatterplot, each pair of values is plotted, so that the value of th
 ```
 ::::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 It is important to mention again that when creating a scatterplot, the explanatory variable should always be plotted on the horizontal X-axis, and the response variable should be plotted on the vertical Y-axis. If in a specific example we do not have a clear distinction between explanatory and response variables, each of the variables can be plotted on either axis.
+```

@@ -1,4 +1,4 @@
-# Case Q→Q (3 of 3)
+# Estimating the Regression Line
 
 ```{admonition} Learning Objectives
 :class: note

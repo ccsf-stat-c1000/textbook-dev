@@ -1,4 +1,4 @@
-# Probability Trees (2 of 3)
+# Trees and Total Probability
 
 ```{admonition} Learning Objectives
 :class: note

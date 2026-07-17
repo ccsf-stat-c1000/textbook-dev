@@ -1,4 +1,4 @@
-# Binomial Random Variables (2 of 4)
+# Building the Binomial Probability Formula
 
 ```{admonition} Learning Objectives
 :class: note

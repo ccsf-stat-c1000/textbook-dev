@@ -1,4 +1,4 @@
-# Probability Rules (7 of 11)
+# Extending the Rules: More Than Two Events
 
 ```{admonition} Learning Objectives
 :class: note
@@ -8,11 +8,13 @@
 
 As you've seen, the last three rules that we've introduced (the Complement Rule, the Addition Rule for Disjoint Events, and the Multiplication Rule for Independent Events) are frequently used in solving problems. Before we move on to our next rule, here are two comments that will help you use these rules in broader types of problems and more effectively.
 
-## Comment
+```{admonition} Comment
+:class: important
 
 As we mentioned before, the Addition Rule can be extended to more than two disjoint events. Likewise, the Multiplication Rule can be extended to more than two independent events. So if A, B and C are three independent events, for example, then P(A and B and C) = P(A) × P(B) × P(C). These extensions are quite straightforward, as long as you remember that "or" requires us to add, while "and" requires us to multiply.
 
 An example of a situation where more than two independent events naturally occur is when a random sample of more than two individuals is chosen from a large population.
+```
 
 Here is an example:
 

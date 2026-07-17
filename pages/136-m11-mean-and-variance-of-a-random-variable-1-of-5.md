@@ -1,4 +1,4 @@
-# Mean and Variance of a Random Variable (1 of 5)
+# The Mean of a Random Variable: A Weighted Average
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Wrap-Up (Conditional Probability and Independence)
+# Wrap-Up: Conditional Probability and Independence
 
 This module introduced you to the fundamental concept of *conditional probability*—the probability of an event given that another event has occurred. We saw that sometimes the knowledge that another event has occurred has no impact on the probability (when the two events are *independent*), and sometimes it does (when the two events are not independent).
 

@@ -1,4 +1,4 @@
-# Sample Surveys (1 of 2)
+# Sample Surveys: Asking the Right People the Right Way
 
 ```{admonition} Learning Objectives
 :class: note

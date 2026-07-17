@@ -1,4 +1,4 @@
-# Case C→C (3 of 5)
+# The Chi-Square Statistic: Conditions and Computation
 
 ```{admonition} Learning Objectives
 :class: note

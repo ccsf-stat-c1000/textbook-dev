@@ -1,4 +1,4 @@
-# Probability Rules (6 of 11)
+# The Multiplication Rule for Independent Events: Finding P(A and B)
 
 ```{admonition} Learning Objectives
 :class: note
@@ -12,9 +12,11 @@
 *If A and B are two independent events, then P(A and B) = P(A) × P(B).*
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 When dealing with probabilities, the word *"and"* will always be associated with the operation of *multiplication*; hence the name of this rule, "The Multiplication Rule."
+```
 
 :::{admonition} Example: Two Type O Donors
 :class: tip
@@ -74,9 +76,11 @@ $$P(\text{same blood type}) = 0.44^2 + 0.42^2 + 0.10^2 + 0.04^2 = 0.1936 + 0.176
 About 38% of the time, two randomly chosen U.S. people would have the same blood type. Note that in this example we used the Addition Rule and the Multiplication Rule one after the other, justifying along the way why it is appropriate to do so.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The purpose of this comment is to point out the magnitude of P(A or B) and of P(A and B) relative to either one of the individual probabilities. Since probabilities are never negative, the probability of one event *or* another is always at least as large as either of the individual probabilities. Since probabilities are never more than 1, the probability of one event *and* another generally involves multiplying numbers that are less than 1, and therefore can never be more than either of the individual probabilities.
+```
 
 Here is an example:
 

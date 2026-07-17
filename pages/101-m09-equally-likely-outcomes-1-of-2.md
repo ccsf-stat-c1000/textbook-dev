@@ -1,4 +1,4 @@
-# Equally Likely Outcomes (1 of 2)
+# Equally Likely Outcomes: Counting Your Way to Probability
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Rules (11 of 11)
+# Solving Problems with Probability Tables
 
 ```{admonition} Learning Objectives
 :class: note

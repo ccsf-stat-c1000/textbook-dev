@@ -1,4 +1,4 @@
-# Probability Trees (1 of 3)
+# Probability Trees: Mapping Multi-Stage Problems
 
 ```{admonition} Learning Objectives
 :class: note

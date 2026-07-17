@@ -1,4 +1,4 @@
-# Introduction to Producing Data
+# Producing Data: Why Good Answers Start with Good Data
 
 Recall "The Big Picture," the four-step process that encompasses statistics: data production, exploratory data analysis, probability, and inference.
 

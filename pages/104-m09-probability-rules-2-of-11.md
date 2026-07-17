@@ -1,4 +1,4 @@
-# Probability Rules (2 of 11)
+# The Complement Rule: The Other Side of the Coin
 
 ```{admonition} Learning Objectives
 :class: note
@@ -12,9 +12,11 @@ Let's move on to rule 3. In probability and in its applications, we are frequent
 :alt: A Venn diagram. The entire sample space S is a shaded rectangle. Inside it is a blue circle representing the outcomes in A. Everything in the rectangle outside the circle is the complement event, not A.
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Such a visual display is called a "Venn diagram." A Venn diagram is a simple way to visualize events and the relationships between them using rectangles and circles. We will use Venn diagrams throughout this module.
+```
 
 Rule 3 deals with the relationship between the probability of an event and the probability of its complement event. Given that event A and event "not A" together make up the whole sample space S, and since rule 2 tells us that P(S) = 1, the following rule should be quite intuitive:
 
@@ -43,9 +45,11 @@ Here is some additional information:
 What is the probability that a randomly chosen person cannot donate blood to everyone? In other words, what is the probability that a randomly chosen person does not have blood type O? We need to find P(not O). Using the Complement Rule, P(not O) = 1 − P(O) = 1 − 0.44 = 0.56. In other words, 56% of the U.S. population does not have blood type O.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that the Complement Rule, *P(not A) = 1 − P(A)*, can be re-formulated as *P(A) = 1 − P(not A).* This seemingly trivial algebraic manipulation has an important application, and actually captures the strength of the complement rule. In some cases, when finding P(A) directly is very complicated, it might be much easier to find P(not A) and then just subtract it from 1 to get the desired P(A). We will come back to this comment and see examples later in this module.
+```
 
 ## Did I Get This?
 

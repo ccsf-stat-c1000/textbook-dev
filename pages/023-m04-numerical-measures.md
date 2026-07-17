@@ -1,4 +1,4 @@
-# Numerical Measures
+# Beyond Graphs: Putting Numbers to a Distribution
 
 The overall pattern of the distribution of a quantitative variable is described by its shape, center, and spread. By inspecting the histogram, we can describe the shape of the distribution, but as we saw, we can only get a rough estimate for the center and spread. A description of the distribution of a quantitative variable must include, in addition to the graphical display, a more precise numerical description of the center and spread of the distribution. In this section we will learn:
 

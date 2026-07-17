@@ -1,4 +1,4 @@
-# Measures of Spread (5 of 5)
+# Outliers: When to Investigate, Keep, or Discard
 
 ```{admonition} Learning Objectives
 :class: note

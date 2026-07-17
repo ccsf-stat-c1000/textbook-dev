@@ -1,4 +1,4 @@
-# Continuous Random Variables
+# Continuous Random Variables: An Introduction
 
 In the previous section, we discussed discrete random variables: random variables whose possible values are a list of distinct numbers. We talked about their probability distributions, means, and standard deviations. We are now moving on to discuss continuous random variables: random variables which can take any value in an interval, so that all of their possible values cannot be listed (such as height, weight, temperature, time, etc.)
 

@@ -1,4 +1,4 @@
-# Matched Pairs (5 of 8)
+# The Paired t-Test: P-value and Conclusion
 
 ```{admonition} Learning Objectives
 :class: note

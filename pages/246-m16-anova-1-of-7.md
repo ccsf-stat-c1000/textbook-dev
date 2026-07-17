@@ -1,4 +1,4 @@
-# ANOVA (1 of 7)
+# Comparing More Than Two Means: ANOVA
 
 ```{admonition} Learning Objectives
 :class: note

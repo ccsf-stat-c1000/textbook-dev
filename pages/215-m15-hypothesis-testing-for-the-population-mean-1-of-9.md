@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (1 of 9)
+# The z-Test for a Mean: Overview
 
 ```{admonition} Learning Objectives
 :class: note

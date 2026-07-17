@@ -1,4 +1,4 @@
-# Wrap-Up (Random Variables)
+# Wrap-Up: Random Variables
 
 We have finally reached the end of this module, where we were introduced to the important concept of *random variables*, which are quantitative variables whose value is determined by the outcome of a random experiment.
 

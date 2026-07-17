@@ -1,4 +1,4 @@
-# Case C→C (2 of 5)
+# The Chi-Square Test: Hypotheses and the Big Idea
 
 ```{admonition} Learning Objectives
 :class: note

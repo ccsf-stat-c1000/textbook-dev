@@ -1,4 +1,4 @@
-# Introduction to Inference (1 of 2)
+# From Sample to Population: The Idea of Inference
 
 Recall again the Big Picture, the four-step process that encompasses statistics: data production, exploratory data analysis, probability, and inference.
 

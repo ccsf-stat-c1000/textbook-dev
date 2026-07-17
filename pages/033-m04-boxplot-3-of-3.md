@@ -1,4 +1,4 @@
-# Boxplot (3 of 3)
+# Side-by-Side Boxplots: Comparing Groups at a Glance
 
 ```{admonition} Learning Objectives
 :class: note

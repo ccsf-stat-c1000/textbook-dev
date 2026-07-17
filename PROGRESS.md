@@ -90,10 +90,22 @@ In addition, `pages/074-m07-introduction.md` and
 order-neutral (they refer to the EDA unit without implying it came before
 or after), so they need no changes if the order is swapped again.
 
+## Descriptive page titles + editorial review (July 2026)
+
+- Descriptive H1 titles: every built page (m03-m17) now has a descriptive
+  title instead of the OLI "Topic (n of m)" boilerplate. The only pages still
+  using numbered titles are the two excluded m02 pages (`006`, `007`).
+- Editorial review recorded in `BOOK_REVIEW.md`. Fixes applied from it:
+  `intro.md` polished (US "License", unwrapped prose, trailing spaces removed);
+  the lone `## Example` H2 (page `011`) converted to the admonition tip form and
+  "Example #1/#2" numbering fixed on page `165`; the z-table leading-zero
+  convention documented as a deliberate exception in `STYLE_GUIDE.md`.
+- Still open from the review: quiz-section headings are inconsistent
+  ("Concept Check" vs retained "Did I Get This?"/"Learn By Doing"); and the
+  "Comment" sections mix `## Comment` H2 with `{admonition} Comment` boxes.
+
 ## Notes / open questions
 
-- `toc.yml` appendix references `notebooks/notebook06.ipynb` (Python-specific).
-  Left in place; confirm whether it should stay given technology-agnostic goal.
 - `pages/unused/003-m01-pre-course-survey.md` left unused.
 - OLI scrape gaps (`oli_content/oli_pages/undefined_*.html`) were interactive
   activities (StatTutor, simulations); per decision they are removed, not recreated.

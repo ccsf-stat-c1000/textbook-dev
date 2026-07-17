@@ -1,4 +1,4 @@
-# Introduction to Normal Random Variables (1 of 3)
+# The Normal Distribution: Shape, Center, and Spread
 
 ```{admonition} Learning Objectives
 :class: note

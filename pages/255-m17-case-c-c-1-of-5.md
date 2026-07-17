@@ -1,4 +1,4 @@
-# Case C→C (1 of 5)
+# Case C→C: Relationships Between Categorical Variables
 
 ```{admonition} Learning Objectives
 :class: note

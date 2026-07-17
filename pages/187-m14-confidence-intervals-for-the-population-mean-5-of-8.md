@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (5 of 8)
+# Margin of Error and the Precision of an Interval
 
 ```{admonition} Learning Objectives
 :class: note

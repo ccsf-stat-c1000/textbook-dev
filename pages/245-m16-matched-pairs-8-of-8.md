@@ -1,4 +1,4 @@
-# Matched Pairs (8 of 8)
+# The Paired t-Test: Summary
 
 ## Let's Summarize
 

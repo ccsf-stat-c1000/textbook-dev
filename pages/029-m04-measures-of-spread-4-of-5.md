@@ -1,4 +1,4 @@
-# Measures of Spread (4 of 5)
+# The 1.5(IQR) Rule: Flagging Suspected Outliers
 
 ```{admonition} Learning Objectives
 :class: note

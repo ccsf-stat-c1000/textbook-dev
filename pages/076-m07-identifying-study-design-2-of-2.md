@@ -1,4 +1,4 @@
-# Identifying Study Design (2 of 2)
+# Identifying Study Designs: Practice with Real Studies
 
 ```{admonition} Learning Objectives
 :class: note

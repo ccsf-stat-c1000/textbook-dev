@@ -1,4 +1,4 @@
-# Applications (1 of 2)
+# Normal Applications: From Values to Probabilities
 
 ```{admonition} Learning Objectives
 :class: note

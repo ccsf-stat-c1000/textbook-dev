@@ -1,4 +1,4 @@
-# Discrete Random Variables
+# Discrete Random Variables: An Introduction
 
 As the introduction suggests, the first part of this module will be devoted to discrete random variables: variables whose possible values are a list of distinct values. In order to decide on some notation, let's look at the coin toss example again:
 

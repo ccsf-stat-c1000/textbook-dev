@@ -1,4 +1,4 @@
-# Normal Approximation to the Binomial (2 of 3)
+# The Normal Approximation and When to Use It
 
 ```{admonition} Learning Objectives
 :class: note

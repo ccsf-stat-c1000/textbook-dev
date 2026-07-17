@@ -1,4 +1,4 @@
-# Rules for Means and Variances of Random Variables (1 of 3)
+# Shifting and Scaling a Random Variable
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (10 of 13)
+# The Effect of Sample Size on Testing
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Independence (1 of 2)
+# Testing for Independence with Conditional Probabilities
 
 ```{admonition} Learning Objectives
 :class: note

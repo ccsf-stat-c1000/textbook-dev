@@ -1,4 +1,4 @@
-# Behavior of Sample Mean (1 of 3)
+# The Sample Mean: Center, Spread, and Shape
 
 ```{admonition} Learning Objectives
 :class: note

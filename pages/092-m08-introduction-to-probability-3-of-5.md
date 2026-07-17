@@ -1,4 +1,4 @@
-# Introduction to Probability (3 of 5)
+# What Is Probability? Language and Notation
 
 ```{admonition} Learning Objectives
 :class: note

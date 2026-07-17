@@ -1,4 +1,4 @@
-# The Role-Type Classification (2 of 2)
+# The Role-Type Classification: A Roadmap for Relationships
 
 ```{admonition} Learning Objectives
 :class: note

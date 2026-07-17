@@ -1,4 +1,4 @@
-# Linear Relationships (4 of 8)
+# Cautions About Correlation: Linearity, Units, and Outliers
 
 ```{admonition} Learning Objectives
 :class: note

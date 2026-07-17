@@ -1,4 +1,4 @@
-# Behavior of Sample Proportion (2 of 3)
+# The Sampling Distribution of the Sample Proportion
 
 ```{admonition} Learning Objectives
 :class: note

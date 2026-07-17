@@ -1,4 +1,4 @@
-# Random Variables (1 of 2)
+# Random Variables: Numbers from Random Experiments
 
 ```{admonition} Learning Objectives
 :class: note

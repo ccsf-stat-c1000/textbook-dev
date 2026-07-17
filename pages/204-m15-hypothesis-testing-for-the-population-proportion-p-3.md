@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (3 of 13)
+# Step 2: Collecting and Summarizing the Data
 
 ```{admonition} Learning Objectives
 :class: note

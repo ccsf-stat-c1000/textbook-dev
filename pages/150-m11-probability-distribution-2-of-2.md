@@ -1,4 +1,4 @@
-# Probability Distribution (2 of 2)
+# Probability as Area Under a Density Curve
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Conditional Probability and Independence
+# Conditional Probability and Independence: When Information Changes the Odds
 
 ## Introduction
 

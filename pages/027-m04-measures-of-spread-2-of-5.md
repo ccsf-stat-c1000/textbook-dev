@@ -1,4 +1,4 @@
-# Measures of Spread (2 of 5)
+# Quartiles and the Middle Half of the Data
 
 ```{admonition} Learning Objectives
 :class: note
@@ -23,7 +23,8 @@ Here is how the IQR is actually found:
 3. Repeat this again for the top 50% of the data. Find the median of the top 50% of the data. This point is called the third quartile of the distribution, and is denoted by Q3. Note from the picture that Q3 divides the top 50% of the data into two halves, with 25% of the data points in each. Q3 is called the third quartile, since three quarters of the data points fall below it.
 4. The middle 50% of the data falls between Q1 and Q3, and therefore: IQR = Q3 − Q1
 
-## Comments
+::::{admonition} Comments
+:class: important
 
 1. The last picture shows that Q1, M, and Q3 divide the data into four quarters with 25% of the data points in each, where the median is essentially the second quartile. The use of IQR = Q3 − Q1 as a measure of spread is therefore particularly appropriate when the median M is used as a measure of center.
 
@@ -34,3 +35,4 @@ Here is how the IQR is actually found:
    ```
 
    Note that when n is odd (as in n = 7 above), the median is *not* included in either the bottom or top half of the data; when n is even (as in n = 8 above), the data are naturally divided into two halves.
+::::

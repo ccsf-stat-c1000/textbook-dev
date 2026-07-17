@@ -1,4 +1,4 @@
-# Mean and Variance of a Random Variable (4 of 5)
+# The Variance and Standard Deviation of a Random Variable
 
 ```{admonition} Learning Objectives
 :class: note

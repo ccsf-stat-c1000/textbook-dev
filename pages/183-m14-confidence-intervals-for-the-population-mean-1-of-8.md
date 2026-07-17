@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (1 of 8)
+# Confidence Intervals for a Mean: An Overview
 
 ```{admonition} Learning Objectives
 :class: note

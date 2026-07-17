@@ -1,4 +1,4 @@
-# Scatterplot (2 of 5)
+# Reading a Scatterplot: Direction, Form, and Strength
 
 ```{admonition} Learning Objectives
 :class: note

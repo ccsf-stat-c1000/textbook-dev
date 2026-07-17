@@ -1,4 +1,4 @@
-# Finding Probability of Events
+# Finding the Probability of Events
 
 In the previous module, we introduced probability as a way to quantify the uncertainty that arises from conducting experiments using a random sample of the population of interest. We saw that the probability of an event (for example, the event that a randomly chosen person has blood type O) can be estimated by the relative frequency with which the event occurs in a long series of trials. So we would collect data from lots of individuals to estimate the probability of someone having blood type O.
 

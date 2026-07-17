@@ -1,4 +1,4 @@
-# Causation and Experiments (3 of 3)
+# When Experiments Aren't Possible: Ethics and Other Pitfalls
 
 ```{admonition} Learning Objectives
 :class: note

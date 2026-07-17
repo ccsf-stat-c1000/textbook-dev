@@ -1,4 +1,4 @@
-# Histogram (1 of 3)
+# The Histogram: Seeing the Shape of the Data
 
 ```{admonition} Learning Objectives
 :class: note
@@ -98,13 +98,15 @@ Here is the frequency table from above; use it to answer the questions.
 * 27%
 :::
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. It is very important that each observation be counted only in one interval. For the most part, it is clear which interval an observation falls in. However, in our example, we needed to decide whether to include 60 in the interval 50–60, or the interval 60–70, and we chose to count it in the latter. In fact, this decision is captured by the way we wrote the intervals. If you scroll up and look at the table, you'll see that we wrote the intervals in a peculiar way: [40–50), [50–60), [60–70), and so on. The square bracket means "including," and the parenthesis means "not including." For example, [50–60) is the interval from 50 to 60, including 50 and not including 60; [60–70) is the interval from 60 to 70, including 60, and not including 70. It does not matter how you decide to set up your intervals as long as you're consistent.
 
 2. When data are displayed in a histogram, some information is lost. Note that by looking at the histogram we *can* answer: "How many students scored 70 or above?" (5 + 2 + 1 = 8) But we *cannot* answer: "What was the lowest score?" All we can say is that the lowest score is somewhere between 40 and 50, and therefore we can approximate that it is around 45.
 
 3. Obviously, we could have chosen to break the data into intervals differently (for example, 45–50, 50–55, 55–60). There is no single "correct" choice: wider bins give a smoother but coarser picture, while narrower bins show more detail but can look jagged. When you create histograms using statistical software or a calculator, try a few different bin widths and notice how the shape of the histogram changes.
+```
 
 :::{quiz} Using only the histogram of the 15 exam grades (not the raw data), which of the following questions can you answer exactly?
 :hint: A histogram tells you how many observations fall in each interval, but not the individual values.

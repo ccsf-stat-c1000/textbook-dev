@@ -1,4 +1,4 @@
-# Matched Pairs (6 of 8)
+# The Paired t-Test: Worked Examples
 
 ```{admonition} Learning Objectives
 :class: note

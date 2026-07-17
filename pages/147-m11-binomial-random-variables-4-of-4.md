@@ -1,4 +1,4 @@
-# Binomial Random Variables (4 of 4)
+# The Mean, Standard Deviation, and Shape of a Binomial
 
 ```{admonition} Learning Objectives
 :class: note

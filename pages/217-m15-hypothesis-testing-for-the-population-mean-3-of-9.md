@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (3 of 9)
+# Step 3: Finding the P-value for a Mean
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Two Independent Samples (6 of 7)
+# A Confidence Interval for the Difference of Two Means
 
 ```{admonition} Learning Objectives
 :class: note

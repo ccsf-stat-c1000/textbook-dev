@@ -1,4 +1,4 @@
-# Behavior of Sample Proportion (3 of 3)
+# Finding Probabilities for a Sample Proportion
 
 ```{admonition} Learning Objectives
 :class: note

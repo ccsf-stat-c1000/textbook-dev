@@ -1,4 +1,4 @@
-# Two Independent Samples (7 of 7)
+# Connecting the Interval and the Test
 
 ```{admonition} Learning Objectives
 :class: note

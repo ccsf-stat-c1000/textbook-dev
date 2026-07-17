@@ -1,4 +1,4 @@
-# Conditional Probability (2 of 2)
+# The Conditional Probability Formula
 
 ```{admonition} Learning Objectives
 :class: note

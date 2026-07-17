@@ -1,4 +1,4 @@
-# Probability Rules (10 of 11)
+# Probability Tables: Organizing the Possibilities
 
 ```{admonition} Learning Objectives
 :class: note
@@ -38,7 +38,8 @@ Now that we've completed the table, it is important to understand what each of t
 - P(not A and B) = 0.05 → on-time delivery ONLY by service B
 - P(not A and not B) = 0.05 → neither service delivered on time
 
-## Comment
+:::{admonition} Comment
+:class: important
 
 A common mistake is to confuse P(A) = P(event A occurs) with P(A and not B) = P(ONLY event A occurs) (and similarly, P(B) = P(event B occurs) with P(not A and B) = P(only event B occurs)).
 
@@ -54,6 +55,7 @@ P(A) = 0.90 means that in 90% of the cases when service A is used, it delivers t
 Similarly, reading down the first column:
 
 $$P(B) = P(A \text{ and } B) + P(\text{not } A \text{ and } B) = 0.75 + 0.05 = 0.80$$
+:::
 
 ## Learn By Doing
 
@@ -92,11 +94,13 @@ Complete the table below. Start with the information that is given and go from t
 * 0.60
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 In both the delivery problem and the smoke detector problem, we knew P(A), P(B) and P(A and B). (In the smoke detector problem, we actually needed to work a bit to get P(A and B), but it wasn't too bad.) That was enough information to complete the table.
 
 This, however, is not the only combination of three values that would provide sufficient information to complete the table. Essentially, as long as we are given (or can calculate) one value in each of the margins (the total row and the total column), and one of the four cells in the body of the table, we'll be able to complete the entire table.
+```
 
 ## Did I Get This?
 
@@ -124,6 +128,8 @@ Records on traffic accidents in a certain region show that 87% of the accidents 
 * 0.49
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 When we used two-way tables in the Exploratory Data Analysis (EDA) section, it was to record values of two categorical variables for a concrete *sample* of individuals. In contrast, the information in a probability two-way table is for an entire *population*, and the values are rather abstract. If we had treated something like the delivery example in the EDA section, we would have recorded the actual numbers of on-time (and not-on-time) deliveries for samples of documents mailed with service A or B. In this section, the long-term probabilities are presented as being known. Presumably, those probabilities were based on relative frequencies recorded over many repetitions.
+```

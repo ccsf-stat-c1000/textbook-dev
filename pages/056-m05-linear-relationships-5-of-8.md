@@ -1,4 +1,4 @@
-# Linear Relationships (5 of 8)
+# Summarizing a Linear Relationship with a Line
 
 ```{admonition} Learning Objectives
 :class: note

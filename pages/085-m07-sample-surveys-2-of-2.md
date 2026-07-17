@@ -1,4 +1,4 @@
-# Sample Surveys (2 of 2)
+# Question Wording and Other Survey Pitfalls
 
 ```{admonition} Learning Objectives
 :class: note

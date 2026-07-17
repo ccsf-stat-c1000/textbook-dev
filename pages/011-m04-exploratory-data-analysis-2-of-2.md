@@ -1,4 +1,4 @@
-# Exploratory Data Analysis (2 of 2)
+# Data and Variables: The Raw Material of Statistics
 
 Before we jump into exploratory data analysis and really appreciate its importance in the process of statistical analysis, let's step back for a minute and ask:
 
@@ -8,7 +8,9 @@ What do we really mean by *data*?
 
 A *dataset* is a set of data identified with particular circumstances. Datasets are typically displayed in tables, in which rows represent individuals and columns represent variables.
 
-## Example: Medical Records
+:::{admonition} Example: Medical Records
+:class: tip
+
 The following dataset shows medical records from a particular survey:
 
 | Individual | Gender (M/F) | Age | Weight (lbs.) | Height (in.) | Smoking (1=No, 2=Yes) | Race |
@@ -22,6 +24,7 @@ The following dataset shows medical records from a particular survey:
 Each row represents an individual (a patient), and each column represents a variable.
 
 In this example, the individuals are patients, and the variables are Gender, Age, Weight, Height, Smoking, and Race. Each row, then, gives us all the information about a particular individual (in this case, patient), and each column gives us information about a particular characteristic of all the patients.
+:::
 
 Variables can be classified into one of two types: categorical or quantitative.
 

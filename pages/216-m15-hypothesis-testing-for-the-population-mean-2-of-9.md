@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (2 of 9)
+# Stating Hypotheses and Summarizing Data for a Mean
 
 ```{admonition} Learning Objectives
 :class: note

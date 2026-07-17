@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (2 of 13)
+# Step 1: Stating the Hypotheses for a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

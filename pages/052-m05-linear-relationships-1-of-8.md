@@ -1,4 +1,4 @@
-# Linear Relationships (1 of 8)
+# Why Eyes Aren't Enough: The Case for Measuring Correlation
 
 ```{admonition} Learning Objectives
 :class: note

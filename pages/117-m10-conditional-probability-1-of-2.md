@@ -1,4 +1,4 @@
-# Conditional Probability (1 of 2)
+# Conditional Probability: Updating on What You Know
 
 ```{admonition} Learning Objectives
 :class: note

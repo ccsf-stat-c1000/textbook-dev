@@ -1,4 +1,4 @@
-# Rules for Means and Variances of Random Variables (3 of 3)
+# Adding Random Variables: Sums of Means and Variances
 
 ```{admonition} Learning Objectives
 :class: note

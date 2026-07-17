@@ -1,4 +1,4 @@
-# The General Multiplication Rule (2 of 2)
+# The General Multiplication Rule in Action
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Distribution (1 of 5)
+# The Probability Distribution of a Discrete Random Variable
 
 ```{admonition} Learning Objectives
 :class: note

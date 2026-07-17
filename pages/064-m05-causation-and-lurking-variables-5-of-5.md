@@ -1,4 +1,4 @@
-# Causation and Lurking Variables (5 of 5)
+# When Lurking Variables Deepen (Rather Than Reverse) the Story
 
 ```{admonition} Learning Objectives
 :class: note

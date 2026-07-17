@@ -1,4 +1,4 @@
-# Causation and Lurking Variables (3 of 5)
+# Lurking Variables in Action: The SAT Score Gap
 
 ```{admonition} Learning Objectives
 :class: note

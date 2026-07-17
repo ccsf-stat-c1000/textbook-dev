@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (6 of 8)
+# Choosing a Sample Size for a Desired Margin of Error
 
 ```{admonition} Learning Objectives
 :class: note

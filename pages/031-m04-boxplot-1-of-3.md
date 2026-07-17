@@ -1,4 +1,4 @@
-# Boxplot (1 of 3)
+# The Five-Number Summary
 
 ```{admonition} Learning Objectives
 :class: note

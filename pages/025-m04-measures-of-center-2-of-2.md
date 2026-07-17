@@ -1,4 +1,4 @@
-# Measures of Center (2 of 2)
+# Mean vs. Median: How Shape and Outliers Decide
 
 ```{admonition} Learning Objectives
 :class: note

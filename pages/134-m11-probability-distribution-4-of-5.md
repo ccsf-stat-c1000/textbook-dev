@@ -1,4 +1,4 @@
-# Probability Distribution (4 of 5)
+# Finding Probabilities from a Distribution
 
 ```{admonition} Learning Objectives
 :class: note

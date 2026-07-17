@@ -1,4 +1,4 @@
-# Equally Likely Outcomes (2 of 2)
+# Equally Likely Outcomes: Practice with Two Dice
 
 ```{admonition} Learning Objectives
 :class: note
@@ -32,9 +32,11 @@ The probability that the selection will appear to be discriminatory is therefore
 $$P(D) = \frac{4}{10} = 0.4$$
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 It should be noted that in this example it was still manageable to list all the possible outcomes, and then count the number of outcomes that are in event D. If we were to change the example slightly, and needed to choose 2 candidates out of, say, 10 (instead of 5), the number of possible outcomes would grow substantially (from 10 to 45) and listing all of those outcomes would be quite time-consuming and tiresome. Later in the probability section we will learn some simple counting methods that will allow us to figure out the number of possible outcomes without actually listing them.
+```
 
 ## Did I Get This?
 
@@ -60,11 +62,13 @@ A flight has been overbooked; however, there are 2 seats available—one in busi
 * 2/6
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 It is important to note that it is not always the case that all the outcomes of a random experiment are equally likely.
 
 A common mistake among students who are exposed to probability for the first time is to assume that all the outcomes of a random experiment are equally likely when in fact they are not.
+```
 
 Here is an example.
 

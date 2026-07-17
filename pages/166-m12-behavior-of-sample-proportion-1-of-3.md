@@ -1,4 +1,4 @@
-# Behavior of Sample Proportion (1 of 3)
+# The Sample Proportion: Center, Spread, and Shape
 
 ```{admonition} Learning Objectives
 :class: note

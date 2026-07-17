@@ -1,4 +1,4 @@
-# Point Estimation (2 of 2)
+# What Makes a Good Point Estimator?
 
 ```{admonition} Learning Objectives
 :class: note

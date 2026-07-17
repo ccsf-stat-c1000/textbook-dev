@@ -1,4 +1,4 @@
-# Case C→Q (1 of 2)
+# Comparing Groups on a Quantitative Response (Case C→Q)
 
 ```{admonition} Learning Objectives
 :class: note

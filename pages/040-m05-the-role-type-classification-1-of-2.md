@@ -1,4 +1,4 @@
-# The Role-Type Classification (1 of 2)
+# Explanatory and Response: Giving Variables Their Roles
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Rules (9 of 11)
+# The General Addition Rule: Handling Overlap
 
 ```{admonition} Learning Objectives
 :class: note
@@ -83,11 +83,13 @@ Suppose that Jim is applying to two colleges: College A, an "Ivy League" school,
 * 0.05
 :::
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Note that although the motivation for this rule was to find P(A or B) when A and B are not disjoint, this rule is general in the sense that if A and B happen to be disjoint (no overlap), then P(A and B) is zero, and we're back to the original version of Rule 4, the Addition Rule for Disjoint Events.
 
 2. Note that in order to find P(A or B) using the General Addition Rule, you need to know P(A and B), the probability that both events occur. In the examples above (document delivery and college admittance), P(A and B) was simply given to us. Sometimes instead of giving us P(A and B) directly, we are given a different piece of information which would allow us to find P(A and B). An example of that draws on our previous work with Rule 5. If A and B are independent, then we can multiply the individual probabilities to compute P(A and B).
+```
 
 The next activity will give you guided practice in using the General Addition Rule when events are not disjoint but are independent.
 

@@ -1,4 +1,4 @@
-# Behavior of Sample Mean (2 of 3)
+# The Central Limit Theorem
 
 ```{admonition} Learning Objectives
 :class: note

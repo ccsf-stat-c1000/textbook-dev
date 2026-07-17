@@ -1,4 +1,4 @@
-# Binomial Random Variables (3 of 4)
+# The Binomial Formula in Action
 
 ```{admonition} Learning Objectives
 :class: note

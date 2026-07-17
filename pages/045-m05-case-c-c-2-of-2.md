@@ -1,4 +1,4 @@
-# Case C→C (2 of 2)
+# Conditional Percentages: Making a Two-Way Table Talk
 
 ```{admonition} Learning Objectives
 :class: note
@@ -51,10 +51,12 @@ Here is the completed table of conditional (row) percentages, along with a doubl
 :alt: A double bar chart of the conditional percentages. For About right, females are 73.7% and males 67.0%. For Overweight, females are 21.5% and males 16.4%. For Underweight, females are 4.9% and males 16.6%, a striking difference.
 ```
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. In our example, we chose to organize the data with the explanatory variable gender in rows and the response variable body image in columns, and thus our conditional percentages were *row percentages*, calculated within each row separately. Similarly, if the explanatory variable happens to sit in columns and the response variable in rows, our conditional percentages will be *column percentages*, calculated within each column separately. For an example, see the exercises below.
 2. Another way to visualize the conditional percentages, instead of in a table, is to use a *double bar chart* (as above). This display is quite common in newspapers.
+```
 
 Now that we have summarized the relationship between the categorical variables gender and body image, let's go back and interpret the results in the context of the questions that we posed.
 

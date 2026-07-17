@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (4 of 13)
+# The Test Statistic for a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Matched Pairs (2 of 8)
+# The Idea Behind the Paired t-Test
 
 ```{admonition} Learning Objectives
 :class: note

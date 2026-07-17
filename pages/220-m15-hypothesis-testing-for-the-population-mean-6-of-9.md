@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (6 of 9)
+# When σ Is Unknown: The t-Test and t Distribution
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# ANOVA (4 of 7)
+# The F-Statistic: Conditions and Computation
 
 ```{admonition} Learning Objectives
 :class: note

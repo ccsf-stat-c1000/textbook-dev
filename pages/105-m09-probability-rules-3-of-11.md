@@ -1,4 +1,4 @@
-# Probability Rules (3 of 11)
+# Disjoint Events: When Two Things Can't Both Happen
 
 ```{admonition} Learning Objectives
 :class: note

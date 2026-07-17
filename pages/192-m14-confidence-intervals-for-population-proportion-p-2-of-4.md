@@ -1,4 +1,4 @@
-# Confidence Intervals for Population Proportion p (2 of 4)
+# Constructing a Confidence Interval for a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

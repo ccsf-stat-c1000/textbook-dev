@@ -1,4 +1,4 @@
-# Sampling (2 of 2)
+# Probability Sampling Plans: Simple, Cluster, and Stratified
 
 ```{admonition} Learning Objectives
 :class: note
@@ -17,7 +17,7 @@ A simple random sample is the easiest way to base a selection on randomness. The
 
 Each of those probability sampling plans, if applied correctly, are not subject to any bias, and thus produce samples that represent well the population from which they were drawn.
 
-## Comment: Cluster vs. Stratified
+## Cluster vs. Stratified Sampling
 
 Students sometimes get confused about the difference between cluster sampling and stratified sampling. Even though both methods start out with the population somehow divided into groups, the two methods are very different. In cluster sampling, we take a random sample of whole groups of individuals, while in stratified sampling we take a simple random sample from each group.
 
@@ -51,7 +51,7 @@ Suppose you would like to study the job satisfaction of hospital nurses in a cer
 
 Let's go back and revisit the job satisfaction of hospital nurses example and discuss the pros and cons of the two sampling plans that are presented. Certainly, it will be much easier to conduct the study using the cluster sample, since all interviews are conducted in one hospital as opposed to the stratified sample, in which the interviews need to be conducted in 10 different hospitals. However, the hospital that a nurse works in probably has a direct impact on his/her job satisfaction, and in that sense, getting data from just one hospital might provide biased results. In this case, it will be very important to have representation from all the city hospitals, and therefore the stratified sample is definitely preferable. On the other hand, say that instead of job satisfaction, our study focuses on the age or weight of hospital nurses. In this case, it is probably not as crucial to get representation from the different hospitals, and therefore the more easily obtained cluster sample might be preferable.
 
-## Comment: Multistage Sampling
+## Multistage Sampling
 
 Another commonly used sampling technique is *multistage sampling*, which is essentially a "complex form" of cluster sampling. When conducting cluster sampling, it might be unrealistic, or too expensive to sample *all* the individuals in the chosen clusters. In cases like this, it would make sense to have another stage of sampling, in which you choose a sample from each of the randomly selected clusters, hence the term multistage sampling.
 
@@ -112,9 +112,11 @@ Here is another example:
 Suppose a student enrolled in a statistics course is required to complete and turn in several hundred homework problems throughout the semester. The teaching assistant responsible for grading suggests the following plan to the course professor: instead of grading all of the problems for each student, he will grade a random sample of problems. His first offer, to grade a random sample of just 3 problems for each student, is not well-received by the professor, who fears that such a small sample may not provide a very precise estimate of a student's overall homework performance. Students are particularly concerned that the random selection may happen to include one or two problems on which they performed poorly, thereby lowering their grade. The next offer, to grade a random sample of 25 problems for each student, is deemed acceptable by both the professor and the students.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 In practice, we are confronted with many trade-offs in statistics. A larger sample is more informative about the population, but it is also more costly in terms of time and money. Researchers must make an effort to keep their costs down, but still obtain a sample that is large enough to allow them to report fairly precise results.
+```
 
 ## Let's Summarize
 

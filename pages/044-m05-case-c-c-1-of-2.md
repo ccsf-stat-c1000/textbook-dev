@@ -1,4 +1,4 @@
-# Case C→C (1 of 2)
+# Two-Way Tables: Relationships Between Categories (Case C→C)
 
 ```{admonition} Learning Objectives
 :class: note
@@ -71,9 +71,11 @@ The table has the possible genders in the rows, and the possible responses regar
 * 1200
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that from the way the two-way table is constructed, the Total row or column is a summary of one of the two categorical variables, ignoring the other. In our example:
 
 - The Total row gives the summary of the categorical variable body image, ignoring gender: 855 about right, 235 overweight, 110 underweight. (These are the same counts we got earlier in the course when we looked at the single categorical variable body image, and did not consider gender.)
 - The Total column gives the summary of the categorical variable gender, ignoring body image: 760 females and 440 males.
+```

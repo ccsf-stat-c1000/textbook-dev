@@ -1,4 +1,4 @@
-# Normal Approximation to the Binomial (1 of 3)
+# Why Approximate the Binomial with a Normal?
 
 ```{admonition} Learning Objectives
 :class: note

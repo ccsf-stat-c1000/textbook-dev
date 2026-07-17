@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (6 of 13)
+# Step 3: Finding the P-value for a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

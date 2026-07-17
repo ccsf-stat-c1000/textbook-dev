@@ -1,4 +1,4 @@
-# Overview (3 of 4)
+# Null and Alternative Hypotheses
 
 ```{admonition} Learning Objectives
 :class: note

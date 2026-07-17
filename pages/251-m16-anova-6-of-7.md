@@ -1,4 +1,4 @@
-# ANOVA (6 of 7)
+# The ANOVA F-Test: A Worked Example
 
 ```{admonition} Learning Objectives
 :class: note

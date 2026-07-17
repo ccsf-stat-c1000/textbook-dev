@@ -1,4 +1,4 @@
-# Case C→Q (2 of 2)
+# Case C→Q in Practice: Boxplots That Tell a Story
 
 ```{admonition} Learning Objectives
 :class: note

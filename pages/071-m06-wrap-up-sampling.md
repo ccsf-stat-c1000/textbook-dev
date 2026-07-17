@@ -1,4 +1,4 @@
-# Wrap-up (Sampling)
+# Wrap-Up: Sampling
 
 In this short module we learned various techniques by which one can choose a sample of individuals from an entire population to collect data from. This is seemingly a simple step in the big picture of statistics, but it turns out that it has a crucial effect on the conclusions we can draw from the sample about the entire population (i.e., inference).
 

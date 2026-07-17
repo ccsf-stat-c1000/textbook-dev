@@ -1,4 +1,4 @@
-# Rules for Means and Variances of Random Variables (2 of 3)
+# Linear Transformations: The Rule for a + bX
 
 ```{admonition} Learning Objectives
 :class: note

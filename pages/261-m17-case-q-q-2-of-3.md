@@ -1,4 +1,4 @@
-# Case Q→Q (2 of 3)
+# Testing for a Linear Relationship
 
 ```{admonition} Learning Objectives
 :class: note

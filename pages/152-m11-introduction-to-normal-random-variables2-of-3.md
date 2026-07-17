@@ -1,4 +1,4 @@
-# Introduction to Normal Random Variables (2 of 3)
+# The 68-95-99.7 Rule for Normal Variables
 
 ```{admonition} Learning Objectives
 :class: note

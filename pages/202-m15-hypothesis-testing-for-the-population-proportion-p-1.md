@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (1 of 13)
+# The z-Test for a Proportion: Overview
 
 ```{admonition} Learning Objectives
 :class: note

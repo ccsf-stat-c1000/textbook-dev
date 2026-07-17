@@ -1,4 +1,4 @@
-# Standard Normal Table (3 of 3)
+# Working Backward: From Probability to z
 
 ```{admonition} Learning Objectives
 :class: note

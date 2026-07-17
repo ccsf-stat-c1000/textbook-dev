@@ -1,4 +1,4 @@
-# Sample Spaces and Events (2 of 2)
+# Events: Subsets of the Sample Space
 
 ```{admonition} Learning Objectives
 :class: note

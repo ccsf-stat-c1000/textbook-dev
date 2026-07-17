@@ -1,4 +1,4 @@
-# Probability Distribution (3 of 5)
+# Probability Histograms: Picturing a Distribution
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Introduction to Inference (2 of 2)
+# Three Forms of Statistical Inference
 
 ```{admonition} Learning Objectives
 :class: note

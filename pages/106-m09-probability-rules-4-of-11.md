@@ -1,4 +1,4 @@
-# Probability Rules (4 of 11)
+# The Addition Rule for Disjoint Events: Finding P(A or B)
 
 ```{admonition} Learning Objectives
 :class: note
@@ -12,9 +12,11 @@
 *If A and B are disjoint events, then P(A or B) = P(A) + P(B).*
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 When dealing with probabilities, the word "or" will always be associated with the operation of addition; hence the name of this rule, "The Addition Rule."
+```
 
 :::{admonition} Example: Potential Donors
 :class: tip
@@ -88,8 +90,10 @@ We are interested in finding the probability that a randomly chosen person can b
 
 As we mentioned earlier, later on in this module we will establish a more general Addition Rule that applies even when two events are not disjoint.
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The Addition Rule for Disjoint Events can naturally be extended to more than two disjoint events. Let's take three, for example. If A, B and C are three disjoint events (three non-overlapping circles in the Venn diagram), then P(A or B or C) = P(A) + P(B) + P(C). The rule is the same for any number of disjoint events.
+```
 
 We are now done with the first version of the Addition Rule (the version restricted to disjoint events) and we are ready to move on to rule 5. As mentioned before, the general version of the Addition Rule will be presented after rule 5.

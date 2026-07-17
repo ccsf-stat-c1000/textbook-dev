@@ -1,4 +1,4 @@
-# Two Independent Samples (1 of 7)
+# Comparing Two Means from Independent Samples
 
 ```{admonition} Learning Objectives
 :class: note

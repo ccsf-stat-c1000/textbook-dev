@@ -1,4 +1,4 @@
-# Behavior of Sample Mean (3 of 3)
+# Applying the Central Limit Theorem
 
 ```{admonition} Learning Objectives
 :class: note

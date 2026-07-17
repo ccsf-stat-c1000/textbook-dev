@@ -1,4 +1,4 @@
-# Two Independent Samples (4 of 7)
+# The Two-Sample t-Test: P-value and Conclusion
 
 ```{admonition} Learning Objectives
 :class: note

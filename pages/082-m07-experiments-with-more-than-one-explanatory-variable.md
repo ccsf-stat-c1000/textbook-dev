@@ -1,4 +1,4 @@
-# Experiments With More Than One Explanatory Variable
+# More Than One Factor: Richer Experimental Designs
 
 ```{admonition} Learning Objectives
 :class: note
@@ -24,11 +24,13 @@ Suppose researchers are not only interested in the effect of diet on blood press
 Subjects would be randomly assigned to one of the nine treatment groups. If we find differences in the proportions of subjects who achieve the lower "moderate zone" blood pressure among the nine treatment groups, then we have evidence that the diets and/or drugs may be effective for reducing blood pressure.
 :::
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Recall that randomization may be employed at two stages of an experiment: in the selection of subjects, and in the assignment of treatments. The former may be helpful in allowing us to generalize what occurs among our subjects to what would occur in the general population, but the reality of most experimental settings is that a convenience or volunteer sample is used. Most likely the blood pressure study described above would use volunteer subjects. The important thing is to make sure these subjects are randomly assigned to one of the nine treatment combinations.
 
 2. In order to gain optimal information about individuals in all the various treatment groups, we would like to make assignments not just randomly, but also evenly. If there are 90 subjects in the blood pressure study described above, and 9 possible treatment groups, then each group should be filled randomly with 10 individuals. A simple random sample of 10 could be taken from the larger group of 90, and those individuals would be assigned to the first treatment group. Next, the second treatment group would be filled by a simple random sample of 10 taken from the remaining 80 subjects. This process would be repeated until all 9 groups are filled with 10 individuals each.
+```
 
 ## Did I Get This?
 
@@ -64,6 +66,8 @@ A university was interested in examining the overall effectiveness of its online
 * Assign all 30 students to the most promising variant
 :::
 
-## Comment on the response variable
+```{admonition} Comment on the Response Variable
+:class: important
 
 Note that the response variable in this study is quantitative (improvement between pre-test and post-test), and the explanatory variables are categorical—so comparing the treatment groups amounts to case C→Q: comparing the distribution of improvements across the six groups.
+```

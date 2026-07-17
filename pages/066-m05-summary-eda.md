@@ -1,4 +1,4 @@
-# Summary (EDA)
+# Summary: Exploratory Data Analysis
 
 This summary provides a quick recap of the material you've learned in the Exploratory Data Analysis unit. Please note that this summary *does not provide complete coverage* of the material, but just lists the main points. We therefore recommend that you use this summary only as a checklist or a review before going on to the next unit, or before an exam.
 

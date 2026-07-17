@@ -1,4 +1,4 @@
-# Normal Approximation to the Binomial (3 of 3)
+# The Continuity Correction
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Distribution (2 of 5)
+# Building a Probability Distribution from Scratch
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Measures of Center (1 of 2)
+# Mode, Median, and Mean: Three Ways to Locate the Center
 
 ```{admonition} Learning Objectives
 :class: note

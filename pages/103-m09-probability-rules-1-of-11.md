@@ -1,4 +1,4 @@
-# Probability Rules (1 of 11)
+# Rules 1 and 2: What Every Probability Must Obey
 
 ```{admonition} Learning Objectives
 :class: note
@@ -46,7 +46,8 @@ This example illustrates our second rule, which tells us that the probability of
 *P(S) = 1; that is, the sum of the probabilities of all possible outcomes is 1.*
 ```
 
-## Comment
+::::{admonition} Comment
+:class: important
 
 This is a good place to compare and contrast what we're doing here with what we learned in the Exploratory Data Analysis (EDA) section. Notice that in this problem we are essentially focusing on a single categorical variable: blood type. We summarized this variable above, as we summarized single categorical variables in the EDA section, by listing what values the variable takes and how often it takes them. In EDA we used percentages, and here we're using probabilities, but the two convey the same information. In the EDA section, we learned that a pie chart provides an appropriate display when a single categorical variable is involved, and similarly we can use it here (using percentages instead of probabilities):
 
@@ -55,6 +56,7 @@ This is a good place to compare and contrast what we're doing here with what we 
 ```
 
 Even though what we're doing here is indeed similar to what we've done in the EDA section, there is a subtle but important difference between the underlying situations in this section and the ones in the Exploratory Data Analysis section. In EDA, we summarized data that were obtained from a *sample* of individuals for whom values of the variable of interest were recorded. Here, when we present the frequency, or probability, of each blood type, we have in mind the entire *population* of people in the United States, for which we are presuming to know the overall frequency of values taken by the variable of interest.
+::::
 
 ## Concept Check
 

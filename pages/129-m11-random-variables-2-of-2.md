@@ -1,4 +1,4 @@
-# Random Variables (2 of 2)
+# Discrete or Continuous? Classifying Random Variables
 
 ```{admonition} Learning Objectives
 :class: note

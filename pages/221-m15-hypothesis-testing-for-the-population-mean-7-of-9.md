@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Mean (7 of 9)
+# The t-Test Statistic
 
 ```{admonition} Learning Objectives
 :class: note

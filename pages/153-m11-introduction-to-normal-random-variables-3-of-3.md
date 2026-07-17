@@ -1,4 +1,4 @@
-# Introduction to Normal Random Variables (3 of 3)
+# Standardizing Values: The z-score
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Confidence Intervals for the Population Mean (7 of 8)
+# When Is It Safe to Use This Interval?
 
 ```{admonition} Learning Objectives
 :class: note

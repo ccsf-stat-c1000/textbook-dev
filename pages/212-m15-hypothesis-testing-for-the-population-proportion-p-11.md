@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (11 of 13)
+# One-Sided vs. Two-Sided Alternatives
 
 ```{admonition} Learning Objectives
 :class: note

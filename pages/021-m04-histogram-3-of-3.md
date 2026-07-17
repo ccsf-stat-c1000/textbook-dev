@@ -1,4 +1,4 @@
-# Histogram (3 of 3)
+# Reading Histograms: Practice and Pitfalls
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Probability Trees (3 of 3)
+# Reversing the Condition: Bayes-Style Problems with Trees
 
 ```{admonition} Learning Objectives
 :class: note

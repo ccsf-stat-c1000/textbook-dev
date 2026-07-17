@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (12 of 13)
+# Hypothesis Tests and Confidence Intervals for a Proportion
 
 ```{admonition} Learning Objectives
 :class: note

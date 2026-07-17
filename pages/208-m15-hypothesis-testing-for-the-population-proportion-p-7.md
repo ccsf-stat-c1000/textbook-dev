@@ -1,4 +1,4 @@
-# Hypothesis Testing for the Population Proportion p (7 of 13)
+# Computing P-values: Worked Examples
 
 ```{admonition} Learning Objectives
 :class: note

@@ -1,4 +1,4 @@
-# Two Independent Samples (3 of 7)
+# The Two-Sample t-Test: Conditions and Test Statistic
 
 ```{admonition} Learning Objectives
 :class: note

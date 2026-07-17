@@ -1,4 +1,4 @@
-# ANOVA (3 of 7)
+# The Idea Behind the ANOVA F-Test
 
 ```{admonition} Learning Objectives
 :class: note

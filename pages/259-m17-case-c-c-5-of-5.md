@@ -1,4 +1,4 @@
-# Case C→C (5 of 5)
+# The Chi-Square Test: Summary
 
 ```{admonition} Learning Objectives
 :class: note

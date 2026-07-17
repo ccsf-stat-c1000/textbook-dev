@@ -1,4 +1,4 @@
-# Standard Normal Table (1 of 3)
+# Reading the Standard Normal Table
 
 ```{admonition} Learning Objectives
 :class: note

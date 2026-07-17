@@ -1,4 +1,4 @@
-# Matched Pairs (4 of 8)
+# The Paired t-Test: Conditions and Test Statistic
 
 ```{admonition} Learning Objectives
 :class: note

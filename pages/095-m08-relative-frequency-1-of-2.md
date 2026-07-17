@@ -1,4 +1,4 @@
-# Relative Frequency (1 of 2)
+# Relative Frequency: Estimating Probability from Data
 
 ```{admonition} Learning Objectives
 :class: note

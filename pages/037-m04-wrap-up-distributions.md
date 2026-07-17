@@ -1,4 +1,4 @@
-# Wrap-Up (Distributions)
+# Wrap-Up: Examining Distributions
 
 You have now completed the module on examining distributions, which is the first of two modules within the EDA unit. You've seen how, by using graphs and numbers, we can bring to light all the information that is stored in the data about the variable of interest. Another important point is that graphs and numbers are powerful only when accompanied by their interpretation in the context of the problem.
 

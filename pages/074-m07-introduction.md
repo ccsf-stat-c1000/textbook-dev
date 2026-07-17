@@ -1,4 +1,4 @@
-# Introduction
+# Three Ways to Collect Data: Observe, Survey, or Experiment
 
 Obviously, sampling is not done for its own sake. After this first stage in the data production process is completed, we come to the second stage, that of gaining information about the variables of interest from the sampled individuals. In this module we'll discuss three study designs; each design enables you to determine the values of the variables in a different way. You can:
 

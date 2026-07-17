@@ -1,4 +1,4 @@
-# Causation and Experiments (2 of 3)
+# Blind and Double-Blind: Keeping Expectations Out of the Data
 
 ```{admonition} Learning Objectives
 :class: note

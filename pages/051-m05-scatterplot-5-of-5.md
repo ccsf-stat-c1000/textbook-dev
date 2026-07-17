@@ -1,4 +1,4 @@
-# Scatterplot (5 of 5)
+# A Third Variable on the Scatterplot: Labeled Points
 
 ```{admonition} Learning Objectives
 :class: note

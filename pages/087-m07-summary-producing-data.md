@@ -1,4 +1,4 @@
-# Summary (Producing Data)
+# Summary: Producing Data
 
 In this unit, we discussed the first step in the big picture of statistics—*production of data.*
 

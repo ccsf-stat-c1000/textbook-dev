@@ -1,4 +1,4 @@
-# Introduction to Probability (5 of 5)
+# The Law of Large Numbers: Probability in the Long Run
 
 ```{admonition} Learning Objectives
 :class: note

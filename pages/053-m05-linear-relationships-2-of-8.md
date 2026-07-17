@@ -1,4 +1,4 @@
-# Linear Relationships (2 of 8)
+# The Correlation Coefficient r
 
 ```{admonition} Learning Objectives
 :class: note

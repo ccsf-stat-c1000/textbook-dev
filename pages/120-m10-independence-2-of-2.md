@@ -1,4 +1,4 @@
-# Independence (2 of 2)
+# Independence in Practice: Checks and Consequences
 
 ```{admonition} Learning Objectives
 :class: note

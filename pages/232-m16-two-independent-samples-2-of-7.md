@@ -1,4 +1,4 @@
-# Two Independent Samples (2 of 7)
+# The Two-Sample t-Test: Stating the Hypotheses
 
 ```{admonition} Learning Objectives
 :class: note

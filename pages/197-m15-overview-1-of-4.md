@@ -1,4 +1,4 @@
-# Overview (1 of 4)
+# The Logic of Hypothesis Testing
 
 ```{admonition} Learning Objectives
 :class: note
