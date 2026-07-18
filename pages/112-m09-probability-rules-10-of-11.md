@@ -57,7 +57,7 @@ Similarly, reading down the first column:
 $$P(B) = P(A \text{ and } B) + P(\text{not } A \text{ and } B) = 0.75 + 0.05 = 0.80$$
 :::
 
-## Learn By Doing
+## Check Your Understanding: Probability Two-Way Tables
 
 Recall the smoke detector example from the last activity. Here is a quick recap:
 
@@ -102,7 +102,7 @@ In both the delivery problem and the smoke detector problem, we knew P(A), P(B) 
 This, however, is not the only combination of three values that would provide sufficient information to complete the table. Essentially, as long as we are given (or can calculate) one value in each of the margins (the total row and the total column), and one of the four cells in the body of the table, we'll be able to complete the entire table.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Reading a Probability Table
 
 Records on traffic accidents in a certain region show that 87% of the accidents involved a male driver, 56% of the accidents involved speeding, and in 10% of the accidents the driver was female and was not speeding.
 

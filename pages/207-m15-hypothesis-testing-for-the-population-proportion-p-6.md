@@ -81,7 +81,7 @@ As noted earlier, before the widespread use of statistical software, it was comm
 
 On the next page, we will apply the p-value to our three examples. But first, work through the following activities, which should help your understanding.
 
-## Learn By Doing
+## Check Your Understanding: Finding the P-value
 
 :::{quiz} A test of H₀: p = 0.30 versus Hₐ: p > 0.30 yields a test statistic of z = 1.8. Which area under the standard normal curve equals the p-value?
 :hint: "Greater than" alternatives are right-tailed.
@@ -123,7 +123,7 @@ On the next page, we will apply the p-value to our three examples. But first, wo
 * Because it means the data agree closely with H₀
 :::
 
-## Did I Get This?
+## Check Your Understanding: P-values and Tails
 
 :::{quiz} A figure shows a standard normal curve with only the area to the LEFT of z = −1.4 shaded. Which pair of hypotheses and test statistic matches the figure?
 :hint: A single shaded left tail corresponds to a "less than" alternative.

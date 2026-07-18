@@ -41,7 +41,7 @@ By construction, the probability P(Z < z*) equals the area under the z curve to 
 
 A quick sketch is often the key to solving normal problems easily and correctly.
 
-## Concept Check
+## Check Your Understanding: Reading the Standard Normal Table
 
 :::{quiz} Using the excerpt of the normal table above, what is P(Z < −2.25)?
 :hint: Find the row for −2.2 and the column for .05.

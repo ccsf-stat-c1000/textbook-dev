@@ -54,7 +54,7 @@ The way in which an outlier influences the correlation depends on whether or not
 
 An outlier that is *not consistent* with the pattern of the relationship (left plot) weakens the linear pattern and can drastically *reduce* the correlation. On the other hand, an outlier that *is consistent* with the direction of the linear relationship (right plot) actually *strengthens* it, pulling the correlation closer to 1.
 
-## Concept Check
+## Check Your Understanding: Properties of the Correlation r
 
 :::{quiz} A dataset of 20 points has a strong positive linear pattern with r = 0.95. One additional point is added far below the rest of the data, well off the linear pattern. What will most likely happen to r?
 :hint: Is the new point consistent with the upward pattern or not?

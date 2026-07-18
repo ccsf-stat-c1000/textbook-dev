@@ -28,11 +28,13 @@ $$\sigma_{X+Y}^{2}=\sigma_{X}^{2}+\sigma_{Y}^{2}$$
 
 What these two rules tell us is that if we take two random variables and add them, then the new mean is the sum of the original two means, and the new variance—not standard deviation—is the sum of the original two variances, as long as those variables are independent.
 
-## Comment
+```{admonition} Comment
+:class: important
 
 We've talked a lot about independent and dependent *events*, but not about what it means for two *random variables* to be independent or dependent. Basically, the same reasoning extends from events to random variables. Two random variables will be independent if knowing that one random variable takes any of its possible values has no effect on the probability that the other random variable takes a certain value.
 
 While in the case of *events* we formalized the definition of independence using conditional probability, doing the same for random variables is beyond the scope of this course. Therefore, whenever we want to use the rule $\sigma_{X+Y}^{2}=\sigma_{X}^{2}+\sigma_{Y}^{2}$, we will assume that X and Y are independent, or it will be clear from the context of the problem.
+```
 
 :::{admonition} Example: Combined Mean and Standard Deviation
 :class: tip
@@ -52,13 +54,15 @@ $$\sigma_{X+Y}=\sqrt{2.19}=1.48$$
 We can conclude, then, that the total number of defective parts coming out of both production lines in an hour is on average 4.5, and typically the combined number of defective products is about 1.48 away from that average.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 It is important to remember that while variances are additive, standard deviations are not:
 
 $$\sigma_{X}+\sigma_{Y}=1.21+0.85=2.06\neq\sigma_{X+Y}=1.48$$
+```
 
-## Concept Check
+## Check Your Understanding: Sums of Random Variables
 
 :::{quiz} Two independent random variables have σ(X) = 3 and σ(Y) = 4. What is the standard deviation of X + Y?
 :hint: Add the variances (9 + 16), then take the square root.

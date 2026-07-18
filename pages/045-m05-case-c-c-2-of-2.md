@@ -28,7 +28,7 @@ In our example, we look at each gender separately and convert the counts to perc
 
 Note that each count is converted to percents by dividing by the total number of females, 760. These numerical summaries are called *conditional percentages*, since we find them by "conditioning" on one of the genders.
 
-## Concept Check
+## Check Your Understanding: Conditional Percentages
 
 :::{quiz} Now compute the conditional percentages for the males. What percentage of the males feel they are underweight?
 :hint: Divide the count of underweight males by the total number of males, 440.
@@ -70,7 +70,7 @@ Now that we have summarized the relationship between the categorical variables g
 * The distributions of body image are essentially identical for the two genders
 :::
 
-## Did I Get This?
+## Check Your Understanding: Interpreting a Two-Way Table
 
 Suppose a study were done to answer the question: "Is the smoking of students related to their parents' smoking habits?" in which data were collected from 5,375 students and organized in the following two-way table:
 

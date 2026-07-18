@@ -52,7 +52,7 @@ $$3.9=(N-6)(0.9)+(-6)(0.1)=0.9N-6$$
 so 0.9N = 9.9, and therefore the new price must be 11 dollars.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Expected Value
 
 We are going to look at a variation of the pizza delivery example. Here is the scenario.
 

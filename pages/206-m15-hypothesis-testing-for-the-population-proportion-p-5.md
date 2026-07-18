@@ -21,7 +21,7 @@ Here we will pause to say more about the first condition, the need for a random 
 
 For our purpose here, we will focus on one such practice: the situation in which a sample is not really chosen randomly, but in the context of the categorical variable that is being studied, the sample is regarded as random. For example, say that you are interested in the proportion of students at a certain college who suffer from seasonal allergies. For that purpose, the students in a large engineering class could be considered as a random sample, since there is nothing about being in an engineering class that makes you more or less likely to suffer from seasonal allergies. Technically, the engineering class is a convenience sample, but it is treated as a random sample in the context of this categorical variable. On the other hand, if you are interested in the proportion of students in the college who have math anxiety, then the class of engineering students clearly could not be viewed as a random sample, since engineering students probably have a much lower incidence of math anxiety than the college population overall.
 
-## Learn By Doing
+## Check Your Understanding: Valid Samples for Testing
 
 We are conducting a survey to determine if an upcoming bond measure will receive a majority vote in the county. The null hypothesis claims that p = 0.50, where p is the proportion of registered voters in the county who say they support the bond measure.
 
@@ -86,7 +86,7 @@ Both conditions are met.
 Both conditions are met.
 :::
 
-## Learn By Doing
+## Check Your Understanding: When Is the z-Test Appropriate?
 
 In each of the following scenarios, decide whether it is appropriate to use the z-test for the population proportion p, and if not, which condition is violated.
 

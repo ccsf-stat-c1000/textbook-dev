@@ -25,7 +25,7 @@ The last two examples showed us that including a lurking variable in our explora
 - Lead us to rethink the direction of an association (as in the Hospital/Death Rate example).
 - Help us to gain a deeper understanding of the relationship between variables (as in the SAT/ACT example).
 
-## Concept Check
+## Check Your Understanding: Simpson's Paradox
 
 :::{quiz} A university finds that overall, program X admits a higher percentage of applicants than program Y. But when applicants are separated by intended major, program Y admits a higher percentage in every single major. What phenomenon is this?
 :hint: Including the lurking variable (major) reversed the direction of the association.

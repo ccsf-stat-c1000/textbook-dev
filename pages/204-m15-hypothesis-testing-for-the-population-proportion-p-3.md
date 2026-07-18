@@ -76,7 +76,7 @@ There is a problem with just looking at the difference between the sample propor
 
 In example 2 we have a difference of 3.3 percentage points between the data and the null hypothesis, which is approximately the same as the difference in example 3 of 3.5 percentage points. However, the difference in example 3 of 3.5 percentage points is based on a *sample of size 1,000*, and therefore it is much *more impressive* than the difference of 3.3 percentage points in example 2, which was obtained from a sample of size of only 100.
 
-## Learn By Doing
+## Check Your Understanding: Why We Standardize the Test Statistic
 
 :::{quiz} Two studies each find a sample proportion 4 percentage points above the null value. Study A used n = 50; study B used n = 2,000. Which study provides stronger evidence against the null hypothesis?
 :hint: How much do sample proportions vary from sample to sample when n is small versus large?

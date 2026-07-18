@@ -66,10 +66,12 @@ The following table summarizes the three pairs, and gives the notation:
 
 The only new notation here is p for population proportion (p = 0.42 for type A in Example 1), and $\hat{p}$ ("p-hat") for sample proportion ($\hat{p}$ = 0.396 for type A in Example 1).
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Parameters are usually unknown, because it is impractical or impossible to know exactly what values a variable takes for every member of the population.
 2. Statistics are computed from the sample, and vary from sample to sample due to *sampling variability*.
+```
 
 In the last part of the course, statistical inference, we will learn how to use a statistic to draw conclusions about an unknown parameter, either by estimating it or by deciding whether it is reasonable to conclude that the parameter equals a proposed value. In this module, we'll learn about the behavior of the statistics assuming that we know the parameters. So, for example, if we know that the population proportion of blood type A in the population is 0.42, and we take a random sample of size 500, what do we expect the sample proportion ($\hat{p}$) to be?
 
@@ -91,7 +93,7 @@ The length of human pregnancies has a mean of 266 days and a standard deviation 
 The parameters are population mean $\mu=266$ and population standard deviation $\sigma=16$. The accompanying statistics are sample mean $\bar{x}=270$ and sample standard deviation $s=14$.
 :::
 
-## Concept Check
+## Check Your Understanding: Parameters and Statistics
 
 :::{quiz} A polling organization reports that 58% of the 1,024 adults it surveyed support a proposal, while government records show that 51% of all registered voters voted in the last election. Which number is a statistic and which is a parameter?
 :hint: Which number describes a sample, and which describes an entire population?

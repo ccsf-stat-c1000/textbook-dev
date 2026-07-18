@@ -179,7 +179,7 @@ Therefore, the median $M = \frac{34 + 35}{2} = 34.5$
 * 12
 :::
 
-## Concept Check
+## Check Your Understanding: Measures of Center
 
 :::{quiz} For the dataset 2, 3, 3, 5, 7, which of the following statements is true?
 :hint: Find all three measures: the most frequent value, the middle value, and the average.

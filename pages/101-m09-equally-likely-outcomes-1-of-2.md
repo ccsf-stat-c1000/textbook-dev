@@ -29,7 +29,7 @@ $$P(A) = \frac{\text{number of outcomes in A}}{\text{number of outcomes in S}}$$
 
 The purpose of the next activity is to give you guided practice on how to find the probability of an event in situations in which all the possible outcomes are equally likely.
 
-## Learn By Doing
+## Check Your Understanding: Equally Likely Outcomes
 
 A couple is planning to have 3 children. Assuming that having a boy and having a girl are equally likely, and that the gender of one child has no influence on (or, is independent of) the gender of another, what is the probability that the couple will have exactly 2 girls?
 

@@ -27,6 +27,12 @@ consistent as it is edited. Follow it for every page in `pages/`.
 - Classes: examples use `:class: tip` with title `Example: <Name>`;
   comments/caveats use `:class: important` with title `Comment`;
   definitions/rules use `:class: note`.
+- "Comment" specifically: a short aside or caveat (roughly one to three
+  paragraphs, no worked example/quiz inside) is a `:class: important`
+  admonition titled `Comment`/`Comments`. If a section labeled "Comment" is
+  really a subtopic (multi-part, or containing a figure, worked example, or
+  quiz), do NOT box it — give it a descriptive `##` heading naming its content
+  (e.g., `## Multistage Sampling`, `## Unbiased Estimators`).
 
 ## Quizzes (concept checks)
 

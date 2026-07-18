@@ -59,7 +59,7 @@ To find the standard deviation of the number of hourly customers:
 
 The importance of the numerical figure that we found in #4 above called the variance (=16 in our example) will be discussed much later in the course when we get to the inference part.
 
-## Concept Check
+## Check Your Understanding: Computing the Standard Deviation
 
 :::{quiz} A barista records the number of drinks made in 4 consecutive hours: 10, 14, 6, 10. The mean is 10. What is the standard deviation?
 :hint: Find the deviations, square them, divide the sum by n − 1 = 3, then take the square root.

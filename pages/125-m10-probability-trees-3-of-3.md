@@ -48,13 +48,15 @@ P(S | D) = P(S) × P(D | S) / [P(S) × P(D | S) + P(not S) × P(D | not S)]
 The study's conclusion, that more accurate tests than the traditional polygraph are sorely needed, is supported by our answer to part (d): if someone is detected as being a spy, the probability is only 0.005, or half of one percent, that he or she actually is one.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 This example helps to highlight how different P(B | A) may be from P(A | B): the probability of being detected, given that an employee is a spy, is P(D | S) = 0.80. In contrast, the probability of being a spy, given that an employee has been detected by the polygraph, is P(S | D) = 0.005.
+```
 
 The purpose of the next activity is to give you guided practice in using the information displayed in probability trees in order to answer real-life problems.
 
-## Learn By Doing
+## Check Your Understanding: Reversing the Conditioning with a Tree
 
 Let's consider the engine overheating example again, where H is the event that the engine overheats and W is the event that a warning light turns on. We are given that:
 

@@ -39,7 +39,7 @@ Here is the resulting boxplot for the Best Actress dataset, with each part label
 [Constructing a Boxplot](https://www.youtube.com/watch?v=S50-WYpOm4I)
 ```
 
-## Concept Check
+## Check Your Understanding: Reading a Boxplot
 
 Use the boxplot of the Best Actress ages to answer the following questions.
 

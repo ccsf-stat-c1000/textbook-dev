@@ -38,7 +38,7 @@ If you are still not convinced (or even if you are), here is a different way of 
 ```
 :::
 
-## Concept Check
+## Check Your Understanding: The Monty Hall Problem
 
 :::{quiz} In the "Let's Make a Deal" game, your first pick is door 1. The host, who knows where the prize is, opens door 3 to reveal it is empty. Why is switching to door 2 the better strategy?
 :hint: What was the probability that your first pick was right, and did the host's action change that?

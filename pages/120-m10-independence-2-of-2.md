@@ -6,15 +6,17 @@
 - Determine whether two events are independent or not.
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Recall the pierced ears example. We checked the independence of the events M (being a male) and E (having pierced ears) by comparing P(E) to P(E | M).
 
 An alternative method of checking for dependence would be to compare P(E | M) with P(E | not M) [same as P(E | F)]. In our case, P(E | M) = 36/180 = 0.2, while P(E | not M) = 288/320 = 0.9, and since the two are very different, we can say that the events E and M are not independent.
 
 In general, another method for checking the independence of events A and B is to compare *P(B | A)* and *P(B | not A)*. In other words, two events are independent if the probability of one event does not change whether we know that the other event has occurred or we know that the other event has not occurred. It can be shown that *P(B | A)* and *P(B | not A)* would differ whenever P(B) and P(B | A) differ, so this is another perfectly legitimate way to establish dependence or independence.
+```
 
-## Did I Get This?
+## Check Your Understanding: Checking for Independence
 
 Recall again the smoke alarms example:
 
@@ -73,13 +75,15 @@ Two events A and B are independent if any one of the following holds:
 - P(A and B) = P(A) × P(B)
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 These various equalities turn out to be equivalent, so that if one equality holds, all are equal, and if one equality does not hold, all are not equal. (This is the case for the same reason that knowing one of the values P(A and B), P(A and not B), P(not A and B), or P(not A and not B), along with P(A) and P(B), allows you to determine the remaining cells of a two-way probability table.)
 
 Therefore, in order to check whether events A and B are independent or not, it is sufficient to check only whether one of the four equalities holds—whichever is easiest for you.
+```
 
-## Learn By Doing
+## Check Your Understanding: Applying the Independence Checks
 
 A random sample of 1,200 adults was surveyed about whether they exercise regularly (X) and whether they get at least 7 hours of sleep most nights (V):
 

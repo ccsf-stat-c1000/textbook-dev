@@ -59,7 +59,7 @@ To see how well the Standard Deviation Rule works for this case, we find the int
 When we count what percentage of the 50 observations actually fall in each of these intervals, the results come out very close to the 68%, 95%, and 99.7% that the rule predicts. The Standard Deviation Rule works *very well* in this example.
 ::::
 
-## Concept Check
+## Check Your Understanding: The 68-95-99.7 Rule
 
 :::{quiz} Scores on a standardized test are normally shaped with mean 500 and standard deviation 100. Approximately what percentage of test takers score between 400 and 600?
 :hint: How many standard deviations from the mean are 400 and 600?

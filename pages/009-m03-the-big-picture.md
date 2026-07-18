@@ -72,7 +72,7 @@ At the end of April 2005, a poll was conducted (by ABC News and the *Washington 
 ```
 :::
 
-## Concept Check
+## Check Your Understanding: The Big Picture of Statistics
 
 :::{quiz} A nutrition researcher wants to know the average daily caffeine intake of adults in California. She measures the caffeine intake of 500 California adults. In the Big Picture of statistics, what are the 500 adults?
 :hint: The whole group of interest is the population; the subgroup actually examined is the sample.

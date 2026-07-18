@@ -43,7 +43,7 @@ To get a better sense of how the value of r relates to the strength of the linea
 :alt: Six scatterplots arranged in a grid, labeled r equals 1, 0.7, 0.3, negative 0.3, negative 0.7, and negative 1. At r equals 1 and negative 1 the points fall exactly on a rising or falling line. At 0.7 and negative 0.7 the points cluster fairly tightly around a line. At 0.3 and negative 0.3 the points form only a loose upward or downward trend.
 ```
 
-## Concept Check
+## Check Your Understanding: The Strength of a Correlation
 
 :::{quiz} Which value of r indicates the strongest linear relationship: r = 0.6, r = −0.9, or r = 0.1?
 :hint: Strength is measured by how close r is to −1 or 1, regardless of sign.

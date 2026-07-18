@@ -39,9 +39,11 @@ Since $m=z^{*}\cdot\frac{\sigma}{\sqrt{n}}$ is the formula to determine m for a 
 
 $$n=\left(\frac{z^{*}\sigma}{m}\right)^{2}$$
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Clearly, the sample size n must be an integer. In the previous example we got n = 1,600, but in other situations, the calculation may give us a non-integer result. In these cases, we should always *round up to the next highest integer.* Using this "conservative approach," we'll achieve an interval at least as narrow as the one desired.
+```
 
 :::{admonition} Example: Sample Size for IQ
 :class: tip
@@ -53,7 +55,7 @@ $$n=\left(\frac{z^{*}\sigma}{m}\right)^{2} = \left(\frac{2.576(15)}{2}\right)^{2
 Round up to be safe, and take a sample of 374 students.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Sample Size for a Mean
 
 :::{quiz} A researcher wants to estimate the mean pregnancy length of women who smoke (σ = 16 days) with 95% confidence and a margin of error of 2 days. What sample size is required?
 :hint: n = (z*σ/m)² = (2 × 16/2)².
@@ -65,15 +67,17 @@ Round up to be safe, and take a sample of 374 students.
 * 683
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 In the preceding activity, you saw that in order to calculate the sample size when planning a study, you needed to know the population standard deviation, sigma (σ). In practice, sigma is usually not known, because it is a parameter. (The rare exceptions are certain variables like IQ score or standardized tests that might be constructed to have a particular known sigma.)
 
 Therefore, when researchers wish to compute the required sample size in preparation for a study, they use an *estimate* of sigma. Usually, sigma is estimated based on the standard deviation obtained in prior studies.
 
 However, in some cases, there might not be any prior studies on the topic. In such instances, a researcher still needs to get a rough estimate of the standard deviation of the (yet-to-be-measured) variable, in order to determine the required sample size for the study. One way to get such a rough estimate is with the "range rule of thumb."
+```
 
-## Learn By Doing
+## Check Your Understanding: Estimating Sigma with the Range Rule
 
 An increasing global population requires more food from crops. With the world's farmland limited due to overuse and a warming globe, one solution may come from crops that are genetically engineered to grow in harsh desert soil.
 

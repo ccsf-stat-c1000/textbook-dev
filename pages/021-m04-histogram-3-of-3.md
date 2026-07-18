@@ -65,7 +65,7 @@ We will now summarize the main features of the distribution of ages as it appear
 You can see how informative it is to know "what to look at" in a histogram. If there is one conclusion that we can make here, it is that Hollywood likes to give Oscars to young actresses.
 ::::
 
-## Concept Check
+## Check Your Understanding: Describing a Distribution
 
 Use the Best Actress histogram above to answer the following questions.
 

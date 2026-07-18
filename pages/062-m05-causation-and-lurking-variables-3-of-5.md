@@ -42,7 +42,7 @@ In other words ...
 Association *does not* imply causation!
 ```
 
-## Concept Check
+## Check Your Understanding: Correlation and Causation
 
 :::{quiz} A study finds a strong positive correlation between ice cream sales and the number of drownings, month by month. What is the most reasonable explanation?
 :hint: What third variable rises and falls with both ice cream sales and swimming activity?

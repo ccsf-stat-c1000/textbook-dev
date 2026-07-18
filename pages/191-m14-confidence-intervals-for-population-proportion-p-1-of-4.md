@@ -47,7 +47,7 @@ $$\hat{p} \pm z^{*}\cdot\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
 
 As you'll see from the examples we'll present in this unit, estimating the population proportion comes up a lot in the context of polls.
 
-## Concept Check
+## Check Your Understanding: The Standard Error of a Proportion
 
 :::{quiz} Why does the sample proportion p-hat appear inside the square root of the confidence interval formula, instead of the population proportion p?
 :hint: Which of the two quantities do we actually know?

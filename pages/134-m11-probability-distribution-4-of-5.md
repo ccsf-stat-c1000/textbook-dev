@@ -48,7 +48,7 @@ The following table gives a list of some key words to know. Suppose a random var
 
 Now try these questions, using the changing-majors distribution above, to see if you get the idea.
 
-## Concept Check
+## Check Your Understanding: Cumulative Probabilities
 
 :::{quiz} What is the probability that a randomly selected senior changed majors at most once?
 :hint: "At most 1" means X ≤ 1: add P(X = 0) and P(X = 1).

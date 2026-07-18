@@ -30,9 +30,11 @@ In a much earlier example, we wondered, "How likely or unlikely is a male foot l
    $$P(10<X<12)=P(-0.67<Z<+0.67)=P(Z<+0.67)-P(Z<-0.67)=0.7486-0.2514=0.4972$$
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 By solving the above example, we inadvertently discovered the quartiles of a normal distribution! P(Z < −0.67) = 0.2514 tells us that roughly 25%, or one quarter, of a normal variable's values are less than 0.67 standard deviations below the mean. P(Z < +0.67) = 0.7486 tells us that roughly 75%, or three quarters, are less than 0.67 standard deviations above the mean. And of course the median is equal to the mean, since the distribution is symmetric: the median is 0 standard deviations away from the mean.
+```
 
 :::{admonition} Example: Length of a Human Pregnancy
 :class: tip
@@ -56,7 +58,7 @@ Length (in days) of a randomly chosen human pregnancy is a normal random variabl
 
 The purpose of the next activity is to give you guided practice at solving word problems that involve normal random variables. In particular, we'll solve problems like the examples you just went over, in which you are asked to find the probability that a normal random variable falls within a certain interval.
 
-## Learn By Doing
+## Check Your Understanding: Finding Normal Probabilities
 
 According to the College Board website, the scores on the math part of the SAT (SAT-M) in a certain year had a mean of 507 and standard deviation of 111. Assume that SAT scores follow a normal distribution.
 

@@ -19,7 +19,7 @@ We learned quite a lot about hypothesis testing. We learned the logic behind it,
 [Hypothesis Testing](https://www.youtube.com/watch?v=GzkWcsJyPH4)
 ```
 
-## Did I Get This?
+## Check Your Understanding: The Hypothesis-Testing Process
 
 *Background:* Based on the National Center for Health Statistics, the proportion of babies born at low birth weight (below 2,500 grams) in the United States is roughly 0.078, or 7.8% (based on all the births in the United States in the year 2002). A study was done in order to check whether smoking by pregnant women increases the risk of low birth weight. In other words, the researchers wanted to check whether the proportion of babies born at low birth weight among women who smoked during their pregnancy is higher than the proportion in the general population. The researchers followed a sample of 400 women who had smoked during their pregnancy and recorded the birth weight of the newborns. Based on the data, the p-value was found to be 0.016.
 

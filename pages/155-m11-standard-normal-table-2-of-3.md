@@ -48,7 +48,7 @@ P(−1 < Z < +1) = P(Z < +1) − P(Z < −1) = 0.8413 − 0.1587 = 0.6826.
 (Note that this confirms the "68%" of the Standard Deviation Rule, now with more precision.)
 :::
 
-## Concept Check
+## Check Your Understanding: Greater-Than and Between Probabilities
 
 :::{quiz} What is P(Z > −1.35)? (From the table, P(Z < −1.35) = 0.0885.)
 :hint: "Greater than" is the complement of the left-tail probability.

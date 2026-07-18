@@ -24,7 +24,7 @@ To estimate the probability of event A, written P(A), we may repeat the random e
 
 $$\text{Relative frequency of event A} = \frac{\text{number of times A occurred}}{\text{total number of repetitions}}$$
 
-## Did I Get This?
+## Check Your Understanding: Estimating Probability from Data
 
 What are the breakfast-eating habits of college students?
 

@@ -79,7 +79,7 @@ Again, we can formulate the null and alternative hypotheses in terms of p, the p
 - $H_a$: p ≠ 0.64 (some change since 2003)
 ::::
 
-## Learn By Doing
+## Check Your Understanding: Setting Up a Test for a Proportion
 
 According to the American Association of Community Colleges, 23% of community college students receive federal grants. The California Community College Chancellor's Office anticipates that the percentage is smaller for California community college students. They collect a sample of 1,000 community college students in California and find that 210 received federal grants.
 
@@ -123,7 +123,7 @@ According to the American Association of Community Colleges, 23% of community co
 * Sample proportions far from 0.23 in either direction
 :::
 
-## Did I Get This?
+## Check Your Understanding: Hypotheses and Sample Proportions
 
 Using data from 2008, the American Association of Community Colleges (AACC) reports that community college students constitute 46% of all U.S. undergraduates. Given the downturn in the U.S. economy, the AACC anticipates an increase in this percentage for 2010. A poll of 500 randomly chosen undergraduates taken in 2010 indicates that 52% are attending a community college.
 

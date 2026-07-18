@@ -30,13 +30,15 @@ Although the formula for the mean is quite intuitive, it is not at all obvious w
 
 $$\sigma_{X}^{2}=np(1-p) \qquad \sigma_{X}=\sqrt{np(1-p)}$$
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The binomial mean and variance are special cases of our general formulas for the mean and variance of any random variable:
 
 $$\mu_{X}=\sum_{i=1}^{n}x_{i}p_{i} \qquad \sigma_{X}^{2}=\sum_{i=1}^{n}(x_{i}-\mu_{X})^{2}p_{i}$$
 
 Clearly it is much simpler to use the "shortcut" formulas $\mu_{X}=np$ and $\sigma_{X}=\sqrt{np(1-p)}$ than it would be to calculate the mean and variance or standard deviation from scratch.
+```
 
 :::{admonition} Example: Blood Type B—Standard Deviation
 :class: tip
@@ -50,7 +52,7 @@ $$\sigma_{X}^{2}=120(0.1)(1-0.1)=10.8 \qquad \sigma_{X}=\sqrt{10.8}\approx3.3$$
 In a random sample of 120 people, we should expect there to be about 12 with blood type B, give or take about 3.3.
 :::
 
-## Did I Get This?
+## Check Your Understanding: The Mean, SD, and Shape of a Binomial
 
 A Gallup Poll in May 2004 estimated that roughly 70% of U.S. adults are in favor of the death penalty for a person convicted of murder. A random sample of 750 U.S. adults is chosen. Let X be the number of adults (out of 750) who favor the death penalty.
 

@@ -43,7 +43,7 @@ We call this probability the *conditional probability* of having one or both ear
 P(E | M) = 36/180 = 0.20.
 :::
 
-## Concept Check
+## Check Your Understanding: Conditional Probability
 
 :::{quiz} Using the same table, what is P(E | not M)—the probability that a randomly chosen female student has pierced ears?
 :hint: Restrict the sample space to the 320 female students.

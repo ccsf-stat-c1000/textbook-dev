@@ -58,7 +58,7 @@ This is a good place to compare and contrast what we're doing here with what we 
 Even though what we're doing here is indeed similar to what we've done in the EDA section, there is a subtle but important difference between the underlying situations in this section and the ones in the Exploratory Data Analysis section. In EDA, we summarized data that were obtained from a *sample* of individuals for whom values of the variable of interest were recorded. Here, when we present the frequency, or probability, of each blood type, we have in mind the entire *population* of people in the United States, for which we are presuming to know the overall frequency of values taken by the variable of interest.
 ::::
 
-## Concept Check
+## Check Your Understanding: The Basic Probability Rules
 
 :::{quiz} A four-sided spinner has regions with probabilities P(red) = 0.35, P(blue) = 0.25, and P(green) = 0.15. What must P(yellow) be?
 :hint: The probabilities of all outcomes must sum to 1 (Rule 2).

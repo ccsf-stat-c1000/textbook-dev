@@ -52,7 +52,7 @@ Now that we have outlined two possible study designs, let's return to the origin
 
 Can we conclude that using the combination drugs and therapy method caused the smokers to quit most successfully? Which type of design was implemented will play an important role in the answer to this question.
 
-## Concept Check
+## Check Your Understanding: Drawing Conclusions from a Study Design
 
 :::{quiz} In the observational version of the quitting-smoking study, why can't we safely conclude that the drug-plus-therapy method causes the highest success rate?
 :hint: Who ended up in the drug-plus-therapy group, and how did they get there?

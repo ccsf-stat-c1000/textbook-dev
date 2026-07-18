@@ -45,7 +45,7 @@ Therefore:
 
 We will therefore use $\bar{x}$ as a measure of center for symmetric distributions with no outliers. Otherwise, the median will be a more appropriate measure of the center of our data.
 
-## Concept Check
+## Check Your Understanding: Choosing a Measure of Center
 
 :::{quiz} A real estate agent lists the prices of 15 homes sold last month in a neighborhood. Fourteen sold for between \$350,000 and \$500,000, and one mansion sold for \$3.2 million. Which statement is correct?
 :hint: Which measure factors in the actual magnitude of the mansion's price?

@@ -42,7 +42,7 @@ As a third example, consider the relationship between the average amount of fuel
 The data describe a relationship that decreases and then increases—the amount of fuel consumed decreases rapidly to a minimum for a car driving 60 kilometers per hour, and then increases gradually for speeds exceeding 60 kilometers per hour. This suggests that the speed at which a car economizes on fuel the most is about 60 km/h. This forms a curvilinear relationship that seems to be very strong, as the observations seem to perfectly fit the curve. Finally, there do not appear to be any outliers.
 ::::
 
-## Concept Check
+## Check Your Understanding: Describing a Scatterplot
 
 A study examined how the percentage of participants who completed a survey is affected by the monetary incentive that researchers promised to participants. Here is the scatterplot displaying the relationship:
 

@@ -62,7 +62,7 @@ The practical interpretation of the results we got is that the weather in San Fr
 Note that this example provides more intuition about variability by interpreting small variability as consistency, and large variability as lack of consistency. Also, through this example we learned that the center of the distribution is more meaningful as a typical value for the distribution when there is little variability (or, as statisticians say, little "noise") around it. When there is large variability, the center loses its practical meaning as a typical value.
 ::::
 
-## Concept Check
+## Check Your Understanding: Comparing Groups with Boxplots
 
 :::{quiz} Two bus routes both have a median travel time of 30 minutes. Route A's IQR is 4 minutes; Route B's IQR is 22 minutes. Which statement gives the best practical interpretation?
 :hint: Think of the San Francisco vs. Pittsburgh temperature example—small variability means consistency.

@@ -62,7 +62,7 @@ What values can the probability of an event take, and what does the value tell u
 
 Many people prefer to express probability in percentages. Since all probabilities are decimals, each can be changed to an equivalent percentage. Thus, the latest principle is equivalent to saying, *"The chance that an event will occur is between 0% and 100%."*
 
-## Concept Check
+## Check Your Understanding: Interpreting Probability
 
 :::{quiz} Which of the following could NOT be the probability of an event?
 :hint: Probabilities are always between 0 and 1 (inclusive).

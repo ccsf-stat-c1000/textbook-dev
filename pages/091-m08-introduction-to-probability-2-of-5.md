@@ -20,7 +20,7 @@ Indeed, there is a 99.4% chance that at least 2 of the 60 guests share the same 
 Unlike the *Let's Make a Deal* example, for this scenario, we don't really have a good step-by-step explanation that will give you insight into this surprising answer. Later in this section, we will revisit this example and explain the solution.
 :::
 
-## Concept Check
+## Check Your Understanding: The Birthday Problem
 
 :::{quiz} With 60 people at a party, the probability that at least two share a birthday is 99.4%. Why do most people guess this probability to be much lower?
 :hint: People tend to think about someone matching *their own* birthday.

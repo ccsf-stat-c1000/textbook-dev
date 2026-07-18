@@ -84,7 +84,7 @@ Recall the probability distribution of the random variable X, representing the n
 Look at both probability distributions. Both X and Y take the same possible values (0, 1, 2, 3, 4). However, they are very different in the way the probability is distributed among these values.
 :::
 
-## Concept Check
+## Check Your Understanding: The Mean of a Random Variable
 
 :::{quiz} Find the mean number of defective parts per hour for Yves' line, μ(Y).
 :hint: Multiply each value by its probability and add.

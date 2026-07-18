@@ -21,7 +21,7 @@ When the response of interest is fairly straightforward, such as giving up cigar
 
 The most reliable way to determine whether the explanatory variable is actually causing changes in the response variable is to carry out a *randomized controlled double-blind experiment*. Depending on the variables of interest, such a design may not be entirely feasible, but the closer researchers get to achieving this ideal design, the more convincing their claims of causation (or lack thereof) are.
 
-## Concept Check
+## Check Your Understanding: Placebos and Blinding
 
 :::{quiz} In a trial of a new headache medication, half the subjects receive the drug and half receive an identical-looking sugar pill, but all believe they may be receiving the real drug. What is the purpose of the sugar pill?
 :hint: What would differ between the groups if the control group received nothing at all?

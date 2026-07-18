@@ -22,7 +22,7 @@ Let's start with a motivating example. Consider the following two scatterplots.
 
 We can see that in both cases, the direction of the relationship is *positive* and the form of the relationship is *linear*. What about the strength? Recall that the strength of a relationship is the extent to which the data follow its form.
 
-## Concept Check
+## Check Your Understanding: How Scaling Affects a Scatterplot
 
 :::{quiz} The two scatterplots above display the same 12 data points, yet Plot B appears to show a much stronger relationship than Plot A. What is the correct conclusion?
 :hint: The data haven't changed—only the axis scales have.

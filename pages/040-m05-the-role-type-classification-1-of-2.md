@@ -75,7 +75,7 @@ Here we are examining whether a person's outcome on the driving test (pass/fail)
 
 Now, using the same reasoning, practice classifying the two variables in some of the other examples:
 
-## Concept Check
+## Check Your Understanding: Explanatory and Response Variables
 
 :::{quiz} In example 2, we ask how the number of calories in a hot dog is related to the type of hot dog (beef, meat, or poultry). Which is the explanatory variable?
 :hint: Which variable do we think explains or affects the other?

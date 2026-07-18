@@ -38,7 +38,7 @@ Also note that the only way that (X < 4) and (X > 2) can happen together is if X
 
 The purpose of the next activity is to give you guided practice at using the probability distribution of a random variable to find probabilities of interest.
 
-## Learn By Doing
+## Check Your Understanding: Applying a Probability Distribution
 
 The number of sales that a telemarketing salesperson makes in an hour is a random variable X having the following probability distribution:
 

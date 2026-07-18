@@ -76,7 +76,7 @@ Recall our grades example:
 
 As you can see from the histogram, the grades distribution is roughly symmetric.
 
-## Concept Check
+## Check Your Understanding: Describing Shape
 
 :::{quiz} Household income in a country typically has a few households with extremely high incomes, while most households earn small or moderate amounts. What shape would you expect the distribution of household income to have?
 :hint: Where is the long tail—toward the small values or the large values?

@@ -44,7 +44,7 @@ It was claimed that among all U.S. adults, about half are in favor of stricter g
 It is claimed that among drivers 18-23 years of age (our population) there is no relationship between drunk driving and gender. A roadside survey collected data from a random sample of 5,000 drivers and recorded their gender and whether they were drunk. The collected data showed roughly the same percent of drunk drivers among males and among females. These data, therefore, do not give us any reason to reject the claim that drunk driving is not related to gender.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Forms of Statistical Inference
 
 In each of the following scenarios, a conclusion is drawn about a population based on the sample results. Select which form of statistical inference the conclusion represents.
 

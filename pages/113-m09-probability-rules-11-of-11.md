@@ -43,7 +43,7 @@ On-time delivery by exactly one service occurs if the document arrives on time b
 What is the probability that the document will *not* get to its destination on time? This would be the occurrence of the event "not A and not B," whose probability, read directly from the table, is 0.05.
 :::
 
-## Concept Check
+## Check Your Understanding: Combining the Probability Rules
 
 Use the smoke-detector table you completed on the previous page:
 

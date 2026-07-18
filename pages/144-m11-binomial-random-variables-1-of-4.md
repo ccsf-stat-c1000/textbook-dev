@@ -50,7 +50,8 @@ Let's consider a few random experiments. In each of them, we'll decide whether t
 8. A student answers 10 quiz questions completely at random; the first five are true/false, the second five are multiple choice, with four options each. X represents the number of correct answers. *X is not binomial, because p changes from 1/2 to 1/4*.
 :::
 
-## Comments
+```{admonition} Comments
+:class: important
 
 *Example 4* above was not binomial because sampling without replacement resulted in dependent selections. In particular, the probability of the second card being a diamond is very dependent on whether or not the first card was a diamond: the probability is 0 if the first card was a diamond, 1/3 if the first card was not a diamond.
 
@@ -59,6 +60,7 @@ In contrast, *Example 5* was binomial because sampling with replacement resulted
 On the other hand, when you take a relatively small random sample of subjects from a large population, even though the sampling is without replacement, we can assume independence because the mathematical effect of removing one individual from a very large population on the next selection is negligible. For example, in *Example 6*, we sampled 100 children out of the population of all children. Even though we sampled the children without replacement, whether one child has the disease or not really has no effect on whether another child has the disease or not. The same is true for *Example 7*.
 
 The convention is to "fudge" the requirement of independence as long as the population is at least 10 times the sample size.
+```
 
 ```{admonition} Rule of Thumb
 :class: note
@@ -68,7 +70,7 @@ The number (X) of successes in a sample of size n taken without replacement from
 In symbols, this would be: *n ≤ 0.10N*. This is the same as saying the population size is greater than or equal to 10 times the sample size: *N ≥ 10n*.
 ```
 
-## Concept Check
+## Check Your Understanding: Recognizing a Binomial Setting
 
 :::{quiz} A basketball player makes 70% of her free throws. She shoots 15 free throws in practice, and X is the number she makes (assume shots are independent). Is X binomial?
 :hint: Check the four requirements: fixed n, independence, two outcomes, constant p.

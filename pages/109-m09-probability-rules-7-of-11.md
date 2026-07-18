@@ -56,7 +56,7 @@ Here is the idea:
 Our random experiment here is tossing a coin 10 times. You can imagine how huge the sample space is. There are actually 1,024 possible outcomes to this experiment, all of which are equally likely. Therefore, while it is true that it is more likely to get an outcome that has 5 heads and 5 tails than an outcome that has only heads (since there is only one possible outcome of the latter kind, and many possible outcomes of the former), if we are comparing 2 *specific outcomes* as we do here, they are equally likely.
 :::
 
-## Concept Check
+## Check Your Understanding: Independent Events and the Gambler's Fallacy
 
 :::{quiz} A slot machine pays off with probability 0.05 on each independent play. A gambler plays 3 times. What is the probability of winning all 3 plays?
 :hint: Multiply the three independent probabilities.

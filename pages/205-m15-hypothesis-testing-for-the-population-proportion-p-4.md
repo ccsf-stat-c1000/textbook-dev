@@ -36,7 +36,7 @@ It represents the difference between the sample proportion ($\hat{p}$) and the n
 
 Here is a representation of the sampling distribution of $\hat{p}$, assuming $p = p_0$. In other words, this is a model of how $\hat{p}$ behaves if we are drawing random samples from a population for which $H_0$ is true. Notice the center of the sampling distribution is at $p_0$, which is the hypothesized proportion given in the null hypothesis ($H_0: p = p_0$). We could also mark the axis in standard deviation units, $\sqrt{\frac{p_{0}(1-p_{0})}{n}}$. For example, if our null hypothesis claims that the proportion of U.S. adults supporting the death penalty is 0.64, then the sampling distribution is drawn as if the null is true. We draw a normal distribution centered at p = 0.64 with a standard deviation dependent on sample size, $\sqrt{\frac{0.64(1-0.64)}{n}}$.
 
-## Important Comment
+## Computing the Test Statistic
 
 Note that under the assumption that $H_0$ is true (i.e., $p=p_0$), the test statistic, by the nature of the fact that it is a z-score, has the N(0,1) (standard normal) distribution. Another way to say the same thing, which is quite common, is: "The null distribution of the test statistic is N(0,1)." By "null distribution," we mean the distribution under the assumption that $H_0$ is true. As we'll see and stress again later, the null distribution of the test statistic is what the calculation of the p-value is based on.
 
@@ -86,7 +86,7 @@ We interpret this to mean that, assuming that $H_0$ is true, the sample proporti
 2. You can think about this test statistic as a measure of evidence in the data against $H_0$. The larger the test statistic (in absolute value), the "further the data are from $H_0$" and therefore the more evidence the data provide against $H_0$.
 ```
 
-## Learn By Doing
+## Check Your Understanding: Interpreting the Test Statistic
 
 :::{quiz} In the death penalty example, the test statistic was z = 2.31. Which is the correct interpretation of this value?
 :hint: A z-score counts standard deviations from the center of the null distribution.
@@ -98,7 +98,7 @@ We interpret this to mean that, assuming that $H_0$ is true, the sample proporti
 * There is a 2.31% chance that H₀ is true
 :::
 
-## Did I Get This?
+## Check Your Understanding: The Test Statistic in Context
 
 The UCLA Internet Report (February 2003) estimated that a proportion of roughly 0.75 of online homes were still using dial-up access, but claimed that the use of dial-up was declining. To examine this, a follow-up study was conducted a year later in which, out of a random sample of 1,308 households that had Internet access, 804 were connecting using a dial-up modem.
 

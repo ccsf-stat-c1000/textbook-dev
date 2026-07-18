@@ -45,7 +45,7 @@ Since 0.182 is *not* small (in particular, 0.182 > 0.05), the data do not provid
 Here is the complete story of this example: $H_0: p = 0.157$ vs. $H_a: p > 0.157$; a random sample of n = 100 gave $\hat{p} = 19/100 = 0.19$; the test statistic was z = 0.91; the p-value was 0.182; since the p-value is not small, we cannot reject $H_0$.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Evidence and the Alternative Hypothesis
 
 :::{quiz} In example 2 the sample proportion (0.19) was above the national figure (0.157), yet we did not reject H₀. Which statement best explains this?
 :hint: Think about how much sample proportions vary in samples of only 100 students.
@@ -69,7 +69,7 @@ Since 0.021 is small (in particular, 0.021 < 0.05), the data provide enough evid
 Here is the complete story of this example: $H_0: p = 0.64$ vs. $H_a: p \neq 0.64$; a random sample of n = 1,000 gave $\hat{p} = 675/1000 = 0.675$; the test statistic was z = 2.31; the p-value was 0.021; since the p-value is small, we reject $H_0$.
 :::
 
-## Did I Get This?
+## Check Your Understanding: How the Significance Level Affects Conclusions
 
 Two hypothesis tests were conducted. In test I, a significance level of 0.05 was used, and the p-value was calculated to be 0.025. In test II, a significance level of 0.01 was used, and the p-value was calculated to be 0.025.
 

@@ -14,7 +14,7 @@ $$\text{Predicted distance} = 576 - 3 \times 60 = 396$$
 
 396 feet is our best prediction for the maximum distance at which a sign is legible for a 60-year-old.
 
-## Did I Get This?
+## Check Your Understanding: Predictions and Residuals
 
 *Background:* A statistics department is interested in tracking the progress of its students from entry until graduation. As part of the study, the department tabulates the performance of 10 students in an introductory course and in an upper-level course required for graduation. The scatterplot below includes the least squares line (the line that best explains the upper-level course average based on the introductory course average), and its equation, Y = −1.4 + X:
 

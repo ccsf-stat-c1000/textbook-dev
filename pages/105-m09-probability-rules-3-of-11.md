@@ -56,7 +56,7 @@ The Venn diagrams suggest that another way to think about disjoint versus not di
 
 The purpose of the following activity is to strengthen your intuition and understanding about disjoint versus not disjoint events.
 
-## Learn By Doing
+## Check Your Understanding: Disjoint Events
 
 Recall the couple that is planning to have 3 children, where the sample space S of all possible outcomes is:
 

@@ -49,7 +49,7 @@ An employer claims to subscribe to an "equal opportunity" policy, not hiring men
 However, *the data (all three selected are males) definitely do not provide evidence to accept the employer's claim* ($H_0$).
 :::
 
-## Learn By Doing
+## Check Your Understanding: Interpreting the P-value and Significance
 
 The following two hypotheses are tested:
 
@@ -88,7 +88,7 @@ Suppose a survey was conducted in which a random sample of 1,100 U.S. adults was
 * We have proven with certainty that a majority supports gay marriage
 :::
 
-## Did I Get This?
+## Check Your Understanding: Drawing a Conclusion from the P-value
 
 The following two hypotheses are tested:
 

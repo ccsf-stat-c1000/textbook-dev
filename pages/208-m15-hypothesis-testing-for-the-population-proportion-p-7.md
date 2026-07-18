@@ -95,7 +95,7 @@ We've just completed our discussion about the p-value, and how it is calculated 
 
 With respect to the z-test for the population proportion: steps 1, 2, and 3 are completed; step 4 is what we will work on next.
 
-## Learn By Doing
+## Check Your Understanding: Reading Software Output
 
 In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial situation as "good." We want to know if the proportion is smaller this year. We gather a random sample of 100 U.S. adults this year and find that 39 rate their financial situation as "good." Statistical software gives the following output:
 
@@ -134,7 +134,7 @@ In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial s
 * Accept H₀ and conclude the proportion is still 0.45
 :::
 
-## Learn By Doing
+## Check Your Understanding: Drawing Conclusions from Output
 
 The trustees of a local school district commission a survey to determine voter opinions about a possible bond measure to fund school upgrades. In a poll of 293 of the district's 5,019 registered voters, 178 would support the bond measure. A hypothesis test was conducted to determine if such a bond would pass with the required 55% of the vote. Statistical software gives the following output:
 
@@ -153,7 +153,7 @@ The trustees of a local school district commission a survey to determine voter o
 * Reject H₀ (nothing further can be said)
 :::
 
-## Learn By Doing
+## Check Your Understanding: Interpreting a P-value
 
 Do zinc supplements reduce a child's risk of catching a cold? A medical study reports a p-value of 0.03.
 

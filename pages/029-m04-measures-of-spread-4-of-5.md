@@ -51,7 +51,7 @@ The 1.5(IQR) criterion tells us that any observation that is below 13.25 or abov
 We therefore conclude that the observations 61, 61, 62, 74 and 80 should be flagged as suspected outliers in the distribution of ages. Note that since the smallest observation is 21, there are no suspected low outliers in this distribution.
 ::::
 
-## Concept Check
+## Check Your Understanding: Identifying Outliers with the IQR
 
 :::{quiz} A dataset has Q1 = 50 and Q3 = 70. According to the 1.5(IQR) criterion, which of the following observations would be flagged as a suspected high outlier?
 :hint: First find IQR = Q3 − Q1, then compute Q3 + 1.5(IQR).

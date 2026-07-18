@@ -31,9 +31,11 @@ Again, foot length of a randomly chosen adult male is a normal random variable w
    *Method 2:* If the probability is 0.10 that a foot will be longer than the value we seek, then the probability is 0.90 that a foot will be shorter than that same value, since the probabilities must sum to 1. According to the table, a probability of 0.90 below is associated with a z value of +1.28. Again, we seek the foot length that is 1.28 standard deviations above its mean, or 12.92 inches.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 *Part 1 of the above example* could have been re-phrased as: "0.04 is the proportion of all adult male foot lengths that are below what value?", which takes the perspective of thinking about the probability as a proportion of occurrences in the long run. As originally stated, it focuses on the chance of a randomly chosen individual having a normal value in a given interval.
+```
 
 :::{admonition} Example: Money Spent for Lunch
 :class: tip
@@ -45,9 +47,11 @@ A study reported that the amount of money spent each week for lunch by a worker 
 2. There is a 30% chance of spending more than how much for lunches in a week? The z associated with a probability of 0.30 above is +0.52. The amount is 35 + 0.52(5) = 37.6, or \$37.60.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Another way of expressing *part 1* above would be to ask, "What is the 97th percentile for the amount (X) spent by workers in a week for their lunch?" Many normal variables, such as heights, weights, or exam scores, are often expressed in terms of percentiles.
+```
 
 :::{admonition} Example: Height Percentile
 :class: tip
@@ -69,7 +73,7 @@ By now we have had practice in solving normal probability problems in both direc
 
 This next activity is a continuation of the previous one, and will give you guided practice in solving word problems in which you are given a probability and asked to find the normal value associated with it.
 
-## Learn By Doing
+## Check Your Understanding: From Percentiles to Values
 
 Recall the example from the last activity: the scores on the math part of the SAT (SAT-M) in a certain year had a mean of 507 and standard deviation of 111, and follow a normal distribution.
 
@@ -95,6 +99,8 @@ One of the criteria for admission to a certain engineering school is an SAT-M sc
 * About 509
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 In the days before computer software could easily provide high degrees of precision, limitations in the precision of the normal table were offset by the process of interpolating. Such calculations are now considered obsolete. For most purposes, it is fine simply to make do with the closest table value provided. And remember: statistical software or a calculator can find any normal probability or percentile directly, without a table—follow your instructor's technology instructions.
+```

@@ -25,7 +25,7 @@ The labeled scatterplot reveals two interesting features:
 - The poultry hot dogs form their own distinct cluster to the left of the beef and meat brands. In other words, for a given sodium level, poultry brands tend to have substantially fewer calories than beef or meat brands. Without the labels, we would see only a single cloud of points and miss this insight entirely.
 ::::
 
-## Concept Check
+## Check Your Understanding: Labeling a Scatterplot by Groups
 
 :::{quiz} What extra insight did labeling the hot dog scatterplot by type provide, compared with an unlabeled scatterplot?
 :hint: Look at where the poultry triangles sit relative to the beef and meat points.

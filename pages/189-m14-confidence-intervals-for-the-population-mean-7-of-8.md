@@ -26,7 +26,7 @@ First, *the sample must be random.* Assuming that the sample is random, recall f
 | **Variable varies normally** | OK | OK |
 | **Variable doesn't vary normally** | NOT OK | OK |
 
-## Did I Get This?
+## Check Your Understanding: Conditions for the z Interval
 
 Below are four different situations in which a confidence interval formula would be useful:
 
@@ -66,15 +66,17 @@ $$\bar{x} \pm t^{*}\cdot\frac{s}{\sqrt{n}}$$
 
 There is an important difference between the confidence multipliers we have used so far (z\*) and those needed for the case when σ is unknown (t\*). Unlike z\*, which depends only on the level of confidence, the new multipliers (t\*) have the *added complexity* that they *depend on both the level of confidence and on the sample size* (for example, the t\* used for 95% confidence when n = 10 is different from the t\* used when n = 40). Due to this added complexity in determining the appropriate t\*, we will rely heavily on technology in this case.
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Since it is quite rare that σ is known, this interval (sometimes called a *one-sample t confidence interval*) is more commonly used as the confidence interval for estimating μ. (Nevertheless, we could not have presented it without our extended discussion up to this point, which also provided you with a solid understanding of confidence intervals.)
 
 2. The quantity $\frac{s}{\sqrt{n}}$ is called the *standard error* of $\bar{X}$. The Central Limit Theorem tells us that $\frac{\sigma}{\sqrt{n}}$ is the *standard deviation* of $\bar{X}$ (and this is the quantity used in the confidence interval when σ is known). In general, whenever we replace parameters with their sample counterparts in the standard deviation of a statistic, the resulting quantity is called the standard error of the statistic. In this case, we replaced σ with its sample counterpart (s), and thus $\frac{s}{\sqrt{n}}$ is the *standard error* of (the statistic) $\bar{X}$.
 
 3. As before, to safely use this confidence interval, the sample *must be random*, and the only case when this interval cannot be used is when the sample size is small and the variable is not known to vary normally.
+```
 
-## Concept Check
+## Check Your Understanding: z Interval or t Interval?
 
 :::{quiz} A researcher has a random sample of 45 observations with sample mean 82 and sample standard deviation 12; σ is unknown. Which confidence interval should be used for μ?
 :hint: σ has been replaced by s—which multiplier goes with that?
@@ -86,10 +88,12 @@ There is an important difference between the confidence multipliers we have used
 * 82 ± t*(12)
 :::
 
-## Final Comment
+```{admonition} Final Comment
+:class: important
 
 It turns out that for large values of n, the t\* multipliers are not that different from the z\* multipliers, and therefore using the interval formula
 
 $$\bar{x} \pm z^{*}\cdot\frac{s}{\sqrt{n}}$$
 
 for μ when σ is unknown provides a pretty good approximation.
+```

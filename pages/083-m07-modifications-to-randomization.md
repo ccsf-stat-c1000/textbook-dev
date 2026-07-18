@@ -54,7 +54,7 @@ Suppose researchers want to compare the relative merits of toothpastes with and 
 We have explained data production as a two-stage process: first obtain the sample, then evaluate the variables of interest via an appropriate study design. Even though the steps are carried out in this order chronologically, it is generally best for researchers to decide on a study design before they actually obtain the sample. For the toothpaste example above, researchers would first decide to use the matched pairs design, then obtain a sample of identical twins, then carry out the experiment and assess the results.
 ```
 
-## Concept Check
+## Check Your Understanding: Blocking and Matched Pairs
 
 :::{quiz} Researchers testing a memory supplement suspect that age strongly affects memory performance. They divide their volunteers into "under 40" and "40 and over" groups, then randomly assign supplement or placebo within each group. What design feature is this?
 :hint: Subjects were grouped by a background variable before randomization.

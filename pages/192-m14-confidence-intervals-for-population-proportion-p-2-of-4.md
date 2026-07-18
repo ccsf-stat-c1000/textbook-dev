@@ -25,15 +25,17 @@ We can be 95% sure that the proportion of all U.S. adults who were already famil
 The fact that the margin of error equals 0.03 says we can be 95% confident that the unknown population proportion p is within 0.03 (3%) of the observed sample proportion 0.64 (64%). In other words, we are 95% confident that 64% is "off" by no more than 3%.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 We would like to share with you the methodology part of the poll release of the Viagra example, and show you that you now have the tools to understand how poll results are analyzed:
 
 "The results are based on telephone interviews with a randomly selected national sample of 1,005 adults, 18 years and older, conducted May 8-10, 1998. For results based on samples of this size, one can say with 95 percent confidence that the error attributable to sampling and other random effects could be plus or minus 3 percentage points. In addition to sampling error, question wording and practical difficulties in conducting surveys can introduce error or bias into the findings of public opinion polls."
+```
 
 The purpose of the next activity is to provide guided practice in calculating and interpreting the confidence interval for the population proportion p, and drawing conclusions from it.
 
-## Learn By Doing
+## Check Your Understanding: Constructing a Confidence Interval for a Proportion
 
 A poll asked a random sample of 1,000 U.S. adults, "Do you think that the use of marijuana should be legalized?" 560 of those asked answered yes.
 

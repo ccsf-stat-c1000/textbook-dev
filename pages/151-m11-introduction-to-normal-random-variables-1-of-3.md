@@ -31,7 +31,7 @@ Some observations we can make as we look at this graph are:
 
 Even more important than the fact that many variables themselves follow the normal curve is the role played by the normal curve in sampling theory, as we'll see in the next module of probability. Understanding the normal distribution is an important step in the direction of our overall goal, which is to relate sample means or proportions to population means or proportions. The goal of this section is to better understand normal random variables and their distributions.
 
-## Concept Check
+## Check Your Understanding: The Normal Distribution
 
 :::{quiz} Two normal curves are drawn on the same axes. Curve A is tall and narrow; curve B is short and wide. Both are centered at 50. Which statement is correct?
 :hint: Spread is controlled by σ; total area is always 1.

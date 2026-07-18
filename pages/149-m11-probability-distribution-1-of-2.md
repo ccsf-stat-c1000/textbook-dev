@@ -26,7 +26,7 @@ Now we can tell the probability of shoe size taking a value in any interval, jus
 
 Recall that for a discrete random variable like shoe size, the probability is affected by whether we want strict inequality or not. For example, the area—and corresponding probability—is reduced if we only consider shoe sizes strictly less than 9, since we then remove the bar over 9 itself.
 
-## Concept Check
+## Check Your Understanding: From Histograms to Density Curves
 
 :::{quiz} In the rescaled shoe-size histogram (vertical axis: probability per half size), how is P(9.5 ≤ X ≤ 10.5) represented?
 :hint: Probabilities are now represented by areas.

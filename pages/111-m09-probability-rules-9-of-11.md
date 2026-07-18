@@ -65,7 +65,7 @@ After this example, the following General Addition Rule for finding P(A or B) sh
 
 As we mentioned above, P(A or B) = P(A occurs or B occurs or both occur). Another way to interpret P(A or B) is therefore P(at least one of the two events occurs). (Later on this page we'll make the connection to the "at least one of..." type problems we discussed on the previous page.)
 
-## Learn By Doing
+## Check Your Understanding: The General Addition Rule
 
 Suppose that Jim is applying to two colleges: College A, an "Ivy League" school, and College B, a state university. Based on his credentials and the requirements of the two colleges, Jim estimates his chances with the following probabilities:
 
@@ -93,7 +93,7 @@ Suppose that Jim is applying to two colleges: College A, an "Ivy League" school,
 
 The next activity will give you guided practice in using the General Addition Rule when events are not disjoint but are independent.
 
-## Learn By Doing
+## Check Your Understanding: The General Addition Rule with Independence
 
 A homeowner has two smoke detector alarms installed, one in the dining room (adjacent to the kitchen) and one in an upstairs bedroom (above the kitchen). If cooking produces smoke in the kitchen, the probability of setting off the dining room alarm (D) is 0.95. The probability of setting off the bedroom alarm (B) is 0.40. The two alarms detect smoke independently of each other. If there is smoke in the kitchen, what is the probability that the smoke will be detected and will set off an alarm?
 
@@ -123,7 +123,8 @@ Let's first understand what probability we need to find: The smoke from the fire
 * 0.38
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The words "at least one of" might remind you of the Complement Rule strategy we used on the previous page for finding the probability that "at least one of many independent events occurred." Note that P(A or B) can also be interpreted as the probability that "at least one of the two events A, B occurs." When the events are independent, the Complement Rule strategy and the General Addition Rule give the same results, as shown below for a birth-month problem: two people are chosen at random, and we want the probability that at least one of them shares your birth month (each with probability 1/12, independently).
 
@@ -134,3 +135,4 @@ P(at least one of the two shares your birth month) = P(A or B) = P(A) + P(B) −
 We could also have used the Complement Rule strategy:
 
 P(at least one of the two shares your birth month) = 1 − P(neither shares your birth month) = 1 − (11/12)(11/12) ≈ 0.16
+```

@@ -26,13 +26,15 @@ If, for example, we are interested in P(X < 9), the probability that a randomly 
 :alt: The foot-length density curve with the region to the left of 9 inches shaded. The shaded area under the curve is the probability that the foot length is less than 9 inches.
 ```
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. We have seen that for a *discrete* random variable like shoe size, whether we have a strict inequality or not *does matter* when solving for probabilities. In contrast, for a *continuous* random variable like foot length, the probability of a foot length of less than or equal to 9 will be the same as the probability of a foot length of strictly less than 9. In other words, $P(X<9)=P(X\leq9)$. Visually, in terms of our density curve, the area under the curve up to and including a certain point is the same as the area up to and excluding the point, because there is no area over a single point. Conceptually, because a continuous random variable has infinitely many possible values, technically the probability of any single value occurring is zero!
 
 2. It should be clear now why the total area under any probability density curve must be 1. The total area under the curve represents P(X gets a value in the interval of its possible values). Clearly, according to the rules of probability this must be 1, or always true.
 
 3. Density curves, like probability histograms, may have any shape imaginable as long as the total area underneath the curve is 1.
+```
 
 ## Let's Summarize
 
@@ -52,7 +54,7 @@ In this course, we will encounter several important density curves—those for n
 
 Rather than get bogged down in the calculus of solving for areas under curves, we will find probabilities for the above-mentioned random variables by consulting tables. Also, statistical software automatically provides such probabilities in the appropriate context.
 
-## Concept Check
+## Check Your Understanding: Density Curves and Continuous Variables
 
 :::{quiz} For a continuous random variable X, what is P(X = 11), the probability that X exactly equals 11?
 :hint: How much area sits over a single point?

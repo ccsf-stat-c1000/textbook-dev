@@ -16,7 +16,7 @@ $$\sigma_{\bar{x}}=\frac{\sigma}{\sqrt{n}}$$
 
 Since the square root of sample size n appears in the denominator, the standard deviation does decrease as sample size increases.
 
-## Learn By Doing
+## Check Your Understanding: The Sampling Distribution of the Sample Mean
 
 The Federal Pell Grant Program provides need-based grants to low-income undergraduate and certain postbaccalaureate students to promote access to postsecondary education. According to the National Postsecondary Student Aid Study conducted by the U.S. Department of Education in 2008, the average Pell grant award for 2007-2008 was \$2,600. Assume that the standard deviation in Pell grant awards was \$500.
 
@@ -70,7 +70,7 @@ How large a sample size do we need in order to assume that sample means will be 
 
 *Comment:* For categorical variables, our claim that sample proportions are approximately normal for large enough n is actually a special case of the Central Limit Theorem.
 
-## Concept Check
+## Check Your Understanding: The Central Limit Theorem
 
 :::{quiz} Household incomes in a city are strongly skewed right. If we take random samples of 100 households and compute the mean income of each sample, what shape will the distribution of these sample means have?
 :hint: Apply the Central Limit Theorem: n = 100 is well above 30.

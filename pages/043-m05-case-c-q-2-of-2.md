@@ -39,7 +39,7 @@ Side-by-side boxplots supplemented by descriptive statistics allow us to compare
 | Max | 200 | 187 |
 ::::
 
-## Concept Check
+## Check Your Understanding: Comparing Groups (Case C→Q)
 
 Use the boxplots and the table to explore whether there is a "gender effect" on SSHA scores.
 

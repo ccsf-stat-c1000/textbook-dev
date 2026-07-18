@@ -6,9 +6,11 @@
 - Find probabilities associated with the normal distribution.
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 So far, we have used the normal table to find a probability, given the number (z) of standard deviations below or above the mean. The solution process involved first locating the given z value of the form \*.\*\* in the margins, then finding the corresponding probability of the form .\*\*\*\* inside the table as our answer. Now, a probability will be given and we will be asked to find a z value. The solution process involves first locating the given probability of the form .\*\*\*\* inside the table, then finding the corresponding z value of the form \*.\*\* as our answer.
+```
 
 :::{admonition} Example: From Probability to z
 :class: tip
@@ -48,7 +50,7 @@ In other words, we have found 0.15 to be the probability that a normal variable 
 A symmetric area of 0.95 centered at 0 extends to values −z\* and +z\* such that the remaining (1 − 0.95)/2 = 0.025 is below −z\* and also 0.025 above +z\*. The probability is 0.025 that a standardized normal variable is below −1.96. Thus, the probability is 0.95 that a normal variable takes a value within 1.96 standard deviations of its mean. Once again, the Standard Deviation Rule is shown to be just roughly accurate, since it states that the probability is 0.95 that a normal variable takes a value within 2 standard deviations of its mean.
 :::
 
-## Concept Check
+## Check Your Understanding: From Probability to z
 
 :::{quiz} The probability is 0.10 that a standardized normal variable takes a value below what value of z? (From the table, P(Z < −1.28) ≈ 0.1003.)
 :hint: Look for 0.10 inside the table and read the z from the margins.
@@ -60,9 +62,11 @@ A symmetric area of 0.95 centered at 0 extends to values −z\* and +z\* such th
 * z = −0.10
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Our standard normal table, like most, only provides probabilities for z values between −3.49 and +3.49. The following example demonstrates how to handle cases where z exceeds 3.49 in absolute value.
+```
 
 :::{admonition} Example: Off the Edge of the Table
 :class: tip

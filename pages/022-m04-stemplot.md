@@ -97,7 +97,7 @@ There is another type of display that we can use to summarize a quantitative var
 :alt: A dotplot of the winners' ages. A number line runs from 20 to 80, and each winner is shown as a dot stacked above her age. The dots are concentrated between the mid-twenties and mid-forties, with the tallest stack of five dots at age 33 and a few isolated dots at ages 61, 62, 74, and 80.
 ```
 
-## Concept Check
+## Check Your Understanding: Reading a Stemplot
 
 :::{quiz} In the sorted stemplot of the winners' ages, what does the row "8 | 0" represent?
 :hint: The stem is the tens digit, the leaf is the ones digit.

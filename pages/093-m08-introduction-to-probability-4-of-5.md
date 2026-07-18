@@ -65,7 +65,7 @@ Since we are selecting randomly, each is equally likely to be chosen. Thus, each
 A slightly more complicated, but more interesting, probability question would be to propose selecting 2 of the students, and ask, "What is the probability that the two students selected will be different genders?"
 ::::
 
-## Concept Check
+## Check Your Understanding: Equally Likely Outcomes
 
 :::{quiz} A spinner is one-third green, one-third orange, and one-third purple. What is P(orange)?
 :hint: The sections are equal in size.

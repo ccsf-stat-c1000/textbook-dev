@@ -63,7 +63,7 @@ In this case, stage 1 was a cluster sample of 8 colleges and stage 2 was a strat
 
 Multistage sampling can have more than 2 stages. For example, to obtain a random sample of physicians in the United States, you choose 10 states at random (stage 1, cluster). From each state you choose at random 8 hospitals (stage 2, cluster). Finally, from each hospital, you choose 5 physicians from each sub-specialty (stage 3, stratified).
 
-## Did I Get This?
+## Check Your Understanding: Multistage Sampling
 
 An insurance industry research foundation wants to study the quality of care given to all patients at risk for heart disease in the United States. Since not all those at risk seek treatment, the foundation randomly selects 3,500 claims only from among those at-risk patients who were actually treated for chest pain. The foundation obtains this sample in several stages. First, the foundation identifies 5 large companies that represent a broad cross-section of patients, chooses 2 of the 5 at random, and gains access to the claims of all the companies' patients. The two companies' claims are classified (depending on their origin) to 7 geographical regions (California, Florida, Great Lakes, Midwest, Northeast, Southern, and Southwest), and within each region, 5 counties are selected that represent a continuum spanning rural, suburban, and urban populations. (In total, then, patients from 35 counties are included.) Within each county (and for each company), claims of 25 male and 25 female patients treated for chest pain are randomly selected for the study, for a total of 3,500 patients.
 

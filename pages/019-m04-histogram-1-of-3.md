@@ -65,7 +65,7 @@ A relative frequency table, like the one above, can be used to determine the fre
    - To get the percentage, multiply the calculated relative frequency by 100. In this case, it would be 0.53 × 100 = 53 or 53%.
 ::::
 
-## Concept Check
+## Check Your Understanding: Reading a Histogram
 
 Here is the frequency table from above; use it to answer the questions.
 

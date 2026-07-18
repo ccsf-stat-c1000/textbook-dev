@@ -20,7 +20,7 @@
 
    This graph is aimed at advertisers deciding where to spend their budgets, and clearly suggests that *Time* magazine attracts by far the largest amount of advertising spending. Are the differences really as dramatic as the graph suggests? If we look carefully at the numbers above the pens, we find that advertisers spend in *Time* only $4,433,879 / $2,698,386 = 1.64 times more than in *Newsweek*, and only $4,433,879 / $1,537,617 = 2.88 times more than in *U.S. News*. By looking at the pictogram, however, we get the impression that *Time* is much further ahead. Why? In order to magnify the picture without distorting it, we must increase *both* its height and width. As a result, the *area* of *Time's* pen is 1.64 × 1.64 = 2.7 times larger than the *Newsweek* pen, and 2.88 × 2.88 = 8.3 times larger than the *U.S. News* pen. Our eyes capture the area of the pens rather than only the height, and so we are misled to think that *Time* is a bigger winner than it really is.
 
-## Concept Check
+## Check Your Understanding: Misleading Graphs
 
 :::{quiz} A pictogram shows company A's sales as a coin twice as tall (and twice as wide) as company B's coin, even though A's sales are only twice B's. Why is this display misleading?
 :hint: What do your eyes actually compare when looking at two coins—their heights or their areas?

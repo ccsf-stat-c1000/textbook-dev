@@ -13,7 +13,7 @@ Before we work some examples, let's compare and contrast what we now know about 
 | Categorical (e.g., left-handed or not) | p | $\hat{p}$ | p | $\sqrt{\frac{p(1-p)}{n}}$ | Normal if np ≥ 10 and n(1 − p) ≥ 10 |
 | Quantitative (e.g., age) | μ, σ | $\bar{x}$ | μ | $\frac{\sigma}{\sqrt{n}}$ | Normal if n ≥ 30 (always normal if the population is normal) |
 
-## Learn By Doing
+## Check Your Understanding: The Central Limit Theorem in Action
 
 Recall our earlier scenario: the average Pell grant award for 2007-2008 was \$2,600, with a standard deviation of \$500. Nothing was said about the shape of the distribution of individual awards.
 
@@ -65,7 +65,7 @@ Households of more than 3 people are, of course, quite common, but it would be e
 
 The purpose of the next activity is to give guided practice in finding the sampling distribution of the sample mean ($\bar{X}$), and using it to learn about the likelihood of getting certain values of $\bar{X}$.
 
-## Learn By Doing
+## Check Your Understanding: Probabilities for a Sample Mean
 
 The annual salary of teachers in a certain state has a mean of \$54,000 and standard deviation of σ = \$5,000.
 
@@ -89,7 +89,7 @@ The annual salary of teachers in a certain state has a mean of \$54,000 and stan
 * −3.2
 :::
 
-## Did I Get This?
+## Check Your Understanding: Sample Means and the Normal Model
 
 Scores on the math portion of the SAT (SAT-M) in a recent year followed a normal distribution with mean μ = 507 and standard deviation σ = 111.
 

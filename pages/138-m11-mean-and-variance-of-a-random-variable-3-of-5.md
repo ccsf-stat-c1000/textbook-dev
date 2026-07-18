@@ -54,7 +54,7 @@ In order to keep the same expected gain of \$700, the company should increase th
 
 The purpose of this next activity is to give you guided practice in solving practical problems whose solution is based on the mean of random variables.
 
-## Learn By Doing
+## Check Your Understanding: Expected Value in Applications
 
 Suppose that you work for an insurance company and you sell a \$100,000 fire insurance policy at an annual premium of \$1,350. Experience has shown that:
 

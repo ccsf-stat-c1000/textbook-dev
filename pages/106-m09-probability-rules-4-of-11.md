@@ -49,7 +49,7 @@ From the information given, we know that being a potential donor for a person wi
 * 0.004
 :::
 
-## Learn By Doing
+## Check Your Understanding: The Addition Rule for Disjoint Events
 
 So far we have introduced the addition rule for the special case in which the events being considered are disjoint. The purpose of this activity is to make you aware of the danger in wrongly using the addition rule for disjoint events in cases where the events are actually not disjoint. Consider the blood type example again, with the same donation rules as above.
 

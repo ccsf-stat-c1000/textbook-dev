@@ -54,7 +54,7 @@ and the *standard deviation* is
 $$\sigma_{X}=\sqrt{\sigma_{X}^{2}}$$
 ```
 
-## Concept Check
+## Check Your Understanding: The Standard Deviation of a Random Variable
 
 :::{quiz} A random variable takes the value 1 with probability 0.5 and the value 3 with probability 0.5, so its mean is 2. What is its standard deviation?
 :hint: Each value deviates from the mean by exactly 1.

@@ -69,7 +69,7 @@ A random sample of 2,500 U.S. adults was chosen to participate in a public opini
 We'll simply use $m=\frac{1}{\sqrt{n}}=\frac{1}{\sqrt{2500}}=0.02$. The survey has a margin of error of 2%. This means that for each of the questions asked, the obtained sample proportion will be within 2% of the proportion among all U.S. adults (with 95% confidence).
 :::
 
-## Concept Check
+## Check Your Understanding: Sample Size for a Proportion
 
 :::{quiz} A student government wants to poll students with a margin of error of 5% at 95% confidence. Using the conservative approach, how many students should be surveyed?
 :hint: n = 1/m² with m = 0.05.

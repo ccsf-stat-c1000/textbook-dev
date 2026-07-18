@@ -42,7 +42,7 @@ Here is the probability histogram for the previous example:
 
 Notice that each rectangle in the histogram has a width of 1 unit. The height of each rectangle is the probability that it will occur. Thus, the area of each rectangle is base times height, which for these rectangles is 1 times its probability for each value of X. This means that the sum of the areas of all of the rectangles is the same as the sum of all of the probabilities. Therefore, the total area = 1.
 
-## Learn By Doing
+## Check Your Understanding: Finding Probabilities from a Distribution
 
 Based upon data collected in the 2000 United States Census, the following histogram was constructed. It shows the distribution of people per household:
 
@@ -60,7 +60,7 @@ Based upon data collected in the 2000 United States Census, the following histog
 * 0.38
 :::
 
-## Did I Get This?
+## Check Your Understanding: Probabilities and Inequalities
 
 The probability distribution of the random variable X is represented by the following histogram:
 

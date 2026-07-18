@@ -35,7 +35,7 @@ Variables can be classified into one of two types: categorical or quantitative.
 Categorical variables are sometimes called *qualitative* variables, but in this course we use the term categorical.
 ```
 
-## Concept Check
+## Check Your Understanding: Individuals and Variables
 We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 
 |   | State | Zipcode | Family_Size | Annual_income |

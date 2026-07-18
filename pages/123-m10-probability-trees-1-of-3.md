@@ -41,7 +41,7 @@ There are two important things to note here:
 
 2. The second thing to note is that probabilities of branches that branch out from the same point always add up to one: 0.4 + 0.6 = 1 at the first stage, and 0.9 + 0.1 = 1 and 0.3 + 0.7 = 1 at the second stage.
 
-## Concept Check
+## Check Your Understanding: Reading a Probability Tree
 
 :::{quiz} In a probability tree for a two-stage problem, what kind of probabilities appear on the second set of branches?
 :hint: The second stage happens after (and depends on) the first stage's outcome.

@@ -38,7 +38,7 @@ $$P(D) = \frac{4}{10} = 0.4$$
 It should be noted that in this example it was still manageable to list all the possible outcomes, and then count the number of outcomes that are in event D. If we were to change the example slightly, and needed to choose 2 candidates out of, say, 10 (instead of 5), the number of possible outcomes would grow substantially (from 10 to 45) and listing all of those outcomes would be quite time-consuming and tiresome. Later in the probability section we will learn some simple counting methods that will allow us to figure out the number of possible outcomes without actually listing them.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Counting Outcomes and Probability
 
 A flight has been overbooked; however, there are 2 seats available—one in business class and one in first class. The ground crew decides to upgrade 2 of the coach (regular class) passengers so that 2 more passengers will be able to get on the flight. The crew has identified 4 passengers, 2 males and 2 females, who are traveling by themselves and who have been loyal frequent fliers on the airline. They decide to choose 2 of those passengers at random for the upgrade. The first chosen will be upgraded to first class, and the second chosen will be upgraded to business class. We'll denote the 2 males and 2 females (as before) with M1, M2, F1 and F2.
 

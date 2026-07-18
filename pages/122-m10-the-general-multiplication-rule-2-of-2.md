@@ -10,13 +10,15 @@ Here, again, is the General Multiplication Rule:
 
 *For any two events A and B, P(A and B) = P(A) × P(B | A)*
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Note that although the motivation for this rule was to find P(A and B) when A and B are not independent, this rule is general in the sense that if A and B happen to be *independent*, then P(B | A) = P(B) is true, and we're back to Rule 5—the Multiplication Rule for Independent Events: P(A and B) = P(A) × P(B).
 
 2. The General Multiplication Rule is just the definition of conditional probability in disguise. Recall the definition of conditional probability: *P(B | A) = P(A and B) / P(A)*. Let's isolate P(A and B) by multiplying both sides of the equation by P(A), and we get: *P(A and B) = P(A) × P(B | A)*. That's it ... this is the General Multiplication Rule.
 
 3. The General Multiplication Rule is useful when two events, A and B, occur in stages, first A and then B (like the selection of the two cards in the previous example). Thinking about it this way makes the General Multiplication Rule very intuitive. For both A and B to occur you first need A to occur (which happens with probability P(A)), *and* then you need B to occur, knowing that A has already occurred (which happens with probability P(B | A)).
+```
 
 Let's look at another, more realistic example:
 
@@ -42,7 +44,7 @@ Recall from an activity earlier in this module that the Complement Rule works wi
 
 The purpose of the next activity is to give you guided practice in expressing information in terms of conditional probabilities, and in using the General Multiplication Rule.
 
-## Learn By Doing
+## Check Your Understanding: Applying the General Multiplication Rule
 
 An overheating engine can quickly cause serious damage to a car, and therefore a dashboard red warning light is supposed to come on if that happens.
 

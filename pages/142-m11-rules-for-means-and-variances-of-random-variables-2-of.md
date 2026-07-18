@@ -16,9 +16,11 @@ $$\mu_{a+bX}=a+b\mu_{X}$$
 
 $$\sigma_{a+bX}^{2}=b^{2}\sigma_{X}^{2}$$
 
-## Comment
+```{admonition} Comment
+:class: important
 
 If we take a random variable's distribution and shift it over "a" units, and stretch or shrink its spread by "b" (stretch if b is greater than 1, shrink if b is less than 1), then the mean is shifted and the distribution is stretched or shrunk accordingly. For instance, if we multiply a random variable by 6 and add 3, then the mean is also transformed: the mean is also multiplied by 6 and 3 is added. Shifting by "a," however, has no effect on the variance (or standard deviation) of a random variable, because the spread would not be changed. On the other hand, stretching or shrinking the distribution of a random variable entails stretching or shrinking its spread accordingly. Doubling a random variable's values produces a new random variable whose variance is four times the original variance, but the standard deviation is just double the original standard deviation, as we might expect.
+```
 
 :::{admonition} Example: Shifting and Stretching
 :class: tip
@@ -38,7 +40,7 @@ and therefore: $\sigma_{50+5X}=\sqrt{36.5}=6.04$
 So, we can conclude that the hourly costs for Xavier's production line average \$59, and typically the cost is about \$6 away from that average.
 :::
 
-## Concept Check
+## Check Your Understanding: Linear Transformations of a Random Variable
 
 :::{quiz} A random variable X has mean 10 and standard deviation 2. What are the mean and standard deviation of 3X + 4?
 :hint: Mean: a + bμ = 4 + 3(10). SD: |b|σ = 3(2)—the added constant doesn't affect spread.

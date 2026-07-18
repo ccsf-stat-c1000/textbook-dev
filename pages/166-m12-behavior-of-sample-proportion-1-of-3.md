@@ -26,9 +26,11 @@ Based only on our intuition, we would expect the following:
 *Shape*: Sample proportions closest to 0.6 would be most common, and sample proportions far from 0.6 in either direction would be progressively less likely. In other words, the shape of the distribution of sample proportion should bulge in the middle and taper at the ends: it should be somewhat *normal.*
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The *distribution* of the values of the sample proportions ($\hat{p}$) in repeated *samples* is called the *sampling distribution of* $\hat{p}$.
+```
 
 The following video uses simulation to check whether our intuition about the center, spread and shape of the sampling distribution of $\hat{p}$ was right:
 
@@ -37,7 +39,7 @@ The following video uses simulation to check whether our intuition about the cen
 [Behavior of Sample Proportion 1](https://www.youtube.com/watch?v=2bIC4EmejkQ)
 ```
 
-## Concept Check
+## Check Your Understanding: The Behavior of the Sample Proportion
 
 :::{quiz} Suppose p = 0.6 and we repeatedly take random samples of size 100, recording the sample proportion each time. Around what value will the sample proportions center?
 :hint: The mean of the sampling distribution of p-hat is p.

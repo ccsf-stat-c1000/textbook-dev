@@ -47,10 +47,12 @@ The *conditional probability of event B, given event A,* is
 $$P(B | A) = \frac{P(A \text{ and } B)}{P(A)}$$
 ```
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Note that when we evaluate the conditional probability, we always divide by the probability of the given event. The probability of both goes in the numerator.
 2. The above formula holds as long as P(A) > 0, since we cannot divide by 0. In other words, we should not seek the probability of an event given that an impossible event has occurred.
+```
 
 Let's see how we can use this formula in practice:
 
@@ -72,13 +74,15 @@ Here, we are given that the patient experienced headache, so we are looking for 
 Using the definition: P(I | H) = P(I and H) / P(H) = 0.05/0.26 = 0.1923.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that the answers to (a) and (b) above are different. In general, P(A | B) does not equal P(B | A). We'll come back and illustrate this point later in this module.
+```
 
 The purpose of the following activity is to give you guided practice in using the definition of conditional probability, and teach you how the Complement Rule works with conditional probability.
 
-## Learn By Doing
+## Check Your Understanding: Computing Conditional Probabilities
 
 Recall the delivery services example, with the following probability table:
 
@@ -118,7 +122,7 @@ Recall the delivery services example, with the following probability table:
 * 0.20
 :::
 
-## Did I Get This?
+## Check Your Understanding: Conditional Probability in Context
 
 Recall the smoke alarms example from the previous module. A homeowner has smoke alarms installed in the dining room (adjacent to the kitchen) and an upstairs bedroom (above the kitchen). The two-way table below shows probabilities of smoke in the kitchen triggering the alarm in the dining room (D) or not, and in the bedroom (B) or not:
 

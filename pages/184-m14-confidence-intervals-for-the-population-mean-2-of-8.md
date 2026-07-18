@@ -33,9 +33,11 @@ Suppose a random sample of size n is taken from a normal population of values fo
 $$\bar{x}\pm2\cdot\frac{\sigma}{\sqrt{n}}$$
 ```
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Note that for now we require the population standard deviation (σ) to be known. Practically, σ is rarely known, but for some cases, especially when a lot of research has been done on the quantitative variable whose mean we are estimating (such as IQ, height, weight, scores on standardized tests), it is reasonable to assume that σ is known. Eventually, we will see how to proceed when σ is unknown, and must be estimated with the sample standard deviation (s).
+```
 
 Let's look at another example.
 
@@ -57,7 +59,7 @@ We are not done yet. An equally important part is to *interpret what this means 
 We are 95% confident that the mean SAT-M score of all community college students in the researcher's state is covered by the interval (467, 483). Note that the confidence interval was obtained by taking $475\pm8$ (rounded). This means that we are 95% confident that by using the sample mean ($\bar{x}=475$) to estimate μ, our error is no more than 8 points.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Constructing a Confidence Interval for a Mean
 
 A study was done on pregnant women who smoked during their pregnancies. In particular, the researchers wanted to study the effect that smoking has on pregnancy length. A sample of 114 pregnant women who were smokers participated in the study and were followed until the birth of their child. At the end of the study, the collected data were analyzed and it was found that the average pregnancy length of the 114 women was 260 days. From a large body of research, it is known that length of human pregnancy has a standard deviation of 16 days.
 
@@ -99,8 +101,10 @@ The 95% confidence interval for μ was found to be (467, 483). Note that 480, th
 This means that μ could be 480 (or even higher, up to 483), and therefore we cannot conclude that the mean SAT-M score among community college students in the state is lower than the mean in the general population of college students in that state. (Note that the fact that most of the plausible values for μ fall below 480 is not a consideration here.)
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Recall that in the formula for the 95% confidence interval for μ, $\bar{x}\pm2\cdot\frac{\sigma}{\sqrt{n}}$, the 2 comes from the Standard Deviation Rule, which says that any normal random variable (in our case $\bar{X}$) has a 95% chance (or probability of 0.95) of taking a value that is within 2 standard deviations of its mean.
 
 As you recall from the discussion about the normal random variable, this is only an approximation, and to be more accurate, there is a 95% chance that a normal random variable will take a value within 1.96 standard deviations of its mean. Therefore, a more accurate formula for the 95% confidence interval for μ is $\bar{x}\pm1.96\cdot\frac{\sigma}{\sqrt{n}}$, which you'll find in most introductory statistics books. In this course, we'll use 2 (and not 1.96), which is close enough for our purposes.
+```

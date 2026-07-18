@@ -23,7 +23,7 @@ Here is the distribution of the Body Image variable displayed first as a pie cha
 
 Note that the pie chart emphasizes how each category relates to the whole (all 1,200 students), while the bar chart makes it easier to compare the categories to one another. Either display is appropriate for a single categorical variable.
 
-## Concept Check
+## Check Your Understanding: Summarizing a Categorical Variable
 
 :::{quiz} Using the displays above, what percentage of the sampled students felt that their weight was NOT about right?
 :hint: Combine the categories other than "About right"—or subtract from 100%.

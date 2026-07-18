@@ -87,7 +87,7 @@ Similarly, in example 1 (defective products), where we are testing
 
 in order to reject $H_0$ and accept $H_a$, we will need to get a sample proportion of defective products which is much *smaller* than 0.20.
 
-## Learn By Doing
+## Check Your Understanding: Stating Hypotheses
 
 In each of the following examples, a test for the population proportion (p) is called for. You are asked to select the right null and alternative hypotheses.
 
@@ -127,7 +127,7 @@ In each of the following examples, a test for the population proportion (p) is c
 * H₀: p = 0.81; Hₐ: p > 0.81
 :::
 
-## Did I Get This?
+## Check Your Understanding: Stating Hypotheses in Context
 
 In each of the following examples, a test for the population proportion (p) is called for. You are asked to select the right null and alternative hypotheses.
 

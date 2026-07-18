@@ -64,7 +64,7 @@ There may even be an experiment designed with only a single treatment. For examp
 The word *control* is used in at least three different senses. In the context of observational studies, we *control for a confounding variable* by separating it out. Referring to an experiment as a *controlled experiment* stresses that the values of the experiment's explanatory variables (factors) have been assigned by researchers, as opposed to having occurred naturally. In the context of experiments, the *control group* consists of subjects who do not receive a treatment, but who are otherwise handled identically to those who do receive the treatment.
 ```
 
-## Concept Check
+## Check Your Understanding: Randomized Controlled Experiments
 
 :::{quiz} In a randomized controlled experiment testing a new fertilizer, why does randomly assigning plots of land to fertilizer or no-fertilizer groups allow a causal conclusion?
 :hint: What does random assignment do to potential lurking variables like soil quality or sunlight?

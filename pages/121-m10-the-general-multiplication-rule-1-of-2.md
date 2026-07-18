@@ -52,7 +52,7 @@ For independent events A and B, we had the rule P(A and B) = P(A) × P(B). Due t
 *For any two events A and B, P(A and B) = P(A) × P(B | A)*
 ```
 
-## Concept Check
+## Check Your Understanding: The General Multiplication Rule
 
 :::{quiz} A drawer contains 5 batteries, 2 of which are dead. You grab two batteries at random (without replacement). What is the probability that both are dead?
 :hint: P(first dead) = 2/5; given the first is dead, only 1 dead battery remains among 4.

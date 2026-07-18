@@ -42,7 +42,7 @@ In the previous part of this module, we found that *P(H | I)* = P(H and I) / P(I
 Alternatively, we could have compared P(I | H) to P(I). *P(I) = 0.14*, and previously we found that *P(I | H)* = P(I and H) / P(H) = 0.05/0.26 = *0.1923*, and again, since the two are not equal, we can conclude that the two side effects I and H are dependent.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Independence and Two-Way Tables
 
 Recall again the smoke alarms example, with the two-way probability table:
 

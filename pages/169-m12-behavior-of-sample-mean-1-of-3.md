@@ -26,16 +26,18 @@ Based on our intuition and what we have learned about the behavior of sample pro
 *Shape*: Sample means closest to 3,500 will be the most common, with sample means far from 3,500 in either direction progressively less likely. In other words, the shape of the distribution of sample means should bulge in the middle and taper at the ends with a shape that is somewhat normal. This, again, is what we saw when we looked at the sample proportions.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 The *distribution* of the values of the sample mean ($\bar{x}$) in repeated *samples* is called the *sampling distribution of* $\bar{x}$.
+```
 
 ```{note} Video
 
 [Behavior of Sample Mean 1](https://www.youtube.com/watch?v=fqOOownnkA4)
 ```
 
-## Concept Check
+## Check Your Understanding: The Behavior of the Sample Mean
 
 :::{quiz} Every day, a quality inspector randomly samples 16 boxes of cereal from a filling machine and computes the sample mean weight. Over many days, around what value will these sample means center, if the machine fills boxes with mean μ = 500 grams?
 :hint: The sampling distribution of the sample mean is centered at μ.

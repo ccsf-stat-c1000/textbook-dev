@@ -49,7 +49,7 @@ Here is the two-way table for our example:
 
 The table has the possible genders in the rows, and the possible responses regarding body image in the columns. At each intersection between row and column, we put the counts for how many times that combination of gender and body image occurred in the data. We sum across the rows to fill in the Total column, and we sum across the columns to fill in the Total row.
 
-## Concept Check
+## Check Your Understanding: Reading a Two-Way Table
 
 :::{quiz} Using the two-way table, how many of the sampled students are males who feel their weight is about right?
 :hint: Find the cell where the Male row meets the About right column.

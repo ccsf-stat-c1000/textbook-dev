@@ -28,7 +28,7 @@ Suppose that we are interested in the opinions of U.S. adults regarding legalizi
 Suppose a poll of 1,000 U.S. adults finds that 560 of them believe marijuana should be legalized. If we wanted to estimate p, the population proportion, using a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample proportion $\hat{p}=\frac{560}{1000}=0.56$. We say in this case that 0.56 is the *point estimate* for p, and in general, we'll always use $\hat{p}$ as the *point estimator* for p.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Computing Point Estimates
 
 A study on exercise habits used a random sample of 2,540 college students (1,220 females and 1,320 males).
 
@@ -58,7 +58,7 @@ The study found the following:
 * 0.69
 :::
 
-## Did I Get This?
+## Check Your Understanding: Point Estimates in Context
 
 A psychology researcher was conducting a study about newlywed heterosexual couples during the first two years of their marriage. 513 newlywed couples were randomly chosen for the study. One of the questions that the researcher was interested in was "During a typical week, how many times do you have sex?" The 513 responses had an average of 2.35 and standard deviation of 1.2. Another question that was asked is "During a typical week, how many evenings do you go out?" 171 of the couples answered that they go out more than twice a week.
 

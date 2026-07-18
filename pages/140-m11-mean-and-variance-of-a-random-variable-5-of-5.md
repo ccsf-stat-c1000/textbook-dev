@@ -64,9 +64,11 @@ The following graphs will be used in the next "Did I Get This?" exercise. Each s
 * Smallest: Graph B; Largest: Graph C
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 As we have stated before, using the mean and standard deviation gives us another way to assess which values of a random variable are unusual. Any values of a random variable that fall within 2 standard deviations of the mean would be considered ordinary (not unusual).
+```
 
 :::{admonition} Example: Xavier's Production Line—Unusual or Not?
 :class: tip
@@ -82,7 +84,7 @@ Would it be considered unusual to have no defective parts? Zero is within 2 stan
 
 The following activity will reinforce this idea.
 
-## Learn By Doing
+## Check Your Understanding: Identifying Unusual Values
 
 Recall the probability distribution for changing majors. We have made the following calculations for the mean and standard deviation. For some extra practice, feel free to verify our calculations.
 

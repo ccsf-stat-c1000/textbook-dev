@@ -28,7 +28,7 @@ After seeing this, an important question naturally comes to mind. *How would we 
 
 So, these types of experiments can verify classical probabilities and they can also determine when games of chance are not following *fair* practices. However, their real importance is to answer probability questions that arise when we are faced with a situation that does not follow any pattern and cannot be predetermined. In reality, most of the probabilities of interest to us fit the latter description.
 
-## Concept Check
+## Check Your Understanding: Theoretical and Empirical Probability
 
 :::{quiz} A fair coin is flipped 10 times and comes up heads 7 times. Does this contradict P(H) = 0.5?
 :hint: Probability describes long-run behavior, not short-run results.

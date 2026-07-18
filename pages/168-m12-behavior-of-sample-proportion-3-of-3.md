@@ -42,13 +42,15 @@ To find $P(\hat{p}\leq0.56)$, we standardize 0.56 to z = (0.56 − 0.60)/0.01 = 
 $$P(\hat{p}\leq0.56)=P(Z\leq-4.0)=0 \text{ (approx.)}$$
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 As long as the sample is truly random, the distribution of $\hat{p}$ is centered at p, no matter what size sample has been taken. Larger samples have less spread. Specifically, when we multiplied the sample size by 25, increasing it from 100 to 2,500, the standard deviation was reduced to 1/5 of the original standard deviation. Sample proportion strays less from population proportion 0.6 when the sample is larger: it tends to fall anywhere between 0.5 and 0.7 for samples of size 100, whereas it tends to fall between 0.58 and 0.62 for samples of size 2,500. It is not so improbable to take a value as low as 0.56 for samples of 100 (probability is more than 20%), but it is almost impossible to take a value as low as 0.56 for samples of 2,500 (probability is virtually zero).
+```
 
 The purpose of this next activity is to give guided practice in finding the sampling distribution of the sample proportion ($\hat{p}$), and using it to draw conclusions about what values of $\hat{p}$ we are most likely to get.
 
-## Learn By Doing
+## Check Your Understanding: Finding Probabilities for a Sample Proportion
 
 The proportion of left-handed people in the general population is about 0.1. Suppose a random sample of 225 people is observed.
 
@@ -90,7 +92,7 @@ The proportion of left-handed people in the general population is about 0.1. Sup
 * 2.5
 :::
 
-## Theoretical Comment (Optional)
+## Theoretical Derivation (Optional)
 
 The above results for the distribution of sample proportion $\hat{p}$ are directly related to the results already obtained for the distribution of sample count X in a binomial experiment. Remember that X had mean np, standard deviation $\sqrt{np(1-p)}$, and a shape that allowed for normal approximations as long as both np and n(1 − p) were at least 10. Since sample proportion is $\hat{p}=\frac{X}{n}$, we can derive the mean and standard deviation of $\hat{p}$ by applying the Rules for Means and Variances:
 

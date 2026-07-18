@@ -46,7 +46,7 @@ May we use a normal approximation for a binomial X with n = 20 and p = 0.5? In t
 
 The purpose of the next activity is to give you practice at deciding whether the normal approximation is appropriate for a given binomial random variable.
 
-## Concept Check
+## Check Your Understanding: When to Use the Normal Approximation
 
 :::{quiz} Is the normal approximation appropriate for a binomial random variable with n = 100 and p = 0.05?
 :hint: Check np and n(1 − p) against 10.

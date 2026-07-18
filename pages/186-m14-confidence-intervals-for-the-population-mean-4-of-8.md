@@ -50,7 +50,7 @@ Since the structure of the confidence interval is such that it has a margin of e
 
 The margin of error, m, is therefore "in charge" of the width (or precision) of the confidence interval, and the estimate is in charge of its location (and has no effect on the width).
 
-## Concept Check
+## Check Your Understanding: The Structure of a Confidence Interval
 
 :::{quiz} A 95% confidence interval for a population mean is reported as (24, 32). What are the point estimate and the margin of error?
 :hint: The interval is centered at the estimate, and its total width is twice the margin of error.

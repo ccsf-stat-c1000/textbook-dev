@@ -40,7 +40,7 @@ Note that in both examples we supplemented the scatterplot with the correlation 
 The *correlation* coefficient can *only* be interpreted as the *measure of the strength of a linear relationship*, so we need the scatterplot to verify that the relationship indeed looks linear. This point and its importance will be clearer after we examine a few properties of r.
 ```
 
-## Concept Check
+## Check Your Understanding: Interpreting the Correlation r
 
 :::{quiz} A researcher finds r = −0.85 between the number of hours of television watched per day and score on a reading test. Which interpretation is correct?
 :hint: Consider both the sign and the magnitude of r.

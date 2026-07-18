@@ -51,7 +51,8 @@ Again, let's see how the process of hypothesis testing works for this example:
 4. *Conclusion:* Here, we have an example where observing a sample like the one we observed is definitely not surprising (roughly 30% chance) if claim 1 were true (i.e., if indeed there is no difference in SAT scores between males and females). We therefore conclude that our data do not provide enough evidence for rejecting claim 1.
 :::
 
-## Comment
+::::{admonition} Comment
+:class: important
 
 Go back and read the conclusion sections of the three examples, and pay attention to the wording. Note that there are two types of conclusions:
 
@@ -65,6 +66,7 @@ Hopefully by now, you understand the logic behind the statistical hypothesis tes
 ```{figure} images/gen/m15-logic-flow.svg
 :alt: A flow chart describing the process. First, we state Claim 1 and Claim 2. Claim 1 says "nothing special is going on" and is challenged by Claim 2. Second, we collect relevant data and summarize them. Third, we assess how surprising it would be to observe data like that observed if Claim 1 were true. Fourth, we draw conclusions in context.
 ```
+::::
 
 ## Learn By Doing
 

@@ -50,7 +50,7 @@ Use the Standard Deviation Rule to answer the following questions. This picture 
 :alt: A normal curve for horse gestation with the axis marked at 327, 330, 333, 336, 339, 342, and 345 days. Brackets show that about 68% of gestations last between 333 and 339 days, about 95% between 330 and 342 days, and about 99.7% between 327 and 345 days.
 ```
 
-## Concept Check
+## Check Your Understanding: Applying the 68-95-99.7 Rule
 
 :::{quiz} Approximately what percentage of horse pregnancies last between 333 and 339 days?
 :hint: 333 and 339 are each 1 SD (3 days) from the mean of 336.

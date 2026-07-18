@@ -66,7 +66,7 @@ Asample surveyis a type of observational study in which respondents assess varia
 
 * Survey method and questions should be carefully designed to elicit honest responses if there are sensitive issues involved.
 
-## Concept Check
+## Check Your Understanding: Writing Good Survey Questions
 
 :::{quiz} A survey asks: "Do you agree that our city's beautiful new park, which has already brought the community together, deserves continued funding?" What is the main flaw in this question?
 :hint: Can you tell from the wording what answer the surveyor is hoping for?

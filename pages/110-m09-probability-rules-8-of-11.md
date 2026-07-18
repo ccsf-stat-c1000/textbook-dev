@@ -60,7 +60,7 @@ Therefore, it is almost certain that if we choose 10 people at random, we'll fin
 
 The purpose of the following activity is to guide you through another problem that involves finding P(at least one of ...).
 
-## Learn By Doing
+## Check Your Understanding: Finding "At Least One" Probabilities
 
 A quiz consists of 10 multiple-choice questions, each with 4 possible answers, only one of which is correct. A student who does not attend lectures on a regular basis has no clue what the answers are, and therefore uses an independent random guess to answer each of the 10 questions. What is the probability that the student gets at least one question right?
 

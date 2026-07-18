@@ -36,7 +36,7 @@ The five number summary of the age of Best Actress Oscar winners (1970–2013) i
 | 21 | 30.5 | 34.5 | 42 | 80 |
 :::
 
-## Concept Check
+## Check Your Understanding: The Five-Number Summary
 
 :::{quiz} A dataset of 12 commute times (in minutes), already ordered, is: 12, 15, 18, 20, 22, 25, 26, 28, 30, 33, 38, 45. What is the five number summary?
 :hint: The median is the mean of the 6th and 7th values; Q1 and Q3 are the medians of the bottom and top halves (6 values each).

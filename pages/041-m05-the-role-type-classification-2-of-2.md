@@ -61,7 +61,7 @@ Now let's go back to our eight examples and determine which of the four cases re
 - Therefore, this is an example of *case Q→C*.
 :::
 
-## Concept Check
+## Check Your Understanding: Classifying Relationships by Role and Type
 
 Now you classify the rest. In each of the following problems, determine which of the four cases represents the data structure of the study.
 

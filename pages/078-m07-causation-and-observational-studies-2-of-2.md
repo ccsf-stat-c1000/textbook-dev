@@ -24,7 +24,7 @@ Yet another possible design is to recruit participants for a retrospective obser
 This design has the advantage of not disturbing people's natural behavior in terms of TV viewing or snacking. It has the disadvantage of relying on people's memories to record those variables' values from the day before. But one day is a relatively short period of time to remember such details, and as long as people are willing to be honest, the results of this study could be fairly reliable. The issue of eliciting honest responses will be addressed in our discussion of sample surveys.
 :::
 
-## Concept Check
+## Check Your Understanding: Weaknesses of Observational Studies
 
 :::{quiz} A study asks cancer patients and healthy controls to recall their diets from ten years ago. Which weakness of retrospective observational studies is most concerning here?
 :hint: The variable values are being recorded backward in time, over a long period.

@@ -24,7 +24,7 @@ to be the conditions under which it is safe to use the methods we developed in t
 - The margin of error of a poll is determined (conservatively) by $\frac{1}{\sqrt{n}}$.
 - The methods developed in this unit are safe to use as long as $n\hat{p}\geq10$ and $n(1-\hat{p})\geq10$.
 
-## Concept Check
+## Check Your Understanding: Conditions for the Proportion Interval
 
 :::{quiz} A quality engineer samples 40 parts and finds 3 defective (p-hat = 0.075). Is it safe to construct the usual z confidence interval for the proportion of defective parts?
 :hint: Check n·p-hat and n·(1 − p-hat).

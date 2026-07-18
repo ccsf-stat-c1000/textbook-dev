@@ -32,7 +32,8 @@ The overall probability that the sales rep will take the Bermuda vacation is 0.5
 ```
 :::
 
-## Comment
+::::{admonition} Comment
+:class: important
 
 Following one branch to a connected branch, such as C then V, represents the occurrence of one event and then another, which requires multiplication of probabilities. Including outcomes reached via either of two end-branches represents the occurrence of one event or another, which requires addition of probabilities.
 
@@ -47,6 +48,7 @@ The diagram shows that V = (C and V) or (not C and V), where (C and V) and (not 
 We can generalize our solution to obtain an expression for the probability of any event B, based on how B is impacted by the occurrence or non-occurrence of some other event A. We call this the *Law of Total Probability:*
 
 $$P(B) = P(A) \cdot P(B | A) + P(\text{not } A) \cdot P(B | \text{not } A)$$
+::::
 
 :::{admonition} Example: Reversing the Conditioning
 :class: tip
@@ -64,7 +66,8 @@ P(C | V) = P(C and V) / P(V) = 0.36/0.54 = 0.67
 Thus, if it is known that the sales rep left for the Bermuda vacation, it is more likely than not that the commission came through.
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Ordinarily, when events occur in stages, the explanatory variable would be the occurrence or non-occurrence of a certain event at the first stage, and the response variable would be the occurrence or non-occurrence of the next event chronologically. In such cases, we would identify the probability of a certain response, given that the explanatory variable took a certain value. However, there are sometimes situations, as in the second example above, where what we know is the ultimate outcome, and what we want to find out is the probability that a certain event occurred previously. Our solution to that example suggests a general formula for solving problems of this form:
 
@@ -75,3 +78,4 @@ $$P(A|B)=\frac{P(A)\cdot P(B|A)}{P(B)} \quad \text{[by the General Multiplicatio
 $$P(A|B)=\frac{P(A)\cdot P(B|A)}{P(A)\cdot P(B|A)+P(\text{not } A)\cdot P(B|\text{not } A)} \quad \text{[by the Law of Total Probability]}$$
 
 The fact that P(A | B) equals the latter expression is known as Bayes' Rule, or Bayes' Theorem.
+```

@@ -41,7 +41,7 @@ The resulting probability distribution is:
 
 The purpose of the next activity is to give you guided practice in finding the probability distribution of a discrete random variable.
 
-## Learn By Doing
+## Check Your Understanding: Building a Probability Distribution
 
 A young couple decides to try to have children until they have a boy. For financial reasons, the couple decides that they are going to stop trying when they have three children, whether they have a boy or not. (We are assuming that having a boy or a girl is equally likely, and that the child's gender in each birth is independent of the gender in the other births.)
 

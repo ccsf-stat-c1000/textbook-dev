@@ -40,7 +40,7 @@ This is a sample survey, because the individuals self-assess the relationship be
 Notice that in design 2, the values of the variables of interest (TV watching and snack consumption) are recorded forward in time. Such observational studies are called *prospective*. In contrast, in design 3, the values of the variables of interest are recorded backward in time. This is called a *retrospective* observational study. We'll discuss this distinction later in this module.
 ```
 
-## Concept Check
+## Check Your Understanding: Experiments vs. Observational Studies
 
 :::{quiz} Researchers want to know whether a new stretching routine reduces running injuries. They assign half of a group of volunteer runners, chosen at random, to do the routine before every run, and the other half to keep their usual warm-up. After six months they compare injury rates. What type of study is this?
 :hint: Who decides which runners do the stretching routine?

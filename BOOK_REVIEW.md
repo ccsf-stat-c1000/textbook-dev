@@ -12,7 +12,7 @@ This document tracks the review findings and their status. Findings 1 and 4–7 
 | --- | --- | --- | --- |
 | 1 | Descriptive-title conversion | Resolved | m12–m17 converted (80 pages) |
 | 2 | Quiz-section headings inconsistent ("Concept Check" vs "Did I Get This?"/"Learn By Doing") | Deferred (by request) | ~83 pages |
-| 3 | "Comment" appears both as an H2 and as an admonition | In progress | ~60 pages; m04 done |
+| 3 | "Comment" appears both as an H2 and as an admonition | Resolved | ~60 pages |
 | 4 | "Example" H2 vs admonition; "#" numbering | Resolved | pages 011, 165 |
 | 5 | `intro.md`: British "Licence", hard-wrapping, trailing spaces | Resolved | 1 page |
 | 6 | Standard normal table omits leading zeros | Resolved (documented exception) | style guide |
@@ -148,16 +148,17 @@ Proposed change: rename every "## Did I Get This?" and "## Learn By Doing" to "#
 
 ## Medium priority
 
-### 3. "Comment" is presented two ways — IN PROGRESS
+### 3. "Comment" presentation — RESOLVED
 
-The style guide says comments and caveats should use the `:class: important` admonition. The book was split: ~60 pages used a plain `## Comment(s)` H2 (about 90 occurrences, mostly earlier modules), while ~30 pages already used the admonition box (mostly m15–m17). You chose to standardize on callout boxes everywhere.
+The book was split: ~60 pages used a plain `## Comment(s)` H2 (about 90 occurrences, mostly earlier modules), while ~30 pages already used the `:class: important` admonition box (mostly m15–m17). Per your decision, the whole book now follows one rule: short asides become boxes, and "Comment" headings that are really subtopics get a descriptive heading instead.
 
-Status: I'm converting each `## Comment(s)` H2 section into a `:class: important` admonition, preserving the exact heading text as the box title. To match existing usage I use a backtick ```` ```{admonition} ```` fence for plain-prose comments and a `:::`/`::::` colon fence where the body contains a table or figure. Module 4 is done (pages 016, 019, 022, 027, 028); m05–m17 remain.
+What was done:
 
-Two things to review after your next build:
+- Short caveats (one to three paragraphs) were converted to `:class: important` admonitions, titled `Comment`/`Comments` (or the original phrasing, e.g., "Final Comment"). Backtick fences for plain prose; `:::`/`::::` colon fences where a figure or table sits inside.
+- Subtopic "Comment" sections were renamed to descriptive headings instead of boxed, so a callout never swallows a figure/example/quiz or an entire page body. Examples: `## Multistage Sampling` and `## Cluster vs. Stratified Sampling` (070); `## Does Order Matter?` (099); `## Independent Events` and `## Disjoint vs. Independent Events` (107); `## Finding the Probability of "At Least One of ..."` (110); `## Unbiased Estimators`, `## The Role of Random Sampling and Design`, `## Accuracy Improves with Sample Size`, `## Estimating the Population Variance` (181); `## Making the Continuity Correction` (161); `## Theoretical Derivation (Optional)` (168); `## Computing the Test Statistic` (205); `## Using Confidence Intervals to Compare Means` (252); and a few others.
+- The rule is now recorded in `STYLE_GUIDE.md`.
 
-- A few "## Comments" sections (for example, page 016) are a page's entire body rather than a short aside, so they become large boxes. They are converted for consistency, but you may prefer to rename them to a normal section heading instead.
-- I can't run a MyST build here, so when the pass is complete I verify with grep that no `## Comment` headings remain and that admonition fences are balanced; a build is still the definitive check.
+Verification: grep confirms no `## Comment` H2 headings remain anywhere; every comment is now either a `{admonition} Comment` box (102 across 80 files, including the ~30 pre-existing ones) or a renamed section. Fence balance was spot-checked on the figure-containing boxes. A `myst build` is still the definitive check that every box renders.
 
 ### 4. "Example" formatting and numbering — RESOLVED
 
@@ -206,9 +207,9 @@ The sandbox cannot run `myst build`, and a few things can only be verified by bu
 
 1. Title conversion (finding 1): done (m12–m17).
 2. Quiz headings (finding 2): deferred at your request.
-3. Comment → callout boxes (finding 3): in progress (m04 done; m05–m17 remaining).
+3. Comment presentation (finding 3): done — short caveats boxed, subtopics renamed.
 4. Examples + page-165 numbering (finding 4): done.
 5. `intro.md` polish (finding 5) and `PROGRESS.md` refresh (finding 7): done.
 6. z-table exception (finding 6): documented in the style guide.
 
-Remaining: finish the finding 3 conversion through m05–m17, then run `myst build` to confirm the new comment boxes, all figures, and the quiz plugin render cleanly.
+Remaining: only finding 2 (quiz headings), deferred at your request. Then run `myst build` to confirm the new comment boxes, all figures, and the quiz plugin render cleanly.

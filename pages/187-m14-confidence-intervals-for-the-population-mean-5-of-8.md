@@ -57,11 +57,13 @@ This explains why with a larger sample size the margin of error (which represent
 
 On an intuitive level, if our estimate $\bar{x}$ is based on a larger sample (i.e., a larger fraction of the population), we have more faith in it, or it is more reliable, and therefore we need to account for less error around it.
 
-## Comment
+```{admonition} Comment
+:class: important
 
 While it is true that for a given level of confidence, increasing the sample size increases the precision of our interval estimation, in practice, increasing the sample size is not always possible. Consider a study in which there is a non-negligible cost involved for collecting data from each participant (an expensive medical procedure, for example). If the study has some budgetary constraints, which is usually the case, increasing the sample size from 100 to 400 is just not possible in terms of cost-effectiveness. Another instance in which increasing the sample size is impossible is when a larger sample is simply not available, even if we had the money to afford it. For example, consider a study on the effectiveness of a drug on curing a very rare disease among children. Since the disease is rare, there are a limited number of children who could be participants. This is the reality of statistics. Sometimes theory collides with reality, and you just do the best you can.
+```
 
-## Concept Check
+## Check Your Understanding: Margin of Error and Sample Size
 
 :::{quiz} A 95% confidence interval based on n = 100 has margin of error 3. If everything else stays the same, what margin of error would a sample of n = 900 give?
 :hint: The margin of error scales as 1/√n; the sample is 9 times larger.

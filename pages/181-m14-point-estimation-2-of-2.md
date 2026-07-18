@@ -6,7 +6,7 @@
 - Determine point estimates in simple cases, and make the connection between the sampling distribution of a statistic and its properties as a point estimator.
 ```
 
-## Comment 1
+## Unbiased Estimators
 
 You may feel that since it is so intuitive, you could have figured out point estimation on your own, even without the benefit of an entire course in statistics. Certainly, our intuition tells us that the best estimator for $\mu$ should be $\bar{x}$, and the best estimator for p should be $\hat{p}$.
 
@@ -18,11 +18,11 @@ Likewise, we learned that the sampling distribution of the sample proportion, $\
 
 As stated in the introduction, probability theory plays an essential role as we establish results for statistical inference. Our assertion above that sample mean and sample proportion are unbiased estimators is the first such instance.
 
-## Comment 2
+## The Role of Random Sampling and Design
 
 Notice how important the principles of sampling and design are for our above results: if the sample of U.S. adults in the marijuana example was not random, but instead included predominantly college students, then 0.56 would be a biased estimate for p, the proportion of all U.S. adults who believe marijuana should be legalized. If the survey design were flawed, such as loading the question with a reminder about the dangers of marijuana leading to hard drugs, or a reminder about the benefits of marijuana for cancer patients, then 0.56 would be biased on the low or high side, respectively. Our point estimates are truly unbiased estimates for the population parameter only if the *sample is random and the study design is not flawed.*
 
-## Comment 3
+## Accuracy Improves with Sample Size
 
 Not only are sample mean and sample proportion on target as long as the samples are random, but their accuracy improves as sample size increases. Again, there are two "layers" here for explaining this.
 
@@ -38,7 +38,7 @@ Recall that the sampling distribution of the sample mean $\bar{X}$ is, as we men
 
 Similarly, since the sampling distribution of $\hat{p}$ is centered at p and has a standard deviation of $\sqrt{\frac{p(1-p)}{n}}$, which decreases as the sample size gets larger, values of $\hat{p}$ are more likely to be closer to p when the sample size is larger.
 
-## Comment 4
+## Estimating the Population Variance
 
 Another example of a point estimate is using the sample variance, $s^{2}=\frac{(x_{1}-\bar{x})^{2}+\cdots+(x_{n}-\bar{x})^{2}}{n-1}$, to estimate the population variance, $\sigma^{2}$.
 
@@ -52,7 +52,7 @@ We use $\bar{x}$ (sample mean) as a point estimator for $\mu$ (population mean).
 
 In both cases, the larger the sample size, the more accurate the point estimator is. In other words, the larger the sample size, the more likely it is that the sample mean (proportion) is close to the unknown population mean (proportion).
 
-## Concept Check
+## Check Your Understanding: Unbiased Estimators
 
 :::{quiz} What does it mean to say that x-bar is an "unbiased" estimator of μ?
 :hint: Think about where the sampling distribution of x-bar is centered.

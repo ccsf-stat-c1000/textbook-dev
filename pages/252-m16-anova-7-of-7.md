@@ -6,7 +6,7 @@
 - In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
 ```
 
-## Final Comment
+## Using Confidence Intervals to Compare Means
 
 The ANOVA F-test does not provide any insight into *why* $H_0$ was rejected; it does not tell us in what way $\mu_1, \mu_2, \ldots, \mu_k$ are not all equal. We would like to know which pairs of μ's are not equal. As an exploratory (or visual) aid to get that insight, we may take a look at the confidence intervals for the group population means that appear in the output. More specifically, we should look at the position of the confidence intervals and the overlap (or lack thereof) between them.
 

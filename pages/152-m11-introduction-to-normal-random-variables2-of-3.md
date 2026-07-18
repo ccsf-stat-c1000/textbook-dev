@@ -28,13 +28,15 @@ $$0.997=P(\mu-3\sigma<X<\mu+3\sigma)$$
 :alt: A normal curve with the axis marked at 1, 2, and 3 standard deviations on either side of the mean, and brackets showing the 68 percent, 95 percent, and 99.7 percent regions.
 ```
 
-## Comment
+::::{admonition} Comment
+:class: important
 
 Notice that the information from the rule can be interpreted from the perspective of the tails of the normal curve: since 0.68 is the probability of being within 1 standard deviation of the mean, (1 − 0.68)/2 = 0.16 is the probability of being further than 1 standard deviation below the mean (or further than 1 standard deviation above the mean). Likewise, (1 − 0.95)/2 = 0.025 is the probability of being more than 2 standard deviations below (or above) the mean; (1 − 0.997)/2 = 0.0015 is the probability of being more than 3 standard deviations below (or above) the mean. The figure below illustrates this:
 
 ```{figure} images/gen/m11-normal-tails.svg
 :alt: A normal curve in which the middle region within one standard deviation of the mean holds probability 0.68, and each shaded tail beyond one standard deviation holds probability 0.16. The caption notes that 0.025 lies beyond two standard deviations on each side, and 0.0015 beyond three.
 ```
+::::
 
 ::::{admonition} Example: Foot Length
 :class: tip
@@ -84,6 +86,8 @@ Now you should try a few. (Use the figure in the example to help you.)
 * 11
 :::
 
-## Comment
+```{admonition} Comment
+:class: important
 
 Notice that there are two types of problems we may want to solve: those like *(a)*, *(d)* and *(e)*, in which a particular interval of values of a normal random variable is given, and we are asked to find a probability, and those like *(b)*, *(c)* and *(f)*, in which a probability is given and we are asked to identify what the normal random variable's values would be.
+```

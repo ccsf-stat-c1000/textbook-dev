@@ -28,7 +28,7 @@ Let's apply this result to our example and see how it compares with our simulati
 
 In our example, n = 25 (sample size) and p = 0.6. Note that np = 15 ≥ 10 and n(1 − p) = 10 ≥ 10. Therefore we can conclude that $\hat{p}$ is approximately normal with mean p = 0.6 and standard deviation $\sqrt{\frac{0.6(0.4)}{25}}=0.098$ (which is very close to what we saw in our simulation).
 
-## Learn By Doing
+## Check Your Understanding: The Sampling Distribution of the Sample Proportion
 
 According to the National Postsecondary Student Aid Study conducted by the U.S. Department of Education in 2008, 62% of graduates from public universities had student loans. Suppose we take random samples of 100 graduates.
 
@@ -58,7 +58,7 @@ According to the National Postsecondary Student Aid Study conducted by the U.S. 
 * No—0.50 is within 2 standard deviations of 0.62
 :::
 
-## Did I Get This?
+## Check Your Understanding: When the Normal Model Fails
 
 The proportion of left-handed people in the general population is about 0.10. To simulate this population, we constructed a collection in which p = 0.10. We then conducted four simulations, drawing 1,005 random samples of each of four different sizes from this collection. Here are the summary statistics of the resulting sampling distributions:
 

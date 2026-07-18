@@ -51,7 +51,7 @@ What is the probability that a randomly chosen person cannot donate blood to eve
 Note that the Complement Rule, *P(not A) = 1 − P(A)*, can be re-formulated as *P(A) = 1 − P(not A).* This seemingly trivial algebraic manipulation has an important application, and actually captures the strength of the complement rule. In some cases, when finding P(A) directly is very complicated, it might be much easier to find P(not A) and then just subtract it from 1 to get the desired P(A). We will come back to this comment and see examples later in this module.
 ```
 
-## Did I Get This?
+## Check Your Understanding: The Complement Rule
 
 On the "Information for the Patient" label of a certain antidepressant it is claimed that based on some clinical trials, when taking this medication:
 

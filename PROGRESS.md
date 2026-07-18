@@ -100,9 +100,12 @@ or after), so they need no changes if the order is swapped again.
   the lone `## Example` H2 (page `011`) converted to the admonition tip form and
   "Example #1/#2" numbering fixed on page `165`; the z-table leading-zero
   convention documented as a deliberate exception in `STYLE_GUIDE.md`.
+- "Comment" sections standardized: short caveats are now `:class: important`
+  admonitions and subtopic "Comment" headings were renamed to descriptive
+  section titles (rule recorded in `STYLE_GUIDE.md`).
 - Still open from the review: quiz-section headings are inconsistent
-  ("Concept Check" vs retained "Did I Get This?"/"Learn By Doing"); and the
-  "Comment" sections mix `## Comment` H2 with `{admonition} Comment` boxes.
+  ("Concept Check" vs retained "Did I Get This?"/"Learn By Doing"), deferred
+  by the instructor.
 
 ## Notes / open questions
 

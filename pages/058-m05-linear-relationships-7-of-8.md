@@ -67,7 +67,7 @@ As we can see, the regression line fits the linear pattern of the data quite wel
 As we mentioned before, hand-calculation is not the focus of this course. We wanted you to see one example in which the least squares regression line is calculated by hand, but in general we'll let statistical software or a calculator do that for us.
 ```
 
-## Concept Check
+## Check Your Understanding: Interpreting and Using the Regression Line
 
 :::{quiz} A regression line for predicting exam score from hours studied is Score = 42 + 5.5(Hours). What is the correct interpretation of the slope?
 :hint: The slope is the average change in the response for a 1-unit increase in the explanatory variable.

@@ -61,7 +61,7 @@ But what if only 40% of those selected email you back with their vote?
 The results of this poll would not necessarily be representative of the population, because of the potential problems associated with *volunteer response*. Since individuals are not compelled to respond, often a relatively small subset take the trouble to participate. Volunteer response is not as problematic as a volunteer sample (presented in example 1 above), but there is still a danger that those who do respond are different from those who don't, with respect to the variable of interest. An improvement would be to follow up with a second email, asking politely for students' cooperation. This may boost the response rate, resulting in a sample that is fairly representative of the entire population of interest, and it may be the best that you can do, under the circumstances. *Nonresponse* is still an issue, but at least you have managed to reduce its impact on your results.
 :::
 
-## Concept Check
+## Check Your Understanding: Sampling and Bias
 
 :::{quiz} A television station invites viewers to text in their opinion on a new city tax. What kind of sample is this, and what is the main concern?
 :hint: Who decides whether to be included in this sample?

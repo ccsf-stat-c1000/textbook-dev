@@ -40,7 +40,7 @@ Going back to the 6 examples above, we can write:
 - Example 5: *S* = {A, B, AB, O}
 - Example 6: *S* = { (Ann, Beth), (Ann, Jim), (Ann, Dan), (Beth, Jim), (Beth, Dan), (Jim, Dan) }
 
-## Concept Check
+## Check Your Understanding: Sample Spaces
 
 :::{quiz} A random experiment consists of rolling one fair die and recording the number face-up. What is the sample space?
 :hint: List every possible outcome of a single roll.

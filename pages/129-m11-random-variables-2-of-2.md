@@ -8,7 +8,8 @@
 
 Before we go any further, a few observations about the nature of discrete and continuous random variables should be mentioned.
 
-## Comments
+```{admonition} Comments
+:class: important
 
 1. Sometimes, continuous random variables are "rounded" and are therefore "in a discrete disguise." For example:
 
@@ -30,6 +31,7 @@ Before we go any further, a few observations about the nature of discrete and co
 
    - We counted the number of tails and the number of ears with earrings. These were discrete random variables.
    - We measured the weight of the lightweight boxer. This was a continuous random variable.
+```
 
 Often we can have a subject matter for which we can collect data that could involve a discrete or a continuous random variable, depending on the information we wish to know.
 

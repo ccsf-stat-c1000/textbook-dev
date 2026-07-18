@@ -43,7 +43,7 @@ Suppose researchers want to determine whether being in a lower income bracket ma
 The socioeconomic status of the study subject is a variable that cannot be controlled by the researchers, so an experiment is impossible. (Even if the researchers could somehow raise the money to provide a random sample of women with substantial salaries, the effects of their eating habits during their lives before the study began would still be present, and would affect the study's outcome.)
 :::
 
-## Concept Check
+## Check Your Understanding: The Hawthorne Effect
 
 :::{quiz} Workers in a factory increase their productivity when researchers observe them—regardless of what changes the researchers make to the workplace. What is this phenomenon called?
 :hint: It's named after the factory where it was first documented.

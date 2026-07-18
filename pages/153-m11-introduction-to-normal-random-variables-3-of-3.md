@@ -70,7 +70,7 @@ Note that even though Ross' foot is longer than Candace's, Candace's foot is lon
 Part (c) illustrates how z-scores become crucial when you want to *compare distributions*.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Computing z-Scores
 
 Scores on the final exam in Professor Meyer's statistics class follow a normal distribution, with a mean of 82 and a standard deviation of 5.
 
