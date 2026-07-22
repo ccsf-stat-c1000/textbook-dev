@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STAT C1000 Course Outline Alignment and Pacing Guide</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #5b6470;
+    --rule: #dfe3e8;
+    --accent: #00446a;
+    --accent-soft: #eef4f8;
+    --warn-bg: #fdf4e3;
+    --warn-edge: #c98a12;
+    --ok-bg: #eef7ef;
+    --ok-edge: #3f8a4d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 3rem 1.5rem 6rem;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #fff;
+  }
+  main { max-width: 62rem; margin: 0 auto; }
+  h1 {
+    font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem;
+    border-bottom: 3px solid var(--accent); padding-bottom: .6rem;
+  }
+  h2 {
+    font-size: 1.35rem; margin: 3rem 0 .75rem;
+    border-bottom: 1px solid var(--rule); padding-bottom: .35rem;
+  }
+  h3 { font-size: 1.08rem; margin: 2rem 0 .5rem; }
+  h4 { font-size: .95rem; margin: 1.5rem 0 .4rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  p, li { margin: .6rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  a { color: var(--accent); }
+  code {
+    font: .88em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: #f2f4f6; padding: .12em .35em; border-radius: 3px;
+  }
+  .lede { color: var(--muted); font-size: 1.02rem; margin-bottom: 1.5rem; }
+  .callout {
+    border-left: 4px solid var(--accent); background: var(--accent-soft);
+    padding: .9rem 1.1rem; margin: 1.25rem 0; border-radius: 0 4px 4px 0;
+  }
+  .callout.verdict { border-left-color: var(--ok-edge); background: var(--ok-bg); }
+  .callout.warn { border-left-color: var(--warn-edge); background: var(--warn-bg); }
+  .callout p:first-child { margin-top: 0; }
+  .callout p:last-child { margin-bottom: 0; }
+  table {
+    width: 100%; border-collapse: collapse; margin: 1.25rem 0;
+    font-size: .9rem;
+  }
+  th, td {
+    text-align: left; vertical-align: top;
+    padding: .55rem .7rem; border-bottom: 1px solid var(--rule);
+  }
+  thead th {
+    background: var(--accent); color: #fff; font-weight: 600;
+    border-bottom: none; font-size: .82rem;
+    text-transform: uppercase; letter-spacing: .03em;
+  }
+  tbody tr:nth-child(even) { background: #fafbfc; }
+  td.pages, td.wk { white-space: nowrap; font-variant-numeric: tabular-nums; }
+  td.wk { font-weight: 600; }
+  tfoot td { font-weight: 600; border-top: 2px solid var(--accent); }
+  .tag {
+    display: inline-block; font-size: .74rem; font-weight: 700;
+    padding: .15rem .5rem; border-radius: 10px; white-space: nowrap;
+    text-transform: uppercase; letter-spacing: .03em;
+  }
+  .tag.ok   { background: var(--ok-bg);   color: #2c6b38; border: 1px solid #b8d9be; }
+  .tag.gap  { background: var(--warn-bg); color: #8a5c00; border: 1px solid #e3c88a; }
+  .tag.part { background: #f3eefa;        color: #5b3d8a; border: 1px solid #d3c4e8; }
+  .tag.exam { background: #fdecec;        color: #9c2b2b; border: 1px solid #eebcbc; }
+  footer {
+    margin-top: 4rem; padding-top: 1rem; border-top: 1px solid var(--rule);
+    font-size: .84rem; color: var(--muted);
+  }
+  @media print {
+    body { padding: 0; font-size: 11pt; }
+    h2 { page-break-after: avoid; }
+    table { page-break-inside: avoid; font-size: 9pt; }
+    thead th { background: #00446a !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<h1>STAT C1000 Course Outline Alignment and Pacing Guide</h1>
+<p class="lede">
+  Mapping the content of <em>Introduction to Statistics</em> (this Jupyter Book) to the
+  STAT C1000 Course Outline of Record, with pacing schedules for 17.5-week, 16-week,
+  and 12-week terms.
+</p>
+
+<div class="callout verdict">
+  <p><strong>Verdict: the book aligns with the Course Outline of Record.</strong></p>
+  <p>
+    All fourteen Part I content items are covered, and all six course objectives (SLO A&ndash;F)
+    are supported by book content. Two gaps are documented below: technology-based statistical
+    analysis (COR Part I item 2 and Part II) is not built into the book and must be supplied by
+    the instructor, and ethical reasoning (SLO F) is present but thin.
+  </p>
+</div>
+
+<h2>Sourcing note</h2>
+<p>
+  CCSF's Course Outline of Record for STAT C1000 lives in CurricUNET
+  (<a href="https://ccsf.curricunet.com/DynamicReports/AllFieldsReportByEntity/14744?entityType=Course&amp;reportId=28">report link</a>),
+  which could not be fetched programmatically for this review. The six Student Learning Outcomes
+  quoted below are taken verbatim from <code>overview.md</code> in this repository, which cites the
+  CCSF COR directly. The Part I / Part II content outline is taken from the Common Course Numbering
+  STAT C1000 template, which CCSF's COR follows; the SLO wording in <code>overview.md</code> matches
+  the CCN "Course Objectives" list word for word, which is strong evidence the content outline
+  matches as well.
+</p>
+<div class="callout warn">
+  <p>
+    <strong>Before submitting this document to a curriculum committee,</strong> verify the Part I
+    content list against the live CCSF CurricUNET report.
+  </p>
+</div>
+
+<h2>Part 1 &mdash; Objective (SLO) Alignment</h2>
+<table>
+  <thead>
+    <tr><th style="width:4rem">SLO</th><th style="width:26%">Objective</th><th>Where the book covers it</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>A</strong></td>
+      <td>Assess how data were collected and recognize how data collection affects what conclusions can be drawn.</td>
+      <td>Unit 1 entirely. &sect;1 Sampling (pp.&nbsp;67&ndash;71); &sect;2 Designing Studies (pp.&nbsp;73&ndash;87), including observational vs.&nbsp;experimental design, causation, confounding, blinding, blocking, and sample surveys. Reinforced in Unit 2 &sect;4 (Causation and Lurking Variables, pp.&nbsp;60&ndash;64).</td>
+    </tr>
+    <tr>
+      <td><strong>B</strong></td>
+      <td>Identify appropriate graphs and summary statistics for variables and relationships, and interpret them correctly.</td>
+      <td>Unit 2 entirely. &sect;3 Examining Distributions (pp.&nbsp;10&ndash;37): categorical/quantitative variables, histograms, stemplots, boxplots, center, spread, standard deviation. &sect;4 Examining Relationships (pp.&nbsp;39&ndash;66): role-type classification, side-by-side comparisons, two-way tables, scatterplots, correlation, least-squares regression.</td>
+    </tr>
+    <tr>
+      <td><strong>C</strong></td>
+      <td>Describe and apply probability concepts and distributions.</td>
+      <td>Unit 3 entirely. &sect;5 Introduction (pp.&nbsp;89&ndash;96); &sect;6 Finding Probability of Events (pp.&nbsp;98&ndash;114); &sect;7 Conditional Probability and Independence (pp.&nbsp;116&ndash;126); &sect;8 Random Variables (pp.&nbsp;128&ndash;162), covering discrete distributions, expected value and variance, the binomial distribution, continuous distributions, the normal distribution, and the normal approximation to the binomial; &sect;9 Sampling Distributions (pp.&nbsp;164&ndash;173).</td>
+    </tr>
+    <tr>
+      <td><strong>D</strong></td>
+      <td>Use the basic ideas of statistical processes, including hypothesis tests and confidence interval estimation.</td>
+      <td>Unit 4 entirely. &sect;10 Introduction to Inference (pp.&nbsp;174&ndash;178); &sect;11 Estimation (pp.&nbsp;180&ndash;194); &sect;12 Hypothesis Testing (pp.&nbsp;196&ndash;226); &sect;13&ndash;14 Inference for Relationships (pp.&nbsp;228&ndash;264).</td>
+    </tr>
+    <tr>
+      <td><strong>E</strong></td>
+      <td>Identify appropriate statistical techniques and use technology-based statistical analysis to describe, interpret, and communicate results.</td>
+      <td><span class="tag part">Partial</span> Technique selection is directly supported by the role-type classification framework (pp.&nbsp;40&ndash;41, 228, 255, 260) and by the Summary pages (pp.&nbsp;66, 173, 264), which is unusually strong scaffolding for procedure identification. Technology-based analysis is <strong>not</strong> built into the book; see Gap&nbsp;1.</td>
+    </tr>
+    <tr>
+      <td><strong>F</strong></td>
+      <td>Evaluate ethical issues in statistical practice.</td>
+      <td><span class="tag part">Thin</span> Present in Sampling (p.&nbsp;69), Causation and Experiments (pp.&nbsp;79, 81), Wrap-Up Designing Studies (p.&nbsp;86), and Matched Pairs (p.&nbsp;243). Threaded rather than taught as a unit; see Gap&nbsp;2.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Part 2 &mdash; Content Outline Alignment</h2>
+<p>COR Part I content items, mapped to book units, sections, and pages.</p>
+<table>
+  <thead>
+    <tr><th style="width:3rem">#</th><th style="width:30%">COR Part I content item</th><th>Book coverage</th><th style="width:9rem">Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Introduction to statistical thinking and processes</td><td>Intro page; The Big Picture (p.&nbsp;9)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>2</td><td>Technology-based statistical analysis</td><td>Not built into the book</td><td><span class="tag gap">Gap</span></td></tr>
+    <tr><td>3</td><td>Applications using data from four or more disciplines</td><td>Examples throughout draw on health science, life science, education, psychology, social science, and business</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>4</td><td>Units (subjects/cases) and variables in a data set, including multivariable data sets</td><td>EDA introduction (pp.&nbsp;10&ndash;11); role-type classification (pp.&nbsp;40&ndash;41); labeled scatterplots with a third variable (p.&nbsp;51)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>5</td><td>Categorical and quantitative variables</td><td>pp.&nbsp;10&ndash;11, 13&ndash;17, 40&ndash;41</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>6</td><td>Sampling methods, concerns, and limitations, including bias and random variability</td><td>Unit 1 &sect;1 (pp.&nbsp;67&ndash;71); Sample Surveys (pp.&nbsp;84&ndash;85)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>7</td><td>Observational studies and experiments</td><td>Unit 1 &sect;2 (pp.&nbsp;73&ndash;87)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>8</td><td>Data summaries, visualizations, and descriptive statistics</td><td>Unit 2 &sect;3&ndash;&sect;4 (pp.&nbsp;10&ndash;66)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>9</td><td>Probability concepts</td><td>Unit 3 &sect;5&ndash;&sect;7 (pp.&nbsp;89&ndash;126)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>10</td><td>Probability distributions (e.g., binomial, normal)</td><td>Binomial (pp.&nbsp;144&ndash;147); normal (pp.&nbsp;151&ndash;158); normal approximation to the binomial (pp.&nbsp;159&ndash;161)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>11</td><td>Sampling distributions and the Central Limit Theorem</td><td>Unit 3 &sect;9 (pp.&nbsp;164&ndash;173)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>12</td><td>Estimation and confidence intervals</td><td>Unit 4 &sect;11 (pp.&nbsp;180&ndash;194): point estimation, interval estimation, CIs for &mu; and for <em>p</em></td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>13</td><td>Hypothesis testing, including <em>t</em>-tests for one and two populations, chi-squared test(s), and ANOVA</td><td>One-sample tests for <em>p</em> and &mu; (pp.&nbsp;196&ndash;226); two independent samples and matched pairs (pp.&nbsp;228&ndash;245); ANOVA (pp.&nbsp;246&ndash;252); chi-square test of independence, Case C&rarr;C (pp.&nbsp;255&ndash;259)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>14</td><td>Regression, including correlation and linear regression equations</td><td>Descriptive: scatterplots, correlation, least-squares regression (pp.&nbsp;47&ndash;59). Inferential: Case Q&rarr;Q (pp.&nbsp;260&ndash;262)</td><td><span class="tag ok">Covered</span></td></tr>
+    <tr><td>II</td><td>Analysis of large data sets using statistical software</td><td>Not built into the book</td><td><span class="tag gap">Gap</span></td></tr>
+  </tbody>
+</table>
+
+<h3>Notable strengths relative to the COR</h3>
+<ul>
+  <li>
+    <strong>Binomial random variables and ANOVA are both present</strong> (pp.&nbsp;144&ndash;147 and
+    246&ndash;252). The COR's textbook rationale for stock OLI <em>Concepts in Statistics</em> states
+    that "instructor must supplement instruction for Binomial Random Variables and ANOVA not
+    contained in the text." This book already includes both, so that supplementation requirement is
+    satisfied by the book itself.
+  </li>
+  <li>
+    <strong>Chi-square is present</strong> as Case C&rarr;C (pp.&nbsp;255&ndash;259), satisfying the
+    COR's chi-squared requirement without supplementation.
+  </li>
+  <li>
+    <strong>The role-type classification framework</strong> (C&rarr;Q, C&rarr;C, Q&rarr;Q) runs from
+    Unit 2 through Unit 4 and gives students an explicit decision procedure for choosing a
+    statistical technique. This directly serves SLO&nbsp;E, which is typically the hardest outcome
+    to assess.
+  </li>
+</ul>
+
+<h3>Stale note in <code>overview.md</code></h3>
+<p>
+  <code>overview.md</code>, Week&nbsp;16, states: <em>"The Course Outline lists chi-squared tests as
+  required content (SLO D). If time permits, introduce chi-squared tests&hellip;"</em> and the Notes
+  section repeats that "the handouts do not include it." This is no longer accurate for the book:
+  chi-square is fully developed at pp.&nbsp;255&ndash;259 as a required part of Unit 4 &sect;13.
+  That note should be updated.
+</p>
+
+<h2>Gaps and Notes</h2>
+
+<h3>Gap 1 &mdash; Technology-based statistical analysis <span class="tag gap">COR I.2, Part II, SLO E</span></h3>
+<p>
+  The COR requires a statistical analysis platform beyond a graphing calculator (R, StatCrunch, or
+  Excel) and requires analysis of large data sets using that software. The book mentions software on
+  only a handful of pages (85, 161, 243). Computation in the book is presented conceptually and by
+  hand or table.
+</p>
+<p><strong>Recommended remedy.</strong> Adopt one platform and attach a lab or activity stream in parallel with the reading. Natural attachment points:</p>
+<table>
+  <thead><tr><th style="width:12rem">Book location</th><th>Lab topic</th></tr></thead>
+  <tbody>
+    <tr><td class="pages">pp. 24&ndash;36</td><td>Measures of center and variation; effect of outliers</td></tr>
+    <tr><td class="pages">pp. 47&ndash;59</td><td>Scatterplots, correlation, least-squares regression</td></tr>
+    <tr><td class="pages">pp. 151&ndash;158</td><td>Normal probabilities and inverse normal</td></tr>
+    <tr><td class="pages">pp. 164&ndash;173</td><td>Sampling distribution simulation, CLT</td></tr>
+    <tr><td class="pages">pp. 183&ndash;194</td><td>Confidence intervals</td></tr>
+    <tr><td class="pages">pp. 202&ndash;226</td><td>One-sample hypothesis tests</td></tr>
+    <tr><td class="pages">pp. 231&ndash;252</td><td>Two-sample tests and ANOVA</td></tr>
+    <tr><td class="pages">pp. 255&ndash;262</td><td>Chi-square and regression inference</td></tr>
+  </tbody>
+</table>
+<p>
+  This also satisfies the COR's Methods of Instruction requirement for Activity and Lab hours
+  (the COR allocates 36 activity hours alongside 36 lecture hours).
+</p>
+
+<h3>Gap 2 &mdash; Ethical reasoning <span class="tag gap">SLO F</span></h3>
+<p>
+  Ethics appears on six pages, mostly within Unit&nbsp;1. SLO&nbsp;F asks students to
+  <em>evaluate</em> ethical issues, which implies assessable work. Recommended additions, none
+  requiring new book content:
+</p>
+<ul>
+  <li>Unit 1: a written analysis of a study whose sampling design undermines its published claim.</li>
+  <li>pp.&nbsp;123&ndash;125 (probability trees): false positives and false negatives in medical screening, and the decision consequences of each.</li>
+  <li>pp.&nbsp;224&ndash;226: <em>p</em>-value misinterpretation and the gap between statistical and practical significance.</li>
+  <li>p.&nbsp;264 (Summary of Inference): a capstone reflection on responsible statistical communication.</li>
+</ul>
+
+<h3>Sequencing note</h3>
+<p>
+  The book covers <strong>confidence intervals for the mean (pp.&nbsp;183&ndash;190) before
+  confidence intervals for the proportion (pp.&nbsp;191&ndash;194)</strong>.
+  <code>overview.md</code>'s weekly plan does the reverse. Either order works; pick one and make the
+  syllabus consistent with it. The schedules below follow the book's order.
+</p>
+
+<h2>Part 3 &mdash; Pacing Schedules</h2>
+<p>
+  All three schedules follow the book's table of contents order:
+  Big Picture &rarr; Unit 1 Producing Data &rarr; Unit 2 Exploratory Data Analysis &rarr;
+  Unit 3 Probability &rarr; Unit 4 Inference.
+</p>
+<p>
+  Page numbers refer to the flat page numbers encoded in the <code>pages/</code> filenames
+  (e.g. <code>164-m12-sampling-distributions.md</code> is page 164), which is the numbering students
+  see in the sidebar.
+</p>
+
+<h3>Content page totals by module</h3>
+<table>
+  <thead><tr><th>Section</th><th style="width:10rem">Pages</th><th style="width:6rem">Count</th></tr></thead>
+  <tbody>
+    <tr><td>Intro + The Big Picture</td><td class="pages">intro, 9</td><td>2</td></tr>
+    <tr><td>&sect;1 Sampling</td><td class="pages">67&ndash;71</td><td>4</td></tr>
+    <tr><td>&sect;2 Designing Studies</td><td class="pages">73&ndash;87</td><td>15</td></tr>
+    <tr><td>&sect;3 Examining Distributions</td><td class="pages">10&ndash;37</td><td>27</td></tr>
+    <tr><td>&sect;4 Examining Relationships</td><td class="pages">39&ndash;66</td><td>28</td></tr>
+    <tr><td>&sect;5 Introduction (Probability)</td><td class="pages">89&ndash;96</td><td>8</td></tr>
+    <tr><td>&sect;6 Finding Probability of Events</td><td class="pages">98&ndash;114</td><td>17</td></tr>
+    <tr><td>&sect;7 Conditional Probability and Independence</td><td class="pages">116&ndash;126</td><td>11</td></tr>
+    <tr><td>&sect;8 Random Variables</td><td class="pages">128&ndash;162</td><td>34</td></tr>
+    <tr><td>&sect;9 Sampling Distributions</td><td class="pages">164&ndash;173</td><td>10</td></tr>
+    <tr><td>&sect;10 Introduction to Inference</td><td class="pages">174&ndash;178</td><td>4</td></tr>
+    <tr><td>&sect;11 Estimation</td><td class="pages">180&ndash;194</td><td>15</td></tr>
+    <tr><td>&sect;12 Hypothesis Testing</td><td class="pages">196&ndash;226</td><td>30</td></tr>
+    <tr><td>&sect;13 Inference for Relationships</td><td class="pages">228&ndash;253</td><td>26</td></tr>
+    <tr><td>&sect;14 Inference for Relationships, cont.</td><td class="pages">255&ndash;264</td><td>10</td></tr>
+  </tbody>
+  <tfoot><tr><td>Total</td><td></td><td>241</td></tr></tfoot>
+</table>
+
+<h3>Schedule A &mdash; 17.5-Week Term (standard fall/spring semester)</h3>
+<p>
+  Assumes two meetings per week, three midterms, and a cumulative final in finals week.
+  Average load: roughly 15 pages per week.
+</p>
+<table>
+  <thead><tr><th style="width:4rem">Week</th><th style="width:9rem">Book pages</th><th>Topics</th><th style="width:11rem">Assessment</th></tr></thead>
+  <tbody>
+    <tr><td class="wk">1</td><td class="pages">intro, 9, 67&ndash;71</td><td>Course orientation; the Big Picture; sampling, bias, random variability</td><td></td></tr>
+    <tr><td class="wk">2</td><td class="pages">73&ndash;87</td><td>Designing studies: observational vs. experimental, causation, confounding, blinding, blocking, sample surveys</td><td></td></tr>
+    <tr><td class="wk">3</td><td class="pages">10&ndash;23</td><td>EDA framework; categorical variables; one quantitative variable; histograms, stemplots</td><td></td></tr>
+    <tr><td class="wk">4</td><td class="pages">24&ndash;37</td><td>Measures of center; measures of spread; boxplots; standard deviation; wrap-up distributions</td><td></td></tr>
+    <tr><td class="wk">5</td><td class="pages">39&ndash;51</td><td>Role-type classification; Case C&rarr;Q; Case C&rarr;C (two-way tables); scatterplots</td><td><span class="tag exam">Exam 1</span> Unit 1 + &sect;3</td></tr>
+    <tr><td class="wk">6</td><td class="pages">52&ndash;66</td><td>Linear relationships, correlation, least-squares regression; causation and lurking variables; EDA summary</td><td></td></tr>
+    <tr><td class="wk">7</td><td class="pages">89&ndash;113</td><td>Introduction to probability; relative frequency; sample spaces and events; equally likely outcomes; probability rules</td><td></td></tr>
+    <tr><td class="wk">8</td><td class="pages">114, 116&ndash;126</td><td>Conditional probability; independence; general multiplication rule; probability trees</td><td></td></tr>
+    <tr><td class="wk">9</td><td class="pages">128&ndash;143</td><td>Random variables; discrete probability distributions; mean and variance; rules for means and variances</td><td></td></tr>
+    <tr><td class="wk">10</td><td class="pages">144&ndash;162</td><td>Binomial random variables; continuous random variables; the normal distribution; standard normal table; normal approximation to the binomial</td><td><span class="tag exam">Exam 2</span> Unit 2 + &sect;5&ndash;&sect;8</td></tr>
+    <tr><td class="wk">11</td><td class="pages">164&ndash;178</td><td>Parameters vs. statistics; behavior of sample proportion and sample mean; the CLT; three forms of inference</td><td></td></tr>
+    <tr><td class="wk">12</td><td class="pages">180&ndash;194</td><td>Point estimation; interval estimation; confidence intervals for &mu;; confidence intervals for <em>p</em></td><td></td></tr>
+    <tr><td class="wk">13</td><td class="pages">196&ndash;214</td><td>Hypothesis testing overview; the four-step process; hypothesis testing for <em>p</em></td><td></td></tr>
+    <tr><td class="wk">14</td><td class="pages">215&ndash;226</td><td>Hypothesis testing for &mu;; Type I and Type II errors</td><td></td></tr>
+    <tr><td class="wk">15</td><td class="pages">228&ndash;245</td><td>Inference for relationships: Case C&rarr;Q; two independent samples; matched pairs</td><td><span class="tag exam">Exam 3</span> &sect;9&ndash;&sect;12</td></tr>
+    <tr><td class="wk">16</td><td class="pages">246&ndash;259</td><td>ANOVA; Case C&rarr;C (chi-square test of independence)</td><td></td></tr>
+    <tr><td class="wk">17</td><td class="pages">260&ndash;264</td><td>Case Q&rarr;Q (inference for regression); wrap-up; summary of inference; cumulative review</td><td></td></tr>
+    <tr><td class="wk">17.5</td><td class="pages">&mdash;</td><td>Finals week</td><td><span class="tag exam">Cumulative Final</span></td></tr>
+  </tbody>
+</table>
+
+<h3>Schedule B &mdash; 16-Week Term</h3>
+<p>
+  Same content, compressed by folding Exam&nbsp;1 into Week&nbsp;4, merging the Unit&nbsp;2
+  relationships material into fewer weeks, and moving the cumulative review into Week&nbsp;16.
+  No COR-required topic is dropped. Average load: roughly 16 pages per week.
+</p>
+<table>
+  <thead><tr><th style="width:4rem">Week</th><th style="width:9rem">Book pages</th><th>Topics</th><th style="width:11rem">Assessment</th></tr></thead>
+  <tbody>
+    <tr><td class="wk">1</td><td class="pages">intro, 9, 67&ndash;71</td><td>Big Picture; sampling, bias, random variability</td><td></td></tr>
+    <tr><td class="wk">2</td><td class="pages">73&ndash;87</td><td>Designing studies; causation; sample surveys</td><td></td></tr>
+    <tr><td class="wk">3</td><td class="pages">10&ndash;23</td><td>EDA framework; categorical and quantitative variables; histograms, stemplots</td><td></td></tr>
+    <tr><td class="wk">4</td><td class="pages">24&ndash;37</td><td>Center, spread, boxplots, standard deviation</td><td><span class="tag exam">Exam 1</span> Unit 1 + &sect;3</td></tr>
+    <tr><td class="wk">5</td><td class="pages">39&ndash;59</td><td>Role-type classification; Cases C&rarr;Q and C&rarr;C; scatterplots; linear relationships and regression</td><td></td></tr>
+    <tr><td class="wk">6</td><td class="pages">60&ndash;66, 89&ndash;96</td><td>Causation and lurking variables; EDA summary; introduction to probability; relative frequency</td><td></td></tr>
+    <tr><td class="wk">7</td><td class="pages">98&ndash;113</td><td>Sample spaces and events; equally likely outcomes; probability rules</td><td></td></tr>
+    <tr><td class="wk">8</td><td class="pages">114, 116&ndash;126</td><td>Conditional probability; independence; multiplication rule; probability trees</td><td></td></tr>
+    <tr><td class="wk">9</td><td class="pages">128&ndash;147</td><td>Random variables; probability distributions; mean and variance; binomial</td><td></td></tr>
+    <tr><td class="wk">10</td><td class="pages">148&ndash;162</td><td>Continuous random variables; normal distribution; standard normal table; normal approximation</td><td><span class="tag exam">Exam 2</span> Unit 2 + &sect;5&ndash;&sect;8</td></tr>
+    <tr><td class="wk">11</td><td class="pages">164&ndash;178</td><td>Sampling distributions; CLT; introduction to inference</td><td></td></tr>
+    <tr><td class="wk">12</td><td class="pages">180&ndash;194</td><td>Point and interval estimation; confidence intervals for &mu; and <em>p</em></td><td></td></tr>
+    <tr><td class="wk">13</td><td class="pages">196&ndash;214</td><td>Hypothesis testing logic; hypothesis testing for <em>p</em></td><td></td></tr>
+    <tr><td class="wk">14</td><td class="pages">215&ndash;226</td><td>Hypothesis testing for &mu;; Type I and Type II errors</td><td><span class="tag exam">Exam 3</span> &sect;9&ndash;&sect;12</td></tr>
+    <tr><td class="wk">15</td><td class="pages">228&ndash;252</td><td>Case C&rarr;Q; two independent samples; matched pairs; ANOVA</td><td></td></tr>
+    <tr><td class="wk">16</td><td class="pages">255&ndash;264</td><td>Case C&rarr;C (chi-square); Case Q&rarr;Q (regression inference); summary of inference; cumulative review</td><td></td></tr>
+    <tr><td class="wk">Finals</td><td class="pages">&mdash;</td><td></td><td><span class="tag exam">Cumulative Final</span></td></tr>
+  </tbody>
+</table>
+<div class="callout">
+  <p>
+    <strong>What changed from Schedule A:</strong> Week&nbsp;5 now carries 21 pages (scatterplots
+    through regression) and Week&nbsp;15 carries 25 pages (three inference procedures plus ANOVA).
+    Both are heavy. If your section meets three times a week, use the extra period in those two weeks.
+  </p>
+</div>
+
+<h3>Schedule C &mdash; 12-Week Term (accelerated / short term)</h3>
+<p>
+  All fourteen COR content items are still covered. Compression comes from three sources, not from
+  dropping required topics:
+</p>
+<ol>
+  <li>
+    <strong>Wrap-up and summary pages are assigned as independent reading</strong> rather than covered
+    in class: pp.&nbsp;37, 65, 66, 71, 86, 87, 114, 126, 162, 172, 173, 201, 224, 226, 253, 263, 264.
+    That is 17 pages of consolidation material students can read on their own.
+  </li>
+  <li><strong>Two midterms instead of three</strong>, plus a cumulative final.</li>
+  <li>
+    <strong>Unit 1 is delivered in a single week.</strong> It is the least computational unit and
+    reads quickly.
+  </li>
+</ol>
+<p>
+  Average load: roughly 20 pages per week, about 25% faster than Schedule B. This schedule assumes a
+  corequisite support section or substantial outside-of-class structure.
+</p>
+<table>
+  <thead><tr><th style="width:4rem">Week</th><th style="width:11rem">Book pages</th><th>Topics</th><th style="width:11rem">Assessment</th></tr></thead>
+  <tbody>
+    <tr><td class="wk">1</td><td class="pages">intro, 9, 67&ndash;71, 73&ndash;87</td><td><strong>Unit 1 complete.</strong> Big Picture; sampling and bias; observational studies and experiments; causation; sample surveys</td><td></td></tr>
+    <tr><td class="wk">2</td><td class="pages">10&ndash;30</td><td>EDA framework; categorical and quantitative variables; histograms, stemplots; measures of center; measures of spread</td><td></td></tr>
+    <tr><td class="wk">3</td><td class="pages">31&ndash;37, 39&ndash;51</td><td>Boxplots; standard deviation; role-type classification; Cases C&rarr;Q and C&rarr;C; scatterplots</td><td><span class="tag exam">Exam 1</span> Unit 1 + &sect;3</td></tr>
+    <tr><td class="wk">4</td><td class="pages">52&ndash;66, 89&ndash;94</td><td>Linear relationships and regression; causation and lurking variables; introduction to probability</td><td></td></tr>
+    <tr><td class="wk">5</td><td class="pages">95&ndash;96, 98&ndash;114</td><td>Relative frequency; sample spaces and events; equally likely outcomes; probability rules</td><td></td></tr>
+    <tr><td class="wk">6</td><td class="pages">116&ndash;126, 128&ndash;135</td><td>Conditional probability; independence; multiplication rule; probability trees; random variables and their distributions</td><td></td></tr>
+    <tr><td class="wk">7</td><td class="pages">136&ndash;147, 148&ndash;156</td><td>Mean and variance of a random variable; binomial; continuous random variables; the normal distribution; standard normal table</td><td></td></tr>
+    <tr><td class="wk">8</td><td class="pages">157&ndash;162, 164&ndash;178</td><td>Normal applications; normal approximation to the binomial; sampling distributions; CLT; introduction to inference</td><td><span class="tag exam">Exam 2</span> &sect;3&ndash;&sect;9</td></tr>
+    <tr><td class="wk">9</td><td class="pages">180&ndash;194, 196&ndash;200</td><td>Point and interval estimation; confidence intervals for &mu; and <em>p</em>; hypothesis testing overview</td><td></td></tr>
+    <tr><td class="wk">10</td><td class="pages">201&ndash;220</td><td>Hypothesis testing for <em>p</em>; hypothesis testing for &mu; (part 1)</td><td></td></tr>
+    <tr><td class="wk">11</td><td class="pages">221&ndash;226, 228&ndash;241</td><td>Hypothesis testing for &mu; (part 2); Type I and Type II errors; Case C&rarr;Q; two independent samples; matched pairs (part 1)</td><td></td></tr>
+    <tr><td class="wk">12</td><td class="pages">242&ndash;252, 255&ndash;264</td><td>Matched pairs (part 2); ANOVA; Case C&rarr;C (chi-square); Case Q&rarr;Q (regression inference); cumulative review</td><td><span class="tag exam">Cumulative Final</span></td></tr>
+  </tbody>
+</table>
+
+<h4>Pressure points in Schedule C</h4>
+<ul>
+  <li>
+    <strong>Week 12 is the hardest week of the term</strong>, introducing ANOVA, chi-square, and
+    regression inference back to back. Two mitigations: (a)&nbsp;regression inference
+    (pp.&nbsp;260&ndash;262) is largely a re-framing of the least-squares regression students already
+    learned in Week&nbsp;4, so it can be taught as a short capstone rather than a new procedure;
+    (b)&nbsp;matched pairs (pp.&nbsp;238&ndash;245) can be delivered as one worked example plus
+    reading, since the mechanics reduce to the one-sample <em>t</em> test from Week&nbsp;11.
+  </li>
+  <li>
+    <strong>Weeks 6&ndash;8 carry the probability unit</strong> at nearly 20 pages per week. This is
+    where students in accelerated sections typically fall behind. Front-load office hours and
+    low-stakes practice here.
+  </li>
+  <li>
+    <strong>Verify with your department</strong> that a 12-week section still meets the COR's 72
+    total contact hours (36 lecture + 36 activity). A 12-week term requires proportionally longer or
+    more frequent meetings to hit that total.
+  </li>
+</ul>
+
+<h2>Summary of Recommended Actions</h2>
+<ol>
+  <li>Verify the Part I content list against the live CCSF CurricUNET report before submitting this document to a curriculum committee.</li>
+  <li>Update the stale chi-square note in <code>overview.md</code> (Week&nbsp;16 and Notes for Adopting Instructors). Chi-square is covered at pp.&nbsp;255&ndash;259.</li>
+  <li>Choose a statistical software platform and build the lab/activity stream described in Gap&nbsp;1. This is the one genuine content gap relative to the COR.</li>
+  <li>Add at least two assessed SLO&nbsp;F (ethics) tasks, using the anchor points in Gap&nbsp;2.</li>
+  <li>Decide on CI ordering (mean-first, per the book, or proportion-first, per <code>overview.md</code>) and make the syllabus consistent.</li>
+</ol>
+
+<footer>
+  <p>
+    <strong>Sources:</strong> CCSF STAT C1000 Course Outline of Record (SLOs, via <code>overview.md</code>);
+    <a href="https://www.napavalley.edu/programs-and-academics/academic-affairs/academic-senate/committees/course-outlines-of-record/courses/math/STAT%20C1000%20COR%20FA25.pdf">Common Course Numbering STAT C1000 COR template</a>
+    (Part I / Part II content outline, methods of instruction, contact hours);
+    <a href="https://www.ccsf.edu/academics/ccsf-catalog/courses-by-department/courses-by-subject/5875701">CCSF catalog listing for STAT C1000</a>.
+  </p>
+</footer>
+
+</main>
+</body>
+</html>
