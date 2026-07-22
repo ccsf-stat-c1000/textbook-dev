@@ -1,11 +1,5 @@
 # The Big Picture
 
-```{admonition} Learning Objectives
-:class: note
-
-- Describe the four steps in the process of statistics: producing data, exploratory data analysis, probability, and inference.
-```
-
 In a nutshell, what statistics is all about is *converting data into useful information*. Statistics is therefore a process in which we
 
 - Collect data,

@@ -1,11 +1,5 @@
 # The General Multiplication Rule in Action
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use the General Multiplication Rule to find the probability that two events occur (P(A and B)).
-```
-
 Here, again, is the General Multiplication Rule:
 
 *For any two events A and B, P(A and B) = P(A) × P(B | A)*

@@ -1,11 +1,5 @@
 # Following a Test with a Confidence Interval
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the concepts of: sample size, statistical significance vs. practical importance, and the relationship between hypothesis testing and confidence intervals.
-```
-
 Here is our final point on this subject:
 
 When the data provide enough evidence to reject $H_0$, we can conclude (depending on the alternative hypothesis) that the population proportion is either less than, greater than, or not equal to the null value $p_0$. However, we do not get a more informative statement about its actual value. It might be of interest, then, to follow the test with a 95% confidence interval that will give us more insight into the actual value of p.

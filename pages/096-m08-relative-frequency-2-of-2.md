@@ -1,11 +1,5 @@
 # How Good Is the Estimate? Relative Frequency and Sample Size
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how relative frequency can be used to estimate the probability of an event.
-```
-
 So, we've seen how the relative frequency idea works, and hopefully the examples have convinced you that the relative frequency of an event does indeed approach the theoretical probability of that event as the number of repetitions increases. This is called the *Law of Large Numbers*.
 
 The Law of Large Numbers states that as the number of trials increases, the relative frequency approaches the actual probability. So, using this law, as the number of trials increases, the empirical probability gets closer and closer to the theoretical probability.

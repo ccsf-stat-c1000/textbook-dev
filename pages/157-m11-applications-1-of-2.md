@@ -1,11 +1,5 @@
 # Normal Applications: From Values to Probabilities
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 ## Working with Non-standard Normal Values
 
 In a much earlier example, we wondered, "How likely or unlikely is a male foot length of more than 13 inches?" We were unable to solve the problem, because 13 inches didn't happen to be one of the values featured in the Standard Deviation Rule. Subsequently, we learned how to standardize a normal value (tell how many standard deviations below or above the mean it is) and how to use the normal table to find the probability of falling in an interval a certain number of standard deviations below or above the mean. By combining these two skills, we will now be able to answer questions like the one above.

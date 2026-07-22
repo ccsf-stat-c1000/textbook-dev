@@ -1,11 +1,5 @@
 # Expected Value: What Happens in the Long Run
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
-```
-
 ## Applications of the Mean
 
 Means of random variables are useful for telling us about long-run gains in sales, or for insurance companies.

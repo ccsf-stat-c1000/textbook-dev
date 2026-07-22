@@ -1,11 +1,5 @@
 # The Normal Approximation and When to Use It
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use the normal distribution as an approximation of the binomial distribution, when appropriate.
-```
-
 Consider the appearance of the probability histogram for the distribution of X:
 
 ```{figure} images/gen/m11-binomial-normal-overlay.svg

@@ -1,11 +1,5 @@
 # Same Mean, Different Risk: Comparing Random Variables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
-```
-
 The concept of standard deviation is a bit harder to grasp than that of the mean. The purpose of the following examples and activities is to help you gain a better feel for the standard deviation of a random variable:
 
 :::{admonition} Example: Xavier's and Yves' Production Lines

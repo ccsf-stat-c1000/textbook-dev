@@ -1,12 +1,5 @@
 # The 1.5(IQR) Rule: Flagging Suspected Outliers
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Using the IQR to Detect Outliers
 
 So far we have quantified the idea of center, and we are in the middle of the discussion about measuring spread, but we haven't really talked about a method or rule that will help us classify extreme observations as outliers. The IQR is used as the basis for a rule of thumb for identifying outliers.

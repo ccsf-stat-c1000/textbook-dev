@@ -1,11 +1,5 @@
 # The Law of Large Numbers: Probability in the Long Run
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate the probability of an event to the likelihood of this event occurring.
-```
-
 We will now shift our discussion to empirical ways to determine probabilities.
 
 ## A Question

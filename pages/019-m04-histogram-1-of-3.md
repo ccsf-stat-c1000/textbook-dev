@@ -1,11 +1,5 @@
 # The Histogram: Seeing the Shape of the Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- Generate and interpret several different graphical displays of the distribution of a quantitative variable (histogram, stemplot, boxplot).
-```
-
 ## Idea
 
 Break the range of values into intervals and count how many observations fall into each interval.

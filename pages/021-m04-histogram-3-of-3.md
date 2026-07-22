@@ -1,12 +1,5 @@
 # Reading Histograms: Practice and Pitfalls
 
-```{admonition} Learning Objectives
-:class: note
-
-- Generate and interpret several different graphical displays of the distribution of a quantitative variable (histogram, stemplot, boxplot).
-- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-```
-
 ## Center
 
 The center of the distribution is its *midpoint*—the value that divides the distribution so that approximately half the observations take smaller values, and approximately half the observations take larger values. Note that from looking at the histogram we can get only a rough estimate for the center of the distribution. (More exact ways of finding measures of center will be discussed in the next section.)

@@ -1,11 +1,5 @@
 # Three Forms of Statistical Inference
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify inference type, e.g., point estimation, interval estimation, and hypothesis testing.
-```
-
 We introduce three forms of statistical inference in this unit, each one representing a different way of using the information obtained in the sample to draw conclusions about the population. These forms are:
 
 - Point estimation

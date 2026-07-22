@@ -1,11 +1,5 @@
 # Events: Subsets of the Sample Space
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine the sample space of a given random experiment.
-```
-
 So far, we have a random experiment and its sample space—the set of all possible outcomes it can produce. Where does probability come into the picture?
 
 Once we have defined a random experiment, we can talk about an *event* of interest, which is a statement about the nature of the outcome that we're actually going to get once the experiment is conducted. Events are denoted by capital letters (other than S, which is reserved for the sample space).

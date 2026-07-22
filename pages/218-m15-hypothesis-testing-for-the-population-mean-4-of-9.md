@@ -1,11 +1,5 @@
 # Step 4: Drawing Conclusions for a Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 So far, we've discussed the first three steps in the hypothesis testing process of the z-test for the population mean (μ). The last step is to draw conclusions.
 
 ## Step 4: Drawing Conclusions

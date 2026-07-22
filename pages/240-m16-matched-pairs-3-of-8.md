@@ -1,11 +1,5 @@
 # The Paired t-Test: Stating the Hypotheses
 
-```{admonition} Learning Objectives
-:class: note
-
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 ## Step 1: Stating the Hypotheses
 
 Recall that in the t-test for a single mean our null hypothesis was $H_0: \mu = \mu_0$ and the alternative was one of $H_a: \mu < \mu_0$, $H_a: \mu > \mu_0$, or $H_a: \mu \neq \mu_0$. Since the paired t-test is a special case of the one-sample t-test, the hypotheses are the same, except that:

@@ -1,11 +1,5 @@
 # Sample Surveys: Asking the Right People the Right Way
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine how the features of a survey impact the collected data and the accuracy of the data.
-```
-
 ## Sample Surveys
 
 A sample survey is a particular type of observational study in which individuals report variables' values themselves, frequently by giving their opinions. Researchers have several options to choose from when deciding how to survey the individuals involved: in person, or via telephone, Internet, or mail.

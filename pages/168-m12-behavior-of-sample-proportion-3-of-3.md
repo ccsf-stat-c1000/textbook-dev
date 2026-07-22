@@ -1,11 +1,5 @@
 # Finding Probabilities for a Sample Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample proportion (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 If a sampling distribution is normally shaped, then we can apply the Standard Deviation Rule and use z-scores to determine probabilities. Let's look at some examples.
 
 :::{admonition} Example: Samples of 100

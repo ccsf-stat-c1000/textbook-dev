@@ -1,12 +1,5 @@
 # Testing for a Linear Relationship
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing relationships.
-```
-
 Let's introduce our leading example, which was actually our leading example in the Exploratory Data Analysis unit as well.
 
 :::{admonition} Example: Highway Sign Legibility

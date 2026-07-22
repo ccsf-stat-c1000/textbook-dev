@@ -1,11 +1,5 @@
 # The Test Statistic for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 For the reason illustrated in the examples at the end of the previous page, the test statistic cannot simply be the difference $\hat{p}-p_{0}$, but must be some form of that formula that accounts for the sample size. In other words, we need to somehow standardize the difference $\hat{p}-p_{0}$ so that comparison between different situations will be possible. We are very close to revealing the test statistic, but before we construct it, let's be reminded of the following two facts from probability:
 
 1. When we take a random sample of size n from a population with population proportion p, the possible values of the sample proportion $\hat{p}$ (when certain conditions are met) have approximately a normal distribution with mean p and standard deviation $\sqrt{\frac{p(1-p)}{n}}$.

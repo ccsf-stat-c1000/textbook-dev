@@ -1,12 +1,5 @@
 # Blind and Double-Blind: Keeping Expectations Out of the Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-- Explain how the study design impacts the types of conclusions that can be drawn.
-```
-
 ## Blind and Double-Blind Experiments
 
 Suppose the experiment about methods for quitting smoking were carried out with randomized assignments of subjects to the four treatments, and researchers determined that the percentage succeeding with the combination drug/therapy method was highest, and the percentage succeeding with no drugs or therapy was lowest. In other words, suppose there is clear evidence of an association between method used and success rate. Could it be concluded that the drug/therapy method causes success more than trying to quit without using drugs or therapy? Perhaps.

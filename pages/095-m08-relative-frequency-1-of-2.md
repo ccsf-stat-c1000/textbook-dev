@@ -1,11 +1,5 @@
 # Relative Frequency: Estimating Probability from Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how relative frequency can be used to estimate the probability of an event.
-```
-
 If we toss a coin, roll a die, or spin a spinner many times, we hardly ever achieve the exact *theoretical* probabilities that we know we should get, but we can get pretty close. When we run a simulation or when we use a random sample and record the results, we are using *empirical* probability. This is often called the *Relative Frequency* definition of probability.
 
 Here is a realistic example where the relative frequency method was used to find the probabilities:

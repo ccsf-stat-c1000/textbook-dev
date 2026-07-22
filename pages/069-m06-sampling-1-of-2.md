@@ -1,12 +1,5 @@
 # Sampling and Bias: Why How You Choose Matters
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the sampling method used in a study and discuss its implications and potential limitations.
-- Critically evaluate the reliability and validity of results published in mainstream media.
-```
-
 As mentioned in the introduction to this section, we will begin with the first stage of data production—sampling. Our discussion will be framed around the following examples:
 
 :::{admonition} Example 1: A Volunteer Sample

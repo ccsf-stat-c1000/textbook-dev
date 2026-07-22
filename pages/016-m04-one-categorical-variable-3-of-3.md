@@ -1,11 +1,5 @@
 # Pictograms: When Graphs Mislead
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a categorical variable in context.
-```
-
 ## Pie Charts, Bar Charts, and Pictograms
 
 1. While both the pie chart and the bar chart help us visualize the distribution of a categorical variable, the pie chart emphasizes how the different categories relate to the whole, and the bar chart emphasizes how the different categories compare with each other.

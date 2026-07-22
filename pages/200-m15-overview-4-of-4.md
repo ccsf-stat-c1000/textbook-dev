@@ -1,11 +1,5 @@
 # Significance Level and Drawing Conclusions
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the logic behind and the process of hypothesis testing. In particular, explain what the p-value is and how it is used to draw conclusions.
-```
-
 ## Hypothesis Testing Step 4: Making Conclusions
 
 Since our conclusion is based on how small the p-value is, or in other words, how surprising our data are when $H_0$ is true, it would be nice to have some kind of guideline or cutoff that will help determine how small the p-value must be, or how "rare" (unlikely) our data must be when $H_0$ is true, for us to conclude that we have enough evidence to reject $H_0$.

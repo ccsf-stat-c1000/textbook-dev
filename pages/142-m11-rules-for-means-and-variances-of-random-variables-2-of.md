@@ -1,11 +1,5 @@
 # Linear Transformations: The Rule for a + bX
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the rules of means and variances to find the mean and variance of a linear transformation of a random variable and the sum of two independent random variables.
-```
-
 The observations we made on the previous page help illustrate a general rule for how random variables transform if we add, subtract and/or multiply by a constant.
 
 ## Rules for a + bX (Linear Transformation of One Random Variable)

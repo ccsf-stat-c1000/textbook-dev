@@ -1,11 +1,5 @@
 # More Than One Factor: Richer Experimental Designs
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-```
-
 ## Experiments With More Than One Explanatory Variable
 
 It is not uncommon for experiments to feature two or more explanatory variables (called factors). In this course, we focus on exploratory data analysis and statistical inference in situations which involve only one explanatory variable. Nevertheless, we will now consider the design for experiments involving several explanatory variables, in order to familiarize students with their basic structure.

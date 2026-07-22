@@ -1,11 +1,5 @@
 # Interpreting r: What Counts as Strong?
 
-```{admonition} Learning Objectives
-:class: note
-
-- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
-```
-
 Now that we understand the use of *r* as a numerical measure for assessing the direction and strength of linear relationships between quantitative variables, we will look at a few examples.
 
 ::::{admonition} Example: Highway Sign Visibility

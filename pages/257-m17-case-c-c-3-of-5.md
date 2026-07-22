@@ -1,11 +1,5 @@
 # The Chi-Square Statistic: Conditions and Computation
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-```
-
 ## Step 2: Checking the Conditions and Calculating the Test Statistic
 
 Given our discussion on the previous page, it would be natural to present the test statistic, and then come back to the conditions that allow us to safely use the chi-square test, although in practice this is done the other way around.

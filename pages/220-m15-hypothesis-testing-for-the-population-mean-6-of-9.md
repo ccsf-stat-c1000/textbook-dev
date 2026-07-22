@@ -1,11 +1,5 @@
 # When σ Is Unknown: The t-Test and t Distribution
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Tests About μ When σ Is Unknown: The t-Test for the Population Mean
 
 As we mentioned earlier, only in a few cases is it reasonable to assume that the population standard deviation, σ, is known. The case where σ is unknown is much more common in practice. What can we use to replace σ? If you don't know the population standard deviation, the best you can do is find the sample standard deviation, s, and use it instead of σ. (Note that this is exactly what we did when we discussed confidence intervals.)

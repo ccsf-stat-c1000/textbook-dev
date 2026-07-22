@@ -1,11 +1,5 @@
 # Computing P-values: Worked Examples
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 Let's find the p-value in each of our three leading examples.
 
 :::{admonition} Example 1: Defective Products

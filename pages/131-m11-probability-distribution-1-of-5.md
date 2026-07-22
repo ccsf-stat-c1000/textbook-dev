@@ -1,11 +1,5 @@
 # The Probability Distribution of a Discrete Random Variable
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
-```
-
 ## Probability Distribution
 
 When we learned how to find probabilities by applying the basic principles, we generally focused on just one particular outcome or event, like the probability of getting exactly one tail when a coin is tossed twice, or the probability of getting a 5 when a die is rolled. Now that we have mastered the solution of individual probability problems, we'll proceed to look at the big picture by considering all the possible values of a discrete random variable, along with their associated probabilities. This list of possible values and probabilities is called the *probability distribution* of the random variable.

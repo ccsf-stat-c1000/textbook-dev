@@ -1,12 +1,5 @@
 # The General Addition Rule: Handling Overlap
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-- When appropriate, use tools such as Venn diagrams or probability tables as aids for finding probabilities.
-```
-
 We are now getting to the last rule in this module, in which we'll go back to P(A or B).
 
 So far, we've introduced the Addition Rule for finding P(A or B) in the special case when A and B are *disjoint* events—that is, when the events cannot happen together, so P(A and B) = 0. In this special case, P(A or B) refers to the probability of either event A occurring or event B occurring, and we said that P(A or B) = P(A) + P(B). Visually, in the disjoint Venn diagram, P(A or B) can be found by adding the areas of the two non-overlapping circles.

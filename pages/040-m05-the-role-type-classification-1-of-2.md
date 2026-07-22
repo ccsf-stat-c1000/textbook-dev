@@ -1,11 +1,5 @@
 # Explanatory and Response: Giving Variables Their Roles
 
-```{admonition} Learning Objectives
-:class: note
-
-- Classify a data analysis situation (involving two variables) according to the "role-type classification," and state the appropriate display and/or numerical measures that should be used in order to summarize the data.
-```
-
 While it is fundamentally important to know how to describe the distribution of a single variable, most studies pose research questions that involve exploring the relationship between *two* variables using the collected data.
 
 Here are a few examples of such research questions with the two variables highlighted:

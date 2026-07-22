@@ -1,11 +1,5 @@
 # The Two-Sample t-Test: Conditions and Test Statistic
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 2: Check Conditions, and Summarize the Data Using a Test Statistic
 
 The two-sample t-test can be safely used as long as the following conditions are met:

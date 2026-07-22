@@ -1,11 +1,5 @@
 # Identifying Study Designs: Practice with Real Studies
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-```
-
 ## Experiments vs. Observational Studies
 
 Before assessing the effectiveness of observational studies and experiments for producing evidence of a causal relationship between two variables, we will illustrate the essential differences between these two designs.

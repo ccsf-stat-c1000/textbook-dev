@@ -1,11 +1,5 @@
 # Why Approximate the Binomial with a Normal?
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use the normal distribution as an approximation of the binomial distribution, when appropriate.
-```
-
 ## Application of Normal Random Variables: Approximation to Binomial
 
 One of the important applications of the normal distribution is that under certain conditions it can provide a very good approximation to the binomial distribution. We've seen before that sometimes calculating binomial probabilities can be quite tedious, and the solution we suggested before is to use statistical software to do the work for you.

@@ -1,11 +1,5 @@
 # Probability Trees: Mapping Multi-Stage Problems
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use probability trees as a tool for finding probabilities.
-```
-
 So far, when two categorical variables are involved, we have displayed counts or probabilities for various events with two-way tables and with Venn diagrams. Another display tool, called a *probability tree*, is particularly useful for showing probabilities when the events occur in stages and conditional probabilities are involved.
 
 :::{admonition} Example: Commission and Vacation

@@ -1,12 +1,5 @@
 # Describing a Distribution: Shape, Center, Spread, and Outliers
 
-```{admonition} Learning Objectives
-:class: note
-
-- Generate and interpret several different graphical displays of the distribution of a quantitative variable (histogram, stemplot, boxplot).
-- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-```
-
 ## Interpreting the Histogram
 
 Once the distribution has been displayed graphically, we can describe the overall pattern of the distribution and mention any striking deviations from that pattern. More specifically, we should consider the following features of the distribution:

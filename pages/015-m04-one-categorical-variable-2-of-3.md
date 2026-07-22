@@ -1,11 +1,5 @@
 # Pie Charts and Bar Charts: Picturing Categories
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a categorical variable in context.
-```
-
 In order to visualize the numerical summaries we've obtained, we need a graphical display. There are two simple graphical displays for visualizing the distribution of categorical data:
 
 1. The Pie Chart

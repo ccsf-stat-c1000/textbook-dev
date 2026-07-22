@@ -1,11 +1,5 @@
 # The Multiplication Rule for Independent Events: Finding P(A and B)
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 ```{admonition} Rule 5: The Multiplication Rule for Independent Events
 :class: note
 

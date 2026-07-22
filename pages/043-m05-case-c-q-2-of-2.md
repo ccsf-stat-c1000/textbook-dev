@@ -1,11 +1,5 @@
 # Case C→Q in Practice: Boxplots That Tell a Story
 
-```{admonition} Learning Objectives
-:class: note
-
-- Compare and contrast distributions (of quantitative data) from two or more groups, and produce a brief summary, interpreting your findings in context.
-```
-
 Here is another example:
 
 ::::{admonition} Example: SSHA

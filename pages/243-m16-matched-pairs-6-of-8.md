@@ -1,12 +1,5 @@
 # The Paired t-Test: Worked Examples
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 The "driving after having 2 beers" example is a case in which observations are paired by subject. In other words, both samples have the same subjects, so that each subject is measured twice. Typically, as in our example, one of the measurements occurs before a treatment/intervention (2 beers in our case), and the other measurement after the treatment/intervention. Our next example is another typical type of study where the matched pairs design is used—a study involving twins.
 
 :::{admonition} Example: IQ Scores of Twins Reared Apart

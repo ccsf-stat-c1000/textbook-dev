@@ -1,11 +1,5 @@
 # Applying the Central Limit Theorem
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample mean as summarized by the Central Limit Theorem (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 Before we work some examples, let's compare and contrast what we now know about the sampling distributions for sample means and sample proportions:
 
 | Variable | Parameter | Statistic | Center | Spread | Shape |

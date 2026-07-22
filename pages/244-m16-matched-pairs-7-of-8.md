@@ -1,12 +1,5 @@
 # A Confidence Interval for the Mean Difference
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 ## Confidence Interval for μ_d (Paired t Confidence Interval)
 
 So far we've discussed the paired t-test, which checks whether there is enough evidence stored in the data to reject the claim that $\mu_d=0$ in favor of one of the three possible alternatives.

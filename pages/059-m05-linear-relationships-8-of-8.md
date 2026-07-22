@@ -1,11 +1,5 @@
 # Predicting with Care: Interpolation vs. Extrapolation
 
-```{admonition} Learning Objectives
-:class: note
-
-- In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
-```
-
 Let's go back now to our motivating example, in which we wanted to predict the maximum distance at which a sign is legible for a 60-year-old. Now that we have found the least squares regression line, this prediction becomes quite easy:
 
 Practically, what the regression line tells us is that in order to find the predicted legibility distance for a 60-year-old, we plug Age = 60 into the regression line equation, to find that:

@@ -1,11 +1,5 @@
 # The ANOVA F-Test: Stating the Hypotheses
 
-```{admonition} Learning Objectives
-:class: note
-
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 ## The ANOVA F-Test
 
 Now that we understand in what kind of situations ANOVA is used, we are ready to learn how it works—or more specifically, what the idea is behind comparing more than two means. As we mentioned earlier, the test that we will present is called the ANOVA F-test, and as you'll see, this test is different in two ways from all the tests we have presented so far:

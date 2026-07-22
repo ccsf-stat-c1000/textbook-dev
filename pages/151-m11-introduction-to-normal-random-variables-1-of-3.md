@@ -1,11 +1,5 @@
 # The Normal Distribution: Shape, Center, and Spread
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 In the Exploratory Data Analysis unit of this course, we encountered data sets, *such as lengths of human pregnancies*, whose distributions naturally followed a symmetric unimodal bell shape, bulging in the middle and tapering off at the ends.
 
 ```{figure} images/gen/m11-foot-density.svg

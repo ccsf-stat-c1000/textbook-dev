@@ -1,11 +1,5 @@
 # Disjoint Events: When Two Things Can't Both Happen
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 We are now moving to rule 4, which deals with another situation of frequent interest, finding P(A *or* B), the probability of one event *or* another occurring. Before we get to the actual rule, however, we need some clarifications and definitions.
 
 When a parent says to his or her child in a toy store "Do you want toy A or toy B?", this means that the child is going to get only one toy and he or she has to choose between them. Getting both toys is usually not an option.

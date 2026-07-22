@@ -1,11 +1,5 @@
 # Rules 1 and 2: What Every Probability Must Obey
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 ## Basic Probability Rules
 
 In the previous section we considered situations in which all the possible outcomes of a random experiment are equally likely, and learned a simple way to find the probability of any event in this special case. We are now moving on to learn how to find the probability of events in the general case (when the possible outcomes are not necessarily equally likely), using five basic probability rules. Fortunately, these basic rules of probability are very intuitive, and as long as they are applied systematically, they will let us solve more complicated problems; in particular, those problems for which our intuition might be inadequate.

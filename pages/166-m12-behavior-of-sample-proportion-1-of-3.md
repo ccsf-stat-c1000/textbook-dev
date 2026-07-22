@@ -1,11 +1,5 @@
 # The Sample Proportion: Center, Spread, and Shape
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample proportion (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 The first step to drawing conclusions about parameters based on the accompanying statistics is to understand how sample statistics behave relative to the parameter that summarizes the entire population. We begin with the behavior of sample proportion relative to population proportion (when the variable of interest is categorical). After that, we will explore the behavior of sample mean relative to population mean (when the variable of interest is quantitative).
 
 ## Behavior of Sample Proportion (p-hat)

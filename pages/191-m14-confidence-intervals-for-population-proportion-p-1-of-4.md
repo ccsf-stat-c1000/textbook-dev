@@ -1,12 +1,5 @@
 # Confidence Intervals for a Proportion: An Overview
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## Overview
 
 As we mentioned in the introduction to this module, when the variable that we're interested in studying in the population is *categorical*, the parameter we are trying to infer about is the *population proportion (p)* associated with that variable. We also learned that the point estimator for the population proportion p is the sample proportion $\hat{p}$.

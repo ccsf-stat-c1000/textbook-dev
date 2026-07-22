@@ -1,11 +1,5 @@
 # Scatterplot Practice: From Gestation Periods to Fuel Economy
 
-```{admonition} Learning Objectives
-:class: note
-
-- Graphically display the relationship between two quantitative variables and describe: a) the overall pattern, and b) striking deviations from the pattern.
-```
-
 We will now look at two more examples:
 
 ::::{admonition} Example: Average Gestation Period

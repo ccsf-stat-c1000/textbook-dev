@@ -1,11 +1,5 @@
 # Trees and Total Probability
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use probability trees as a tool for finding probabilities.
-```
-
 Now that we understand how to construct the probability tree, let's use the tree to answer some questions:
 
 :::{admonition} Example: The Overall Probability of the Vacation

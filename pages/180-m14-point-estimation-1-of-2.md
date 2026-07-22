@@ -1,11 +1,5 @@
 # Point Estimation: Estimating with a Single Number
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine point estimates in simple cases, and make the connection between the sampling distribution of a statistic and its properties as a point estimator.
-```
-
 Point estimation is the form of statistical inference in which, based on the sample data, we estimate the unknown parameter of interest using a *single* value (hence the name *point* estimation). As the following two examples illustrate, this form of inference is quite intuitive.
 
 :::{admonition} Example: IQ at Smart University

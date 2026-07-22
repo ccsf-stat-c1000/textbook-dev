@@ -1,11 +1,5 @@
 # The Four Steps of a Hypothesis Test
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the logic behind and the process of hypothesis testing. In particular, explain what the p-value is and how it is used to draw conclusions.
-```
-
 :::{admonition} Example: Concentration of a Chemical in a Drug
 :class: tip
 

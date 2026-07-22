@@ -1,11 +1,5 @@
 # Two-Way Tables: Relationships Between Categories (Case C→C)
 
-```{admonition} Learning Objectives
-:class: note
-
-- Produce a two-way table, and interpret the information stored in it about the association between two categorical variables by comparing conditional percentages.
-```
-
 ## Case C→C: Two Categorical Variables
 
 Recall the role-type classification table for framing our discussion about the relationship between two variables:

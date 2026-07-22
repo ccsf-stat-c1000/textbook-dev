@@ -1,11 +1,5 @@
 # The Standard Deviation Rule: 68-95-99.7
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the standard deviation rule to the special case of distributions having the "normal" shape.
-```
-
 ## The Standard Deviation Rule
 
 In the previous section we tried to help you develop better intuition about the concept of standard deviation. The rule that we are about to present, called "The Standard Deviation Rule" (also known as "The Empirical Rule") will hopefully also contribute to building your intuition about this concept.

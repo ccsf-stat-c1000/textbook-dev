@@ -1,11 +1,5 @@
 # The Variance and Standard Deviation of a Random Variable
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
-```
-
 ## Variance and Standard Deviation of a Discrete Random Variable
 
 In Exploratory Data Analysis, we used the mean of a sample of quantitative values (their arithmetic average, $\bar{x}$) to tell the center of their distribution, and the standard deviation (s) to tell the typical distance of sample values from their mean. We described the center of a probability distribution for a random variable by reporting its mean $\mu_{X}$, and now we would like to establish an accompanying measure of spread. Our measure of spread will still report the typical distance of values from their means, but in order to distinguish the spread of a population of all of a random variable's values from the spread (s) of sample values, we will denote the standard deviation of the random variable X with the Greek lower case "sigma," and use a subscript to remind us what is the variable of interest (there may be more than one in later problems): $\sigma_X$.

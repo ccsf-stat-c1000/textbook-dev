@@ -1,11 +1,5 @@
 # Why Intuition Fails: The Need for Probability Tools
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate the probability of an event to the likelihood of this event occurring.
-```
-
 Now that we understand how probability fits into the Big Picture as a key element behind statistical inference, we are ready to learn more about it. Our first goal is to introduce some fundamental terminology (the language) and notation that is used when discussing probability. Before we do that, though, let's start with two fun examples that explain the reasons for the careful treatment that we give probability in this course.
 
 Often, relying only on our intuition is not sufficient to determine probability, so we need some tools to work with, which is exactly what we study in this section.

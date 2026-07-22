@@ -1,11 +1,5 @@
 # Finding Probabilities from the Table
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 :::{admonition} Example: Reading the Table
 :class: tip
 

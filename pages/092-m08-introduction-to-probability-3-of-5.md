@@ -1,11 +1,5 @@
 # What Is Probability? Language and Notation
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate the probability of an event to the likelihood of this event occurring.
-```
-
 ## What is Probability?
 
 Probability is a mathematical description of randomness and uncertainty. It is a way to measure or quantify uncertainty. Another way to think about probability is that it is the official name for "chance."

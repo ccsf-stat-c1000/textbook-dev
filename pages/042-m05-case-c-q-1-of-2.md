@@ -1,11 +1,5 @@
 # Comparing Groups on a Quantitative Response (Case C→Q)
 
-```{admonition} Learning Objectives
-:class: note
-
-- Compare and contrast distributions (of quantitative data) from two or more groups, and produce a brief summary, interpreting your findings in context.
-```
-
 ## Case C→Q: Categorical Explanatory Variable and Quantitative Response Variable
 
 Recall the role-type classification table for framing our discussion about the relationship between two variables:

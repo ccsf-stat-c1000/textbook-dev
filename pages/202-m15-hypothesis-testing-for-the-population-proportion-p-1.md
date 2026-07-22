@@ -1,11 +1,5 @@
 # The z-Test for a Proportion: Overview
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, specify the null and alternative hypotheses for the population proportion and mean.
-```
-
 ## Overview
 
 Now that we understand the process we go through in hypothesis testing and the logic behind it, we are ready to start learning about specific statistical tests (also known as significance tests).

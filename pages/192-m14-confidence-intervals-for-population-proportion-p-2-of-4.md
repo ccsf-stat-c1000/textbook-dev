@@ -1,12 +1,5 @@
 # Constructing a Confidence Interval for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 :::{admonition} Example: The Viagra Poll
 :class: tip
 

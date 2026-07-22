@@ -1,11 +1,5 @@
 # Question Wording and Other Survey Pitfalls
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine how the features of a survey impact the collected data and the accuracy of the data.
-```
-
 Sometimes, survey questions are ordered in such a way as to deliberately bias the responses by planting an idea in an earlier question that will sway people's thoughts in a later question.
 
 *Question:* In the year 2002, there was much controversy over the fact that the Augusta National Golf Club, which hosts the Masters Golf Tournament each year, does not accept women as members. Defenders of the club created a surveythat included the following statements.Respondents were supposed to indicate whether they agreed or disagreed with each statement:

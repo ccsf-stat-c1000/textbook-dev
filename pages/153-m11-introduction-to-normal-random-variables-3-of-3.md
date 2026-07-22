@@ -1,11 +1,5 @@
 # Standardizing Values: The z-score
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 Let's go back to our example of foot length:
 
 How likely or unlikely is it for a male's foot length to be more than 13 inches?

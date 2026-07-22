@@ -1,11 +1,5 @@
 # The Stemplot: A Quick Graph by Hand
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-```
-
 The stemplot (also called stem and leaf plot) is another graphical display of the distribution of quantitative data.
 
 ## Idea

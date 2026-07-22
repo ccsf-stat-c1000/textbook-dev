@@ -1,12 +1,5 @@
 # Confidence Intervals for a Proportion: Conditions and Summary
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## When Is It Safe to Use These Methods?
 
 As we mentioned before, one of the most important things to learn with any inference method is the conditions under which it is safe to use it.

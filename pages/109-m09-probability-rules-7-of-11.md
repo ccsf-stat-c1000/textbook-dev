@@ -1,11 +1,5 @@
 # Extending the Rules: More Than Two Events
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 As you've seen, the last three rules that we've introduced (the Complement Rule, the Addition Rule for Disjoint Events, and the Multiplication Rule for Independent Events) are frequently used in solving problems. Before we move on to our next rule, here are two comments that will help you use these rules in broader types of problems and more effectively.
 
 ```{admonition} Comment

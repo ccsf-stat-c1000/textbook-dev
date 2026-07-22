@@ -1,11 +1,5 @@
 # Interval Estimation
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-```
-
 Point estimation is simple and intuitive, but also a bit problematic. Here is why:
 
 When we estimate, say, μ by the sample mean $\bar{x}$, we are almost guaranteed to make some kind of error. Even though we know that the values of $\bar{x}$ fall around μ, it is very unlikely that the value of $\bar{x}$ will fall exactly at μ .

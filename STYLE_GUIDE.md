@@ -6,17 +6,11 @@ consistent as it is edited. Follow it for every page in `pages/`.
 ## Page structure
 
 1. `# Title` — one H1 per page, matching the TOC entry.
-2. Learning objectives (when the page opens a topic):
-
-   ```{admonition} Learning Objectives
-   :class: note
-
-   - Objective one.
-   - Objective two.
-   ```
-
-3. Body prose in H2/H3 sections. No empty headings. No fixed-width
+2. Body prose in H2/H3 sections. No empty headings. No fixed-width
    hard-wrapped prose (let lines run long; one paragraph per line is fine).
+
+Do **not** add learning-objective blocks. Objectives are maintained outside
+this book, so pages go straight from the H1 into the body.
 
 ## Admonitions
 

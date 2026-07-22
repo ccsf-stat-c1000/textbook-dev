@@ -1,11 +1,5 @@
 # One-Sided vs. Two-Sided Alternatives
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## 3. One-Sided Alternative vs. Two-Sided Alternative
 
 Recall that earlier we noticed (only visually) that for a given value of the test statistic z, the p-value of the two-sided test is twice as large as the p-value of the one-sided test. We will now further discuss this issue. In particular, we will use our example 2 (marijuana users at a certain college) to gain better intuition about this fact.

@@ -1,11 +1,5 @@
 # Probability Histograms: Picturing a Distribution
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
-```
-
 In the previous two examples and activity, we needed to specify the probability distributions ourselves, based on the physical circumstances of the situation. In some situations, as in the following example, the probability distribution may be specified with an algebraic formula. Such a formula must be consistent with the constraints imposed by the laws of probability, so that the probability of each outcome must be between 0 and 1, and the probabilities of all possible outcomes together must sum to 1.
 
 :::{admonition} Example: Formulas to Define Random Variables

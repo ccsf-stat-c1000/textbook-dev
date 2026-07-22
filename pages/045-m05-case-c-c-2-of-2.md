@@ -1,11 +1,5 @@
 # Conditional Percentages: Making a Two-Way Table Talk
 
-```{admonition} Learning Objectives
-:class: note
-
-- Produce a two-way table, and interpret the information stored in it about the association between two categorical variables by comparing conditional percentages.
-```
-
 So far, we have organized the raw data in a much more informative display—the two-way table:
 
 | Gender | About right | Overweight | Underweight | Total |

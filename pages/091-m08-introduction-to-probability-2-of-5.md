@@ -1,11 +1,5 @@
 # The Birthday Problem: A Surprising Answer
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate the probability of an event to the likelihood of this event occurring.
-```
-
 :::{admonition} Example: The Birthday Problem
 :class: tip
 

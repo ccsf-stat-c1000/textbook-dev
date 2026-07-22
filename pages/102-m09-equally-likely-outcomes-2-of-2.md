@@ -1,11 +1,5 @@
 # Equally Likely Outcomes: Practice with Two Dice
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability of events in the case in which all outcomes are equally likely.
-```
-
 Here is a more interesting example:
 
 :::{admonition} Example: Job Openings

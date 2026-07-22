@@ -1,11 +1,5 @@
 # Normal Applications: From Probabilities to Values
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 The previous examples all followed the same general form: given values of a normal random variable, you were asked to find an associated probability. The two basic steps in the solution process were to
 
 1. standardize to Z; and

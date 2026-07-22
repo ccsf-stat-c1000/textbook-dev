@@ -1,12 +1,5 @@
 # The Two-Sample t-Test: A Worked Example
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 Let's look at another example, and then you'll do one yourself.
 
 :::{admonition} Example: Weight and Age Group

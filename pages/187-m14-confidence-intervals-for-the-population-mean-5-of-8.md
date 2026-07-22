@@ -1,12 +1,5 @@
 # Margin of Error and the Precision of an Interval
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 Let us now go back to the confidence interval for the mean, and more specifically, to the question that we posed at the beginning of the previous page:
 
 Is there a way to increase the precision of the confidence interval (i.e., make it narrower) *without* compromising on the level of confidence?

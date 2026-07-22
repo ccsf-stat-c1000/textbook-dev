@@ -1,11 +1,5 @@
 # Step 3: Finding the P-value for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 3: Finding the P-value of the Test
 
 So far we've talked about the p-value at the intuitive level: understanding what it is (or what it measures) and how we use it to draw conclusions about the significance of our results. We will now go more deeply into how the p-value is calculated.

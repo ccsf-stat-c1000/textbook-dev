@@ -1,11 +1,5 @@
 # Cautions About Correlation: Linearity, Units, and Outliers
 
-```{admonition} Learning Objectives
-:class: note
-
-- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
-```
-
 ## Properties of r
 
 We now discuss and illustrate several important properties of the correlation coefficient as a numerical measure of the strength of a linear relationship.

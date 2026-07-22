@@ -1,11 +1,5 @@
 # Step 2: Collecting and Summarizing the Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 2: Collecting and Summarizing the Data (Using a Test Statistic)
 
 After the hypotheses have been stated, the next step is to obtain a *sample* (on which the inference will be based), *collect relevant data*, and *summarize* them.

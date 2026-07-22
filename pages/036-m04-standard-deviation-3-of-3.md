@@ -1,11 +1,5 @@
 # Putting the Standard Deviation Rule to Work
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the standard deviation rule to the special case of distributions having the "normal" shape.
-```
-
 The following example illustrates how we can apply the Standard Deviation Rule to variables whose distribution is known to be approximately normal.
 
 ::::{admonition} Example: Length of Human Pregnancy

@@ -1,11 +1,5 @@
 # The Sample Mean: Center, Spread, and Shape
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample mean as summarized by the Central Limit Theorem (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 So far, we've discussed the behavior of the statistic $\hat{p}$, the sample proportion, relative to the parameter p, the population proportion (when the variable of interest is categorical). We are now moving on to explore the behavior of the statistic $\bar{X}$, the sample mean, relative to the parameter $\mu$, the population mean (when the variable of interest is quantitative).
 
 ## Behavior of Sample Mean (x-bar)

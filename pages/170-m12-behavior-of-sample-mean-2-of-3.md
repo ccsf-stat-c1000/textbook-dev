@@ -1,11 +1,5 @@
 # The Central Limit Theorem
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample mean as summarized by the Central Limit Theorem (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 The results we got in our simulations are not surprising. Advanced probability theory confirms them by asserting the following:
 
 ## The Sampling Distribution of the Sample Mean

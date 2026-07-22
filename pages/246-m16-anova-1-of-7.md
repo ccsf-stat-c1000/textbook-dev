@@ -1,11 +1,5 @@
 # Comparing More Than Two Means: ANOVA
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Comparing More Than Two Means—ANOVA
 
 ### Overview

@@ -1,11 +1,5 @@
 # Why Eyes Aren't Enough: The Case for Measuring Correlation
 
-```{admonition} Learning Objectives
-:class: note
-
-- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
-```
-
 ## Introduction
 
 So far we have visualized relationships between two quantitative variables using scatterplots, and described the overall pattern of a relationship by considering its direction, form, and strength. We noted that assessing the strength of a relationship just by looking at the scatterplot is quite difficult, and therefore we need to supplement the scatterplot with some kind of numerical measure that will help us assess the strength.

@@ -1,11 +1,5 @@
 # Case C→Q: Comparing Groups
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify and distinguish among cases where use of calculations specific to independent samples, matched pairs, and ANOVA are appropriate.
-```
-
 Recall the role-type classification table framing our discussion on inference about the relationship between two variables.
 
 ```{figure} images/gen/m05-role-type-cq.svg

@@ -1,11 +1,5 @@
 # Lurking Variables in Action: The SAT Score Gap
 
-```{admonition} Learning Objectives
-:class: note
-
-- Recognize the distinction between association and causation, and identify potential lurking variables for explaining an observed relationship.
-```
-
 The next example will illustrate another way in which a lurking variable might interfere and prevent us from reaching any causal conclusions.
 
 ::::{admonition} Example: SAT Test

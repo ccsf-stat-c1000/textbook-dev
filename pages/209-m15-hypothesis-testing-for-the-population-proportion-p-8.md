@@ -1,11 +1,5 @@
 # Step 4: Drawing Conclusions from the P-value
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 4: Drawing Conclusions Based on the P-value
 
 This last part of the four-step process of hypothesis testing is the same across all statistical tests, and actually, we've already said basically everything there is to say about it, but it can't hurt to say it again.

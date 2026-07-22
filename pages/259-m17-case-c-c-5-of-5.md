@@ -1,12 +1,5 @@
 # The Chi-Square Test: Summary
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing relationships.
-```
-
 Let's look at another example.
 
 :::{admonition} Example: Steroid Use in College Sports

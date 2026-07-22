@@ -1,11 +1,5 @@
 # Measuring Spread: Why the Center Isn't Enough
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Introduction
 
 So far we have learned about different ways to quantify the center of a distribution. A measure of center by itself is not enough, though, to describe a distribution. Consider the following two distributions of exam scores. Both distributions are centered at 70 (the median of both distributions is approximately 70), but the distributions are quite different. The first distribution has a much larger variability in scores compared to the second one.

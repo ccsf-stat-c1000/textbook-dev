@@ -1,11 +1,5 @@
 # Independence in Practice: Checks and Consequences
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine whether two events are independent or not.
-```
-
 ```{admonition} Comment
 :class: important
 

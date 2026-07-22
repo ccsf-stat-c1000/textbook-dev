@@ -1,11 +1,5 @@
 # Hypothesis Tests and Confidence Intervals for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the concepts of: sample size, statistical significance vs. practical importance, and the relationship between hypothesis testing and confidence intervals.
-```
-
 ## 4. Hypothesis Testing and Confidence Intervals
 
 The last topic we want to discuss is the relationship between hypothesis testing and confidence intervals. Even though the flavor of these two forms of inference is different (confidence intervals estimate a parameter, and hypothesis testing assesses the evidence in the data against one claim and in favor of another), there is a strong link between them.

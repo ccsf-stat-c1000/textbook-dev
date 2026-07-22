@@ -1,12 +1,5 @@
 # Parameters vs. Statistics
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify and distinguish between a parameter and a statistic.
-- Explain the concepts of sampling variability and sampling distribution.
-```
-
 To better understand the relationship between sample and population, let's consider the two examples that were mentioned in the introduction.
 
 :::{admonition} Example 1: Blood Type

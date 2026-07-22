@@ -1,11 +1,5 @@
 # Scatterplots in Action: The Highway Sign Study
 
-```{admonition} Learning Objectives
-:class: note
-
-- Graphically display the relationship between two quantitative variables and describe: a) the overall pattern, and b) striking deviations from the pattern.
-```
-
 Let's go back now to our example, and use the scatterplot to examine the relationship between the age of the driver and the maximum sign legibility distance. Here is the scatterplot:
 
 ```{figure} images/gen/m05-signs-scatterplot.svg

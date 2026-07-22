@@ -1,11 +1,5 @@
 # Independent Samples vs. Matched Pairs
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify and distinguish among cases where use of calculations specific to independent samples, matched pairs, and ANOVA are appropriate.
-```
-
 Furthermore, within the sub-case of comparing two means (i.e., examining the relationship between X and Y when X has only two categories) we will distinguish between two (sub-sub) cases. Here, the distinction is somewhat subtle, and has to do with how the samples from each of the two sub-populations we're comparing are chosen—in other words, what study design is implemented. We have learned that many experiments, as well as observational studies, make a comparison between two groups (sub-populations) in order to see how responses differ for the two possible categorical values. In some cases, one group (sub-population 1) has one categorical value, and *another independent group* (sub-population 2) has the other value. Independent samples are then taken from each group for comparison.
 
 ```{figure} images/gen/m16-independent-samples.svg

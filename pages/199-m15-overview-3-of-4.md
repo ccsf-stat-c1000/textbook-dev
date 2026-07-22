@@ -1,11 +1,5 @@
 # Null and Alternative Hypotheses
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the logic behind and the process of hypothesis testing. In particular, explain what the p-value is and how it is used to draw conclusions.
-```
-
 ## More Details and Terminology
 
 Now that we understand the general idea of how statistical hypothesis testing works, let's go back to each of the steps and delve slightly deeper, getting more details and learning some terminology.

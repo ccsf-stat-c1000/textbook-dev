@@ -1,11 +1,5 @@
 # The Regression Line in Action: Slope, Intercept, and Prediction
 
-```{admonition} Learning Objectives
-:class: note
-
-- In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
-```
-
 Like any other line, the equation of the least-squares regression line for summarizing the linear relationship between the response variable (Y) and the explanatory variable (X) has the form: $Y = a + bX$
 
 All we need to do is calculate the intercept *a*, and the slope *b*, which is easily done if we know:

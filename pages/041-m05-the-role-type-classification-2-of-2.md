@@ -1,11 +1,5 @@
 # The Role-Type Classification: A Roadmap for Relationships
 
-```{admonition} Learning Objectives
-:class: note
-
-- Classify a data analysis situation (involving two variables) according to the "role-type classification," and state the appropriate display and/or numerical measures that should be used in order to summarize the data.
-```
-
 If we further classify each of the two relevant variables according to *type* (categorical or quantitative), we get the following four possibilities for *role-type classification*:
 
 1. Categorical explanatory and quantitative response

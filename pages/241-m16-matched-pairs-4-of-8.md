@@ -1,11 +1,5 @@
 # The Paired t-Test: Conditions and Test Statistic
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 2: Checking Conditions and Calculating the Test Statistic
 
 The paired t-test, as a special case of a one-sample t-test, can be safely used as long as:

@@ -537,12 +537,9 @@ def element_to_md(el, depth=0) -> str:
         return ''
 
     # ── Learning objectives ────────────────────────────────────────────────
+    # Dropped: objectives are maintained outside this book.
     if el_id == 'lobjh' or (tag == 'div' and 'multi' in cls and el_id == 'lobjh'):
-        items = []
-        for li in el.find_all('li'):
-            items.append('- ' + inline_to_md(li).strip())
-        body = '\n'.join(items)
-        return admonition_to_md('admonition', 'Learning Objectives', body)
+        return ''
 
     # ── Paragraphs ─────────────────────────────────────────────────────────
     if tag == 'p':

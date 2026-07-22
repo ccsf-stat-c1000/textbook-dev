@@ -1,11 +1,5 @@
 # Comparing Two Means from Paired Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Comparing Two Means—Matched Pairs (Paired t-Test)
 
 ### Overview

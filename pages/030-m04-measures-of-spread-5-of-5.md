@@ -1,12 +1,5 @@
 # Outliers: When to Investigate, Keep, or Discard
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a quantitative variable in context: a) describe the overall pattern, b) describe striking deviations from the pattern.
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Understanding Outliers
 
 We just practiced one way to "flag" possible outliers. Why is it important to identify possible outliers, and how should they be dealt with? The answers to these questions depend on the reasons for the outlying values. Here are several possibilities:

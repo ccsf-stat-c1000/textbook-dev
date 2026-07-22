@@ -1,11 +1,5 @@
 # The F-Statistic: Conditions and Computation
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 2: Checking Conditions and Finding the Test Statistic
 
 The test statistic of the ANOVA F-test, called the *F-statistic*, has the form

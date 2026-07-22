@@ -1,11 +1,5 @@
 # The Scatterplot: Displaying Two Quantitative Variables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Graphically display the relationship between two quantitative variables and describe: a) the overall pattern, and b) striking deviations from the pattern.
-```
-
 In the previous two cases we had a categorical explanatory variable, and therefore exploring the relationship between the two variables was done by comparing the distribution of the response variable for each category of the explanatory variable:
 
 - In case C→Q we compared distributions of the quantitative response.

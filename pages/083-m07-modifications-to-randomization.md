@@ -1,11 +1,5 @@
 # Blocking and Matched Pairs: Smarter Randomization
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-```
-
 ## Modifications to Randomization
 
 In some cases, an experiment's design may be enhanced by relaxing the requirement of total randomization and *blocking* the subjects first, dividing them into groups of individuals who are similar with respect to an outside variable that may be important in the relationship being studied. This can help ensure that the effect of treatments, as well as background variables, are most accurately measured. In blocking, we simply split the sampled subjects into blocks based upon the different values of the background variable, and then randomly allocate treatments within each block. Thus, blocking in the assignment of subjects is analogous to stratification in sampling.

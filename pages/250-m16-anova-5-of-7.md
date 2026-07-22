@@ -1,11 +1,5 @@
 # The ANOVA F-Test: P-value and Conclusion
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 3: Finding the P-value
 
 The p-value of the ANOVA F-test is the probability of getting an F-statistic as large as we got (or even larger), had $H_0: \mu_1=\mu_2=\cdots=\mu_k$ been true. In other words, it tells us how surprising it is to find data like those observed, assuming that there is no difference among the population means $\mu_1, \mu_2, \ldots, \mu_k$.

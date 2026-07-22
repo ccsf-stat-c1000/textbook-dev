@@ -1,11 +1,5 @@
 # Tests and Confidence Intervals for a Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the concepts of: sample size, statistical significance vs. practical importance, and the relationship between hypothesis testing and confidence intervals.
-```
-
 ## Relating Hypothesis Tests and Confidence Intervals
 
 Just as we did for proportions, we may examine a confidence interval to decide whether a proposed value of the population mean is plausible.

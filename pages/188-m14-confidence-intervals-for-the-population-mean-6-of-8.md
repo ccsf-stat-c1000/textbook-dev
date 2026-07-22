@@ -1,12 +1,5 @@
 # Choosing a Sample Size for a Desired Margin of Error
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## Sample Size Calculations
 
 As we just learned, for a given level of confidence, the sample size determines the size of the margin of error and thus the width, or precision, of our interval estimation. This process can be reversed.

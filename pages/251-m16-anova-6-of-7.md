@@ -1,12 +1,5 @@
 # The ANOVA F-Test: A Worked Example
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 Before we give you hands-on practice in carrying out the ANOVA F-test, let's look at another example.
 
 :::{admonition} Example: Reading Level of Magazine Ads

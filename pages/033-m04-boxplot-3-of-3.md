@@ -1,11 +1,5 @@
 # Side-by-Side Boxplots: Comparing Groups at a Glance
 
-```{admonition} Learning Objectives
-:class: note
-
-- Compare and contrast distributions (of quantitative data) from two or more groups, and produce a brief summary, interpreting your findings in context.
-```
-
 ## Side-By-Side (Comparative) Boxplots
 
 As we learned in the beginning of this module, the distribution of a quantitative variable is best represented graphically by a histogram. Boxplots are most useful when presented side-by-side for comparing and contrasting distributions from two or more groups.

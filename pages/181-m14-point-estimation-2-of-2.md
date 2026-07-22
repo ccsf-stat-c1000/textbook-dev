@@ -1,11 +1,5 @@
 # What Makes a Good Point Estimator?
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine point estimates in simple cases, and make the connection between the sampling distribution of a statistic and its properties as a point estimator.
-```
-
 ## Unbiased Estimators
 
 You may feel that since it is so intuitive, you could have figured out point estimation on your own, even without the benefit of an entire course in statistics. Certainly, our intuition tells us that the best estimator for $\mu$ should be $\bar{x}$, and the best estimator for p should be $\hat{p}$.

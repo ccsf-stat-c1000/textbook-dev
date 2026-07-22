@@ -1,11 +1,5 @@
 # The 68-95-99.7 Rule for Normal Variables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 ## The Standard Deviation Rule for Normal Random Variables
 
 We began to get a feel for normal distributions in the Exploratory Data Analysis (EDA) section, when we introduced the Standard Deviation Rule (or the *68-95-99.7* rule) for how values in a normally-shaped *sample data set* behave relative to their mean ($\bar{x}$) and standard deviation (s). This is the same rule that dictates how the distribution of a normal *random variable* behaves relative to its mean $\mu$ and standard deviation $\sigma$. Now we use probability language and notation to describe the random variable's behavior. For example, in the EDA section, we would have said "68% of pregnancies in our data set fall within 1 standard deviation (s) of their mean ($\bar{x}$)." The analogous statement now would be "If X, the length of a randomly chosen pregnancy, is normal with mean ($\mu$) and standard deviation ($\sigma$), then $0.68=P(\mu-\sigma<X<\mu+\sigma)$."

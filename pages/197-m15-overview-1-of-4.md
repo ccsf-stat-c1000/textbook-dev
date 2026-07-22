@@ -1,11 +1,5 @@
 # The Logic of Hypothesis Testing
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the logic behind and the process of hypothesis testing. In particular, explain what the p-value is and how it is used to draw conclusions.
-```
-
 The purpose of this section is to gradually build your understanding of how statistical hypothesis testing works. We start by explaining the general logic behind the process of hypothesis testing. Once we are confident that you understand this logic, we will add some more details and terminology.
 
 ## General Idea and Logic of Hypothesis Testing

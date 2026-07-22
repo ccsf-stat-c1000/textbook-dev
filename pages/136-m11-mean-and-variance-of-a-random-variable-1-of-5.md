@@ -1,11 +1,5 @@
 # The Mean of a Random Variable: A Weighted Average
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
-```
-
 In the Exploratory Data Analysis (EDA) section, we displayed the distribution of one quantitative variable with a histogram, and supplemented it with numerical measures of center and spread. We are doing the same thing here. We display the probability distribution of a discrete random variable with a table, formula or histogram, and supplement it with numerical measures of the center and spread of the probability distribution. These measures are the *mean and standard deviation of the random variable.*
 
 This section will be devoted to introducing these measures. As before, we'll start with the numerical measure of center, the mean. Let's begin by revisiting an example we saw in EDA.

@@ -1,11 +1,5 @@
 # The t-Test Statistic
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 Recall that we were discussing the situation of testing for a mean in the case when σ is unknown. We've seen previously that when σ is known, the test statistic is $z=\frac{\bar{x}-\mu_{0}}{\sigma/\sqrt{n}}$ (note the σ in the formula), which follows a normal distribution. But when σ is *unknown*, the test statistic in the test for a mean becomes $t=\frac{\bar{x}-\mu_{0}}{s/\sqrt{n}}$ (note the use of s in the formula, in place of the unknown σ). *Here* is where the t distribution arises in the context of a test for a mean, because this statistic (with s in place of σ) follows a t distribution.
 
 Notice the only difference between the formula for the z-statistic and the formula for the t-statistic: in the formula for the z-statistic, σ (the standard deviation of the population) must be known; whereas when σ isn't known, s (the standard deviation of the sample data) is used in its place. That's the change that causes the statistic to be a t-statistic.

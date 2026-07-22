@@ -1,11 +1,5 @@
 # Finding Probabilities from a Distribution
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
-```
-
 We've seen how probability distributions are created. Now it's time to use them to find probabilities.
 
 :::{admonition} Example: Changing Majors

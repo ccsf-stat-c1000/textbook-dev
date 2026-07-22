@@ -1,11 +1,5 @@
 # Association Is Not Causation
 
-```{admonition} Learning Objectives
-:class: note
-
-- Recognize the distinction between association and causation, and identify potential lurking variables for explaining an observed relationship.
-```
-
 ## Introduction
 
 So far we have discussed different ways in which data can be used to explore the relationship (or association) between two variables. To frame our discussion we followed the role-type classification table:

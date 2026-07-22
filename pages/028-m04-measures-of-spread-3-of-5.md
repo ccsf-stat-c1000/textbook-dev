@@ -1,11 +1,5 @@
 # The Interquartile Range in Action
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ::::{admonition} Example: Best Actress Oscar Winners
 :class: tip
 

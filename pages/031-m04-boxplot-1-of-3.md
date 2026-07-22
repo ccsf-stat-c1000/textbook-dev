@@ -1,11 +1,5 @@
 # The Five-Number Summary
 
-```{admonition} Learning Objectives
-:class: note
-
-- Generate and interpret several different graphical displays of the distribution of a quantitative variable (histogram, stemplot, boxplot).
-```
-
 ## Introduction
 
 Before we move on to the third measure of spread (standard deviation), we'll summarize what we've learned so far about measuring spread and use it to introduce another graphical display of the distribution of a quantitative variable, the *boxplot*.

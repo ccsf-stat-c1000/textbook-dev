@@ -1,11 +1,5 @@
 # The General Multiplication Rule: P(A and B) Without Independence
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use the General Multiplication Rule to find the probability that two events occur (P(A and B)).
-```
-
 Now that we have an understanding of conditional probabilities and can express them with concise notation, and have a more formal understanding of what it means for two events to be independent, we can finally establish the General Multiplication Rule, a formal rule for finding P(A and B) that applies to any two events, whether they are independent or dependent.
 
 We begin with an example that contrasts P(A and B) for independent and dependent cases.

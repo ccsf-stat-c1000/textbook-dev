@@ -1,11 +1,5 @@
 # Building the Binomial Probability Formula
 
-```{admonition} Learning Objectives
-:class: note
-
-- Fit the binomial model when appropriate, and use it to perform simple calculations.
-```
-
 Now that we understand what a binomial random variable is, and when it arises, it's time to discuss its probability distribution. We'll start with a simple example and then generalize to a formula.
 
 :::{admonition} Example: Deck of Cards

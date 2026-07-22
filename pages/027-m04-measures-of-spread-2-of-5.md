@@ -1,11 +1,5 @@
 # Quartiles and the Middle Half of the Data
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Inter-Quartile Range (IQR)
 
 While the range quantifies the variability by looking at the range covered by *ALL* the data, the IQR measures the variability of a distribution by giving us the range covered by the *MIDDLE 50%* of the data.

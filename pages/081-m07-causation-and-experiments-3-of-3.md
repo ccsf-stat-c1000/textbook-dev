@@ -1,12 +1,5 @@
 # When Experiments Aren't Possible: Ethics and Other Pitfalls
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-- Explain how the study design impacts the types of conclusions that can be drawn.
-```
-
 ## Pitfalls in Experimentation
 
 Some of the inherent difficulties that may be encountered in experimentation are the Hawthorne effect, lack of realism, noncompliance, and treatments that are unethical, impossible, or impractical to impose.

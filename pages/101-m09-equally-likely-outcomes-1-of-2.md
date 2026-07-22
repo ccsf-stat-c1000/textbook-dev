@@ -1,11 +1,5 @@
 # Equally Likely Outcomes: Counting Your Way to Probability
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability of events in the case in which all outcomes are equally likely.
-```
-
 In the Introduction to Probability, we learned how the relative frequency approach can be used to estimate the probability of an event. While sometimes this is the only method that can be used to estimate probability (such as when figuring out the probabilities of the occurrence of different blood types among the population), this method requires a lot of time and effort, especially since in order to get reliable estimates we need to repeat the random experiment many times. We are now moving on to a different method, which can be applied in cases in which the random experiment produces outcomes that are all equally likely. We'll start with a simple example to introduce the idea of the method, and then move on to more interesting examples.
 
 :::{admonition} Example: Rolling a Fair Die

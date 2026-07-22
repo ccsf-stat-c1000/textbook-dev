@@ -1,11 +1,5 @@
 # Type I and Type II Errors
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine the likelihood of making type I and type II errors, and explain how to reduce them, in context.
-```
-
 ## What Can Go Wrong: Two Types of Errors
 
 Statistical investigations involve making decisions in the face of uncertainty, so there is always some chance of making a wrong decision. In hypothesis testing, the following decisions can occur:

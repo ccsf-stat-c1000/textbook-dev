@@ -1,11 +1,5 @@
 # Sample Spaces: Listing What Can Happen
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine the sample space of a given random experiment.
-```
-
 As we saw in the previous module, probability questions arise when we are faced with a situation that involves uncertainty. Such a situation is called a *random experiment*, an experiment that produces an outcome that cannot be predicted in advance (hence the uncertainty).
 
 Here are a few examples of random experiments:

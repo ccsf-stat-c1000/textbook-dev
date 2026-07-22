@@ -1,11 +1,5 @@
 # Reversing the Condition: Bayes-Style Problems with Trees
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use probability trees as a tool for finding probabilities.
-```
-
 Here is a more practical example:
 
 :::{admonition} Example: Polygraph Tests

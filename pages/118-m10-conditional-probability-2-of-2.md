@@ -1,12 +1,5 @@
 # The Conditional Probability Formula
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the reasoning behind conditional probability, and how this reasoning is expressed by the definition of conditional probability.
-- Find conditional probabilities and interpret them.
-```
-
 A good visual illustration of this conditional probability is provided by the two-way table:
 
 | | Pierced | Not Pierced | Total |

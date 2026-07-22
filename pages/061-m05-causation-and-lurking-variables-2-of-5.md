@@ -1,11 +1,5 @@
 # Lurking Variables: The Hidden Third Factor
 
-```{admonition} Learning Objectives
-:class: note
-
-- Recognize the distinction between association and causation, and identify potential lurking variables for explaining an observed relationship.
-```
-
 Let's start by looking at the following example:
 
 ::::{admonition} Example: Fire Damage

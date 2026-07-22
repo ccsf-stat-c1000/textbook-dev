@@ -1,11 +1,5 @@
 # A Confidence Interval for the Difference of Two Means
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Confidence Interval for μ₁ − μ₂ (Two-Sample t Confidence Interval)
 
 So far we've discussed the two-sample t-test, which checks whether there is enough evidence stored in the data to reject the claim that $\mu_1-\mu_2=0$ (or equivalently, that $\mu_1=\mu_2$) in favor of one of the three possible alternatives.

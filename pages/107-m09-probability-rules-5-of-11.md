@@ -1,11 +1,5 @@
 # Independent Events: When One Outcome Doesn't Affect Another
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 Rule 4, the addition rule, deals with finding P(A *or* B). We are now moving on to rule 5, which deals with yet another situation of frequent interest, finding P(A *and* B), the probability that both events A and B occur. In other words,
 
 *P(A and B) = P(event A occurs and event B occurs)*

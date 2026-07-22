@@ -1,11 +1,5 @@
 # Shifting and Scaling a Random Variable
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the rules of means and variances to find the mean and variance of a linear transformation of a random variable and the sum of two independent random variables.
-```
-
 ## Rules for Means and Variances of Random Variables
 
 So far we've learned how to calculate the mean and standard deviation of a random variable, and how to interpret these numerical measures. Let's look at a motivating example that will show us what kinds of situations we may find these rules useful in.

@@ -1,11 +1,5 @@
 # Working Backward: From Probability to z
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 ```{admonition} Comment
 :class: important
 

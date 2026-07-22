@@ -1,11 +1,5 @@
 # Testing for Independence with Conditional Probabilities
 
-```{admonition} Learning Objectives
-:class: note
-
-- Determine whether two events are independent or not.
-```
-
 As we saw in the Exploratory Data Analysis section, whenever a situation involves more than one variable, it is generally of interest to determine whether or not the variables are related. In probability, we talk about independent events, and in the first module we said that two events A and B are *independent* if event A occurring *does not affect* the probability that event B will occur. Now that we've introduced conditional probability, we can formalize the definition of independence of events and develop four simple ways to check whether two events are independent or not. We will introduce these "independence checks" using examples, and then summarize.
 
 :::{admonition} Example: Pierced Ears (continued)

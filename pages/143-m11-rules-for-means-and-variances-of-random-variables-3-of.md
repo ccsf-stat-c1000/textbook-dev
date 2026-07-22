@@ -1,11 +1,5 @@
 # Adding Random Variables: Sums of Means and Variances
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the rules of means and variances to find the mean and variance of a linear transformation of a random variable and the sum of two independent random variables.
-```
-
 Besides taking a linear transformation of a random variable, another way to form a new random variable is to combine two or more existing random variables in some way, such as finding the sum of two random variables. Again, we'll start with a motivating example.
 
 :::{admonition} Example: Xavier's and Yves' Production Lines

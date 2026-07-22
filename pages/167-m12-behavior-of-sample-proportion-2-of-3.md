@@ -1,11 +1,5 @@
 # The Sampling Distribution of the Sample Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the sampling distribution of the sample proportion (when appropriate). In particular, be able to identify unusual samples from a given population.
-```
-
 Again, the simulations on the previous page reinforced what makes sense to our intuition. Larger random samples will better approximate the population proportion. When the sample size is large, sample proportions will be closer to p. In other words, the sampling distribution for large samples has less variability. Advanced probability theory confirms our observations and gives a more precise way to describe the standard deviation of the sample proportions. This is described next.
 
 ## The Sampling Distribution of the Sample Proportion

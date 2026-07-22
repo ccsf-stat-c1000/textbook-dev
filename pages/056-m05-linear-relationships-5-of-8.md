@@ -1,11 +1,5 @@
 # Summarizing a Linear Relationship with a Line
 
-```{admonition} Learning Objectives
-:class: note
-
-- In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
-```
-
 ## Linear Regression: Summarizing the Pattern of the Data with a Line
 
 So far we've used the scatterplot to describe the relationship between two quantitative variables, and in the special case of a linear relationship, we have supplemented the scatterplot with the correlation (r). The correlation, however, doesn't fully characterize the linear relationship between two quantitative variables—it only measures the strength and direction. We often want to describe more precisely how one variable changes with the other (by "more precisely," we mean more than just the direction), or *predict* the value of the response variable for a given value of the explanatory variable. In order to be able to do that, we need to summarize the linear relationship with a line that best fits the linear pattern of the data. In the remainder of this section, we will introduce a way to find such a line, learn how to interpret it, and use it (cautiously) to make predictions.

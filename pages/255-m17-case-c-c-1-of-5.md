@@ -1,11 +1,5 @@
 # Case C→C: Relationships Between Categorical Variables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Choose the appropriate inferential method for examining the relationship between two variables and justify the choice.
-```
-
 ## Inference for the Relationship Between Two Categorical Variables (Chi-Square Test for Independence)
 
 ### Overview

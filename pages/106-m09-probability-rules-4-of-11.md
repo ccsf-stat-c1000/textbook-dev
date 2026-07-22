@@ -1,11 +1,5 @@
 # The Addition Rule for Disjoint Events: Finding P(A or B)
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 ```{admonition} Rule 4: The Addition Rule for Disjoint Events
 :class: note
 

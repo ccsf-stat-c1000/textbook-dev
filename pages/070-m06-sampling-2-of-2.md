@@ -1,12 +1,5 @@
 # Probability Sampling Plans: Simple, Cluster, and Stratified
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the sampling method used in a study and discuss its implications and potential limitations.
-- Critically evaluate the reliability and validity of results published in mainstream media.
-```
-
 So far we've discussed several sampling plans, and determined that a simple random sample is the only one we discussed that is not subject to any bias.
 
 A simple random sample is the easiest way to base a selection on randomness. There are other, more sophisticated, sampling techniques that utilize randomness that are often preferable in real-life circumstances. Any plan that relies on random selection is called a *probability sampling plan (or technique)*. The following three probability sampling plans are among the most commonly used:

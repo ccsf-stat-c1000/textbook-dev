@@ -1,12 +1,5 @@
 # The Structure of a Confidence Interval
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 So far, we've developed the confidence interval for the population mean from scratch, based on results from probability, and discussed the trade-off between the level of confidence and the precision of the interval. The price you pay for a higher level of confidence is a lower level of precision of the interval (i.e., a wider interval).
 
 Is there a way to bypass this trade-off? In other words, is there a way to increase the precision of the interval (i.e., make it narrower) *without* compromising on the level of confidence? We will answer this question shortly, but first we need to get a deeper understanding of the different components of the confidence interval and its structure.

@@ -1,11 +1,5 @@
 # Random Variables: Numbers from Random Experiments
 
-```{admonition} Learning Objectives
-:class: note
-
-- Distinguish between discrete and continuous random variables.
-```
-
 In the previous two modules we've learned principles and tools that help us find probabilities of events in general. Now that we've become proficient at doing that, we'll talk about random variables. Just like any other variable, random variables can take on multiple values. What differentiates random variables from other variables is that the values for these variables are determined by a random trial, random sample, or simulation. The probabilities for the values can be determined by theoretical or observational means. Such probabilities play a vital role in the theory behind statistical inference, our ultimate goal in this course.
 
 ## Introduction

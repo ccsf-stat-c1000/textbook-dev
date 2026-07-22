@@ -1,11 +1,5 @@
 # Finding the P-value with the t Distribution
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 3: Finding the P-value
 
 The p-value of the t-test is found exactly the same way as it is found for the z-test, except that the t distribution with (n − 1) degrees of freedom is used instead of the Z distribution:

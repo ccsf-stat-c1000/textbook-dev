@@ -1,11 +1,5 @@
 # Looking Forward, Looking Back: Prospective and Retrospective Studies
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how the study design impacts the types of conclusions that can be drawn.
-```
-
 Observational studies are subject to other pitfalls besides lurking variables, arising from various aspects of the design for evaluating the explanatory and response values. The next pair of examples illustrates some other difficulties that may arise.
 
 :::{admonition} Example: A Prospective Study

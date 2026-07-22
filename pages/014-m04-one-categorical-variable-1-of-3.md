@@ -1,11 +1,5 @@
 # Summarizing Categorical Data: Counts and Percentages
 
-```{admonition} Learning Objectives
-:class: note
-
-- Summarize and describe the distribution of a categorical variable in context.
-```
-
 What is your perception of your own body? Do you feel that you are overweight, underweight, or about right?
 
 A random sample of 1,200 U.S. college students were asked this question as part of a larger survey. The following table shows part of the responses:

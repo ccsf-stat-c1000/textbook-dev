@@ -1,11 +1,5 @@
 # A Third Variable on the Scatterplot: Labeled Points
 
-```{admonition} Learning Objectives
-:class: note
-
-- Graphically display the relationship between two quantitative variables and describe: a) the overall pattern, and b) striking deviations from the pattern.
-```
-
 ## A Labeled Scatterplot
 
 In certain circumstances, it may be reasonable to indicate different subgroups or categories within the data on the scatterplot, by labeling each subgroup differently. The result is called a *labeled scatterplot*, and can provide further insight about the relationship we are exploring. Here is an example.

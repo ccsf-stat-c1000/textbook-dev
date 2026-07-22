@@ -1,11 +1,5 @@
 # The z-Test for a Proportion: Summary
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Let's Summarize
 
 We have now completed going through the four steps of hypothesis testing, and in particular, we learned how they are applied to the z-test for the population proportion. Let's briefly summarize:

@@ -1,11 +1,5 @@
 # Building a Probability Distribution from Scratch
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
-```
-
 The probability distribution for two flips of a coin was simple enough to construct at once. For more complicated random experiments, it is common to first construct a table of all the outcomes in S and their probabilities, then use the addition principle to condense that information into the actual probability distribution table.
 
 :::{admonition} Example: Flipping a Coin Three Times

@@ -1,11 +1,5 @@
 # The Idea Behind the ANOVA F-Test
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## The Idea Behind the ANOVA F-Test
 
 Let's think about how we would go about testing whether the population means $\mu_1, \mu_2, \mu_3, \mu_4$ are equal. It seems as if the best we could do is to calculate their point estimates—the sample mean in each of our 4 samples (denote them by $\bar{y}_1, \bar{y}_2, \bar{y}_3, \bar{y}_4$)—and see how far apart these sample means are, or in other words, measure the variation *between* the sample means. If we find that the four sample means are not all close together, we'll say that we have evidence against $H_0$; otherwise, if they are close together, we'll say that we do not have evidence against $H_0$. This seems quite simple, but is this enough? Let's see.

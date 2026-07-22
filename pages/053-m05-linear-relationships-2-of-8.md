@@ -1,11 +1,5 @@
 # The Correlation Coefficient r
 
-```{admonition} Learning Objectives
-:class: note
-
-- Interpret the value of the correlation coefficient, and be aware of its limitations as a numerical measure of the association between two quantitative variables.
-```
-
 ## The Correlation Coefficient—r
 
 The numerical measure that assesses the strength of a linear relationship is called the *correlation coefficient* and is denoted by *r*. We will

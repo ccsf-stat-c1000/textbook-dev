@@ -1,12 +1,5 @@
 # When Lurking Variables Deepen (Rather Than Reverse) the Story
 
-```{admonition} Learning Objectives
-:class: note
-
-- Recognize the distinction between association and causation, and identify potential lurking variables for explaining an observed relationship.
-- Recognize and explain the phenomenon of Simpson's Paradox as it relates to interpreting the relationship between two variables.
-```
-
 It is *not* always the case that including a lurking variable makes us rethink the direction of the association. In the next example we will see how including a lurking variable just helps us gain a deeper understanding of the observed relationship.
 
 :::{admonition} Example: College Entrance Exams

@@ -1,12 +1,5 @@
 # Confidence Intervals for a Mean: Summary
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## Let's Summarize
 
 - When the population is normal and/or the sample is large, a confidence interval for the unknown population mean μ when σ is known is:

@@ -1,12 +1,5 @@
 # Solving Problems with Probability Tables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-- When appropriate, use tools such as Venn diagrams or probability tables as aids for finding probabilities.
-```
-
 Now that we know how to build a two-way probability table, let's see how we can use information from it to solve problems.
 
 :::{admonition} Example: Reading Probabilities from the Table

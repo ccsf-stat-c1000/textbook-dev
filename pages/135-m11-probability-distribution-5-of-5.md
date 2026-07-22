@@ -1,11 +1,5 @@
 # Probability Distributions in Action
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the probability distribution of discrete random variables, and use it to find the probability of events of interest.
-```
-
 Here is another example in which we'll use a probability distribution that is associated with a random variable of interest to find probabilities. What will be new in this example is the use of conditional probabilities.
 
 :::{admonition} Example: Xavier's Production Line

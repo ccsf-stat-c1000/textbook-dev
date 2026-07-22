@@ -1,11 +1,5 @@
 # Least Squares: Finding the Best-Fitting Line
 
-```{admonition} Learning Objectives
-:class: note
-
-- In the special case of linear relationship, use the least squares regression line as a summary of the overall pattern, and use it to make predictions.
-```
-
 The technique that specifies the dependence of the response variable on the explanatory variable is called *regression*. When that dependence is linear (which is the case in our examples in this section), the technique is called *linear regression*. Linear regression is therefore the technique of finding the line that best fits the pattern of the linear relationship (or in other words, the line that best describes how the response variable linearly depends on the explanatory variable).
 
 To understand how such a line is chosen, consider the following very simplified version of the age-distance example (we left just 6 of the drivers on the scatterplot). There are many lines that look like they would be good candidates to be the line that best fits the data:

@@ -1,12 +1,5 @@
 # Simpson's Paradox: When Combining Groups Reverses the Story
 
-```{admonition} Learning Objectives
-:class: note
-
-- Recognize the distinction between association and causation, and identify potential lurking variables for explaining an observed relationship.
-- Recognize and explain the phenomenon of Simpson's Paradox as it relates to interpreting the relationship between two variables.
-```
-
 So far, we have:
 
 - discussed what lurking variables are,

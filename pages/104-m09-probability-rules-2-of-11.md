@@ -1,11 +1,5 @@
 # The Complement Rule: The Other Side of the Coin
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-```
-
 Let's move on to rule 3. In probability and in its applications, we are frequently interested in finding out the probability that a certain event will *not* occur. An important point to understand here is that "event A does not occur" is *a separate event* that consists of all the outcomes in the sample space S that are not in A. It is for this reason that the event "event A does not occur" is called *"the complement event of A,"* since it complements event A to the whole sample space. Notation: we will write *"not A"* to denote the event that A does *not* occur. Here is a visual representation of how event A and its complement event "not A" together represent the whole sample space.
 
 ```{figure} images/gen/m09-complement-venn.svg

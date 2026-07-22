@@ -1,11 +1,5 @@
 # Connecting the Interval and the Test
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 As we've seen in previous tests, the 95% confidence interval for $\mu_1-\mu_2$ can be used for testing in the two-sided case ($H_0: \mu_1-\mu_2=0$ vs. $H_a: \mu_1-\mu_2\neq0$):
 
 - If the null value, 0, falls *outside* the confidence interval, $H_0$ is rejected.

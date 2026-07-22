@@ -1,11 +1,5 @@
 # Step 1: Stating the Hypotheses for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, specify the null and alternative hypotheses for the population proportion and mean.
-```
-
 Recall that there are basically 4 steps in the process of hypothesis testing:
 
 1. State the null and alternative hypotheses.

@@ -1,12 +1,5 @@
 # Conditional Probability: Updating on What You Know
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the reasoning behind conditional probability, and how this reasoning is expressed by the definition of conditional probability.
-- Find conditional probabilities and interpret them.
-```
-
 In the first part of this module, we'll introduce the concept of conditional probability. The idea here is that the probabilities of certain events may be affected by whether or not other events have occurred. Let's illustrate this idea with a simple example:
 
 :::{admonition} Example: Pierced Ears

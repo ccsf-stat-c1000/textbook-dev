@@ -1,11 +1,5 @@
 # Reading the Standard Normal Table
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find probabilities associated with the normal distribution.
-```
-
 ## Finding Probabilities with the Normal Table
 
 Now that you have learned to assess the relative value of any normal value by standardizing, the next step is to evaluate probabilities. As mentioned before, we will first take the conventional approach of referring to a *normal table*, which tells the probability of a normal variable taking a value *less than* any standardized score z. (A complete standard normal table appears in most statistics references, and your instructor can provide one; statistical software and calculators give these probabilities directly.)

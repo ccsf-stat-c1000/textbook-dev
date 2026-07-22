@@ -1,11 +1,5 @@
 # Conditions for the z-Test for a Proportion
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ```{admonition} Comments
 :class: important
 

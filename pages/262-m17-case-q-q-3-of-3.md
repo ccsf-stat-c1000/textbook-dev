@@ -1,11 +1,5 @@
 # Estimating the Regression Line
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-```
-
 So far the researchers have observed linearity in the data, and based on a test concluded that this linear relationship between age and legibility distance can be generalized to the entire population of drivers.
 
 Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the *least squares regression line*—the line that minimizes the sum of the squared vertical deviations of the points from the line.

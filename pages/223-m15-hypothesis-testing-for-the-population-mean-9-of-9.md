@@ -1,11 +1,5 @@
 # The t-Test for a Mean: Worked Examples
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 For comparison purposes, we will use a modified version of the two problems we used in the previous case. We'll first introduce the modified versions and explain the changes.
 
 :::{admonition} Example 1: SAT-M Scores at Ross College (σ Unknown)

@@ -1,11 +1,5 @@
 # The Paired t-Test: P-value and Conclusion
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 3: Finding the P-value
 
 As a special case of the one-sample t-test, the null distribution of the paired t-test statistic is a t distribution (with n − 1 degrees of freedom), which is the distribution under which the p-values are calculated. We will let the software find the p-value for us, and in this case, we get a p-value of 0.009.

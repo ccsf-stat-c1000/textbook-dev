@@ -1,11 +1,5 @@
 # The Idea Behind the Paired t-Test
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 So far, we have discussed and illustrated cases in which the matched pairs design comes up, and we are now ready to discuss how to carry out the test in this case. We will first present the idea behind the paired t-test, and then go through the four steps in the testing process.
 
 ## The Paired t-Test

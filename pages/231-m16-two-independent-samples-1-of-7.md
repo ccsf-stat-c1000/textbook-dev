@@ -1,11 +1,5 @@
 # Comparing Two Means from Independent Samples
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Comparing Two Means—Two Independent Samples (The Two-Sample t-Test)
 
 ### Overview

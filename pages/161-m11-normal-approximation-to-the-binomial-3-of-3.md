@@ -1,11 +1,5 @@
 # The Continuity Correction
 
-```{admonition} Learning Objectives
-:class: note
-
-- Use the normal distribution as an approximation of the binomial distribution, when appropriate.
-```
-
 Actually, there is another important reason why the binomial approximation example from the middle of the previous page is not too good. The following comment will explain.
 
 ## Making the Continuity Correction

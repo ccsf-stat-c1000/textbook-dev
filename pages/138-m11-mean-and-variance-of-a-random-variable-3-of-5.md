@@ -1,11 +1,5 @@
 # Expected Value in the Real World: Games, Insurance, and Decisions
 
-```{admonition} Learning Objectives
-:class: note
-
-- Find the mean and variance of a discrete random variable, and apply these concepts to solve real-world problems.
-```
-
 Here is another example:
 
 :::{admonition} Example: Life Insurance #1

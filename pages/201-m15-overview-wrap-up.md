@@ -1,11 +1,5 @@
 # Overview Wrap-Up
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain the logic behind and the process of hypothesis testing. In particular, explain what the p-value is and how it is used to draw conclusions.
-```
-
 ## Let's Summarize
 
 We learned quite a lot about hypothesis testing. We learned the logic behind it, what the key elements are, and what types of conclusions we can and cannot draw in hypothesis testing. Here is a quick recap:

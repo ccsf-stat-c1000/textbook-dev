@@ -1,12 +1,5 @@
 # The Chi-Square Test: Hypotheses and the Big Idea
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing relationships.
-```
-
 ## The Chi-Square Test for Independence
 
 The chi-square test for independence examines our observed data and tells us whether we have enough evidence to conclude beyond a reasonable doubt that two categorical variables are related. Much like the previous part on the ANOVA F-test, we are going to introduce the hypotheses (step 1), and then discuss the idea behind the test, which will naturally lead to the test statistic (step 2). Let's start.

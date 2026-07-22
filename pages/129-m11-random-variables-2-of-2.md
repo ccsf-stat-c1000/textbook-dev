@@ -1,11 +1,5 @@
 # Discrete or Continuous? Classifying Random Variables
 
-```{admonition} Learning Objectives
-:class: note
-
-- Distinguish between discrete and continuous random variables.
-```
-
 Before we go any further, a few observations about the nature of discrete and continuous random variables should be mentioned.
 
 ```{admonition} Comments

@@ -1,12 +1,5 @@
 # Building the 95% Confidence Interval for a Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## The General Case
 
 Let's generalize the IQ example. Suppose that we are interested in estimating the unknown population mean (μ) based on a random sample of size n. Further, we assume that the population standard deviation (σ) is known.

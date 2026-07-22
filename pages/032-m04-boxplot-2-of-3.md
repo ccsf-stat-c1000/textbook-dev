@@ -1,11 +1,5 @@
 # Building the Boxplot
 
-```{admonition} Learning Objectives
-:class: note
-
-- Generate and interpret several different graphical displays of the distribution of a quantitative variable (histogram, stemplot, boxplot).
-```
-
 Now that you understand what each of the five numbers means, you can appreciate how much information about the distribution is packed into the five-number summary. All this information can also be represented visually by using the boxplot.
 
 ## The Boxplot

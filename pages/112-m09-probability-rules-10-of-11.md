@@ -1,12 +1,5 @@
 # Probability Tables: Organizing the Possibilities
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply probability rules in order to find the likelihood of an event.
-- When appropriate, use tools such as Venn diagrams or probability tables as aids for finding probabilities.
-```
-
 In our delivery example, there are two categorical variables of interest in the background:
 
 - On-time delivery by service A (yes/no)

@@ -1,12 +1,5 @@
 # Case Q→Q: Inference for a Linear Relationship
 
-```{admonition} Learning Objectives
-:class: note
-
-- Choose the appropriate inferential method for examining the relationship between two variables and justify the choice.
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-```
-
 ## Inference for the Linear Relationship Between Two Quantitative Variables
 
 ### Overview

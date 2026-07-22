@@ -1,11 +1,5 @@
 # The Two-Sample t-Test: P-value and Conclusion
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-```
-
 ## Step 3: Finding the P-value of the Test
 
 Since our test is called the two-sample t-test, we know that the p-values are calculated under a t distribution. Indeed, it turns out that the null distribution of our test statistic is approximately t. Figuring out which one of the t distributions (in other words, how many degrees of freedom this t distribution has) is quite involved and will not be discussed here. Instead, we use statistical software to find the p-value.

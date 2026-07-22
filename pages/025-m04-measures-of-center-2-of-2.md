@@ -1,11 +1,5 @@
 # Mean vs. Median: How Shape and Outliers Decide
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Comparing the Mean and the Median
 
 As we have seen, the mean and the median, two of the common measures of center, each describe the center of a distribution of values in a different way. The mean describes the center as an average value, in which the *actual values* of the data points play an important role. The median, on the other hand, locates the middle value as the center, and the *order* of the data is the key to finding it.

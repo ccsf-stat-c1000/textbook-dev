@@ -1,11 +1,5 @@
 # From Histogram to Density Curve
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how a density function is used to find probabilities involving continuous random variables.
-```
-
 ## The Probability Distribution of a Continuous Random Variable
 
 In order to shift our focus from discrete to continuous random variables, let us first consider the probability histogram below for the shoe size of adult males. Let X represent these shoe sizes. Thus, X is a discrete random variable, since shoe sizes can only take whole and half number values, nothing in between.

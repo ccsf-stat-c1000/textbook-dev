@@ -1,11 +1,5 @@
 # The Effect of Sample Size on Testing
 
-```{admonition} Learning Objectives
-:class: note
-
-- Apply the concepts of: sample size, statistical significance vs. practical importance, and the relationship between hypothesis testing and confidence intervals.
-```
-
 ## More About Hypothesis Testing
 
 The issues regarding hypothesis testing that we will discuss are:

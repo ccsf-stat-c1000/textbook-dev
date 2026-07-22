@@ -1,12 +1,5 @@
 # Stating Hypotheses and Summarizing Data for a Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, specify the null and alternative hypotheses for the population proportion and mean.
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 1: Stating the Hypotheses
 
 The null and alternative hypotheses for the z-test for the population mean (μ) have exactly the same structure as the hypotheses for the z-test for the population proportion (p):

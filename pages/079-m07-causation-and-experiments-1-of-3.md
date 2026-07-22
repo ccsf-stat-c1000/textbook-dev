@@ -1,11 +1,5 @@
 # Experiments: Taking Control of the Explanatory Variable
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how the study design impacts the types of conclusions that can be drawn.
-```
-
 ## Causation and Experiments
 
 Recall that in an experiment, it is the researchers who assign values of the explanatory variable to the participants. The key to ensuring that individuals differ only with respect to explanatory values—which is also the key to establishing causation—lies in the way this assignment is carried out. Let's return to the smoking cessation study as a context to explore the essential ingredients of experimental design.

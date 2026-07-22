@@ -1,12 +1,5 @@
 # When Is It Safe to Use This Interval?
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 We are almost done with this section. We need to discuss just a few more questions:
 
 - Is it always okay to use the confidence interval we developed for μ when σ is known?

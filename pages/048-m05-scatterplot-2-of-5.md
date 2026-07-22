@@ -1,11 +1,5 @@
 # Reading a Scatterplot: Direction, Form, and Strength
 
-```{admonition} Learning Objectives
-:class: note
-
-- Graphically display the relationship between two quantitative variables and describe: a) the overall pattern, and b) striking deviations from the pattern.
-```
-
 ## Interpreting the Scatterplot
 
 How do we explore the relationship between two quantitative variables using the scatterplot? What should we look at, or pay attention to?

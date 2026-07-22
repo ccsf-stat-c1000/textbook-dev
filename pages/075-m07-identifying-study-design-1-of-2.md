@@ -1,11 +1,5 @@
 # Observational Study or Experiment? Learning to Tell
 
-```{admonition} Learning Objectives
-:class: note
-
-- Identify the design of a study (controlled experiment vs. observational study) and other features of the study design (randomized, blind etc.).
-```
-
 ## Identifying Study Design
 
 Because each type of study design has its own advantages and trouble spots, it is important to begin by determining what type of study we are dealing with. The following example helps to illustrate how we can distinguish among the three basic types of design mentioned in the introduction—observational studies, sample surveys, and experiments.

@@ -1,11 +1,5 @@
 # The Binomial Formula in Action
 
-```{admonition} Learning Objectives
-:class: note
-
-- Fit the binomial model when appropriate, and use it to perform simple calculations.
-```
-
 Let's look at another example:
 
 :::{admonition} Example: Blood Type A

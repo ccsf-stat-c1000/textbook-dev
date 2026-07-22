@@ -1,11 +1,5 @@
 # The Mean, Standard Deviation, and Shape of a Binomial
 
-```{admonition} Learning Objectives
-:class: note
-
-- Fit the binomial model when appropriate, and use it to perform simple calculations.
-```
-
 ## Mean and Standard Deviation of the Binomial Random Variable
 
 Now that we understand how to find probabilities associated with a random variable X which is binomial, using either its probability distribution formula or technology, we are ready to talk about the mean and standard deviation of a binomial random variable. Let's start with an example:

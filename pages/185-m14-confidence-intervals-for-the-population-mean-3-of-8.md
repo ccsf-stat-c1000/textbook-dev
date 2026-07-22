@@ -1,12 +1,5 @@
 # Confidence Intervals at Other Levels of Confidence
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain what a confidence interval represents and determine how changes in sample size and confidence level affect the precision of the confidence interval.
-- Find confidence intervals for the population mean and the population proportion (when certain conditions are met), and perform sample size calculations.
-```
-
 ## Other Levels of Confidence
 
 The most commonly used level of confidence is 95%. However, we may wish to increase our level of confidence and produce an interval that is almost certain to contain μ. Specifically, we may want to report an interval for which we are 99% confident—rather than only 95% confident—that it contains the unknown population mean.

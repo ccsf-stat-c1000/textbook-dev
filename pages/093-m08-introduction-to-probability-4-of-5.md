@@ -1,11 +1,5 @@
 # Determining Probability: Coins, Dice, and Spinners
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate the probability of an event to the likelihood of this event occurring.
-```
-
 ## Determining Probability
 
 There are 2 fundamental ways in which we can determine probability:

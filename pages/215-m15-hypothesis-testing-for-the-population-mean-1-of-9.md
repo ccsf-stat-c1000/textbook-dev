@@ -1,11 +1,5 @@
 # The z-Test for a Mean: Overview
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Overview
 
 So far we have talked about the logic behind hypothesis testing and then illustrated how this process proceeds in practice, using the z-test for the population proportion (p). We are now moving on to discuss testing for the population mean (μ), which is the parameter of interest when the variable of interest is quantitative. Two comments about the structure of this section:

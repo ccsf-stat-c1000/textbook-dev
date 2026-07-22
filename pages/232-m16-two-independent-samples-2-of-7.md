@@ -1,12 +1,5 @@
 # The Two-Sample t-Test: Stating the Hypotheses
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the inferential method for comparing groups and draw the appropriate conclusions.
-- Specify the null and alternative hypotheses for comparing groups.
-```
-
 ## The Two-Sample t-Test
 
 Here again is the general situation which requires us to use the two-sample t-test: two sub-populations with means $\mu_1$ and $\mu_2$, from which two independent random samples of sizes $n_1$ and $n_2$ are drawn. Our goal is to compare the means $\mu_1$ and $\mu_2$ based on the two independent samples.

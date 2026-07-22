@@ -1,11 +1,5 @@
 # The Binomial Setting: When Is a Variable Binomial?
 
-```{admonition} Learning Objectives
-:class: note
-
-- Fit the binomial model when appropriate, and use it to perform simple calculations.
-```
-
 ## Binomial Random Variables
 
 So far, in our discussion about discrete random variables, we have been introduced to:

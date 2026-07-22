@@ -1,11 +1,5 @@
 # The Standard Deviation: Measuring Distance from the Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- Relate measures of center and spread to the shape of the distribution, and choose the appropriate measures in different contexts.
-```
-
 ## Introduction
 
 So far, we have introduced two measures of spread; the range (covered by all the data) and the inter-quartile range (IQR), which looks at the range covered by the middle 50% of the distribution. We also noted that the IQR should be paired as a measure of spread with the median as a measure of center. We now move on to another measure of spread, the *standard deviation*, which quantifies the spread of a distribution in a completely different way.

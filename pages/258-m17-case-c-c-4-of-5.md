@@ -1,11 +1,5 @@
 # The Chi-Square Test: P-value and Conclusion
 
-```{admonition} Learning Objectives
-:class: note
-
-- In a given context, carry out the appropriate inferential method for examining relationships and draw the appropriate conclusions.
-```
-
 ## Step 3: Finding the P-value
 
 The p-value for the chi-square test for independence is the probability of getting counts like those observed, assuming that the two variables are not related (which is what is claimed by the null hypothesis). The smaller the p-value, the more surprising it would be to get counts like we did if the null hypothesis were true.

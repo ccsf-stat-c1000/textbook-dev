@@ -1,11 +1,5 @@
 # Step 3: Finding the P-value for a Mean
 
-```{admonition} Learning Objectives
-:class: note
-
-- Carry out hypothesis testing for the population proportion and mean (when appropriate), and draw conclusions in context.
-```
-
 ## Step 3: Finding the P-value of the Test
 
 The p-value—the probability of getting data (summarized with the test statistic) as extreme as those observed or even more extreme (in the direction of the alternative hypothesis) when $H_0$ is true—for the z-test for the population mean is found exactly like the p-value in the z-test for the population proportion. We've already learned that the p-value is found under the null distribution of the test statistic, and since for both means (with σ known) and proportions the null distribution of the test statistic is N(0,1), the p-value is calculated as follows:

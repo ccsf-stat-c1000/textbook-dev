@@ -1,11 +1,5 @@
 # Probability as Area Under a Density Curve
 
-```{admonition} Learning Objectives
-:class: note
-
-- Explain how a density function is used to find probabilities involving continuous random variables.
-```
-
 Now consider another random variable X = foot length of adult males. Unlike shoe size, this variable is not limited to distinct, separate values, because foot lengths can take any value over a *continuous* range of possibilities, so we cannot present this variable with a probability histogram or a table. The probability distribution of foot length (or any other continuous random variable) can be represented by a smooth curve called a *probability density curve*:
 
 ```{figure} images/gen/m11-foot-density.svg
