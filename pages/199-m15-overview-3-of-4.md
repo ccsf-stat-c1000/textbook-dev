@@ -31,7 +31,7 @@ Let's go back to our three examples and apply the new notation:
 - $H_0$: Performance on the SAT is not related to gender (males and females score the same).
 - $H_a$: Performance on the SAT is related to gender—males score higher.
 
-## Learn By Doing
+## Check Your Understanding: Identifying Null and Alternative Hypotheses
 
 According to the Centers for Disease Control and Prevention, the proportion of U.S. adults age 25 or older who smoke is 0.22. A researcher suspects that the rate is lower among U.S. adults 25 or older who have a bachelor's degree or higher education level.
 
@@ -57,7 +57,7 @@ A study investigated whether there are differences between the mean IQ level of 
 * H₀: the two groups have different mean IQs; Hₐ: the two groups have the same mean IQ
 :::
 
-## Did I Get This?
+## Check Your Understanding: Hypotheses in Context
 
 Data were collected in order to determine whether there is a relationship between a person's level of education and whether or not the person is a smoker.
 

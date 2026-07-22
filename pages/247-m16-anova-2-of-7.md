@@ -37,7 +37,7 @@ $$H_a: \text{not all the } \mu\text{'s are equal}$$
 Note that there are many ways for $\mu_1, \mu_2, \mu_3, \mu_4$ not to be all equal, and $\mu_1 \neq \mu_2 \neq \mu_3 \neq \mu_4$ is just one of them. Another way could be $\mu_1 = \mu_2 = \mu_3 \neq \mu_4$, or $\mu_1 = \mu_2 \neq \mu_3 = \mu_4$. The alternative of the ANOVA F-test simply states that not all of the means are equal, and is not specific about the way in which they are different.
 :::
 
-## Learn By Doing
+## Check Your Understanding: The ANOVA Hypotheses
 
 :::{quiz} A study compares the mean recovery times of patients on four different physical-therapy programs. Suppose the truth is that programs 1, 2, and 3 have identical mean recovery times, but program 4's mean is shorter. Is the null hypothesis of the ANOVA F-test true or false in this situation?
 :hint: H₀ requires ALL the means to be equal.

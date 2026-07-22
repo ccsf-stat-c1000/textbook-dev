@@ -38,7 +38,7 @@ $$\text{Distance} = 576.7 - 3.007(60) \approx 396.3 \text{ feet}$$
 
 To summarize all that the researchers have done: they asked how legibility distance (Y) is related to age (X) in the population of all drivers; took a random sample of 30 drivers; observed a linear pattern in the scatterplot with r = −0.8; concluded via the t-test that the evidence of a linear relationship is strong enough to generalize to the population; and estimated the line that governs the relationship in the population to be Distance = 577 − 3 × Age.
 
-## Learn By Doing
+## Check Your Understanding: Using the Regression Line
 
 :::{quiz} Using the regression line Distance = 576.7 − 3.007 × Age, what is the predicted maximum legibility distance for a 40-year-old driver?
 :hint: Substitute Age = 40 into the equation.

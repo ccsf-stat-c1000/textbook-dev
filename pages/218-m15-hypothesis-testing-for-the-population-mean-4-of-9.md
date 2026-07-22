@@ -32,7 +32,7 @@ The data provide enough evidence for us to reject $H_0$ and conclude that the me
 The complete story of this example: $H_0: \mu = 250$ vs. $H_a: \mu \neq 250$; n = 100; $\bar{x} = 247$; z = −2.5; p-value = 0.012; since the p-value is small, we reject $H_0$.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Sample Size and Conclusions
 
 Let's revisit example 1 and see what a larger sample would have done. Suppose the dean had sampled 25 students (instead of 4) and again found a sample mean SAT-M of 550.
 

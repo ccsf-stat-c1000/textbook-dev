@@ -14,7 +14,7 @@ $$F=\frac{\text{variation among sample means}}{\text{variation within groups}}$$
 
 It has a different structure from all the test statistics we've looked at so far, but it is similar in that it is still a measure of the evidence against $H_0$. The larger F is (which happens when the denominator, the variation within groups, is small relative to the numerator, the variation among the sample means), the more evidence we have against $H_0$.
 
-## Did I Get This?
+## Check Your Understanding: Understanding the F-Statistic
 
 Consider a situation in which we compare k = 3 populations with independent samples of size 100 each, and the sample means are $\bar{y}_1=35$, $\bar{y}_2=30$, and $\bar{y}_3=25$. We are testing $H_0: \mu_1=\mu_2=\mu_3$ vs. $H_a$: not all the μ's are equal. Two possible scenarios of the data (both with these same sample means):
 
@@ -75,7 +75,7 @@ In our example all the conditions are satisfied:
 3. The four sample standard deviations are 2.088 (Business), 2.362 (English), 2.485 (Mathematics), and 3.082 (Psychology). The rule of thumb is satisfied, since 3.082/2.088 < 2.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Conditions for ANOVA
 
 In each of the following questions, you'll find two designs for comparing the number of credits taken by freshmen vs. sophomores vs. juniors vs. seniors. In each case, one of the designs should not be handled with ANOVA. Your task is to identify which one.
 

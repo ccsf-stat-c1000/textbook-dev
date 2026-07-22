@@ -60,7 +60,7 @@ For the 619 sampled drivers, a larger percentage of males were found to have bee
 
 Actually, these two opposing points of view constitute the null and alternative hypotheses of the chi-square test for independence. So now that we understand our example and what we still need to find out, let's introduce the four-step process of this test.
 
-## Learn By Doing
+## Check Your Understanding: Exploring a Relationship Between Categorical Variables
 
 The purpose of this activity is to introduce you to the example that you are going to work through in this section, and for you to get a feeling for the data by conducting exploratory analysis.
 

@@ -23,7 +23,7 @@ In our example 1, based on a sample of 4 students from Ross College, we were tes
 - $H_a: \mu > 500$
 :::
 
-## Learn By Doing
+## Check Your Understanding: Stating Hypotheses for a Mean
 
 :::{quiz} A tire manufacturer advertises that its tires last an average of 50,000 miles. A consumer group suspects the true average is lower. What are the appropriate hypotheses?
 :hint: The advertised value is the null value; the group suspects LOWER.
@@ -123,7 +123,7 @@ Our data (represented by the sample mean concentration level, 247) are 2.5 stand
 [Test for Mean](https://www.youtube.com/watch?v=9WT3tK3o3mY)
 ```
 
-## Learn By Doing
+## Check Your Understanding: Checking Conditions and the Test Statistic
 
 Normal body temperature for healthy, at-rest human beings has long been said to be 98.6°F. A doctor has seen many patients who had a lower or higher body temperature when they were not ill. He has read research that says it is actually lower. So he collected 50 randomly selected temperatures, which had a mean of 98.4°F. The standard deviation is known to be 0.35°F. He tests $H_0: \mu = 98.6$ vs. $H_a: \mu \neq 98.6$.
 
@@ -145,7 +145,7 @@ Normal body temperature for healthy, at-rest human beings has long been said to 
 * The p-value will be large, since the test statistic is negative
 :::
 
-## Did I Get This?
+## Check Your Understanding: Conditions for the z-Test for a Mean
 
 Each histogram below represents a random sample. We do not know if the variable is distributed normally in the population, but we want to be reasonably sure that the distribution of sample means will be normal so that we can use the z-test for testing claims about the population mean.
 

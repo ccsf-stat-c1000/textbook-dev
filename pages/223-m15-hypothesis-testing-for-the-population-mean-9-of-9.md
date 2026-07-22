@@ -76,7 +76,7 @@ Note that here the difference between the p-values is quite negligible (0.002). 
 2. While it is true that when σ is unknown and the sample size is large the z-test is a good approximation for the t-test, since we are using software to carry out the t-test anyway, there is not much gain in using the z-test as an approximation instead. We might as well use the more exact t-test regardless of the sample size. However, it is always worthwhile knowing what happens behind the scenes.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Reading t-Test Output
 
 A group of Internet users 50-65 years of age were randomly chosen and asked to report the weekly number of hours they spend online. The purpose of the study was to determine whether the mean weekly number of hours that Internet users in that age group spend online differs from the mean for Internet users in general, which is 12.5. Statistical software gives the following output:
 
@@ -133,7 +133,7 @@ A group of Internet users 50-65 years of age were randomly chosen and asked to r
 
    \*By "population normal" we mean that either the population is known to be normal, or the population can be reasonably assumed to be normal as judged by the shape of the data histogram.
 
-## Learn By Doing
+## Check Your Understanding: Carrying Out a t-Test
 
 *Scenario:* The Intel Corporation is conducting quality control on its circuit boards. Thickness of the manufactured circuit boards varies unavoidably from board to board. Suppose the thickness of the boards produced by a certain factory process varies normally. The distribution of thickness of the circuit boards is supposed to have the mean μ = 12 mm if the manufacturing process is working correctly. A random sample of five circuit boards is selected and measured, and the average thickness is found to be 9.13 mm, and the standard deviation for the sample is computed to be 1.11 mm.
 

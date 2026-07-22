@@ -68,7 +68,7 @@ Hopefully by now, you understand the logic behind the statistical hypothesis tes
 ```
 ::::
 
-## Learn By Doing
+## Check Your Understanding: Assessing the Evidence
 
 For many years "working full-time" has meant 40 hours per week. Nowadays it seems that corporate employers expect their employees to work more than this amount. A researcher decides to investigate this hypothesis.
 
@@ -104,7 +104,7 @@ To check his claim, the sociologist chooses a random sample of 375 African-Ameri
 * The probability of getting a sample proportion of exactly 16.5%
 :::
 
-## Did I Get This?
+## Check Your Understanding: Evidence and the Alternative
 
 The most commonly accepted tradition is that college students will study 2 hours outside of class for every hour in class. This means 30 hours/week for a full-time student taking 15 units (hours of class). An educator suspects that this figure is different now than in the past.
 

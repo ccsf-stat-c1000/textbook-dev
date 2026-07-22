@@ -66,7 +66,7 @@ $$t=\frac{(\bar{y}_{1}-\bar{y}_{2})-0}{\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}
 The test statistic tells us what the data say about $\mu_1-\mu_2$. In this case, the observed difference (10.73 − 13.33) is 4.66 standard errors below what the null hypothesis claims this difference to be (0). 4.66 standard errors is quite a lot, and probably indicates that the data provide evidence against $H_0$.
 :::
 
-## Learn By Doing
+## Check Your Understanding: The Two-Sample t-Test Statistic
 
 :::{quiz} In the looks vs. personality example, which quantity does y-bar₁ − y-bar₂ = −2.6 estimate?
 :hint: The sample difference estimates the corresponding population quantity.

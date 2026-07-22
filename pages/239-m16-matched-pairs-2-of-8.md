@@ -30,7 +30,7 @@ The paired t-test is based on this one sample of n differences, and it uses thos
 
 This is the general idea behind the paired t-test: it is nothing more than a regular one-sample t-test for the mean of the differences. We will now go through the 4-step process of the paired t-test.
 
-## Concept Check
+## Check Your Understanding: The Idea Behind the Paired t-Test
 
 :::{quiz} Why does the paired t-test work with the differences rather than the two samples separately?
 :hint: What does pairing let us cancel out?

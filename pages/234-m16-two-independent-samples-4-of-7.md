@@ -39,7 +39,7 @@ However, we feel that it is important to mention the test statistic for two reas
 2. Apart from being the key for calculating the p-value, the test statistic is also itself a measure of the evidence stored in the data against $H_0$. As we mentioned, it measures (in standard errors) how different our data are from what is claimed in the null hypothesis.
 ```
 
-## Concept Check
+## Check Your Understanding: Conclusions from a Two-Sample t-Test
 
 :::{quiz} A two-sample t-test comparing mean test scores of two teaching methods yields t = −0.85 and a p-value of 0.40. Using α = 0.05, what is the correct conclusion?
 :hint: Is 0.40 small?

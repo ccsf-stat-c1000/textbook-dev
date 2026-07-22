@@ -24,7 +24,7 @@ For illustration purposes, we are actually going to use example 2* (where out of
 *The dean of students in a certain liberal arts college was interested in whether the proportion of students who use drugs in her college is different from the proportion among U.S. college students in general.* Suppose that in a simple random sample of 400 students from the college, 76 admitted to marijuana use. Do the data provide enough evidence to conclude that the proportion of marijuana users among the students in the college (p) *differs* from the national proportion, which is 0.157?
 :::
 
-## Learn By Doing
+## Check Your Understanding: One-Sided and Two-Sided Alternatives
 
 :::{quiz} What is the appropriate alternative hypothesis in each of the two versions?
 :hint: Example 2* starts from rumors of a HIGHER rate; example 2** simply asks whether the rate is DIFFERENT.
@@ -66,7 +66,7 @@ The idea is that in example 2*, we began our hypothesis test with a piece of inf
 
 We can summarize and say that in general it is harder to reject $H_0$ against a two-sided $H_a$ because the p-value is twice as large. Intuitively, a one-sided alternative gives us a head start, and on top of that we have the evidence provided by the data. When our alternative is two-sided, we get no head start and all we have are the data, and therefore it is harder to cross the finish line and reject $H_0$.
 
-## Did I Get This?
+## Check Your Understanding: How the Alternative Affects the P-value
 
 Consider the following two hypothesis testing scenarios for the population proportion (p) and corresponding studies:
 

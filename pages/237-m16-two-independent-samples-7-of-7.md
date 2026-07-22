@@ -19,7 +19,7 @@ Let's go back to our leading example of the looks vs. personality score, where w
 We used the fact that the p-value is so small to conclude that $H_0$ can be rejected. We can also use the confidence interval to reach the same conclusion, since 0 falls outside the confidence interval. In other words, since 0 is not a plausible value for $\mu_1-\mu_2$, we can reject $H_0$, which claims that $\mu_1-\mu_2=0$.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Connecting Tests and Intervals
 
 Below you'll find three sample outputs of the two-sided two-sample t-test ($H_0: \mu_1-\mu_2=0$ vs. $H_a: \mu_1-\mu_2\neq0$). Only one of the outputs could be correct—the other two contain an inconsistency. Your task is to decide which output is the correct one. (*Hint:* no calculations are necessary; pay attention to the p-value and confidence interval.)
 

@@ -44,7 +44,7 @@ To summarize:
 [Inference Case C-Q](https://www.youtube.com/watch?v=kvcUeWwD4Xg)
 ```
 
-## Did I Get This?
+## Check Your Understanding: Independent, Paired, or More Than Two Groups?
 
 Each of the following three questions is an example of a situation in case C→Q (categorical explanatory and quantitative response), and therefore calls for comparing means of several (sub-)populations. Your task is to decide which of the sub-cases of case C→Q each of the examples represents.
 

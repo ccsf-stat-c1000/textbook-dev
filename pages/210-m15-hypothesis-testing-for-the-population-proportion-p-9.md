@@ -49,7 +49,7 @@ Reach a conclusion first regarding the significance of the results, and then det
 
 If the p-value is small (in particular, smaller than the significance level, which is usually 0.05), the results are significant (in the sense that there is a significant difference between what was observed in the sample and what was claimed in $H_0$), and so we reject $H_0$. If the p-value is not small, we do not have enough statistical evidence to reject $H_0$, and so we continue to believe that $H_0$ *may* be true. (Remember: in hypothesis testing we never "accept" $H_0$.)
 
-## Learn By Doing
+## Check Your Understanding: Carrying Out a Complete Test
 
 A city claims that 30% of its residents bike to work at least once a week. A local advocacy group suspects the true proportion is lower. In a random sample of 500 residents, 130 bike to work at least once a week.
 

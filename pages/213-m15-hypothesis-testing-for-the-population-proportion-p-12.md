@@ -65,7 +65,7 @@ Since in this case 0.5 is one of the plausible values for p, we cannot reject $H
 ```
 ::::
 
-## Did I Get This?
+## Check Your Understanding: Confidence Intervals and Test Conclusions
 
 The UCLA Internet Report (February 2003) estimated that roughly 8.7% of Internet users are extremely concerned about credit card fraud when buying online. A study was designed in order to examine whether that proportion has changed since. Let p be the proportion of all Internet users who are concerned about credit card fraud. In this study we are therefore testing $H_0: p = 0.087$ vs. $H_a: p \neq 0.087$. Based on the collected data, a 95% confidence interval for p was found to be (0.08, 0.14).
 

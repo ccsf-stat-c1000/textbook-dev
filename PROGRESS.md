@@ -103,9 +103,10 @@ or after), so they need no changes if the order is swapped again.
 - "Comment" sections standardized: short caveats are now `:class: important`
   admonitions and subtopic "Comment" headings were renamed to descriptive
   section titles (rule recorded in `STYLE_GUIDE.md`).
-- Still open from the review: quiz-section headings are inconsistent
-  ("Concept Check" vs retained "Did I Get This?"/"Learn By Doing"), deferred
-  by the instructor.
+- Quiz-section headings standardized: every quiz section now uses
+  `## Check Your Understanding: <topic>` (replacing the generic "Concept
+  Check" / "Did I Get This?" / "Learn By Doing" labels). Rule recorded in
+  `STYLE_GUIDE.md`. All seven review findings are now complete.
 
 ## Notes / open questions
 

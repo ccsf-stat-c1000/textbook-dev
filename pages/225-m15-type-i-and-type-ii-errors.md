@@ -48,7 +48,7 @@ The two possible verdicts are similar to the two conclusions that are possible i
 It would be nice to know when each of these errors is happening, but statistical decisions are based on evidence gathered through sampling, and our sampling evidence will sometimes fool us. As long as we are making decisions, we will never be able to eliminate the potential for these two types of errors. Thus, we need to learn how to adjust to the consequences of making them.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Identifying Type I and Type II Errors
 
 A double-blind experiment is conducted to investigate the side effects of hormone replacement therapy (HRT) for women with menopausal symptoms. The experiment randomly assigns more than 16,000 American women to either a hormone treatment or a placebo. After five years, the HRT study finds no significant difference in the proportion of women developing breast cancer and heart disease. Researchers decide, based on this finding, to allow the study to continue.
 
@@ -111,7 +111,7 @@ Recall that the probability of committing a type I error is α. When we choose a
 
 It is more complicated to calculate the probability of a type II error. The best way to reduce the probability of a type II error is to *increase the sample size*. But once the sample size is set, larger values of α will decrease the probability of a type II error while increasing the probability of a type I error.
 
-## Did I Get This?
+## Check Your Understanding: Controlling Error Probabilities
 
 :::{quiz} A test is conducted at the α = 0.01 significance level. If the null hypothesis is actually true, what is the probability of a type I error?
 :hint: The probability of a type I error equals the significance level.

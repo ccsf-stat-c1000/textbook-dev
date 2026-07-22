@@ -32,7 +32,7 @@ To summarize:
 
 The main difference between the z-test and the t-test for the population mean is that we use the sample standard deviation s instead of the unknown population standard deviation σ. As a result, the p-values are calculated under the t distribution instead of under the Z distribution. Since we are using software, this doesn't really impact us practically. However, it is important to understand what is going on behind the scenes, and not just use the software mechanically. This is why we went through the trouble of explaining the t distribution.
 
-## Concept Check
+## Check Your Understanding: The P-value Under the t Distribution
 
 :::{quiz} A t-test of H₀: μ = 20 vs. Hₐ: μ > 20 based on n = 12 observations yields t = 2.1. Under which distribution is the p-value calculated?
 :hint: Degrees of freedom = n − 1, and the alternative is "greater than."

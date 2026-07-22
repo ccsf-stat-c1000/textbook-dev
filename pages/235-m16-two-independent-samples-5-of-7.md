@@ -47,7 +47,7 @@ The t-value is quite large, indicating that our data are very different from wha
 
 Now you try one!
 
-## Learn By Doing
+## Check Your Understanding: Carrying Out a Two-Sample t-Test
 
 Recall the pregnancy length study: to check the claim that the pregnancy length of women who smoke during pregnancy is shorter, on average, than that of women who do not smoke, a random sample of 35 pregnant smokers (population 1) and a random sample of 35 pregnant non-smokers (population 2) were followed. The results: smokers had a mean pregnancy length of 260 days with standard deviation 15 days; non-smokers had a mean of 267 days with standard deviation 14 days.
 

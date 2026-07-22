@@ -71,7 +71,7 @@ However, in example 2*, we saw that when the sample proportion of 0.19 is obtain
 
 The following activity will allow you to practice the ideas and terminology used in hypothesis testing when a result is not statistically significant.
 
-## Learn By Doing
+## Check Your Understanding: Non-Significant Results
 
 Suppose that only 40% of the U.S. public supported the general direction of the previous U.S. administration's policies. To gauge whether the nationwide proportion, p, of support for the *current* administration is higher than 40%, a major polling organization conducts a random poll to test the hypotheses $H_0: p = 0.40$ vs. $H_a: p > 0.40$. The results are reported to be *not statistically significant*, with a *p-value of 0.214*.
 
@@ -97,7 +97,7 @@ Suppose that only 40% of the U.S. public supported the general direction of the 
 
 Now, we will address the issue of statistical significance versus practical importance (which also involves issues of sample size).
 
-## Learn By Doing
+## Check Your Understanding: Statistical vs. Practical Significance
 
 Suppose a national retailer tests whether a website redesign has changed the proportion of visitors who make a purchase, historically p = 0.100. In a random sample of 4,000,000 visits after the redesign, the purchase proportion is 0.1005, and the p-value of the test of $H_0: p = 0.100$ vs. $H_a: p \neq 0.100$ turns out to be about 0.001.
 

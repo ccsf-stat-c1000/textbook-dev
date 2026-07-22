@@ -75,7 +75,7 @@ The following picture illustrates this idea with a couple of t distributions (no
 :alt: The standard normal curve overlaid with a t distribution with 5 degrees of freedom and a t distribution with 2 degrees of freedom. The t distribution with 2 degrees of freedom is shorter and has more spread than the one with 5 degrees of freedom, which in turn is shorter and wider than the standard normal distribution.
 ```
 
-## Learn By Doing
+## Check Your Understanding: The t Distribution vs. the Normal
 
 Consider a standard normal (Z) distribution and a t distribution drawn together, and focus on the region to the right of the value 3.
 
@@ -89,7 +89,7 @@ Consider a standard normal (Z) distribution and a t distribution drawn together,
 * They are equal
 :::
 
-## Did I Get This?
+## Check Your Understanding: Comparing z and t P-values
 
 :::{quiz} A test statistic of −2 is observed. If the p-value is computed once using the standard normal distribution and once using a t distribution, how do the two p-values compare?
 :hint: The p-value is a tail area, and the t distribution has fatter tails.

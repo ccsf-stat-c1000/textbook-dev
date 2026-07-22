@@ -55,7 +55,7 @@ Each time we take a sample we'll get a different $\bar{x}$. We will take lots of
 The value of $\bar{x}$ from these repeated samples is a random variable. Since it can take on any value within an interval of possible male weights, it is a continuous random variable.
 :::
 
-## Concept Check
+## Check Your Understanding: Discrete and Continuous Random Variables
 
 :::{quiz} Classify each random variable: X = the number of text messages a student sends in a day, and Y = the length of time (in minutes) a student spends on the phone in a day.
 :hint: Count vs. measure.

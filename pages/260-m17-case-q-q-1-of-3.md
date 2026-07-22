@@ -40,7 +40,7 @@ Let's review the whole process:
 3. This section will be organized around a leading example, with practice along the way.
 ```
 
-## Concept Check
+## Check Your Understanding: Regression and Inference
 
 :::{quiz} A researcher computes a least squares regression line from a random sample. In the framework of inference, what does this line represent?
 :hint: Sample statistics estimate population parameters.

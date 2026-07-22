@@ -46,7 +46,7 @@ Let's go back to our twin study example, where we found a 95% confidence interva
 We used the fact that the p-value is 0.074 to conclude that $H_0$ cannot be rejected (at the 0.05 significance level), and that whether or not a person was raised by his or her birth parents doesn't necessarily have an effect on intelligence (as measured by IQ scores). The comment above tells us that we can also use the confidence interval to reach the same conclusion, since 0 falls inside the confidence interval for $\mu_d$. In other words, since 0 is a plausible value for $\mu_d$, we cannot reject $H_0$, which claims that $\mu_d=0$.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Confidence Interval for the Mean Difference
 
 A publishing company wanted to test whether typing speed differs when using word processor A or word processor B. A random sample of 25 typists was selected, and the typing speeds (in words per minute) were recorded for each typist when using word processor A and then when using word processor B. (Which word processor was used first was determined for each typist by a coin flip.)
 

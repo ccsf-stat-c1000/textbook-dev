@@ -26,7 +26,7 @@ It is very important to pay attention to whether the two-sample t-test or the pa
 Note that using this (wrong) method to analyze the data, and a significance level of 0.05, we would conclude that the data do not provide enough evidence for us to conclude that drivers are impaired after drinking two beers. This is an example of how using the wrong statistical method can lead you to wrong conclusions, which in this context could have very serious implications.
 ```
 
-## Concept Check
+## Check Your Understanding: Why Pairing Matters
 
 :::{quiz} Why did the paired analysis (p = 0.009) find a significant effect while the (incorrect) two-sample analysis of the same data (p = 0.057) did not?
 :hint: What source of variability does pairing remove?

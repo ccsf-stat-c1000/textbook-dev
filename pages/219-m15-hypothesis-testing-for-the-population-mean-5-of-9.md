@@ -29,7 +29,7 @@ $$\bar{x}\pm2\frac{\sigma}{\sqrt{n}}=247\pm2\frac{12}{\sqrt{100}}=247\pm2.4=(244
 Since the interval does not contain 250, we reject $H_0$ and conclude that the alternative is true: the population mean concentration differs from 250.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Reading Software Output
 
 One of the following software outputs is internally consistent; the others were edited to be incorrect. All three report the same data summary: N = 35, Mean = 260.000, assumed σ = 16, SE Mean = 2.704, 95% CI (254.699, 265.301).
 
@@ -55,7 +55,7 @@ One of the following software outputs is internally consistent; the others were 
 Beyond using the confidence interval as a quick way to carry out the two-sided test, the confidence interval can provide insight into the actual value of the population mean if $H_0$ is rejected. In the concentration level example, $H_0$ was rejected, and all we could conclude about the mean concentration level of the entire shipment, μ, was that it was not 250. The 95% confidence interval for μ, (244.6, 249.4), gives us an idea of what plausible values for μ would be. In particular, we can conclude that since the confidence interval lies below 250, at least a large portion of the shipment contains medication that is ineffective.
 ```
 
-## Learn By Doing
+## Check Your Understanding: Tests and Intervals for a Mean
 
 A machine fills bottles with a target of 500 ml. A quality check tests $H_0: \mu = 500$ vs. $H_a: \mu \neq 500$ at the 0.05 level, and a 95% confidence interval for μ from the sample is (500.8, 503.2).
 

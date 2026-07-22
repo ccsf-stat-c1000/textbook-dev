@@ -46,8 +46,11 @@ consistent as it is edited. Follow it for every page in `pages/`.
   - Always provide `:hint:` and either `:explanation:` or per-choice
     `:feedback-N:` (feedback for wrong answers should teach, not just say "no").
   - Question text supports inline math `$...$`.
-  - Precede a run of quizzes with a short lead-in or `## Concept Check` H2
-    when it isn't already flowing from the prose.
+  - Precede a run of quizzes with a `## Check Your Understanding: <topic>` H2,
+    where `<topic>` names what the quizzes test (derived from the questions).
+    If a page has several quiz sections, give each a distinct topic. (This
+    replaces the older generic labels "Concept Check", "Did I Get This?", and
+    "Learn By Doing".)
 
 ## Graphics
 

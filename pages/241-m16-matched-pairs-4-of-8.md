@@ -53,7 +53,7 @@ According to the output, the test statistic is −2.58, indicating that the data
 $$\frac{-0.5015}{\frac{0.8686}{\sqrt{20}}}=-2.58$$
 :::
 
-## Concept Check
+## Check Your Understanding: Conditions for the Paired t-Test
 
 :::{quiz} In a paired study with n = 25, the histogram of the 25 differences shows one extreme outlier and strong skewness. Can the paired t-test be safely used?
 :hint: n = 25 is below the "large sample" guideline.

@@ -45,7 +45,7 @@ Looking at the histogram, we note that most of the differences are negative, ind
 *Step 4: Making conclusions.* Using the conventional significance level of 0.05, our p-value is not small enough, and we therefore cannot reject $H_0$. In other words, our data do not provide enough evidence to conclude that whether a person was raised by his/her birth parents has an impact on the person's intelligence (as measured by IQ scores).
 :::
 
-## Learn By Doing
+## Check Your Understanding: One-Sided Tests for Paired Data
 
 :::{quiz} In the twins study, what would the one-sided p-value have been for the alternative Hₐ: μ_d < 0 (birth-parent twins have lower IQs)?
 :hint: The two-sided p-value was 0.074, and the test statistic was negative (in the direction of this alternative).
@@ -65,7 +65,7 @@ This means that if, based on prior knowledge, prior research, or just a hunch, w
 It should be stressed, though, that one should set the hypotheses *before* looking at the data. It would be ethically wrong to look at the histogram of differences, note that most of the differences are negative, and then decide to carry out the one-sided test that the data seem to support. This is known as "data snooping," and is considered to be a very bad statistical practice.
 ```
 
-## Learn By Doing
+## Check Your Understanding: The Danger of Data Snooping
 
 :::{quiz} A researcher collects paired data, looks at the results, notices the sample mean difference is positive, and only then chooses the alternative Hₐ: μ_d > 0 to get a smaller p-value. What is wrong with this?
 :hint: When must hypotheses be set?

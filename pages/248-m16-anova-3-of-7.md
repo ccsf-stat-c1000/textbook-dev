@@ -35,7 +35,7 @@ Scenario 2, because of the small amount of spread within the groups, shows boxpl
 
 Thus, in the language of hypothesis tests, we would say that if the data were configured as they are in scenario 1, we would not reject the null hypothesis that population mean frustration levels are equal for the four majors. If the data were configured as they are in scenario 2, we would reject the null hypothesis, and we would conclude that mean frustration levels differ depending on major.
 
-## Learn By Doing
+## Check Your Understanding: The Idea Behind the F-Test
 
 :::{quiz} The sample means are identical in both scenarios, yet they lead to opposite conclusions. What explains this?
 :hint: What differs between the two scenarios?

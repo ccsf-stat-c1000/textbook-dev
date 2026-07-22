@@ -30,7 +30,7 @@ Recall that we rejected the null hypothesis in favor of the two-sided alternativ
 First, note that the confidence interval is strictly negative, suggesting that $\mu_1$ is lower than $\mu_2$. Furthermore, the confidence interval tells us that we are 95% confident that the mean "looks vs. personality score" of females ($\mu_1$) is between 1.5 and 3.7 points *lower* than the mean score of males ($\mu_2$). The confidence interval therefore quantifies the effect that the explanatory variable (gender) has on the response (looks vs. personality score).
 :::
 
-## Learn By Doing
+## Check Your Understanding: Confidence Interval for a Difference of Means
 
 In the NHANES weight example, software reports that a 95% confidence interval for μ₁ − μ₂ (younger minus older males) is (3.1, 6.7) kg.
 

@@ -24,7 +24,7 @@ A p-value of 0.201 is not small at all. There is no compelling statistical evide
 "Clearly, the protection of public health and safety represents an important function of state and local governments. However, appellees' statistics in our view cannot support the conclusion that the gender-based distinction closely serves to achieve that objective and therefore the distinction cannot under [prior case law] withstand equal protection challenge."
 :::
 
-## Learn By Doing
+## Check Your Understanding: Drawing a Conclusion from the Chi-Square Test
 
 Let's draw our conclusion regarding the relationship between participation in the 9/11 rescue and risk of alcohol problems among New York firefighters. For those data, software gives a chi-square statistic of about 12.7 and a p-value of about 0.0004.
 
@@ -56,7 +56,7 @@ When done with software, the original chi-square statistic was 1.637 (software d
 Now we *do* reject $H_0$, and we conclude that gender and drunk driving are related. In this case, the largest contribution to the chi-square statistic comes from the fact that so few females drove drunk (48) compared to the number that would be expected (62.2 = 414 × 279/1857) if gender and drunk driving were not related. This contribution is $\frac{(48-62.2)^{2}}{62.2}=3.242$.
 ```
 
-## Concept Check
+## Check Your Understanding: Sample Size and the Chi-Square Test
 
 :::{quiz} The same conditional percentages (16.0% vs. 11.6%) led to "do not reject" with n = 619 but "reject" with n = 1,857. What is the lesson?
 :hint: This mirrors what we saw for tests about means and proportions.

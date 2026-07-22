@@ -47,7 +47,7 @@ Using statistical software to conduct the ANOVA F-test, we find that the F-stati
 *Step 4: Making conclusions in context.* The large p-value indicates that the results are not significant, and that we cannot reject $H_0$. We therefore conclude that the study does not provide evidence that the mean number of words in ads is related to the educational level of the magazine. In other words, the study does not provide evidence that advertisers alter the reading level of their ads (as measured by the number of words) based on the educational level of the target audience of the magazine.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Within-Group Variation and Significance
 
 :::{quiz} In the magazine ads example, the three sample means (140.0, 121.4, 106.5) look quite different, yet the test was not significant. Which feature of the data explains this?
 :hint: Look at the standard deviations (74.0, 64.3, 57.6) relative to the differences among the means.

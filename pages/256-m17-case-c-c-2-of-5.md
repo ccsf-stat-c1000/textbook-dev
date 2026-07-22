@@ -104,7 +104,7 @@ Here is the complete table of expected counts (compare it with the table of obse
 | **Female** | (93 × 138)/619 = 20.7 | (526 × 138)/619 = 117.3 | 138 |
 | **Total** | 93 | 526 | 619 |
 
-## Did I Get This?
+## Check Your Understanding: Expected Counts
 
 A study was done on the relationship between gender and piercing among high-school students. A sample of 1,000 students was chosen, then classified according to gender and according to whether or not they had any of their ears pierced. The results of the study are summarized in the following 2-by-2 table:
 

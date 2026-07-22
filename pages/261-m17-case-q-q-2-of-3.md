@@ -61,7 +61,7 @@ It is important to distinguish between the information provided by r and by the 
 In our example, since the p-value is essentially 0 and r = −0.8, we would say that we have extremely strong evidence of a fairly strong (negative) relationship between age and distance in the population of drivers.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Interpreting a Test for Correlation
 
 In a study of the relationship between the cry count of newborns and their IQ at age three, we have found the following: the correlation coefficient of the observed data is r = 0.4, and the p-value of the test ($H_0$: there is no linear relationship between cry count and IQ vs. $H_a$: there is a linear relationship) is p = 0.012.
 

@@ -1,17 +1,17 @@
 # STAT C1000 Textbook — Editorial Review
 
-Review date: 2026-07-16 (updated after applying findings 1 and 4–7 and starting finding 3)
+Review date: 2026-07-16 (updated after applying all seven findings)
 Scope: all built content in `pages/` (m03 through m17, plus `intro.md`). Excluded from the build, and therefore from this review's priorities: `pages/*m01*`, `pages/*m02*`, and `pages/unused/*`.
 Basis: checked against `STYLE_GUIDE.md` and `PROGRESS.md`.
 
-This document tracks the review findings and their status. Findings 1 and 4–7 have been applied, finding 3 is in progress, and finding 2 is deferred at your request. Each item lists what was found, the evidence, and the change made or proposed.
+This document tracks the review findings and their status. All seven findings have now been applied. Each item lists what was found, the evidence, and the change made.
 
 ## Summary
 
 | # | Finding | Priority | Scope |
 | --- | --- | --- | --- |
 | 1 | Descriptive-title conversion | Resolved | m12–m17 converted (80 pages) |
-| 2 | Quiz-section headings inconsistent ("Concept Check" vs "Did I Get This?"/"Learn By Doing") | Deferred (by request) | ~83 pages |
+| 2 | Quiz-section headings inconsistent (three generic labels) | Resolved | 205 sections / 168 pages |
 | 3 | "Comment" appears both as an H2 and as an admonition | Resolved | ~60 pages |
 | 4 | "Example" H2 vs admonition; "#" numbering | Resolved | pages 011, 165 |
 | 5 | `intro.md`: British "Licence", hard-wrapping, trailing spaces | Resolved | 1 page |
@@ -132,17 +132,13 @@ m17 Inference for Relationships (continued)
 
 A note on the repeated "Step 3 / Step 4" phrasing: the proportion and mean test sequences both walk the same four steps, so a few titles share wording (disambiguated by "for a Proportion" / "for a Mean"). This mirrors the parallel structure of the underlying content and reads clearly in the sidebar under each section heading.
 
-### 2. Quiz sections are labeled three different ways — DEFERRED (by request)
+### 2. Quiz-section headings — RESOLVED
 
-You asked to skip this one for now. Summary retained for reference: `STYLE_GUIDE.md` specifies "## Concept Check" as the heading that precedes a run of quizzes. In practice the book uses three labels:
+The book previously used three interchangeable labels for quiz sections: "## Concept Check" (89 pages, the style-guide default), plus the retained OLI labels "## Did I Get This?" and "## Learn By Doing" (116 occurrences). Per your decision, every quiz section was renamed to a content-relevant heading of the form `## Check Your Understanding: <topic>`, where the topic is drawn from the questions in that section.
 
-- "## Concept Check" — used on 89 pages (the intended convention)
-- "## Did I Get This?" — retained OLI label
-- "## Learn By Doing" — retained OLI label
+What was done: all 205 quiz-section headings across 168 built pages were renamed. Each was read against its quizzes so the topic fits (for example, "Check Your Understanding: The Central Limit Theorem", "…: The Monty Hall Problem", "…: Conditions for the Chi-Square Test"). Pages with several quiz sections got a distinct topic per section, including the pages that previously stacked the same label two or three times (for example, `208`, `216`, `243`). The convention is now recorded in `STYLE_GUIDE.md`.
 
-The two OLI labels remain on 83 pages (116 occurrences total). The quizzes underneath them are authored correctly; only the heading was left as OLI named it. A related wrinkle: some pages stack the same OLI heading two or three times (for example, `208-m15-...-p-7.md` has three consecutive "## Learn By Doing" sections, each with its own quiz).
-
-Proposed change: rename every "## Did I Get This?" and "## Learn By Doing" to "## Concept Check" for consistency with the style guide. Where a single page then has multiple identical "## Concept Check" headings in a row, either merge the quizzes under one heading or leave the first heading and drop the repeats, so a page does not repeat the same H2. This is a low-risk find-and-replace plus a light manual pass for the stacked cases.
+Verification: grep confirms no "Concept Check", "Did I Get This?", or "Learn By Doing" headings remain in any built page (the only two left are on the excluded m02 pages). Since only heading lines changed, the quizzes themselves are untouched.
 
 ---
 
@@ -206,10 +202,10 @@ The sandbox cannot run `myst build`, and a few things can only be verified by bu
 ## Status of work
 
 1. Title conversion (finding 1): done (m12–m17).
-2. Quiz headings (finding 2): deferred at your request.
+2. Quiz headings (finding 2): done — all 205 sections renamed to "Check Your Understanding: <topic>".
 3. Comment presentation (finding 3): done — short caveats boxed, subtopics renamed.
 4. Examples + page-165 numbering (finding 4): done.
 5. `intro.md` polish (finding 5) and `PROGRESS.md` refresh (finding 7): done.
 6. z-table exception (finding 6): documented in the style guide.
 
-Remaining: only finding 2 (quiz headings), deferred at your request. Then run `myst build` to confirm the new comment boxes, all figures, and the quiz plugin render cleanly.
+All seven findings are complete. The one remaining step is yours: run `myst build` to confirm the new comment boxes, all figures, and the quiz plugin render cleanly (the sandbox here cannot build).

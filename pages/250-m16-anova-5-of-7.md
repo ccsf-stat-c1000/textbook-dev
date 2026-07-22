@@ -26,7 +26,7 @@ As usual, we base our conclusion on the p-value. A small p-value tells us that o
 In our example, the p-value is extremely small—close to 0—indicating that our data provide extremely strong evidence to reject $H_0$. We conclude that the frustration level means of the four majors are not all the same, or in other words, that major does have an effect on students' academic frustration levels at the school where the test was conducted.
 :::
 
-## Concept Check
+## Check Your Understanding: Conclusions from an ANOVA F-Test
 
 :::{quiz} An ANOVA F-test comparing five treatments yields F = 46.6 and a p-value near 0. What exactly can we conclude?
 :hint: The alternative says only "not all the means are equal."

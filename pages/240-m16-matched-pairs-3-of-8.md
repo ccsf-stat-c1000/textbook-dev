@@ -49,7 +49,7 @@ Suppose the effectiveness of a low-carb diet is studied with a matched pairs des
 As before, $\mu_d$ is the mean of the differences (weight before diet) − (weight after diet). In this case, if the diet is effective and participants' weight after the diet was indeed lower, we would expect the differences to be *positive*, and therefore the appropriate hypotheses are $H_0: \mu_d=0$ vs. $H_a: \mu_d>0$.
 :::
 
-## Did I Get This?
+## Check Your Understanding: Hypotheses for Paired Data
 
 In each of the following cases, decide based on the context what the appropriate set of hypotheses is. In every case, the differences are computed as (first measurement) − (second measurement).
 

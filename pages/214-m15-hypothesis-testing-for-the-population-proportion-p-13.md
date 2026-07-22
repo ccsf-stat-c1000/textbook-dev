@@ -34,7 +34,7 @@ $$0.16\pm2\cdot\sqrt{\frac{0.16(1-0.16)}{400}}\approx0.16\pm0.037=(0.123,\ 0.197
 We can therefore say that the data provide evidence that the proportion of defective products has been reduced, and we are 95% sure that it has been reduced to somewhere between 12.3% and 19.7%. This is very useful information, since it tells us that even though the results were significant (i.e., the repair reduced the number of defective products), the repair might not have been effective enough, if it managed to reduce the number of defective products only to the range provided by the confidence interval. This, of course, ties back in to the idea of statistical significance vs. practical importance that we discussed earlier. Even though the results are significant ($H_0$ was rejected), practically speaking, the repair might be considered ineffective.
 :::
 
-## Learn By Doing
+## Check Your Understanding: Following Up a Test with an Interval
 
 :::{quiz} A test rejects H₀: p = 0.35 in favor of Hₐ: p > 0.35 with a p-value of 0.008. What is the added value of following up with a 95% confidence interval for p?
 :hint: What does the test conclusion tell you about p, and what does it leave out?

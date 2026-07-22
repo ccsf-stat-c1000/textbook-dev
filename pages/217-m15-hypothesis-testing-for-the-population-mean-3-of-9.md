@@ -54,7 +54,7 @@ In the concentration level example, the test statistic was found to be z = −2.
 The p-value is therefore 2 × P(Z > 2.5). We can either use a table or carry out the test using statistical software. In this case, we get a p-value of 0.012.
 :::
 
-## Concept Check
+## Check Your Understanding: Finding the P-value for a Mean
 
 :::{quiz} A z-test for μ with alternative Hₐ: μ < μ₀ produces z = −1.5. Which expression gives the p-value?
 :hint: A "less than" alternative is left-tailed.

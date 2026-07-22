@@ -29,7 +29,7 @@ We are now done introducing the t distribution. What are the implications of all
 
 2. For a large sample size (n), the null distribution of the test statistic is approximately Z, so whether we use t(n − 1) or Z to calculate the p-values should not make a big difference. Here is another practical way to look at this point: if we have a large n, our sample has more information about the population. Therefore, we can expect the sample standard deviation s to be close enough to the population standard deviation σ that for practical purposes we can use s as the known σ, and we're back to the z-test.
 
-## Concept Check
+## Check Your Understanding: The t Statistic and Degrees of Freedom
 
 :::{quiz} A t-test for a mean is based on a sample of n = 15. How many degrees of freedom does the null distribution of the test statistic have?
 :hint: Degrees of freedom = n − 1.

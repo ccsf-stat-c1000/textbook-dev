@@ -50,7 +50,7 @@ We can therefore safely proceed with the chi-square test, and the chi-square tes
 $$\chi^{2}=\frac{(77-72.3)^{2}}{72.3}+\frac{(404-408.7)^{2}}{408.7}+\frac{(16-20.7)^{2}}{20.7}+\frac{(122-117.3)^{2}}{117.3}=0.306+0.054+1.067+0.188=1.62$$
 :::
 
-## Did I Get This?
+## Check Your Understanding: The Chi-Square Statistic
 
 Recall the study on the relationship between gender and ear piercing among high-school students (observed counts: pierced females 576, non-pierced females 64, pierced males 72, non-pierced males 288; expected counts under independence: 414.7, 225.3, 233.3, 126.7).
 
@@ -78,7 +78,7 @@ Recall the study on the relationship between gender and ear piercing among high-
 Once the chi-square statistic has been calculated, we can get a feel for its size: is there a relatively large difference between what we observed and what the null hypothesis claims, or a relatively small one? It turns out that for a 2-by-2 case like ours, we are inclined to call the chi-square statistic "large" if it is larger than 3.84. Therefore, our drunk driving test statistic (1.62) is not large, indicating that the data are not different enough from the null hypothesis for us to reject it (we will also see this in the p-value not being small). For other cases (other than 2-by-2) there are different cutoffs for what is considered large, which are determined by the null distribution in that case. We are therefore going to rely only on the p-value to draw our conclusions. Even though we cannot always assess the chi-square statistic directly, it was important to learn about it, since it encompasses the idea behind the test.
 ```
 
-## Did I Get This?
+## Check Your Understanding: Conditions for the Chi-Square Test
 
 The purpose of this activity is to continue exploring whether the risk of alcohol problems among New York firefighters and first responders is related to participation in the 9/11 rescue. Here again are the observed counts:
 
