@@ -25,11 +25,11 @@ Probability trees are a useful visual tool for displaying and manipulating proba
 
 A random variable is a variable whose values are numerical results of a random experiment.
 
-- A *discrete random variable* is summarized by its probability distribution—a list of its possible values and their corresponding probabilities.
+- A {term}`discrete random variable` is summarized by its probability distribution—a list of its possible values and their corresponding probabilities.
   - The sum of the probabilities of all possible values must be 1.
   - The probability distribution can be represented by a table, histogram, or formula.
-- The *probability distribution* of a random variable can be supplemented with numerical measures of the center and spread of the random variable.
-  - *Center:* The center of a random variable is measured by its mean (which is sometimes also referred to as the *expected value*). —The mean of a random variable can be interpreted as its long run average. —The mean is a weighted average of the possible values of the random variable weighted by their corresponding probabilities. —An application of the mean of a random variable is determining premiums for insurance policies.
+- The {term}`probability distribution` of a random variable can be supplemented with numerical measures of the center and spread of the random variable.
+  - *Center:* The center of a random variable is measured by its mean (which is sometimes also referred to as the {term}`expected value`). —The mean of a random variable can be interpreted as its long run average. —The mean is a weighted average of the possible values of the random variable weighted by their corresponding probabilities. —An application of the mean of a random variable is determining premiums for insurance policies.
   - *Spread:* The spread of a random variable is measured by its variance, or more typically by its standard deviation (the square root of the variance). —The standard deviation of a random variable can be interpreted as the typical (or long-run average) distance between the value that the random variable assumes and the mean of X.
 - *Rules of means and variances* give us an easy way to find the mean and standard deviations of the "new" random variable a + bX (given the mean and standard deviation of X), as well as the mean and standard deviation of the "new" random variable X + Y (given the means and standard deviations of X and Y, and assuming that X and Y are independent).
 
@@ -55,11 +55,11 @@ An important example of a continuous random variable is the *normal random varia
 
 ## Sampling Distributions
 
-A *parameter* is a number that describes the population, and a *statistic* is a number that describes the sample.
+A {term}`parameter` is a number that describes the population, and a {term}`statistic` is a number that describes the sample.
 
 - Parameters are fixed, and in practice, usually unknown.
 - Statistics change from sample to sample due to sampling variability.
-- The behavior of the possible values the statistic can take in repeated samples is called the *sampling distribution* of that statistic.
+- The behavior of the possible values the statistic can take in repeated samples is called the {term}`sampling distribution` of that statistic.
 
 The *sampling distribution of the sample proportion*, $\hat{p}$, (under certain conditions):
 
@@ -67,7 +67,7 @@ The *sampling distribution of the sample proportion*, $\hat{p}$, (under certain 
 - has standard deviation of $\sqrt{\frac{p(1-p)}{n}}$.
 - is approximately normal (under certain conditions).
 
-According to the *Central Limit Theorem*, the *sampling distribution of the sample mean*, $\bar{X}$:
+According to the {term}`Central Limit Theorem <central limit theorem>`, the *sampling distribution of the sample mean*, $\bar{X}$:
 
 - is centered around $\mu$, the mean in the entire population from which the sample is drawn.
 - has a standard deviation of $\frac{\sigma}{\sqrt{n}}$.

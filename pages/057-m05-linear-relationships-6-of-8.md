@@ -24,15 +24,15 @@ This line is called the *least-squares regression line*, and, as we'll see, it f
 
 ## Algebra Review: The Equation of a Line
 
-For the remainder of this lesson, you'll need to feel comfortable with the algebra of a straight line. In particular you'll need to be familiar with the *slope* and the *intercept* in the equation of a line, and their interpretation.
+For the remainder of this lesson, you'll need to feel comfortable with the algebra of a straight line. In particular you'll need to be familiar with the {term}`slope` and the {term}`intercept` in the equation of a line, and their interpretation.
 
 ```{admonition} Review: Slope and Intercept
 :class: note
 
 A (non-vertical) line can be written as $Y = a + bX$, where:
 
-- $a$ is the **intercept**: the value of Y when X = 0 (where the line crosses the Y-axis).
-- $b$ is the **slope**: the amount Y changes when X increases by 1 unit. A positive slope means the line rises from left to right; a negative slope means it falls.
+- $a$ is the {term}`intercept`: the value of Y when X = 0 (where the line crosses the Y-axis).
+- $b$ is the {term}`slope`: the amount Y changes when X increases by 1 unit. A positive slope means the line rises from left to right; a negative slope means it falls.
 
 For example, the line $Y = 5 + 2X$ crosses the Y-axis at 5, and each 1-unit increase in X raises Y by 2. The line $Y = 100 - 3X$ starts at 100 and drops 3 units of Y for each unit of X.
 ```

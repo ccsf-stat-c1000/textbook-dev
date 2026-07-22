@@ -86,7 +86,7 @@ and in a previous activity we displayed the information using a probability tree
 
 ## Let's Summarize
 
-- The *conditional probability* of B given A, P(B | A) = P(A and B)/P(A), assesses the probability of B in the reduced sample space where A has occurred.
+- The {term}`conditional probability` of B given A, P(B | A) = P(A and B)/P(A), assesses the probability of B in the reduced sample space where A has occurred.
 - Two events are *independent* when knowing one occurred does not change the probability of the other (four equivalent checks are available).
 - The *General Multiplication Rule*, P(A and B) = P(A) × P(B | A), finds "and" probabilities for any two events, and reduces to the familiar product rule when the events are independent.
 - *Probability trees* organize staged problems: multiply along branches for "and," add across paths for "or," and combine the two (Bayes' Rule) to reverse the direction of conditioning.

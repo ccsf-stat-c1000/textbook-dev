@@ -51,6 +51,6 @@ which measures to what extent the difference among the sampled groups' means dom
 
 When the variation within groups is large (like in scenario 1), the variation (differences) among the sample means could become negligible, and the data provide very little evidence against $H_0$. When the variation within groups is small (like in scenario 2), the variation among the sample means dominates over it, and the data have stronger evidence against $H_0$.
 
-Looking at this ratio of variations is the idea behind comparing more than two means; hence the name *analysis of variance* (ANOVA).
+Looking at this ratio of variations is the idea behind comparing more than two means; hence the name {term}`analysis of variance` (ANOVA).
 
 Now that we understand the idea behind the ANOVA F-test, let's move on to step 2. We'll start by talking about the test statistic, since it will be a natural continuation of what we've just discussed, and then move on to talk about the conditions under which the ANOVA F-test can be used. In practice, however, the conditions need to be checked first, as we did before.

@@ -42,9 +42,9 @@ The last two examples showed us that including a lurking variable in our explora
 
 ## Let's Summarize
 
-- A *lurking variable* is a variable that was not included in your analysis, but that could substantially change your interpretation of the data if it were included.
+- A {term}`lurking variable` is a variable that was not included in your analysis, but that could substantially change your interpretation of the data if it were included.
 - Because of the possibility of lurking variables, we adhere to the principle that *association does not imply causation*.
 - Including a lurking variable in our exploration may
   - Help us to gain a deeper understanding of the relationship between variables.
   - Lead us to rethink the direction of an association.
-- Whenever including a lurking variable causes us to rethink the direction of an association, this is an instance of *Simpson's paradox*.
+- Whenever including a lurking variable causes us to rethink the direction of an association, this is an instance of {term}`Simpson's paradox`.

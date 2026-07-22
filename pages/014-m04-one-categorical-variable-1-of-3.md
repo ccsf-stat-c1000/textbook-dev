@@ -17,7 +17,7 @@ Here is some information that would be interesting to get from these data:
 - What percentage of the sampled students fall into each category?
 - How are students divided across the three body image categories? Are they equally divided? If not, do the percentages follow some other kind of pattern?
 
-There is no way that we can answer these questions by looking at the raw data, which are in the form of a long list of 1,200 responses, and thus not very useful. However, both these questions will be easily answered once we summarize and look at the *distribution* of the variable Body Image (i.e., once we summarize how often each of the categories occurs).
+There is no way that we can answer these questions by looking at the raw data, which are in the form of a long list of 1,200 responses, and thus not very useful. However, both these questions will be easily answered once we summarize and look at the {term}`distribution` of the variable Body Image (i.e., once we summarize how often each of the categories occurs).
 
 In order to summarize the distribution of a categorical variable, we first create a table of the different values (categories) the variable takes, how many times each value occurs (count) and, more importantly, how often each value occurs (by converting the counts to percentages); this table is called a frequency distribution. Here is the frequency distribution for our example:
 

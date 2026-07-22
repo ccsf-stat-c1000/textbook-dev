@@ -11,7 +11,7 @@ This cutoff exists, and because it is so important, it has a special name. It is
 
 *Important comment about wording.* Another common wording (mostly in scientific journals) is:
 
-- "The results are *statistically significant*" — when the p-value < α.
+- "The results are {term}`statistically significant`" — when the p-value < α.
 - "The results are *not statistically significant*" — when the p-value > α.
 
 ```{admonition} Comments

@@ -2,7 +2,7 @@
 
 Intuitively speaking, the numerical measure of center is telling us what is a "typical value" of the distribution.
 
-The three main numerical measures for the center of a distribution are the *mode*, the *mean* and the *median*. Each one of these measures is based on a completely different idea of describing the center of a distribution. We will first present each one of the measures, and then compare their properties.
+The three main numerical measures for the center of a distribution are the {term}`mode`, the {term}`mean` and the {term}`median`. Each one of these measures is based on a completely different idea of describing the center of a distribution. We will first present each one of the measures, and then compare their properties.
 
 ## Mode
 

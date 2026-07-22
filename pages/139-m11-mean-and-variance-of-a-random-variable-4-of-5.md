@@ -4,7 +4,7 @@
 
 In Exploratory Data Analysis, we used the mean of a sample of quantitative values (their arithmetic average, $\bar{x}$) to tell the center of their distribution, and the standard deviation (s) to tell the typical distance of sample values from their mean. We described the center of a probability distribution for a random variable by reporting its mean $\mu_{X}$, and now we would like to establish an accompanying measure of spread. Our measure of spread will still report the typical distance of values from their means, but in order to distinguish the spread of a population of all of a random variable's values from the spread (s) of sample values, we will denote the standard deviation of the random variable X with the Greek lower case "sigma," and use a subscript to remind us what is the variable of interest (there may be more than one in later problems): $\sigma_X$.
 
-We will also focus more frequently than before on the squared standard deviation, called the *variance*, because some important rules we need to invoke are in terms of variance $\sigma_{X}^{2}$ rather than standard deviation $\sigma_{X}$.
+We will also focus more frequently than before on the squared standard deviation, called the {term}`variance`, because some important rules we need to invoke are in terms of variance $\sigma_{X}^{2}$ rather than standard deviation $\sigma_{X}$.
 
 :::{admonition} Example: Xavier's Production Line
 :class: tip
@@ -39,11 +39,11 @@ Here is the formal definition:
 ```{admonition} Definition: Variance and Standard Deviation of a Discrete Random Variable
 :class: note
 
-For any discrete random variable X with probability distribution assigning probability $p_i$ to value $x_i$, the *variance* of X is defined to be
+For any discrete random variable X with probability distribution assigning probability $p_i$ to value $x_i$, the {term}`variance` of X is defined to be
 
 $$\sigma_{X}^{2}=(x_{1}-\mu_{X})^{2}p_{1}+(x_{2}-\mu_{X})^{2}p_{2}+\cdots+(x_{n}-\mu_{X})^{2}p_{n}=\sum_{i=1}^{n}(x_{i}-\mu_{X})^{2}p_{i}$$
 
-and the *standard deviation* is
+and the {term}`standard deviation` is
 
 $$\sigma_{X}=\sqrt{\sigma_{X}^{2}}$$
 ```

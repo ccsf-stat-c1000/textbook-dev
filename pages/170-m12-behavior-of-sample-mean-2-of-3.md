@@ -56,7 +56,7 @@ In the next simulation video, we investigate these questions:
 [Behavior of Sample Mean 2](https://www.youtube.com/watch?v=cyNqdostWzk)
 ```
 
-To summarize, the distribution of sample means will be approximately normal as long as the sample size is large enough. This discovery is probably the single most important result presented in introductory statistics courses. It is stated formally as the **Central Limit Theorem**.
+To summarize, the distribution of sample means will be approximately normal as long as the sample size is large enough. This discovery is probably the single most important result presented in introductory statistics courses. It is stated formally as the {term}`Central Limit Theorem <central limit theorem>`.
 
 We will depend on the Central Limit Theorem again and again in order to do normal probability calculations when we use sample means to draw conclusions about a population mean. We now know that we can do this even if the population distribution is not normal.
 

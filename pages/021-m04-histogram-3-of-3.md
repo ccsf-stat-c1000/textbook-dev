@@ -14,7 +14,7 @@ As you can see from the histogram, the center of the grades distribution is roug
 
 ## Spread
 
-The *spread* (also called *variability*) of the distribution can be described by the approximate range covered by the data. From looking at the histogram, we can approximate the smallest observation (*min*), and the largest observation (*max*), and thus approximate the range. (More exact ways of finding measures of spread are discussed in the next section.)
+The {term}`spread` (also called *variability*) of the distribution can be described by the approximate range covered by the data. From looking at the histogram, we can approximate the smallest observation (*min*), and the largest observation (*max*), and thus approximate the range. (More exact ways of finding measures of spread are discussed in the next section.)
 
 In our example:
 
@@ -26,7 +26,7 @@ In our example:
 
 ## Outliers
 
-*Outliers* are observations that fall outside the overall pattern. For example, the following histogram represents a distribution that has a highly probable outlier:
+{term}`Outliers <outlier>` are observations that fall outside the overall pattern. For example, the following histogram represents a distribution that has a highly probable outlier:
 
 ```{figure} images/gen/m04-outlier-histogram.svg
 :alt: A histogram in which the frequency rises to a peak near 5 and then decreases to zero by about 11. Far to the right, separated from the rest of the data by a gap, a single red bar near 15 stands alone—an outlier.

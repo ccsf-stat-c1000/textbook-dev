@@ -2,7 +2,7 @@
 
 ## Introduction
 
-So far, we have introduced two measures of spread; the range (covered by all the data) and the inter-quartile range (IQR), which looks at the range covered by the middle 50% of the distribution. We also noted that the IQR should be paired as a measure of spread with the median as a measure of center. We now move on to another measure of spread, the *standard deviation*, which quantifies the spread of a distribution in a completely different way.
+So far, we have introduced two measures of spread; the range (covered by all the data) and the inter-quartile range (IQR), which looks at the range covered by the middle 50% of the distribution. We also noted that the IQR should be paired as a measure of spread with the median as a measure of center. We now move on to another measure of spread, the {term}`standard deviation`, which quantifies the spread of a distribution in a completely different way.
 
 ## Idea
 
@@ -40,7 +40,7 @@ To find the standard deviation of the number of hourly customers:
    $$\frac{4 + 0 + 16 + 16 + 36 + 4 + 36 + 0}{8 - 1} = \frac{112}{7} = 16$$
 
    - The reason why we "sort of" average the square deviations (divide by n − 1) rather than take the actual average (divide by n) is beyond the scope of the course at this point, but will be addressed later.
-   - This average of the squared deviations is called the *variance* of the data.
+   - This average of the squared deviations is called the {term}`variance` of the data.
 
 5. The SD of the data is the square root of the variance: $SD = \sqrt{16} = 4$
 

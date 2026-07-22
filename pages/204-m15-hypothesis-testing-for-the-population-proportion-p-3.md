@@ -34,7 +34,7 @@ Let's go back to our three examples and add this step to our figures.
 ```
 ::::
 
-As we mentioned earlier without going into details, when we summarize the data in hypothesis testing, we go a step beyond calculating the sample statistic and summarize the data with a *test statistic*. Every test has a test statistic, which to some degree captures the essence of the test. In fact, the p-value, which so far we have looked upon as "the king" (in the sense that everything is determined by it), is actually determined by (or derived from) the test statistic. We will now gradually introduce the test statistic.
+As we mentioned earlier without going into details, when we summarize the data in hypothesis testing, we go a step beyond calculating the sample statistic and summarize the data with a {term}`test statistic`. Every test has a test statistic, which to some degree captures the essence of the test. In fact, the p-value, which so far we have looked upon as "the king" (in the sense that everything is determined by it), is actually determined by (or derived from) the test statistic. We will now gradually introduce the test statistic.
 
 The test statistic is *a measure* of how far the sample proportion $\hat{p}$ is from the null value $p_0$, the value that the null hypothesis claims is the value of p. In other words, since $\hat{p}$ is what the data estimate p to be, the test statistic can be viewed as a measure of the "distance" between what the data tell us about p and what the null hypothesis claims p to be.
 

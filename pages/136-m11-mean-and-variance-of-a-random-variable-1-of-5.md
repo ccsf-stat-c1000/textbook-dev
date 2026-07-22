@@ -57,12 +57,12 @@ Here is the general definition of the mean of a discrete random variable:
 ```{admonition} Definition: Mean of a Discrete Random Variable
 :class: note
 
-In general, for any discrete random variable X with probability distribution that assigns probability $p_i$ to value $x_i$, the *mean* of X is defined to be
+In general, for any discrete random variable X with probability distribution that assigns probability $p_i$ to value $x_i$, the {term}`mean` of X is defined to be
 
 $$\mu_{X}=x_{1}p_{1}+x_{2}p_{2}+\cdots+x_{n}p_{n}=\sum_{i=1}^{n}x_{i}p_{i}$$
 ```
 
-In general, the mean of a random variable tells us its "long-run" average value. It is sometimes referred to as the *expected value* of the random variable. But this expression may be somewhat misleading, because in many cases it is impossible for a random variable to actually equal its expected value. For example, the mean number of goals for a World Cup soccer game is 2.36. But we can never expect any single game to result in 2.36 goals, since it is not possible to score a fraction of a goal. Rather, 2.36 is the long-run average of all World Cup soccer games. In the case of Xavier's production line, the mean number of defective parts produced in an hour is 1.8. But the actual number of defective parts produced in any given hour can never equal 1.8, since it must take whole number values.
+In general, the mean of a random variable tells us its "long-run" average value. It is sometimes referred to as the {term}`expected value` of the random variable. But this expression may be somewhat misleading, because in many cases it is impossible for a random variable to actually equal its expected value. For example, the mean number of goals for a World Cup soccer game is 2.36. But we can never expect any single game to result in 2.36 goals, since it is not possible to score a fraction of a goal. Rather, 2.36 is the long-run average of all World Cup soccer games. In the case of Xavier's production line, the mean number of defective parts produced in an hour is 1.8. But the actual number of defective parts produced in any given hour can never equal 1.8, since it must take whole number values.
 
 To get a better feel for the mean of a random variable, let's extend the defective parts example:
 

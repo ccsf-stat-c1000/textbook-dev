@@ -2,7 +2,7 @@
 
 So far the researchers have observed linearity in the data, and based on a test concluded that this linear relationship between age and legibility distance can be generalized to the entire population of drivers.
 
-Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the *least squares regression line*—the line that minimizes the sum of the squared vertical deviations of the points from the line.
+Since that is the case, the researchers would now like to estimate the equation of the straight line that governs the linear relationship between age and legibility distance among drivers. As we commented earlier, this is done by finding the line that best fits the pattern of our observed data. Recall that this line is called the {term}`least squares regression line`—the line that minimizes the sum of the squared vertical deviations of the points from the line.
 
 In the Exploratory Data Analysis unit, we presented the actual formulas for the slope and intercept of the line. We are not going to repeat those here; we will obtain the values from software output:
 
@@ -26,7 +26,7 @@ $$\text{Distance} = 576.7 - 3.007 \times \text{Age}$$
 
 In particular, the slope of the line is roughly −3, which means that for every year that a driver gets older (a 1-unit increase in X), the maximum legibility distance is reduced, on average, by 3 feet (Y changes by the value of the slope).
 
-The researchers can also use this line to make predictions, remembering to beware of *extrapolation* (predictions for X values that are outside the range of the original data). For example, using the equation of the line, we predict that the maximum legibility distance of a 60-year-old driver is:
+The researchers can also use this line to make predictions, remembering to beware of {term}`extrapolation` (predictions for X values that are outside the range of the original data). For example, using the equation of the line, we predict that the maximum legibility distance of a 60-year-old driver is:
 
 $$\text{Distance} = 576.7 - 3.007(60) \approx 396.3 \text{ feet}$$
 

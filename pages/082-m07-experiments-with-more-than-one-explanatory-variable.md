@@ -11,7 +11,7 @@ Suppose researchers are not only interested in the effect of diet on blood press
 
 | | No diet | Special diet 1 | Special diet 2 |
 | --- | --- | --- | --- |
-| **Placebo** | treatment 1 | treatment 2 | treatment 3 |
+| **{term}`Placebo <placebo>`** | treatment 1 | treatment 2 | treatment 3 |
 | **Drug 1** | treatment 4 | treatment 5 | treatment 6 |
 | **Drug 2** | treatment 7 | treatment 8 | treatment 9 |
 

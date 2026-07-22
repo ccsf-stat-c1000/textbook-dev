@@ -21,7 +21,7 @@ The following figure will help you visualize this situation:
 :alt: A diagram showing the lurking variable, seriousness of the fire, at the top with solid arrows pointing down to both X, the number of firefighters sent, and Y, the amount of damage. A dashed red line connects X and Y, labeled observed association between X and Y but no causal link.
 ```
 
-Here, the seriousness of the fire is a *lurking variable.* A *lurking variable* is a variable that is not among the explanatory or response variables in a study, but could substantially affect your interpretation of the relationship among those variables.
+Here, the seriousness of the fire is a *lurking variable.* A {term}`lurking variable` is a variable that is not among the explanatory or response variables in a study, but could substantially affect your interpretation of the relationship among those variables.
 ::::
 
 In particular, as in our example, the lurking variable might have an effect on *both* the explanatory and the response variables. This common effect creates the observed association between the explanatory and response variables, even though there is no causal link between them. This possibility, that there might be a lurking variable (which we might not be thinking about) that is responsible for the observed relationship leads to our principle:

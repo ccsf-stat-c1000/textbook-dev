@@ -9,7 +9,7 @@ Suppose that we are interested in studying the IQ levels of students at Smart Un
 
 A random sample of 100 SU students was chosen, and their (sample) mean IQ level was found to be $\bar{x}=115$.
 
-If we wanted to estimate μ, the population mean IQ level, by a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample mean $\bar{x}=115$. We say that 115 is the *point estimate* for μ, and in general, we'll always use $\bar{x}$ as the *point estimator* for μ. (Note that when we talk about the *specific value* (115), we use the term *estimate*, and when we talk in general about the *statistic* $\bar{x}$, we use the term *estimator*.)
+If we wanted to estimate μ, the population mean IQ level, by a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample mean $\bar{x}=115$. We say that 115 is the {term}`point estimate` for μ, and in general, we'll always use $\bar{x}$ as the *point estimator* for μ. (Note that when we talk about the *specific value* (115), we use the term *estimate*, and when we talk in general about the {term}`statistic` $\bar{x}$, we use the term *estimator*.)
 :::
 
 Here is another example.
@@ -19,7 +19,7 @@ Here is another example.
 
 Suppose that we are interested in the opinions of U.S. adults regarding legalizing the use of marijuana. In particular, we are interested in the parameter p, the proportion of U.S. adults who believe marijuana should be legalized.
 
-Suppose a poll of 1,000 U.S. adults finds that 560 of them believe marijuana should be legalized. If we wanted to estimate p, the population proportion, using a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample proportion $\hat{p}=\frac{560}{1000}=0.56$. We say in this case that 0.56 is the *point estimate* for p, and in general, we'll always use $\hat{p}$ as the *point estimator* for p.
+Suppose a poll of 1,000 U.S. adults finds that 560 of them believe marijuana should be legalized. If we wanted to estimate p, the population proportion, using a single number based on the sample, it would make intuitive sense to use the corresponding quantity in the sample, the sample proportion $\hat{p}=\frac{560}{1000}=0.56$. We say in this case that 0.56 is the {term}`point estimate` for p, and in general, we'll always use $\hat{p}$ as the *point estimator* for p.
 :::
 
 ## Check Your Understanding: Computing Point Estimates

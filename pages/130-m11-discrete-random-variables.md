@@ -18,7 +18,7 @@ Note that for the random variables we'll use a capital letter, and for the value
 
 The way this section on discrete random variables is organized is very similar to the way we organized our discussion about one quantitative variable in the Exploratory Data Analysis unit. It will be separated into four sections.
 
-1. We'll first discuss the probability *distribution* of a discrete random variable, ways to display it, and how to use it in order to find probabilities of interest.
-2. We'll then move on to talk about the *mean* of a discrete random variable, which are measures of the center and spread of its distribution.
+1. We'll first discuss the {term}`probability distribution` of a discrete random variable, ways to display it, and how to use it in order to find probabilities of interest.
+2. We'll then move on to talk about the {term}`mean` of a discrete random variable, which are measures of the center and spread of its distribution.
 3. Next we'll have an optional chapter on the *rules for means and standard deviations*.
 4. We'll conclude this part by discussing a special and very common class of discrete random variable: the *binomial* random variable.

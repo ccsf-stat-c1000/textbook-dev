@@ -1,6 +1,6 @@
 # How Good Is the Estimate? Relative Frequency and Sample Size
 
-So, we've seen how the relative frequency idea works, and hopefully the examples have convinced you that the relative frequency of an event does indeed approach the theoretical probability of that event as the number of repetitions increases. This is called the *Law of Large Numbers*.
+So, we've seen how the relative frequency idea works, and hopefully the examples have convinced you that the relative frequency of an event does indeed approach the theoretical probability of that event as the number of repetitions increases. This is called the {term}`Law of Large Numbers <law of large numbers>`.
 
 The Law of Large Numbers states that as the number of trials increases, the relative frequency approaches the actual probability. So, using this law, as the number of trials increases, the empirical probability gets closer and closer to the theoretical probability.
 
@@ -12,9 +12,9 @@ The Law of Large Numbers states that as the number of trials increases, the rela
 
 ## More About Relative Frequency
 
-1. Note that the relative frequency approach provides only an estimate of the probability of an event. However, we can control how good this estimate is by the number of times we repeat the random experiment. The more repetitions that are performed, the closer the *relative frequency* gets to the *true probability* of the event.
+1. Note that the relative frequency approach provides only an estimate of the probability of an event. However, we can control how good this estimate is by the number of times we repeat the random experiment. The more repetitions that are performed, the closer the {term}`relative frequency` gets to the *true probability* of the event.
 
-2. One interesting question would be: "How many times do I need to repeat the random experiment in order for the relative frequency to be, say, within 0.001 of the actual probability of the event?" We will come back to that question in the *inference* section.
+2. One interesting question would be: "How many times do I need to repeat the random experiment in order for the relative frequency to be, say, within 0.001 of the actual probability of the event?" We will come back to that question in the {term}`inference` section.
 
 3. A pedagogical comment: We've introduced relative frequency here in a more practical approach, as a method for estimating the probability of an event. More traditionally, relative frequency is not presented as a method, but as a definition:
 

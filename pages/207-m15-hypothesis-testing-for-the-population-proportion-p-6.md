@@ -14,7 +14,7 @@ One can actually draw conclusions in hypothesis testing just using the test stat
 
 Intuitively, the p-value is the *probability* of observing *data like those observed* assuming that $H_0$ is true. Let's be a bit more formal:
 
-- Since this is a probability question about the *data*, it makes sense that the calculation will involve the data summary, the *test statistic*.
+- Since this is a probability question about the *data*, it makes sense that the calculation will involve the data summary, the {term}`test statistic`.
 - What do we mean by *"like"* those observed? By "like" we mean *"as extreme or even more extreme."*
 
 Putting it all together, we get that in *general*:
@@ -70,7 +70,7 @@ This is often referred to as a *two-tailed* test, since we shaded in both direct
 ```{admonition} Comment: The Critical Values Approach
 :class: important
 
-As noted earlier, before the widespread use of statistical software, it was common to use *critical values* instead of p-values to assess the evidence provided by the data. In that approach, the observed test statistic is compared with a fixed cutoff value (for example, z\* = 1.645 for a one-sided test at the 0.05 level), and $H_0$ is rejected when the test statistic falls beyond the cutoff. The two approaches always lead to the same conclusion; this course focuses on p-values.
+As noted earlier, before the widespread use of statistical software, it was common to use {term}`critical values <critical value>` instead of p-values to assess the evidence provided by the data. In that approach, the observed test statistic is compared with a fixed cutoff value (for example, z\* = 1.645 for a one-sided test at the 0.05 level), and $H_0$ is rejected when the test statistic falls beyond the cutoff. The two approaches always lead to the same conclusion; this course focuses on p-values.
 ```
 
 On the next page, we will apply the p-value to our three examples. But first, work through the following activities, which should help your understanding.

@@ -52,7 +52,7 @@ Conclusions should always be stated in the context of the problem.
 
 - For a two-sample t-test, a *95% confidence interval* for $\mu_1-\mu_2$ can be very insightful after a test has rejected the null hypothesis, and can also be used for testing in the two-sided case.
 - For a paired t-test, a *95% confidence interval* for $\mu_d$ can be very insightful after a test has rejected the null hypothesis, and can also be used for testing in the two-sided case.
-- If the ANOVA F-test has rejected the null hypothesis, looking at the *confidence intervals* for the population means in the output can provide visual insight into why $H_0$ was rejected (i.e., which of the means differ).
+- If the ANOVA F-test has rejected the null hypothesis, looking at the {term}`confidence intervals <confidence interval>` for the population means in the output can provide visual insight into why $H_0$ was rejected (i.e., which of the means differ).
 
 ## Putting It All Together
 

@@ -15,6 +15,30 @@ project:
     - pages/*m02*.md
   plugins:
     - pages/quiz.mjs
+  # Abbreviations get a hover-tooltip and an <abbr> tag wherever the exact
+  # uppercase string appears in prose. They are case-sensitive and are NOT
+  # applied inside code blocks, math, links, or cross-references. Longer keys
+  # win over shorter ones that share a suffix; set a key to `null` to suppress
+  # an unwanted expansion (see the guards at the bottom of the list).
+  abbreviations:
+    ANOVA: Analysis of Variance
+    CI: Confidence Interval
+    CLT: Central Limit Theorem
+    EDA: Exploratory Data Analysis
+    IQR: Interquartile Range
+    SD: Standard Deviation
+    SE: Standard Error
+    SRS: Simple Random Sample
+    # Guards. Abbreviation matching is case-sensitive but NOT word-bounded, so
+    # any all-caps word in the prose that merely *contains* one of the keys
+    # above would be mangled (e.g. OB-SE-RVED). These are the all-caps
+    # emphasis words currently in the book that contain "SE"; re-run
+    # the audit in this file's git history if you add more shouty emphasis.
+    INCREASE: null
+    INCREASED: null
+    DECREASES: null
+    OBSERVED: null
+    ROSE: null
   # Give every page a flat, stable page number (1, 2, 3, ...) following
   # toc.yml reading order. The number renders in the sidebar and page title so
   # instructors can say "open page 30" in class and students land in one place.

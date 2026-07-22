@@ -13,7 +13,7 @@ Identify each of the following designs as being an observational study, a sample
 
 *1.* Recruit participants for a study. While they are presumably waiting to be interviewed, half of the individuals sit in a waiting room with snacks available and a TV on. The other half sit in a waiting room with snacks available and no TV, just magazines. Researchers determine whether people consume more snacks in the TV setting.
 
-This is an *experiment*, because the researchers take control of the explanatory variable of interest (TV on or not) by *assigning* each individual to either watch TV or not, and determine the effect that has on the response variable of interest (snack consumption).
+This is an {term}`experiment`, because the researchers take control of the explanatory variable of interest (TV on or not) by *assigning* each individual to either watch TV or not, and determine the effect that has on the response variable of interest (snack consumption).
 
 *2.* Recruit participants for a study. Give them journals to record hour by hour their activities the following day, including when they watch TV and when they consume snacks. Determine if snack consumption is higher during TV times.
 
@@ -31,7 +31,7 @@ This is a sample survey, because the individuals self-assess the relationship be
 ```{admonition} Comment
 :class: important
 
-Notice that in design 2, the values of the variables of interest (TV watching and snack consumption) are recorded forward in time. Such observational studies are called *prospective*. In contrast, in design 3, the values of the variables of interest are recorded backward in time. This is called a *retrospective* observational study. We'll discuss this distinction later in this module.
+Notice that in design 2, the values of the variables of interest (TV watching and snack consumption) are recorded forward in time. Such observational studies are called {term}`prospective <prospective study>`. In contrast, in design 3, the values of the variables of interest are recorded backward in time. This is called a {term}`retrospective <retrospective study>` observational study. We'll discuss this distinction later in this module.
 ```
 
 ## Check Your Understanding: Experiments vs. Observational Studies

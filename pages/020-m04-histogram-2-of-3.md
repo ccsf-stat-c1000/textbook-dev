@@ -33,7 +33,7 @@ We distinguish between:
 :alt: A symmetric, uniform histogram. Across the entire range of values the bars are all roughly the same height, with no peak.
 ```
 
-Note that all three distributions are symmetric, but are different in their modality (peakedness). The first distribution is *unimodal*—it has one mode (roughly at 10) around which the observations are concentrated. The second distribution is *bimodal*—it has two modes (roughly at 10 and 20) around which the observations are concentrated. The third distribution is kind of flat, or *uniform*. The distribution has no modes, or no value around which the observations are concentrated. Rather, we see that the observations are roughly uniformly distributed among the different values.
+Note that all three distributions are symmetric, but are different in their modality (peakedness). The first distribution is {term}`unimodal`—it has one mode (roughly at 10) around which the observations are concentrated. The second distribution is {term}`bimodal`—it has two modes (roughly at 10 and 20) around which the observations are concentrated. The third distribution is kind of flat, or *uniform*. The distribution has no modes, or no value around which the observations are concentrated. Rather, we see that the observations are roughly uniformly distributed among the different values.
 
 ## Skewed Right Distributions
 
@@ -41,7 +41,7 @@ Note that all three distributions are symmetric, but are different in their moda
 :alt: A skewed-right histogram. The bars rise quickly to a peak near the left side of the display and then decrease slowly, forming a long right tail of larger and larger values with smaller and smaller frequencies.
 ```
 
-A distribution is called *skewed right* if, as in the histogram above, the right tail (larger values) is much longer than the left tail (small values). Note that in a skewed right distribution, the bulk of the observations are small/medium, with a few observations that are much larger than the rest. An example of a real-life variable that has a skewed right distribution is salary. Most people earn in the low/medium range of salaries, with a few exceptions (CEOs, professional athletes etc.) that are distributed along a large range (long "tail") of higher values.
+A distribution is called {term}`skewed right` if, as in the histogram above, the right tail (larger values) is much longer than the left tail (small values). Note that in a skewed right distribution, the bulk of the observations are small/medium, with a few observations that are much larger than the rest. An example of a real-life variable that has a skewed right distribution is salary. Most people earn in the low/medium range of salaries, with a few exceptions (CEOs, professional athletes etc.) that are distributed along a large range (long "tail") of higher values.
 
 ## Skewed Left Distributions
 
@@ -49,7 +49,7 @@ A distribution is called *skewed right* if, as in the histogram above, the right
 :alt: A skewed-left histogram. The bars rise slowly from the left, forming a long left tail, reach a peak near the right side of the display, and then drop off quickly.
 ```
 
-A distribution is called *skewed left* if, as in the histogram above, the left tail (smaller values) is much longer than the right tail (larger values). Note that in a skewed left distribution, the bulk of the observations are medium/large, with a few observations that are much smaller than the rest. An example of a real life variable that has a skewed left distribution is age of death from natural causes (heart disease, cancer etc.). Most such deaths happen at older ages, with fewer cases happening at younger ages.
+A distribution is called {term}`skewed left` if, as in the histogram above, the left tail (smaller values) is much longer than the right tail (larger values). Note that in a skewed left distribution, the bulk of the observations are medium/large, with a few observations that are much smaller than the rest. An example of a real life variable that has a skewed left distribution is age of death from natural causes (heart disease, cancer etc.). Most such deaths happen at older ages, with fewer cases happening at younger ages.
 
 *Comments:*
 

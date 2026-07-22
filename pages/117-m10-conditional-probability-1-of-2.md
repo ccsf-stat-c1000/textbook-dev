@@ -31,7 +31,7 @@ At this point, new notation is required, to express the probability of a certain
 
 A word about this new notation: The event whose probability we seek (in this case E) is written first, the vertical line stands for the word "given" or "conditioned on," and the event that is given (in this case M) is written after the "|" sign.
 
-We call this probability the *conditional probability* of having one or both ears pierced, given that a student is male: it assesses the probability of having pierced ears under the condition of being male. Now to solve for the probability, we observe that choosing from only the males in the school essentially alters the sample space S from all students in the school to all male students in the school. The total number of possible outcomes is no longer 500, but has changed to 180. Out of those 180 males, 36 have ear(s) pierced, and thus:
+We call this probability the {term}`conditional probability` of having one or both ears pierced, given that a student is male: it assesses the probability of having pierced ears under the condition of being male. Now to solve for the probability, we observe that choosing from only the males in the school essentially alters the sample space S from all students in the school to all male students in the school. The total number of possible outcomes is no longer 500, but has changed to 180. Out of those 180 males, 36 have ear(s) pierced, and thus:
 
 P(E | M) = 36/180 = 0.20.
 :::

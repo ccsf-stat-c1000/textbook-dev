@@ -4,7 +4,7 @@ In the previous two modules we performed inference for one variable. More specif
 
 - *Point estimation*—estimating an unknown parameter with a single value that is computed from the sample.
 - *Interval estimation*—estimating an unknown parameter by an interval of plausible values. To each such interval we attach a level of confidence that the interval indeed captures the value of the unknown parameter, hence the name confidence intervals.
-- *Hypothesis testing*—a four-step process in which we are assessing evidence provided by the data in favor of or against some claim about the population parameter.
+- {term}`Hypothesis testing <hypothesis testing>`—a four-step process in which we are assessing evidence provided by the data in favor of or against some claim about the population parameter.
 
 Our next (and final) goal for this course is to perform inference about relationships between two variables in a population, based on an observed relationship between variables in a sample. Here is what the process looks like:
 

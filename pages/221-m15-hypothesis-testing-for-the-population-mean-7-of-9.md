@@ -13,7 +13,7 @@ Well, remember that σ is a parameter (the standard deviation of the population)
 
 So, in a test for a mean, if σ isn't known, then s is used in place of the unknown σ, and that results in the test statistic being a t-score.
 
-In fact, the t-score that arises in the context of a test for a mean is a t-score with (n − 1) *degrees of freedom*. Recall that each t distribution is indexed according to degrees of freedom. Notice that, in the context of a test for a mean, the degrees of freedom depend on the sample size in the study. Remember that we said that higher degrees of freedom indicate that the t distribution is closer to normal. So in the context of a test for the mean, *the larger the sample size, the higher the degrees of freedom, and the closer the t distribution is to a standard normal z distribution*.
+In fact, the t-score that arises in the context of a test for a mean is a t-score with (n − 1) {term}`degrees of freedom`. Recall that each t distribution is indexed according to degrees of freedom. Notice that, in the context of a test for a mean, the degrees of freedom depend on the sample size in the study. Remember that we said that higher degrees of freedom indicate that the t distribution is closer to normal. So in the context of a test for the mean, *the larger the sample size, the higher the degrees of freedom, and the closer the t distribution is to a standard normal z distribution*.
 
 As a result, in the context of a test for a mean, the effect of the t distribution is *most important* for a study with a *relatively small sample size*.
 

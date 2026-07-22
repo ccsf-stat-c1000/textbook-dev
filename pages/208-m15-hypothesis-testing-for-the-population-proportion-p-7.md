@@ -95,7 +95,7 @@ In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial s
 
 | Test of p = 0.45 vs p < 0.45 | | | | |
 | --- | --- | --- | --- | --- |
-| **X** | **N** | **Sample p** | **Z-Value** | **P-Value** |
+| **X** | **N** | **Sample p** | **Z-Value** | **{term}`P-Value <p-value>`** |
 | 39 | 100 | 0.39 | −1.21 | 0.114 |
 
 :::{quiz} According to the output, what is the value of the test statistic, and what does it mean?
@@ -134,7 +134,7 @@ The trustees of a local school district commission a survey to determine voter o
 
 | Test of p = 0.55 vs p > 0.55 | | | | |
 | --- | --- | --- | --- | --- |
-| **X** | **N** | **Sample p** | **Z-Value** | **P-Value** |
+| **X** | **N** | **Sample p** | **Z-Value** | **{term}`P-Value <p-value>`** |
 | 178 | 293 | 0.6075 | 1.98 | 0.024 |
 
 :::{quiz} Using α = 0.05, what should the trustees conclude?

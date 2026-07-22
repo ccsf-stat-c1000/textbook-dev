@@ -25,9 +25,9 @@ What these two rules tell us is that if we take two random variables and add the
 ```{admonition} Comment
 :class: important
 
-We've talked a lot about independent and dependent *events*, but not about what it means for two *random variables* to be independent or dependent. Basically, the same reasoning extends from events to random variables. Two random variables will be independent if knowing that one random variable takes any of its possible values has no effect on the probability that the other random variable takes a certain value.
+We've talked a lot about independent and dependent {term}`events <event>`, but not about what it means for two {term}`random variables <random variable>` to be independent or dependent. Basically, the same reasoning extends from events to random variables. Two random variables will be independent if knowing that one random variable takes any of its possible values has no effect on the probability that the other random variable takes a certain value.
 
-While in the case of *events* we formalized the definition of independence using conditional probability, doing the same for random variables is beyond the scope of this course. Therefore, whenever we want to use the rule $\sigma_{X+Y}^{2}=\sigma_{X}^{2}+\sigma_{Y}^{2}$, we will assume that X and Y are independent, or it will be clear from the context of the problem.
+While in the case of {term}`events <event>` we formalized the definition of independence using conditional probability, doing the same for random variables is beyond the scope of this course. Therefore, whenever we want to use the rule $\sigma_{X+Y}^{2}=\sigma_{X}^{2}+\sigma_{Y}^{2}$, we will assume that X and Y are independent, or it will be clear from the context of the problem.
 ```
 
 :::{admonition} Example: Combined Mean and Standard Deviation

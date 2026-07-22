@@ -6,8 +6,8 @@ Statistical investigations involve making decisions in the face of uncertainty, 
 
 - If the null hypothesis is true and we do not reject it, it is a *correct decision*.
 - If the null hypothesis is false and we reject it, it is a *correct decision*.
-- If the null hypothesis is true, but we reject it, this is a *type I error*.
-- If the null hypothesis is false, but we fail to reject it, this is a *type II error*.
+- If the null hypothesis is true, but we reject it, this is a {term}`type I error <Type I error>`.
+- If the null hypothesis is false, but we fail to reject it, this is a {term}`type II error <Type II error>`.
 
 | | $H_0$ is true | $H_0$ is false |
 | --- | --- | --- |

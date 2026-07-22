@@ -3,7 +3,7 @@
 ```{admonition} Comments
 :class: important
 
-1. It should now be clear why this test is commonly known as *the z-test for the population proportion*. The name comes from the fact that it is based on a test statistic that is a *z-score*.
+1. It should now be clear why this test is commonly known as *the z-test for the population proportion*. The name comes from the fact that it is based on a test statistic that is a {term}`z-score`.
 
 2. Recall fact 1 that we used for constructing the z-test statistic: when we take a *random* sample of size n from a population with population proportion p, the possible values of the sample proportion ($\hat{p}$), *when certain conditions are met*, have approximately a normal distribution. This result provides the theoretical justification for constructing the test statistic the way we did, and therefore the assumptions under which this result holds are the conditions that our data need to satisfy so that we can use this test. These two conditions are:
 

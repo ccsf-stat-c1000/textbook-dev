@@ -2,14 +2,14 @@
 
 ## The Correlation Coefficient—r
 
-The numerical measure that assesses the strength of a linear relationship is called the *correlation coefficient* and is denoted by *r*. We will
+The numerical measure that assesses the strength of a linear relationship is called the {term}`correlation coefficient` and is denoted by *r*. We will
 
 - Define the correlation r.
 - Discuss the calculation of r.
 - Explain how to interpret the value of r.
 - Talk about some of the properties of r.
 
-*Definition:* The correlation coefficient (r) is a numerical measure that measures the *strength* and *direction* of a linear relationship between two quantitative variables.
+*Definition:* The correlation coefficient (r) is a numerical measure that measures the {term}`strength` and {term}`direction` of a linear relationship between two quantitative variables.
 
 *Calculation:* r is calculated using the following formula:
 
@@ -22,8 +22,8 @@ However, the calculation of the correlation (r) is not the focus of this course.
 Once we obtain the value of r, its interpretation with respect to the strength of linear relationships is quite simple:
 
 - The correlation is always between −1 and 1: $-1 \le r \le 1$.
-- The *sign* of r tells us the *direction* of the linear relationship: positive r means a positive relationship; negative r means a negative relationship.
-- The *magnitude* of r tells us the *strength*: values close to −1 or 1 indicate points tightly clustered around a line (a strong linear relationship); values close to 0 indicate a weak (or no) linear relationship.
+- The *sign* of r tells us the {term}`direction` of the linear relationship: positive r means a positive relationship; negative r means a negative relationship.
+- The *magnitude* of r tells us the {term}`strength`: values close to −1 or 1 indicate points tightly clustered around a line (a strong linear relationship); values close to 0 indicate a weak (or no) linear relationship.
 - r = 1 or r = −1 only when the points fall *exactly* on a straight line.
 
 ```{note} Video

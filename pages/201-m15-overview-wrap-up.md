@@ -6,8 +6,8 @@ We learned quite a lot about hypothesis testing. We learned the logic behind it,
 
 - Hypothesis testing assesses the evidence provided by the data against a null hypothesis ($H_0$, the "nothing special is going on" claim) and in favor of an alternative hypothesis ($H_a$, what we suspect is really going on).
 - The process has four steps: state the hypotheses, collect and summarize the data (with a test statistic), assess the evidence with a p-value, and draw conclusions in context.
-- The *p-value* is the probability of getting data like those observed (or more extreme) when $H_0$ is true. The smaller the p-value, the stronger the evidence against $H_0$.
-- If the p-value is below the significance level α (usually 0.05), we reject $H_0$ and accept $H_a$; the results are *statistically significant*. Otherwise we conclude that the data do not provide enough evidence to reject $H_0$—which is *not* the same as accepting $H_0$.
+- The {term}`p-value` is the probability of getting data like those observed (or more extreme) when $H_0$ is true. The smaller the p-value, the stronger the evidence against $H_0$.
+- If the p-value is below the significance level α (usually 0.05), we reject $H_0$ and accept $H_a$; the results are {term}`statistically significant`. Otherwise we conclude that the data do not provide enough evidence to reject $H_0$—which is *not* the same as accepting $H_0$.
 
 ```{note} Video
 [Hypothesis Testing](https://www.youtube.com/watch?v=GzkWcsJyPH4)

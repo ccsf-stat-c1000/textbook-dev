@@ -63,7 +63,7 @@ In other words, and using our regular notations,
 
 P(same blood type) = P([O1 and O2] or [A1 and A2] or [B1 and B2] or [AB1 and AB2])
 
-Since our four possibilities of both people having the same blood type are *disjoint*, using our *Addition Rule* we can add their probabilities (i.e., replace every "or" with +). Also, within each of the four possibilities, we can use the *Multiplication Rule* and replace "and" with × (using the same *independence* argument as the first example on this page). Our answer is therefore:
+Since our four possibilities of both people having the same blood type are *disjoint*, using our *Addition Rule* we can add their probabilities (i.e., replace every "or" with +). Also, within each of the four possibilities, we can use the {term}`Multiplication Rule <multiplication rule>` and replace "and" with × (using the same *independence* argument as the first example on this page). Our answer is therefore:
 
 $$P(\text{same blood type}) = 0.44^2 + 0.42^2 + 0.10^2 + 0.04^2 = 0.1936 + 0.1764 + 0.01 + 0.0016 = 0.3816$$
 

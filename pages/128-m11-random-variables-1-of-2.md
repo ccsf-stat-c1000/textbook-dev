@@ -4,12 +4,12 @@ In the previous two modules we've learned principles and tools that help us find
 
 ## Introduction
 
-We first discussed variables in the Exploratory Data Analysis portion of the course. A variable is a characteristic of an individual. We also made an important distinction between *categorical variables*, whose values are groups or categories (and an individual can be placed into one of them), and *quantitative variables*, which have numerical values for which arithmetic operations make sense. In the previous two modules, we focused mostly on events which arise when there is a categorical variable in the background: blood type, pierced ears (yes/no), gender, on-time delivery (yes/no), side effect (yes/no), etc. Now we will begin to consider quantitative variables that arise when a random experiment is performed. We will need to define this new type of variable.
+We first discussed variables in the Exploratory Data Analysis portion of the course. A variable is a characteristic of an individual. We also made an important distinction between {term}`categorical variables <categorical variable>`, whose values are groups or categories (and an individual can be placed into one of them), and {term}`quantitative variables <quantitative variable>`, which have numerical values for which arithmetic operations make sense. In the previous two modules, we focused mostly on events which arise when there is a categorical variable in the background: blood type, pierced ears (yes/no), gender, on-time delivery (yes/no), side effect (yes/no), etc. Now we will begin to consider quantitative variables that arise when a random experiment is performed. We will need to define this new type of variable.
 
 ```{admonition} Definition: Random Variable
 :class: note
 
-A *random variable* assigns a unique numerical value to the outcome of a random experiment.
+A {term}`random variable` assigns a unique numerical value to the outcome of a random experiment.
 ```
 
 A random variable can be thought of as a function that associates exactly one of the possible numerical outcomes to each trial of a random experiment. However, that number can be the same for many of the trials.
@@ -83,6 +83,6 @@ What is the difference between the random variables in these examples? Let's see
 
 Where they differ is in the type of possible values they can take: In the first two examples, X has three distinct possible values: 0, 1, and 2. You can list them. In contrast, in the third example, X takes any value in the interval 130–135, and thus the possible values of X cover an infinite range of possibilities, and cannot be listed.
 
-A random variable like the one in the first two examples, whose possible values are a list of distinct values, is called a *discrete random variable*. A random variable like the one in the third example, that can take any value in an interval, is called a *continuous random variable*.
+A random variable like the one in the first two examples, whose possible values are a list of distinct values, is called a {term}`discrete random variable`. A random variable like the one in the third example, that can take any value in an interval, is called a {term}`continuous random variable`.
 
 Just as the distinction between categorical and quantitative variables was important in Exploratory Data Analysis, the distinction between discrete and continuous random variables is important here, as each one gets a different treatment when it comes to calculating probabilities and other quantities of interest.

@@ -38,7 +38,7 @@ Consider the following two events:
 In this case, it *is possible* for events A and B to occur together.
 :::
 
-*Definition:* Two events that cannot occur at the same time are called *disjoint* or *mutually exclusive.* (We will use disjoint.)
+*Definition:* Two events that cannot occur at the same time are called {term}`disjoint <disjoint events>` or {term}`mutually exclusive <disjoint events>`. (We will use disjoint.)
 
 We can therefore say that in the first example events A and B are disjoint, and in the second example they are not disjoint. Using Venn diagrams, we can visualize two events that are disjoint and compare them to two events that are not:
 

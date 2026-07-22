@@ -49,7 +49,7 @@ This is a good place to compare and contrast what we're doing here with what we 
 :alt: A pie chart titled Blood Types in the United States. Type O takes up 44% of the pie, A takes 42%, B takes 10%, and AB takes 4%.
 ```
 
-Even though what we're doing here is indeed similar to what we've done in the EDA section, there is a subtle but important difference between the underlying situations in this section and the ones in the Exploratory Data Analysis section. In EDA, we summarized data that were obtained from a *sample* of individuals for whom values of the variable of interest were recorded. Here, when we present the frequency, or probability, of each blood type, we have in mind the entire *population* of people in the United States, for which we are presuming to know the overall frequency of values taken by the variable of interest.
+Even though what we're doing here is indeed similar to what we've done in the EDA section, there is a subtle but important difference between the underlying situations in this section and the ones in the Exploratory Data Analysis section. In EDA, we summarized data that were obtained from a {term}`sample` of individuals for whom values of the variable of interest were recorded. Here, when we present the frequency, or probability, of each blood type, we have in mind the entire {term}`population` of people in the United States, for which we are presuming to know the overall frequency of values taken by the variable of interest.
 ::::
 
 ## Check Your Understanding: The Basic Probability Rules

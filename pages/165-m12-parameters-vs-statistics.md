@@ -5,7 +5,7 @@ To better understand the relationship between sample and population, let's consi
 :::{admonition} Example 1: Blood Type
 :class: tip
 
-In the probability section, we presented the distribution of blood types in the entire U.S. *population*. Assume now that we take a *sample* of 500 people in the United States, record their blood type, and display the sample results. And then we take yet another sample of 500:
+In the probability section, we presented the distribution of blood types in the entire U.S. {term}`population`. Assume now that we take a {term}`sample` of 500 people in the United States, record their blood type, and display the sample results. And then we take yet another sample of 500:
 
 | Blood type | Population | Sample 1 (n = 500) | Sample 2 (n = 500) |
 | --- | --- | --- | --- |
@@ -36,7 +36,7 @@ In both the examples, we have numbers that describe the population, and numbers 
 ```{admonition} Definition: Parameter and Statistic
 :class: note
 
-A *parameter* is a number that describes the population; a *statistic* is a number that is computed from the sample.
+A {term}`parameter` is a number that describes the population; a {term}`statistic` is a number that is computed from the sample.
 ```
 
 In Example 1: 42% is a parameter and 39.6% is a statistic.
@@ -54,8 +54,8 @@ The following table summarizes the three pairs, and gives the notation:
 | | (Population) Parameter | (Sample) Statistic |
 | --- | --- | --- |
 | *Proportion* | $p$ | $\hat{p}$ |
-| *Mean* | $\mu$ | $\bar{x}$ |
-| *Standard Deviation* | $\sigma$ | $s$ |
+| {term}`Mean <mean>` | $\mu$ | $\bar{x}$ |
+| {term}`Standard Deviation <standard deviation>` | $\sigma$ | $s$ |
 
 The only new notation here is p for population proportion (p = 0.42 for type A in Example 1), and $\hat{p}$ ("p-hat") for sample proportion ($\hat{p}$ = 0.396 for type A in Example 1).
 

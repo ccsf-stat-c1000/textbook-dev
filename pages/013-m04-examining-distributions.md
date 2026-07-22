@@ -2,7 +2,7 @@
 
 As indicated in the introduction, we will begin the EDA part of the course by exploring (or looking at) one variable at a time.
 
-As we saw in the Introduction to Exploratory Data Analysis, the data for each variable are a long list of values (whether numerical or not), and are not very informative in that form. In order to convert these raw data into useful information we need to summarize and then examine the *distribution* of the variable. By *distribution* of a variable, we mean:
+As we saw in the Introduction to Exploratory Data Analysis, the data for each variable are a long list of values (whether numerical or not), and are not very informative in that form. In order to convert these raw data into useful information we need to summarize and then examine the {term}`distribution` of the variable. By {term}`distribution` of a variable, we mean:
 
 - what values the variable takes, and
 - how often the variable takes those values.

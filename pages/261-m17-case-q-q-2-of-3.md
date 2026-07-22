@@ -35,7 +35,7 @@ And in general:
 ```{admonition} Comments
 :class: important
 
-1. As we mentioned earlier, we are going to keep this discussion on the qualitative side, and in particular we will not go very deeply into *step 2* of the hypothesis test. As for the *test statistic* in this case, we'll just say that the test is a t-test, which, as we know, means that the null distribution of its test statistic (under which the p-values are calculated) is some t distribution.
+1. As we mentioned earlier, we are going to keep this discussion on the qualitative side, and in particular we will not go very deeply into *step 2* of the hypothesis test. As for the {term}`test statistic` in this case, we'll just say that the test is a t-test, which, as we know, means that the null distribution of its test statistic (under which the p-values are calculated) is some t distribution.
 
 2. We are also going to focus on only some of the *conditions* that allow us to safely use this t-test. They are: the observed data indeed look linear (otherwise it would not make sense to try to generalize a linear relationship); the observations are independent; there are no extreme outliers in the data; and the sample size is fairly large.
 

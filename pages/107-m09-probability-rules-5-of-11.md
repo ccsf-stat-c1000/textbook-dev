@@ -35,7 +35,7 @@ The version of rule 5 that will be presented here applies to the special case in
 ```{admonition} Definition: Independent
 :class: note
 
-Two events A and B are said to be *independent* if the fact that one event has occurred *does not affect* the probability that the other event will occur. If whether or not one event occurs *does affect* the probability that the other event will occur, then the two events are said to be *dependent.*
+Two events A and B are said to be {term}`independent <independent events>` if the fact that one event has occurred *does not affect* the probability that the other event will occur. If whether or not one event occurs *does affect* the probability that the other event will occur, then the two events are said to be {term}`dependent <dependent events>`.
 ```
 
 Here are a few examples:
@@ -88,11 +88,11 @@ If we were to change the example to: There are 10 people in a room, 4 of whom ha
 
 ## Disjoint vs. Independent Events
 
-It is quite common for students to initially get confused about the distinction between the idea of *disjoint events* and the idea of *independent events*. The purpose of this comment (and the activity that follows it) is to help students develop more understanding about these very different ideas.
+It is quite common for students to initially get confused about the distinction between the idea of {term}`disjoint events` and the idea of {term}`independent events`. The purpose of this comment (and the activity that follows it) is to help students develop more understanding about these very different ideas.
 
 The idea of *disjoint events* is about whether or not it is possible for the events to occur at the same time.
 
-The idea of *independent events* is about whether or not the events affect each other in the sense that the occurrence of one event affects the probability of the occurrence of the other.
+The idea of {term}`independent events` is about whether or not the events affect each other in the sense that the occurrence of one event affects the probability of the occurrence of the other.
 
 In each of the following questions, you are presented with a random experiment and two events related to it. You are asked to decide whether the events are disjoint or not, and whether the events are independent or not.
 

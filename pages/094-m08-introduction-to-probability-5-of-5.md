@@ -14,7 +14,7 @@ In any *particular* series of flips, the proportion of heads will usually not be
 :alt: A line chart of the proportion of heads against the number of coin flips, from 0 to 1,000. The line starts far from 0.5, swinging as high as 0.7 in the early flips, then oscillates less and less and settles very close to the dashed line at 0.5 as the number of flips grows.
 ```
 
-In the short run the proportion bounces around, but in the long run it settles down toward 0.5. This is the empirical way of seeing that P(H) = 0.5: the probability of an event is the *relative frequency* with which the event occurs in a long series of repetitions. (This long-run behavior is known as the *law of large numbers*.)
+In the short run the proportion bounces around, but in the long run it settles down toward 0.5. This is the empirical way of seeing that P(H) = 0.5: the probability of an event is the {term}`relative frequency` with which the event occurs in a long series of repetitions. (This long-run behavior is known as the {term}`law of large numbers`.)
 
 ## A Second Question
 

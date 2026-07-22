@@ -1,6 +1,6 @@
 # Relative Frequency: Estimating Probability from Data
 
-If we toss a coin, roll a die, or spin a spinner many times, we hardly ever achieve the exact *theoretical* probabilities that we know we should get, but we can get pretty close. When we run a simulation or when we use a random sample and record the results, we are using *empirical* probability. This is often called the *Relative Frequency* definition of probability.
+If we toss a coin, roll a die, or spin a spinner many times, we hardly ever achieve the exact *theoretical* probabilities that we know we should get, but we can get pretty close. When we run a simulation or when we use a random sample and record the results, we are using *empirical* probability. This is often called the {term}`Relative Frequency <relative frequency>` definition of probability.
 
 Here is a realistic example where the relative frequency method was used to find the probabilities:
 

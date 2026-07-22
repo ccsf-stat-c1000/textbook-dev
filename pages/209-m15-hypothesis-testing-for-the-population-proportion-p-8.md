@@ -6,7 +6,7 @@ This last part of the four-step process of hypothesis testing is the same across
 
 The p-value is a measure of how much evidence the data present against $H_0$. The smaller the p-value, the more evidence the data present against $H_0$.
 
-We already mentioned that what determines what constitutes enough evidence against $H_0$ is the *significance level* (α), a cutoff point below which the p-value is considered small enough to reject $H_0$ in favor of $H_a$. The most commonly used significance level is 0.05.
+We already mentioned that what determines what constitutes enough evidence against $H_0$ is the {term}`significance level` (α), a cutoff point below which the p-value is considered small enough to reject $H_0$ in favor of $H_a$. The most commonly used significance level is 0.05.
 
 It is important to mention again that this step has essentially two sub-steps:
 

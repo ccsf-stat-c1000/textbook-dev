@@ -16,7 +16,7 @@ There are many normal distributions. Even though all of them have the bell-shape
 :alt: Three normal curves. A black curve and a red curve are both centered at 10, but the red curve is flatter and more spread out, indicating a larger standard deviation. A green curve has the same shape and spread as the black curve but is centered at 14.
 ```
 
-More specifically, the center of the distribution is determined by its *mean* ($\mu$) and the spread is determined by its standard deviation ($\sigma$).
+More specifically, the center of the distribution is determined by its {term}`mean` ($\mu$) and the spread is determined by its standard deviation ($\sigma$).
 
 Some observations we can make as we look at this graph are:
 

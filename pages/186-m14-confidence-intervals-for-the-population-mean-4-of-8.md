@@ -19,7 +19,7 @@ where z\* is a general notation for the multiplier that depends on the level of 
 To start our discussion about the structure of the confidence interval, let's denote the quantity $z^{*}\cdot\frac{\sigma}{\sqrt{n}}$ by m. The confidence interval, then, has the form: $\bar{x} \pm m$, where:
 
 - $\bar{x}$ is the sample mean, the point estimator for the unknown population mean (μ).
-- *m* is called the *margin of error*, since it represents the maximum estimation error for a given level of confidence.
+- *m* is called the {term}`margin of error`, since it represents the maximum estimation error for a given level of confidence.
 
 For example, for a 95% confidence interval, we are 95% sure that our estimate will not depart from the true population mean by more than m, the margin of error.
 

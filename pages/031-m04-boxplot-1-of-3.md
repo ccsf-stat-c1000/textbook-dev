@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Before we move on to the third measure of spread (standard deviation), we'll summarize what we've learned so far about measuring spread and use it to introduce another graphical display of the distribution of a quantitative variable, the *boxplot*.
+Before we move on to the third measure of spread (standard deviation), we'll summarize what we've learned so far about measuring spread and use it to introduce another graphical display of the distribution of a quantitative variable, the {term}`boxplot`.
 
 ## The Five Number Summary
 

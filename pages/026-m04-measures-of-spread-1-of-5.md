@@ -20,7 +20,7 @@ Like the different measures of center, these measures provide different ways to 
 
 ## Range
 
-The *range* covered by the data is the most intuitive measure of variability. The range is exactly the distance between the smallest data point (min) and the largest one (Max).
+The {term}`range` covered by the data is the most intuitive measure of variability. The range is exactly the distance between the smallest data point (min) and the largest one (Max).
 
 - Range = Max − min
 

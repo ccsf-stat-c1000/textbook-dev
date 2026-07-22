@@ -14,7 +14,7 @@ As the figure explains, when describing the *overall pattern* of the relationshi
 
 ### Direction
 
-The *direction* of the relationship can be positive, negative, or neither:
+The {term}`direction` of the relationship can be positive, negative, or neither:
 
 - A *positive (or increasing) relationship* means that an increase in one of the variables is associated with an increase in the other.
 - A *negative (or decreasing) relationship* means that an increase in one of the variables is associated with a decrease in the other.
@@ -22,7 +22,7 @@ The *direction* of the relationship can be positive, negative, or neither:
 
 ### Form
 
-The *form* of the relationship is its general shape. When identifying the form, we try to find the simplest way to describe the shape of the scatterplot. There are many possible forms. Here are a couple that are quite common:
+The {term}`form` of the relationship is its general shape. When identifying the form, we try to find the simplest way to describe the shape of the scatterplot. There are many possible forms. Here are a couple that are quite common:
 
 Relationships with a *linear* form are most simply described as points scattered about a line:
 
@@ -44,7 +44,7 @@ There are many other possible forms for the relationship between two quantitativ
 
 ### Strength
 
-The *strength* of the relationship is determined by how closely the data follow the form of the relationship. Let's look, for example, at the following two scatterplots displaying positive, linear relationships:
+The {term}`strength` of the relationship is determined by how closely the data follow the form of the relationship. Let's look, for example, at the following two scatterplots displaying positive, linear relationships:
 
 ```{figure} images/gen/m05-strength-strong-weak.svg
 :alt: Two scatterplots side by side, both showing positive linear relationships. In the left plot the points hug the line tightly, a strong relationship. In the right plot the points follow the line only loosely, a weaker relationship.
@@ -54,7 +54,7 @@ The strength of the relationship is determined by how closely the data points fo
 
 ### Outliers
 
-Data points that *deviate from the pattern* of the relationship are called *outliers*. We will see several examples of outliers during this section. Two outliers are illustrated in the scatterplot below:
+Data points that *deviate from the pattern* of the relationship are called {term}`outliers <outlier>`. We will see several examples of outliers during this section. Two outliers are illustrated in the scatterplot below:
 
 ```{figure} images/gen/m05-scatter-outliers.svg
 :alt: A scatterplot with a positive linear pattern rising from lower left to upper right, plus two red points that do not participate in the pattern at all: one far below the cloud of points and one in the upper left, far from the rest.

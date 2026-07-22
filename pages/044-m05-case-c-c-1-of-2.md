@@ -31,7 +31,7 @@ Here is what the raw data look like when we include the gender of each student:
 | student 29 | M | about right |
 | ... | ... | ... |
 
-Once again the raw data is a long list of 1,200 genders and responses, and thus not very useful in that form. To start our exploration of how body image is related to gender, we need an informative display that summarizes the data. In order to summarize the relationship between two categorical variables, we create a display called a *two-way table*.
+Once again the raw data is a long list of 1,200 genders and responses, and thus not very useful in that form. To start our exploration of how body image is related to gender, we need an informative display that summarizes the data. In order to summarize the relationship between two categorical variables, we create a display called a {term}`two-way table`.
 
 Here is the two-way table for our example:
 

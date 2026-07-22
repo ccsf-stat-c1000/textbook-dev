@@ -47,7 +47,7 @@ The t distribution is another bell-shaped (unimodal and symmetric) distribution,
 
 So how is the t distribution fundamentally *different* from the normal distribution?
 
-The *spread*.
+The {term}`spread`.
 
 The following picture illustrates the fundamental difference between the normal distribution and the t distribution:
 
@@ -61,7 +61,7 @@ This reflects the fact that the t distribution *has a larger spread* than the no
 
 Therefore, the t distribution ends up being the appropriate model in certain cases where there is *more variability* than would be predicted by the normal distribution. One of these cases is stock values, which have more variability (or "volatility," to use the economic term) than would be predicted by the normal distribution.
 
-There's actually an entire family of t distributions. They all have similar formulas (the math is beyond the scope of this introductory course), and they all have slightly fatter tails than the normal distribution. But some are closer to normal than others. The t distributions that are closer to normal are said to have higher *degrees of freedom*. So there's a t distribution "with 1 degree of freedom," another t distribution "with 2 degrees of freedom" which is slightly closer to normal, another "with 3 degrees of freedom" which is a bit closer to normal than the previous ones, and so on.
+There's actually an entire family of t distributions. They all have similar formulas (the math is beyond the scope of this introductory course), and they all have slightly fatter tails than the normal distribution. But some are closer to normal than others. The t distributions that are closer to normal are said to have higher {term}`degrees of freedom`. So there's a t distribution "with 1 degree of freedom," another t distribution "with 2 degrees of freedom" which is slightly closer to normal, another "with 3 degrees of freedom" which is a bit closer to normal than the previous ones, and so on.
 
 The following picture illustrates this idea with a couple of t distributions (note that "degrees of freedom" is abbreviated "d.f."):
 

@@ -27,7 +27,7 @@ We think you will agree that the word *probability* is a bit long to include in 
 
 If we wish to indicate "the probability it will rain tomorrow," we use the notation "P(rain tomorrow)." We can abbreviate the probability of anything. If we let *A* represent what we wish to find the probability of, then *P(A)* would represent that probability.
 
-We can think of "*A*" as an "*event*."
+We can think of "*A*" as an "{term}`event`."
 
 | NOTATION | MEANING |
 | --- | --- |

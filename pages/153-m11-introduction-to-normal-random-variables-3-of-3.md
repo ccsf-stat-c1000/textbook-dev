@@ -26,7 +26,7 @@ How many standard deviations below or above the mean male foot length is 13 inch
 (13 in. − 11 in.) / (1.5 inches per standard deviation) = (13 − 11) / 1.5 standard deviations = +1.33 standard deviations.
 :::
 
-In the language of statistics, we have just found the *z-score* for a male foot length of 13 inches to be z = +1.33. Or, to put it another way, we have *standardized* the value of 13. In general, the standardized value z tells how many standard deviations below or above the mean the original value is, and is calculated as follows:
+In the language of statistics, we have just found the {term}`z-score` for a male foot length of 13 inches to be z = +1.33. Or, to put it another way, we have *standardized* the value of 13. In general, the standardized value z tells how many standard deviations below or above the mean the original value is, and is calculated as follows:
 
 *z-score = (value − mean)/standard deviation*
 

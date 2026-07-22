@@ -16,7 +16,7 @@ We are now moving on to cases in which the categorical explanatory variable take
 The extension of the matched pairs design to more than two dependent samples is called "repeated measures" and is beyond the scope of this course.
 ```
 
-The inferential method for comparing more than two means that we will introduce in this part is called *Analysis of Variance* (abbreviated as ANOVA), and the test associated with this method is called the *ANOVA F-test*. The structure of this part will be very similar to that of the previous two. We will first present our leading example, and then introduce the ANOVA F-test by going through its 4 steps, illustrating each one using the example. (It will become clear as we explain the idea behind the test where the name "Analysis of Variance" comes from.) We will then present another complete example, and conclude with some comments about possible follow-ups to the test.
+The inferential method for comparing more than two means that we will introduce in this part is called {term}`Analysis of Variance <analysis of variance>` (abbreviated as ANOVA), and the test associated with this method is called the *ANOVA F-test*. The structure of this part will be very similar to that of the previous two. We will first present our leading example, and then introduce the ANOVA F-test by going through its 4 steps, illustrating each one using the example. (It will become clear as we explain the idea behind the test where the name "Analysis of Variance" comes from.) We will then present another complete example, and conclude with some comments about possible follow-ups to the test.
 
 Let's start by introducing our leading example.
 

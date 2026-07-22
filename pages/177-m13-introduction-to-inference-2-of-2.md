@@ -8,7 +8,7 @@ We introduce three forms of statistical inference in this unit, each one represe
 
 Obviously, each one of these forms of inference will be discussed at length in this section, but it would be useful to get at least an intuitive sense of the nature of each of these inference forms, and the difference between them in terms of the type of conclusions they draw about the population based on the sample results.
 
-In *point estimation*, we estimate an unknown parameter using a *single number* that is calculated from the sample data.
+In {term}`point estimation <point estimate>`, we estimate an unknown parameter using a *single number* that is calculated from the sample data.
 
 :::{admonition} Example: Point Estimation
 :class: tip
@@ -24,7 +24,7 @@ In *interval estimation*, we estimate an unknown parameter using an *interval of
 Based on sample results, we are 95% confident that p, the proportion of U.S. adults who are in favor of stricter gun control, is between 0.57 and 0.63.
 :::
 
-In *hypothesis testing*, we have some claim about the population, and we check *whether or not the data* obtained from the sample *provide evidence against this claim.*
+In {term}`hypothesis testing`, we have some claim about the population, and we check *whether or not the data* obtained from the sample *provide evidence against this claim.*
 
 :::{admonition} Example: Hypothesis Testing 1
 :class: tip

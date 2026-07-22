@@ -10,14 +10,14 @@ So far, we've discussed the first two steps:
 
 *Producing data*—how data are obtained and what considerations affect the data production process.
 
-*Exploratory data analysis*—tools that help us get a first feel for the data, by exposing their features using graphs and numbers.
+{term}`Exploratory data analysis <exploratory data analysis>`—tools that help us get a first feel for the data, by exposing their features using graphs and numbers.
 
 % UNIT ORDER: if the units are switched back to EDA-first, restore this
 % parenthetical after the two items above:
 % "(Recall that the structure of this course is such that exploratory data
 % analysis was covered first, followed by producing data.)"
 
-Our eventual goal is *inference*—drawing reliable conclusions about the population based on what we've discovered in our sample. In order to really understand how inference works, though, we first need to talk about *probability*, because it is the underlying foundation for the methods of statistical inference. We use an example to explain why probability is so essential to inference.
+Our eventual goal is {term}`inference`—drawing reliable conclusions about the population based on what we've discovered in our sample. In order to really understand how inference works, though, we first need to talk about {term}`probability`, because it is the underlying foundation for the methods of statistical inference. We use an example to explain why probability is so essential to inference.
 
 First, here is the general idea: As we all know, the way statistics works is that we use a sample to learn about the population from which it was drawn. Ideally, the sample should be random so that it represents the population well.
 

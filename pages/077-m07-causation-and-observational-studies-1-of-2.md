@@ -2,7 +2,7 @@
 
 ## Causation and Observational Studies
 
-Suppose the *observational study* described on the previous page were carried out, and researchers determined that the percentage succeeding with the combination drug/therapy method was highest, while the percentage succeeding with neither therapy nor drugs was lowest. In other words, suppose there is clear evidence of an association between method used and success rate. Could they then conclude that the combination drug/therapy method causes success more than using neither therapy nor a drug?
+Suppose the {term}`observational study` described on the previous page were carried out, and researchers determined that the percentage succeeding with the combination drug/therapy method was highest, while the percentage succeeding with neither therapy nor drugs was lowest. In other words, suppose there is clear evidence of an association between method used and success rate. Could they then conclude that the combination drug/therapy method causes success more than using neither therapy nor a drug?
 
 ```{figure} images/gen/m07-method-response.svg
 :alt: A diagram with the explanatory variable, method, connected by an arrow labeled causes with a question mark to the response variable, success or failure.

@@ -10,7 +10,7 @@ Recall that a confidence interval gives us a set of plausible values for the unk
 
 In fact, the information provided by a confidence interval can be formally related to the information provided by a hypothesis test. (*Comment:* the relationship is more straightforward for two-sided alternatives, and so we will not present results for the one-sided cases.)
 
-Suppose we want to carry out the *two-sided test* $H_0: p = p_0$ vs. $H_a: p \neq p_0$ using a significance level of 0.05. An alternative way to perform this test is to find a 95% *confidence interval* for p and check:
+Suppose we want to carry out the *two-sided test* $H_0: p = p_0$ vs. $H_a: p \neq p_0$ using a significance level of 0.05. An alternative way to perform this test is to find a 95% {term}`confidence interval` for p and check:
 
 - If $p_0$ falls *outside* the confidence interval, *reject* $H_0$.
 - If $p_0$ falls *inside* the confidence interval, *do not reject* $H_0$.

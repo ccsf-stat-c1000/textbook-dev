@@ -33,6 +33,6 @@ The labeled scatterplot reveals two interesting features:
 
 ## Let's Summarize
 
-- The relationship between two quantitative variables is visually displayed using the *scatterplot*, where each point represents an individual. We always plot the explanatory variable on the horizontal X axis, and the response variable on the vertical Y axis.
+- The relationship between two quantitative variables is visually displayed using the {term}`scatterplot`, where each point represents an individual. We always plot the explanatory variable on the horizontal X axis, and the response variable on the vertical Y axis.
 - When we explore a relationship using the scatterplot we should describe the *overall pattern* of the relationship and any *deviations* from that pattern. To describe the overall pattern consider the *direction*, *form* and *strength* of the relationship. Assessing the strength just by looking at the scatterplot can be problematic; using a numerical measure to determine strength will be discussed later in this course.
 - Adding labels to the scatterplot that indicate different groups or categories within the data might help us get more insight about the relationship we are exploring.

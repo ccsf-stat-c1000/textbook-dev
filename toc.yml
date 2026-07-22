@@ -63,3 +63,8 @@ project:
     - title: "Section 14: Inference for Relationships Continued"
       children:
       - pattern: pages/*m17*.md
+  # Reference matter. glossary.md holds every {term} definition. Keep it last
+  # so it stays out of the module numbering.
+  - title: "Reference"
+    children:
+    - file: pages/glossary.md

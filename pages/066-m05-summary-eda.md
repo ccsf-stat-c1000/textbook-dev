@@ -5,9 +5,9 @@ This summary provides a quick recap of the material you've learned in the Explor
 - The purpose of exploratory data analysis (EDA) is to convert the available *data* from their raw form to an informative one, in which the main features of the data are illuminated.
 - When performing EDA, we should always:
   - use *visual displays* (graphs or tables) plus *numerical summaries*.
-  - describe the *overall pattern* and mention any *striking deviations*from that pattern.
-  - *interpret*the results we got *in context*.
-- When examining the *distribution* of a single variable, we distinguish between a *categorical*variable and a *quantitative* variable.
+  - describe the *overall pattern* and mention any *striking deviations* from that pattern.
+  - *interpret* the results we got *in context*.
+- When examining the {term}`distribution` of a single variable, we distinguish between a {term}`categorical variable` and a {term}`quantitative variable`.
 - The distribution of a *categorical* variable is summarized using:
   - Display: pie-chart or bar-chart (variation: pictogram → can be misleading—beware!)
   - Numerical summaries: category (group) percentages.
@@ -18,8 +18,8 @@ This summary provides a quick recap of the material you've learned in the Explor
   - Numerical summaries: descriptive statistics (measure of center plus measure of spread):
     - If distribution is symmetric with no outliers, use mean and standard deviation.
     - Otherwise, use the five-number summary, in particular, median and IQR (inter-quartile range).
-- The five-number summary and the 1.5(IQR) Criterion for detecting outliers are the ingredients we need to build the *boxplot*. Boxplots are most effective when used side-by-side for comparing distributions (see also case C→Q in examining relationships).
-- In the special case of a distribution having the normal shape, the **Standard Deviation Rule** applies. This rule tells us approximately what percent of the observations fall within 1,2, or 3 standard deviations away from the mean. In particular, when a distribution is approximately normal, almost all the observations (99.7%) fall within 3 standard deviations of the mean.
+- The five-number summary and the 1.5(IQR) Criterion for detecting outliers are the ingredients we need to build the {term}`boxplot`. Boxplots are most effective when used side-by-side for comparing distributions (see also case C→Q in examining relationships).
+- In the special case of a distribution having the normal shape, the {term}`Standard Deviation Rule <empirical rule>` applies. This rule tells us approximately what percent of the observations fall within 1,2, or 3 standard deviations away from the mean. In particular, when a distribution is approximately normal, almost all the observations (99.7%) fall within 3 standard deviations of the mean.
 - When examining the relationship between two variables, the first step is to classify the two relevant variables according to their role and type: and only then to determine the appropriate tools for summarizing the data. (We don't deal with case Q→C in this course).
 - Case C→Q: Exploring the relationship amounts to *comparing the distributions* of the quantitative response variable for each category of the explanatory variable. To do this, we use:
   - Display: side-by-side boxplots.
@@ -38,4 +38,4 @@ This summary provides a quick recap of the material you've learned in the Explor
       - The slope of the regression line tells us the average change in the response variable that results from a 1-unit increase in the explanatory variable.
       - When using the regression line for predictions, you should beware of extrapolation.
 - When examining the relationship between two variables (regardless of the case), any *observed relationship* (association) *does not imply causation*, due to the possible presence of lurking variables.
-- When we include a lurking variable in our analysis, we might need to rethink the direction of the relationship → *Simpson's paradox*.
+- When we include a lurking variable in our analysis, we might need to rethink the direction of the relationship → {term}`Simpson's paradox`.
