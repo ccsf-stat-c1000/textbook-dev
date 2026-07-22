@@ -20,7 +20,7 @@ function esc(s) {
 function renderInline(text) {
   let html = esc(text);
   html = html.replace(/`([^`]+)`/g, (_, c) =>
-    `<code style="background:#e2e8f0;border-radius:3px;padding:1px 4px;font-size:.88em;font-family:ui-monospace,monospace">${c}</code>`
+    `<code class="q-code">${c}</code>`
   );
   html = html.replace(/\$([^$]+)\$/g, (_, m) =>
     `<em style="font-style:italic">${m}</em>`
@@ -33,7 +33,7 @@ function renderChoice(text) {
   if (fence) {
     const lang = esc(fence[1]);
     const code = esc(fence[2]);
-    return `<pre style="margin:4px 0 0;padding:7px 10px;border-radius:3px;background:#f1f5f9;font-size:.82em;font-family:ui-monospace,monospace;overflow-x:auto;white-space:pre;line-height:1.5"><code${lang ? ` class="language-${lang}"` : ''}>${code}</code></pre>`;
+    return `<pre class="q-pre"><code${lang ? ` class="language-${lang}"` : ''}>${code}</code></pre>`;
   }
   return renderInline(text);
 }
@@ -75,6 +75,19 @@ const CSS = `
 .choice:hover { border-color: #0284c7; background: #f0f9ff; }
 .choice input { margin-top: 2px; accent-color: #0284c7; flex-shrink: 0; cursor: pointer; }
 .choice-text { flex: 1; }
+
+/* Inline code + code fences inside questions/choices */
+.q-code {
+  background: #e2e8f0; color: #0f172a;
+  border-radius: 3px; padding: 1px 4px;
+  font-size: .88em; font-family: ui-monospace, monospace;
+}
+.q-pre {
+  margin: 4px 0 0; padding: 7px 10px; border-radius: 3px;
+  background: #f1f5f9; color: #0f172a;
+  font-size: .82em; font-family: ui-monospace, monospace;
+  overflow-x: auto; white-space: pre; line-height: 1.5;
+}
 
 /* Per-choice feedback shown beneath the choice after submission */
 .choice-feedback {
@@ -136,26 +149,30 @@ button {
 .btn-reset { background: transparent; color: #0284c7; border-color: #0284c7; display: none; }
 .btn-reset:hover { background: #e0f2fe; }
 
-@media (prefers-color-scheme: dark) {
-  .quiz { background: #0c1a27; border-color: #1e3a4f; border-left-color: #0284c7; color: #e2e8f0; }
-  .quiz-hdr { background: #0c2940; border-color: #1e4060; color: #7dd3fc; }
-  .choice { background: #1a2535; border-color: #2d3f55; color: #e2e8f0; }
-  .choice:hover { background: #0c2030; border-color: #0284c7; }
-  .choice.ok     { background: #052e16 !important; border-color: #16a34a !important; }
-  .choice.bad    { background: #2d0a0a !important; border-color: #dc2626 !important; }
-  .choice.missed { background: #1c1208 !important; border-color: #d97706 !important; }
-  .choice-feedback { background: #1e2d3d; color: #94a3b8; border-left-color: #475569; }
-  .choice-feedback.fb-correct  { background: #052e16; color: #4ade80; border-left-color: #16a34a; }
-  .choice-feedback.fb-incorrect{ background: #2d0a0a; color: #f87171; border-left-color: #dc2626; }
-  .choice-feedback.fb-missed   { background: #1c1208; color: #fcd34d; border-left-color: #d97706; }
-  .fb.ok  { background: #052e16; color: #4ade80; border-color: #14532d; }
-  .fb.bad { background: #2d0a0a; color: #f87171; border-color: #7f1d1d; }
-  .hint-box { background: #1c1208; color: #fde68a; }
-  .expl-box { background: #0c1a27; color: #7dd3fc; }
-  .btn-hint  { background: #1c1208; color: #fde68a; border-color: #ca8a04; }
-  .btn-reset { color: #38bdf8; border-color: #38bdf8; }
-  .btn-reset:hover { background: #0c2030; }
-}
+/* Dark mode — driven by the MyST .dark class on <html>, mirrored onto the
+   host as [data-theme="dark"] (see render). We avoid prefers-color-scheme
+   so the widget follows the site's theme toggle, not the OS setting. */
+:host([data-theme="dark"]) .quiz { background: #0c1a27; border-color: #1e3a4f; border-left-color: #0284c7; color: #e2e8f0; }
+:host([data-theme="dark"]) .quiz-hdr { background: #0c2940; border-color: #1e4060; color: #7dd3fc; }
+:host([data-theme="dark"]) .question { color: #e2e8f0; }
+:host([data-theme="dark"]) .choice { background: #1a2535; border-color: #2d3f55; color: #e2e8f0; }
+:host([data-theme="dark"]) .choice:hover { background: #0c2030; border-color: #0284c7; }
+:host([data-theme="dark"]) .choice.ok     { background: #052e16 !important; border-color: #16a34a !important; }
+:host([data-theme="dark"]) .choice.bad    { background: #2d0a0a !important; border-color: #dc2626 !important; }
+:host([data-theme="dark"]) .choice.missed { background: #1c1208 !important; border-color: #d97706 !important; }
+:host([data-theme="dark"]) .choice-feedback { background: #1e2d3d; color: #94a3b8; border-left-color: #475569; }
+:host([data-theme="dark"]) .choice-feedback.fb-correct  { background: #052e16; color: #4ade80; border-left-color: #16a34a; }
+:host([data-theme="dark"]) .choice-feedback.fb-incorrect{ background: #2d0a0a; color: #f87171; border-left-color: #dc2626; }
+:host([data-theme="dark"]) .choice-feedback.fb-missed   { background: #1c1208; color: #fcd34d; border-left-color: #d97706; }
+:host([data-theme="dark"]) .fb.ok  { background: #052e16; color: #4ade80; border-color: #14532d; }
+:host([data-theme="dark"]) .fb.bad { background: #2d0a0a; color: #f87171; border-color: #7f1d1d; }
+:host([data-theme="dark"]) .hint-box { background: #1c1208; color: #fde68a; }
+:host([data-theme="dark"]) .expl-box { background: #0c1a27; color: #7dd3fc; }
+:host([data-theme="dark"]) .btn-hint  { background: #1c1208; color: #fde68a; border-color: #ca8a04; }
+:host([data-theme="dark"]) .btn-reset { color: #38bdf8; border-color: #38bdf8; }
+:host([data-theme="dark"]) .btn-reset:hover { background: #0c2030; }
+:host([data-theme="dark"]) .q-code { background: #334155; color: #e2e8f0; }
+:host([data-theme="dark"]) .q-pre  { background: #0f1a2a; color: #e2e8f0; }
 `;
 
 // ── Render ────────────────────────────────────────────────────────────────────
@@ -213,6 +230,29 @@ function render({ model, el }) {
       </div>
     </div>`;
   shadow.appendChild(root);
+
+  // ── Theme sync ──────────────────────────────────────────────────────────────
+  // MyST toggles dark mode with a `.dark` class on <html>, independent of the
+  // OS preference. Shadow DOM can't read that ancestor class in CSS, so mirror
+  // it onto the host as [data-theme] and keep it in sync with the site toggle.
+  // Wrapped defensively so a theming hiccup can never block the widget itself.
+  let themeObserver = null;
+  try {
+    const syncTheme = () => {
+      const dark = document.documentElement.classList.contains('dark');
+      el.setAttribute('data-theme', dark ? 'dark' : 'light');
+    };
+    syncTheme();
+    if (typeof MutationObserver !== 'undefined') {
+      themeObserver = new MutationObserver(syncTheme);
+      themeObserver.observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['class'],
+      });
+    }
+  } catch (e) {
+    /* theming is non-essential; ignore */
+  }
 
   // ── References ──────────────────────────────────────────────────────────────
   const choiceEls  = [...shadow.querySelectorAll('.choice')];
@@ -293,7 +333,7 @@ function render({ model, el }) {
     btnReset.style.display = 'none';
   });
 
-  return () => shadow.innerHTML = '';
+  return () => { if (themeObserver) themeObserver.disconnect(); shadow.innerHTML = ''; };
 }
 
 export default { render };

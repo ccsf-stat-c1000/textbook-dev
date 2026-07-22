@@ -1,0 +1,30 @@
+/*
+ * custom.css — site-wide overrides for the MyST book-theme.
+ *
+ * Wired up via myst.yml:
+ *   site:
+ *     options:
+ *       style: custom.css
+ *
+ * Dark mode is signalled by a .dark class on <html> (Tailwind class
+ * strategy), so all rules below key off that class.
+ */
+
+/*
+ * Figure / diagram legibility in dark mode.
+ *
+ * The generated SVG diagrams (and many OLI GIF diagrams) draw dark ink —
+ * axes, labels, gridlines — on a transparent background. On a dark page
+ * that content nearly vanishes. Sit these figures on a soft tinted panel
+ * so the artwork reads exactly as drawn (colors unchanged) without the
+ * glare of a pure-white box. PNG tables that already have a white
+ * background blend into the panel seamlessly.
+ */
+html.dark img[src$=".svg"],
+html.dark img[src$=".gif"],
+html.dark figure img {
+  background: #dce3ec;
+  border: 1px solid #3a4453;
+  border-radius: 6px;
+  padding: 10px;
+}

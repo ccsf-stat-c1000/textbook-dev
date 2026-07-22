@@ -15,6 +15,17 @@ project:
     - pages/*m02*.md
   plugins:
     - pages/quiz.mjs
+  # Give every page a flat, stable page number (1, 2, 3, ...) following
+  # toc.yml reading order. The number renders in the sidebar and page title so
+  # instructors can say "open page 30" in class and students land in one place.
+  # `offset: 0` keeps numbering flat; without it MyST nests it as "1.1.28",
+  # because the Unit/Section headings in toc.yml are labels, not pages.
+  # Page numbers shift if pages are added, removed, or reordered; re-run
+  # scripts/make_page_index.py afterwards to refresh the instructor index.
+  numbering:
+    title:
+      enabled: true
+      offset: 0
 
 extends:
   - toc.yml
