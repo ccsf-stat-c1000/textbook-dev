@@ -10,9 +10,7 @@ version: 1
 project:
   toc:
   - file: pages/intro.md
-  - title: "The Big Picture"
-    children:
-    - pattern: pages/*m03*.md
+  - file: pages/009-m03-the-big-picture.md
   - title: "Unit 1: Producing Data"
     children:
     - title: "Section 1: Sampling"
