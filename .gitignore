@@ -1,2 +1,5 @@
 # MyST build outputs
 _build
+
+# PDF build (scripts/build_pdf.py); the staging dir is a sibling of the repo
+introduction-to-statistics.pdf

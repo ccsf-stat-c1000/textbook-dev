@@ -36,6 +36,35 @@ conda activate statc1000book
 jupyter book start
 ```
 
+## Building the PDF
+
+The website is the primary format; the PDF is a derived print edition.
+
+```bash
+conda activate statc1000book
+pip install pyyaml pillow cairosvg
+conda install -c conda-forge tectonic     # or any latexmk/xelatex install
+
+python scripts/build_pdf.py --dry-run     # stage and inspect first
+python scripts/build_pdf.py               # full build
+```
+
+Writes `introduction-to-statistics.pdf` to the repo root.
+
+The script stages a rewritten copy of the book in `../textbook-dev-pdf-build/`
+(outside the repo, because `myst build` inherits any `myst.yml` it finds in a
+parent directory). In that copy:
+
+- `{quiz}` / `{quiz-multi}` widgets become static numbered questions, with the
+  correct answers collected into an **Answer Key** at the back. Hints stay with
+  the question; feedback and explanations move to the key.
+- `.gif` figures become `.png` and `.svg` figures become `.pdf`, since LaTeX
+  can embed neither original format.
+- Page headings are stamped with the same page numbers the website shows, so
+  "open page 30" means the same thing in both editions.
+
+Re-run it whenever pages change. Nothing in the source tree is modified.
+
 ## Reproducibility
 
 ### Save your environment
