@@ -26,7 +26,7 @@ However, even if we managed to select a representative sample for a survey, we a
 
 *Question:* "What is your favorite kind of music?"
 
-This is what we call an *open question*, which allows for almost unlimited responses. It may be difficult to make sense of all the possible categories and subcategories of music that survey respondents could come up with. Some may be more general than what you had in mind ("I like modern music the best") and others too specific ("I like Japanese alternative electronic rock by Cornelius"). Responses are much easier to handle if they come from a*closed question:*
+This is what we call an *open question*, which allows for almost unlimited responses. It may be difficult to make sense of all the possible categories and subcategories of music that survey respondents could come up with. Some may be more general than what you had in mind ("I like modern music the best") and others too specific ("I like Japanese alternative electronic rock by Cornelius"). Responses are much easier to handle if they come from a *closed question*.
 
 *Question:* Which of these types of music do you prefer: classical, rock, pop, or hip-hop?
 

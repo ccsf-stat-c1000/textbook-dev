@@ -62,7 +62,7 @@ $$\sigma_{X}=\sqrt{\sigma_{X}^{2}}$$
 
 :::{quiz} Recall Yves' production line: values 0-4 with probabilities 0.05, 0.05, 0.10, 0.75, 0.05, mean 2.7. Without computing, how should Yves' standard deviation compare to Xavier's (σ = 1.21)?
 :hint: How concentrated is Yves' distribution around its mean?
-:feedback-0: Correct! Yves' distribution piles 75% of its probability on the single value 3, right next to its mean, so its typical deviation is much smaller. (In fact σ(Y) ≈ 0.9.)
+:feedback-0: Correct! Yves' distribution piles 75% of its probability on the single value 3, right next to its mean, so its typical deviation is much smaller. (In fact σ(Y) ≈ 0.85.)
 :feedback-1: More concentration around the mean means less spread, not more.
 :feedback-2: The two distributions have very different spreads despite sharing the same possible values.
 * *Smaller—Yves' distribution is much more concentrated around its mean

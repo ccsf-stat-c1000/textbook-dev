@@ -2,7 +2,7 @@
 
 Sometimes, survey questions are ordered in such a way as to deliberately bias the responses by planting an idea in an earlier question that will sway people's thoughts in a later question.
 
-*Question:* In the year 2002, there was much controversy over the fact that the Augusta National Golf Club, which hosts the Masters Golf Tournament each year, does not accept women as members. Defenders of the club created a surveythat included the following statements.Respondents were supposed to indicate whether they agreed or disagreed with each statement:
+*Question:* In the year 2002, there was much controversy over the fact that the Augusta National Golf Club, which hosts the Masters Golf Tournament each year, does not accept women as members. Defenders of the club created a survey that included the following statements. Respondents were supposed to indicate whether they agreed or disagreed with each statement:
 
 "The First Amendment of the U.S. Constitution applies to everyone regardless of gender, race, religion, age, profession, or point of view."
 
@@ -44,7 +44,7 @@ Besides using the randomized response method, surveyors may encourage honest ans
 
 ## Let's summarize
 
-Asample surveyis a type of observational study in which respondents assess variables' values (often by giving an opinion).
+A sample surveyis a type of observational study in which respondents assess variables' values (often by giving an opinion).
 
 * Open questions are less restrictive, but responses are more difficult to summarize.
 
