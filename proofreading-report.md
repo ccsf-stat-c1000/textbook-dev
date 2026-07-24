@@ -7,7 +7,7 @@ Scope: all 249 content pages in `pages/` plus the glossary, checked for spelling
 - [x] **084** — `a*closed question` renders run-together; make it `a *closed question*`. **[Grammar]**
 - [x] **085** — `surveythat` → `survey that`; `statements.Respondents` → `statements. Respondents`. **[Grammar]**
 - [x] **085** — `Asample surveyis` → `A sample survey is`. **[Grammar]**
-- [ ] **139** — quiz feedback says σ(Y) ≈ 0.9; change to ≈ 0.85 to match page 140 and the true value (√0.71 ≈ 0.84). **[Math]**
+- [x] **139** — quiz feedback says σ(Y) ≈ 0.9; change to ≈ 0.85 to match page 140 and the true value (√0.71 ≈ 0.84). **[Math]**
 
 ## Front matter + m03
 

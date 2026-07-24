@@ -2,7 +2,7 @@
 
 ## Step 1: Stating the Hypotheses
 
-The null and alternative hypotheses for the z-test for the population mean (μ) have exactly the same structure as the hypotheses for the z-test for the population proportion (p):
+The null and alternative hypotheses for the z-test for the population mean $(\mu)$ have exactly the same structure as the hypotheses for the z-test for the population proportion (p):
 
 - The null hypothesis has the form $H_0: \mu = \mu_0$ (where $\mu_0$ is the null value).
 - The alternative hypothesis takes one of the following three forms (depending on the context): $H_a: \mu < \mu_0$ (one-sided), $H_a: \mu > \mu_0$ (one-sided), or $H_a: \mu \neq \mu_0$ (two-sided).
@@ -20,12 +20,12 @@ In our example 1, based on a sample of 4 students from Ross College, we were tes
 
 :::{quiz} A tire manufacturer advertises that its tires last an average of 50,000 miles. A consumer group suspects the true average is lower. What are the appropriate hypotheses?
 :hint: The advertised value is the null value; the group suspects LOWER.
-:feedback-0: Correct! H₀: μ = 50,000 vs. Hₐ: μ < 50,000.
+:feedback-0: Correct! $H_0$: $\mu = 50{,}000$ vs. $H_a$: $\mu < 50{,}000$.
 :feedback-1: The suspicion is specifically that tires last less, so the alternative is one-sided.
 :feedback-2: The null hypothesis always states equality with the null value.
-* *H₀: μ = 50,000; Hₐ: μ < 50,000
-* H₀: μ = 50,000; Hₐ: μ ≠ 50,000
-* H₀: μ < 50,000; Hₐ: μ = 50,000
+* *$H_0$: $\mu = 50{,}000$; $H_a$: $\mu < 50{,}000$
+* $H_0$: $\mu = 50{,}000$; $H_a$: $\mu \neq 50{,}000$
+* $H_0$: $\mu < 50{,}000$; $H_a$: $\mu = 50{,}000$
 :::
 
 :::{admonition} Example 2: Concentration of a Chemical in a Drug
@@ -39,7 +39,7 @@ Here we want to test whether the mean concentration of a certain chemical in a l
 
 ## Step 2: Collecting Data and Summarizing Them
 
-Since our parameter of interest is the population mean (μ), once we collect the data, we find the sample mean ($\bar{x}$).
+Since our parameter of interest is the population mean $(\mu)$, once we collect the data, we find the sample mean ($\bar{x}$).
 
 However, we already know that in hypothesis testing we go a step beyond calculating the relevant sample statistic and summarize the data with a test statistic.
 
@@ -49,11 +49,11 @@ The test statistic is the z-score (standardized value) of the sample mean ($\bar
 
 We rely once again on probability results—in this case, we refer to results about the sampling distribution of the sample mean ($\bar{X}$). When we discussed probability models based on sampling distributions, we concluded that sample means behave as follows:
 
-- *Center:* the mean of the sample means is μ, the population mean.
+- *Center:* the mean of the sample means is $\mu$, the population mean.
 - *Spread:* the standard deviation of the sample means is $\frac{\sigma}{\sqrt{n}}$.
-- *Shape:* the sample means are normally distributed if the variable is normally distributed in the population, or if the sample size is large enough to guarantee approximate normality. Recall that this last statement is the Central Limit Theorem. As a general guideline, we said that if n > 30, the Central Limit Theorem applies and we can use a normal curve as a probability model.
+- *Shape:* the sample means are normally distributed if the variable is normally distributed in the population, or if the sample size is large enough to guarantee approximate normality. Recall that this last statement is the Central Limit Theorem. As a general guideline, we said that if $n > 30$, the Central Limit Theorem applies and we can use a normal curve as a probability model.
 
-Based on this description of the sampling distribution of $\bar{X}$, we can define a test statistic that measures the distance between the hypothesized value of μ (denoted $\mu_0$) and the sample mean (determined by the data) in standard deviation units:
+Based on this description of the sampling distribution of $\bar{X}$, we can define a test statistic that measures the distance between the hypothesized value of $\mu$ (denoted $\mu_0$) and the sample mean (determined by the data) in standard deviation units:
 
 ```{admonition} Test Statistic for the z-Test for the Population Mean
 :class: note
@@ -81,7 +81,7 @@ Let's go back to our examples.
 :::{admonition} Example 1: SAT-M Scores at Ross College
 :class: tip
 
-Recall: $H_0: \mu = 500$ vs. $H_a: \mu > 500$; n = 4; $\bar{x} = 550$; σ = 100.
+Recall: $H_0: \mu = 500$ vs. $H_a: \mu > 500$; $n = 4$; $\bar{x} = 550$; $\sigma = 100$.
 
 Let's start by checking the conditions:
 
@@ -98,7 +98,7 @@ This means that our data (represented by the sample mean) are only 1 standard de
 :::{admonition} Example 2: Concentration of a Chemical in a Drug
 :class: tip
 
-Recall: $H_0: \mu = 250$ vs. $H_a: \mu \neq 250$; n = 100; $\bar{x} = 247$; σ = 12.
+Recall: $H_0: \mu = 250$ vs. $H_a: \mu \neq 250$; $n = 100$; $\bar{x} = 247$; $\sigma = 12$.
 
 In this case, the conditions that allow us to carry out the z-test are met since:
 
@@ -121,18 +121,18 @@ Our data (represented by the sample mean concentration level, 247) are 2.5 stand
 Normal body temperature for healthy, at-rest human beings has long been said to be 98.6°F. A doctor has seen many patients who had a lower or higher body temperature when they were not ill. He has read research that says it is actually lower. So he collected 50 randomly selected temperatures, which had a mean of 98.4°F. The standard deviation is known to be 0.35°F. He tests $H_0: \mu = 98.6$ vs. $H_a: \mu \neq 98.6$.
 
 :::{quiz} Are the conditions for the z-test met, and what is the test statistic?
-:hint: n = 50 > 30, and z = (98.4 − 98.6)/(0.35/√50).
-:feedback-0: Correct! The sample is random and n = 50 is large enough for the CLT, so the test is safe. z = −0.2/0.0495 ≈ −4.04.
-:feedback-1: Check the standard error: 0.35/√50 ≈ 0.0495, so z ≈ −4.04, not −0.57.
-:feedback-2: The large sample size (50 > 30) means normality of body temperatures is not required.
-* *Conditions are met; z ≈ −4.04
-* Conditions are met; z ≈ −0.57
+:hint: $n = 50 > 30$, and $z = (98.4 - 98.6)/(0.35/\sqrt{50})$.
+:feedback-0: Correct! The sample is random and $n = 50$ is large enough for the CLT, so the test is safe. $z = -0.2/0.0495 \approx -4.04$.
+:feedback-1: Check the standard error: $0.35/\sqrt{50} \approx 0.0495$, so $z \approx -4.04$, not -0.57.
+:feedback-2: The large sample size $(50 > 30)$ means normality of body temperatures is not required.
+* *Conditions are met; $z \approx -4.04$
+* Conditions are met; $z \approx -0.57$
 * Conditions are not met because we don't know that body temperature is normally distributed
 :::
 
-:::{quiz} A test statistic of z ≈ −4.04 means the sample mean is more than 4 standard deviations below 98.6. What should the doctor anticipate about the p-value?
+:::{quiz} A test statistic of $z \approx -4.04$ means the sample mean is more than 4 standard deviations below 98.6. What should the doctor anticipate about the p-value?
 :hint: How much area lies more than 4 standard deviations from the center of a normal curve?
-:feedback-0: Correct! Values beyond ±4 standard deviations are extremely rare under H₀, so the p-value will be tiny (about 0.00005) and the result highly significant.
+:feedback-0: Correct! Values beyond $\pm 4$ standard deviations are extremely rare under $H_0$, so the p-value will be tiny (about 0.00005) and the result highly significant.
 :feedback-1: It's the opposite—the more extreme the test statistic, the SMALLER the p-value.
 * *The p-value will be very small—strong evidence that mean body temperature differs from 98.6°F
 * The p-value will be large, since the test statistic is negative
@@ -142,19 +142,19 @@ Normal body temperature for healthy, at-rest human beings has long been said to 
 
 Each histogram below represents a random sample. We do not know if the variable is distributed normally in the population, but we want to be reasonably sure that the distribution of sample means will be normal so that we can use the z-test for testing claims about the population mean.
 
-:::{quiz} A histogram of a sample of n = 15 observations is clearly skewed to the right, suggesting the variable may not be normal in the population. How should we proceed with a z-test for μ?
+:::{quiz} A histogram of a sample of $n = 15$ observations is clearly skewed to the right, suggesting the variable may not be normal in the population. How should we proceed with a z-test for $\mu$?
 :hint: Small sample + variable that doesn't appear to vary normally—check the conditions table.
-:feedback-0: Correct! With a small sample (15 < 30) and evidence of non-normality, we are in the "NOT OK" cell—sample means can't be assumed normal, so the z-test should not be used.
-:feedback-1: 15 is well below the n > 30 guideline, so the CLT cannot rescue us here.
+:feedback-0: Correct! With a small sample $(15 < 30)$ and evidence of non-normality, we are in the "NOT OK" cell—sample means can't be assumed normal, so the z-test should not be used.
+:feedback-1: 15 is well below the $n > 30$ guideline, so the CLT cannot rescue us here.
 :feedback-2: The skewed histogram suggests the population is NOT normal, so we cannot rely on that condition.
 * *Do not use the z-test—the sample is small and the variable does not appear to vary normally
 * Use the z-test—the Central Limit Theorem applies
 * Use the z-test—the histogram shows the population is normal enough
 :::
 
-:::{quiz} A histogram of a sample of n = 250 observations is moderately skewed. How should we proceed with a z-test for μ?
+:::{quiz} A histogram of a sample of $n = 250$ observations is moderately skewed. How should we proceed with a z-test for $\mu$?
 :hint: What does the CLT say for large samples?
-:feedback-0: Correct! With n = 250, the Central Limit Theorem guarantees that sample means are approximately normal even though the variable itself is skewed—the z-test is fine.
+:feedback-0: Correct! With $n = 250$, the Central Limit Theorem guarantees that sample means are approximately normal even though the variable itself is skewed—the z-test is fine.
 :feedback-1: Normality of the VARIABLE isn't required when the sample is large; the CLT ensures the sample MEAN is approximately normal.
 * *Use the z-test—the sample is large enough for the Central Limit Theorem to apply
 * Do not use the z-test—the variable is skewed
