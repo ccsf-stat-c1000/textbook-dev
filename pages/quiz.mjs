@@ -128,7 +128,7 @@ const quizDirective = {
   arg: {
     type: String,
     required: true,
-    doc: 'The question text. Supports inline math ($...$).',
+    doc: 'The question text. Supports inline ($...$) and display ($$...$$) LaTeX math, rendered with KaTeX.',
   },
   options: {
     hint:        { type: String, doc: 'Optional hint shown on demand.' },
@@ -158,7 +158,7 @@ const quizMultiDirective = {
   arg: {
     type: String,
     required: true,
-    doc: 'The question text. Supports inline math ($...$).',
+    doc: 'The question text. Supports inline ($...$) and display ($$...$$) LaTeX math, rendered with KaTeX.',
   },
   options: {
     hint:        { type: String, doc: 'Optional hint shown on demand.' },

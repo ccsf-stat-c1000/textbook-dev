@@ -2,12 +2,37 @@
  * quiz-widget.mjs — MyST anywidget for interactive quiz / concept-check questions.
  *
  * Model keys:
- *   question    {string}   Question text (plain or with $math$)
+ *   question    {string}   Question text (plain, `code`, or LaTeX math)
  *   choices     {Array}    [{text, correct, feedback}]
  *   multi       {boolean}  true = checkboxes, false = radio
  *   hint        {string}   Optional hint text
  *   explanation {string}   Optional explanation shown after submission
+ *
+ * Math: inline `$...$` and display `$$...$$` LaTeX are rendered with KaTeX,
+ * matching the rest of the book. Escape a literal dollar sign with `\$`.
  */
+
+// ── KaTeX loading ─────────────────────────────────────────────────────────────
+// The rest of the book renders math with KaTeX (MyST pre-renders it server-side
+// and the book theme loads KaTeX's CSS globally). This widget lives in a Shadow
+// DOM, so that global stylesheet can't reach it and math isn't pre-rendered in
+// the strings the directive passes us. We therefore render math client-side with
+// KaTeX and inject KaTeX's stylesheet into each widget's shadow root.
+//
+// Pin to a specific version so the fonts referenced by the CSS resolve on the
+// same CDN. Bump both together if you upgrade.
+const KATEX_VERSION = '0.16.11';
+const KATEX_JS  = `https://cdn.jsdelivr.net/npm/katex@${KATEX_VERSION}/dist/katex.mjs`;
+const KATEX_CSS = `https://cdn.jsdelivr.net/npm/katex@${KATEX_VERSION}/dist/katex.min.css`;
+
+// Load KaTeX once per page and cache the promise so multiple quizzes share it.
+let katexPromise = null;
+function loadKatex() {
+  if (!katexPromise) {
+    katexPromise = import(KATEX_JS).then(m => m.default ?? m);
+  }
+  return katexPromise;
+}
 
 // ── Inline renderers ──────────────────────────────────────────────────────────
 
@@ -17,15 +42,66 @@ function esc(s) {
     .replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
+// Emit a placeholder span carrying the raw TeX; typesetMath() renders it with
+// KaTeX after the DOM is in place. The TeX is URI-encoded so it survives inside
+// an HTML attribute without escaping issues (KaTeX needs the raw source, incl.
+// characters like < > &).
+function mathSpan(tex, display) {
+  return `<span class="q-math" data-tex="${encodeURIComponent(tex)}"` +
+         ` data-display="${display ? '1' : '0'}"></span>`;
+}
+
+// Single-pass tokenizer: handles display math ($$...$$), inline math ($...$),
+// inline code (`...`), and escaped dollar signs (\$). Everything else is
+// HTML-escaped text. A single pass (rather than chained regex replaces) keeps
+// `$` inside code and backticks inside math from being misinterpreted.
 function renderInline(text) {
-  let html = esc(text);
-  html = html.replace(/`([^`]+)`/g, (_, c) =>
-    `<code class="q-code">${c}</code>`
-  );
-  html = html.replace(/\$([^$]+)\$/g, (_, m) =>
-    `<em style="font-style:italic">${m}</em>`
-  );
-  return html;
+  const src = String(text ?? '');
+  const n = src.length;
+  let out = '';
+  let i = 0;
+
+  while (i < n) {
+    const ch = src[i];
+
+    // Escaped dollar → literal $
+    if (ch === '\\' && src[i + 1] === '$') { out += '$'; i += 2; continue; }
+
+    // Display math $$...$$
+    if (ch === '$' && src[i + 1] === '$') {
+      const end = src.indexOf('$$', i + 2);
+      if (end !== -1) {
+        out += mathSpan(src.slice(i + 2, end), true);
+        i = end + 2;
+        continue;
+      }
+    }
+
+    // Inline math $...$
+    if (ch === '$') {
+      const end = src.indexOf('$', i + 1);
+      if (end !== -1) {
+        out += mathSpan(src.slice(i + 1, end), false);
+        i = end + 1;
+        continue;
+      }
+    }
+
+    // Inline code `...`
+    if (ch === '`') {
+      const end = src.indexOf('`', i + 1);
+      if (end !== -1) {
+        out += `<code class="q-code">${esc(src.slice(i + 1, end))}</code>`;
+        i = end + 1;
+        continue;
+      }
+    }
+
+    out += esc(ch);
+    i++;
+  }
+
+  return out;
 }
 
 function renderChoice(text) {
@@ -36,6 +112,39 @@ function renderChoice(text) {
     return `<pre class="q-pre"><code${lang ? ` class="language-${lang}"` : ''}>${code}</code></pre>`;
   }
   return renderInline(text);
+}
+
+// Render every .q-math placeholder in the shadow root with KaTeX. Falls back to
+// plain italic text if KaTeX can't be loaded (e.g. offline / CSP) or a specific
+// expression fails to parse, so the widget always stays usable.
+async function typesetMath(shadow) {
+  const nodes = [...shadow.querySelectorAll('.q-math')];
+  if (!nodes.length) return;
+
+  let katex = null;
+  try {
+    katex = await loadKatex();
+  } catch (e) {
+    /* KaTeX unavailable; fall through to plain-text fallback below */
+  }
+
+  for (const node of nodes) {
+    const tex = decodeURIComponent(node.getAttribute('data-tex') || '');
+    const display = node.getAttribute('data-display') === '1';
+    if (katex) {
+      try {
+        katex.render(tex, node, {
+          displayMode: display,
+          throwOnError: false,
+        });
+        continue;
+      } catch (e) {
+        /* fall through to plain-text fallback */
+      }
+    }
+    node.textContent = tex;
+    node.style.fontStyle = 'italic';
+  }
 }
 
 // ── Styles ────────────────────────────────────────────────────────────────────
@@ -88,6 +197,11 @@ const CSS = `
   font-size: .82em; font-family: ui-monospace, monospace;
   overflow-x: auto; white-space: pre; line-height: 1.5;
 }
+
+/* KaTeX math. Inline math flows with the text; display math ($$...$$) gets
+   centered on its own line and can scroll horizontally if it overflows. */
+.q-math { font-style: normal; }
+.q-math .katex-display { margin: .5em 0; overflow-x: auto; overflow-y: hidden; }
 
 /* Per-choice feedback shown beneath the choice after submission */
 .choice-feedback {
@@ -173,6 +287,9 @@ button {
 :host([data-theme="dark"]) .btn-reset:hover { background: #0c2030; }
 :host([data-theme="dark"]) .q-code { background: #334155; color: #e2e8f0; }
 :host([data-theme="dark"]) .q-pre  { background: #0f1a2a; color: #e2e8f0; }
+/* KaTeX colours itself with currentColor, so it follows the surrounding text
+   colour automatically in dark mode; this just guards against any stray rule. */
+:host([data-theme="dark"]) .q-math .katex { color: inherit; }
 `;
 
 // ── Render ────────────────────────────────────────────────────────────────────
@@ -190,6 +307,14 @@ function render({ model, el }) {
 
   // ── Shadow DOM ──────────────────────────────────────────────────────────────
   const shadow = el.attachShadow({ mode: 'open' });
+
+  // KaTeX's stylesheet must live inside the shadow root — the book theme loads
+  // it globally, but Shadow DOM is isolated from ancestor stylesheets.
+  const katexCss = document.createElement('link');
+  katexCss.rel = 'stylesheet';
+  katexCss.href = KATEX_CSS;
+  shadow.appendChild(katexCss);
+
   const style = document.createElement('style');
   style.textContent = CSS;
   shadow.appendChild(style);
@@ -230,6 +355,10 @@ function render({ model, el }) {
       </div>
     </div>`;
   shadow.appendChild(root);
+
+  // Typeset any $...$ / $$...$$ math with KaTeX (async; feedback/explanation are
+  // already in the DOM even while hidden, so they get typeset up front too).
+  typesetMath(shadow);
 
   // ── Theme sync ──────────────────────────────────────────────────────────────
   // MyST toggles dark mode with a `.dark` class on <html>, independent of the
