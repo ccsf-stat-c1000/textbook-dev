@@ -48,17 +48,17 @@ In order to check the claim that the pregnancy length of women who smoke during 
 
 :::{quiz} What are the appropriate hypotheses for this study?
 :hint: The claim being checked is that smokers' pregnancies are SHORTER on average.
-:feedback-0: Correct! H₀: μ₁ − μ₂ = 0 (no difference); Hₐ: μ₁ − μ₂ < 0 (smokers' mean length is shorter than non-smokers').
+:feedback-0: Correct! $H_0$: $\mu_1 - \mu_2 = 0$ (no difference); $H_a$: $\mu_1 - \mu_2 < 0$ (smokers' mean length is shorter than non-smokers').
 :feedback-1: The claim is directional (shorter), so the two-sided alternative doesn't capture it.
 :feedback-2: This says smokers' pregnancies are LONGER—the reverse of the claim.
-* *H₀: μ₁ − μ₂ = 0; Hₐ: μ₁ − μ₂ < 0
-* H₀: μ₁ − μ₂ = 0; Hₐ: μ₁ − μ₂ ≠ 0
-* H₀: μ₁ − μ₂ = 0; Hₐ: μ₁ − μ₂ > 0
+* *$H_0$: $\mu_1 - \mu_2 = 0$; $H_a$: $\mu_1 - \mu_2 < 0$
+* $H_0$: $\mu_1 - \mu_2 = 0$; $H_a$: $\mu_1 - \mu_2 \neq 0$
+* $H_0$: $\mu_1 - \mu_2 = 0$; $H_a$: $\mu_1 - \mu_2 > 0$
 :::
 
 :::{quiz} Conceptually, what does the null hypothesis claim in this study?
 :hint: Think in terms of the relationship between the two variables.
-:feedback-0: Correct! H₀ claims smoking status is not related to pregnancy length—the two population means are equal.
+:feedback-0: Correct! $H_0$ claims smoking status is not related to pregnancy length—the two population means are equal.
 :feedback-1: This is the ALTERNATIVE hypothesis, not the null.
 :feedback-2: The null hypothesis concerns the population means, not sample results.
 * *Smoking during pregnancy is not related to pregnancy length

@@ -11,9 +11,9 @@ For our example, statistical software reports the p-value of this test to be so 
 
 A p-value which is practically 0 means that it would be almost impossible to get data like those observed (or even more extreme) had the null hypothesis been true.
 
-More specifically for our example: if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is as far from 0 as −2.6 (that difference is 10.73 − 13.33 = −2.6).
+More specifically for our example: if there were no differences between females and males with respect to whether they value looks vs. personality, it would be almost impossible (probability approximately 0) to get data where the difference between the sample means of females and males is as far from 0 as -2.6 (that difference is $10.73 - 13.33 = -2.6)$.
 
-*Comment:* note that the output tells us that $\bar{y}_1-\bar{y}_2$ is approximately −2.6. But more importantly, we want to know whether this difference is significant. To answer this, we use the fact that this difference is 4.66 standard errors below the null value.
+*Comment:* note that the output tells us that $\bar{y}_1-\bar{y}_2$ is approximately -2.6. But more importantly, we want to know whether this difference is significant. To answer this, we use the fact that this difference is 4.66 standard errors below the null value.
 :::
 
 ## Step 4: Conclusion in Context
@@ -35,12 +35,12 @@ However, we feel that it is important to mention the test statistic for two reas
 
 ## Check Your Understanding: Conclusions from a Two-Sample t-Test
 
-:::{quiz} A two-sample t-test comparing mean test scores of two teaching methods yields t = −0.85 and a p-value of 0.40. Using α = 0.05, what is the correct conclusion?
+:::{quiz} A two-sample t-test comparing mean test scores of two teaching methods yields $t = -0.85$ and a p-value of 0.40. Using $\alpha = 0.05$, what is the correct conclusion?
 :hint: Is 0.40 small?
 :feedback-0: Correct! The p-value is large, so the data do not provide enough evidence of a difference between the two methods' mean scores.
 :feedback-1: 0.40 is much larger than 0.05—the results are not significant.
-:feedback-2: Failing to reject H₀ does not prove the two methods are equally effective; we simply lack evidence of a difference.
-* *Do not reject H₀—there is not enough evidence that the mean scores differ
-* Reject H₀ and conclude the methods differ
-* Accept H₀ and conclude the methods are equally effective
+:feedback-2: Failing to reject $H_0$ does not prove the two methods are equally effective; we simply lack evidence of a difference.
+* *Do not reject $H_0—there$ is not enough evidence that the mean scores differ
+* Reject $H_0$ and conclude the methods differ
+* Accept $H_0$ and conclude the methods are equally effective
 :::

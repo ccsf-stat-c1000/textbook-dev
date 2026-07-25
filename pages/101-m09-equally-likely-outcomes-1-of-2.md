@@ -30,7 +30,7 @@ A couple is planning to have 3 children. Assuming that having a boy and having a
 The "random experiment" in this case is having 3 children, as odd as that may sound in this context. The next and most important step is to determine what all of the possible outcomes are, and list them (i.e., list the sample space S). In this case, each outcome represents a possible combination of genders of 3 children (note that examples with the same number of boys and girls but a different birth order must be listed separately).
 
 :::{quiz} How many equally likely outcomes are in the sample space for the genders of 3 children (in birth order)?
-:hint: Each of the 3 children can be a boy or a girl: 2 × 2 × 2.
+:hint: Each of the 3 children can be a boy or a girl: $2 \times 2 \times 2$.
 :feedback-0: 6 would be the count if order didn't matter and repeats were excluded—but each birth is a separate two-way choice.
 :feedback-1: Correct! S = {BBB, BBG, BGB, GBB, BGG, GBG, GGB, GGG}—8 outcomes, all equally likely.
 :feedback-2: 4 is the number of outcomes for 2 children; here there are 3 children.

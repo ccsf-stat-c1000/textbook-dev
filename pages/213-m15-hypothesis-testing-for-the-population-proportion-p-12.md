@@ -46,7 +46,7 @@ Statistics can help you answer this question.
 
 Let p be the true proportion (probability) of heads. We want to test whether the coin is fair or not: $H_0: p = 0.5$ vs. $H_a: p \neq 0.5$.
 
-The data we have are that out of n = 80 tosses, we got 48 heads, so the sample proportion of heads is $\hat{p}=\frac{48}{80}=0.6$.
+The data we have are that out of $n = 80$ tosses, we got 48 heads, so the sample proportion of heads is $\hat{p}=\frac{48}{80}=0.6$.
 
 The 95% confidence interval for p, the true proportion of heads for this coin, is:
 
@@ -65,19 +65,19 @@ The UCLA Internet Report (February 2003) estimated that roughly 8.7% of Internet
 
 :::{quiz} Based on the confidence interval, what is the conclusion of the test at the 0.05 significance level?
 :hint: Is the null value 0.087 inside or outside the interval (0.08, 0.14)?
-:feedback-0: Correct! 0.087 lies inside (0.08, 0.14), so it is a plausible value for p and we cannot reject H₀.
+:feedback-0: Correct! 0.087 lies inside (0.08, 0.14), so it is a plausible value for p and we cannot reject $H_0$.
 :feedback-1: Check again: 0.087 is between 0.08 and 0.14, so it IS inside the interval.
-:feedback-2: The interval method applies directly here since the alternative is two-sided and the confidence level (95%) matches α = 0.05.
-* *Do not reject H₀—0.087 is inside the interval, so it remains a plausible value for p
-* Reject H₀—0.087 is outside the interval
+:feedback-2: The interval method applies directly here since the alternative is two-sided and the confidence level (95%) matches $\alpha = 0.05$.
+* *Do not reject $H_0—0.087$ is inside the interval, so it remains a plausible value for p
+* Reject $H_0—0.087$ is outside the interval
 * The confidence interval cannot be used to draw a conclusion here
 :::
 
 The UCLA Internet Report (February 2003) estimated that roughly 60.5% of U.S. adults use the Internet at work for personal use. A follow-up study was conducted in order to explore whether that figure has changed since. Let p be the proportion of U.S. adults who use the Internet at work for personal use, so we are testing $H_0: p = 0.605$ vs. $H_a: p \neq 0.605$. Based on the collected data, the p-value of the test was found to be 0.001.
 
 :::{quiz} What can we conclude about the 95% confidence interval for p computed from these same data?
-:hint: The test rejects H₀ at the 0.05 level. What does that say about whether 0.605 is a plausible value?
-:feedback-0: Correct! Rejecting H₀ at the 0.05 level (p-value 0.001 < 0.05) is equivalent to 0.605 falling OUTSIDE the 95% confidence interval.
+:hint: The test rejects $H_0$ at the 0.05 level. What does that say about whether 0.605 is a plausible value?
+:feedback-0: Correct! Rejecting $H_0$ at the 0.05 level (p-value $0.001 < 0.05)$ is equivalent to 0.605 falling OUTSIDE the 95% confidence interval.
 :feedback-1: It's the reverse—rejection means the null value is NOT plausible, i.e., outside the interval.
 :feedback-2: We can tell: the duality between two-sided tests and confidence intervals guarantees that 0.605 is outside the interval.
 * *The interval does not contain 0.605
@@ -92,5 +92,5 @@ The context of the coin example is a good opportunity to bring up an important p
 
 Even though we use 0.05 as a cutoff to guide our decision about whether the results are significant, we should not treat it as inviolable, and we should always add our own judgment. Let's look at the coin example again.
 
-It turns out that the p-value of this test is 0.0734. In other words, it is maybe not extremely unlikely, but it is quite unlikely (probability of 0.0734) that when you toss a *fair* coin 80 times you'll get a sample proportion of heads of 48/80 = 0.6 (or even more extreme). It is true that using the 0.05 significance level (cutoff), 0.0734 is not considered small enough to conclude that the coin is not fair. However, if you really don't want to clean the apartment, the p-value might be small enough for you to ask your roommate to use a different coin, or to provide one yourself!
+It turns out that the p-value of this test is 0.0734. In other words, it is maybe not extremely unlikely, but it is quite unlikely (probability of 0.0734) that when you toss a *fair* coin 80 times you'll get a sample proportion of heads of $48/80 = 0.6$ (or even more extreme). It is true that using the 0.05 significance level (cutoff), 0.0734 is not considered small enough to conclude that the coin is not fair. However, if you really don't want to clean the apartment, the p-value might be small enough for you to ask your roommate to use a different coin, or to provide one yourself!
 ```

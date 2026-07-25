@@ -13,7 +13,7 @@ Consider again the two-way table for all 500 students in a particular high schoo
 | Female | 288 | 32 | 320 |
 | **Total** | **324** | **176** | **500** |
 
-Would you expect those two variables to be related? That is, would you expect having pierced ears to depend on whether the student is male or female? Or, to put it yet another way, would knowing a student's gender affect the probability that the student's ears are pierced? To answer this, we may compare the overall probability of having pierced ears to the conditional probability of having pierced ears, given that a student is male. Our intuition would tell us that the latter should be lower: male students tend not to have their ears pierced, whereas female students do. Indeed, for students in general, the probability of having pierced ears (event E) is P(E) = 324/500 = 0.648. But the probability of having pierced ears given that a student is male is only P(E | M) = 36/180 = 0.20.
+Would you expect those two variables to be related? That is, would you expect having pierced ears to depend on whether the student is male or female? Or, to put it yet another way, would knowing a student's gender affect the probability that the student's ears are pierced? To answer this, we may compare the overall probability of having pierced ears to the conditional probability of having pierced ears, given that a student is male. Our intuition would tell us that the latter should be lower: male students tend not to have their ears pierced, whereas female students do. Indeed, for students in general, the probability of having pierced ears (event E) is P(E) = $324/500 = 0.648$. But the probability of having pierced ears given that a student is male is only P(E | M) = $36/180 = 0.20$.
 
 As we anticipated, P(E | M) is lower than P(E). The probability of a student having pierced ears changes (in this case, gets lower) when we know that the student is male, and therefore the events E and M are dependent. (If E and M were independent, knowing or not knowing that the student is male would not have made a difference ... but it did.)
 
@@ -48,7 +48,7 @@ Recall again the smoke alarms example, with the two-way probability table:
 
 :::{quiz} Use the table to check: are the events D and B independent?
 :hint: Compare P(D | B) = P(D and B)/P(B) with P(D).
-:feedback-0: Correct! P(D | B) = 0.38/0.40 = 0.95 = P(D). Knowing the bedroom alarm went off doesn't change the probability for the dining room alarm—the events are independent.
+:feedback-0: Correct! P(D | B) = $0.38/0.40 = 0.95$ = P(D). Knowing the bedroom alarm went off doesn't change the probability for the dining room alarm—the events are independent.
 :feedback-1: Compare the conditional and unconditional probabilities: they are both 0.95, so the events ARE independent.
 :feedback-2: The events are not disjoint (both alarms can go off together), but that doesn't settle independence—the check is whether P(D | B) = P(D), and it does.
 * *Yes—P(D | B) = 0.95 = P(D)

@@ -1,10 +1,10 @@
-# Case Q→Q: Inference for a Linear Relationship
+# Case $Q \to Q$: Inference for a Linear Relationship
 
 ## Inference for the Linear Relationship Between Two Quantitative Variables
 
 ### Overview
 
-In inference for relationships, so far we have learned inference procedures for both cases C→Q and C→C from the role-type classification table. The last case to be considered in this course is case Q→Q, where both the explanatory and response variables are quantitative. (Case Q→C requires statistical methods that go beyond the scope of this course.)
+In inference for relationships, so far we have learned inference procedures for both cases $C \to Q$ and $C \to C$ from the role-type classification table. The last case to be considered in this course is case $Q \to Q$, where both the explanatory and response variables are quantitative. (Case $Q \to C$ requires statistical methods that go beyond the scope of this course.)
 
 ```{figure} images/gen/m05-role-type-qq.svg
 :alt: The role-type classification table with the Q to Q case highlighted: a quantitative explanatory variable paired with a quantitative response variable.

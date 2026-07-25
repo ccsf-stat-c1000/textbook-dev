@@ -8,7 +8,7 @@ So far we have quantified the idea of center, and we are in the middle of the di
 
 An observation is considered a suspected outlier if it is:
 
-- below Q1 − 1.5(IQR) or
+- below Q1 - 1.5(IQR) or
 - above Q3 + 1.5(IQR)
 
 The following picture illustrates this rule:
@@ -47,9 +47,9 @@ We therefore conclude that the observations 61, 61, 62, 74 and 80 should be flag
 ## Check Your Understanding: Identifying Outliers with the IQR
 
 :::{quiz} A dataset has Q1 = 50 and Q3 = 70. According to the 1.5(IQR) criterion, which of the following observations would be flagged as a suspected high outlier?
-:hint: First find IQR = Q3 − Q1, then compute Q3 + 1.5(IQR).
-:feedback-0: 95 is below the cutoff of Q3 + 1.5(IQR) = 70 + 30 = 100.
-:feedback-1: Correct! IQR = 20, so the high cutoff is 70 + 1.5(20) = 100, and 105 exceeds it.
+:hint: First find IQR = Q3 - Q1, then compute Q3 + 1.5(IQR).
+:feedback-0: 95 is below the cutoff of Q3 + 1.5(IQR) = $70 + 30 = 100$.
+:feedback-1: Correct! IQR = 20, so the high cutoff is $70 + 1.5(20) = 100$, and 105 exceeds it.
 :feedback-2: 85 is well within the cutoff of 100.
 * 95
 * *105
@@ -57,8 +57,8 @@ We therefore conclude that the observations 61, 61, 62, 74 and 80 should be flag
 :::
 
 :::{quiz} Using the same dataset (Q1 = 50, Q3 = 70), below what value would an observation be flagged as a suspected low outlier?
-:hint: Compute Q1 − 1.5(IQR).
-:feedback-0: Correct! Q1 − 1.5(IQR) = 50 − 30 = 20, so observations below 20 are suspected low outliers.
+:hint: Compute Q1 - 1.5(IQR).
+:feedback-0: Correct! Q1 - 1.5(IQR) = $50 - 30 = 20$, so observations below 20 are suspected low outliers.
 :feedback-1: 50 is Q1 itself—the cutoff extends 1.5 IQRs below it.
 :feedback-2: 35 would be the cutoff if you used 0.75(IQR); the criterion uses 1.5(IQR).
 * *20

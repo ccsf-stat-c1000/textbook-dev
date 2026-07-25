@@ -62,6 +62,6 @@ When the outlier is removed, the display is re-scaled so that now we can see the
 
 - The range covered by the data is the most intuitive measure of spread and is exactly the distance between the smallest data point (min) and the largest one (Max).
 - Another measure of spread is the inter-quartile range (IQR), which is the range covered by the middle 50% of the data.
-- IQR = Q3 − Q1, the difference between the third and first quartiles. The first quartile (Q1) is the value such that one quarter (25%) of the data points fall below it, or the median of the bottom half of the data. The third quartile is the value such that three quarters (75%) of the data points fall below it, or the median of the top half of the data.
+- IQR = Q3 - Q1, the difference between the third and first quartiles. The first quartile (Q1) is the value such that one quarter (25%) of the data points fall below it, or the median of the bottom half of the data. The third quartile is the value such that three quarters (75%) of the data points fall below it, or the median of the top half of the data.
 - The IQR should be used as a measure of spread of a distribution only when the median is used as a measure of center.
-- The IQR can be used to detect outliers using the 1.5(IQR) criterion. Outliers are observations that fall below Q1 − 1.5(IQR) or above Q3 + 1.5(IQR).
+- The IQR can be used to detect outliers using the 1.5(IQR) criterion. Outliers are observations that fall below Q1 - 1.5(IQR) or above Q3 + 1.5(IQR).

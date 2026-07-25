@@ -36,7 +36,7 @@ Similarly, since the sampling distribution of $\hat{p}$ is centered at p and has
 
 Another example of a point estimate is using the sample variance, $s^{2}=\frac{(x_{1}-\bar{x})^{2}+\cdots+(x_{n}-\bar{x})^{2}}{n-1}$, to estimate the population variance, $\sigma^{2}$.
 
-In this course, we will not be concerned with estimating $\sigma^{2}$ for its own sake, but since we will often substitute s for $\sigma$ when standardizing the sample mean, it is worth pointing out that $s^{2}$ is an unbiased estimator for $\sigma^{2}$. If we had divided by n instead of n − 1 in our estimator for population variance, then in the long run our sample variance would be guilty of a slight underestimation. Division by n − 1 accomplishes the goal of making this point estimator unbiased. Making unbiased estimators a top priority is, in fact, the reason that our formula for s, introduced in the Exploratory Data Analysis unit, involves division by n − 1 instead of by n.
+In this course, we will not be concerned with estimating $\sigma^{2}$ for its own sake, but since we will often substitute s for $\sigma$ when standardizing the sample mean, it is worth pointing out that $s^{2}$ is an unbiased estimator for $\sigma^{2}$. If we had divided by n instead of $n - 1$ in our estimator for population variance, then in the long run our sample variance would be guilty of a slight underestimation. Division by $n - 1$ accomplishes the goal of making this point estimator unbiased. Making unbiased estimators a top priority is, in fact, the reason that our formula for s, introduced in the Exploratory Data Analysis unit, involves division by $n - 1$ instead of by n.
 
 ## Let's Summarize
 
@@ -48,13 +48,13 @@ In both cases, the larger the sample size, the more accurate the point estimator
 
 ## Check Your Understanding: Unbiased Estimators
 
-:::{quiz} What does it mean to say that x-bar is an "unbiased" estimator of μ?
+:::{quiz} What does it mean to say that x-bar is an "unbiased" estimator of $\mu$?
 :hint: Think about where the sampling distribution of x-bar is centered.
-:feedback-0: Correct! Unbiased means the sampling distribution of x-bar is centered exactly at μ—it neither systematically overestimates nor underestimates.
-:feedback-1: Individual sample means almost never equal μ exactly; unbiasedness is a long-run, on-average property.
+:feedback-0: Correct! Unbiased means the sampling distribution of x-bar is centered exactly at $\mu—it$ neither systematically overestimates nor underestimates.
+:feedback-1: Individual sample means almost never equal $\mu$ exactly; unbiasedness is a long-run, on-average property.
 :feedback-2: Unbiasedness concerns the center of the estimator's distribution, not its spread.
-* *In repeated random samples, the values of x-bar average out to exactly μ
-* Every sample mean equals μ exactly
+* *In repeated random samples, the values of x-bar average out to exactly $\mu$
+* Every sample mean equals $\mu$ exactly
 * The sample mean has no variability
 :::
 

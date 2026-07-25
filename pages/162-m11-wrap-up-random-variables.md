@@ -15,6 +15,6 @@ We learned how we can avoid calculus by using the *standard normal table* to fin
 Before moving on, check your understanding:
 
 - Can you build the probability distribution of a discrete random variable and use it to compute probabilities, the mean, and the standard deviation?
-- Can you recognize when a situation is binomial, and use the formulas μ = np and σ = √(np(1−p))?
+- Can you recognize when a situation is binomial, and use the formulas $\mu$ = np and $\sigma = \sqrt{np(1-p)}$?
 - Can you standardize a normal value and use a table (or technology) to convert between values and probabilities in both directions?
 - Do you know when the normal approximation to the binomial is appropriate, and how the continuity correction improves it?

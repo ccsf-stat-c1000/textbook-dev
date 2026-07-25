@@ -27,7 +27,7 @@ Suppose you would like to study the job satisfaction of hospital nurses in a cer
 
 1. Suppose that the city has 10 hospitals. Choose one of the 10 hospitals at random and interview all the nurses in that hospital regarding their job satisfaction. This is an example of cluster sampling, in which the hospitals are the clusters.
 
-2. Choose a random sample of 50 nurses from each of the 10 hospitals and interview these 50 × 10 = 500 regarding their job satisfaction. This is an example of stratified sampling, in which each hospital is a stratum.
+2. Choose a random sample of 50 nurses from each of the 10 hospitals and interview these $50 \times 10 = 500$ regarding their job satisfaction. This is an example of stratified sampling, in which each hospital is a stratum.
 :::
 
 :::{quiz} A school district has 25 elementary schools. Researchers randomly select 4 schools and survey every teacher in those 4 schools. What sampling plan is this?
@@ -50,7 +50,7 @@ Another commonly used sampling technique is {term}`multistage sampling`, which i
 
 For example, say you would like to study the exercise habits of college students in the state of California. You might choose 8 colleges (clusters) at random, but you are certainly not going to use all the students in these 8 colleges as your sample. It is simply not realistic to conduct your study that way. Instead you move on to stage 2 of your sampling plan, in which you choose a random sample of 100 males and a random sample of 100 females from each of the 8 colleges you selected in stage 1.
 
-So in total you have 8 × (100 + 100) = 1,600 college students in your sample.
+So in total you have $8 \times (100 + 100) = 1{,}600$ college students in your sample.
 
 In this case, stage 1 was a cluster sample of 8 colleges and stage 2 was a stratified sample within each college where the stratum was gender.
 

@@ -19,11 +19,11 @@ We found the mean number of defective parts produced per hour to be $\mu_{X}$ = 
 
 | x | Deviation from mean | Squared deviation | P(X = x) |
 | --- | --- | --- | --- |
-| 0 | (0 − 1.8) | (0 − 1.8)² | 0.15 |
-| 1 | (1 − 1.8) | (1 − 1.8)² | 0.30 |
-| 2 | (2 − 1.8) | (2 − 1.8)² | 0.25 |
-| 3 | (3 − 1.8) | (3 − 1.8)² | 0.20 |
-| 4 | (4 − 1.8) | (4 − 1.8)² | 0.10 |
+| 0 | $(0 - 1.8)$ | $(0 - 1.8)^2$ | 0.15 |
+| 1 | $(1 - 1.8)$ | $(1 - 1.8)^2$ | 0.30 |
+| 2 | $(2 - 1.8)$ | $(2 - 1.8)^2$ | 0.25 |
+| 3 | $(3 - 1.8)$ | $(3 - 1.8)^2$ | 0.20 |
+| 4 | $(4 - 1.8)$ | $(4 - 1.8)^2$ | 0.10 |
 
 $$\sigma_{X}^{2}=(0-1.8)^{2}(0.15)+(1-1.8)^{2}(0.30)+(2-1.8)^{2}(0.25)+(3-1.8)^{2}(0.20)+(4-1.8)^{2}(0.1)=1.46$$
 
@@ -52,7 +52,7 @@ $$\sigma_{X}=\sqrt{\sigma_{X}^{2}}$$
 
 :::{quiz} A random variable takes the value 1 with probability 0.5 and the value 3 with probability 0.5, so its mean is 2. What is its standard deviation?
 :hint: Each value deviates from the mean by exactly 1.
-:feedback-0: Correct! σ² = (1−2)²(0.5) + (3−2)²(0.5) = 1, so σ = 1—each value is exactly 1 away from the mean.
+:feedback-0: Correct! $\sigma^2 = (1-2)^2(0.5) + (3-2)^2(0.5) = 1$, so $\sigma$ = 1—each value is exactly 1 away from the mean.
 :feedback-1: 2 is the mean, not the spread.
 :feedback-2: 0.5 is each value's probability, not the typical deviation.
 * *1
@@ -60,7 +60,7 @@ $$\sigma_{X}=\sqrt{\sigma_{X}^{2}}$$
 * 0.5
 :::
 
-:::{quiz} Recall Yves' production line: values 0-4 with probabilities 0.05, 0.05, 0.10, 0.75, 0.05, mean 2.7. Without computing, how should Yves' standard deviation compare to Xavier's (σ = 1.21)?
+:::{quiz} Recall Yves' production line: values 0-4 with probabilities 0.05, 0.05, 0.10, 0.75, 0.05, mean 2.7. Without computing, how should Yves' standard deviation compare to Xavier's $(\sigma = 1.21)$?
 :hint: How concentrated is Yves' distribution around its mean?
 :feedback-0: Correct! Yves' distribution piles 75% of its probability on the single value 3, right next to its mean, so its typical deviation is much smaller. (In fact $\sigma(Y) \approx 0.85$.)
 :feedback-1: More concentration around the mean means less spread, not more.

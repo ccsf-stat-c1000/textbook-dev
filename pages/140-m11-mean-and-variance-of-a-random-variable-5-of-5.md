@@ -71,7 +71,7 @@ Looking once again at the probability distribution for Xavier's production line:
 
 We know that $\mu_{X}=1.8$ and $\sigma_{X}=1.21$.
 
-Ordinary values are within 2 standard deviations of the mean. 1.8 − 2(1.21) = −0.62 and 1.8 + 2(1.21) = 4.22. This gives us an interval from −0.62 to 4.22. Since we cannot have a negative number of defective parts, the interval is essentially from 0 to 4.22. Because 4 is within this interval, it would be considered ordinary. Therefore, it is *not unusual*.
+Ordinary values are within 2 standard deviations of the mean. $1.8 - 2(1.21) = -0.62$ and $1.8 + 2(1.21) = 4.22$. This gives us an interval from -0.62 to 4.22. Since we cannot have a negative number of defective parts, the interval is essentially from 0 to 4.22. Because 4 is within this interval, it would be considered ordinary. Therefore, it is *not unusual*.
 
 Would it be considered unusual to have no defective parts? Zero is within 2 standard deviations of the mean, so it would not be considered unusual to have no defective parts.
 :::
@@ -85,8 +85,8 @@ Recall the probability distribution for changing majors. We have made the follow
 $$\mu_{X}=1.23 \qquad \sigma_{X}=1.08$$
 
 :::{quiz} Using the 2-standard-deviations criterion, would changing majors 4 times be considered unusual?
-:hint: Compute μ + 2σ = 1.23 + 2(1.08).
-:feedback-0: Correct! The ordinary range extends up to 1.23 + 2(1.08) = 3.39, and 4 falls above it—so changing majors 4 times is unusual.
+:hint: Compute $\mu + 2\sigma = 1.23 + 2(1.08)$.
+:feedback-0: Correct! The ordinary range extends up to $1.23 + 2(1.08) = 3.39$, and 4 falls above it—so changing majors 4 times is unusual.
 :feedback-1: Compare 4 with the upper limit 3.39: it falls outside the ordinary range.
 * *Yes—4 is more than 2 standard deviations above the mean (above 3.39)
 * No—4 is within 2 standard deviations of the mean

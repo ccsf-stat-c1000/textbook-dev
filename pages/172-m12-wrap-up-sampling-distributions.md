@@ -6,7 +6,7 @@ As mentioned in the introduction, this last module in probability is the bridge 
 
 Before moving on, check your understanding:
 
-- Can you distinguish a parameter from a statistic, and match each with its notation (p vs. $\hat{p}$, μ vs. $\bar{x}$, σ vs. s)?
+- Can you distinguish a parameter from a statistic, and match each with its notation (p vs. $\hat{p}$, $\mu$ vs. $\bar{x}$, $\sigma$ vs. s)?
 - For a given p and n, can you state the center, spread, and shape of the sampling distribution of $\hat{p}$, including the conditions for normality?
-- For a given μ, σ, and n, can you do the same for $\bar{x}$, and explain what the Central Limit Theorem guarantees when the population is not normal?
+- For a given $\mu$, $\sigma$, and n, can you do the same for $\bar{x}$, and explain what the Central Limit Theorem guarantees when the population is not normal?
 - Can you use a sampling distribution to decide whether an observed sample result is unusual?

@@ -31,7 +31,7 @@ $$n=\frac{4\cdot\frac{1}{2}\left(1-\frac{1}{2}\right)}{m^{2}}=\frac{1}{m^{2}}$$
 
 It seems like media polls usually use a sample size of 1,000 to 1,200. This could be puzzling. How could the results obtained from, say, 1,100 U.S. adults give us information about the entire population of U.S. adults? 1,100 is such a tiny fraction of the actual population. Here is the answer:
 
-What sample size n is needed if a margin of error m = 0.03 is desired?
+What sample size n is needed if a margin of error $m = 0.03$ is desired?
 
 $$n=\frac{1}{0.03^{2}}=1111.11 \to n=1112$$
 
@@ -65,8 +65,8 @@ We'll simply use $m=\frac{1}{\sqrt{n}}=\frac{1}{\sqrt{2500}}=0.02$. The survey h
 ## Check Your Understanding: Sample Size for a Proportion
 
 :::{quiz} A student government wants to poll students with a margin of error of 5% at 95% confidence. Using the conservative approach, how many students should be surveyed?
-:hint: n = 1/m² with m = 0.05.
-:feedback-0: Correct! n = 1/(0.05)² = 400.
+:hint: $n = 1/m^2$ with $m = 0.05$.
+:feedback-0: Correct! $n = 1/(0.05)^2 = 400$.
 :feedback-1: 20 is 1/0.05—remember to square the margin of error.
 :feedback-2: 1,112 corresponds to a 3% margin of error.
 * *400
@@ -75,8 +75,8 @@ We'll simply use $m=\frac{1}{\sqrt{n}}=\frac{1}{\sqrt{2500}}=0.02$. The survey h
 :::
 
 :::{quiz} A national survey uses a random sample of 1,600 adults. What is its conservative margin of error?
-:hint: m = 1/√n.
-:feedback-0: Correct! m = 1/√1600 = 1/40 = 0.025, or 2.5%.
+:hint: $m = 1/\sqrt{n}$.
+:feedback-0: Correct! $m = 1/\sqrt{1600} = 1/40 = 0.025$, or 2.5%.
 :feedback-1: 1/1600 forgets the square root.
 :feedback-2: The conservative margin of error uses the square root of the sample size in the denominator.
 * *2.5%

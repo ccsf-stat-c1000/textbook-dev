@@ -15,7 +15,7 @@ Since this is a whole-life policy, there are two possibilities here; either the 
 
 In both cases, the company gets the \$1,200 premium. If the customer lives, the company just gains the \$1,200, but if the customer dies, the company needs to pay \$100,000 to the customer's beneficiaries. Therefore, here is the probability distribution of X:
 
-| x | +1200 (lives) | 1200 − 100,000 (dies) |
+| x | +1200 (lives) | $1200 - 100{,}000$ (dies) |
 | --- | --- | --- |
 | P(X = x) | 0.995 | 0.005 |
 
@@ -33,15 +33,15 @@ What should the annual premium be (instead of \$1,200) if the company wants to k
 
 Now we substitute 0.0075 for 0.005, replace 1,200 with an unknown new premium N, and set the mean gain equal to 700, as it was before:
 
-| x | N (lives) | N − 100,000 (dies) |
+| x | N (lives) | $N - 100{,}000$ (dies) |
 | --- | --- | --- |
 | P(X = x) | 0.9925 | 0.0075 |
 
-We need to solve: 700 = (N)(0.9925) + (N − 100,000)(0.0075)
+We need to solve: 700 = (N)(0.9925) + (N - 100,000)(0.0075)
 
-Using some algebra: 700 = N − 750
+Using some algebra: $700 = N - 750$
 
-Finally: N = 1450
+Finally: $N = 1450$
 
 In order to keep the same expected gain of \$700, the company should increase that customer's premium to \$1,450.
 :::
@@ -61,19 +61,19 @@ Let the random variable X be the insurance company's annual gain from such a pol
 
 :::{quiz} What are the possible values of X and their probabilities?
 :hint: The company always collects the \$1,350 premium, and pays out \$100,000, \$50,000, or nothing.
-:feedback-0: Correct! Total loss: 1350 − 100,000 = −98,650 (prob 0.002); 50% damage: 1350 − 50,000 = −48,650 (prob 0.008); no fire: +1350 (prob 0.990).
+:feedback-0: Correct! Total loss: $1350 - 100{,}000 = -98{,}650$ (prob 0.002); 50% damage: $1350 - 50{,}000 = -48{,}650$ (prob 0.008); no fire: +1350 (prob 0.990).
 :feedback-1: Don't forget that the company keeps the premium in every case—subtract payouts from 1350.
-:feedback-2: The no-fire probability is 1 − 0.002 − 0.008 = 0.990.
-* *−98,650 (0.002); −48,650 (0.008); +1,350 (0.990)
-* −100,000 (0.002); −50,000 (0.008); +1,350 (0.990)
-* −98,650 (0.002); −48,650 (0.008); +1,350 (0.980)
+:feedback-2: The no-fire probability is $1 - 0.002 - 0.008 = 0.990$.
+* *-98,650 (0.002); -48,650 (0.008); +1,350 (0.990)
+* -100,000 (0.002); -50,000 (0.008); +1,350 (0.990)
+* -98,650 (0.002); -48,650 (0.008); +1,350 (0.980)
 :::
 
 :::{quiz} What is the company's expected annual gain from this policy?
-:hint: μ(X) = (−98,650)(0.002) + (−48,650)(0.008) + (1,350)(0.990).
-:feedback-0: Correct! μ(X) = −197.30 − 389.20 + 1,336.50 = \$750.
+:hint: $\mu(X) = (-98{,}650)(0.002) + (-48{,}650)(0.008) + (1{,}350)(0.990)$.
+:feedback-0: Correct! $\mu(X) = -197.30 - 389.20 + 1{,}336.50$ = \$750.
 :feedback-1: \$1,350 ignores the fire payouts, which lower the long-run average.
-:feedback-2: Check the arithmetic: the three weighted terms are −197.30, −389.20, and +1,336.50.
+:feedback-2: Check the arithmetic: the three weighted terms are -197.30, -389.20, and +1,336.50.
 * *$750
 * $1,350
 * $550

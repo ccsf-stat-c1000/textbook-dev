@@ -9,7 +9,7 @@ The two-sample t-test can be safely used as long as the following conditions are
 2. We are in one of the following two scenarios:
 
    - Both populations are normal—or more specifically, the distribution of the response Y in both populations is normal—and both samples are random (or at least can be considered as such). In practice, checking normality in the populations is done by looking at each of the samples using a histogram and checking whether there are any signs that the populations are not normal. Such signs could be extreme skewness and/or extreme outliers.
-   - The populations are known or discovered not to be normal, but the sample size of each of the random samples is large enough (we can use the rule of thumb that n > 30 is considered large enough).
+   - The populations are known or discovered not to be normal, but the sample size of each of the random samples is large enough (we can use the rule of thumb that $n > 30$ is considered large enough).
 
 Assuming that we can safely use the two-sample t-test, we need to summarize the data, and in particular, calculate our data summary—the test statistic.
 
@@ -57,25 +57,25 @@ And when we put it all together we get that indeed:
 
 $$t=\frac{(\bar{y}_{1}-\bar{y}_{2})-0}{\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{2}}}}=\frac{10.73-13.33}{\sqrt{\frac{4.25^{2}}{150}+\frac{4.02^{2}}{85}}}=-4.66$$
 
-The test statistic tells us what the data say about $\mu_1-\mu_2$. In this case, the observed difference (10.73 − 13.33) is 4.66 standard errors below what the null hypothesis claims this difference to be (0). 4.66 standard errors is quite a lot, and probably indicates that the data provide evidence against $H_0$.
+The test statistic tells us what the data say about $\mu_1-\mu_2$. In this case, the observed difference $(10.73 - 13.33)$ is 4.66 standard errors below what the null hypothesis claims this difference to be (0). 4.66 standard errors is quite a lot, and probably indicates that the data provide evidence against $H_0$.
 :::
 
 ## Check Your Understanding: The Two-Sample t-Test Statistic
 
-:::{quiz} In the looks vs. personality example, which quantity does y-bar₁ − y-bar₂ = −2.6 estimate?
+:::{quiz} In the looks vs. personality example, which quantity does $y-bar_1 - y-bar_2 = -2.6$ estimate?
 :hint: The sample difference estimates the corresponding population quantity.
-:feedback-0: Correct! The difference between the sample means estimates μ₁ − μ₂, the difference between the population means.
+:feedback-0: Correct! The difference between the sample means estimates $\mu_1 - \mu_2$, the difference between the population means.
 :feedback-1: The test statistic is the standardized version of the difference, not the difference itself.
-:feedback-2: The sample difference is a point estimate—it doesn't claim the population difference is exactly −2.6.
-* *The difference between the population means, μ₁ − μ₂
+:feedback-2: The sample difference is a point estimate—it doesn't claim the population difference is exactly -2.6.
+* *The difference between the population means, $\mu_1 - \mu_2$
 * The test statistic t
-* The exact value of μ₁ − μ₂
+* The exact value of $\mu_1 - \mu_2$
 :::
 
 :::{quiz} A study compares mean commute times in two cities using independent random samples of 12 from each city. The histogram of one sample shows extreme right skew with two large outliers. Can the two-sample t-test be safely used?
 :hint: Small samples require the populations to look normal.
-:feedback-0: Correct! With small samples (12 < 30) and clear evidence of non-normality, neither scenario for safe use applies.
-:feedback-1: 12 per group is well below the n > 30 guideline, so the CLT cannot compensate for the skewness.
+:feedback-0: Correct! With small samples $(12 < 30)$ and clear evidence of non-normality, neither scenario for safe use applies.
+:feedback-1: 12 per group is well below the $n > 30$ guideline, so the CLT cannot compensate for the skewness.
 :feedback-2: The independence condition may be fine, but the normality/sample-size condition fails.
 * *No—the samples are small and one shows strong evidence of non-normality
 * Yes—the total sample size is 24, which is large enough

@@ -29,9 +29,9 @@ $$H_0: \mu_d = 0 \quad \text{vs.} \quad H_a: \mu_d \neq 0$$
 *Step 2: Checking conditions and summarizing the data with a test statistic.* Is it safe to use the paired t-test in this case?
 
 1. Clearly, the samples of twins are not random samples from the two populations. However, in this context, they can be considered as random, assuming that there is nothing special about the IQ of a person just because he/she has an identical twin.
-2. The sample size here is n = 32. Even though by the n > 30 rule of thumb our sample can be considered large, it is a borderline case, so just to be on the safe side, we should look at the histogram of the differences to make sure we do not see anything extreme. (*Comment:* looking at the histogram of differences in every case is useful even if the sample is very large, just to get a sense of the data. Recall: "Always look at the data.") The data don't reveal anything that we should be worried about (like very extreme skewness or outliers), so we can safely proceed.
+2. The sample size here is $n = 32$. Even though by the $n > 30$ rule of thumb our sample can be considered large, it is a borderline case, so just to be on the safe side, we should look at the histogram of the differences to make sure we do not see anything extreme. (*Comment:* looking at the histogram of differences in every case is useful even if the sample is very large, just to get a sense of the data. Recall: "Always look at the data.") The data don't reveal anything that we should be worried about (like very extreme skewness or outliers), so we can safely proceed.
 
-Looking at the histogram, we note that most of the differences are negative, indicating that in most of the 32 pairs of twins, twin 2 (raised by someone else) has a higher IQ. From this point we rely on statistical software, and find that the test statistic is t = −1.85: our data (represented by the average of the differences) are 1.85 standard errors below the null hypothesis (represented by the null value 0).
+Looking at the histogram, we note that most of the differences are negative, indicating that in most of the 32 pairs of twins, twin 2 (raised by someone else) has a higher IQ. From this point we rely on statistical software, and find that the test statistic is $t = -1.85$: our data (represented by the average of the differences) are 1.85 standard errors below the null hypothesis (represented by the null value 0).
 
 *Step 3: Finding the p-value.* The p-value is 0.074, indicating that there is a 7.4% chance of obtaining data like those observed (or even more extreme) assuming that $H_0$ is true (i.e., assuming that there are no differences in IQ scores between people who were raised by their birth parents and those who weren't).
 
@@ -40,9 +40,9 @@ Looking at the histogram, we note that most of the differences are negative, ind
 
 ## Check Your Understanding: One-Sided Tests for Paired Data
 
-:::{quiz} In the twins study, what would the one-sided p-value have been for the alternative Hₐ: μ_d < 0 (birth-parent twins have lower IQs)?
+:::{quiz} In the twins study, what would the one-sided p-value have been for the alternative $H_a$: $\mu_d < 0$ (birth-parent twins have lower IQs)?
 :hint: The two-sided p-value was 0.074, and the test statistic was negative (in the direction of this alternative).
-:feedback-0: Correct! The one-sided p-value is half the two-sided one: 0.074/2 = 0.037.
+:feedback-0: Correct! The one-sided p-value is half the two-sided one: $0.074/2 = 0.037$.
 :feedback-1: The one-sided p-value is HALF the two-sided value when the data lean in the alternative's direction.
 :feedback-2: The p-value depends on the alternative—one-sided and two-sided tests give different values.
 * *0.037
@@ -53,14 +53,14 @@ Looking at the histogram, we note that most of the differences are negative, ind
 ```{admonition} Comment: Data Snooping
 :class: important
 
-This means that if, based on prior knowledge, prior research, or just a hunch, we had wanted to test the hypothesis that the IQ level of people raised by their birth parents is *lower*, on average, than the IQ level of people who were raised by someone else, we would have rejected $H_0$ and accepted that hypothesis (at the 0.05 significance level, since 0.037 < 0.05).
+This means that if, based on prior knowledge, prior research, or just a hunch, we had wanted to test the hypothesis that the IQ level of people raised by their birth parents is *lower*, on average, than the IQ level of people who were raised by someone else, we would have rejected $H_0$ and accepted that hypothesis (at the 0.05 significance level, since $0.037 < 0.05)$.
 
 It should be stressed, though, that one should set the hypotheses *before* looking at the data. It would be ethically wrong to look at the histogram of differences, note that most of the differences are negative, and then decide to carry out the one-sided test that the data seem to support. This is known as "data snooping," and is considered to be a very bad statistical practice.
 ```
 
 ## Check Your Understanding: The Danger of Data Snooping
 
-:::{quiz} A researcher collects paired data, looks at the results, notices the sample mean difference is positive, and only then chooses the alternative Hₐ: μ_d > 0 to get a smaller p-value. What is wrong with this?
+:::{quiz} A researcher collects paired data, looks at the results, notices the sample mean difference is positive, and only then chooses the alternative $H_a$: $\mu_d > 0$ to get a smaller p-value. What is wrong with this?
 :hint: When must hypotheses be set?
 :feedback-0: Correct! Choosing the alternative after peeking at the data ("data snooping") makes the reported p-value misleadingly small—hypotheses must be set before examining the data.
 :feedback-1: One-sided alternatives are legitimate when justified in advance; the problem is choosing one AFTER seeing the data.

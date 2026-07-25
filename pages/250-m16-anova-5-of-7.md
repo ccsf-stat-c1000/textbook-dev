@@ -22,11 +22,11 @@ In our example, the p-value is extremely small—close to 0—indicating that ou
 
 ## Check Your Understanding: Conclusions from an ANOVA F-Test
 
-:::{quiz} An ANOVA F-test comparing five treatments yields F = 46.6 and a p-value near 0. What exactly can we conclude?
+:::{quiz} An ANOVA F-test comparing five treatments yields $F = 46.6$ and a p-value near 0. What exactly can we conclude?
 :hint: The alternative says only "not all the means are equal."
-:feedback-0: Correct! Rejecting H₀ tells us that the means are not ALL equal—but not which ones differ or how. Follow-up analyses are needed for that.
+:feedback-0: Correct! Rejecting $H_0$ tells us that the means are not ALL equal—but not which ones differ or how. Follow-up analyses are needed for that.
 :feedback-1: The F-test's alternative does not specify which means differ; it only says not all are equal.
-:feedback-2: Rejecting H₀ is a claim about the population means, not just the sample.
+:feedback-2: Rejecting $H_0$ is a claim about the population means, not just the sample.
 * *At least one population mean differs from the others—but the test doesn't say which
 * All five population means differ from each other
 * The five sample means are unequal, but nothing about the populations

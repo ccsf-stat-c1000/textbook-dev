@@ -64,7 +64,7 @@ conditional probability
 : The probability that one event occurs given that another event has occurred, written $P(A \mid B)$.
 
 confidence interval
-: An interval of plausible values for a population parameter, computed from sample data. It takes the form *estimate ± margin of error*.
+: An interval of plausible values for a population parameter, computed from sample data. It takes the form *estimate $\pm$ margin of error*.
 
 confidence level
 : The long-run percentage of confidence intervals, built by the same method from repeated samples, that would capture the true parameter. Common levels are 90%, 95%, and 99%.

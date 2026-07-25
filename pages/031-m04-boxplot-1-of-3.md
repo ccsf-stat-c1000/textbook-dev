@@ -34,10 +34,10 @@ The five number summary of the age of Best Actress Oscar winners (1970–2013) i
 
 :::{quiz} A dataset of 12 commute times (in minutes), already ordered, is: 12, 15, 18, 20, 22, 25, 26, 28, 30, 33, 38, 45. What is the five number summary?
 :hint: The median is the mean of the 6th and 7th values; Q1 and Q3 are the medians of the bottom and top halves (6 values each).
-:feedback-0: Correct! min = 12, Q1 = (18+20)/2 = 19, M = (25+26)/2 = 25.5, Q3 = (30+33)/2 = 31.5, Max = 45.
+:feedback-0: Correct! min = 12, Q1 = $(18+20)/2 = 19$, $M = (25+26)/2 = 25.5$, Q3 = $(30+33)/2 = 31.5$, Max = 45.
 :feedback-1: Check Q1 and Q3—each half has 6 observations, so each quartile is the mean of two values.
 :feedback-2: The median of an even number of observations is the mean of the two center values, not the 6th value alone.
-* *min = 12, Q1 = 19, M = 25.5, Q3 = 31.5, Max = 45
-* min = 12, Q1 = 18, M = 25.5, Q3 = 33, Max = 45
-* min = 12, Q1 = 19, M = 25, Q3 = 31.5, Max = 45
+* *min = 12, Q1 = 19, $M = 25.5$, Q3 = 31.5, Max = 45
+* min = 12, Q1 = 18, $M = 25.5$, Q3 = 33, Max = 45
+* min = 12, Q1 = 19, $M = 25$, Q3 = 31.5, Max = 45
 :::

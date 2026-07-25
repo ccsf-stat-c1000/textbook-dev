@@ -58,7 +58,7 @@ We will therefore use $\bar{x}$ as a measure of center for symmetric distributio
 :feedback-2: Mean and median are approximately equal only for symmetric distributions.
 * Mean > Median
 * *Mean < Median
-* Mean ≈ Median
+* Mean $\approx$ Median
 :::
 
 :::{quiz} For the ages of the Best Actress Oscar winners, the mean is 38.3 and the median is 34.5. What does this comparison suggest about the shape of the distribution?

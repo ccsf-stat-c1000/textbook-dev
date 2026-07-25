@@ -4,7 +4,7 @@
 
 ### Overview
 
-As we mentioned in the summary of the introduction to case C→Q, the first case that we will deal with is comparing two means when the two samples are independent:
+As we mentioned in the summary of the introduction to case $C \to Q$, the first case that we will deal with is comparing two means when the two samples are independent:
 
 ```{figure} images/gen/m16-independent-samples.svg
 :alt: Sub-population 1 has mean of Y mu 1, and sub-population 2 has mean of Y mu 2. Independent simple random samples of sizes n 1 and n 2 are taken from the two sub-populations.
@@ -53,13 +53,13 @@ The format of the data reminds us that we are essentially examining the relation
 
 2. Note that even though the problem description just says that we had 239 students, the figure tells us that there were 85 males in the sample and 150 females.
 
-3. Following up on comment 2, note that 85 + 150 = 235, and not 239. In these data (which are real) there are four *missing observations*—4 students for whom we do not have the value of the response variable. This could be due to a number of reasons, such as recording error or nonresponse. The bottom line is that even though data were collected from 239 students, effectively we have data from only 235.
+3. Following up on comment 2, note that $85 + 150 = 235$, and not 239. In these data (which are real) there are four *missing observations*—4 students for whom we do not have the value of the response variable. This could be due to a number of reasons, such as recording error or nonresponse. The bottom line is that even though data were collected from 239 students, effectively we have data from only 235.
 :::
 
 ```{admonition} Many Students Wonder: Why Not Two Separate Tests?
 :class: important
 
-Why can't we just carry out a separate test for each of the two means and compare the results? Because the question we are asking is about the *difference* between the groups, the inference must be based on a single procedure that directly compares the two means (through their difference, μ₁ − μ₂), properly accounting for the variability in both samples at once. Running two separate one-sample tests does not assess how likely the observed *gap* between the groups would be by chance.
+Why can't we just carry out a separate test for each of the two means and compare the results? Because the question we are asking is about the *difference* between the groups, the inference must be based on a single procedure that directly compares the two means (through their difference, $\mu_1 - \mu_2)$, properly accounting for the variability in both samples at once. Running two separate one-sample tests does not assess how likely the observed *gap* between the groups would be by chance.
 ```
 
 We will now introduce the two-sample t-test by going through its four steps.

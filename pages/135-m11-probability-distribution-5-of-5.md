@@ -25,9 +25,9 @@ We use the conditional probability definition $P(B|A)=\frac{P(A \text{ and } B)}
 
 $$P(X<4|X>2)=\frac{P((X<4) \text{ and } (X>2))}{P(X>2)}=\frac{P(X=3)}{P(X>2)}=\frac{0.2}{0.3}=0.67$$
 
-Note that we are substituting the event "X < 4" for event B, and the event "X > 2" for event A.
+Note that we are substituting the event "$X < 4$" for event B, and the event "$X > 2$" for event A.
 
-Also note that the only way that (X < 4) and (X > 2) can happen together is if X = 3.
+Also note that the only way that (X < 4) and (X > 2) can happen together is if $X = 3$.
 :::
 
 The purpose of the next activity is to give you guided practice at using the probability distribution of a random variable to find probabilities of interest.
@@ -41,8 +41,8 @@ The number of sales that a telemarketing salesperson makes in an hour is a rando
 | P(X = x) | 10/50 | 12/50 | 12/50 | 10/50 | 6/50 |
 
 :::{quiz} What is the probability that the salesperson makes at least one sale in an hour?
-:hint: Use the Complement Rule: 1 − P(X = 0).
-:feedback-0: Correct! P(X ≥ 1) = 1 − 10/50 = 40/50 = 0.8.
+:hint: Use the Complement Rule: 1 - P(X = 0).
+:feedback-0: Correct! P(X $\geq 1) = 1 - 10/50 = 40/50 = 0.8$.
 :feedback-1: 10/50 is P(X = 0), the complement of "at least one sale."
 :feedback-2: 12/50 is only P(X = 1); "at least one" includes 2, 3, and 4 as well.
 * *0.8
@@ -51,9 +51,9 @@ The number of sales that a telemarketing salesperson makes in an hour is a rando
 :::
 
 :::{quiz} What is the probability that the salesperson makes fewer than 3 sales in an hour?
-:hint: X < 3 means X = 0, 1, or 2.
-:feedback-0: Correct! P(X < 3) = (10 + 12 + 12)/50 = 34/50 = 0.68.
-:feedback-1: 44/50 = 0.88 is P(X ≤ 3); "fewer than 3" excludes 3.
+:hint: $X < 3$ means $X = 0$, 1, or 2.
+:feedback-0: Correct! P(X < $3) = (10 + 12 + 12)/50 = 34/50 = 0.68$.
+:feedback-1: $44/50 = 0.88$ is P(X $\leq 3)$; "fewer than 3" excludes 3.
 :feedback-2: 10/50 is only P(X = 3)... which isn't even part of this event.
 * *0.68
 * 0.88
@@ -61,10 +61,10 @@ The number of sales that a telemarketing salesperson makes in an hour is a rando
 :::
 
 :::{quiz} Given that the salesperson made at least one sale, what is the probability that they made exactly one sale?
-:hint: P(X = 1 | X ≥ 1) = P(X = 1)/P(X ≥ 1).
-:feedback-0: Correct! P(X = 1 | X ≥ 1) = (12/50)/(40/50) = 12/40 = 0.3.
-:feedback-1: 12/50 = 0.24 is the unconditional P(X = 1); the conditioning restricts the sample space to the 40/50 with at least one sale.
-:feedback-2: Divide by P(X ≥ 1) = 0.8, not by P(X = 0).
+:hint: P(X = 1 | $X \geq 1)$ = P(X = 1)/P(X $\geq 1)$.
+:feedback-0: Correct! P(X = 1 | $X \geq 1) = (12/50)/(40/50) = 12/40 = 0.3$.
+:feedback-1: $12/50 = 0.24$ is the unconditional P(X = 1); the conditioning restricts the sample space to the 40/50 with at least one sale.
+:feedback-2: Divide by P(X $\geq 1) = 0.8$, not by P(X = 0).
 * *0.3
 * 0.24
 * 1.2

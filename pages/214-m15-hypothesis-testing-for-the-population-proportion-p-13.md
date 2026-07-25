@@ -7,7 +7,7 @@ When the data provide enough evidence to reject $H_0$, we can conclude (dependin
 :::{admonition} Example: Death Penalty Support
 :class: tip
 
-In our example 3 ($H_0: p = 0.64$ vs. $H_a: p \neq 0.64$; $\hat{p} = 0.675$; z = 2.31; p-value = 0.021), we concluded that the proportion of U.S. adults who support the death penalty for convicted murderers has changed since 2003, when it was 0.64. It is probably of interest not only to know that the proportion has changed, but also to estimate what it has changed to. We calculated the 95% confidence interval for p on the previous page and found that it is (0.645, 0.705).
+In our example 3 ($H_0: p = 0.64$ vs. $H_a: p \neq 0.64$; $\hat{p} = 0.675$; $z = 2.31$; p-value = 0.021), we concluded that the proportion of U.S. adults who support the death penalty for convicted murderers has changed since 2003, when it was 0.64. It is probably of interest not only to know that the proportion has changed, but also to estimate what it has changed to. We calculated the 95% confidence interval for p on the previous page and found that it is (0.645, 0.705).
 
 We can combine our conclusions from the test and the confidence interval and say:
 
@@ -19,7 +19,7 @@ The data provide evidence that the proportion of U.S. adults who support the dea
 
 Let's look at our example 1 to see how a confidence interval following a test might be insightful in a different way.
 
-Recall the summary of example 1: $H_0: p = 0.20$ vs. $H_a: p < 0.20$; a random sample of 400 products gave $\hat{p} = 0.16$; z = −2; p-value = 0.023; $H_0$ was rejected.
+Recall the summary of example 1: $H_0: p = 0.20$ vs. $H_a: p < 0.20$; a random sample of 400 products gave $\hat{p} = 0.16$; $z = -2$; p-value = 0.023; $H_0$ was rejected.
 
 We conclude that as a result of the repair, the proportion of defective products has been reduced to below 0.20 (which was the proportion prior to the repair). It is probably of great interest to the company not only to know that the proportion of defectives has been reduced, but also to estimate what it has been reduced to, to get a better sense of how effective the repair was. A 95% confidence interval for p in this case is:
 
@@ -30,7 +30,7 @@ We can therefore say that the data provide evidence that the proportion of defec
 
 ## Check Your Understanding: Following Up a Test with an Interval
 
-:::{quiz} A test rejects H₀: p = 0.35 in favor of Hₐ: p > 0.35 with a p-value of 0.008. What is the added value of following up with a 95% confidence interval for p?
+:::{quiz} A test rejects $H_0$: $p = 0.35$ in favor of $H_a$: $p > 0.35$ with a p-value of 0.008. What is the added value of following up with a 95% confidence interval for p?
 :hint: What does the test conclusion tell you about p, and what does it leave out?
 :feedback-0: Correct! The test only tells us that p is above 0.35; the confidence interval estimates WHERE p actually is, which lets us judge whether the difference is practically meaningful.
 :feedback-1: The interval does not re-test the hypothesis—it adds an estimate of the parameter's actual value.

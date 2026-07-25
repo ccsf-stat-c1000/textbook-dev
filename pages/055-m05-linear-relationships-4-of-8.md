@@ -22,7 +22,7 @@ The correlation *ignores* any other type of relationship, no matter how strong i
 :alt: The scatterplot of speed against fuel used, in which the points fall and then rise, following a U-shaped curve very closely.
 ```
 
-Our data describe a fairly simple curvilinear relationship: the amount of fuel consumed decreases rapidly to a minimum for a car driving 60 kilometers per hour, and then increases gradually for speeds exceeding 60 kilometers per hour. The relationship is very strong, as the observations seem to perfectly fit the curve. Although the relationship is strong, the correlation r = −0.172 indicates a weak *linear* relationship. This makes sense considering that the data fail to adhere closely to a linear form.
+Our data describe a fairly simple curvilinear relationship: the amount of fuel consumed decreases rapidly to a minimum for a car driving 60 kilometers per hour, and then increases gradually for speeds exceeding 60 kilometers per hour. The relationship is very strong, as the observations seem to perfectly fit the curve. Although the relationship is strong, the correlation $r = -0.172$ indicates a weak *linear* relationship. This makes sense considering that the data fail to adhere closely to a linear form.
 
 The correlation is useless for assessing the strength of any type of relationship that is not linear (including relationships that are curvilinear, such as the one in our example). Beware, then, of interpreting the fact that r is close to 0 as an indicator of a weak relationship rather than a weak *linear* relationship. This example also illustrates how important it is to *always look at the data in the scatterplot* because, as in our example, there might be a strong nonlinear relationship that r does not indicate.
 
@@ -36,7 +36,7 @@ To see this, let's consider the study that examined the effect of monetary incen
 :alt: The scatterplot of incentive against percentage of surveys returned, in which the points rise quickly and then level off, following a curve.
 ```
 
-The relationship is curvilinear, yet the correlation r = 0.876 is quite close to 1. In the last two examples, we have seen two very strong curvilinear relationships, one with a correlation close to 0 and one with a correlation close to 1. Therefore, the correlation alone does not indicate whether a relationship is linear. The important principle here is: *Always look at the data!*
+The relationship is curvilinear, yet the correlation $r = 0.876$ is quite close to 1. In the last two examples, we have seen two very strong curvilinear relationships, one with a correlation close to 0 and one with a correlation close to 1. Therefore, the correlation alone does not indicate whether a relationship is linear. The important principle here is: *Always look at the data!*
 
 ### 4. The correlation is heavily influenced by outliers
 
@@ -50,7 +50,7 @@ An outlier that is *not consistent* with the pattern of the relationship (left p
 
 ## Check Your Understanding: Properties of the Correlation r
 
-:::{quiz} A dataset of 20 points has a strong positive linear pattern with r = 0.95. One additional point is added far below the rest of the data, well off the linear pattern. What will most likely happen to r?
+:::{quiz} A dataset of 20 points has a strong positive linear pattern with $r = 0.95$. One additional point is added far below the rest of the data, well off the linear pattern. What will most likely happen to r?
 :hint: Is the new point consistent with the upward pattern or not?
 :feedback-0: Correct! An outlier inconsistent with the pattern weakens the linear relationship, so r decreases substantially.
 :feedback-1: r would increase only if the outlier extended the existing linear pattern.

@@ -40,17 +40,17 @@ Here is the relevant output of the paired t-test for our example:
 
 | n | Mean of differences | StDev of differences | t |
 | --- | --- | --- | --- |
-| 20 | −0.5015 | 0.8686 | −2.58 |
+| 20 | -0.5015 | 0.8686 | -2.58 |
 
-According to the output, the test statistic is −2.58, indicating that the data (represented by the sample mean of the differences) are 2.58 standard errors below the null hypothesis (represented by the null value, 0). Note that beyond the test statistic itself, the output also provides the ingredients needed to calculate it: n = 20, $\bar{x}_d=-0.5015$, $s_d=0.8686$. Indeed:
+According to the output, the test statistic is -2.58, indicating that the data (represented by the sample mean of the differences) are 2.58 standard errors below the null hypothesis (represented by the null value, 0). Note that beyond the test statistic itself, the output also provides the ingredients needed to calculate it: $n = 20$, $\bar{x}_d=-0.5015$, $s_d=0.8686$. Indeed:
 
 $$\frac{-0.5015}{\frac{0.8686}{\sqrt{20}}}=-2.58$$
 :::
 
 ## Check Your Understanding: Conditions for the Paired t-Test
 
-:::{quiz} In a paired study with n = 25, the histogram of the 25 differences shows one extreme outlier and strong skewness. Can the paired t-test be safely used?
-:hint: n = 25 is below the "large sample" guideline.
+:::{quiz} In a paired study with $n = 25$, the histogram of the 25 differences shows one extreme outlier and strong skewness. Can the paired t-test be safely used?
+:hint: $n = 25$ is below the "large sample" guideline.
 :feedback-0: Correct! With a small sample and clear evidence of non-normality in the differences, the paired t-test is not reliable.
 :feedback-1: The normality check applies to the DIFFERENCES, and it fails here—with only 25 observations the CLT cannot compensate.
 * *No—the sample is small and the differences show clear non-normality

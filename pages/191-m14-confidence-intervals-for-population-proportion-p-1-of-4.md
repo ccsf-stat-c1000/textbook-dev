@@ -4,7 +4,7 @@
 
 As we mentioned in the introduction to this module, when the variable that we're interested in studying in the population is *categorical*, the parameter we are trying to infer about is the *population proportion (p)* associated with that variable. We also learned that the point estimator for the population proportion p is the sample proportion $\hat{p}$.
 
-We are now moving on to interval estimation of p. In other words, we would like to develop a set of intervals that, with different levels of confidence, will capture the value of p. We've actually done all the groundwork and discussed all the big ideas of interval estimation when we talked about interval estimation for μ, so we'll be able to go through it much faster. Let's begin.
+We are now moving on to interval estimation of p. In other words, we would like to develop a set of intervals that, with different levels of confidence, will capture the value of p. We've actually done all the groundwork and discussed all the big ideas of interval estimation when we talked about interval estimation for $\mu$, so we'll be able to go through it much faster. Let's begin.
 
 Recall that the general form of any confidence interval for an unknown parameter is:
 
@@ -22,7 +22,7 @@ $$m=\text{confidence multiplier} \cdot \text{SD of the estimator}$$
 
 To figure out what these two components are, we need to go back to a result we obtained in the Sampling Distributions module of the Probability unit about the sampling distribution of $\hat{p}$. We found that under certain conditions (which we'll come back to later), $\hat{p}$ has a normal distribution with mean p and standard deviation $\sqrt{\frac{p(1-p)}{n}}$. This result makes things very simple for us, because it reveals what the two components of the margin of error are:
 
-- Since, like the sampling distribution of $\bar{X}$, the sampling distribution of $\hat{p}$ is normal, the confidence multipliers that we'll use in the confidence interval for p will be the same z\* multipliers we use for the confidence interval for μ when σ is known (using *exactly* the same reasoning and the same probability results). The multipliers we'll use, then, are: *1.645, 2, and 2.576 at the 90%, 95% and 99% confidence levels, respectively.*
+- Since, like the sampling distribution of $\bar{X}$, the sampling distribution of $\hat{p}$ is normal, the confidence multipliers that we'll use in the confidence interval for p will be the same z\* multipliers we use for the confidence interval for $\mu$ when $\sigma$ is known (using *exactly* the same reasoning and the same probability results). The multipliers we'll use, then, are: *1.645, 2, and 2.576 at the 90%, 95% and 99% confidence levels, respectively.*
 
 - The standard deviation of our estimator $\hat{p}$ is $\sqrt{\frac{p(1-p)}{n}}$.
 

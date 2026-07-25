@@ -4,7 +4,7 @@
 
 ### Overview
 
-In this part, we continue to handle situations involving one categorical explanatory variable and one quantitative response variable, which is case C→Q in our role-type classification table.
+In this part, we continue to handle situations involving one categorical explanatory variable and one quantitative response variable, which is case $C \to Q$ in our role-type classification table.
 
 So far we have discussed the two samples and matched pairs designs, in which the categorical explanatory variable is two-valued. As we saw, in these cases, examining the relationship between the explanatory and the response variables amounts to comparing the mean of the response variable (Y) in two populations, which are defined by the two values of the explanatory variable (X). The difference between the two samples and matched pairs designs is that in the former, the two samples are independent, and in the latter, the samples are dependent.
 

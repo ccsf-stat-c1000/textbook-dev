@@ -34,8 +34,8 @@ Note that there are many ways for $\mu_1, \mu_2, \mu_3, \mu_4$ not to be all equ
 ## Check Your Understanding: The ANOVA Hypotheses
 
 :::{quiz} A study compares the mean recovery times of patients on four different physical-therapy programs. Suppose the truth is that programs 1, 2, and 3 have identical mean recovery times, but program 4's mean is shorter. Is the null hypothesis of the ANOVA F-test true or false in this situation?
-:hint: H₀ requires ALL the means to be equal.
-:feedback-0: Correct! H₀ says all four means are equal; if even one differs, H₀ is false and the alternative ("not all equal") is true.
+:hint: $H_0$ requires ALL the means to be equal.
+:feedback-0: Correct! $H_0$ says all four means are equal; if even one differs, $H_0$ is false and the alternative ("not all equal") is true.
 :feedback-1: Even though three means are equal, the fourth differs—so it is NOT the case that all the means are equal.
 :feedback-2: The alternative doesn't require all means to differ from each other—only that they are not all equal.
 * *False—the alternative holds, since not all four means are equal

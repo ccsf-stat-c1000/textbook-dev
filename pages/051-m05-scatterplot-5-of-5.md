@@ -7,7 +7,7 @@ In certain circumstances, it may be reasonable to indicate different subgroups o
 ::::{admonition} Example: Hot Dogs
 :class: tip
 
-Recall the hot dog example from case C→Q, in which 54 major hot dog brands were examined. In this study, both the *calorie content* and the *sodium level* of each brand was recorded, as well as the *type* of hot dog: beef, poultry, and meat (mostly pork and beef, but up to 15% poultry meat). In this example we will explore the relationship between the calorie content and the sodium level of hot dogs, and we will label the three different types of hot dogs to create a labeled scatterplot:
+Recall the hot dog example from case $C \to Q$, in which 54 major hot dog brands were examined. In this study, both the *calorie content* and the *sodium level* of each brand was recorded, as well as the *type* of hot dog: beef, poultry, and meat (mostly pork and beef, but up to 15% poultry meat). In this example we will explore the relationship between the calorie content and the sodium level of hot dogs, and we will label the three different types of hot dogs to create a labeled scatterplot:
 
 ```{figure} images/gen/m05-hotdog-labeled-scatterplot.svg
 :alt: A labeled scatterplot with calories on the horizontal axis and sodium on the vertical axis. Beef brands are blue circles, meat brands are green squares, and poultry brands are orange triangles. Within each type, sodium tends to increase with calories. The poultry triangles form their own cluster on the left side of the plot: for a comparable sodium level, poultry hot dogs have noticeably fewer calories than beef or meat hot dogs.

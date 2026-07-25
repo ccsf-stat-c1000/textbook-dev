@@ -24,10 +24,10 @@
 
 :::{quiz} In a matched pairs study, the hypotheses are stated about which parameter?
 :hint: The two samples are reduced to one sample of differences.
-:feedback-0: Correct! The paired t-test is a one-sample t-test about μ_d, the population mean of the differences (which equals μ₁ − μ₂).
+:feedback-0: Correct! The paired t-test is a one-sample t-test about $\mu_d$, the population mean of the differences (which equals $\mu_1 - \mu_2)$.
 :feedback-1: The sample mean of the differences is the estimate, not the parameter.
-:feedback-2: The hypotheses concern one parameter (μ_d), not the two separate means individually.
-* *μ_d, the population mean of the differences
+:feedback-2: The hypotheses concern one parameter $(\mu_d)$, not the two separate means individually.
+* *$\mu_d$, the population mean of the differences
 * x-bar_d, the sample mean of the differences
-* μ₁ and μ₂ separately
+* $\mu_1$ and $\mu_2$ separately
 :::

@@ -7,17 +7,17 @@ In the previous two examples and activity, we needed to specify the probability 
 
 A random variable X has a probability distribution of
 
-*P(X = x) = (x + 2) / 25 for x = 1, 2, 3, 4, 5.*
+*P(X = x) = (x + $2) / 25$ for $x = 1$, 2, 3, 4, 5.*
 
 Show the probability distribution in a table, and verify that the above requirements are satisfied.
 
-Substituting x = 1, 2, 3, 4, and 5, respectively, into the formula for P(X = x), we have
+Substituting $x = 1$, 2, 3, 4, and 5, respectively, into the formula for P(X = x), we have
 
 | x | 1 | 2 | 3 | 4 | 5 |
 | --- | --- | --- | --- | --- | --- |
 | P(X = x) | 3/25 | 4/25 | 5/25 | 6/25 | 7/25 |
 
-Clearly, each probability is between 0 and 1. Also, the probabilities sum to (3 + 4 + 5 + 6 + 7) / 25 = 25/25 = 1.
+Clearly, each probability is between 0 and 1. Also, the probabilities sum to $(3 + 4 + 5 + 6 + 7) / 25 = 25/25 = 1$.
 :::
 
 ## Probability Histograms
@@ -46,9 +46,9 @@ Based upon data collected in the 2000 United States Census, the following histog
 
 :::{quiz} What is the probability that a randomly chosen household has at most 2 people?
 :hint: Add the probabilities for 1 and 2 people.
-:feedback-0: Correct! P(X ≤ 2) = 0.28 + 0.34 = 0.62.
+:feedback-0: Correct! P(X $\leq 2) = 0.28 + 0.34 = 0.62$.
 :feedback-1: 0.34 is only P(X = 2); "at most 2" also includes single-person households.
-:feedback-2: 0.38 is P(X ≥ 3), the complement of "at most 2."
+:feedback-2: 0.38 is P(X $\geq 3)$, the complement of "at most 2."
 * *0.62
 * 0.34
 * 0.38
@@ -63,8 +63,8 @@ The probability distribution of the random variable X is represented by the foll
 ```
 
 :::{quiz} What is P(X > 2)?
-:hint: "Greater than 2" means X = 3 or X = 4.
-:feedback-0: Correct! P(X > 2) = P(X = 3) + P(X = 4) = 0.2 + 0.1 = 0.3.
+:hint: "Greater than 2" means $X = 3$ or $X = 4$.
+:feedback-0: Correct! P(X > 2) = P(X = 3) + P(X = $4) = 0.2 + 0.1 = 0.3$.
 :feedback-1: 0.6 includes P(X = 2), but "greater than 2" excludes 2 itself.
 :feedback-2: 0.2 is only P(X = 3).
 * *0.3
@@ -72,10 +72,10 @@ The probability distribution of the random variable X is represented by the foll
 * 0.2
 :::
 
-:::{quiz} What is P(X ≥ 2)?
+:::{quiz} What is P(X $\geq 2)$?
 :hint: This time 2 is included.
-:feedback-0: Correct! P(X ≥ 2) = 0.3 + 0.2 + 0.1 = 0.6 (or 1 − P(X = 1) = 1 − 0.4).
-:feedback-1: 0.3 is P(X > 2); the "≥" version includes X = 2 as well.
+:feedback-0: Correct! P(X $\geq 2) = 0.3 + 0.2 + 0.1 = 0.6$ (or 1 - P(X = $1) = 1 - 0.4)$.
+:feedback-1: 0.3 is P(X > 2); the "$\geq$" version includes $X = 2$ as well.
 :feedback-2: 0.4 is P(X = 1), the complement of this event.
 * *0.6
 * 0.3

@@ -47,9 +47,9 @@ Consider getting data from a random sample on the number of ears in which a pers
 
 We *define the variable X to be the number of ears* in which a randomly selected person wears an earring.
 
-- If the selected person does not wear any earrings, then X = 0.
-- If the selected person wears earrings in either the left or the right ear, then X = 1.
-- If the selected person wears earrings in both ears, then X = 2.
+- If the selected person does not wear any earrings, then $X = 0$.
+- If the selected person wears earrings in either the left or the right ear, then $X = 1$.
+- If the selected person wears earrings in both ears, then $X = 2$.
 
 As the definition suggests, X is a quantitative variable which takes the possible values of 0, 1, or 2. We can ask questions like:
 

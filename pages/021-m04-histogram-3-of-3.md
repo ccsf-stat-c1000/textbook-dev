@@ -22,7 +22,7 @@ In our example:
 | --- | --- |
 | Approximate min: | 45 (the middle of the lowest interval of scores) |
 | Approximate max: | 95 (the middle of the highest interval of scores) |
-| Approximate range: | 95 − 45 = 50 |
+| Approximate range: | $95 - 45 = 50$ |
 
 ## Outliers
 
@@ -51,7 +51,7 @@ We will now summarize the main features of the distribution of ages as it appear
 
 *Center:* The data seem to be centered around 34 or 35 years old. Note that this implies that roughly half the awards are given to actresses who are less than 34 years old.
 
-*Spread:* The data range from about 20 to about 80, so the approximate range equals 80 − 20 = 60.
+*Spread:* The data range from about 20 to about 80, so the approximate range equals $80 - 20 = 60$.
 
 *Outliers:* There seem to be two probable outliers to the far right and possibly three around 62 years old.
 
@@ -65,7 +65,7 @@ Use the Best Actress histogram above to answer the following questions.
 :::{quiz} How many of the Best Actress winners were younger than 30 when they won?
 :hint: Add the frequencies of the intervals that contain only ages below 30.
 :feedback-0: 8 counts only the 25-29 interval; don't forget the two winners aged 20-24.
-:feedback-1: Correct! 2 + 8 = 10 winners were in the 20-24 and 25-29 intervals.
+:feedback-1: Correct! $2 + 8 = 10$ winners were in the 20-24 and 25-29 intervals.
 :feedback-2: 12 is the count for the 30-34 interval, whose winners were not younger than 30.
 * 8
 * *10

@@ -10,9 +10,9 @@ This summary provides a quick recap of the big ideas you've learned in the infer
 
 1. *Idea:* estimating an unknown parameter with a single value (that was obtained from the observed data).
 
-2. We typically estimate: the population mean μ by the sample mean $\bar{x}$; the population proportion p by the sample proportion $\hat{p}$; and the population standard deviation σ and the population variance $\sigma^2$ by the sample standard deviation s and the sample variance $s^2$. (Note that the last two parameters are not covered in detail in this course.)
+2. We typically estimate: the population mean $\mu$ by the sample mean $\bar{x}$; the population proportion p by the sample proportion $\hat{p}$; and the population standard deviation $\sigma$ and the population variance $\sigma^2$ by the sample standard deviation s and the sample variance $s^2$. (Note that the last two parameters are not covered in detail in this course.)
 
-3. $\bar{x}$, $\hat{p}$, s, and $s^2$ are unbiased estimators for μ, p, σ, and $\sigma^2$, respectively. Their precision increases with the sample size.
+3. $\bar{x}$, $\hat{p}$, s, and $s^2$ are unbiased estimators for $\mu$, p, $\sigma$, and $\sigma^2$, respectively. Their precision increases with the sample size.
 
 ## Interval Estimation
 
@@ -28,7 +28,7 @@ This summary provides a quick recap of the big ideas you've learned in the infer
 
 4. A way to get better precision for a given level of confidence is to increase the sample size. Sample size calculations can be carried out in order to determine the sample size needed for a desired margin of error at a certain level of confidence. We should keep in mind, though, that in practice, larger sample sizes are not always available.
 
-5. For the confidence interval for the population mean, μ, we distinguished between the case where the population standard deviation *σ is known* (in which case we use the z\* confidence multipliers) and the case where *σ is unknown* and is replaced by the sample standard deviation s (in which case we use the t\* confidence multipliers, and rely on software to do the calculations). For large sample sizes, and for a given level of confidence, z\* is approximately equal to t\*. In either case, we can safely use the confidence interval as long as the population is normal and/or the sample size is large (> 30).
+5. For the confidence interval for the population mean, $\mu$, we distinguished between the case where the population standard deviation *$\sigma$ is known* (in which case we use the z\* confidence multipliers) and the case where *$\sigma$ is unknown* and is replaced by the sample standard deviation s (in which case we use the t\* confidence multipliers, and rely on software to do the calculations). For large sample sizes, and for a given level of confidence, z\* is approximately equal to t\*. In either case, we can safely use the confidence interval as long as the population is normal and/or the sample size is large (> 30).
 
 6. The confidence interval for the population proportion p is the primary statistical method used in the analysis of polls, and can be safely used as long as $n\hat{p}\geq10$ and $n(1-\hat{p})\geq10$.
 
@@ -38,7 +38,7 @@ This summary provides a quick recap of the big ideas you've learned in the infer
 
 2. In practice, we have two competing hypotheses, $H_0$, which is challenged by $H_a$, and we are assessing whether or not the data provide evidence (beyond a reasonable doubt) that we can reject $H_0$ in favor of $H_a$. If they do, we say that the results are significant; otherwise, if $H_0$ cannot be rejected, we say that the results are not significant.
 
-3. $H_0$ and $H_a$ are two claims about the population. In the one-variable case, these claims are about the value of a parameter in the population. In inference about relationships, $H_0$ and $H_a$ are about the existence/nonexistence of a certain relationship between the two variables. Recall that in case C→Q the existence/nonexistence of the relationship is stated in terms of $\mu_1-\mu_2$, $\mu_d$, or $\mu_1, \mu_2, \ldots, \mu_k$. In cases C→C and Q→Q, the relationship is stated in words.
+3. $H_0$ and $H_a$ are two claims about the population. In the one-variable case, these claims are about the value of a parameter in the population. In inference about relationships, $H_0$ and $H_a$ are about the existence/nonexistence of a certain relationship between the two variables. Recall that in case $C \to Q$ the existence/nonexistence of the relationship is stated in terms of $\mu_1-\mu_2$, $\mu_d$, or $\mu_1, \mu_2, \ldots, \mu_k$. In cases $C \to C$ and $Q \to Q$, the relationship is stated in words.
 
 4. After the hypotheses have been formulated, data are collected, and conditions for use are checked, the evidence in the data is assessed by finding the p-value of the test—the probability of getting data like those observed (or even more extreme) if $H_0$ were true. If the p-value is small (smaller than some cutoff called the significance level, typically set at 0.05), meaning that it would be unlikely to get data like those observed if $H_0$ were true, we reject $H_0$ in favor of $H_a$. Otherwise, we cannot reject $H_0$. Note that 0.05 represents our "reasonable doubt." The p-value can be viewed as a measure of the evidence in the data against $H_0$: the smaller the p-value, the larger the evidence against $H_0$.
 

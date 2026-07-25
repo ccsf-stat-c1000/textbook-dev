@@ -51,7 +51,7 @@ What values can the probability of an event take, and what does the value tell u
 ```{admonition} Principle
 :class: note
 
-*The probability that an event will occur is between 0 and 1, or 0 ≤ P(A) ≤ 1.*
+*The probability that an event will occur is between 0 and 1, or $0 \leq$ P(A) $\leq 1.*$
 ```
 
 Many people prefer to express probability in percentages. Since all probabilities are decimals, each can be changed to an equivalent percentage. Thus, the latest principle is equivalent to saying, *"The chance that an event will occur is between 0% and 100%."*

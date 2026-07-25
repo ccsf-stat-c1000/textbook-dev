@@ -6,7 +6,7 @@ Consider the appearance of the probability histogram for the distribution of X:
 :alt: The probability histogram of a binomial random variable with n equal to 20 and p equal to 0.5, symmetric and peaked at 10, with a red normal curve drawn on top. The histogram closely follows the bell shape of the normal curve.
 ```
 
-Clearly, the shape of the distribution of X for n = 20, p = 0.5 has a normal appearance: symmetric, bulging at the middle, and tapering at the ends.
+Clearly, the shape of the distribution of X for $n = 20$, $p = 0.5$ has a normal appearance: symmetric, bulging at the middle, and tapering at the ends.
 
 This suggests a method of approximating binomial probabilities:
 
@@ -28,34 +28,34 @@ Unfortunately, the approximated probability, 0.1867, is quite a bit different fr
 
 ## Rule of Thumb
 
-Probabilities for a binomial random variable X with n and p may be approximated by those for a normal random variable having the same mean and standard deviation as long as the sample size n is large enough relative to the proportions of successes and failures, p and 1 − p. Our Rule of Thumb will be to require that
+Probabilities for a binomial random variable X with n and p may be approximated by those for a normal random variable having the same mean and standard deviation as long as the sample size n is large enough relative to the proportions of successes and failures, p and $1 - p$. Our Rule of Thumb will be to require that
 
 $$np\geq10 \quad \text{and} \quad n(1-p)\geq10$$
 
 :::{admonition} Example: Checking the Rule of Thumb
 :class: tip
 
-May we use a normal approximation for a binomial X with n = 20 and p = 0.5? In this case, np = 20(0.5) = 10 and n(1 − p) = 20(0.5) = 10. The criteria are just barely satisfied, and so we should not expect the approximation to be especially good.
+May we use a normal approximation for a binomial X with $n = 20$ and $p = 0.5$? In this case, np = $20(0.5) = 10$ and n(1 - p) = $20(0.5) = 10$. The criteria are just barely satisfied, and so we should not expect the approximation to be especially good.
 :::
 
 The purpose of the next activity is to give you practice at deciding whether the normal approximation is appropriate for a given binomial random variable.
 
 ## Check Your Understanding: When to Use the Normal Approximation
 
-:::{quiz} Is the normal approximation appropriate for a binomial random variable with n = 100 and p = 0.05?
-:hint: Check np and n(1 − p) against 10.
-:feedback-0: np = 100(0.05) = 5, which is less than 10—the rule of thumb fails.
-:feedback-1: Correct! np = 5 < 10, so the approximation is not appropriate; the distribution is still too skewed right.
-:feedback-2: n(1 − p) = 95 is fine, but BOTH conditions must hold, and np = 5 fails.
+:::{quiz} Is the normal approximation appropriate for a binomial random variable with $n = 100$ and $p = 0.05$?
+:hint: Check np and n(1 - p) against 10.
+:feedback-0: np = $100(0.05) = 5$, which is less than 10—the rule of thumb fails.
+:feedback-1: Correct! np = $5 < 10$, so the approximation is not appropriate; the distribution is still too skewed right.
+:feedback-2: n(1 - p) = 95 is fine, but BOTH conditions must hold, and np = 5 fails.
 * Yes—both conditions hold
 * *No—np = 5 is less than 10
-* No—n(1 − p) is less than 10
+* No—n(1 - p) is less than 10
 :::
 
-:::{quiz} Is the normal approximation appropriate for a binomial random variable with n = 400 and p = 0.1?
-:hint: np = 40 and n(1 − p) = 360.
-:feedback-0: Correct! np = 40 ≥ 10 and n(1 − p) = 360 ≥ 10, so the approximation is appropriate.
-:feedback-1: Check the arithmetic: np = 400(0.1) = 40, which satisfies the condition.
-* *Yes—np = 40 and n(1 − p) = 360 both exceed 10
+:::{quiz} Is the normal approximation appropriate for a binomial random variable with $n = 400$ and $p = 0.1$?
+:hint: np = 40 and n(1 - p) = 360.
+:feedback-0: Correct! np = $40 \geq 10$ and n(1 - p) = $360 \geq 10$, so the approximation is appropriate.
+:feedback-1: Check the arithmetic: np = $400(0.1) = 40$, which satisfies the condition.
+* *Yes—np = 40 and n(1 - p) = 360 both exceed 10
 * No—p = 0.1 is too small for any n
 :::

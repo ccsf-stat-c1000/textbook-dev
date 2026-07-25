@@ -30,12 +30,12 @@ Here is some additional information:
 
 What is the probability that a randomly chosen person is a potential donor for a person with blood type A?
 
-From the information given, we know that being a potential donor for a person with blood type A means having blood type A or O. We therefore need to find P(A or O). Since the events A and O are disjoint, we can use the addition rule for disjoint events to get: P(A or O) = P(A) + P(O) = 0.42 + 0.44 = 0.86. It is easy to see why adding the probabilities actually makes sense. If 42% of the population has blood type A and 44% of the population has blood type O, then 42% + 44% = 86% of the population has either blood type A or O, and thus are potential donors to a person with blood type A. (Picture the pie chart of blood types: the A and O slices together take up 86% of the pie.)
+From the information given, we know that being a potential donor for a person with blood type A means having blood type A or O. We therefore need to find P(A or O). Since the events A and O are disjoint, we can use the addition rule for disjoint events to get: P(A or O) = P(A) + P(O) = $0.42 + 0.44 = 0.86$. It is easy to see why adding the probabilities actually makes sense. If 42% of the population has blood type A and 44% of the population has blood type O, then $42% + 44% = 86%$ of the population has either blood type A or O, and thus are potential donors to a person with blood type A. (Picture the pie chart of blood types: the A and O slices together take up 86% of the pie.)
 :::
 
 :::{quiz} Using the blood type table, what is the probability that a randomly chosen person has blood type B or AB?
 :hint: The blood types are disjoint, so add their probabilities.
-:feedback-0: Correct! P(B or AB) = 0.10 + 0.04 = 0.14.
+:feedback-0: Correct! P(B or AB) = $0.10 + 0.04 = 0.14$.
 :feedback-1: 0.10 is P(B) alone—don't forget type AB.
 :feedback-2: Multiplication is not appropriate here; for disjoint events, "or" means addition.
 * *0.14
@@ -56,7 +56,7 @@ We are interested in finding the probability that a randomly chosen person can b
 
 :::{quiz} Which blood types make up event D1 (can donate to patient 1, who has type A), and what is P(D1)?
 :hint: Patient 1 can receive from types A and O.
-:feedback-0: Correct! D1 = {A, O}, so P(D1) = 0.42 + 0.44 = 0.86.
+:feedback-0: Correct! D1 = {A, O}, so P(D1) = $0.42 + 0.44 = 0.86$.
 :feedback-1: Type B cannot donate to a type A patient.
 :feedback-2: Type AB can donate only to AB patients.
 * *Types A and O; P(D1) = 0.86
@@ -74,8 +74,8 @@ We are interested in finding the probability that a randomly chosen person can b
 
 :::{quiz} What is the correct value of P(D1 or D2)—the probability that a random person can donate to patient 1 or patient 2?
 :hint: D1 or D2 = {A, O, B}—every type except AB.
-:feedback-0: Adding P(D1) + P(D2) = 0.86 + 0.54 = 1.40 double-counts type O and exceeds 1, which is impossible!
-:feedback-1: Correct! The event "D1 or D2" consists of blood types A, B, and O, so its probability is 0.42 + 0.10 + 0.44 = 0.96 (equivalently, 1 − P(AB)).
+:feedback-0: Adding P(D1) + P(D2) = $0.86 + 0.54 = 1.40$ double-counts type O and exceeds 1, which is impossible!
+:feedback-1: Correct! The event "D1 or D2" consists of blood types A, B, and O, so its probability is $0.42 + 0.10 + 0.44 = 0.96$ (equivalently, 1 - P(AB)).
 :feedback-2: 0.86 is just P(D1); it leaves out the type B donors who can donate to patient 2.
 * 1.40
 * *0.96

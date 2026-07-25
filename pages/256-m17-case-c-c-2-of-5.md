@@ -33,7 +33,7 @@ Hence the name "chi-square test for independence."
 Algebraically, independence between gender and driving drunk is equivalent to having equal proportions who drank (or did not drink) for males vs. females. In fact, the null and alternative hypotheses could have been re-formulated as:
 
 - $H_0$: proportion of male drunk drivers = proportion of female drunk drivers
-- $H_a$: proportion of male drunk drivers ≠ proportion of female drunk drivers
+- $H_a$: proportion of male drunk drivers $\neq$ proportion of female drunk drivers
 
 However, while expressing the hypotheses in terms of proportions works well and is quite intuitive for 2-by-2 tables, the formulation becomes very cumbersome when at least one of the variables has several possible values, not just two. We are therefore going to always stick with the "wordy" form of the hypotheses presented in step 1 above.
 ```
@@ -61,7 +61,7 @@ In other words, we will have two sets of counts:
 
 We will measure how far the observed counts are from the expected ones. Ultimately, we will base our decision on the size of the discrepancy between what we observed and what we would expect to observe if $H_0$ were true.
 
-How are the expected counts calculated? Once again, we are in need of probability results. Recall from the probability unit that if events A and B are independent, then P(A and B) = P(A) × P(B). We use this rule for calculating expected counts, one cell at a time.
+How are the expected counts calculated? Once again, we are in need of probability results. Recall from the probability unit that if events A and B are independent, then P(A and B) = P(A) $\times$ P(B). We use this rule for calculating expected counts, one cell at a time.
 
 Applying the rule to the first (top left) cell, if driving drunk and gender were independent, then
 
@@ -93,8 +93,8 @@ Here is the complete table of expected counts (compare it with the table of obse
 
 | Expected | Yes | No | Total |
 | --- | --- | --- | --- |
-| **Male** | (93 × 481)/619 = 72.3 | (526 × 481)/619 = 408.7 | 481 |
-| **Female** | (93 × 138)/619 = 20.7 | (526 × 138)/619 = 117.3 | 138 |
+| **Male** | $(93 \times 481)/619 = 72.3$ | $(526 \times 481)/619 = 408.7$ | 481 |
+| **Female** | $(93 \times 138)/619 = 20.7$ | $(526 \times 138)/619 = 117.3$ | 138 |
 | **Total** | 93 | 526 | 619 |
 
 ## Check Your Understanding: Expected Counts
@@ -108,8 +108,8 @@ A study was done on the relationship between gender and piercing among high-scho
 | **Total** | 648 | 352 | 1,000 |
 
 :::{quiz} If gender and ear piercing were independent, what is the expected count of females with pierced ears?
-:hint: Expected count = (column total × row total)/table total = (648 × 640)/1000.
-:feedback-0: Correct! (648 × 640)/1000 = 414.7.
+:hint: Expected count = (column total $\times$ row total)/table total = $(648 \times 640)/1000$.
+:feedback-0: Correct! $(648 \times 640)/1000 = 414.7$.
 :feedback-1: 576 is the OBSERVED count, not the expected one.
 :feedback-2: Use the column total (648) times the row total (640), divided by the table total (1,000).
 * *414.7
@@ -118,11 +118,11 @@ A study was done on the relationship between gender and piercing among high-scho
 :::
 
 :::{quiz} The observed count of pierced females (576) is much higher than the expected count under independence (414.7). What does this discrepancy suggest?
-:hint: Big gaps between observed and expected counts are evidence about H₀.
+:hint: Big gaps between observed and expected counts are evidence about $H_0$.
 :feedback-0: Correct! A large discrepancy between observed and expected counts is evidence against independence—the chi-square statistic will quantify whether it is large enough to be significant.
 :feedback-1: The discrepancy points AWAY from independence, not toward it.
 :feedback-2: We can't skip the test—the test statistic and p-value determine whether the discrepancy is larger than chance would produce.
-* *The data appear far from what independence predicts—evidence against H₀, to be quantified by the test
+* *The data appear far from what independence predicts—evidence against $H_0$, to be quantified by the test
 * The data support the null hypothesis of independence
 * We can already conclude a relationship exists, with no test needed
 :::

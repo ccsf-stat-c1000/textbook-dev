@@ -1,10 +1,10 @@
-# When σ Is Unknown: The t-Test and t Distribution
+# When $\sigma$ Is Unknown: The t-Test and t Distribution
 
-## Tests About μ When σ Is Unknown: The t-Test for the Population Mean
+## Tests About $\mu$ When $\sigma$ Is Unknown: The t-Test for the Population Mean
 
-As we mentioned earlier, only in a few cases is it reasonable to assume that the population standard deviation, σ, is known. The case where σ is unknown is much more common in practice. What can we use to replace σ? If you don't know the population standard deviation, the best you can do is find the sample standard deviation, s, and use it instead of σ. (Note that this is exactly what we did when we discussed confidence intervals.)
+As we mentioned earlier, only in a few cases is it reasonable to assume that the population standard deviation, $\sigma$, is known. The case where $\sigma$ is unknown is much more common in practice. What can we use to replace $\sigma$? If you don't know the population standard deviation, the best you can do is find the sample standard deviation, s, and use it instead of $\sigma$. (Note that this is exactly what we did when we discussed confidence intervals.)
 
-Is that it? Can we just use s instead of σ, and the rest is the same as the previous case? Unfortunately, it's not that simple, but not very complicated either.
+Is that it? Can we just use s instead of $\sigma$, and the rest is the same as the previous case? Unfortunately, it's not that simple, but not very complicated either.
 
 We will first go through the four steps of the t-test for the population mean and explain in what way this test is different from the z-test in the previous case. For comparison purposes, we will then apply the t-test to a variation of the two examples we used in the previous case, and end with an activity where you'll get to carry out the t-test yourself.
 
@@ -29,7 +29,7 @@ Technically, this step only changes slightly compared to what we do in the z-tes
    | Variable varies normally in the population | OK | OK |
    | Variable doesn't vary normally in the population | NOT OK | OK |
 
-Assuming that the conditions are met, we calculate the sample mean $\bar{x}$ and the sample standard deviation, s (which replaces σ), and summarize the data with a test statistic. As in the z-test, our test statistic will be the standardized score of $\bar{x}$ assuming that $\mu=\mu_0$ ($H_0$ is true). The difference here is that we don't know σ, so we use s instead. The test statistic for the t-test for the population mean is therefore:
+Assuming that the conditions are met, we calculate the sample mean $\bar{x}$ and the sample standard deviation, s (which replaces $\sigma)$, and summarize the data with a test statistic. As in the z-test, our test statistic will be the standardized score of $\bar{x}$ assuming that $\mu=\mu_0$ ($H_0$ is true). The difference here is that we don't know $\sigma$, so we use s instead. The test statistic for the t-test for the population mean is therefore:
 
 ```{admonition} Test Statistic for the t-Test for the Population Mean
 :class: note
@@ -85,9 +85,9 @@ Consider a standard normal (Z) distribution and a t distribution drawn together,
 
 ## Check Your Understanding: Comparing z and t P-values
 
-:::{quiz} A test statistic of −2 is observed. If the p-value is computed once using the standard normal distribution and once using a t distribution, how do the two p-values compare?
+:::{quiz} A test statistic of -2 is observed. If the p-value is computed once using the standard normal distribution and once using a t distribution, how do the two p-values compare?
 :hint: The p-value is a tail area, and the t distribution has fatter tails.
-:feedback-0: Correct! Since the t distribution has more area beyond −2 than the normal does, the t-based p-value is larger.
+:feedback-0: Correct! Since the t distribution has more area beyond -2 than the normal does, the t-based p-value is larger.
 :feedback-1: It's the reverse—the t distribution's fatter tails produce LARGER p-values for the same test statistic.
 :feedback-2: They differ noticeably unless the degrees of freedom are very large.
 * *The t-based p-value is larger than the normal-based one

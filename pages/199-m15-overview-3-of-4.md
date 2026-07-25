@@ -31,24 +31,24 @@ According to the Centers for Disease Control and Prevention, the proportion of U
 
 :::{quiz} What are the appropriate hypotheses for this study?
 :hint: The null hypothesis says "nothing special is going on" among college graduates; the alternative captures the researcher's suspicion.
-:feedback-0: Correct! H₀ says the rate among college graduates is the same as the overall rate (0.22); Hₐ says it is lower, as the researcher suspects.
+:feedback-0: Correct! $H_0$ says the rate among college graduates is the same as the overall rate (0.22); $H_a$ says it is lower, as the researcher suspects.
 :feedback-1: This reverses the roles—the researcher's suspicion belongs in the alternative hypothesis, not the null.
 :feedback-2: The alternative should be directional ("lower") because the researcher specifically suspects a lower rate.
-* *H₀: the proportion of college-graduate smokers is 0.22; Hₐ: the proportion is less than 0.22
-* H₀: the proportion is less than 0.22; Hₐ: the proportion is 0.22
-* H₀: the proportion is 0.22; Hₐ: the proportion is not 0.22
+* *$H_0$: the proportion of college-graduate smokers is 0.22; $H_a$: the proportion is less than 0.22
+* $H_0$: the proportion is less than 0.22; $H_a$: the proportion is 0.22
+* $H_0$: the proportion is 0.22; $H_a$: the proportion is not 0.22
 :::
 
 A study investigated whether there are differences between the mean IQ level of people who were reared by their biological parents and those who were reared by someone else.
 
 :::{quiz} What are the appropriate hypotheses for this study?
 :hint: No direction is suspected here—the study simply asks whether there is a difference.
-:feedback-0: Correct! H₀ says there is no difference between the two means; Hₐ says the means differ (in either direction), since no particular direction was suspected.
+:feedback-0: Correct! $H_0$ says there is no difference between the two means; $H_a$ says the means differ (in either direction), since no particular direction was suspected.
 :feedback-1: The study did not suspect a particular direction, so the alternative should be two-sided.
 :feedback-2: The null hypothesis is always the "no difference / nothing special" claim.
-* *H₀: the two groups have the same mean IQ; Hₐ: the two groups have different mean IQs
-* H₀: the two groups have the same mean IQ; Hₐ: those reared by biological parents have a higher mean IQ
-* H₀: the two groups have different mean IQs; Hₐ: the two groups have the same mean IQ
+* *$H_0$: the two groups have the same mean IQ; $H_a$: the two groups have different mean IQs
+* $H_0$: the two groups have the same mean IQ; $H_a$: those reared by biological parents have a higher mean IQ
+* $H_0$: the two groups have different mean IQs; $H_a$: the two groups have the same mean IQ
 :::
 
 ## Check Your Understanding: Hypotheses in Context
@@ -57,12 +57,12 @@ Data were collected in order to determine whether there is a relationship betwee
 
 :::{quiz} What are the appropriate hypotheses for this study?
 :hint: The null hypothesis is the "no relationship" claim.
-:feedback-0: Correct! H₀: there is no relationship between level of education and smoking; Hₐ: there is a relationship.
+:feedback-0: Correct! $H_0$: there is no relationship between level of education and smoking; $H_a$: there is a relationship.
 :feedback-1: This reverses the roles of the null and alternative hypotheses.
 :feedback-2: No direction was specified in the research question, and hypotheses about relationships between two categorical variables are stated in terms of relationship/no relationship.
-* *H₀: there is no relationship between education level and smoking; Hₐ: there is a relationship
-* H₀: there is a relationship between education level and smoking; Hₐ: there is no relationship
-* H₀: more-educated people smoke less; Hₐ: more-educated people smoke more
+* *$H_0$: there is no relationship between education level and smoking; $H_a$: there is a relationship
+* $H_0$: there is a relationship between education level and smoking; $H_a$: there is no relationship
+* $H_0$: more-educated people smoke less; $H_a$: more-educated people smoke more
 :::
 
 ### Hypothesis Testing Step 2: Choosing a Sample and Collecting Data

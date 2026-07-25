@@ -1,10 +1,10 @@
-# Case C→C: Relationships Between Categorical Variables
+# Case $C \to C$: Relationships Between Categorical Variables
 
 ## Inference for the Relationship Between Two Categorical Variables (Chi-Square Test for Independence)
 
 ### Overview
 
-The last three procedures that we studied (two-sample t, paired t, and ANOVA) all involve the relationship between a categorical explanatory variable and a quantitative response variable, corresponding to case C→Q in the role-type classification table. Next, we will consider inferences about the relationships between *two categorical variables*, corresponding to case C→C.
+The last three procedures that we studied (two-sample t, paired t, and ANOVA) all involve the relationship between a categorical explanatory variable and a quantitative response variable, corresponding to case $C \to Q$ in the role-type classification table. Next, we will consider inferences about the relationships between *two categorical variables*, corresponding to case $C \to C$.
 
 ```{figure} images/gen/m05-role-type-cc.svg
 :alt: The role-type classification table with the C to C case highlighted: a categorical explanatory variable paired with a categorical response variable.
@@ -14,7 +14,7 @@ In the Exploratory Data Analysis unit of the course, we summarized the relations
 
 Now we perform statistical inference for two categorical variables, using the sample data to draw conclusions about whether or not we have evidence that the variables are related in the larger population from which the sample was drawn. In other words, we would like to assess whether the relationship between X and Y that we observed in the data is due to a real relationship between X and Y in the population, or if it is something that could have happened just by chance due to sampling variability.
 
-The statistical test that will answer this question is called the *chi-square test for independence*. Chi is a Greek letter that looks like this: χ, so the test is sometimes referred to as the χ² test for independence.
+The statistical test that will answer this question is called the *chi-square test for independence*. Chi is a Greek letter that looks like this: $\chi$, so the test is sometimes referred to as the $\chi^2$ test for independence.
 
 The structure of this section will be very similar to that of the previous ones in this module. We will first present our leading example, and then introduce the chi-square test by going through its 4 steps, illustrating each one using the example. We will conclude by presenting another complete example.
 
@@ -43,8 +43,8 @@ Before we introduce the chi-square test, let's conduct an exploratory data analy
 
 | | Drank alcohol: Yes | Drank alcohol: No | Total |
 | --- | --- | --- | --- |
-| **Male** | 77/481 = 16.0% | 404/481 = 84.0% | 100% |
-| **Female** | 16/138 = 11.6% | 122/138 = 88.4% | 100% |
+| **Male** | $77/481 = 16.0%$ | $404/481 = 84.0%$ | 100% |
+| **Female** | $16/138 = 11.6%$ | $122/138 = 88.4%$ | 100% |
 
 For the 619 sampled drivers, a larger percentage of males were found to have been drinking than females (16.0% vs. 11.6%). Our data, in other words, provide some evidence that drunk driving is related to gender; however, this in itself is not enough to conclude that such a relationship exists in the larger population of drivers under 20. We need to further investigate the data and decide between the following two points of view:
 
@@ -78,7 +78,7 @@ Using the data from this research, we would like to investigate whether alcohol 
 
 :::{quiz} What are the appropriate conditional percentages for the exploratory analysis, and what do they suggest?
 :hint: Compute the percentage at moderate-to-severe risk within each participation group: 309/1102 and 110/551.
-:feedback-0: Correct! 309/1102 ≈ 28% of participants were at risk vs. 110/551 ≈ 20% of non-participants—suggesting a possible relationship, which inference must confirm.
+:feedback-0: Correct! $309/1102 \approx 28%$ of participants were at risk vs. $110/551 \approx 20%$ of non-participants—suggesting a possible relationship, which inference must confirm.
 :feedback-1: Percentages should be computed within each row (participation group), not out of the overall total.
 :feedback-2: The sample percentages DO differ (28% vs. 20%); the question for inference is whether this difference is statistically significant.
 * *About 28% of participants vs. 20% of non-participants were at risk—a possible relationship worth testing

@@ -10,7 +10,7 @@ It has a different structure from all the test statistics we've looked at so far
 
 ## Check Your Understanding: Understanding the F-Statistic
 
-Consider a situation in which we compare k = 3 populations with independent samples of size 100 each, and the sample means are $\bar{y}_1=35$, $\bar{y}_2=30$, and $\bar{y}_3=25$. We are testing $H_0: \mu_1=\mu_2=\mu_3$ vs. $H_a$: not all the μ's are equal. Two possible scenarios of the data (both with these same sample means):
+Consider a situation in which we compare $k = 3$ populations with independent samples of size 100 each, and the sample means are $\bar{y}_1=35$, $\bar{y}_2=30$, and $\bar{y}_3=25$. We are testing $H_0: \mu_1=\mu_2=\mu_3$ vs. $H_a$: not all the $\mu's$ are equal. Two possible scenarios of the data (both with these same sample means):
 
 - *Scenario 1:* the three samples have very little spread, and their dotplots barely overlap.
 - *Scenario 2:* the three samples have wide spread, and their dotplots overlap substantially.
@@ -25,8 +25,8 @@ Consider a situation in which we compare k = 3 populations with independent samp
 * F is the same in both scenarios
 :::
 
-:::{quiz} In which scenario do the data provide stronger evidence against H₀?
-:hint: Larger F means more evidence against H₀.
+:::{quiz} In which scenario do the data provide stronger evidence against $H_0$?
+:hint: Larger F means more evidence against $H_0$.
 :feedback-0: Correct! In scenario 1, the differences among means clearly dominate the small within-group variation—strong evidence the population means differ.
 :feedback-1: In scenario 2, the overlap means the differences among sample means could plausibly be due to chance.
 * *Scenario 1
@@ -40,7 +40,7 @@ Consider a situation in which we compare k = 3 populations with independent samp
 
 2. This test is called the ANOVA F-test. So far, we have explained the ANOVA part of the name. Based on the previous tests we introduced, it should not be surprising that the "F-test" part comes from the fact that the null distribution of the test statistic, under which the p-values are calculated, is called an *F-distribution*. We will say very little about the F-distribution in this course.
 
-3. It is fairly straightforward to decide if a z-statistic is large. Even without tables, we should realize by now that a z-statistic of 0.8 is not especially large, whereas a z-statistic of 2.5 is large. In the case of the t-statistic, it is less straightforward, because there is a different t-distribution for every sample size n (and degrees of freedom n − 1). However, the fact that a t-distribution with a large number of degrees of freedom is very close to the z (standard normal) distribution can help to assess the magnitude of the t-test statistic. When the size of the F-statistic must be assessed, the task is even more complicated, because there is a different F-distribution for every combination of the number of groups we are comparing and the total sample size. We will nevertheless say that for most situations, an F-statistic greater than 4 would be considered rather large, but tables or software are needed to get a truly accurate assessment.
+3. It is fairly straightforward to decide if a z-statistic is large. Even without tables, we should realize by now that a z-statistic of 0.8 is not especially large, whereas a z-statistic of 2.5 is large. In the case of the t-statistic, it is less straightforward, because there is a different t-distribution for every sample size n (and degrees of freedom $n - 1)$. However, the fact that a t-distribution with a large number of degrees of freedom is very close to the z (standard normal) distribution can help to assess the magnitude of the t-test statistic. When the size of the F-statistic must be assessed, the task is even more complicated, because there is a different F-distribution for every combination of the number of groups we are comparing and the total sample size. We will nevertheless say that for most situations, an F-statistic greater than 4 would be considered rather large, but tables or software are needed to get a truly accurate assessment.
 ```
 
 :::{admonition} Example: Is "Academic Frustration" Related to Major?
@@ -66,7 +66,7 @@ In our example all the conditions are satisfied:
 
 2. The sample sizes are large enough (n = 35 per group) that we really don't have to worry about normality; however, looking at the data with side-by-side boxplots (scenario 2 from earlier) is still worthwhile. The data suggest that the frustration level of the Business students is generally lower than that of students from the other three majors. The ANOVA F-test will tell us whether these differences are significant.
 
-3. The four sample standard deviations are 2.088 (Business), 2.362 (English), 2.485 (Mathematics), and 3.082 (Psychology). The rule of thumb is satisfied, since 3.082/2.088 < 2.
+3. The four sample standard deviations are 2.088 (Business), 2.362 (English), 2.485 (Mathematics), and 3.082 (Psychology). The rule of thumb is satisfied, since $3.082/2.088 < 2$.
 :::
 
 ## Check Your Understanding: Conditions for ANOVA
@@ -83,8 +83,8 @@ In each of the following questions, you'll find two designs for comparing the nu
 
 :::{quiz} Independent samples of 15 students per class level are taken, and the four sample standard deviations are 3.1, 4.4, 5.2, and 8.7. Is the equal-standard-deviation condition satisfied?
 :hint: Compare the largest to the smallest: 8.7/3.1.
-:feedback-0: Correct! 8.7/3.1 ≈ 2.8, which exceeds 2, so the rule of thumb fails and ANOVA should not be used.
-:feedback-1: The rule of thumb compares the LARGEST to the SMALLEST standard deviation, and 8.7/3.1 ≈ 2.8 > 2.
+:feedback-0: Correct! $8.7/3.1 \approx 2.8$, which exceeds 2, so the rule of thumb fails and ANOVA should not be used.
+:feedback-1: The rule of thumb compares the LARGEST to the SMALLEST standard deviation, and $8.7/3.1 \approx 2.8 > 2$.
 * *No—the largest standard deviation is more than twice the smallest
 * Yes—all standard deviations are below 10
 :::

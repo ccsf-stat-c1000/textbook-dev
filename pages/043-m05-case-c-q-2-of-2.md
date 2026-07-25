@@ -1,4 +1,4 @@
-# Case C→Q in Practice: Boxplots That Tell a Story
+# Case $C \to Q$ in Practice: Boxplots That Tell a Story
 
 Here is another example:
 
@@ -33,7 +33,7 @@ Side-by-side boxplots supplemented by descriptive statistics allow us to compare
 | Max | 200 | 187 |
 ::::
 
-## Check Your Understanding: Comparing Groups (Case C→Q)
+## Check Your Understanding: Comparing Groups (Case $C \to Q)$
 
 Use the boxplots and the table to explore whether there is a "gender effect" on SSHA scores.
 
@@ -48,7 +48,7 @@ Use the boxplots and the table to explore whether there is a "gender effect" on 
 :::
 
 :::{quiz} Which group's SSHA scores show more variability?
-:hint: Compare the IQRs: Female Q3 − Q1 = 163.75 − 128.75; Male Q3 − Q1 = 144.5 − 95.
+:hint: Compare the IQRs: Female Q3 - Q1 = $163.75 - 128.75$; Male Q3 - Q1 = $144.5 - 95$.
 :feedback-0: The female IQR is 35 and range is 97—both smaller than the male IQR of 49.5 and range of 117.
 :feedback-1: Correct! The males' IQR (49.5) and range (117) both exceed the females' (35 and 97), so male scores are more spread out.
 :feedback-2: The spreads are quite different—compare the box heights in the display.

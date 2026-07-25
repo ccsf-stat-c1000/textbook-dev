@@ -23,7 +23,7 @@ There is one special case for which we know what P(A and B) equals without apply
 :feedback-2: There's no need to multiply; the events cannot occur together at all.
 * *0
 * P(A) + P(B)
-* P(A) × P(B)
+* P(A) $\times$ P(B)
 :::
 
 So, if events *A and B are disjoint*, then (by definition) *P(A and B) = 0.* But what if the events are not disjoint?
@@ -49,7 +49,7 @@ Let Q1 be the event that the first coin is a quarter and Q2 be the event that th
 
 Are Q1 and Q2 independent events? *Yes.* Why?
 
-Since the first coin that was selected is *replaced*, whether or not Q1 occurred (i.e., whether the first coin was a quarter) has no effect on the probability that the second coin will be a quarter, P(Q2). In either case (whether Q1 occurred or not), when she is selecting the second coin, she has in her pocket two quarters and two nickels, and therefore P(Q2) = 2/4 = 1/2 regardless of whether Q1 occurred.
+Since the first coin that was selected is *replaced*, whether or not Q1 occurred (i.e., whether the first coin was a quarter) has no effect on the probability that the second coin will be a quarter, P(Q2). In either case (whether Q1 occurred or not), when she is selecting the second coin, she has in her pocket two quarters and two nickels, and therefore P(Q2) = $2/4 = 1/2$ regardless of whether Q1 occurred.
 :::
 
 :::{admonition} Example: Sampling Without Replacement
@@ -98,7 +98,7 @@ In each of the following questions, you are presented with a random experiment a
 
 :::{quiz} A card is drawn at random from a standard deck. A: "the card is a heart." B: "the card is a king." Are A and B disjoint? Are they independent?
 :hint: The king of hearts is both a heart and a king. And does knowing the card is a heart change the chance it is a king?
-:feedback-0: Correct! The king of hearts belongs to both events, so they are not disjoint. And P(king) = 4/52 = 1/13, while P(king given heart) = 1/13 also—knowing the suit doesn't change the chance of a king, so they are independent.
+:feedback-0: Correct! The king of hearts belongs to both events, so they are not disjoint. And P(king) = $4/52 = 1/13$, while P(king given heart) = 1/13 also—knowing the suit doesn't change the chance of a king, so they are independent.
 :feedback-1: They are not disjoint (the king of hearts is in both), and check the probabilities: knowing the card is a heart leaves the chance of a king at 1/13, unchanged.
 :feedback-2: They can occur together (the king of hearts), so they are not disjoint.
 * *Not disjoint, and independent

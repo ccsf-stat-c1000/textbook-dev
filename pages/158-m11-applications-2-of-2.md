@@ -14,13 +14,13 @@ Again, foot length of a randomly chosen adult male is a normal random variable w
 
 1. The probability is 0.04 that a randomly chosen adult male foot length will be less than how many inches?
 
-   According to the normal table, a probability of 0.04 below (actually 0.0401) is associated with z = −1.75. In other words, the probability is 0.04 that a normal variable takes a value lower than 1.75 standard deviations below its mean. For adult male foot lengths, this would be 11 − 1.75(1.5) = 8.375. The probability is 0.04 that an adult male foot length would be less than 8.375 inches.
+   According to the normal table, a probability of 0.04 below (actually 0.0401) is associated with $z = -1.75$. In other words, the probability is 0.04 that a normal variable takes a value lower than 1.75 standard deviations below its mean. For adult male foot lengths, this would be $11 - 1.75(1.5) = 8.375$. The probability is 0.04 that an adult male foot length would be less than 8.375 inches.
 
 2. The probability is 0.10 that an adult male foot will be longer than how many inches?
 
    Caution is needed here because of the word "longer." Once again, we must remind ourselves that the table only shows the probability of a normal variable taking a value *lower than* a certain number of standard deviations below or above its mean. Adjustments must be made for problems that involve probabilities besides "lower than" or "less than." As usual, we have a choice of invoking either symmetry or the fact that the total area under the normal curve is 1.
 
-   *Method 1:* According to the table, a probability of 0.10 *below* is associated with a z value of −1.28. By symmetry, it follows that a probability of 0.10 *above* has z = +1.28. We seek the foot length that is 1.28 standard deviations above its mean: 11 + 1.28(1.5) = 12.92, or just under 13 inches.
+   *Method 1:* According to the table, a probability of 0.10 *below* is associated with a z value of -1.28. By symmetry, it follows that a probability of 0.10 *above* has $z = +1.28$. We seek the foot length that is 1.28 standard deviations above its mean: $11 + 1.28(1.5) = 12.92$, or just under 13 inches.
 
    *Method 2:* If the probability is 0.10 that a foot will be longer than the value we seek, then the probability is 0.90 that a foot will be shorter than that same value, since the probabilities must sum to 1. According to the table, a probability of 0.90 below is associated with a z value of +1.28. Again, we seek the foot length that is 1.28 standard deviations above its mean, or 12.92 inches.
 :::
@@ -36,9 +36,9 @@ Again, foot length of a randomly chosen adult male is a normal random variable w
 
 A study reported that the amount of money spent each week for lunch by a worker in a particular city is a normal random variable with a mean of \$35 and a standard deviation of \$5.
 
-1. The probability is 0.97 that a worker will spend less than how much money in a week on lunch? The z associated with a probability of 0.9700 below is +1.88. The amount that is 1.88 standard deviations above the mean is 35 + 1.88(5) = 44.4, or \$44.40.
+1. The probability is 0.97 that a worker will spend less than how much money in a week on lunch? The z associated with a probability of 0.9700 below is +1.88. The amount that is 1.88 standard deviations above the mean is $35 + 1.88(5) = 44.4$, or \$44.40.
 
-2. There is a 30% chance of spending more than how much for lunches in a week? The z associated with a probability of 0.30 above is +0.52. The amount is 35 + 0.52(5) = 37.6, or \$37.60.
+2. There is a 30% chance of spending more than how much for lunches in a week? The z associated with a probability of 0.30 above is +0.52. The amount is $35 + 0.52(5) = 37.6$, or \$37.60.
 :::
 
 ```{admonition} Comment
@@ -50,7 +50,7 @@ Another way of expressing *part 1* above would be to ask, "What is the 97th perc
 :::{admonition} Example: Height Percentile
 :class: tip
 
-The height X (in inches) of a randomly chosen woman is a normal random variable with a mean of 65 and a standard deviation of 2.5. What is the height of a woman who is in the 80th percentile? A probability of 0.7995 in the table corresponds to z = +0.84. Her height is 65 + 0.84(2.5) = 67.1 inches.
+The height X (in inches) of a randomly chosen woman is a normal random variable with a mean of 65 and a standard deviation of 2.5. What is the height of a woman who is in the 80th percentile? A probability of 0.7995 in the table corresponds to $z = +0.84$. Her height is $65 + 0.84(2.5) = 67.1$ inches.
 :::
 
 By now we have had practice in solving normal probability problems in both directions: those where a normal value is given and we are asked to report a probability, and those where a probability is given and we are asked to report a normal value. Strategies for solving such problems are outlined below:
@@ -75,18 +75,18 @@ One of the criteria for admission to a certain engineering school is an SAT-M sc
 
 :::{quiz} What z-value corresponds to the top 2% (i.e., a probability of 0.98 below)?
 :hint: Look for 0.9800 inside the table (the closest value is 0.9798).
-:feedback-0: Correct! z ≈ +2.05 leaves about 2% of the area above it.
-:feedback-1: z = −2.05 marks the BOTTOM 2%, not the top.
+:feedback-0: Correct! $z \approx +2.05$ leaves about 2% of the area above it.
+:feedback-1: $z = -2.05$ marks the BOTTOM 2%, not the top.
 :feedback-2: 0.98 is the probability, not the z-value.
-* *z ≈ +2.05
-* z ≈ −2.05
-* z = 0.98
+* *$z \approx +2.05$
+* $z \approx -2.05$
+* $z = 0.98$
 :::
 
 :::{quiz} So how high must a student score on the SAT-M to be in the top 2%?
-:hint: Unstandardize: x = 507 + 2.05(111).
-:feedback-0: Correct! x = 507 + 2.05(111) ≈ 735. A score of about 735 or higher puts a student in the top 2%.
-:feedback-1: 619 corresponds to z ≈ 1, which is only about the 84th percentile.
+:hint: Unstandardize: $x = 507 + 2.05(111)$.
+:feedback-0: Correct! $x = 507 + 2.05(111) \approx 735$. A score of about 735 or higher puts a student in the top 2%.
+:feedback-1: 619 corresponds to $z \approx 1$, which is only about the 84th percentile.
 :feedback-2: Remember to multiply z by the standard deviation before adding the mean.
 * *About 735
 * About 619

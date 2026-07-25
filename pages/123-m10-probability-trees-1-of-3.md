@@ -33,7 +33,7 @@ There are two important things to note here:
 
 1. The probabilities in the *first branch-off are non-conditional probabilities*: P(C) = 0.4, P(not C) = 0.6. However, the probabilities that appear in the *second branch-off are conditional probabilities.* The top two branches assume that C occurred: P(V | C) = 0.9, P(not V | C) = 0.1. The bottom two branches assume that not C occurred: P(V | not C) = 0.3, P(not V | not C) = 0.7.
 
-2. The second thing to note is that probabilities of branches that branch out from the same point always add up to one: 0.4 + 0.6 = 1 at the first stage, and 0.9 + 0.1 = 1 and 0.3 + 0.7 = 1 at the second stage.
+2. The second thing to note is that probabilities of branches that branch out from the same point always add up to one: $0.4 + 0.6 = 1$ at the first stage, and $0.9 + 0.1 = 1$ and $0.3 + 0.7 = 1$ at the second stage.
 
 ## Check Your Understanding: Reading a Probability Tree
 
@@ -49,7 +49,7 @@ There are two important things to note here:
 
 :::{quiz} A tree's first stage has branches with probabilities 0.25 and p. What must p be?
 :hint: Branches from the same point sum to 1.
-:feedback-0: Correct! Branches from the same point always add up to 1, so p = 1 − 0.25 = 0.75.
+:feedback-0: Correct! Branches from the same point always add up to 1, so $p = 1 - 0.25 = 0.75$.
 :feedback-1: 0.25 would make the branch probabilities sum to 0.5, not 1.
 :feedback-2: The complement of 0.25 is 0.75.
 * *0.75

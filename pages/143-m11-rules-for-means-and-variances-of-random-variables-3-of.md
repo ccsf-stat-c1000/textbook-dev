@@ -5,18 +5,18 @@ Besides taking a linear transformation of a random variable, another way to form
 :::{admonition} Example: Xavier's and Yves' Production Lines
 :class: tip
 
-Recall previous examples for the number X of defective parts coming out of Xavier's production line, and Y from Yves' line. Consider the total number of defective parts coming out of both production lines together. This is the *new random variable X + Y*. Since we know the means and standard deviations of X and of Y, is there a simple, quick way to figure out the mean and standard deviation of X + Y?
+Recall previous examples for the number X of defective parts coming out of Xavier's production line, and Y from Yves' line. Consider the total number of defective parts coming out of both production lines together. This is the *new random variable X + Y*. Since we know the means and standard deviations of X and of Y, is there a simple, quick way to figure out the mean and standard deviation of $X + Y$?
 :::
 
 In general, the mean of the sum of random variables is the sum of the means. As long as the random variables are independent, the variance of the sum equals the sum of the variances. The formal rules are as follows:
 
-## Rules for X + Y (Sum of Two Random Variables)
+## Rules for $X + Y$ (Sum of Two Random Variables)
 
-Let X and Y be random variables with means $\mu_{X}$ and $\mu_{Y}$ and with variances $\sigma_{X}^{2}$ and $\sigma_{Y}^{2}$. Then the new random variable X + Y has a mean of:
+Let X and Y be random variables with means $\mu_{X}$ and $\mu_{Y}$ and with variances $\sigma_{X}^{2}$ and $\sigma_{Y}^{2}$. Then the new random variable $X + Y$ has a mean of:
 
 $$\mu_{X+Y}=\mu_{X}+\mu_{Y}$$
 
-and as long as the random variables are independent, the variance of X + Y is:
+and as long as the random variables are independent, the variance of $X + Y$ is:
 
 $$\sigma_{X+Y}^{2}=\sigma_{X}^{2}+\sigma_{Y}^{2}$$
 
@@ -33,11 +33,11 @@ While in the case of {term}`events <event>` we formalized the definition of inde
 :::{admonition} Example: Combined Mean and Standard Deviation
 :class: tip
 
-We want to find the mean and standard deviation of X + Y, the total number of defective products coming out of both production lines in an hour. In the previous section, we found that:
+We want to find the mean and standard deviation of $X + Y$, the total number of defective products coming out of both production lines in an hour. In the previous section, we found that:
 
 $$\mu_{X}=1.8 \quad \sigma_{X}=1.21 \qquad \mu_{Y}=2.7 \quad \sigma_{Y}=0.85$$
 
-Using the rules for X + Y, we find that:
+Using the rules for $X + Y$, we find that:
 
 $$\mu_{X+Y}=\mu_{X}+\mu_{Y}=1.8+2.7=4.5$$
 
@@ -58,9 +58,9 @@ $$\sigma_{X}+\sigma_{Y}=1.21+0.85=2.06\neq\sigma_{X+Y}=1.48$$
 
 ## Check Your Understanding: Sums of Random Variables
 
-:::{quiz} Two independent random variables have σ(X) = 3 and σ(Y) = 4. What is the standard deviation of X + Y?
-:hint: Add the variances (9 + 16), then take the square root.
-:feedback-0: Correct! σ²(X+Y) = 9 + 16 = 25, so σ(X+Y) = 5.
+:::{quiz} Two independent random variables have $\sigma(X) = 3$ and $\sigma(Y) = 4$. What is the standard deviation of $X + Y$?
+:hint: Add the variances $(9 + 16)$, then take the square root.
+:feedback-0: Correct! $\sigma^2(X+Y) = 9 + 16 = 25$, so $\sigma(X+Y) = 5$.
 :feedback-1: 7 comes from adding the standard deviations, but only variances add.
 :feedback-2: 25 is the variance of the sum; take its square root for the standard deviation.
 * *5
@@ -68,9 +68,9 @@ $$\sigma_{X}+\sigma_{Y}=1.21+0.85=2.06\neq\sigma_{X+Y}=1.48$$
 * 25
 :::
 
-:::{quiz} A café's morning revenue M has mean \$500, and its afternoon revenue A has mean \$700 (M and A independent). What is the mean of the total daily revenue M + A?
+:::{quiz} A café's morning revenue M has mean \$500, and its afternoon revenue A has mean \$700 (M and A independent). What is the mean of the total daily revenue $M + A$?
 :hint: Means always add.
-:feedback-0: Correct! μ(M+A) = 500 + 700 = \$1,200—and note the means add whether or not the variables are independent.
+:feedback-0: Correct! $\mu(M+A) = 500 + 700$ = \$1,200—and note the means add whether or not the variables are independent.
 :feedback-1: 600 is the average of the two means; the total revenue is their sum.
 :feedback-2: No independence assumption is needed for adding means—only for adding variances.
 * *$1,200

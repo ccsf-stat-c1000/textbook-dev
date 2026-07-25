@@ -13,9 +13,9 @@ Let *S* be the event of being a spy, and *D* be the event of the polygraph detec
 
 Let's first express the information using probability notation involving events S and D. We are given:
 
-- 1 in 1,000, or 0.001, of the employees are actual spies → *P(S) = 0.001*
-- The test may conclude someone is a spy 80% of the time when he or she actually is a spy → *P(D | S) = 0.80*
-- 16% of the time, the test will conclude someone is a spy when he or she is not → *P(D | not S) = 0.16*
+- 1 in 1,000, or 0.001, of the employees are actual spies $\to$ *P(S) = 0.001*
+- The test may conclude someone is a spy 80% of the time when he or she actually is a spy $\to$ *P(D | S) = 0.80*
+- 16% of the time, the test will conclude someone is a spy when he or she is not $\to$ *P(D | not S) = 0.16*
 
 (a) Let's create a tree diagram for this problem, starting, as usual, with the event for which a nonconditional probability is given, S. It also makes sense that we start with S, since the natural order is that first a person becomes a spy, and then he/she is either detected or not.
 
@@ -25,19 +25,19 @@ Let's first express the information using probability notation involving events 
 
 (b) What is the probability that a randomly chosen employee is not a spy, and the test does not detect the employee as one? In other words, what is P(not S and not D)?
 
-Following the bottom path of the tree: P(not S and not D) = P(not S) × P(not D | not S) = 0.999 × 0.84 = 0.83916
+Following the bottom path of the tree: P(not S and not D) = P(not S) $\times$ P(not D | not S) = $0.999 \times 0.84 = 0.83916$
 
 (c) What is the probability that a randomly chosen employee *is* a spy, and the test does *not* detect the employee as one? (This would be an incorrect conclusion.) In other words, what is P(S and not D)?
 
-Following the S-then-not-D path: P(S and not D) = P(S) × P(not D | S) = 0.001 × 0.20 = 0.0002
+Following the S-then-not-D path: P(S and not D) = P(S) $\times$ P(not D | S) = $0.001 \times 0.20 = 0.0002$
 
 (d) Suppose the polygraph detects a spy; are you convinced that the employee is actually a spy? Find the probability of an employee actually being a spy, given that the test claims he or she is. In other words, find P(S | D).
 
 Applying Bayes' Rule, we have
 
-P(S | D) = P(S) × P(D | S) / [P(S) × P(D | S) + P(not S) × P(D | not S)]
+P(S | D) = P(S) $\times$ P(D | S) / [P(S) $\times$ P(D | S) + P(not S) $\times$ P(D | not S)]
 
-= 0.001 × 0.80 / [0.001 × 0.80 + 0.999 × 0.16] = 0.0008/0.16064 = 0.005
+= $0.001 \times 0.80$ / [$0.001 \times 0.80 + 0.999 \times 0.16$] = $0.0008/0.16064 = 0.005$
 
 The study's conclusion, that more accurate tests than the traditional polygraph are sorely needed, is supported by our answer to part (d): if someone is detected as being a spy, the probability is only 0.005, or half of one percent, that he or she actually is one.
 :::
@@ -66,7 +66,7 @@ and in a previous activity we displayed the information using a probability tree
 
 :::{quiz} What is the overall probability that the warning light comes on, P(W)?
 :hint: Add the two paths that end with W: P(H and W) + P(not H and W).
-:feedback-0: Correct! P(W) = 0.0294 + 0.0097 = 0.0391.
+:feedback-0: Correct! P(W) = $0.0294 + 0.0097 = 0.0391$.
 :feedback-1: 0.0294 is only the path where the engine actually overheats; add the false-alarm path too.
 :feedback-2: 0.98 is P(W | H), the conditional probability, not the overall probability.
 * *0.0391
@@ -76,7 +76,7 @@ and in a previous activity we displayed the information using a probability tree
 
 :::{quiz} The warning light just came on. What is the probability that the engine is really overheating, P(H | W)?
 :hint: Bayes' Rule: P(H | W) = P(H and W) / P(W).
-:feedback-0: Correct! P(H | W) = 0.0294 / 0.0391 ≈ 0.75. So when the light comes on, there's about a 75% chance of a real problem.
+:feedback-0: Correct! P(H | W) = $0.0294 / 0.0391 \approx 0.75$. So when the light comes on, there's about a 75% chance of a real problem.
 :feedback-1: 0.98 is the reverse conditional, P(W | H). The question conditions on the light being on.
 :feedback-2: 0.03 is the unconditional P(H), before seeing the light. The light substantially raises the probability.
 * *About 0.75
@@ -88,5 +88,5 @@ and in a previous activity we displayed the information using a probability tree
 
 - The {term}`conditional probability` of B given A, P(B | A) = P(A and B)/P(A), assesses the probability of B in the reduced sample space where A has occurred.
 - Two events are *independent* when knowing one occurred does not change the probability of the other (four equivalent checks are available).
-- The *General Multiplication Rule*, P(A and B) = P(A) × P(B | A), finds "and" probabilities for any two events, and reduces to the familiar product rule when the events are independent.
+- The *General Multiplication Rule*, P(A and B) = P(A) $\times$ P(B | A), finds "and" probabilities for any two events, and reduces to the familiar product rule when the events are independent.
 - *Probability trees* organize staged problems: multiply along branches for "and," add across paths for "or," and combine the two (Bayes' Rule) to reverse the direction of conditioning.

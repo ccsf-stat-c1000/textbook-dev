@@ -23,7 +23,7 @@ To summarize, the requirements for a random experiment to be a binomial experime
 - A fixed number (n) of trials
 - Each trial must be independent of the others
 - Each trial has just two possible outcomes, called *success* (the outcome of interest) and *failure*
-- There is a constant *probability (p) of success* for each trial, the complement of which is the *probability (1 − p) of failure*
+- There is a constant *probability (p) of success* for each trial, the complement of which is the *probability (1 - p) of failure*
 
 In binomial random experiments, the number of successes in n trials is random. It can be as low as 0, if all the trials end up in failure, or as high as n, if all n trials end in success.
 
@@ -34,13 +34,13 @@ The random variable X that represents the number of successes in those n trials 
 
 Let's consider a few random experiments. In each of them, we'll decide whether the random variable is binomial. If it is, we'll determine the values for n and p. If it isn't, we'll explain why not.
 
-1. A fair coin is flipped 20 times; X represents the number of heads. *X is binomial with n = 20 and p = 0.5*.
-2. You roll a fair die 50 times; X is the number of times you get a six. *X is binomial with n = 50 and p = 1/6*.
+1. A fair coin is flipped 20 times; X represents the number of heads. *X is binomial with $n = 20$ and $p = 0.5*$.
+2. You roll a fair die 50 times; X is the number of times you get a six. *X is binomial with $n = 50$ and $p = 1/6*$.
 3. Roll a fair die repeatedly; X is the number of rolls it takes to get a six. *X is not binomial, because the number of trials is not fixed*.
 4. Draw 3 cards at random, one after the other, *without replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. *X is not binomial, because the selections are not independent.* (The probability (p) of success is not constant, because it is affected by previous selections.)
-5. Draw 3 cards at random, one after the other, *with replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. Sampling with replacement ensures independence. *X is binomial with n = 3 and p = 1/4*.
-6. Approximately 1 in every 20 children has a certain disease. Let X be the number of children with the disease out of a random sample of 100 children. Although the children are sampled without replacement, it is assumed that we are sampling from such a vast population that the selections are virtually independent. *X is binomial with n = 100 and p = 1/20 = 0.05*.
-7. The probability of having blood type B is 0.1. Choose 4 people at random; X is the number with blood type B. *X is binomial with n = 4 and p = 0.1*.
+5. Draw 3 cards at random, one after the other, *with replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. Sampling with replacement ensures independence. *X is binomial with $n = 3$ and $p = 1/4*$.
+6. Approximately 1 in every 20 children has a certain disease. Let X be the number of children with the disease out of a random sample of 100 children. Although the children are sampled without replacement, it is assumed that we are sampling from such a vast population that the selections are virtually independent. *X is binomial with $n = 100$ and $p = 1/20 = 0.05*$.
+7. The probability of having blood type B is 0.1. Choose 4 people at random; X is the number with blood type B. *X is binomial with $n = 4$ and $p = 0.1*$.
 8. A student answers 10 quiz questions completely at random; the first five are true/false, the second five are multiple choice, with four options each. X represents the number of correct answers. *X is not binomial, because p changes from 1/2 to 1/4*.
 :::
 
@@ -61,26 +61,26 @@ The convention is to "fudge" the requirement of independence as long as the popu
 
 The number (X) of successes in a sample of size n taken without replacement from a population with proportion (p) of successes is approximately binomial with n and p as long as the sample size (n) is at most 10% of the population size (N).
 
-In symbols, this would be: *n ≤ 0.10N*. This is the same as saying the population size is greater than or equal to 10 times the sample size: *N ≥ 10n*.
+In symbols, this would be: *$n \leq$ 0.10N*. This is the same as saying the population size is greater than or equal to 10 times the sample size: *$N \geq$ 10n*.
 ```
 
 ## Check Your Understanding: Recognizing a Binomial Setting
 
 :::{quiz} A basketball player makes 70% of her free throws. She shoots 15 free throws in practice, and X is the number she makes (assume shots are independent). Is X binomial?
 :hint: Check the four requirements: fixed n, independence, two outcomes, constant p.
-:feedback-0: Correct! Fixed n = 15 trials, independent shots, success/failure outcomes, and constant p = 0.7.
+:feedback-0: Correct! Fixed $n = 15$ trials, independent shots, success/failure outcomes, and constant $p = 0.7$.
 :feedback-1: The number of trials IS fixed at 15.
 :feedback-2: Two outcomes (make/miss) is exactly what binomial requires.
-* *Yes—binomial with n = 15 and p = 0.7
+* *Yes—binomial with $n = 15$ and $p = 0.7$
 * No—the number of trials is not fixed
 * No—there are more than two outcomes per shot
 :::
 
 :::{quiz} A city has 50,000 registered voters, 60% of whom support a ballot measure. A pollster samples 500 voters at random without replacement; X is the number of supporters in the sample. Can X be treated as binomial?
 :hint: Apply the 10% rule of thumb: is 500 at most 10% of 50,000?
-:feedback-0: Correct! The sample (500) is only 1% of the population (50,000), so the selections are virtually independent and X is approximately binomial with n = 500, p = 0.6.
-:feedback-1: Strictly the trials are dependent, but the rule of thumb (n ≤ 0.10N) says the dependence is negligible here.
-:feedback-2: A binomial variable needs a probability p, and here p = 0.6 is given.
+:feedback-0: Correct! The sample (500) is only 1% of the population (50,000), so the selections are virtually independent and X is approximately binomial with $n = 500$, $p = 0.6$.
+:feedback-1: Strictly the trials are dependent, but the rule of thumb (n $\leq$ 0.10N) says the dependence is negligible here.
+:feedback-2: A binomial variable needs a probability p, and here $p = 0.6$ is given.
 * *Yes, approximately—the sample is far less than 10% of the population
 * No—sampling without replacement always breaks independence
 * No—p is unknown

@@ -4,7 +4,7 @@
 
 Now that you have learned to assess the relative value of any normal value by standardizing, the next step is to evaluate probabilities. As mentioned before, we will first take the conventional approach of referring to a *normal table*, which tells the probability of a normal variable taking a value *less than* any standardized score z. (A complete standard normal table appears in most statistics references, and your instructor can provide one; statistical software and calculators give these probabilities directly.)
 
-Since normal curves are symmetric about their mean, it follows that the curve of z scores must be symmetric about 0. Since the total area under any normal curve is 1, it follows that the areas on either side of z = 0 are both 0.5. Also, according to the Standard Deviation Rule, most of the area under the standardized curve falls between z = −3 and z = +3.
+Since normal curves are symmetric about their mean, it follows that the curve of z scores must be symmetric about 0. Since the total area under any normal curve is 1, it follows that the areas on either side of $z = 0$ are both 0.5. Also, according to the Standard Deviation Rule, most of the area under the standardized curve falls between $z = -3$ and $z = +3$.
 
 The normal table outlines the precise behavior of the standard normal random variable Z, the number of standard deviations a normal value x is below or above its mean. The normal table provides probabilities that a standardized normal random variable Z would take a value less than or equal to a particular value z*.
 
@@ -37,11 +37,11 @@ A quick sketch is often the key to solving normal problems easily and correctly.
 
 ## Check Your Understanding: Reading the Standard Normal Table
 
-:::{quiz} Using the excerpt of the normal table above, what is P(Z < −2.25)?
-:hint: Find the row for −2.2 and the column for .05.
-:feedback-0: Correct! The −2.2 row and .05 column give 0.0122.
-:feedback-1: 0.0139 is P(Z < −2.20); the extra hundredths matter—use the .05 column.
-:feedback-2: 0.9878 would be P(Z > −2.25), the complement.
+:::{quiz} Using the excerpt of the normal table above, what is P(Z < -2.25)?
+:hint: Find the row for -2.2 and the column for .05.
+:feedback-0: Correct! The -2.2 row and .05 column give 0.0122.
+:feedback-1: 0.0139 is P(Z < -2.20); the extra hundredths matter—use the .05 column.
+:feedback-2: 0.9878 would be P(Z > -2.25), the complement.
 * *0.0122
 * 0.0139
 * 0.9878

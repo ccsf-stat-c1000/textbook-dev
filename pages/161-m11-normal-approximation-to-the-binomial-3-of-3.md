@@ -32,25 +32,25 @@ Roughly 10% of all college students in the United States are left-handed. Most a
 
 Let's think about this situation.
 
-Let X be the number of left-handed students (success) out of the 225 students (trials). X is therefore binomial with n = 225 and p = 0.1. We are asked to find P(X > 30) or P(X ≥ 31).
+Let X be the number of left-handed students (success) out of the 225 students (trials). X is therefore binomial with $n = 225$ and $p = 0.1$. We are asked to find P(X > 30) or P(X $\geq 31)$.
 
 Clearly, doing this using the binomial distribution formula is out of the question.
 
 :::{quiz} Is the normal approximation appropriate here, and if so, what are the mean and standard deviation of the approximating normal variable?
-:hint: Check np and n(1 − p), then compute μ = np and σ = √(np(1 − p)).
-:feedback-0: Correct! np = 22.5 and n(1 − p) = 202.5 both exceed 10, so the approximation applies with μ = 22.5 and σ = √20.25 = 4.5.
-:feedback-1: np = 225 × 0.1 = 22.5, which does satisfy the rule of thumb.
-:feedback-2: The standard deviation is √(np(1−p)) = √20.25 = 4.5, not 20.25 (that's the variance).
-* *Yes; μ = 22.5 and σ = 4.5
+:hint: Check np and n(1 - p), then compute $\mu$ = np and $\sigma = \sqrt{np(}$ - p)).
+:feedback-0: Correct! np = 22.5 and n(1 - p) = 202.5 both exceed 10, so the approximation applies with $\mu = 22.5$ and $\sigma = \sqrt{20.25} = 4.5$.
+:feedback-1: np = $225 \times 0.1 = 22.5$, which does satisfy the rule of thumb.
+:feedback-2: The standard deviation is $\sqrt{np(1-p)} = \sqrt{20.25} = 4.5$, not 20.25 (that's the variance).
+* *Yes; $\mu = 22.5$ and $\sigma = 4.5$
 * No; np is less than 10
-* Yes; μ = 22.5 and σ = 20.25
+* Yes; $\mu = 22.5$ and $\sigma = 20.25$
 :::
 
-:::{quiz} Using the normal approximation with continuity correction, what is P(X ≥ 31), the probability of running out of left-handed chairs?
-:hint: With the correction, use P(X ≥ 30.5): z = (30.5 − 22.5)/4.5 ≈ 1.78.
-:feedback-0: Correct! P(Z ≥ 1.78) = P(Z ≤ −1.78) = 0.0375—about a 4% chance the 30 chairs won't be enough.
+:::{quiz} Using the normal approximation with continuity correction, what is P(X $\geq 31)$, the probability of running out of left-handed chairs?
+:hint: With the correction, use P(X $\geq 30.5)$: $z = (30.5 - 22.5)/4.5 \approx 1.78$.
+:feedback-0: Correct! P(Z $\geq 1.78)$ = P(Z $\leq -1.78)$ = 0.0375—about a 4% chance the 30 chairs won't be enough.
 :feedback-1: 0.9625 is the probability that the chairs WILL be enough.
-:feedback-2: Standardize first: (30.5 − 22.5)/4.5 = 1.78; then find the tail probability from the table.
+:feedback-2: Standardize first: $(30.5 - 22.5)/4.5 = 1.78$; then find the tail probability from the table.
 * *About 0.04
 * About 0.96
 * 1.78

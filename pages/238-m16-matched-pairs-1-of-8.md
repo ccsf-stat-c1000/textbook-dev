@@ -4,7 +4,7 @@
 
 ### Overview
 
-We are still in case C→Q of inference about relationships, where the explanatory variable is categorical and the response variable is quantitative. As we mentioned in the introduction, we introduce three inferential procedures in this case.
+We are still in case $C \to Q$ of inference about relationships, where the explanatory variable is categorical and the response variable is quantitative. As we mentioned in the introduction, we introduce three inferential procedures in this case.
 
 So far we have introduced the first procedure—the two-sample t-test that is used when we are comparing two means and the samples are independent. We now move on to the second procedure, where we also compare two means, but the samples are paired or matched. Every observation in one sample is linked with an observation in the other sample. In this case, the samples are *dependent*.
 

@@ -41,7 +41,7 @@ We can find P(A or B) by adding P(A) (the left circle) and P(B) (the right circl
 
 If we apply this to our example, we find that:
 
-P(A or B) = P(on-time delivery using this strategy) = 0.90 + 0.80 − 0.75 = 0.95.
+P(A or B) = P(on-time delivery using this strategy) = $0.90 + 0.80 - 0.75 = 0.95$.
 
 So our strategy of using two delivery services increases our probability of on-time delivery to 0.95.
 :::
@@ -51,7 +51,7 @@ After this example, the following General Addition Rule for finding P(A or B) sh
 ```{admonition} Rule 6: The General Addition Rule
 :class: note
 
-*For any 2 events A and B, P(A or B) = P(A) + P(B) − P(A and B).*
+*For any 2 events A and B, P(A or B) = P(A) + P(B) - P(A and B).*
 ```
 
 *Comment:*
@@ -67,8 +67,8 @@ Suppose that Jim is applying to two colleges: College A, an "Ivy League" school,
 - Probability that he will be admitted to both colleges is 0.05.
 
 :::{quiz} What is the probability that Jim is admitted to at least one of the two colleges?
-:hint: Use the General Addition Rule: P(A or B) = P(A) + P(B) − P(A and B).
-:feedback-0: Correct! P(A or B) = 0.10 + 0.75 − 0.05 = 0.80.
+:hint: Use the General Addition Rule: P(A or B) = P(A) + P(B) - P(A and B).
+:feedback-0: Correct! P(A or B) = $0.10 + 0.75 - 0.05 = 0.80$.
 :feedback-1: 0.85 comes from adding without subtracting the overlap, which double-counts the case of being admitted to both.
 :feedback-2: 0.05 is the probability of being admitted to both colleges, not at least one.
 * *0.80
@@ -98,17 +98,17 @@ Let's first understand what probability we need to find: The smoke from the fire
 
 :::{quiz} How can we find P(D and B)?
 :hint: The alarms operate independently—which rule applies?
-:feedback-0: Correct! Since D and B are independent, P(D and B) = P(D) × P(B) = 0.95 × 0.40 = 0.38.
+:feedback-0: Correct! Since D and B are independent, P(D and B) = P(D) $\times$ P(B) = $0.95 \times 0.40 = 0.38$.
 :feedback-1: Adding gives 1.35, which is not even a valid probability.
 :feedback-2: P(D and B) is not 0—the alarms can certainly both go off; they are independent, not disjoint.
-* *Multiply: P(D and B) = 0.95 × 0.40 = 0.38
-* Add: P(D and B) = 0.95 + 0.40 = 1.35
+* *Multiply: P(D and B) = $0.95 \times 0.40 = 0.38$
+* Add: P(D and B) = $0.95 + 0.40 = 1.35$
 * It is 0, because the alarms are in different rooms
 :::
 
 :::{quiz} So what is P(D or B), the probability that the smoke is detected?
 :hint: Apply the General Addition Rule using P(D and B) = 0.38.
-:feedback-0: Correct! P(D or B) = 0.95 + 0.40 − 0.38 = 0.97.
+:feedback-0: Correct! P(D or B) = $0.95 + 0.40 - 0.38 = 0.97$.
 :feedback-1: 1.35 double-counts the overlap and exceeds 1—remember to subtract P(D and B).
 :feedback-2: 0.38 is the probability that BOTH alarms go off, not that at least one does.
 * *0.97
@@ -123,9 +123,9 @@ The words "at least one of" might remind you of the Complement Rule strategy we 
 
 Using the General Addition Rule (with independence to find the "and" probability):
 
-P(at least one of the two shares your birth month) = P(A or B) = P(A) + P(B) − P(A and B) = 1/12 + 1/12 − (1/12)(1/12) ≈ 0.16
+P(at least one of the two shares your birth month) = P(A or B) = P(A) + P(B) - P(A and B) = $1/12 + 1/12 - (1/12)(1/12) \approx 0.16$
 
 We could also have used the Complement Rule strategy:
 
-P(at least one of the two shares your birth month) = 1 − P(neither shares your birth month) = 1 − (11/12)(11/12) ≈ 0.16
+P(at least one of the two shares your birth month) = 1 - P(neither shares your birth month) = $1 - (11/12)(11/12) \approx 0.16$
 ```

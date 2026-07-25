@@ -1,6 +1,6 @@
 # Introduction
 
-In the previous two modules we performed inference for one variable. More specifically, we learned about inference for the population proportion p (when the variable of interest is categorical) and inference for the population mean μ (when the variable of interest is quantitative). In those modules we were also exposed to the following three forms of inference, which will continue to be central as we move forward in the course:
+In the previous two modules we performed inference for one variable. More specifically, we learned about inference for the population proportion p (when the variable of interest is categorical) and inference for the population mean $\mu$ (when the variable of interest is quantitative). In those modules we were also exposed to the following three forms of inference, which will continue to be central as we move forward in the course:
 
 - *Point estimation*—estimating an unknown parameter with a single value that is computed from the sample.
 - *Interval estimation*—estimating an unknown parameter by an interval of plausible values. To each such interval we attach a level of confidence that the interval indeed captures the value of the unknown parameter, hence the name confidence intervals.
@@ -23,15 +23,15 @@ The primary inference form that we will use in this module, then, is hypothesis 
 
 Recall that in the module about examining the relationship between two variables in the Exploratory Data Analysis unit, our discussion was framed around the role-type classification table. This part of the course will be structured in exactly the same way.
 
-In other words, we will go through 3 sections corresponding to cases C→Q, C→C, and Q→Q in the table below.
+In other words, we will go through 3 sections corresponding to cases $C \to Q$, $C \to C$, and $Q \to Q$ in the table below.
 
 ```{figure} images/gen/m05-role-type-table.svg
 :alt: The role-type classification table. Any type of explanatory variable can be paired with any type of response variable, giving four cases: categorical explanatory with quantitative response (C to Q), categorical with categorical (C to C), quantitative with categorical (Q to C), and quantitative with quantitative (Q to Q).
 ```
 
-(Recall that case Q→C is not discussed in this course.)
+(Recall that case $Q \to C$ is not discussed in this course.)
 
-In total, we will introduce 5 inferential methods: three in case C→Q (corresponding to a division of this case into 3 sub-cases) and one in each of the cases C→C and Q→Q.
+In total, we will introduce 5 inferential methods: three in case $C \to Q$ (corresponding to a division of this case into 3 sub-cases) and one in each of the cases $C \to C$ and $Q \to Q$.
 
 Unlike the previous part of the course on Inference for One Variable, where we discussed in some detail the theory behind the machinery of the test (such as the null distribution of the test statistic, under which the p-values are calculated), in the 5 inferential procedures that we will introduce in Inference for Relationships, we will discuss much less of that kind of detail. The principles are the same, but the details behind the null distribution of the test statistic become more complicated and require knowledge of theoretical results that are definitely beyond the scope of this course.
 
@@ -43,4 +43,4 @@ Instead, within each of the five inferential methods we will focus on:
 - How to use software to carry out the procedure in order to get the p-value of the test.
 - Interpreting the results in the context of the problem.
 
-Also, we will continue to introduce each test according to the four-step process of hypothesis testing. We are now ready to start with case C→Q.
+Also, we will continue to introduce each test according to the four-step process of hypothesis testing. We are now ready to start with case $C \to Q$.

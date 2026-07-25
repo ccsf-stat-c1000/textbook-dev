@@ -28,11 +28,11 @@ It represents the difference between the sample proportion ($\hat{p}$) and the n
 :alt: A normal curve representing the sampling distribution of p-hat assuming that p equals p-zero. Marked on the horizontal axis are p-zero at the center and a particular value of p-hat. z is the difference between p-hat and p-zero measured in standard deviations, with the sign of z indicating whether p-hat is below or above p-zero.
 ```
 
-Here is a representation of the sampling distribution of $\hat{p}$, assuming $p = p_0$. In other words, this is a model of how $\hat{p}$ behaves if we are drawing random samples from a population for which $H_0$ is true. Notice the center of the sampling distribution is at $p_0$, which is the hypothesized proportion given in the null hypothesis ($H_0: p = p_0$). We could also mark the axis in standard deviation units, $\sqrt{\frac{p_{0}(1-p_{0})}{n}}$. For example, if our null hypothesis claims that the proportion of U.S. adults supporting the death penalty is 0.64, then the sampling distribution is drawn as if the null is true. We draw a normal distribution centered at p = 0.64 with a standard deviation dependent on sample size, $\sqrt{\frac{0.64(1-0.64)}{n}}$.
+Here is a representation of the sampling distribution of $\hat{p}$, assuming $p = p_0$. In other words, this is a model of how $\hat{p}$ behaves if we are drawing random samples from a population for which $H_0$ is true. Notice the center of the sampling distribution is at $p_0$, which is the hypothesized proportion given in the null hypothesis ($H_0: p = p_0$). We could also mark the axis in standard deviation units, $\sqrt{\frac{p_{0}(1-p_{0})}{n}}$. For example, if our null hypothesis claims that the proportion of U.S. adults supporting the death penalty is 0.64, then the sampling distribution is drawn as if the null is true. We draw a normal distribution centered at $p = 0.64$ with a standard deviation dependent on sample size, $\sqrt{\frac{0.64(1-0.64)}{n}}$.
 
 ## Computing the Test Statistic
 
-Note that under the assumption that $H_0$ is true (i.e., $p=p_0$), the test statistic, by the nature of the fact that it is a z-score, has the N(0,1) (standard normal) distribution. Another way to say the same thing, which is quite common, is: "The null distribution of the test statistic is N(0,1)." By "null distribution," we mean the distribution under the assumption that $H_0$ is true. As we'll see and stress again later, the null distribution of the test statistic is what the calculation of the p-value is based on.
+Note that under the assumption that $H_0$ is true (i.e., $p=p_0$), the test statistic, by the nature of the fact that it is a z-score, has the $N(0,1)$ (standard normal) distribution. Another way to say the same thing, which is quite common, is: "The null distribution of the test statistic is $N(0,1)$." By "null distribution," we mean the distribution under the assumption that $H_0$ is true. As we'll see and stress again later, the null distribution of the test statistic is what the calculation of the p-value is based on.
 
 Let's go back to our three examples and find the test statistic in each case:
 
@@ -45,7 +45,7 @@ $$z=\frac{0.16-0.20}{\sqrt{\frac{0.20(1-0.20)}{400}}}=-2$$
 
 This is the value of the test statistic for this example.
 
-What does this tell us? This z-score of −2 tells us that (assuming that $H_0$ is true) the sample proportion $\hat{p}=0.16$ is 2 standard deviations below the null value (0.20).
+What does this tell us? This z-score of -2 tells us that (assuming that $H_0$ is true) the sample proportion $\hat{p}=0.16$ is 2 standard deviations below the null value (0.20).
 :::
 
 :::{admonition} Example 2: Marijuana Use at a Liberal Arts College
@@ -82,14 +82,14 @@ We interpret this to mean that, assuming that $H_0$ is true, the sample proporti
 
 ## Check Your Understanding: Interpreting the Test Statistic
 
-:::{quiz} In the death penalty example, the test statistic was z = 2.31. Which is the correct interpretation of this value?
+:::{quiz} In the death penalty example, the test statistic was $z = 2.31$. Which is the correct interpretation of this value?
 :hint: A z-score counts standard deviations from the center of the null distribution.
-:feedback-0: Correct! Assuming H₀ is true (p = 0.64), the observed sample proportion 0.675 lies 2.31 standard deviations above the null value.
+:feedback-0: Correct! Assuming $H_0$ is true (p = 0.64), the observed sample proportion 0.675 lies 2.31 standard deviations above the null value.
 :feedback-1: The test statistic is measured in standard deviations, not percentage points.
 :feedback-2: z is not a probability—the p-value (a probability) will be derived from it in the next step.
-* *The sample proportion is 2.31 standard deviations above the null value, assuming H₀ is true
+* *The sample proportion is 2.31 standard deviations above the null value, assuming $H_0$ is true
 * The sample proportion is 2.31 percentage points above the null value
-* There is a 2.31% chance that H₀ is true
+* There is a 2.31% chance that $H_0$ is true
 :::
 
 ## Check Your Understanding: The Test Statistic in Context
@@ -100,7 +100,7 @@ Let p be the proportion of all U.S. Internet-using households that have dial-up 
 
 :::{quiz} What is the sample proportion p-hat in this study?
 :hint: 804 out of 1,308.
-:feedback-0: Correct! p-hat = 804/1308 ≈ 0.615.
+:feedback-0: Correct! p-hat = $804/1308 \approx 0.615$.
 :feedback-1: 0.75 is the null value from the earlier report, not the sample result.
 :feedback-2: Divide the number of dial-up households by the total sample size.
 * *0.615
@@ -108,24 +108,24 @@ Let p be the proportion of all U.S. Internet-using households that have dial-up 
 * 804
 :::
 
-:::{quiz} The test statistic for these data is approximately z = −11.3. What does this value tell us?
+:::{quiz} The test statistic for these data is approximately $z = -11.3$. What does this value tell us?
 :hint: How surprising is a sample proportion more than 11 standard deviations below the null value?
-:feedback-0: Correct! The sample proportion is more than 11 standard deviations BELOW 0.75—essentially impossible if H₀ were true—so the data provide overwhelming evidence that dial-up use declined.
+:feedback-0: Correct! The sample proportion is more than 11 standard deviations BELOW 0.75—essentially impossible if $H_0$ were true—so the data provide overwhelming evidence that dial-up use declined.
 :feedback-1: A negative z simply means p-hat is below the null value—which is exactly the direction the alternative predicts.
-:feedback-2: The magnitude matters: 11.3 standard deviations is an enormous discrepancy, providing extremely strong evidence against H₀.
+:feedback-2: The magnitude matters: 11.3 standard deviations is an enormous discrepancy, providing extremely strong evidence against $H_0$.
 * *The sample proportion is 11.3 standard deviations below 0.75—extremely strong evidence that dial-up use declined
 * The negative sign means the test was done incorrectly
-* The evidence against H₀ is weak because z is negative
+* The evidence against $H_0$ is weak because z is negative
 :::
 
-Ann and Sam are both testing the hypothesis that 40% of plain M&M's are orange, $H_0: p = 0.40$. Ann draws a sample of M&M's and 45% of her sample are orange; she calculates a test statistic of z = 1.25. Sam draws a sample of M&M's and 50% of his sample are orange; he calculates a test statistic of z = 1.
+Ann and Sam are both testing the hypothesis that 40% of plain M&M's are orange, $H_0: p = 0.40$. Ann draws a sample of M&M's and 45% of her sample are orange; she calculates a test statistic of $z = 1.25$. Sam draws a sample of M&M's and 50% of his sample are orange; he calculates a test statistic of $z = 1$.
 
 :::{quiz-multi} Which of the following statements are true? (Select all that apply.)
 :hint: The test statistic already accounts for sample size—compare the z values, not the raw percentages. And if Sam's larger difference gave a SMALLER z, what must be true of his standard error?
 :feedback-0: True! Evidence is measured by the test statistic, and Ann's |z| = 1.25 exceeds Sam's |z| = 1.
 :feedback-1: True! Sam's difference (0.10) is larger than Ann's (0.05), yet his z is smaller—so his standard error must be larger, meaning his sample was smaller.
 :feedback-2: False—raw distance from the null value doesn't determine evidence strength; the standardized distance does.
-* *Ann's data provide stronger evidence against H₀ than Sam's, because her test statistic is larger
+* *Ann's data provide stronger evidence against $H_0$ than Sam's, because her test statistic is larger
 * *Sam's sample must be smaller than Ann's
-* Sam's data provide stronger evidence against H₀, because his sample proportion is farther from 0.40
+* Sam's data provide stronger evidence against $H_0$, because his sample proportion is farther from 0.40
 :::

@@ -24,9 +24,9 @@ Let's look at another example:
 
 Heights among the population of all adult males follow a normal distribution with a mean $\mu=69$ inches and a standard deviation $\sigma=2.8$ inches.
 
-A sample of 200 males was chosen, and their heights were recorded. The sample histogram resembles the normal distribution, but is not as smooth, and the sample mean is $\bar{x}=68.7$ inches with sample standard deviation s = 2.95 inches—slightly different from the population values.
+A sample of 200 males was chosen, and their heights were recorded. The sample histogram resembles the normal distribution, but is not as smooth, and the sample mean is $\bar{x}=68.7$ inches with sample standard deviation $s = 2.95$ inches—slightly different from the population values.
 
-A second sample of 200 males gives a sample mean of $\bar{x}=69.065$ inches and a sample standard deviation of s = 2.659 inches.
+A second sample of 200 males gives a sample mean of $\bar{x}=69.065$ inches and a sample standard deviation of $s = 2.659$ inches.
 
 Again, as in Example 1, we see the idea of *sampling variability.* The sample results are pretty close to the population, and different from the results we got in the first sample.
 :::
@@ -75,7 +75,7 @@ Here are some more examples:
 
 If students picked numbers completely at random from the numbers 1 to 20, the proportion of times that the number 7 would be picked is 0.05. When 15 students picked a number "at random" from 1 to 20, 3 of them picked the number 7. Identify the parameter and accompanying statistic in this situation.
 
-The parameter is the population proportion of random selections resulting in the number 7, which is p = 0.05. The accompanying statistic is the sample proportion of selections resulting in the number 7, which is $\hat{p}=3/15=0.20$.
+The parameter is the population proportion of random selections resulting in the number 7, which is $p = 0.05$. The accompanying statistic is the sample proportion of selections resulting in the number 7, which is $\hat{p}=3/15=0.20$.
 :::
 
 :::{admonition} Example: Pregnancy Length
@@ -92,7 +92,7 @@ The parameters are population mean $\mu=266$ and population standard deviation $
 :hint: Which number describes a sample, and which describes an entire population?
 :feedback-0: Correct! The 58% comes from a sample (a statistic); the 51% describes the entire population of registered voters (a parameter).
 :feedback-1: It's the reverse: the survey result comes from a sample, while the records cover the whole population.
-:feedback-2: One of each: survey → statistic, complete records → parameter.
+:feedback-2: One of each: survey $\to$ statistic, complete records $\to$ parameter.
 * *58% is a statistic; 51% is a parameter
 * 58% is a parameter; 51% is a statistic
 * Both are parameters

@@ -33,18 +33,18 @@ The {term}`distribution` of the values of the sample mean ($\bar{x}$) in repeate
 
 ## Check Your Understanding: The Behavior of the Sample Mean
 
-:::{quiz} Every day, a quality inspector randomly samples 16 boxes of cereal from a filling machine and computes the sample mean weight. Over many days, around what value will these sample means center, if the machine fills boxes with mean μ = 500 grams?
-:hint: The sampling distribution of the sample mean is centered at μ.
+:::{quiz} Every day, a quality inspector randomly samples 16 boxes of cereal from a filling machine and computes the sample mean weight. Over many days, around what value will these sample means center, if the machine fills boxes with mean $\mu = 500$ grams?
+:hint: The sampling distribution of the sample mean is centered at $\mu$.
 :feedback-0: Correct! The sample means average out to the population mean, 500 grams.
-:feedback-1: Individual boxes vary, but the CENTER of the sample means is exactly μ = 500.
+:feedback-1: Individual boxes vary, but the CENTER of the sample means is exactly $\mu = 500$.
 * *500 grams
 * Slightly below 500 grams, since averages lose information
 :::
 
 :::{quiz} The inspector considers switching from samples of 16 boxes to samples of 64 boxes. How would this change the sampling distribution of the sample mean?
 :hint: Larger samples produce sample means that hug the population mean more tightly.
-:feedback-0: Correct! The center stays at μ, but the spread of the sample means shrinks—larger samples give more precise estimates.
-:feedback-1: The center does not move with sample size; it is always μ for random samples.
+:feedback-0: Correct! The center stays at $\mu$, but the spread of the sample means shrinks—larger samples give more precise estimates.
+:feedback-1: The center does not move with sample size; it is always $\mu$ for random samples.
 :feedback-2: Larger samples REDUCE the variability of the sample mean.
 * *Same center, smaller spread
 * The center would shift upward
@@ -53,8 +53,8 @@ The {term}`distribution` of the values of the sample mean ($\bar{x}$) in repeate
 
 :::{quiz} A single random sample of 9 babies has a mean birth weight of 3,400 grams, not 3,500. Does this contradict the claim that the sampling distribution is centered at 3,500?
 :hint: Individual sample means vary; the center describes the long-run average of many sample means.
-:feedback-0: Correct! Sampling variability means individual sample means differ from μ; "centered at 3,500" describes the average over many repeated samples.
-:feedback-1: One sample below the mean is entirely expected—about half of all sample means fall below μ.
+:feedback-0: Correct! Sampling variability means individual sample means differ from $\mu$; "centered at 3,500" describes the average over many repeated samples.
+:feedback-1: One sample below the mean is entirely expected—about half of all sample means fall below $\mu$.
 * *No—individual sample means vary around 3,500 due to sampling variability
 * Yes—the sample mean should equal 3,500 every time
 :::

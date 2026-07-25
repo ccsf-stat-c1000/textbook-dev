@@ -2,14 +2,14 @@
 
 Here, again, is the General Multiplication Rule:
 
-*For any two events A and B, P(A and B) = P(A) × P(B | A)*
+*For any two events A and B, P(A and B) = P(A) $\times$ P(B | A)*
 
 ```{admonition} Comments
 :class: important
 
-1. Note that although the motivation for this rule was to find P(A and B) when A and B are not independent, this rule is general in the sense that if A and B happen to be *independent*, then P(B | A) = P(B) is true, and we're back to Rule 5—the Multiplication Rule for Independent Events: P(A and B) = P(A) × P(B).
+1. Note that although the motivation for this rule was to find P(A and B) when A and B are not independent, this rule is general in the sense that if A and B happen to be *independent*, then P(B | A) = P(B) is true, and we're back to Rule 5—the Multiplication Rule for Independent Events: P(A and B) = P(A) $\times$ P(B).
 
-2. The General Multiplication Rule is just the definition of conditional probability in disguise. Recall the definition of conditional probability: *P(B | A) = P(A and B) / P(A)*. Let's isolate P(A and B) by multiplying both sides of the equation by P(A), and we get: *P(A and B) = P(A) × P(B | A)*. That's it ... this is the General Multiplication Rule.
+2. The General Multiplication Rule is just the definition of conditional probability in disguise. Recall the definition of conditional probability: *P(B | A) = P(A and B) / P(A)*. Let's isolate P(A and B) by multiplying both sides of the equation by P(A), and we get: *P(A and B) = P(A) $\times$ P(B | A)*. That's it ... this is the General Multiplication Rule.
 
 3. The General Multiplication Rule is useful when two events, A and B, occur in stages, first A and then B (like the selection of the two cards in the previous example). Thinking about it this way makes the General Multiplication Rule very intuitive. For both A and B to occur you first need A to occur (which happens with probability P(A)), *and* then you need B to occur, knowing that A has already occurred (which happens with probability P(B | A)).
 ```
@@ -23,17 +23,17 @@ In a certain region, one in every thousand people (0.001) of all individuals is 
 
 (a) Express the information that is given in the problem in terms of the events H and T.
 
-"one in every thousand people (0.001) of all individuals are infected with HIV" → *P(H) = 0.001*
+"one in every thousand people (0.001) of all individuals are infected with HIV" $\to$ *P(H) = 0.001*
 
-"If someone actually has HIV, the probability of testing positive is 0.95" → *P(T | H) = 0.95*
+"If someone actually has HIV, the probability of testing positive is 0.95" $\to$ *P(T | H) = 0.95*
 
 (b) Use the General Multiplication Rule to find the probability that someone chosen at random from the population has HIV and tests positive.
 
-*P(H and T)* = P(H) × P(T | H) = 0.001 × 0.95 = 0.00095.
+*P(H and T)* = P(H) $\times$ P(T | H) = $0.001 \times 0.95 = 0.00095$.
 
 (c) If someone has HIV, what is the probability of testing negative? Here we need to find P(not T | H).
 
-Recall from an activity earlier in this module that the Complement Rule works with conditional probabilities as long as we condition on the same event, therefore: *P(not T | H)* = 1 − P(T | H) = 1 − 0.95 = 0.05.
+Recall from an activity earlier in this module that the Complement Rule works with conditional probabilities as long as we condition on the same event, therefore: *P(not T | H)* = 1 - P(T | H) = $1 - 0.95 = 0.05$.
 :::
 
 The purpose of the next activity is to give you guided practice in expressing information in terms of conditional probabilities, and in using the General Multiplication Rule.
@@ -67,8 +67,8 @@ The probability of the warning light showing up (event W) when it should (i.e., 
 :::
 
 :::{quiz} What is the probability that the engine overheats AND the warning light comes on?
-:hint: Use the General Multiplication Rule: P(H and W) = P(H) × P(W | H).
-:feedback-0: Correct! P(H and W) = 0.03 × 0.98 = 0.0294.
+:hint: Use the General Multiplication Rule: P(H and W) = P(H) $\times$ P(W | H).
+:feedback-0: Correct! P(H and W) = $0.03 \times 0.98 = 0.0294$.
 :feedback-1: 0.98 is the conditional probability of the light given overheating, not the joint probability.
 :feedback-2: 0.0003 uses the false-alarm rate; the light-given-overheating probability is 0.98.
 * *0.0294
@@ -78,7 +78,7 @@ The probability of the warning light showing up (event W) when it should (i.e., 
 
 :::{quiz} What is the probability that the engine is fine AND the warning light comes on anyway (a false alarm)?
 :hint: P(not H) = 0.97 and P(W | not H) = 0.01.
-:feedback-0: Correct! P(not H and W) = 0.97 × 0.01 = 0.0097.
+:feedback-0: Correct! P(not H and W) = $0.97 \times 0.01 = 0.0097$.
 :feedback-1: 0.01 is the conditional false-alarm rate; multiply by P(not H) to get the joint probability.
 :feedback-2: 0.03 is P(H); the false alarm involves "not H."
 * *0.0097

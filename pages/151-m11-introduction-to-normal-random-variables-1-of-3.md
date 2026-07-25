@@ -28,8 +28,8 @@ Even more important than the fact that many variables themselves follow the norm
 ## Check Your Understanding: The Normal Distribution
 
 :::{quiz} Two normal curves are drawn on the same axes. Curve A is tall and narrow; curve B is short and wide. Both are centered at 50. Which statement is correct?
-:hint: Spread is controlled by σ; total area is always 1.
-:feedback-0: Correct! Both have μ = 50, but B's larger σ spreads its (fixed, total = 1) area over a wider range, forcing the peak lower.
+:hint: Spread is controlled by $\sigma$; total area is always 1.
+:feedback-0: Correct! Both have $\mu = 50$, but B's larger $\sigma$ spreads its (fixed, total = 1) area over a wider range, forcing the peak lower.
 :feedback-1: Both curves, like all density curves, have total area 1.
 :feedback-2: The taller curve has the SMALLER standard deviation—its values cluster tightly near the mean.
 * *They share the same mean, but curve B has a larger standard deviation

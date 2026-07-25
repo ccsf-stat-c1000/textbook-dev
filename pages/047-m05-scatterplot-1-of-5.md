@@ -2,10 +2,10 @@
 
 In the previous two cases we had a categorical explanatory variable, and therefore exploring the relationship between the two variables was done by comparing the distribution of the response variable for each category of the explanatory variable:
 
-- In case C→Q we compared distributions of the quantitative response.
-- In case C→C we compared distributions of the categorical response.
+- In case $C \to Q$ we compared distributions of the quantitative response.
+- In case $C \to C$ we compared distributions of the categorical response.
 
-Case Q→Q is different in the sense that both variables (in particular the explanatory variable) are quantitative, and therefore, as you'll discover, this case will require a different kind of treatment and tools. Let's start with an example:
+Case $Q \to Q$ is different in the sense that both variables (in particular the explanatory variable) are quantitative, and therefore, as you'll discover, this case will require a different kind of treatment and tools. Let's start with an example:
 
 ::::{admonition} Example: Highway Signs
 :class: tip

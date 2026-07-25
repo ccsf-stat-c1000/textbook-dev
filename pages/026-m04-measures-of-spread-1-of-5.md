@@ -22,7 +22,7 @@ Like the different measures of center, these measures provide different ways to 
 
 The {term}`range` covered by the data is the most intuitive measure of variability. The range is exactly the distance between the smallest data point (min) and the largest one (Max).
 
-- Range = Max − min
+- Range = Max - min
 
 Note: When we first looked at the histogram, and tried to get a first feel for the spread of the data, we were actually *approximating* the range, rather than calculating the exact range.
 
@@ -41,5 +41,5 @@ In this example:
 - min = 21 (Marlee Matlin for *Children of a Lesser God*, 1986)
 - Max = 80 (Jessica Tandy for *Driving Miss Daisy*, 1989)
 
-The range covered by all the data is 80 − 21 = 59 years.
+The range covered by all the data is $80 - 21 = 59$ years.
 :::

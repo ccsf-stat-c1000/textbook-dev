@@ -39,7 +39,7 @@ Clearly it is much simpler to use the "shortcut" formulas $\mu_{X}=np$ and $\sig
 
 Suppose we sample 120 people at random. The number with blood type B should be about 12, give or take how many? In other words, what is the standard deviation of the number X who have blood type B?
 
-Since n = 120 and p = 0.1,
+Since $n = 120$ and $p = 0.1$,
 
 $$\sigma_{X}^{2}=120(0.1)(1-0.1)=10.8 \qquad \sigma_{X}=\sqrt{10.8}\approx3.3$$
 
@@ -51,17 +51,17 @@ In a random sample of 120 people, we should expect there to be about 12 with blo
 A Gallup Poll in May 2004 estimated that roughly 70% of U.S. adults are in favor of the death penalty for a person convicted of murder. A random sample of 750 U.S. adults is chosen. Let X be the number of adults (out of 750) who favor the death penalty.
 
 :::{quiz} What are the mean and standard deviation of X?
-:hint: μ = np = 750(0.7); σ = √(np(1−p)) = √(750 × 0.7 × 0.3).
-:feedback-0: Correct! μ = 525 and σ = √157.5 ≈ 12.5.
+:hint: $\mu$ = np = 750(0.7); $\sigma = \sqrt{np(1-p)} = \sqrt{750 \times 0.7 \times 0.3}$.
+:feedback-0: Correct! $\mu = 525$ and $\sigma = \sqrt{157.5} \approx 12.5$.
 :feedback-1: 157.5 is the variance—take its square root for the standard deviation.
-:feedback-2: The mean is np = 750 × 0.7 = 525, not 375.
+:feedback-2: The mean is np = $750 \times 0.7 = 525$, not 375.
 * *Mean 525, standard deviation about 12.5
 * Mean 525, standard deviation 157.5
 * Mean 375, standard deviation about 12.5
 :::
 
 :::{quiz} Using the 2-standard-deviations criterion, would it be unusual for only 350 of the 750 sampled adults to favor the death penalty?
-:hint: The ordinary range is 525 ± 2(12.5), i.e., 500 to 550.
+:hint: The ordinary range is $525 \pm 2(12.5)$, i.e., 500 to 550.
 :feedback-0: Correct! 350 is far below 500 (in fact, 14 standard deviations below the mean)—extremely unusual, and it would make us doubt the claimed 70%.
 :feedback-1: 350 is nowhere near the ordinary range of 500 to 550.
 * *Yes—350 is far outside the range 500 to 550
@@ -76,11 +76,11 @@ Before we move on to continuous random variables, let's investigate the shape of
 :alt: Three probability histograms for binomial distributions with n equal to 10. For p equal to 0.1 the distribution is skewed right, with the probability piled up near 0. For p equal to 0.5 it is symmetric, centered at 5. For p equal to 0.9 it is skewed left, with the probability piled up near 10.
 ```
 
-:::{quiz} A binomial distribution has n = 20 and p = 0.05. What shape would you expect its probability histogram to have?
+:::{quiz} A binomial distribution has $n = 20$ and $p = 0.05$. What shape would you expect its probability histogram to have?
 :hint: With small p, successes are rare—where does the probability pile up?
 :feedback-0: Correct! With p much smaller than 0.5, most of the probability is on small values of X, leaving a long right tail—skewed right.
 :feedback-1: Skewed left occurs when p is large (close to 1).
-:feedback-2: Symmetry occurs when p = 0.5 (or when n is very large).
+:feedback-2: Symmetry occurs when $p = 0.5$ (or when n is very large).
 * *Skewed right
 * Skewed left
 * Symmetric

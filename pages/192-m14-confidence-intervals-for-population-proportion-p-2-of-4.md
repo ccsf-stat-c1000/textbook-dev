@@ -33,8 +33,8 @@ The purpose of the next activity is to provide guided practice in calculating an
 A poll asked a random sample of 1,000 U.S. adults, "Do you think that the use of marijuana should be legalized?" 560 of those asked answered yes.
 
 :::{quiz} What is a 95% confidence interval for p, the proportion of all U.S. adults who favor legalization?
-:hint: p-hat = 0.56, and the standard error is √(0.56 × 0.44/1000) ≈ 0.0157.
-:feedback-0: Correct! 0.56 ± 2(0.0157) ≈ 0.56 ± 0.03 = (0.53, 0.59).
+:hint: p-hat = 0.56, and the standard error is $\sqrt{0.56 \times 0.44/1000} \approx 0.0157$.
+:feedback-0: Correct! $0.56 \pm 2(0.0157) \approx 0.56 \pm 0.03 = (0.53$, 0.59).
 :feedback-1: (0.55, 0.57) uses only about half the correct margin of error.
 :feedback-2: The margin of error is about 0.03, not 0.10.
 * *(0.53, 0.59)
@@ -60,7 +60,7 @@ A poll asked a random sample of 1,000 U.S. adults, "Do you think that the use of
 * No—0.50 is a plausible value for p
 :::
 
-Two important results that we discussed at length when we talked about the confidence interval for μ also apply here:
+Two important results that we discussed at length when we talked about the confidence interval for $\mu$ also apply here:
 
 1. There is a trade-off between level of confidence and the width (or precision) of the confidence interval. The more precision you would like the confidence interval for p to have, the more you have to pay by having a lower level of confidence.
 

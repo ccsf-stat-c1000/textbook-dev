@@ -46,9 +46,9 @@ Here are the numerical summaries of the distribution. Note that the key players 
 
 To see how well the Standard Deviation Rule works for this case, we find the intervals within 1, 2, and 3 standard deviations of the mean:
 
-- within 1 SD: 70.58 ± 2.86, or (67.7, 73.4)
-- within 2 SD: 70.58 ± 5.72, or (64.9, 76.3)
-- within 3 SD: 70.58 ± 8.57, or (62.0, 79.2)
+- within 1 SD: $70.58 \pm 2.86$, or (67.7, 73.4)
+- within 2 SD: $70.58 \pm 5.72$, or (64.9, 76.3)
+- within 3 SD: $70.58 \pm 8.57$, or (62.0, 79.2)
 
 When we count what percentage of the 50 observations actually fall in each of these intervals, the results come out very close to the 68%, 95%, and 99.7% that the rule predicts. The Standard Deviation Rule works *very well* in this example.
 ::::

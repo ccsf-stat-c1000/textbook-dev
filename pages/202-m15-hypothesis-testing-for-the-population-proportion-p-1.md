@@ -35,8 +35,8 @@ The following figure displays the information, as well as the question of intere
 
 The question of interest helps us formulate the null and alternative hypotheses in terms of p, the proportion of defective products produced by the machine following the repair:
 
-- $H_0$: p = 0.20 (no change; the repair did not help)
-- $H_a$: p < 0.20 (the repair was effective)
+- $H_0$: $p = 0.20$ (no change; the repair did not help)
+- $H_a$: $p < 0.20$ (the repair was effective)
 ::::
 
 ::::{admonition} Example 2: Marijuana Use at a Liberal Arts College
@@ -52,8 +52,8 @@ Again, the following figure displays the information as well as the question of 
 
 As before, we can formulate the null and alternative hypotheses in terms of p, the proportion of students in the college who use marijuana:
 
-- $H_0$: p = 0.157 (same as among all college students in the country)
-- $H_a$: p > 0.157 (higher than the national figure)
+- $H_0$: $p = 0.157$ (same as among all college students in the country)
+- $H_a$: $p > 0.157$ (higher than the national figure)
 ::::
 
 ::::{admonition} Example 3: Death Penalty Support
@@ -69,8 +69,8 @@ Here is a figure that displays the information, as well as the question of inter
 
 Again, we can formulate the null and alternative hypotheses in terms of p, the proportion of U.S. adults who support the death penalty for convicted murderers:
 
-- $H_0$: p = 0.64 (no change from 2003)
-- $H_a$: p ≠ 0.64 (some change since 2003)
+- $H_0$: $p = 0.64$ (no change from 2003)
+- $H_a$: $p \neq 0.64$ (some change since 2003)
 ::::
 
 ## Check Your Understanding: Setting Up a Test for a Proportion
@@ -89,17 +89,17 @@ According to the American Association of Community Colleges, 23% of community co
 
 :::{quiz} What are the appropriate hypotheses?
 :hint: The null value is the national rate, 0.23; the office anticipates a SMALLER percentage in California.
-:feedback-0: Correct! H₀: p = 0.23 (same as the national rate); Hₐ: p < 0.23 (smaller, as anticipated).
+:feedback-0: Correct! $H_0$: $p = 0.23$ (same as the national rate); $H_a$: $p < 0.23$ (smaller, as anticipated).
 :feedback-1: The alternative should be one-sided (smaller), since the office specifically anticipates a smaller percentage.
 :feedback-2: The null value should be the claimed baseline 0.23, not the sample result 0.21.
-* *H₀: p = 0.23; Hₐ: p < 0.23
-* H₀: p = 0.23; Hₐ: p ≠ 0.23
-* H₀: p = 0.21; Hₐ: p < 0.21
+* *$H_0$: $p = 0.23$; $H_a$: $p < 0.23$
+* $H_0$: $p = 0.23$; $H_a$: $p \neq 0.23$
+* $H_0$: $p = 0.21$; $H_a$: $p < 0.21$
 :::
 
 :::{quiz} What is the sample proportion p-hat in this study?
 :hint: 210 out of 1,000.
-:feedback-0: Correct! p-hat = 210/1000 = 0.21.
+:feedback-0: Correct! p-hat = $210/1000 = 0.21$.
 :feedback-1: 0.23 is the national (null) value, not the sample result.
 :feedback-2: p-hat is the number of successes divided by the sample size: 210/1000.
 * *0.21
@@ -108,8 +108,8 @@ According to the American Association of Community Colleges, 23% of community co
 :::
 
 :::{quiz} Which sample results would count as evidence in favor of the alternative hypothesis?
-:hint: Hₐ says p < 0.23.
-:feedback-0: Correct! Since the alternative is one-sided (p < 0.23), only sample proportions well below 0.23 count as evidence for Hₐ.
+:hint: $H_a$ says $p < 0.23$.
+:feedback-0: Correct! Since the alternative is one-sided (p < 0.23), only sample proportions well below 0.23 count as evidence for $H_a$.
 :feedback-1: Sample proportions above 0.23 would, if anything, point away from this alternative.
 :feedback-2: With a one-sided alternative, only departures in the specified direction count.
 * *Sample proportions much smaller than 0.23
@@ -123,18 +123,18 @@ Using data from 2008, the American Association of Community Colleges (AACC) repo
 
 :::{quiz} What are the appropriate hypotheses for this study?
 :hint: The null value is the 2008 rate; the AACC anticipates an INCREASE.
-:feedback-0: Correct! H₀: p = 0.46; Hₐ: p > 0.46, since an increase is anticipated.
+:feedback-0: Correct! $H_0$: $p = 0.46$; $H_a$: $p > 0.46$, since an increase is anticipated.
 :feedback-1: The AACC anticipates an increase, so the alternative should be one-sided (greater than).
 :feedback-2: The null value should be the 2008 baseline 0.46, not the 2010 sample result 0.52.
-* *H₀: p = 0.46; Hₐ: p > 0.46
-* H₀: p = 0.46; Hₐ: p ≠ 0.46
-* H₀: p = 0.52; Hₐ: p > 0.52
+* *$H_0$: $p = 0.46$; $H_a$: $p > 0.46$
+* $H_0$: $p = 0.46$; $H_a$: $p \neq 0.46$
+* $H_0$: $p = 0.52$; $H_a$: $p > 0.52$
 :::
 
 :::{quiz} In this study, which value is the sample proportion and which is the null value?
 :hint: The null value comes from the prior claim (2008); the sample proportion comes from the 2010 poll.
-:feedback-0: Correct! p₀ = 0.46 is the hypothesized (2008) value; p-hat = 0.52 is what the 2010 sample showed.
+:feedback-0: Correct! $p_0 = 0.46$ is the hypothesized (2008) value; p-hat = 0.52 is what the 2010 sample showed.
 :feedback-1: It's the reverse—0.46 is the baseline being tested, and 0.52 came from the sample.
-* *Null value p₀ = 0.46; sample proportion p-hat = 0.52
-* Null value p₀ = 0.52; sample proportion p-hat = 0.46
+* *Null value $p_0 = 0.46$; sample proportion p-hat = 0.52
+* Null value $p_0 = 0.52$; sample proportion p-hat = 0.46
 :::

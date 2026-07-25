@@ -8,7 +8,7 @@ As we've seen in previous tests, the 95% confidence interval for $\mu_1-\mu_2$ c
 :::{admonition} Example: Looks vs. Personality
 :class: tip
 
-Let's go back to our leading example of the looks vs. personality score, where we had a two-sided test. Software told us that the 95% confidence interval for $\mu_1-\mu_2$ is (−3.696, −1.496), and that the p-value is essentially 0.
+Let's go back to our leading example of the looks vs. personality score, where we had a two-sided test. Software told us that the 95% confidence interval for $\mu_1-\mu_2$ is (-3.696, -1.496), and that the p-value is essentially 0.
 
 We used the fact that the p-value is so small to conclude that $H_0$ can be rejected. We can also use the confidence interval to reach the same conclusion, since 0 falls outside the confidence interval. In other words, since 0 is not a plausible value for $\mu_1-\mu_2$, we can reject $H_0$, which claims that $\mu_1-\mu_2=0$.
 :::
@@ -17,13 +17,13 @@ We used the fact that the p-value is so small to conclude that $H_0$ can be reje
 
 Below you'll find three sample outputs of the two-sided two-sample t-test ($H_0: \mu_1-\mu_2=0$ vs. $H_a: \mu_1-\mu_2\neq0$). Only one of the outputs could be correct—the other two contain an inconsistency. Your task is to decide which output is the correct one. (*Hint:* no calculations are necessary; pay attention to the p-value and confidence interval.)
 
-- *Output A:* p-value: 0.289; 95% confidence interval: (−5.931, −1.786)
-- *Output B:* p-value: 0.003; 95% confidence interval: (−13.974, 2.897)
-- *Output C:* p-value: 0.223; 95% confidence interval: (−9.314, 2.205)
+- *Output A:* p-value: 0.289; 95% confidence interval: (-5.931, -1.786)
+- *Output B:* p-value: 0.003; 95% confidence interval: (-13.974, 2.897)
+- *Output C:* p-value: 0.223; 95% confidence interval: (-9.314, 2.205)
 
 :::{quiz} Which output is internally consistent?
 :hint: A p-value below 0.05 must go with an interval that excludes 0, and a p-value above 0.05 with an interval that includes 0.
-:feedback-0: Correct! In C, the p-value (0.223) is above 0.05 AND the interval contains 0—both indicate not rejecting H₀. Consistent.
+:feedback-0: Correct! In C, the p-value (0.223) is above 0.05 AND the interval contains 0—both indicate not rejecting $H_0$. Consistent.
 :feedback-1: In A, the p-value (0.289) says "don't reject," but the interval excludes 0, which says "reject"—inconsistent.
 :feedback-2: In B, the p-value (0.003) says "reject," but the interval contains 0, which says "don't reject"—inconsistent.
 * *Output C
@@ -47,7 +47,7 @@ We have completed our discussion of the two-sample t-test for comparing two popu
 
   and has a t distribution when the null hypothesis is true.
 
-- P-values are obtained from the software output, and conclusions are drawn as usual, comparing the p-value to the significance level α.
+- P-values are obtained from the software output, and conclusions are drawn as usual, comparing the p-value to the significance level $\alpha$.
 
 - If $H_0$ is rejected, a 95% confidence interval for $\mu_1-\mu_2$ can be very insightful, and can also be used for the two-sided test.
 

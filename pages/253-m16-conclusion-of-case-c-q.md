@@ -1,6 +1,6 @@
-# Conclusion of Case C→Q
+# Conclusion of Case $C \to Q$
 
-We are now done with case C→Q. We learned that this case is further classified into sub-cases, depending on the number of groups that we are comparing (i.e., the number of categories that the explanatory variable has) and the design of the study (independent vs. dependent samples). For each of the three sub-cases that we covered, we learned the appropriate inferential method, and emphasized the idea behind the method, the conditions under which it can be safely used, how to carry it out using software, and the interpretation of the results.
+We are now done with case $C \to Q$. We learned that this case is further classified into sub-cases, depending on the number of groups that we are comparing (i.e., the number of categories that the explanatory variable has) and the design of the study (independent vs. dependent samples). For each of the three sub-cases that we covered, we learned the appropriate inferential method, and emphasized the idea behind the method, the conditions under which it can be safely used, how to carry it out using software, and the interpretation of the results.
 
 The following table summarizes when each of the three sub-cases covered in this module is used:
 
@@ -10,7 +10,7 @@ The following table summarizes when each of the three sub-cases covered in this 
 | Paired t-test (special case of the one-sample t-test) | Categorical explanatory variable with two categories; comparing two population means when the samples are *dependent* ("matched pairs")—every observation in one sample is linked to an observation in the other sample (e.g., same subjects measured twice, twins) |
 | ANOVA F-test | Categorical explanatory variable with *more than two* categories; comparing more than two population means based on independent samples |
 
-The following summary discusses each of the above-named sub-cases of C→Q within the context of the hypothesis testing process.
+The following summary discusses each of the above-named sub-cases of $C \to Q$ within the context of the hypothesis testing process.
 
 ## Step 1: Stating the Null and Alternative Hypotheses
 
@@ -18,7 +18,7 @@ The following summary discusses each of the above-named sub-cases of C→Q withi
 | --- | --- | --- |
 | Two-sample t-test | $H_0: \mu_1 - \mu_2 = 0$ (same as $\mu_1 = \mu_2$) | One of: $H_a: \mu_1-\mu_2 < 0$, $H_a: \mu_1-\mu_2 > 0$, $H_a: \mu_1-\mu_2 \neq 0$ |
 | Paired t-test | $H_0: \mu_d = 0$ | One of: $H_a: \mu_d < 0$, $H_a: \mu_d > 0$, $H_a: \mu_d \neq 0$ |
-| ANOVA F-test | $H_0: \mu_1 = \mu_2 = \cdots = \mu_k$ | $H_a$: not all the μ's are equal |
+| ANOVA F-test | $H_0: \mu_1 = \mu_2 = \cdots = \mu_k$ | $H_a$: not all the $\mu's$ are equal |
 
 ## Step 2: Check Conditions, and Summarize the Data Using a Test Statistic
 
@@ -32,7 +32,7 @@ For the *ANOVA F-test*, the conditions are: (1) the samples drawn from each of t
 
 *Summarize the data using a test statistic.*
 
-| Sub-case of C→Q | Test statistic |
+| Sub-case of $C \to Q$ | Test statistic |
 | --- | --- |
 | Two-sample t-test | $t=\frac{(\bar{y}_{1}-\bar{y}_{2})-0}{\sqrt{\frac{s_{1}^{2}}{n_{1}}+\frac{s_{2}^{2}}{n_{2}}}}$ |
 | Paired t-test | $t=\frac{\bar{x}_{d}-0}{\frac{s_{d}}{\sqrt{n}}}$ |
@@ -40,7 +40,7 @@ For the *ANOVA F-test*, the conditions are: (1) the samples drawn from each of t
 
 ## Step 3: Finding the P-value of the Test
 
-Use statistical software to determine the p-value. The p-value is the probability of getting data like those observed (or even more extreme) assuming that the null hypothesis is true, and is calculated using the null distribution of the test statistic. The p-value is a measure of the evidence against $H_0$. The smaller the p-value, the more evidence the data present against $H_0$. The p-values for all three C→Q tests are obtained from the software output.
+Use statistical software to determine the p-value. The p-value is the probability of getting data like those observed (or even more extreme) assuming that the null hypothesis is true, and is calculated using the null distribution of the test statistic. The p-value is a measure of the evidence against $H_0$. The smaller the p-value, the more evidence the data present against $H_0$. The p-values for all three $C \to Q$ tests are obtained from the software output.
 
 ## Step 4: Making Conclusions
 
@@ -78,7 +78,7 @@ Conclusions should always be stated in the context of the problem.
 
 :::{quiz} A researcher compares the mean starting salaries of graduates from two different degree programs, using separate random samples of 60 graduates from each program. Which method applies?
 :hint: Two unrelated groups, separately sampled.
-:feedback-0: Correct! Two groups, independently sampled—the two-sample t-test (conditions are met with n = 60 in each group).
+:feedback-0: Correct! Two groups, independently sampled—the two-sample t-test (conditions are met with $n = 60$ in each group).
 :feedback-1: No observation in one sample is linked to an observation in the other, so pairing doesn't apply.
 :feedback-2: Only two means are being compared, so ANOVA is not needed.
 * *Two-sample t-test

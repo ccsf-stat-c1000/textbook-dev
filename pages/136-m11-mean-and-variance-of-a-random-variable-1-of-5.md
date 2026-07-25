@@ -10,15 +10,15 @@ Recall that we used the following data from 3 World Cup tournaments (a total of 
 
 | total # goals/game | frequency | relative frequency |
 | --- | --- | --- |
-| 0 | 17 | 17/192 = 0.089 |
-| 1 | 45 | 45/192 = 0.234 |
-| 2 | 51 | 51/192 = 0.266 |
-| 3 | 37 | 37/192 = 0.193 |
-| 4 | 25 | 25/192 = 0.130 |
-| 5 | 11 | 11/192 = 0.057 |
-| 6 | 3 | 3/192 = 0.016 |
-| 7 | 2 | 2/192 = 0.010 |
-| 8 | 1 | 1/192 = 0.005 |
+| 0 | 17 | $17/192 = 0.089$ |
+| 1 | 45 | $45/192 = 0.234$ |
+| 2 | 51 | $51/192 = 0.266$ |
+| 3 | 37 | $37/192 = 0.193$ |
+| 4 | 25 | $25/192 = 0.130$ |
+| 5 | 11 | $11/192 = 0.057$ |
+| 6 | 3 | $3/192 = 0.016$ |
+| 7 | 2 | $2/192 = 0.010$ |
+| 8 | 1 | $1/192 = 0.005$ |
 
 The mean for this data is
 
@@ -30,7 +30,7 @@ $$0\left(\tfrac{17}{192}\right)+1\left(\tfrac{45}{192}\right)+2\left(\tfrac{51}{
 
 Notice that the mean is each number of goals per game multiplied by its relative frequency. Since we usually write the relative frequencies as decimals, we can see that:
 
-mean number of goals per game = 0(0.089) + 1(0.234) + 2(0.266) + 3(0.193) + 4(0.130) + 5(0.057) + 6(0.016) + 7(0.010) + 8(0.005) = 2.36, rounded to two decimal places.
+mean number of goals per game = $0(0.089) + 1(0.234) + 2(0.266) + 3(0.193) + 4(0.130) + 5(0.057) + 6(0.016) + 7(0.010) + 8(0.005) = 2.36$, rounded to two decimal places.
 
 ## Mean of a Random Variable
 
@@ -80,9 +80,9 @@ Look at both probability distributions. Both X and Y take the same possible valu
 
 ## Check Your Understanding: The Mean of a Random Variable
 
-:::{quiz} Find the mean number of defective parts per hour for Yves' line, μ(Y).
+:::{quiz} Find the mean number of defective parts per hour for Yves' line, $\mu(Y)$.
 :hint: Multiply each value by its probability and add.
-:feedback-0: Correct! μ(Y) = 0(0.05) + 1(0.05) + 2(0.10) + 3(0.75) + 4(0.05) = 2.7.
+:feedback-0: Correct! $\mu(Y) = 0(0.05) + 1(0.05) + 2(0.10) + 3(0.75) + 4(0.05) = 2.7$.
 :feedback-1: 2 is the middle possible value, but the mean must weight the values by their probabilities—and Y is heavily concentrated at 3.
 :feedback-2: 3 is the most likely value (the mode), but the smaller values pull the weighted average slightly below 3.
 * *2.7
@@ -91,7 +91,7 @@ Look at both probability distributions. Both X and Y take the same possible valu
 :::
 
 :::{quiz} A raffle ticket costs \$1. With probability 0.001 the ticket wins \$500; otherwise it wins nothing. What is the expected value of the ticket's winnings?
-:hint: μ = 500 × 0.001 + 0 × 0.999.
+:hint: $\mu = 500 \times 0.001 + 0 \times 0.999$.
 :feedback-0: Correct! The expected winnings are \$0.50—less than the \$1 cost, so on average players lose money.
 :feedback-1: \$500 is the prize, not the long-run average per ticket.
 :feedback-2: The expected value weights the prize by its (small) probability.

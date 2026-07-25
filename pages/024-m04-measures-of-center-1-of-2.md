@@ -88,9 +88,9 @@ To find the mean number of goals scored per game, we would need to find the sum 
 
 If we add up 17 zeros, we get 0. If we add up 45 ones, we get 45. If we add up 51 twos, we get 102. Repeated addition is multiplication.
 
-Thus, the sum of the 192 numbers = 0(17) + 1(45) + 2(51) + 3(37) + 4(25) + 5(11) + 6(3) + 7(2) + 8(1) = 453.
+Thus, the sum of the 192 numbers = $0(17) + 1(45) + 2(51) + 3(37) + 4(25) + 5(11) + 6(3) + 7(2) + 8(1) = 453$.
 
-The mean is 453/192 ≈ 2.36.
+The mean is $453/192 \approx 2.36$.
 
 This way of calculating a mean is sometimes referred to as a *weighted average*, since each value is "weighted" by its frequency. Note that, in this example, the values of 1, 2, and 3 are most heavily weighted.
 :::
@@ -98,7 +98,7 @@ This way of calculating a mean is sometimes referred to as a *weighted average*,
 :::{quiz} A student's five quiz scores are 6, 8, 7, 9, and 10. What is the mean score?
 :hint: Add the scores and divide by how many there are.
 :feedback-0: 7 would be the median if you ordered the values—check your sum.
-:feedback-1: Correct! (6 + 8 + 7 + 9 + 10)/5 = 40/5 = 8.
+:feedback-1: Correct! $(6 + 8 + 7 + 9 + 10)/5 = 40/5 = 8$.
 :feedback-2: 40 is the sum of the scores; don't forget to divide by 5.
 * 7
 * *8
@@ -108,7 +108,7 @@ This way of calculating a mean is sometimes referred to as a *weighted average*,
 :::{quiz} In 10 games, a soccer team scored 0 goals twice, 1 goal three times, and 2 goals five times. What is the mean number of goals per game?
 :hint: Multiply each value by its frequency, add, then divide by the total number of games.
 :feedback-0: 1 is the middle value of 0, 1, 2, not the weighted mean.
-:feedback-1: Correct! (0×2 + 1×3 + 2×5)/10 = 13/10 = 1.3.
+:feedback-1: Correct! $(0 \times 2 + 1 \times 3 + 2 \times 5)/10 = 13/10 = 1.3$.
 :feedback-2: 13 is the total number of goals; divide by the 10 games.
 * 1
 * *1.3
@@ -127,10 +127,10 @@ The median M is the midpoint of the distribution. It is the number such that hal
 ::::{admonition} Example: Median (1)
 :class: tip
 
-For a simple visualization of the location of the median, consider the following two simple cases of n = 7 and n = 8 ordered observations, with each observation represented by a solid circle:
+For a simple visualization of the location of the median, consider the following two simple cases of $n = 7$ and $n = 8$ ordered observations, with each observation represented by a solid circle:
 
 ```{figure} images/gen/m04-median-position.svg
-:alt: Two rows of ordered dots. In the top row of 7 dots, the 4th dot, located at spot (7+1)/2, is highlighted as the median M. In the bottom row of 8 dots, the 4th and 5th dots, located at spots 8/2 and 8/2 + 1, are highlighted, and the median M is the mean of these two center observations.
+:alt: Two rows of ordered dots. In the top row of 7 dots, the 4th dot, located at spot (7+1)/2, is highlighted as the median M. In the bottom row of 8 dots, the 4th and 5th dots, located at spots 8/2 and $8/2 + 1$, are highlighted, and the median M is the mean of these two center observations.
 ```
 ::::
 
@@ -139,7 +139,7 @@ For a simple visualization of the location of the median, consider the following
 
 To find the median age of the Best Actress Oscar winners, we first need to order the data. It would be useful, then, to use the stemplot, a diagram in which the data are already ordered.
 
-Here n = 44 (an even number), so the median M will be the mean of the two center observations. These are located at the n/2 = 44/2 = *22nd* and n/2 + 1 = 44/2 + 1 = *23rd* spots. Counting the leaves from the top of the stemplot:
+Here $n = 44$ (an even number), so the median M will be the mean of the two center observations. These are located at the n/2 = 44/2 = *22nd* and n/2 + $1 = 44/2 + 1$ = *23rd* spots. Counting the leaves from the top of the stemplot:
 
 ```
 2 | 1 2
@@ -164,9 +164,9 @@ Therefore, the median $M = \frac{34 + 35}{2} = 34.5$
 ::::
 
 :::{quiz} Find the median of the dataset: 3, 5, 8, 12, 13, 14.
-:hint: n = 6 is even, so average the two center observations (the 3rd and 4th).
+:hint: $n = 6$ is even, so average the two center observations (the 3rd and 4th).
 :feedback-0: 8 is only the 3rd observation; with an even n you must average the two center values.
-:feedback-1: Correct! The two center observations are 8 and 12, and (8 + 12)/2 = 10.
+:feedback-1: Correct! The two center observations are 8 and 12, and $(8 + 12)/2 = 10$.
 :feedback-2: 12 is only the 4th observation; average it with the 3rd.
 * 8
 * *10
@@ -177,7 +177,7 @@ Therefore, the median $M = \frac{34 + 35}{2} = 34.5$
 
 :::{quiz} For the dataset 2, 3, 3, 5, 7, which of the following statements is true?
 :hint: Find all three measures: the most frequent value, the middle value, and the average.
-:feedback-0: Correct! The mode is 3 (most frequent), the median is 3 (middle of five ordered values), and the mean is (2+3+3+5+7)/5 = 4.
+:feedback-0: Correct! The mode is 3 (most frequent), the median is 3 (middle of five ordered values), and the mean is $(2+3+3+5+7)/5 = 4$.
 :feedback-1: Check the mean: the sum is 20 and there are 5 observations, so the mean is 4, not 3.
 :feedback-2: Check the median: the middle (3rd) observation of the ordered list is 3, not 5.
 * *The mode and median both equal 3, and the mean equals 4

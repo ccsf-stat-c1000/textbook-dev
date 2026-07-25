@@ -15,7 +15,7 @@ $$\chi^{2}=\sum_{\text{all cells}}\frac{(\text{observed count}-\text{expected co
 ```{admonition} Comment
 :class: important
 
-As we expected, $\chi^2$ is based on each of the differences (observed count − expected count), one such difference for each cell. But why is it squared, and why do we divide each squared difference by the expected count? The reason is so that the test statistic will have a known null distribution (under which p-values can be easily calculated). The details are beyond the scope of this course, but we will just say that the null distribution of $\chi^2$ is called chi-square (which is not very surprising, given that the test is called the chi-square test), and, like the t-distributions, there are many chi-square distributions, distinguished by the number of degrees of freedom associated with them.
+As we expected, $\chi^2$ is based on each of the differences (observed count - expected count), one such difference for each cell. But why is it squared, and why do we divide each squared difference by the expected count? The reason is so that the test statistic will have a known null distribution (under which p-values can be easily calculated). The details are beyond the scope of this course, but we will just say that the null distribution of $\chi^2$ is called chi-square (which is not very surprising, given that the test is called the chi-square test), and, like the t-distributions, there are many chi-square distributions, distinguished by the number of degrees of freedom associated with them.
 ```
 
 ## Conditions Under Which the Chi-Square Test Can Safely Be Used
@@ -56,7 +56,7 @@ Recall the study on the relationship between gender and ear piercing among high-
 * No—some cells have observed counts below 100
 :::
 
-:::{quiz} The chi-square statistic for the piercing data is about 495. Compared to the drunk driving example (χ² = 1.62), what does this indicate?
+:::{quiz} The chi-square statistic for the piercing data is about 495. Compared to the drunk driving example $(\chi^2 = 1.62)$, what does this indicate?
 :hint: The chi-square statistic measures the total standardized discrepancy between observed and expected counts.
 :feedback-0: Correct! A chi-square statistic of 495 indicates the observed counts are enormously far from what independence predicts—overwhelming evidence of a relationship between gender and piercing.
 :feedback-1: It's the opposite—larger chi-square values mean MORE evidence against independence.
@@ -84,18 +84,18 @@ The purpose of this activity is to continue exploring whether the risk of alcoho
 
 :::{quiz} What are the hypotheses being tested in this study?
 :hint: The chi-square hypotheses are stated in words, about a relationship.
-:feedback-0: Correct! H₀: alcohol risk and 9/11 participation are not related (independent); Hₐ: they are related.
+:feedback-0: Correct! $H_0$: alcohol risk and 9/11 participation are not related (independent); $H_a$: they are related.
 :feedback-1: This reverses the roles of the null and alternative hypotheses.
 :feedback-2: The chi-square hypotheses concern the relationship between the variables, not specific proportions of the whole sample.
-* *H₀: alcohol risk and 9/11 participation are independent; Hₐ: they are related
-* H₀: alcohol risk and 9/11 participation are related; Hₐ: they are independent
-* H₀: 28% of all firefighters are at risk; Hₐ: fewer than 28% are at risk
+* *$H_0$: alcohol risk and 9/11 participation are independent; $H_a$: they are related
+* $H_0$: alcohol risk and 9/11 participation are related; $H_a$: they are independent
+* $H_0$: 28% of all firefighters are at risk; $H_a$: fewer than 28% are at risk
 :::
 
 :::{quiz} Using the expected count formula, what is the expected count of participants at moderate-to-severe risk, and is the sample-size condition met?
-:hint: Expected count = (419 × 1102)/1653; then check whether all four expected counts exceed 5.
-:feedback-0: Correct! (419 × 1102)/1653 ≈ 279.3, and the other expected counts (822.7, 411.3, 139.7) are also far above 5—the condition is met.
-:feedback-1: 309 is the OBSERVED count; the expected count under independence is (419 × 1102)/1653 ≈ 279.3.
+:hint: Expected count = $(419 \times 1102)/1653$; then check whether all four expected counts exceed 5.
+:feedback-0: Correct! $(419 \times 1102)/1653 \approx 279.3$, and the other expected counts (822.7, 411.3, 139.7) are also far above 5—the condition is met.
+:feedback-1: 309 is the OBSERVED count; the expected count under independence is $(419 \times 1102)/1653 \approx 279.3$.
 :feedback-2: All four expected counts are in the hundreds—far above the threshold of 5.
 * *About 279; yes, all expected counts are well above 5
 * 309; yes, the condition is met

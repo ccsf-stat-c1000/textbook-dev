@@ -45,21 +45,21 @@ Now you try one!
 Recall the pregnancy length study: to check the claim that the pregnancy length of women who smoke during pregnancy is shorter, on average, than that of women who do not smoke, a random sample of 35 pregnant smokers (population 1) and a random sample of 35 pregnant non-smokers (population 2) were followed. The results: smokers had a mean pregnancy length of 260 days with standard deviation 15 days; non-smokers had a mean of 267 days with standard deviation 14 days.
 
 :::{quiz} Can the two-sample t-test be safely used here, and what is the value of the test statistic?
-:hint: t = (260 − 267)/√(15²/35 + 14²/35).
-:feedback-0: Correct! The samples are independent and both have n = 35 > 30. The standard error is √(225/35 + 196/35) ≈ 3.47, so t = −7/3.47 ≈ −2.02.
-:feedback-1: Check the standard error: √(225/35 + 196/35) ≈ 3.47, so t ≈ −2.02, not −0.24.
+:hint: $t = (260 - 267)/\sqrt{15^2/35 + 14^2/35}$.
+:feedback-0: Correct! The samples are independent and both have $n = 35 > 30$. The standard error is $\sqrt{225/35 + 196/35} \approx 3.47$, so $t = -7/3.47 \approx -2.02$.
+:feedback-1: Check the standard error: $\sqrt{225/35 + 196/35} \approx 3.47$, so $t \approx -2.02$, not -0.24.
 :feedback-2: The conditions ARE met: independent random samples with 35 in each group.
-* *Yes—conditions are met; t ≈ −2.02
-* Yes—conditions are met; t ≈ −0.24
+* *Yes—conditions are met; $t \approx -2.02$
+* Yes—conditions are met; $t \approx -0.24$
 * No—the samples are too small
 :::
 
-:::{quiz} The one-sided p-value for t = −2.02 is about 0.024. Using α = 0.05, what is the conclusion?
-:hint: The alternative was Hₐ: μ₁ − μ₂ < 0 (smokers shorter).
-:feedback-0: Correct! Since 0.024 < 0.05, we reject H₀ and conclude that pregnancies of smokers are, on average, shorter than those of non-smokers.
+:::{quiz} The one-sided p-value for $t = -2.02$ is about 0.024. Using $\alpha = 0.05$, what is the conclusion?
+:hint: The alternative was $H_a$: $\mu_1 - \mu_2 < 0$ (smokers shorter).
+:feedback-0: Correct! Since $0.024 < 0.05$, we reject $H_0$ and conclude that pregnancies of smokers are, on average, shorter than those of non-smokers.
 :feedback-1: 0.024 is smaller than 0.05, so the results ARE significant.
 :feedback-2: The conclusion should be about mean pregnancy length in the populations, stated in context.
-* *Reject H₀—the data provide evidence that smoking during pregnancy is associated with shorter pregnancies
-* Do not reject H₀—the evidence is insufficient
-* Reject H₀ (no context needed)
+* *Reject $H_0—the$ data provide evidence that smoking during pregnancy is associated with shorter pregnancies
+* Do not reject $H_0—the$ evidence is insufficient
+* Reject $H_0$ (no context needed)
 :::

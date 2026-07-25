@@ -5,7 +5,7 @@ As you've seen, the last three rules that we've introduced (the Complement Rule,
 ```{admonition} Comment
 :class: important
 
-As we mentioned before, the Addition Rule can be extended to more than two disjoint events. Likewise, the Multiplication Rule can be extended to more than two independent events. So if A, B and C are three independent events, for example, then P(A and B and C) = P(A) × P(B) × P(C). These extensions are quite straightforward, as long as you remember that "or" requires us to add, while "and" requires us to multiply.
+As we mentioned before, the Addition Rule can be extended to more than two disjoint events. Likewise, the Multiplication Rule can be extended to more than two independent events. So if A, B and C are three independent events, for example, then P(A and B and C) = P(A) $\times$ P(B) $\times$ P(C). These extensions are quite straightforward, as long as you remember that "or" requires us to add, while "and" requires us to multiply.
 
 An example of a situation where more than two independent events naturally occur is when a random sample of more than two individuals is chosen from a large population.
 ```
@@ -20,9 +20,9 @@ Three people are chosen at random from a large population. What is the probabili
 
 :::{quiz} What is P(B1 and B2 and B3), given that P(B) = 0.10 for a randomly chosen person?
 :hint: The three choices from a large population are independent; multiply the three probabilities.
-:feedback-0: Correct! P(B1 and B2 and B3) = 0.10 × 0.10 × 0.10 = 0.001.
+:feedback-0: Correct! P(B1 and B2 and B3) = $0.10 \times 0.10 \times 0.10 = 0.001$.
 :feedback-1: 0.30 is the sum—but "and" requires multiplication for independent events.
-:feedback-2: 0.01 is 0.10 × 0.10, the probability for two people; here there are three.
+:feedback-2: 0.01 is $0.10 \times 0.10$, the probability for two people; here there are three.
 * *0.001
 * 0.30
 * 0.01
@@ -41,9 +41,9 @@ A fair coin is tossed 10 times. Which of the following two outcomes is more like
 
 Most people feel that (b) "looks more random" and must therefore be more likely. In fact, they are equally likely. The 10 tosses are independent, so we'll use the Multiplication Rule for Independent Events:
 
-P(HHHHHHHHHH) = P(H) × P(H) × ... × P(H) = 1/2 × 1/2 × ... × 1/2 = (1/2)¹⁰
+P(HHHHHHHHHH) = P(H) $\times$ P(H) $\times$ ... $\times$ P(H) = $1/2 \times 1/2 \times$ ... $\times 1/2 = (1/2)^{10}$
 
-P(HTTHHTHTTH) = P(H) × P(T) × ... × P(H) = 1/2 × 1/2 × ... × 1/2 = (1/2)¹⁰
+P(HTTHHTHTTH) = P(H) $\times$ P(T) $\times$ ... $\times$ P(H) = $1/2 \times 1/2 \times$ ... $\times 1/2 = (1/2)^{10}$
 
 Here is the idea:
 
@@ -54,7 +54,7 @@ Our random experiment here is tossing a coin 10 times. You can imagine how huge 
 
 :::{quiz} A slot machine pays off with probability 0.05 on each independent play. A gambler plays 3 times. What is the probability of winning all 3 plays?
 :hint: Multiply the three independent probabilities.
-:feedback-0: Correct! 0.05 × 0.05 × 0.05 = 0.000125.
+:feedback-0: Correct! $0.05 \times 0.05 \times 0.05 = 0.000125$.
 :feedback-1: 0.15 is the sum of the probabilities, which is not how "and" works for independent events.
 :feedback-2: 0.0025 is the probability of winning two plays in a row; there are three plays here.
 * *0.000125

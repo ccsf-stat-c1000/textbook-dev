@@ -30,13 +30,13 @@ Let's revisit our age-distance example, and find the *least-squares regression l
 | --- | --- | --- |
 | mean | $\bar{X} = 51$ | $\bar{Y} = 423$ |
 | standard deviation | $S_X = 21.78$ | $S_Y = 82.8$ |
-| correlation | r = −0.793 | |
+| correlation | $r = -0.793$ | |
 
 The *slope* of the line is:
 
 $$b = (-0.793) \times \left(\frac{82.8}{21.78}\right) = -3$$
 
-This means that for every 1-unit increase of the explanatory variable, there is, on average, a 3-unit decrease in the response variable. The interpretation *in context* of the slope being −3 is, therefore: For every year a driver gets older, the maximum distance at which he/she can read a sign decreases, *on average*, by 3 feet.
+This means that for every 1-unit increase of the explanatory variable, there is, on average, a 3-unit decrease in the response variable. The interpretation *in context* of the slope being -3 is, therefore: For every year a driver gets older, the maximum distance at which he/she can read a sign decreases, *on average*, by 3 feet.
 
 The *intercept* of the line is:
 
@@ -73,10 +73,10 @@ As we mentioned before, hand-calculation is not the focus of this course. We wan
 * Every student who studies one more hour will score exactly 5.5 points higher
 :::
 
-:::{quiz} Using the age-distance regression line Distance = 576 − 3(Age), what is the predicted legibility distance for a 40-year-old driver?
+:::{quiz} Using the age-distance regression line Distance = 576 - 3(Age), what is the predicted legibility distance for a 40-year-old driver?
 :hint: Substitute Age = 40 into the equation.
-:feedback-0: Correct! 576 − 3(40) = 576 − 120 = 456 feet.
-:feedback-1: Check the arithmetic: 3 × 40 = 120, and 576 − 120 = 456.
+:feedback-0: Correct! $576 - 3(40) = 576 - 120 = 456$ feet.
+:feedback-1: Check the arithmetic: $3 \times 40 = 120$, and $576 - 120 = 456$.
 :feedback-2: Remember to multiply the age by the slope before subtracting.
 * *456 feet
 * 476 feet

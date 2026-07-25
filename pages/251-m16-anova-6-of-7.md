@@ -17,7 +17,7 @@ The measure that the researchers used to assess the level of the ads was the num
 
 Our question of interest is whether the number of words in ads (Y) is related to the educational level of the magazine (X). To answer this question, we need to compare $\mu_1, \mu_2, \mu_3$, the mean number of words in ads of the three magazine groups. It seems that what the data suggest makes sense: the magazines in group 1 have the largest number of words per ad (on average), followed by group 2, and then group 3.
 
-The question is whether these differences between the sample means are significant. In other words, are the differences among the observed sample means due to true differences among the μ's, or merely due to sampling variability? To answer this question, we need to carry out the ANOVA F-test.
+The question is whether these differences between the sample means are significant. In other words, are the differences among the observed sample means due to true differences among the $\mu's$, or merely due to sampling variability? To answer this question, we need to carry out the ANOVA F-test.
 
 *Step 1: Stating the hypotheses.* We are testing:
 
@@ -29,7 +29,7 @@ Conceptually, the null hypothesis claims that the number of words in ads is not 
 
 1. The ads were selected at random from each magazine group, so the three samples are independent.
 2. Side-by-side boxplots of the data do not display any alarming violations of the normality assumption. There is some skewness in groups 2 and 3, but not extremely so, and there are no outliers in the data.
-3. The sample standard deviations are 74.0 (group 1), 64.3 (group 2), and 57.6 (group 3). We can assume that the equal standard deviation condition is met, since the rule of thumb is satisfied: 74.0/57.6 < 2.
+3. The sample standard deviations are 74.0 (group 1), 64.3 (group 2), and 57.6 (group 3). We can assume that the equal standard deviation condition is met, since the rule of thumb is satisfied: $74.0/57.6 < 2$.
 
 Before we move on, let's look again at the data. It is easy to see the trend of the sample means. However, there is so much variation within each of the groups that there is almost complete overlap between the three boxplots, and the differences between the means are overshadowed and seem like something that could have happened just by chance. Let's move on and see whether the ANOVA F-test supports this observation.
 

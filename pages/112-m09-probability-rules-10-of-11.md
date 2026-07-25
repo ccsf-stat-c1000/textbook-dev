@@ -26,10 +26,10 @@ Here is the completed table for the delivery example:
 
 Now that we've completed the table, it is important to understand what each of the table's entries means in context:
 
-- P(A and B) = 0.75 → on-time delivery by both services
-- P(A and not B) = 0.15 → on-time delivery ONLY by service A
-- P(not A and B) = 0.05 → on-time delivery ONLY by service B
-- P(not A and not B) = 0.05 → neither service delivered on time
+- P(A and B) = $0.75 \to$ on-time delivery by both services
+- P(A and not B) = $0.15 \to$ on-time delivery ONLY by service A
+- P(not A and B) = $0.05 \to$ on-time delivery ONLY by service B
+- P(not A and not B) = $0.05 \to$ neither service delivered on time
 
 :::{admonition} Comment
 :class: important
@@ -42,8 +42,8 @@ $$P(A) = P(A \text{ and } B) + P(A \text{ and not } B) = 0.75 + 0.15 = 0.90$$
 
 P(A) = 0.90 means that in 90% of the cases when service A is used, it delivers the document on time. These cases of on-time delivery by service A can be decomposed into two sub-cases:
 
-- P(A and B) = 0.75 → 75% of the time the document is delivered on time also by service B (i.e., the document is delivered on time by both services)
-- P(A and not B) = 0.15 → 15% of the time the document is not delivered on time by service B (i.e., delivered on time only by service A).
+- P(A and B) = $0.75 \to 75%$ of the time the document is delivered on time also by service B (i.e., the document is delivered on time by both services)
+- P(A and not B) = $0.15 \to 15%$ of the time the document is not delivered on time by service B (i.e., delivered on time only by service A).
 
 Similarly, reading down the first column:
 
@@ -57,7 +57,7 @@ Recall the smoke detector example from the last activity. Here is a quick recap:
 - D—the dining room alarm is set off by smoke in the kitchen
 - B—the bedroom alarm is set off by smoke in the kitchen
 - P(D) = 0.95, P(B) = 0.40
-- D and B are independent → P(D and B) = 0.38
+- D and B are independent $\to$ P(D and B) = 0.38
 
 Complete the table below. Start with the information that is given and go from there.
 
@@ -69,7 +69,7 @@ Complete the table below. Start with the information that is given and go from t
 
 :::{quiz} What is P(D and not B)—the probability that only the dining room alarm goes off?
 :hint: The D row must add to P(D) = 0.95.
-:feedback-0: Correct! P(D and not B) = 0.95 − 0.38 = 0.57.
+:feedback-0: Correct! P(D and not B) = $0.95 - 0.38 = 0.57$.
 :feedback-1: 0.55 doesn't make the D row sum to 0.95—recheck the subtraction.
 :feedback-2: 0.02 belongs elsewhere in the table; the D row must total 0.95.
 * *0.57
@@ -79,7 +79,7 @@ Complete the table below. Start with the information that is given and go from t
 
 :::{quiz} What is P(not D and not B)—the probability that neither alarm goes off?
 :hint: The "not B" column totals 0.60, and P(D and not B) = 0.57.
-:feedback-0: Correct! The not-B column totals 1 − 0.40 = 0.60, so P(not D and not B) = 0.60 − 0.57 = 0.03. (Check: the not-D row is 0.02 + 0.03 = 0.05 = 1 − 0.95 ✓)
+:feedback-0: Correct! The not-B column totals $1 - 0.40 = 0.60$, so P(not D and not B) = $0.60 - 0.57 = 0.03$. (Check: the not-D row is $0.02 + 0.03 = 0.05 = 1 - 0.95$ ✓)
 :feedback-1: 0.05 is P(not D), the whole row total—the question asks for one cell of that row.
 :feedback-2: 0.60 is the total probability of "not B"; subtract the part where D occurs.
 * *0.03
@@ -102,8 +102,8 @@ Records on traffic accidents in a certain region show that 87% of the accidents 
 (We'll use M for an accident involving a male driver, F [= not M] for a female driver, and G for an accident involving speeding.)
 
 :::{quiz} What is P(F and G)—the probability that an accident involved a female driver who was speeding?
-:hint: P(F) = 1 − 0.87 = 0.13, and the F row splits into "speeding" and "not speeding."
-:feedback-0: Correct! P(F) = 0.13 and P(F and not G) = 0.10, so P(F and G) = 0.13 − 0.10 = 0.03.
+:hint: P(F) = $1 - 0.87 = 0.13$, and the F row splits into "speeding" and "not speeding."
+:feedback-0: Correct! P(F) = 0.13 and P(F and not G) = 0.10, so P(F and G) = $0.13 - 0.10 = 0.03$.
 :feedback-1: 0.13 is P(F), the whole row; subtract the not-speeding part.
 :feedback-2: 0.10 is P(F and not G), given in the problem.
 * *0.03
@@ -113,9 +113,9 @@ Records on traffic accidents in a certain region show that 87% of the accidents 
 
 :::{quiz} What is P(M and G)—the probability that an accident involved a male driver who was speeding?
 :hint: The G column totals 0.56, and you just found P(F and G).
-:feedback-0: Correct! P(M and G) = P(G) − P(F and G) = 0.56 − 0.03 = 0.53.
+:feedback-0: Correct! P(M and G) = P(G) - P(F and G) = $0.56 - 0.03 = 0.53$.
 :feedback-1: 0.56 is the total probability of speeding accidents, including female drivers.
-:feedback-2: 0.87 × 0.56 assumes M and G are independent, which we have no reason to believe here—use the table instead.
+:feedback-2: $0.87 \times 0.56$ assumes M and G are independent, which we have no reason to believe here—use the table instead.
 * *0.53
 * 0.56
 * 0.49

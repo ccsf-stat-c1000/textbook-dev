@@ -48,9 +48,9 @@ A double-blind experiment is conducted to investigate the side effects of hormon
 
 :::{quiz} If the researchers' decision is wrong, which type of error occurred?
 :hint: The null hypothesis (no difference in side effects) was NOT rejected.
-:feedback-0: Correct! Failing to reject H₀ when it is actually false (HRT really does increase risk) is a type II error.
-:feedback-1: A type I error can only occur when H₀ IS rejected.
-:feedback-2: One of the two errors is possible here—since H₀ was not rejected, only a type II error could have occurred.
+:feedback-0: Correct! Failing to reject $H_0$ when it is actually false (HRT really does increase risk) is a type II error.
+:feedback-1: A type I error can only occur when $H_0$ IS rejected.
+:feedback-2: One of the two errors is possible here—since $H_0$ was not rejected, only a type II error could have occurred.
 * *Type II—the study may have missed a real increase in risk
 * Type I—the study may have found a difference that isn't real
 * No error is possible in this situation
@@ -60,8 +60,8 @@ Suppose instead that at the end of the five-year study, a greater proportion of 
 
 :::{quiz} If the researchers' decision is wrong, which type of error occurred?
 :hint: This time the null hypothesis WAS rejected.
-:feedback-0: Correct! Rejecting H₀ when it is actually true (HRT really has no effect, and the observed difference was chance) is a type I error.
-:feedback-1: A type II error can only occur when H₀ is NOT rejected.
+:feedback-0: Correct! Rejecting $H_0$ when it is actually true (HRT really has no effect, and the observed difference was chance) is a type I error.
+:feedback-1: A type II error can only occur when $H_0$ is NOT rejected.
 * *Type I—the significant difference may have been due to chance
 * Type II—the study may have missed a real effect
 :::
@@ -74,10 +74,10 @@ A national poll conducted in 2010 determined that 61 percent of Americans did no
 The p-value is 0.026, so we reject the null hypothesis and conclude that public opposition is greater than 61% this year.
 
 :::{quiz} Which type of error is possible in this situation, and what would it mean in context?
-:hint: H₀ was rejected.
-:feedback-0: Correct! Since H₀ was rejected, a type I error is possible: opposition may really still be 61%, and the poll's higher figure was just sampling variability.
-:feedback-1: A type II error is not possible here, because H₀ was rejected.
-:feedback-2: An error IS possible—rejecting H₀ can never be done with certainty.
+:hint: $H_0$ was rejected.
+:feedback-0: Correct! Since $H_0$ was rejected, a type I error is possible: opposition may really still be 61%, and the poll's higher figure was just sampling variability.
+:feedback-1: A type II error is not possible here, because $H_0$ was rejected.
+:feedback-2: An error IS possible—rejecting $H_0$ can never be done with certainty.
 * *Type I—opposition may actually still be 61%, and the sample result was due to chance
 * Type II—the poll may have missed a real increase
 * No error is possible, since the p-value was below 0.05
@@ -85,32 +85,32 @@ The p-value is 0.026, so we reject the null hypothesis and conclude that public 
 
 ## What Is the Probability That We Will Make a Type I Error?
 
-If the significance level is 5 percent (α = 0.05), then 5 percent of the time we will reject the null hypothesis even if it is true. Of course we will not know whether the null hypothesis is true. But if it is, the natural variability that we expect in random samples will produce "rare" results 5 percent of the time.
+If the significance level is 5 percent $(\alpha = 0.05)$, then 5 percent of the time we will reject the null hypothesis even if it is true. Of course we will not know whether the null hypothesis is true. But if it is, the natural variability that we expect in random samples will produce "rare" results 5 percent of the time.
 
 This makes sense, because when we create the sampling distribution, we assume the null hypothesis is true. We look at the variability in random samples selected from the population described by the null hypothesis.
 
 Similarly, if the significance level is 1 percent, then we can expect the sample results to lead us to reject the null hypothesis 1 percent of the time when it is actually true. In other words, about one in 100 data sets would show "rare" results, leading us to reject a true null hypothesis. So the probability of a type I error in this case is 1 percent.
 
-*In general, the probability of a type I error is α.*
+*In general, the probability of a type I error is $\alpha.*$
 
 ## What Is the Probability That We Will Make a Type II Error?
 
-As you have just seen, the probability of a type I error is equal to the significance level, α. The probability of a type II error is much more complicated to calculate, but it is inversely related to the probability of making a type I error: reducing the chance of making a type II error increases the likelihood of a type I error, and vice versa.
+As you have just seen, the probability of a type I error is equal to the significance level, $\alpha$. The probability of a type II error is much more complicated to calculate, but it is inversely related to the probability of making a type I error: reducing the chance of making a type II error increases the likelihood of a type I error, and vice versa.
 
 ## Decreasing the Chance of Type I or Type II Errors
 
 How can we decrease the chance of a type I or type II error? Well, decreasing the chance of a type I error increases the chance of a type II error, so we must weigh the consequences of these errors before deciding how to proceed.
 
-Recall that the probability of committing a type I error is α. When we choose a level of significance (α), we are choosing a benchmark for rejecting the null hypothesis. If the null hypothesis is true, then the probability that we will reject it is α. So the smaller α is, the smaller the probability of a type I error.
+Recall that the probability of committing a type I error is $\alpha$. When we choose a level of significance $(\alpha)$, we are choosing a benchmark for rejecting the null hypothesis. If the null hypothesis is true, then the probability that we will reject it is $\alpha$. So the smaller $\alpha$ is, the smaller the probability of a type I error.
 
-It is more complicated to calculate the probability of a type II error. The best way to reduce the probability of a type II error is to *increase the sample size*. But once the sample size is set, larger values of α will decrease the probability of a type II error while increasing the probability of a type I error.
+It is more complicated to calculate the probability of a type II error. The best way to reduce the probability of a type II error is to *increase the sample size*. But once the sample size is set, larger values of $\alpha$ will decrease the probability of a type II error while increasing the probability of a type I error.
 
 ## Check Your Understanding: Controlling Error Probabilities
 
-:::{quiz} A test is conducted at the α = 0.01 significance level. If the null hypothesis is actually true, what is the probability of a type I error?
+:::{quiz} A test is conducted at the $\alpha = 0.01$ significance level. If the null hypothesis is actually true, what is the probability of a type I error?
 :hint: The probability of a type I error equals the significance level.
-:feedback-0: Correct! P(type I error) = α = 0.01.
-:feedback-1: 0.05 would be the answer if α were 0.05—but this test uses α = 0.01.
+:feedback-0: Correct! P(type I error) = $\alpha = 0.01$.
+:feedback-1: 0.05 would be the answer if $\alpha$ were 0.05—but this test uses $\alpha = 0.01$.
 :feedback-2: The probability of a type I error is exactly the significance level, not its complement.
 * *0.01
 * 0.05
@@ -118,19 +118,19 @@ It is more complicated to calculate the probability of a type II error. The best
 :::
 
 :::{quiz} A research team is worried about missing a real effect (a type II error). Which action would BEST reduce that risk without raising the chance of a type I error?
-:hint: One tool reduces type II errors "for free"; changing α involves a trade-off.
-:feedback-0: Correct! Increasing the sample size reduces the probability of a type II error without changing α (the type I error probability).
-:feedback-1: Raising α does reduce type II errors, but it directly increases the probability of a type I error.
-:feedback-2: Lowering α makes a type II error MORE likely.
+:hint: One tool reduces type II errors "for free"; changing $\alpha$ involves a trade-off.
+:feedback-0: Correct! Increasing the sample size reduces the probability of a type II error without changing $\alpha$ (the type I error probability).
+:feedback-1: Raising $\alpha$ does reduce type II errors, but it directly increases the probability of a type I error.
+:feedback-2: Lowering $\alpha$ makes a type II error MORE likely.
 * *Increase the sample size
-* Increase the significance level α
-* Decrease the significance level α
+* Increase the significance level $\alpha$
+* Decrease the significance level $\alpha$
 :::
 
 *General guidelines for choosing a level of significance:*
 
-- If the consequences of a type I error are more serious, choose a small level of significance (α).
-- If the consequences of a type II error are more serious, choose a larger level of significance (α). But remember that the level of significance is the probability of committing a type I error.
+- If the consequences of a type I error are more serious, choose a small level of significance $(\alpha)$.
+- If the consequences of a type II error are more serious, choose a larger level of significance $(\alpha)$. But remember that the level of significance is the probability of committing a type I error.
 - In general, we choose the largest level of significance that we can tolerate as the chance of making a type I error.
 
 *Note:* it is not always the case that one type of error is worse than the other.

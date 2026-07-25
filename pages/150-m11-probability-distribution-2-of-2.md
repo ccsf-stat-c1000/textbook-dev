@@ -8,7 +8,7 @@ Now consider another random variable X = foot length of adult males. Unlike shoe
 
 Like the modified probability histogram we saw before, the total area under the density curve equals 1, and the curve represents probabilities by area.
 
-The probability that X gets values in any interval is represented by the area above this interval and below the density curve. In our foot length example, if our interval of interest is between 10 and 12, and we would like to know P(10 < X < 12), the probability that a randomly chosen male has a foot length anywhere between 10 and 12 inches, we'll have to find the area above our interval of interest (10, 12) and below our density curve, shaded below:
+The probability that X gets values in any interval is represented by the area above this interval and below the density curve. In our foot length example, if our interval of interest is between 10 and 12, and we would like to know P(10 < $X < 12)$, the probability that a randomly chosen male has a foot length anywhere between 10 and 12 inches, we'll have to find the area above our interval of interest (10, 12) and below our density curve, shaded below:
 
 ```{figure} images/gen/m11-foot-shaded-10-12.svg
 :alt: The foot-length density curve with the region between 10 and 12 inches shaded. The shaded area under the curve is the probability that the foot length falls between 10 and 12 inches.

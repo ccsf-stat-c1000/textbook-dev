@@ -7,7 +7,7 @@ It is not uncommon for experiments to feature two or more explanatory variables 
 :::{admonition} Example: Diets and Drugs
 :class: tip
 
-Suppose researchers are not only interested in the effect of diet on blood pressure, but also the effect of two new drugs. Subjects are assigned to either Control Diet (no restrictions), Diet #1, or Diet #2 (the variable diet has, then, 3 possible values) and are also assigned to receive either Placebo, Drug #1, or Drug #2 (the variable Drug, then, also has three values). This is an example where the experiment has two explanatory variables and a response variable. In order to set up such an experiment, there has to be *one treatment group for every combination of categories of the two explanatory variables*. Thus, in this case there are 3 × 3 = 9 combinations of the two variables to which the subjects are assigned. The treatment groups are illustrated and labeled in the following table:
+Suppose researchers are not only interested in the effect of diet on blood pressure, but also the effect of two new drugs. Subjects are assigned to either Control Diet (no restrictions), Diet #1, or Diet #2 (the variable diet has, then, 3 possible values) and are also assigned to receive either Placebo, Drug #1, or Drug #2 (the variable Drug, then, also has three values). This is an example where the experiment has two explanatory variables and a response variable. In order to set up such an experiment, there has to be *one treatment group for every combination of categories of the two explanatory variables*. Thus, in this case there are $3 \times 3 = 9$ combinations of the two variables to which the subjects are assigned. The treatment groups are illustrated and labeled in the following table:
 
 | | No diet | Special diet 1 | Special diet 2 |
 | --- | --- | --- | --- |
@@ -41,9 +41,9 @@ A university was interested in examining the overall effectiveness of its online
 :::
 
 :::{quiz} How many treatment groups must this experiment have?
-:hint: One group for every combination of the two factors: 2 formats × 3 software options.
+:hint: One group for every combination of the two factors: 2 formats $\times 3$ software options.
 :feedback-0: 5 is the sum of the numbers of categories; you need the product—every combination gets a group.
-:feedback-1: Correct! 2 course formats × 3 software options = 6 treatment combinations.
+:feedback-1: Correct! 2 course formats $\times 3$ software options = 6 treatment combinations.
 :feedback-2: 9 would be right if both factors had 3 categories; here the format factor has only 2.
 * 5
 * *6
@@ -63,5 +63,5 @@ A university was interested in examining the overall effectiveness of its online
 ```{admonition} Comment on the Response Variable
 :class: important
 
-Note that the response variable in this study is quantitative (improvement between pre-test and post-test), and the explanatory variables are categorical—so comparing the treatment groups amounts to case C→Q: comparing the distribution of improvements across the six groups.
+Note that the response variable in this study is quantitative (improvement between pre-test and post-test), and the explanatory variables are categorical—so comparing the treatment groups amounts to case $C \to Q$: comparing the distribution of improvements across the six groups.
 ```

@@ -3,7 +3,7 @@
 ```{admonition} Rule 5: The Multiplication Rule for Independent Events
 :class: note
 
-*If A and B are two independent events, then P(A and B) = P(A) × P(B).*
+*If A and B are two independent events, then P(A and B) = P(A) $\times$ P(B).*
 ```
 
 ```{admonition} Comment
@@ -29,12 +29,12 @@ We need to find P(O1 and O2).
 
 Since they were chosen simultaneously and at random, the blood type of one has no effect on the blood type of the other. Therefore, O1 and O2 are independent, and we may apply Rule 5:
 
-P(O1 and O2) = P(O1) × P(O2) = 0.44 × 0.44 = 0.1936.
+P(O1 and O2) = P(O1) $\times$ P(O2) = $0.44 \times 0.44 = 0.1936$.
 :::
 
 :::{quiz} Using the table above, two people are chosen at random from the U.S. population. What is the probability that both have blood type AB?
 :hint: The two choices are independent; multiply.
-:feedback-0: Correct! P(AB1 and AB2) = 0.04 × 0.04 = 0.0016.
+:feedback-0: Correct! P(AB1 and AB2) = $0.04 \times 0.04 = 0.0016$.
 :feedback-1: 0.08 is the sum, which would answer an "or" question for disjoint events, not an "and" question.
 :feedback-2: 0.04 is the probability for one person; both having AB is much less likely.
 * *0.0016
@@ -44,7 +44,7 @@ P(O1 and O2) = P(O1) × P(O2) = 0.44 × 0.44 = 0.1936.
 
 :::{quiz} A fair coin is tossed and a fair die is rolled. What is the probability of getting heads AND rolling a 6?
 :hint: The coin and die don't affect each other—multiply the probabilities.
-:feedback-0: Correct! P(H and 6) = (1/2) × (1/6) = 1/12.
+:feedback-0: Correct! P(H and $6) = (1/2) \times (1/6) = 1/12$.
 :feedback-1: 1/8 would be right if the die had 4 sides; the die's probability is 1/6.
 :feedback-2: 2/3 comes from adding—but "and" calls for multiplication here.
 * *1/12
@@ -63,7 +63,7 @@ In other words, and using our regular notations,
 
 P(same blood type) = P([O1 and O2] or [A1 and A2] or [B1 and B2] or [AB1 and AB2])
 
-Since our four possibilities of both people having the same blood type are *disjoint*, using our *Addition Rule* we can add their probabilities (i.e., replace every "or" with +). Also, within each of the four possibilities, we can use the {term}`Multiplication Rule <multiplication rule>` and replace "and" with × (using the same *independence* argument as the first example on this page). Our answer is therefore:
+Since our four possibilities of both people having the same blood type are *disjoint*, using our *Addition Rule* we can add their probabilities (i.e., replace every "or" with +). Also, within each of the four possibilities, we can use the {term}`Multiplication Rule <multiplication rule>` and replace "and" with $\times$ (using the same *independence* argument as the first example on this page). Our answer is therefore:
 
 $$P(\text{same blood type}) = 0.44^2 + 0.42^2 + 0.10^2 + 0.04^2 = 0.1936 + 0.1764 + 0.01 + 0.0016 = 0.3816$$
 

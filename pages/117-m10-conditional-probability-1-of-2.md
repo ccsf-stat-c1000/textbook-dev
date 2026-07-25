@@ -17,11 +17,11 @@ All the students in a certain high school were surveyed, then classified accordi
 
 Suppose a student is selected at random from the school. Let *M* and *not M* denote the events of being male and female, respectively, and *E* and *not E* denote the events of having ears pierced or not, respectively. We'll start by asking what will seem like simple questions, and we'll build our way to conditional probability:
 
-1. What is the probability that the student has one or both ears pierced? Since a student is chosen at random from the group of 500 students, out of which 324 are pierced, P(E) = 324/500 = 0.648.
+1. What is the probability that the student has one or both ears pierced? Since a student is chosen at random from the group of 500 students, out of which 324 are pierced, P(E) = $324/500 = 0.648$.
 
-2. What is the probability that the student is male? Since a student is chosen at random from the group of 500 students, out of which 180 are male, P(M) = 180/500 = 0.36.
+2. What is the probability that the student is male? Since a student is chosen at random from the group of 500 students, out of which 180 are male, P(M) = $180/500 = 0.36$.
 
-3. What is the probability that the student is male and has ear(s) pierced? Since a student is chosen at random from the group of 500 students, out of which 36 are male and have their ear(s) pierced, P(M and E) = 36/500 = 0.072.
+3. What is the probability that the student is male and has ear(s) pierced? Since a student is chosen at random from the group of 500 students, out of which 36 are male and have their ear(s) pierced, P(M and E) = $36/500 = 0.072$.
 
 Now something new:
 
@@ -33,16 +33,16 @@ A word about this new notation: The event whose probability we seek (in this cas
 
 We call this probability the {term}`conditional probability` of having one or both ears pierced, given that a student is male: it assesses the probability of having pierced ears under the condition of being male. Now to solve for the probability, we observe that choosing from only the males in the school essentially alters the sample space S from all students in the school to all male students in the school. The total number of possible outcomes is no longer 500, but has changed to 180. Out of those 180 males, 36 have ear(s) pierced, and thus:
 
-P(E | M) = 36/180 = 0.20.
+P(E | M) = $36/180 = 0.20$.
 :::
 
 ## Check Your Understanding: Conditional Probability
 
 :::{quiz} Using the same table, what is P(E | not M)—the probability that a randomly chosen female student has pierced ears?
 :hint: Restrict the sample space to the 320 female students.
-:feedback-0: Correct! Among the 320 females, 288 have pierced ears: P(E | not M) = 288/320 = 0.9.
+:feedback-0: Correct! Among the 320 females, 288 have pierced ears: P(E | not M) = $288/320 = 0.9$.
 :feedback-1: 0.648 is P(E), the overall proportion of pierced ears among all 500 students.
-:feedback-2: 288/500 = 0.576 is P(female and pierced), not the conditional probability given female.
+:feedback-2: $288/500 = 0.576$ is P(female and pierced), not the conditional probability given female.
 * *0.9
 * 0.648
 * 0.576

@@ -5,8 +5,8 @@ This module covered the z-test for the population proportion and both the z-test
 | Test | Parameter | Variable of interest | Standard deviation |
 | --- | --- | --- | --- |
 | z-test for the population proportion | p | Categorical | (not applicable) |
-| z-test for the population mean | μ | Quantitative | Population σ known |
-| t-test for the population mean | μ | Quantitative | Population σ unknown; sample s used instead |
+| z-test for the population mean | $\mu$ | Quantitative | Population $\sigma$ known |
+| t-test for the population mean | $\mu$ | Quantitative | Population $\sigma$ unknown; sample s used instead |
 
 The module is also loaded with very important ideas that apply to the general process of hypothesis testing. Thus, the following summary discusses each of the above-named hypothesis tests within the context of the hypothesis testing process.
 
@@ -28,7 +28,7 @@ For the *z-test for the population proportion*, we can reliably use the test if 
 
 For the *z-test* and *t-test for the population mean*, the following table summarizes the conditions under which they can be reliably used, and which test to use when:
 
-| Situation | σ known | σ unknown |
+| Situation | $\sigma$ known | $\sigma$ unknown |
 | --- | --- | --- |
 | Large sample size (population normal or not) | z-test | t-test (z-test is a good approximation) |
 | Small sample size, population normal\* | z-test | t-test |
@@ -69,7 +69,7 @@ Conclusions should always be made in the *context* of the problem.
 
 :::{quiz} A nutrition researcher wants to test whether the mean daily sodium intake of adults in a city differs from the recommended 2,300 mg. She collects a random sample of 45 adults and records their intake; the population standard deviation is unknown. Which test should she use?
 :hint: The variable (sodium intake) is quantitative, and only the sample standard deviation will be available.
-:feedback-0: Correct! Quantitative variable + unknown σ = t-test for the population mean. The large sample (45 > 30) satisfies the conditions.
+:feedback-0: Correct! Quantitative variable + unknown $\sigma$ = t-test for the population mean. The large sample $(45 > 30)$ satisfies the conditions.
 :feedback-1: The z-test for the mean requires a KNOWN population standard deviation.
 :feedback-2: The z-test for the proportion is for categorical variables.
 * *The t-test for the population mean
@@ -79,9 +79,9 @@ Conclusions should always be made in the *context* of the problem.
 
 :::{quiz} A pollster tests whether the proportion of voters who favor a ballot measure exceeds 0.5, using a random sample of 800 voters. Which test should be used?
 :hint: Favoring or not favoring the measure is a categorical variable.
-:feedback-0: Correct! The variable is categorical and the parameter is a proportion, so the z-test for the population proportion applies (conditions: 800 × 0.5 = 400 ≥ 10 in both groups).
+:feedback-0: Correct! The variable is categorical and the parameter is a proportion, so the z-test for the population proportion applies (conditions: $800 \times 0.5 = 400 \geq 10$ in both groups).
 :feedback-1: The t-test is for a quantitative variable's mean.
-:feedback-2: The z-test for the mean is for a quantitative variable with σ known.
+:feedback-2: The z-test for the mean is for a quantitative variable with $\sigma$ known.
 * *The z-test for the population proportion
 * The t-test for the population mean
 * The z-test for the population mean

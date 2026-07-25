@@ -30,7 +30,7 @@ Classical probabilities can also be used for more realistic and useful situation
 :alt: Two dice, one showing five and one showing three.
 ```
 
-Each traditional (cube-shaped) die has six sides, marked in dots with the numbers 1 through 6. On a "fair" die, these numbers are equally likely to end up face-up when the die is rolled. Thus, P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6 or about 0.167.
+Each traditional (cube-shaped) die has six sides, marked in dots with the numbers 1 through 6. On a "fair" die, these numbers are equally likely to end up face-up when the die is rolled. Thus, $P(1) = P(2) = P(3) = P(4) = P(5) = P(6) = 1/6$ or about 0.167.
 
 Here, again, is a practical use of classical probability. Suppose six people go out to dinner. You want to randomly decide who will pick up the check and pay for everyone. Again, the P(each person) = 1/6.
 ::::
@@ -46,7 +46,7 @@ This particular spinner has three colors, but each color is not equally likely t
 
 Since the blue is half of the spinner, P(blue) = 1/2. The red and yellow make up the other half of the spinner and are the same size. Thus, P(red) = P(yellow) = 1/4.
 
-Suppose there are 2 freshmen, 1 sophomore, and 1 junior in a study group. You want to select one person. The P(F) = 2/4 = 1/2; P(S) = 1/4; and P(J) = 1/4, just like the spinner.
+Suppose there are 2 freshmen, 1 sophomore, and 1 junior in a study group. You want to select one person. The P(F) = $2/4 = 1/2$; P(S) = 1/4; and P(J) = 1/4, just like the spinner.
 ::::
 
 ::::{admonition} Example: Selecting Students

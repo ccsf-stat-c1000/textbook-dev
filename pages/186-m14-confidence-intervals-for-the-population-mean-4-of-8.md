@@ -6,7 +6,7 @@ Is there a way to bypass this trade-off? In other words, is there a way to incre
 
 ## Understanding the General Structure of Confidence Intervals
 
-We explored the confidence interval for μ for different levels of confidence and found that, in general, it has the following form:
+We explored the confidence interval for $\mu$ for different levels of confidence and found that, in general, it has the following form:
 
 $$\bar{x} \pm z^{*}\cdot\frac{\sigma}{\sqrt{n}}$$
 
@@ -18,12 +18,12 @@ where z\* is a general notation for the multiplier that depends on the level of 
 
 To start our discussion about the structure of the confidence interval, let's denote the quantity $z^{*}\cdot\frac{\sigma}{\sqrt{n}}$ by m. The confidence interval, then, has the form: $\bar{x} \pm m$, where:
 
-- $\bar{x}$ is the sample mean, the point estimator for the unknown population mean (μ).
+- $\bar{x}$ is the sample mean, the point estimator for the unknown population mean $(\mu)$.
 - *m* is called the {term}`margin of error`, since it represents the maximum estimation error for a given level of confidence.
 
 For example, for a 95% confidence interval, we are 95% sure that our estimate will not depart from the true population mean by more than m, the margin of error.
 
-m is further made up of the product of two components: z\*, the confidence multiplier, and $\frac{\sigma}{\sqrt{n}}$, the standard deviation of $\bar{X}$, the point estimator of μ.
+m is further made up of the product of two components: z\*, the confidence multiplier, and $\frac{\sigma}{\sqrt{n}}$, the standard deviation of $\bar{X}$, the point estimator of $\mu$.
 
 Here is a summary of the different components of the confidence interval and its structure:
 
@@ -47,7 +47,7 @@ The margin of error, m, is therefore "in charge" of the width (or precision) of 
 
 :::{quiz} A 95% confidence interval for a population mean is reported as (24, 32). What are the point estimate and the margin of error?
 :hint: The interval is centered at the estimate, and its total width is twice the margin of error.
-:feedback-0: Correct! The center is (24 + 32)/2 = 28, and the margin of error is (32 − 24)/2 = 4.
+:feedback-0: Correct! The center is $(24 + 32)/2 = 28$, and the margin of error is $(32 - 24)/2 = 4$.
 :feedback-1: 8 is the full width of the interval; the margin of error is half of that.
 :feedback-2: The estimate is the midpoint of the interval, not its lower endpoint.
 * *Estimate 28, margin of error 4

@@ -4,7 +4,7 @@
 
 Recall that when we talked about the Complement Rule, we mentioned that we would come back to it later and illustrate its strength. Well, the time has come to do that.
 
-Rule 3: The Complement Rule, P(A) = 1 − P(not A), together with the Multiplication Rule, is *extremely* useful for finding the probability of events like "at least one of ..." in several repetitions of a random experiment.
+Rule 3: The Complement Rule, P(A) = 1 - P(not A), together with the Multiplication Rule, is *extremely* useful for finding the probability of events like "at least one of ..." in several repetitions of a random experiment.
 
 For example,
 
@@ -29,7 +29,7 @@ Here is our sample space: S = { (O, O), (O, not O), (not O, O), (not O, not O) }
 
 The event "at least one person chosen has blood type O" consists of the first three possible outcomes, and therefore:
 
-P(at least one person chosen has blood type O) = P((O and O) or (O and not O) or (not O and O)) = (0.44 × 0.44) + (0.44 × 0.56) + (0.56 × 0.44) = 0.6864.
+P(at least one person chosen has blood type O) = P((O and O) or (O and not O) or (not O and O)) = $(0.44 \times 0.44) + (0.44 \times 0.56) + (0.56 \times 0.44) = 0.6864$.
 :::
 
 Now we'll just alter the example slightly by randomly choosing 10 people instead of 2:
@@ -41,13 +41,13 @@ A patient with blood type O desperately needs a blood transfusion. Since a perso
 
 Solving this using the brute force method would require a prohibitive amount of work. As before, we would need to list all the possible outcomes of blood types of 10 people (using either "O" or "not O"), but this time there are 1,024 of them! We would then need to identify those outcomes that L consists of (i.e., the outcomes in which at least one of the 10 people has blood type O). Next, we would need to find the probability of each of those outcomes and add those probabilities up. *What a pain!* There must be a better way.
 
-Instead of doing all the work listed above, we can use the Complement Rule, which says P(L) = 1 − P(not L). As we explained before, in this case "not L" is the event "none of the 10 have blood type O," or in other words that all 10 have a blood type other than O. So we can simply solve (using our regular notation from this module):
+Instead of doing all the work listed above, we can use the Complement Rule, which says P(L) = 1 - P(not L). As we explained before, in this case "not L" is the event "none of the 10 have blood type O," or in other words that all 10 have a blood type other than O. So we can simply solve (using our regular notation from this module):
 
-P(L) = 1 − P(not L) = 1 − P(not O1 *and* not O2 *and* ... *and* not O10)
+P(L) = 1 - P(not L) = 1 - P(not O1 *and* not O2 *and* ... *and* not O10)
 
 Now, using the multiplication rule,
 
-P(L) = 1 − (0.56)¹⁰ = 1 − 0.003 = 0.997
+P(L) = $1 - (0.56)^{10} = 1 - 0.003 = 0.997$
 
 Therefore, it is almost certain that if we choose 10 people at random, we'll find that at least one of them has blood type O. This result makes sense, since 44% have blood type O, and so out of 10 people it is almost certain that at least one will have blood type O.
 :::
@@ -63,7 +63,7 @@ Let's decide on some notations. Let L be the event that the student gets at leas
 :::{quiz} What is the probability of getting a single question wrong, P(W)?
 :hint: One of the 4 choices is right, so 3 are wrong.
 :feedback-0: 1/4 is the probability of guessing right; wrong is its complement.
-:feedback-1: Correct! P(W) = 1 − 1/4 = 3/4.
+:feedback-1: Correct! P(W) = $1 - 1/4 = 3/4$.
 :feedback-2: With 4 choices per question, the chance of a wrong guess is 3 out of 4.
 * 1/4
 * *3/4
@@ -72,17 +72,17 @@ Let's decide on some notations. Let L be the event that the student gets at leas
 
 :::{quiz} What is "not L," the complement of "at least one question right," and what is its probability?
 :hint: The complement of "at least one right" is "all wrong"; the guesses are independent.
-:feedback-0: Correct! "Not L" is getting all 10 questions wrong: P(not L) = (3/4)¹⁰ ≈ 0.056.
+:feedback-0: Correct! "Not L" is getting all 10 questions wrong: P(not L) = $(3/4)^{10} \approx 0.056$.
 :feedback-1: "Getting at least one wrong" is not the complement of "getting at least one right"—both can happen together.
-:feedback-2: Add up? No—the 10 wrong guesses must ALL happen, so we multiply: (3/4)¹⁰.
-* *"All 10 questions wrong"; P(not L) = (3/4)¹⁰ ≈ 0.056
+:feedback-2: Add up? No—the 10 wrong guesses must ALL happen, so we multiply: $(3/4)^{10}$.
+* *"All 10 questions wrong"; P(not L) = $(3/4)^{10} \approx 0.056$
 * "At least one question wrong"; P(not L) = 3/4
-* "All 10 questions wrong"; P(not L) = 10 × (3/4)
+* "All 10 questions wrong"; P(not L) = $10 \times (3/4)$
 :::
 
 :::{quiz} So what is P(L), the probability that the student gets at least one question right?
-:hint: Apply the Complement Rule: P(L) = 1 − P(not L).
-:feedback-0: Correct! P(L) = 1 − (3/4)¹⁰ ≈ 1 − 0.056 = 0.944.
+:hint: Apply the Complement Rule: P(L) = 1 - P(not L).
+:feedback-0: Correct! P(L) = $1 - (3/4)^{10} \approx 1 - 0.056 = 0.944$.
 :feedback-1: 0.056 is P(not L), the probability of getting every question wrong.
 :feedback-2: 0.25 is the chance of getting one particular question right, not at least one of the ten.
 * *About 0.944

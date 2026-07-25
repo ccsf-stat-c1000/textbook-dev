@@ -15,19 +15,19 @@ Since the square root of sample size n appears in the denominator, the standard 
 The Federal Pell Grant Program provides need-based grants to low-income undergraduate and certain postbaccalaureate students to promote access to postsecondary education. According to the National Postsecondary Student Aid Study conducted by the U.S. Department of Education in 2008, the average Pell grant award for 2007-2008 was \$2,600. Assume that the standard deviation in Pell grant awards was \$500.
 
 :::{quiz} If we take random samples of 25 Pell grant recipients, what are the mean and standard deviation of the sampling distribution of the sample mean award?
-:hint: Mean = μ = 2,600; SD = σ/√n = 500/√25.
+:hint: Mean = $\mu = 2{,}600$; SD = $\sigma/\sqrt{n} = 500/\sqrt{25}$.
 :feedback-0: Correct! Mean = \$2,600 and SD = 500/5 = \$100.
-:feedback-1: The standard deviation of the sample mean is σ/√n, not σ itself.
-:feedback-2: √25 = 5, so the SD is 500/5 = 100, not 20.
+:feedback-1: The standard deviation of the sample mean is $\sigma/\sqrt{n}$, not $\sigma$ itself.
+:feedback-2: $\sqrt{25} = 5$, so the SD is $500/5 = 100$, not 20.
 * *Mean $2,600, SD $100
 * Mean $2,600, SD $500
 * Mean $2,600, SD $20
 :::
 
 :::{quiz} To cut the standard deviation of the sample mean in half (from \$100 to \$50), how large would the samples need to be?
-:hint: σ/√n = 50 requires √n = 10.
-:feedback-0: Correct! Halving the SD requires quadrupling the sample size: n = 100.
-:feedback-1: Doubling the sample size to 50 only reduces the SD by a factor of √2.
+:hint: $\sigma/\sqrt{n} = 50$ requires $\sqrt{n} = 10$.
+:feedback-0: Correct! Halving the SD requires quadrupling the sample size: $n = 100$.
+:feedback-1: Doubling the sample size to 50 only reduces the SD by a factor of $\sqrt{2}$.
 :feedback-2: n appears under a square root, so the SD shrinks slowly—quadrupling n halves the SD.
 * *100
 * 50
@@ -38,10 +38,10 @@ Let's compare and contrast what we now know about the sampling distributions for
 
 | Variable | Parameter | Statistic | Center | Spread | Shape |
 | --- | --- | --- | --- | --- | --- |
-| Categorical (e.g., left-handed or not) | p | $\hat{p}$ | p | $\sqrt{\frac{p(1-p)}{n}}$ | Normal if np ≥ 10 and n(1 − p) ≥ 10 |
-| Quantitative (e.g., age) | μ, σ | $\bar{x}$ | μ | $\frac{\sigma}{\sqrt{n}}$ | *When will it be approximately normal?* |
+| Categorical (e.g., left-handed or not) | p | $\hat{p}$ | p | $\sqrt{\frac{p(1-p)}{n}}$ | Normal if np $\geq 10$ and n(1 - p) $\geq 10$ |
+| Quantitative (e.g., age) | $\mu$, $\sigma$ | $\bar{x}$ | $\mu$ | $\frac{\sigma}{\sqrt{n}}$ | *When will it be approximately normal?* |
 
-Now we will investigate the shape of the sampling distribution of sample means. When we were discussing the sampling distribution of sample proportions, we said that this distribution is approximately normal if np ≥ 10 and n(1 − p) ≥ 10. In other words, we had a guideline based on sample size for determining the conditions under which we could use normal probability calculations for sample proportions.
+Now we will investigate the shape of the sampling distribution of sample means. When we were discussing the sampling distribution of sample proportions, we said that this distribution is approximately normal if np $\geq 10$ and n(1 - p) $\geq 10$. In other words, we had a guideline based on sample size for determining the conditions under which we could use normal probability calculations for sample proportions.
 
 When will the distribution of sample means be approximately normal? Does this depend on the size of the sample?
 
@@ -67,10 +67,10 @@ How large a sample size do we need in order to assume that sample means will be 
 ## Check Your Understanding: The Central Limit Theorem
 
 :::{quiz} Household incomes in a city are strongly skewed right. If we take random samples of 100 households and compute the mean income of each sample, what shape will the distribution of these sample means have?
-:hint: Apply the Central Limit Theorem: n = 100 is well above 30.
-:feedback-0: Correct! By the Central Limit Theorem, with n = 100 the sample means are approximately normal even though the population is skewed.
+:hint: Apply the Central Limit Theorem: $n = 100$ is well above 30.
+:feedback-0: Correct! By the Central Limit Theorem, with $n = 100$ the sample means are approximately normal even though the population is skewed.
 :feedback-1: The skewness of the population does NOT carry over to the sample means when n is large—that's the magic of the CLT.
-:feedback-2: The shape is predictable: approximately normal, centered at μ, with SD σ/√100.
+:feedback-2: The shape is predictable: approximately normal, centered at $\mu$, with SD $\sigma/\sqrt{100}$.
 * *Approximately normal
 * Skewed right, like the population
 * Unpredictable
@@ -78,8 +78,8 @@ How large a sample size do we need in order to assume that sample means will be 
 
 :::{quiz} A population is exactly normal. How large must samples be for the sampling distribution of the sample mean to be normal?
 :hint: What did the simulation with samples of size 9 show?
-:feedback-0: Correct! If the population itself is normal, the sample mean is exactly normal for ANY sample size, even n = 2.
-:feedback-1: The n ≥ 30 rule of thumb is only needed when the population is NOT normal.
+:feedback-0: Correct! If the population itself is normal, the sample mean is exactly normal for ANY sample size, even $n = 2$.
+:feedback-1: The $n \geq 30$ rule of thumb is only needed when the population is NOT normal.
 * *Any sample size—the sample mean is normal even for tiny samples
 * At least 30, as always
 :::

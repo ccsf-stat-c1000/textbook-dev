@@ -11,7 +11,7 @@ Let's start with a motivating example.
 :::{admonition} Example: True/False Questions
 :class: tip
 
-Suppose a student answers 20 true/false questions completely at random. What is the probability of getting no more than 8 correct? Let X be the number of questions the student gets right (successes) out of the 20 questions (trials), when the probability of success is 0.5. X is therefore a binomial random variable with n = 20 and p = 0.5, and we are looking for
+Suppose a student answers 20 true/false questions completely at random. What is the probability of getting no more than 8 correct? Let X be the number of questions the student gets right (successes) out of the 20 questions (trials), when the probability of success is 0.5. X is therefore a binomial random variable with $n = 20$ and $p = 0.5$, and we are looking for
 
 $$P(X\leq8)=P(X=0)+P(X=1)+\cdots+P(X=8)$$
 
@@ -21,7 +21,7 @@ $$\frac{20!}{0!20!}0.5^{0}(0.5)^{20}+\frac{20!}{1!19!}0.5^{1}(0.5)^{19}+\cdots+\
 
 One option that we have is to use statistical software, which will provide the answer:
 
-| x | P(X ≤ x) |
+| x | P(X $\leq$ x) |
 | --- | --- |
 | 8 | *0.2517* |
 :::

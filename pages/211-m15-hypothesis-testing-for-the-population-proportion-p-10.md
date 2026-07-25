@@ -13,16 +13,16 @@ Let's start.
 
 ## 1. The Effect of Sample Size on Hypothesis Testing
 
-We have already seen the effect that the sample size has on inference, when we discussed point and interval estimation for the population mean (μ) and population proportion (p). Intuitively...
+We have already seen the effect that the sample size has on inference, when we discussed point and interval estimation for the population mean $(\mu)$ and population proportion (p). Intuitively...
 
 Larger sample sizes give us more information to pin down the true nature of the population. We can therefore expect the *sample* mean and *sample* proportion obtained from a larger sample to be closer to the population mean and proportion, respectively. As a result, for the same level of confidence, we can report a smaller margin of error, and get a narrower confidence interval. What we've seen, then, is that a larger sample size gives a boost to how much we trust our sample results.
 
 In hypothesis testing, larger sample sizes have a similar effect. The following two examples will illustrate that a larger sample size provides more convincing evidence, and how the evidence manifests itself in hypothesis testing. Let's go back to our example 2 (marijuana use at a certain liberal arts college).
 
-:::{admonition} Example 2 (Original: n = 100)
+:::{admonition} Example 2 (Original: $n = 100)$
 :class: tip
 
-Recall: $H_0: p = 0.157$ vs. $H_a: p > 0.157$; a random sample of n = 100 students gave $\hat{p} = 19/100 = 0.19$; the test statistic was z = 0.91 and the p-value was 0.182.
+Recall: $H_0: p = 0.157$ vs. $H_a: p > 0.157$; a random sample of $n = 100$ students gave $\hat{p} = 19/100 = 0.19$; the test statistic was $z = 0.91$ and the p-value was 0.182.
 
 The data *do not* provide enough evidence that the proportion of marijuana users at the college is higher than the proportion among all U.S. college students, which is 0.157.
 
@@ -50,7 +50,7 @@ Even though the sample proportion is the same (0.19), since here it is based on 
 
 *Step 3:* Using statistical software, we find that the p-value = 0.035.
 
-The p-value here is 0.035 (as opposed to 0.182 in the original problem). In other words, when $H_0$ is true (i.e., when p = 0.157), it is quite unlikely (probability of 0.035) to get a sample proportion of 0.19 or higher based on a sample of size 400, and not very unlikely when the sample size is 100 (probability 0.182).
+The p-value here is 0.035 (as opposed to 0.182 in the original problem). In other words, when $H_0$ is true (i.e., when $p = 0.157)$, it is quite unlikely (probability of 0.035) to get a sample proportion of 0.19 or higher based on a sample of size 400, and not very unlikely when the sample size is 100 (probability 0.182).
 
 *Step 4:* Our results here are significant. In other words, in example 2* the data provide enough evidence to reject $H_0$ and conclude that the proportion of marijuana users at the college is higher than among all U.S. students.
 :::
@@ -71,8 +71,8 @@ Suppose that only 40% of the U.S. public supported the general direction of the 
 
 :::{quiz} Which is the correct interpretation of "not statistically significant" here?
 :hint: What does a large p-value permit us to conclude—and not conclude?
-:feedback-0: Correct! The data do not provide enough evidence that support for the current administration exceeds 40%; we cannot reject H₀.
-:feedback-1: Failing to reject H₀ does not prove that support equals 40%.
+:feedback-0: Correct! The data do not provide enough evidence that support for the current administration exceeds 40%; we cannot reject $H_0$.
+:feedback-1: Failing to reject $H_0$ does not prove that support equals 40%.
 :feedback-2: The poll may simply have been too small to detect a real difference—non-significance is not proof of no difference.
 * *The poll did not provide enough evidence that support is higher than 40%
 * The poll proved that support is exactly 40%
@@ -93,7 +93,7 @@ Now, we will address the issue of statistical significance versus practical impo
 
 ## Check Your Understanding: Statistical vs. Practical Significance
 
-Suppose a national retailer tests whether a website redesign has changed the proportion of visitors who make a purchase, historically p = 0.100. In a random sample of 4,000,000 visits after the redesign, the purchase proportion is 0.1005, and the p-value of the test of $H_0: p = 0.100$ vs. $H_a: p \neq 0.100$ turns out to be about 0.001.
+Suppose a national retailer tests whether a website redesign has changed the proportion of visitors who make a purchase, historically $p = 0.100$. In a random sample of 4,000,000 visits after the redesign, the purchase proportion is 0.1005, and the p-value of the test of $H_0: p = 0.100$ vs. $H_a: p \neq 0.100$ turns out to be about 0.001.
 
 :::{quiz} The result is highly statistically significant. Is it practically important?
 :hint: Look at the size of the change itself: from 10% to 10.05%.

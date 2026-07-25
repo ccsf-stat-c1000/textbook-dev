@@ -21,9 +21,9 @@ Note that each event is indeed a statement about the outcome that the experiment
 
 In practice, each event corresponds to some collection (subset) of the outcomes in the sample space:
 
-- *Event A:* "Getting no H" → TTT
-- *Event B:* "Getting exactly one H" → HTT, THT, TTH
-- *Event C:* "Getting at least one H" → HTT, THT, TTH, THH, HTH, HHT, HHH
+- *Event A:* "Getting no H" $\to$ TTT
+- *Event B:* "Getting exactly one H" $\to$ HTT, THT, TTH
+- *Event C:* "Getting at least one H" $\to$ HTT, THT, TTH, THH, HTH, HHT, HHH
 
 Here is a visual representation of events A, B and C:
 

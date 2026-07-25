@@ -8,7 +8,7 @@ To put your knowledge into practice, your instructor may assign a data-analysis 
 
 Before moving on, check your understanding:
 
-- Given a research question involving two variables, can you classify it as case C→Q, C→C, Q→C, or Q→Q, and name the appropriate display and numerical summaries?
+- Given a research question involving two variables, can you classify it as case $C \to Q$, $C \to C$, $Q \to C$, or $Q \to Q$, and name the appropriate display and numerical summaries?
 - Can you interpret a correlation coefficient and explain why it must always be accompanied by a scatterplot?
 - Can you interpret the slope of a regression line in context, make a prediction with the line, and explain why extrapolation is unreliable?
 - Can you explain, with an example, why association does not imply causation?

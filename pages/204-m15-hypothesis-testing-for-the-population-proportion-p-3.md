@@ -14,7 +14,7 @@ Let's go back to our three examples and add this step to our figures.
 :class: tip
 
 ```{figure} images/gen/m15-prop-machine-phat.svg
-:alt: The population of products produced by the machine after the repair, with question "is p still 0.20 or has it been reduced?" A random sample of 400 products contains 64 defective, so p-hat = 64/400 = 0.16.
+:alt: The population of products produced by the machine after the repair, with question "is p still 0.20 or has it been reduced?" A random sample of 400 products contains 64 defective, so p-hat = $64/400 = 0.16$.
 ```
 ::::
 
@@ -22,7 +22,7 @@ Let's go back to our three examples and add this step to our figures.
 :class: tip
 
 ```{figure} images/gen/m15-prop-marijuana-phat.svg
-:alt: The population of students at the college, with question "is p 0.157 like the national figure, or higher?" A random sample of 100 students contains 19 marijuana users, so p-hat = 19/100 = 0.19.
+:alt: The population of students at the college, with question "is p 0.157 like the national figure, or higher?" A random sample of 100 students contains 19 marijuana users, so p-hat = $19/100 = 0.19$.
 ```
 ::::
 
@@ -30,7 +30,7 @@ Let's go back to our three examples and add this step to our figures.
 :class: tip
 
 ```{figure} images/gen/m15-prop-deathpenalty-phat.svg
-:alt: The population of U.S. adults, with question "has p changed since 2003, when it was 0.64?" A random sample of 1,000 adults contains 675 in favor, so p-hat = 675/1000 = 0.675.
+:alt: The population of U.S. adults, with question "has p changed since 2003, when it was 0.64?" A random sample of 1,000 adults contains 675 in favor, so p-hat = $675/1000 = 0.675$.
 ```
 ::::
 
@@ -45,7 +45,7 @@ Let's use our examples to understand this:
 
 The parameter of interest is p, the proportion of defective products following the repair.
 
-The data estimate p to be $\hat{p}=0.16$. The null hypothesis claims that p = 0.20. The data are therefore 0.04 (or 4 percentage points) below the null hypothesis with respect to what they each tell us about p.
+The data estimate p to be $\hat{p}=0.16$. The null hypothesis claims that $p = 0.20$. The data are therefore 0.04 (or 4 percentage points) below the null hypothesis with respect to what they each tell us about p.
 
 It is hard to evaluate whether this difference of 4 percentage points in defective products is enough evidence to say that the repair was effective, but clearly, the larger the difference, the more evidence it is against the null hypothesis. So if, for example, our sample proportion of defective products had been, say, 0.10 instead of 0.16, then I think you would all agree that cutting the proportion of defective products in half (from 20% to 10%) would be extremely strong evidence that the repair was effective.
 :::
@@ -55,7 +55,7 @@ It is hard to evaluate whether this difference of 4 percentage points in defecti
 
 The parameter of interest is p, the proportion of students in a college who use marijuana.
 
-The data estimate p to be $\hat{p}=0.19$. The null hypothesis claims that p = 0.157. The data are therefore 0.033 (or 3.3 percentage points) above the null hypothesis with respect to what they each tell us about p.
+The data estimate p to be $\hat{p}=0.19$. The null hypothesis claims that $p = 0.157$. The data are therefore 0.033 (or 3.3 percentage points) above the null hypothesis with respect to what they each tell us about p.
 :::
 
 :::{admonition} Example 3: Death Penalty Support
@@ -63,7 +63,7 @@ The data estimate p to be $\hat{p}=0.19$. The null hypothesis claims that p = 0.
 
 The parameter of interest is p, the proportion of U.S. adults who support the death penalty for convicted murderers.
 
-The data estimate p to be $\hat{p}=0.675$. The null hypothesis claims that p = 0.64. There is a difference of 0.035 (3.5 percentage points) between the data and the null hypothesis with respect to what they each tell us about p.
+The data estimate p to be $\hat{p}=0.675$. The null hypothesis claims that $p = 0.64$. There is a difference of 0.035 (3.5 percentage points) between the data and the null hypothesis with respect to what they each tell us about p.
 :::
 
 There is a problem with just looking at the difference between the sample proportion $\hat{p}$ and the null value $p_0$. Examples 2 and 3 illustrate this problem very well.
@@ -72,9 +72,9 @@ In example 2 we have a difference of 3.3 percentage points between the data and 
 
 ## Check Your Understanding: Why We Standardize the Test Statistic
 
-:::{quiz} Two studies each find a sample proportion 4 percentage points above the null value. Study A used n = 50; study B used n = 2,000. Which study provides stronger evidence against the null hypothesis?
+:::{quiz} Two studies each find a sample proportion 4 percentage points above the null value. Study A used $n = 50$; study B used $n = 2{,}000$. Which study provides stronger evidence against the null hypothesis?
 :hint: How much do sample proportions vary from sample to sample when n is small versus large?
-:feedback-0: Correct! With n = 2,000, sample proportions vary little, so a 4-point gap is very surprising under H₀. With n = 50, such a gap could easily occur by chance.
+:feedback-0: Correct! With $n = 2{,}000$, sample proportions vary little, so a 4-point gap is very surprising under $H_0$. With $n = 50$, such a gap could easily occur by chance.
 :feedback-1: With only 50 observations, a 4-point difference could easily arise by random chance—it is weaker evidence.
 :feedback-2: The sample size matters a great deal: the same difference is far more surprising when it comes from a large sample.
 * *Study B—the same difference from a larger sample is more surprising under the null hypothesis
@@ -82,7 +82,7 @@ In example 2 we have a difference of 3.3 percentage points between the data and 
 * Both provide equally strong evidence, since the differences are equal
 :::
 
-:::{quiz} Why can't the difference p-hat − p₀ serve as the test statistic by itself?
+:::{quiz} Why can't the difference p-hat - $p_0$ serve as the test statistic by itself?
 :hint: Think about what the previous question demonstrated.
 :feedback-0: Correct! The same raw difference means different things depending on sample-to-sample variability, so we must standardize it—accounting for the sample size—before we can judge how surprising it is.
 :feedback-1: The difference can be computed in every study; the problem is interpreting it without a scale.

@@ -7,7 +7,7 @@ In the previous section we considered situations in which all the possible outco
 ```{admonition} Rule 1
 :class: note
 
-*For any event A, 0 ≤ P(A) ≤ 1.*
+*For any event A, $0 \leq$ P(A) $\leq 1.*$
 ```
 
 This first rule simply reminds us of the basic property of probability that we've already learned. The probability of an event, which informs us of the likelihood of it occurring, can range anywhere from 0 (indicating that the event will never occur) to 1 (indicating that the event is certain). One practical use of this rule is that it can be used to identify any probability calculation that comes out to be more than 1 as wrong.
@@ -25,7 +25,7 @@ As previously discussed, all human blood can be typed as O, A, B or AB. In addit
 
 *Motivating question for rule 2:* A person in the United States is chosen at random. What is the probability of the person having blood type A?
 
-*Answer:* Our intuition tells us that since the four blood types O, A, B, and AB exhaust all the possibilities, their probabilities together must sum to 1, which is the probability of a "certain" event (a person has one of these 4 blood types for certain). Since the probabilities of O, B, and AB together sum to 0.44 + 0.10 + 0.04 = 0.58, the probability of type A must be the remaining 0.42 (1 − 0.58 = 0.42):
+*Answer:* Our intuition tells us that since the four blood types O, A, B, and AB exhaust all the possibilities, their probabilities together must sum to 1, which is the probability of a "certain" event (a person has one of these 4 blood types for certain). Since the probabilities of O, B, and AB together sum to $0.44 + 0.10 + 0.04 = 0.58$, the probability of type A must be the remaining $0.42 (1 - 0.58 = 0.42)$:
 
 | Blood Type | O | A | B | AB |
 | --- | --- | --- | --- | --- |
@@ -56,7 +56,7 @@ Even though what we're doing here is indeed similar to what we've done in the ED
 
 :::{quiz} A four-sided spinner has regions with probabilities P(red) = 0.35, P(blue) = 0.25, and P(green) = 0.15. What must P(yellow) be?
 :hint: The probabilities of all outcomes must sum to 1 (Rule 2).
-:feedback-0: Correct! P(yellow) = 1 − (0.35 + 0.25 + 0.15) = 0.25.
+:feedback-0: Correct! P(yellow) = $1 - (0.35 + 0.25 + 0.15) = 0.25$.
 :feedback-1: Check the sum: the three given probabilities total 0.75, leaving 0.25 for yellow.
 :feedback-2: Probabilities must sum to exactly 1, so yellow's probability is fully determined.
 * *0.25

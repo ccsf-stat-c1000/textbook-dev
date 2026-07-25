@@ -39,7 +39,7 @@ A flight has been overbooked; however, there are 2 seats available—one in busi
 :::{quiz} How many outcomes are in the sample space for this experiment?
 :hint: The first choice gets first class and the second gets business class, so order matters: 4 choices, then 3.
 :feedback-0: 6 would be correct if order didn't matter—but here the two seats are different, so (M1, F1) and (F1, M1) are different outcomes.
-:feedback-1: Correct! Since the seats differ, order matters: 4 × 3 = 12 ordered pairs.
+:feedback-1: Correct! Since the seats differ, order matters: $4 \times 3 = 12$ ordered pairs.
 :feedback-2: 16 would allow the same passenger to be chosen twice, which is impossible.
 * 6
 * *12
@@ -48,7 +48,7 @@ A flight has been overbooked; however, there are 2 seats available—one in busi
 
 :::{quiz} What is the probability that both upgraded passengers are female?
 :hint: Count the ordered pairs of two females: (F1, F2) and (F2, F1).
-:feedback-0: Correct! 2 of the 12 equally likely ordered outcomes consist of two females: 2/12 = 1/6.
+:feedback-0: Correct! 2 of the 12 equally likely ordered outcomes consist of two females: $2/12 = 1/6$.
 :feedback-1: 1/4 ignores that the choices are made without replacement from a small group.
 :feedback-2: 2/6 would be the answer if order didn't matter and there were only 6 outcomes—but then only 1 outcome, {F1, F2}, has two females, giving 1/6 again.
 * *1/6

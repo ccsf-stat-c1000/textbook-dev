@@ -6,19 +6,19 @@ Now that you understand what each of the five numbers means, you can appreciate 
 
 The boxplot graphically represents the distribution of a quantitative variable by visually displaying the five-number summary and any observation that was classified as a suspected outlier using the 1.5(IQR) criterion.
 
-There are several ways to plot the whiskers on a boxplot. One convention is to plot whiskers down to the minimum and up to the maximum value. We use the 1.5(IQR) criterion, also known as the Tukey method, for plotting whiskers. First, calculate the IQR, the difference between the 75th and 25th percentiles (or Q3 − Q1). Multiply the IQR by 1.5. Add this value to the 75th percentile. If the value is greater than (or equal to) the maximum value in the dataset, draw the upper whisker to the maximum value. Otherwise, stop the whisker at the largest value that is less than Q3 + 1.5 × IQR. Plot any values that are greater than this as individual points that are outliers. Similarly, subtract 1.5 × IQR from the 25th percentile. If this value is smaller than the minimum value in the dataset, draw the lower whisker to the minimum value. Otherwise, stop the whisker at the lowest value that is greater than Q1 − 1.5 × IQR. Plot any values that are smaller than this as individual points that are outliers.
+There are several ways to plot the whiskers on a boxplot. One convention is to plot whiskers down to the minimum and up to the maximum value. We use the 1.5(IQR) criterion, also known as the Tukey method, for plotting whiskers. First, calculate the IQR, the difference between the 75th and 25th percentiles (or Q3 - Q1). Multiply the IQR by 1.5. Add this value to the 75th percentile. If the value is greater than (or equal to) the maximum value in the dataset, draw the upper whisker to the maximum value. Otherwise, stop the whisker at the largest value that is less than Q3 + $1.5 \times$ IQR. Plot any values that are greater than this as individual points that are outliers. Similarly, subtract $1.5 \times$ IQR from the 25th percentile. If this value is smaller than the minimum value in the dataset, draw the lower whisker to the minimum value. Otherwise, stop the whisker at the lowest value that is greater than Q1 - $1.5 \times$ IQR. Plot any values that are smaller than this as individual points that are outliers.
 
 Using the Best Actress dataset, here is how we determine where to draw the whiskers:
 
 - Q3 = 42
 - Q1 = 30.5
-- IQR: 42 − 30.5 = 11.5
-- 1.5 × IQR = 1.5 × 11.5 = 17.25
-- Q3 + 1.5 × IQR = 42 + 17.25 = 59.25
+- IQR: $42 - 30.5 = 11.5$
+- $1.5 \times$ IQR = $1.5 \times 11.5 = 17.25$
+- Q3 + $1.5 \times$ IQR = $42 + 17.25 = 59.25$
 
 The largest observation that is less than or equal to 59.25 is 49, so we draw the upper whisker up to 49. All points above 49 are considered outliers (61, 61, 62, 74, 80).
 
-Q1 − 1.5 × IQR = 30.5 − 17.25 = 13.25
+Q1 - $1.5 \times$ IQR = $30.5 - 17.25 = 13.25$
 
 The smallest observation that is greater than or equal to 13.25 is 21, so we draw the lower whisker down to 21, which is also the minimum. There are no low outliers.
 

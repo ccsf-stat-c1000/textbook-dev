@@ -7,7 +7,7 @@ The probability distribution for two flips of a coin was simple enough to constr
 
 A coin is tossed three times. Let the random variable X be the number of tails. Find the probability distribution of X. We'll follow the same reasoning we used in the previous example:
 
-First, we specify the 8 possible outcomes in S, along with the probability of each outcome, and figure out the value of X (number of tails) for each. (Because they are all equally likely, each has probability 1/8. Alternatively, by the multiplication principle, each particular sequence of three coin faces has probability 1/2 × 1/2 × 1/2 = 1/8.)
+First, we specify the 8 possible outcomes in S, along with the probability of each outcome, and figure out the value of X (number of tails) for each. (Because they are all equally likely, each has probability 1/8. Alternatively, by the multiplication principle, each particular sequence of three coin faces has probability $1/2 \times 1/2 \times 1/2 = 1/8.)$
 
 | Outcome | Probability | X |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ First, we specify the 8 possible outcomes in S, along with the probability of ea
 
 Next, we use the addition principle to assert that
 
-P(X = 1) = P(HHT or HTH or THH) = P(HHT) + P(HTH) + P(THH) = 1/8 + 1/8 + 1/8 = 3/8.
+P(X = 1) = P(HHT or HTH or THH) = P(HHT) + P(HTH) + P(THH) = $1/8 + 1/8 + 1/8 = 3/8$.
 
 Similarly, P(X = 2) = P(HTT or THT or TTH) = 3/8.
 
@@ -45,7 +45,7 @@ Our goal is to find the probability distribution of X. In other words, we would 
 
 :::{quiz} What are the possible outcomes of this "experiment," and their probabilities?
 :hint: The couple stops at the first boy, or after three children. The possible sequences are B, GB, GGB, GGG.
-:feedback-0: Correct! P(B) = 1/2; P(GB) = (1/2)(1/2) = 1/4; P(GGB) = 1/8; P(GGG) = 1/8.
+:feedback-0: Correct! P(B) = 1/2; P(GB) = $(1/2)(1/2) = 1/4$; P(GGB) = 1/8; P(GGG) = 1/8.
 :feedback-1: The couple stops after a boy, so sequences like BG or BB can't happen.
 :feedback-2: The four outcomes are not equally likely—stopping early makes B much more likely than GGB.
 * *B (1/2), GB (1/4), GGB (1/8), GGG (1/8)
@@ -55,7 +55,7 @@ Our goal is to find the probability distribution of X. In other words, we would 
 
 :::{quiz} What is P(X = 1), the probability that the couple has exactly one child?
 :hint: Which outcome gives exactly one child?
-:feedback-0: Correct! X = 1 only for the outcome B, so P(X = 1) = 1/2.
+:feedback-0: Correct! $X = 1$ only for the outcome B, so P(X = $1) = 1/2$.
 :feedback-1: 1/4 is the probability of GB, which gives two children.
 :feedback-2: With four possible outcomes but unequal probabilities, don't use 1/4 per outcome.
 * *1/2
@@ -64,8 +64,8 @@ Our goal is to find the probability distribution of X. In other words, we would 
 :::
 
 :::{quiz} What is P(X = 3), the probability that the couple has three children?
-:hint: X = 3 happens for GGB or GGG.
-:feedback-0: Correct! P(X = 3) = P(GGB) + P(GGG) = 1/8 + 1/8 = 1/4.
+:hint: $X = 3$ happens for GGB or GGG.
+:feedback-0: Correct! P(X = 3) = P(GGB) + P(GGG) = $1/8 + 1/8 = 1/4$.
 :feedback-1: 1/8 counts only one of the two outcomes with three children.
 :feedback-2: Check: the probability of two girls first is 1/4, and then the third child's gender doesn't change the count of children.
 * *1/4
@@ -79,4 +79,4 @@ So the probability distribution of X is:
 | --- | --- | --- | --- |
 | P(X = x) | 1/2 | 1/4 | 1/4 |
 
-(Check: 1/2 + 1/4 + 1/4 = 1. ✓)
+(Check: $1/2 + 1/4 + 1/4 = 1$. ✓)

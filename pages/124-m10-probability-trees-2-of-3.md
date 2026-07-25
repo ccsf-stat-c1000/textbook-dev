@@ -17,7 +17,7 @@ P(V) = P(C and V) + P(not C and V).
 
 Applying the General Multiplication Rule to each term, we have
 
-P(V) = P(C) × P(V | C) + P(not C) × P(V | not C) = 0.4 × 0.9 + 0.6 × 0.3 = 0.36 + 0.18 = 0.54.
+P(V) = P(C) $\times$ P(V | C) + P(not C) $\times$ P(V | not C) = $0.4 \times 0.9 + 0.6 \times 0.3 = 0.36 + 0.18 = 0.54$.
 
 The overall probability that the sales rep will take the Bermuda vacation is 0.54. The tree diagram below shows the probabilities obtained via the general multiplication rule, and then the addition rule:
 
@@ -37,7 +37,7 @@ In order to illustrate the background situation of either getting the commission
 :alt: A rectangle representing the sample space is divided into a left region for C and a right region for not C. An ellipse representing V straddles the dividing line, so that V is split into two disjoint pieces: C and V on the left, and not C and V on the right.
 ```
 
-The diagram shows that V = (C and V) or (not C and V), where (C and V) and (not C and V) are disjoint. Applying first the Addition Rule for Disjoint Events and then the General Multiplication Rule, we have P(V) = P(C and V) + P(not C and V) = P(C) × P(V | C) + P(not C) × P(V | not C), just as we saw in our tree diagram.
+The diagram shows that V = (C and V) or (not C and V), where (C and V) and (not C and V) are disjoint. Applying first the Addition Rule for Disjoint Events and then the General Multiplication Rule, we have P(V) = P(C and V) + P(not C and V) = P(C) $\times$ P(V | C) + P(not C) $\times$ P(V | not C), just as we saw in our tree diagram.
 
 We can generalize our solution to obtain an expression for the probability of any event B, based on how B is impacted by the occurrence or non-occurrence of some other event A. We call this the *Law of Total Probability:*
 
@@ -55,7 +55,7 @@ P(C | V) = P(C and V) / P(V)
 
 and now, using the tree, and our earlier result (P(V) = 0.54), we get:
 
-P(C | V) = P(C and V) / P(V) = 0.36/0.54 = 0.67
+P(C | V) = P(C and V) / P(V) = $0.36/0.54 = 0.67$
 
 Thus, if it is known that the sales rep left for the Bermuda vacation, it is more likely than not that the commission came through.
 :::

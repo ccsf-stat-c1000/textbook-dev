@@ -23,7 +23,7 @@ Recall that X is the number of defective parts per hour in Xavier's production l
 
 $\mu_{X}=1.8$ and $\sigma_{X}=1.21$.
 
-We are interested in a new random variable, "50 + 5X," which represents the hourly cost of operation for Xavier's production line. Note that 50 + 5X is of the form "a + bX" (where a = 50 and b = 5), so in order to find the mean and standard deviation of this new random variable, we can use the rules above:
+We are interested in a new random variable, "50 + 5X," which represents the hourly cost of operation for Xavier's production line. Note that 50 + 5X is of the form "a + bX" (where $a = 50$ and $b = 5)$, so in order to find the mean and standard deviation of this new random variable, we can use the rules above:
 
 $$\mu_{50+5X}=50+5\mu_{X}=50+5(1.8)=59$$
 
@@ -37,19 +37,19 @@ So, we can conclude that the hourly costs for Xavier's production line average \
 ## Check Your Understanding: Linear Transformations of a Random Variable
 
 :::{quiz} A random variable X has mean 10 and standard deviation 2. What are the mean and standard deviation of 3X + 4?
-:hint: Mean: a + bμ = 4 + 3(10). SD: |b|σ = 3(2)—the added constant doesn't affect spread.
-:feedback-0: Correct! μ = 4 + 3(10) = 34, and σ = 3 × 2 = 6.
+:hint: Mean: $a + b\mu = 4 + 3(10)$. SD: $|b|\sigma$ = 3(2)—the added constant doesn't affect spread.
+:feedback-0: Correct! $\mu = 4 + 3(10) = 34$, and $\sigma = 3 \times 2 = 6$.
 :feedback-1: The constant 4 shifts the mean but has no effect on the standard deviation.
-:feedback-2: The mean of 3X + 4 is 3(10) + 4 = 34, not 30—don't forget the added constant (for the mean only).
+:feedback-2: The mean of 3X + 4 is $3(10) + 4 = 34$, not 30—don't forget the added constant (for the mean only).
 * *Mean 34, standard deviation 6
 * Mean 34, standard deviation 10
 * Mean 30, standard deviation 6
 :::
 
-:::{quiz} Temperatures in Celsius (C) at a weather station have mean 20 and standard deviation 5. Fahrenheit temperature is F = 32 + 1.8C. What are the mean and standard deviation of F?
-:hint: Apply the linear transformation rules with a = 32 and b = 1.8.
-:feedback-0: Correct! μ(F) = 32 + 1.8(20) = 68, and σ(F) = 1.8 × 5 = 9.
-:feedback-1: The 32 shifts the center but not the spread: σ(F) = 1.8 × 5 = 9, not 41.
+:::{quiz} Temperatures in Celsius (C) at a weather station have mean 20 and standard deviation 5. Fahrenheit temperature is $F = 32$ + 1.8C. What are the mean and standard deviation of F?
+:hint: Apply the linear transformation rules with $a = 32$ and $b = 1.8$.
+:feedback-0: Correct! $\mu(F) = 32 + 1.8(20) = 68$, and $\sigma(F) = 1.8 \times 5 = 9$.
+:feedback-1: The 32 shifts the center but not the spread: $\sigma(F) = 1.8 \times 5 = 9$, not 41.
 :feedback-2: Don't forget to add 32 when transforming the mean.
 * *Mean 68, standard deviation 9
 * Mean 68, standard deviation 41

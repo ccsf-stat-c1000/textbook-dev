@@ -25,7 +25,7 @@ $$0.997=P(\mu-3\sigma<X<\mu+3\sigma)$$
 ::::{admonition} Comment
 :class: important
 
-Notice that the information from the rule can be interpreted from the perspective of the tails of the normal curve: since 0.68 is the probability of being within 1 standard deviation of the mean, (1 − 0.68)/2 = 0.16 is the probability of being further than 1 standard deviation below the mean (or further than 1 standard deviation above the mean). Likewise, (1 − 0.95)/2 = 0.025 is the probability of being more than 2 standard deviations below (or above) the mean; (1 − 0.997)/2 = 0.0015 is the probability of being more than 3 standard deviations below (or above) the mean. The figure below illustrates this:
+Notice that the information from the rule can be interpreted from the perspective of the tails of the normal curve: since 0.68 is the probability of being within 1 standard deviation of the mean, $(1 - 0.68)/2 = 0.16$ is the probability of being further than 1 standard deviation below the mean (or further than 1 standard deviation above the mean). Likewise, $(1 - 0.95)/2 = 0.025$ is the probability of being more than 2 standard deviations below (or above) the mean; $(1 - 0.997)/2 = 0.0015$ is the probability of being more than 3 standard deviations below (or above) the mean. The figure below illustrates this:
 
 ```{figure} images/gen/m11-normal-tails.svg
 :alt: A normal curve in which the middle region within one standard deviation of the mean holds probability 0.68, and each shaded tail beyond one standard deviation holds probability 0.16. The caption notes that 0.025 lies beyond two standard deviations on each side, and 0.0015 beyond three.
@@ -52,7 +52,7 @@ Now you should try a few. (Use the figure in the example to help you.)
 
 :::{quiz} (d) What is the probability that a randomly chosen adult male will have a foot length between 9.5 and 12.5 inches?
 :hint: 9.5 and 12.5 are each 1 standard deviation from the mean of 11.
-:feedback-0: Correct! This is the within-1σ interval, so the probability is 0.68.
+:feedback-0: Correct! This is the $within-1\sigma$ interval, so the probability is 0.68.
 :feedback-1: 0.95 corresponds to within 2 standard deviations (8 to 14 inches).
 :feedback-2: 0.16 is the probability in ONE tail beyond 1 standard deviation.
 * *0.68
@@ -62,7 +62,7 @@ Now you should try a few. (Use the figure in the example to help you.)
 
 :::{quiz} (e) What is the probability that a randomly chosen adult male will have a foot length of less than 8 inches?
 :hint: 8 is 2 standard deviations below the mean.
-:feedback-0: Correct! (1 − 0.95)/2 = 0.025.
+:feedback-0: Correct! $(1 - 0.95)/2 = 0.025$.
 :feedback-1: 0.05 is the total probability in both tails beyond 2 standard deviations; the question asks about only the lower tail.
 :feedback-2: 0.16 is the probability of being more than 1 (not 2) standard deviation below the mean.
 * *0.025
@@ -72,7 +72,7 @@ Now you should try a few. (Use the figure in the example to help you.)
 
 :::{quiz} (f) The probability is 16% that an adult male will have a foot length greater than how many inches?
 :hint: 16% is the upper tail beyond 1 standard deviation above the mean.
-:feedback-0: Correct! 0.16 is the probability of exceeding μ + σ = 11 + 1.5 = 12.5 inches.
+:feedback-0: Correct! 0.16 is the probability of exceeding $\mu + \sigma = 11 + 1.5 = 12.5$ inches.
 :feedback-1: 14 corresponds to the upper 2.5% tail, not 16%.
 :feedback-2: 11 is the mean; 50% of foot lengths exceed it.
 * *12.5

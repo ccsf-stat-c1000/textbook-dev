@@ -2,15 +2,15 @@
 
 ## Using Confidence Intervals to Compare Means
 
-The ANOVA F-test does not provide any insight into *why* $H_0$ was rejected; it does not tell us in what way $\mu_1, \mu_2, \ldots, \mu_k$ are not all equal. We would like to know which pairs of μ's are not equal. As an exploratory (or visual) aid to get that insight, we may take a look at the confidence intervals for the group population means that appear in the output. More specifically, we should look at the position of the confidence intervals and the overlap (or lack thereof) between them.
+The ANOVA F-test does not provide any insight into *why* $H_0$ was rejected; it does not tell us in what way $\mu_1, \mu_2, \ldots, \mu_k$ are not all equal. We would like to know which pairs of $\mu's$ are not equal. As an exploratory (or visual) aid to get that insight, we may take a look at the confidence intervals for the group population means that appear in the output. More specifically, we should look at the position of the confidence intervals and the overlap (or lack thereof) between them.
 
-If the confidence interval for, say, $\mu_i$ overlaps with the confidence interval for $\mu_j$, then $\mu_i$ and $\mu_j$ share some plausible values, which means that based on the data we have no evidence that these two μ's are different.
+If the confidence interval for, say, $\mu_i$ overlaps with the confidence interval for $\mu_j$, then $\mu_i$ and $\mu_j$ share some plausible values, which means that based on the data we have no evidence that these two $\mu's$ are different.
 
 ```{figure} images/gen/m16-ci-overlap.svg
 :alt: Two confidence intervals on a number line that overlap, indicating shared plausible values and therefore no evidence that the two means differ.
 ```
 
-If the confidence interval for $\mu_i$ does not overlap with the confidence interval for $\mu_j$, then $\mu_i$ and $\mu_j$ do not share plausible values, which means that the data suggest that these two μ's are different.
+If the confidence interval for $\mu_i$ does not overlap with the confidence interval for $\mu_j$, then $\mu_i$ and $\mu_j$ do not share plausible values, which means that the data suggest that these two $\mu's$ are different.
 
 ```{figure} images/gen/m16-ci-no-overlap.svg
 :alt: Two confidence intervals on a number line that do not overlap, with the interval for mu i lying entirely below the interval for mu j, suggesting that mu i is smaller than mu j.
@@ -43,9 +43,9 @@ Note that this is only an exploratory/visual way of getting an impression of why
 
 - The ANOVA F-test is used for comparing more than two population means when the samples (drawn from each of the populations we are comparing) are independent. We encounter this situation when we want to examine the relationship between a quantitative response variable and a categorical explanatory variable that has more than two values.
 
-- The hypotheses that are being tested in the ANOVA F-test are $H_0: \mu_1=\mu_2=\cdots=\mu_k$ vs. $H_a$: not all the μ's are equal.
+- The hypotheses that are being tested in the ANOVA F-test are $H_0: \mu_1=\mu_2=\cdots=\mu_k$ vs. $H_a$: not all the $\mu's$ are equal.
 
-- The idea behind the ANOVA F-test is to check whether the variation among the sample means is due to true differences among the μ's or merely due to sampling variability, by looking at
+- The idea behind the ANOVA F-test is to check whether the variation among the sample means is due to true differences among the $\mu's$ or merely due to sampling variability, by looking at
 
   $$F=\frac{\text{variation among the sample means}}{\text{variation within the groups}}$$
 
@@ -55,12 +55,12 @@ Note that this is only an exploratory/visual way of getting an impression of why
 
 ## Check Your Understanding
 
-:::{quiz} An ANOVA rejects H₀, and the 95% confidence intervals for the three group means are: group 1 (10, 14), group 2 (13, 17), group 3 (20, 24). What impression do the intervals give?
+:::{quiz} An ANOVA rejects $H_0$, and the 95% confidence intervals for the three group means are: group 1 (10, 14), group 2 (13, 17), group 3 (20, 24). What impression do the intervals give?
 :hint: Check which intervals overlap.
-:feedback-0: Correct! Group 3's interval doesn't overlap either of the others (suggesting μ₃ is larger), while groups 1 and 2 overlap on (13, 14), so we have no evidence those two means differ.
+:feedback-0: Correct! Group 3's interval doesn't overlap either of the others (suggesting $\mu_3$ is larger), while groups 1 and 2 overlap on (13, 14), so we have no evidence those two means differ.
 :feedback-1: Groups 1 and 2 DO overlap (both contain values between 13 and 14).
 :feedback-2: The intervals give useful exploratory insight, even though a formal analysis would require multiple comparisons.
-* *μ₃ appears larger than the other two means; μ₁ and μ₂ may not differ
+* *$\mu_3$ appears larger than the other two means; $\mu_1$ and $\mu_2$ may not differ
 * All three means appear different from each other
 * The intervals tell us nothing about which means differ
 :::

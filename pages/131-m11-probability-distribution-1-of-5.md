@@ -17,11 +17,11 @@ Recall our first example, when we introduced the idea of a random variable. In t
 
 What is the probability distribution of X, where the random variable X is the number of tails appearing in two tosses of a fair coin?
 
-We first note that since the coin is fair, each of the four outcomes HH, HT, TH, TT in the sample space S is equally likely, and so each has a probability of 1/4. (Alternatively, the multiplication principle can be applied to find the probability of each outcome to be 1/2 × 1/2 = 1/4.)
+We first note that since the coin is fair, each of the four outcomes HH, HT, TH, TT in the sample space S is equally likely, and so each has a probability of 1/4. (Alternatively, the multiplication principle can be applied to find the probability of each outcome to be $1/2 \times 1/2 = 1/4.)$
 
-- X takes the value 0 only for the outcome HH, so the probability that X = 0 is 1/4.
-- X takes the value 1 for outcomes HT or TH. By the addition principle, the probability that X = 1 is 1/4 + 1/4 = 1/2.
-- Finally, X takes the value 2 only for the outcome TT, so the probability that X = 2 is 1/4.
+- X takes the value 0 only for the outcome HH, so the probability that $X = 0$ is 1/4.
+- X takes the value 1 for outcomes HT or TH. By the addition principle, the probability that $X = 1$ is $1/4 + 1/4 = 1/2$.
+- Finally, X takes the value 2 only for the outcome TT, so the probability that $X = 2$ is 1/4.
 
 The *probability distribution of the random variable X* is easily summarized in a table:
 
@@ -34,7 +34,7 @@ As mentioned before, we write "P(X = x)" to denote "the probability that the ran
 
 The way to interpret this table is:
 
-X takes the values 0, 1, 2 and P(X = 0) = 1/4, P(X = 1) = 1/2, P(X = 2) = 1/4.
+X takes the values 0, 1, 2 and P(X = $0) = 1/4$, P(X = $1) = 1/2$, P(X = $2) = 1/4$.
 
 Note that events of the type (X = x) are subject to the principles of probability established earlier, and will provide us with a way of systematically exploring the behavior of random variables. In particular, the first two principles in the context of probability distributions of random variables will now be stated.
 
@@ -47,10 +47,10 @@ Any probability distribution of a discrete random variable must satisfy:
 
 :::{quiz} Which of the following tables is a legitimate probability distribution for a discrete random variable?
 :hint: Each probability must be between 0 and 1, and all probabilities must sum to exactly 1.
-:feedback-0: Correct! 0.2 + 0.5 + 0.3 = 1, and each value is between 0 and 1.
+:feedback-0: Correct! $0.2 + 0.5 + 0.3 = 1$, and each value is between 0 and 1.
 :feedback-1: These probabilities sum to 0.9, not 1.
 :feedback-2: A probability of 1.1 is impossible—probabilities can't exceed 1.
 * *P(X=1) = 0.2, P(X=2) = 0.5, P(X=3) = 0.3
 * P(X=1) = 0.4, P(X=2) = 0.3, P(X=3) = 0.2
-* P(X=1) = 1.1, P(X=2) = −0.1
+* P(X=1) = 1.1, P(X=2) = -0.1
 :::
