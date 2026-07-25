@@ -175,10 +175,15 @@ def wrap_line(line):
     return ''.join(parts)
 
 def convert(text):
+    # Make escaped dollar signs (\$ = literal currency) inert so they are never
+    # treated as inline-math delimiters, then restore them at the very end.
+    text=text.replace('\\$', '\x02')
     text, stash = protect(text)
     text='\n'.join(wrap_line(ln) for ln in text.split('\n'))
     text=text.replace('−','-')   # stray typographic minus -> hyphen
-    return restore(text, stash)
+    text=restore(text, stash)
+    text=text.replace('\x02', '\\$')
+    return text
 
 if __name__=='__main__':
     data=sys.stdin.read() if len(sys.argv)<2 else open(sys.argv[1],encoding='utf-8').read()

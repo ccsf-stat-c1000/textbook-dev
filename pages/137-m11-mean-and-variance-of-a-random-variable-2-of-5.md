@@ -17,7 +17,7 @@ Find the mean gain per pizza, $\mu_{X}$.
 
 In order to find the mean of X, we first need to establish its probability distribution—the possible values and their probabilities.
 
-The random variable X has two possible values: either the pizza costs them \$6 to make and they sell it for \$10, in which case X takes the value \$10 − \$6 = \$4, or it costs them \$6 to make and they give it away, in which case X takes the value \$0 − \$6 = -\$6. The probability of the latter case is given to be 10 percent, or 0.1, so using complements, the former has probability 0.9. Here, then, is the probability distribution of X:
+The random variable X has two possible values: either the pizza costs them \$6 to make and they sell it for \$10, in which case X takes the value \$10 - \$6 = \$4, or it costs them \$6 to make and they give it away, in which case X takes the value \$0 - \$6 = -\$6. The probability of the latter case is given to be 10 percent, or 0.1, so using complements, the former has probability 0.9. Here, then, is the probability distribution of X:
 
 | x | +4 | -6 |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ The Acme Shipping Company has learned from experience that it costs \$14.80 to d
 
 :::{quiz} What are the possible values of X, the company's gain on one package?
 :hint: The delivery costs \$14.80 either way; the revenue is \$20 or \$0.
-:feedback-0: Correct! On time: $20 - 14.80$ = +\$5.20. Late (refunded): 0 − 14.80 = −\$14.80.
+:feedback-0: Correct! On time: $20 - 14.80$ = +\$5.20. Late (refunded): $0 - 14.80$ = -\$14.80.
 :feedback-1: The cost of delivery is incurred whether or not the package is late.
 :feedback-2: When the package is late, the \$20 is refunded, so the company loses its \$14.80 delivery cost.
 * *+$5.20 (on time) and −$14.80 (late)

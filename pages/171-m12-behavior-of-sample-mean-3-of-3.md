@@ -61,7 +61,7 @@ The purpose of the next activity is to give guided practice in finding the sampl
 
 ## Check Your Understanding: Probabilities for a Sample Mean
 
-The annual salary of teachers in a certain state has a mean of \$54,000 and standard deviation of σ = \$5,000.
+The annual salary of teachers in a certain state has a mean of \$54,000 and standard deviation of $\sigma$ = \$5,000.
 
 :::{quiz} For random samples of 64 teachers, what are the mean and standard deviation of the sampling distribution of the mean salary?
 :hint: Mean = $\mu$; SD = $5{,}000/\sqrt{64}$.
