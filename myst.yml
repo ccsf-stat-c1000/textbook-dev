@@ -46,11 +46,11 @@ project:
   # because the Unit/Section headings in toc.yml are labels, not pages.
   # Page numbers shift if pages are added, removed, or reordered; re-run
   # scripts/make_page_index.py afterwards to refresh the instructor index.
-  # numbering:
-  #   title:
-  #     enabled: true
-  #     offset: 0
-  #     enumerator: "(%s)"
+  numbering:
+    title:
+      enabled: true
+      offset: 0
+      enumerator: "%s."
 
 extends:
   - toc.yml
