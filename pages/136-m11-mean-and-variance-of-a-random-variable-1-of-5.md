@@ -95,7 +95,7 @@ Look at both probability distributions. Both X and Y take the same possible valu
 :feedback-0: Correct! The expected winnings are \$0.50—less than the \$1 cost, so on average players lose money.
 :feedback-1: \$500 is the prize, not the long-run average per ticket.
 :feedback-2: The expected value weights the prize by its (small) probability.
-* *$0.50
-* $500
-* $1
+* *\$0.50
+* \$500
+* \$1
 :::

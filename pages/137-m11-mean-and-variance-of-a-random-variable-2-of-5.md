@@ -54,12 +54,12 @@ The Acme Shipping Company has learned from experience that it costs \$14.80 to d
 
 :::{quiz} What are the possible values of X, the company's gain on one package?
 :hint: The delivery costs \$14.80 either way; the revenue is \$20 or \$0.
-:feedback-0: Correct! On time: $20 - 14.80$ = +\$5.20. Late (refunded): $0 - 14.80$ = -\$14.80.
+:feedback-0: Correct! On time: \$20 - \$14.80 = +\$5.20. Late (refunded): \$0 - \$14.80 = -\$14.80.
 :feedback-1: The cost of delivery is incurred whether or not the package is late.
 :feedback-2: When the package is late, the \$20 is refunded, so the company loses its \$14.80 delivery cost.
-* *+$5.20 (on time) and −$14.80 (late)
-* +$20 (on time) and $0 (late)
-* +$5.20 (on time) and $0 (late)
+* *+\$5.20 (on time) and -\$14.80 (late)
+* +\$20 (on time) and \$0 (late)
+* +\$5.20 (on time) and \$0 (late)
 :::
 
 :::{quiz} What is the probability distribution of X?
@@ -75,9 +75,9 @@ The Acme Shipping Company has learned from experience that it costs \$14.80 to d
 :feedback-0: Correct! $\mu(X) = 5.096 - 0.296$ = \$4.80 per package in the long run.
 :feedback-1: \$5.20 ignores the occasional refunds, which lower the long-run average.
 :feedback-2: Remember to weight each value by its probability before adding.
-* *$4.80
-* $5.20
-* $2.60
+* *\$4.80
+* \$5.20
+* \$2.60
 :::
 
 :::{admonition} Example: Raffle

@@ -73,7 +73,7 @@ $$\sigma_{X}+\sigma_{Y}=1.21+0.85=2.06\neq\sigma_{X+Y}=1.48$$
 :feedback-0: Correct! $\mu(M+A) = 500 + 700$ = \$1,200—and note the means add whether or not the variables are independent.
 :feedback-1: 600 is the average of the two means; the total revenue is their sum.
 :feedback-2: No independence assumption is needed for adding means—only for adding variances.
-* *$1,200
-* $600
+* *\$1,200
+* \$600
 * It cannot be found without knowing the variances
 :::

@@ -68,9 +68,9 @@ The annual salary of teachers in a certain state has a mean of \$54,000 and stan
 :feedback-0: Correct! Mean = \$54,000 and SD = 5,000/8 = \$625.
 :feedback-1: Divide $\sigma$ by $\sqrt{64} = 8$, not by 64.
 :feedback-2: The center of the sampling distribution is the population mean, \$54,000.
-* *Mean $54,000, SD $625
-* Mean $54,000, SD $78.13
-* Mean $52,000, SD $625
+* *Mean \$54,000, SD \$625
+* Mean \$54,000, SD \$78.13
+* Mean \$52,000, SD \$625
 :::
 
 :::{quiz} What is the probability that the mean annual salary of a random sample of 64 teachers from this state is less than \$52,000?

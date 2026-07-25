@@ -74,9 +74,9 @@ Let the random variable X be the insurance company's annual gain from such a pol
 :feedback-0: Correct! $\mu(X) = -197.30 - 389.20 + 1{,}336.50$ = \$750.
 :feedback-1: \$1,350 ignores the fire payouts, which lower the long-run average.
 :feedback-2: Check the arithmetic: the three weighted terms are -197.30, -389.20, and +1,336.50.
-* *$750
-* $1,350
-* $550
+* *\$750
+* \$1,350
+* \$550
 :::
 
 :::{quiz} Which is the best interpretation of this expected gain?

@@ -19,9 +19,9 @@ The Federal Pell Grant Program provides need-based grants to low-income undergra
 :feedback-0: Correct! Mean = \$2,600 and SD = 500/5 = \$100.
 :feedback-1: The standard deviation of the sample mean is $\sigma/\sqrt{n}$, not $\sigma$ itself.
 :feedback-2: $\sqrt{25} = 5$, so the SD is $500/5 = 100$, not 20.
-* *Mean $2,600, SD $100
-* Mean $2,600, SD $500
-* Mean $2,600, SD $20
+* *Mean \$2,600, SD \$100
+* Mean \$2,600, SD \$500
+* Mean \$2,600, SD \$20
 :::
 
 :::{quiz} To cut the standard deviation of the sample mean in half (from \$100 to \$50), how large would the samples need to be?
