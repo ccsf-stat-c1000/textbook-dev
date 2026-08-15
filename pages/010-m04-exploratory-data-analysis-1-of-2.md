@@ -16,5 +16,5 @@ Having discussed how data are produced in the previous unit, we now move on to t
 % exploratory data analysis (EDA) first."
 
 ```{figure} images/gen/big-picture-eda.svg
-:alt: The Big Picture of statistics with Step 2, Exploratory Data Analysis, highlighted. Data are produced from a sample of the population (Step 1), the data are summarized with exploratory data analysis (Step 2, the focus of this unit), and probability and inference (Steps 3 and 4) are then used to draw conclusions about the population.
+:alt: The Big Picture of statistics with Step 2, Exploratory Data Analysis, highlighted. Data are produced from a sample of the population (Step 1), the data are summarized with exploratory data analysis (Step 2, the focus of this unit), and probability (drawn as a cloud to represent theory) and inference (Steps 3 and 4) are then used to draw conclusions about the population.
 ```

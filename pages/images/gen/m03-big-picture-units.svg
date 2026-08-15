@@ -1,30 +1,67 @@
-<svg viewBox="0 0 640 130" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
-  <!-- UNIT ORDER: Producing Data = Unit 1, EDA = Unit 2.
-       To switch back to EDA-first, swap those two labels (EDA = Unit 1, Producing Data = Unit 2). -->
-
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 640 130">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#333333"/>
-    </marker>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .st1, .st2 {
+        fill: #eaf2fb;
+        stroke: #2b6cb0;
+      }
+
+      .st3 {
+        fill: #2b6cb0;
+        font-family: Helvetica-Bold, Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+      }
+
+      .st3, .st4 {
+        isolation: isolate;
+      }
+
+      .st2 {
+        stroke-width: 2px;
+      }
+
+      .st5, .st4 {
+        fill: #333;
+      }
+
+      .st4 {
+        font-family: Helvetica, Helvetica;
+        font-size: 13px;
+      }
+    </style>
   </defs>
-  <!-- Producing Data -->
-  <rect x="10" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="80" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Producing Data</text>
-  <text x="80" y="78" text-anchor="middle" font-size="13">Unit 1</text>
-  <line x1="152" y1="61" x2="166" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
-  <!-- EDA -->
-  <rect x="170" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="240" y="48" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Exploratory</text>
-  <text x="240" y="65" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Data Analysis</text>
-  <text x="240" y="86" text-anchor="middle" font-size="13">Unit 2</text>
-  <line x1="312" y1="61" x2="326" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
-  <!-- Probability -->
-  <rect x="330" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="400" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Probability</text>
-  <text x="400" y="78" text-anchor="middle" font-size="13">Unit 3</text>
-  <line x1="472" y1="61" x2="486" y2="61" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
-  <!-- Inference -->
-  <rect x="490" y="25" width="140" height="72" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="560" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Inference</text>
-  <text x="560" y="78" text-anchor="middle" font-size="13">Unit 4</text>
+  <rect class="st2" x="10" y="25" width="140" height="72" rx="10" ry="10"/>
+  <text class="st3" transform="translate(27.84 66)"><tspan x="0" y="0">Producing Data</tspan></text>
+  <text class="st4" transform="translate(63.43 86)"><tspan x="0" y="0">Unit 1</tspan></text>
+  <path class="st0" d=""/>
+  <path class="st5" d="M153.4,54l14,7-14,7v-14Z"/>
+  <path class="st5" d="M166,61" marker-end="url(#arr)"/>
+  <rect class="st2" x="170" y="25" width="140" height="72" rx="10" ry="10"/>
+  <text class="st3" transform="translate(201.1 48)"><tspan x="0" y="0">Exploratory</tspan></text>
+  <text class="st3" transform="translate(194.35 65)"><tspan x="0" y="0">Data Analysis</tspan></text>
+  <text class="st4" transform="translate(223.02 86)"><tspan x="0" y="0">Unit 2</tspan></text>
+  <path class="st0" d=""/>
+  <path class="st5" d="M313.4,54l14,7-14,7v-14Z"/>
+  <path class="st5" d="M326,61" marker-end="url(#arr)"/>
+  <path class="st1" d="M347.09,95.99c-10.65.02-19.3-8.76-19.32-19.61,0-5.89,2.58-11.47,7.04-15.21.22-13.31,10.99-23.92,24.06-23.7,2.55.04,5.09.51,7.49,1.38,7.98-13.52,25.22-17.89,38.49-9.76,2.68,1.64,5.08,3.74,7.09,6.19,10.76-7.56,25.5-4.81,32.92,6.15,2.01,2.97,3.34,6.36,3.89,9.92,12.1.99,21.13,11.78,20.16,24.11-.97,12.33-11.56,21.52-23.67,20.54h-98.17Z"/>
+  <text class="st3" transform="translate(363.83 66)"><tspan x="0" y="0">Probability</tspan></text>
+  <text class="st4" transform="translate(383.27 86.25)"><tspan x="0" y="0">Unit 3</tspan></text>
+  <path class="st0" d=""/>
+  <path class="st5" d="M473.4,54l14,7-14,7v-14Z"/>
+  <path class="st5" d="M486,61" marker-end="url(#arr)"/>
+  <rect class="st2" x="490" y="25" width="140" height="72" rx="10" ry="10"/>
+  <text class="st3" transform="translate(527.89 68)"><tspan x="0" y="0">Inference</tspan></text>
+  <text class="st4" transform="translate(540.83 86.49)"><tspan x="0" y="0">Unit 4</tspan></text>
 </svg>

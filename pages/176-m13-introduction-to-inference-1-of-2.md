@@ -5,7 +5,7 @@ Recall again the Big Picture, the four-step process that encompasses statistics:
 We are about to start the fourth part of the process and the final section of this course, where we draw on principles learned in the other units (exploratory data analysis, producing data, and probability) in order to accomplish what has been our ultimate goal all along: use a sample to infer (or draw conclusions) about the population from which it was drawn. The specific form of inference called for depends on the type of variables involved—either a single categorical or quantitative variable, or a combination of two variables whose relationship is of interest.
 
 ```{figure} images/gen/big-picture-inference.svg
-:alt: The Big Picture of statistics with Step 4, Inference, highlighted, showing how producing data, exploratory data analysis, and probability lead to drawing conclusions about the population.
+:alt: The Big Picture of statistics with Step 4, Inference, highlighted, showing how producing data, exploratory data analysis, and probability (drawn as a cloud to represent theory) lead to drawing conclusions about the population.
 ```
 
 The purpose of this introduction is to review how we got here and how the previous units fit together to allow us to make reliable inferences. Also, we will introduce the various forms of statistical inference that will be discussed in this section, and give a general outline of how this section is organized.

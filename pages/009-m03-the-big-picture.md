@@ -23,7 +23,7 @@ Population, then, is the entire group that is the target of our interest:
 In most cases, the population is so large that, as much as we want to, there is absolutely no way we can study all of it (imagine trying to get the opinions of *all* U.S. adults about the death penalty). A more practical approach would be to examine and collect data only from a subgroup of the population, which we call a {term}`sample`. We call this first step, which involves choosing a sample and collecting data from it, *producing data*.
 
 ```{figure} images/gen/m03-big-picture-2-producing-data.svg
-:alt: An arrow labeled Step 1, Producing Data, leads from the large Population ellipse to a smaller circle labeled Sample, showing that a sample is a subgroup drawn from the population.
+:alt: A small circle inside the Population ellipse marks the individuals chosen for the sample. An arrow labeled Step 1, Producing Data, leads from this small circle out to the larger Sample circle, showing that the sample is a subgroup drawn from the population.
 ```
 
 It should be noted that since, for practical reasons, we need to compromise and examine only a sub-group of the population rather than the whole population, we should make an effort to choose a sample in such a way that it will represent the population well. For example, if we choose a sample from the population of U.S. adults, and ask their opinions about the death penalty, we do not want our sample to consist of only Republicans or only Democrats.
@@ -31,7 +31,7 @@ It should be noted that since, for practical reasons, we need to compromise and 
 Once the data have been collected, what we have is a long list of answers to questions, or numbers, and in order to explore and make sense of the data, we need to summarize that list in a meaningful way. This second step, which consists of summarizing the collected data, is called {term}`exploratory data analysis`.
 
 ```{figure} images/gen/m03-big-picture-3-eda.svg
-:alt: The diagram gains a second arrow labeled Step 2, leading from the Sample circle down to a box labeled Exploratory Data Analysis, showing that the collected data are summarized.
+:alt: A box labeled Step 2, Exploratory Data Analysis, now encloses the Sample circle, showing that exploratory data analysis summarizes the data collected from the sample.
 ```
 
 Now we've obtained the sample results and summarized them, but we are not done. Remember that our goal is to study the population, so what we want is to be able to draw conclusions about the population based on the sample results. Before we can do so, we need to look at how the sample we're using may differ from the population as a whole, so that we can factor that into our analysis. To examine this difference, we use {term}`probability`.
@@ -39,13 +39,13 @@ Now we've obtained the sample results and summarized them, but we are not done. 
 In essence, probability is the "machinery" that allows us to draw conclusions about the population based on the data collected about the sample.
 
 ```{figure} images/gen/m03-big-picture-4-probability.svg
-:alt: A dashed arrow labeled Step 3, Probability, leads from the Exploratory Data Analysis box back toward the Population, showing that probability is the machinery connecting sample results to conclusions about the population.
+:alt: A dashed arrow leads from the Step 2 Exploratory Data Analysis box into a cloud labeled Step 3, Probability. The cloud represents theory—the machinery that will connect the sample results to conclusions about the population.
 ```
 
 Finally, we can use what we've discovered about our sample to draw conclusions about our population. We call this final step in the process {term}`inference`.
 
 ```{figure} images/gen/m03-big-picture.svg
-:alt: The complete Big Picture of statistics. Step 1, Producing Data, leads from the Population to a Sample. Step 2 leads from the Sample to Exploratory Data Analysis. Steps 3 and 4, Probability and Inference, lead from the summarized data back to conclusions about the Population.
+:alt: The complete Big Picture of statistics. Step 1, Producing Data, leads from a small sample circle inside the Population out to the Sample, showing that the sample is drawn from the population. The Sample sits inside the Step 2, Exploratory Data Analysis box, showing that EDA summarizes the sample data. An arrow passes through the Step 3, Probability cloud—drawn as a cloud to represent theory—back to the Population, which sits inside the Step 4, Inference box, showing that inference draws conclusions about the population.
 ```
 
 This is the *Big Picture of statistics*.
@@ -62,7 +62,7 @@ At the end of April 2005, a poll was conducted (by ABC News and the *Washington 
 *3 and 4. Probability and Inference:* Based on the sample result (of 65% favoring the death penalty) and our knowledge of probability, it was concluded (with 95% confidence) that the percentage of those who favor the death penalty in the population is within 3% of what was obtained in the sample (i.e., between 62% and 68%). The following figure summarizes the example:
 
 ```{figure} images/gen/m03-big-picture-example.svg
-:alt: The Big Picture applied to the death penalty poll. From the population of all U.S. adults, a sample of 1,082 adults is chosen and asked about the death penalty (Step 1). Exploratory data analysis finds that 65% of the sample favor the death penalty (Step 2). Using probability and inference (Steps 3 and 4), we can be 95% confident that between 62% and 68% of all U.S. adults favor the death penalty.
+:alt: The Big Picture applied to the death penalty poll. From the population of all U.S. adults, a sample of 1,082 adults is chosen and asked about the death penalty (Step 1). Exploratory data analysis finds that 65% of the sample favor the death penalty (Step 2). Using probability and inference (Steps 3 and 4, with probability drawn as a cloud to represent theory), we can be 95% confident that between 62% and 68% of all U.S. adults favor the death penalty.
 ```
 :::
 
@@ -100,7 +100,7 @@ The structure of this entire book is based on the Big Picture. The book has one 
 % Also update the alt text below and pages/images/gen/m03-big-picture-units.svg.
 
 ```{figure} images/gen/m03-big-picture-units.svg
-:alt: The four steps in process order with the unit that covers each. Producing Data is covered in Unit 1, Exploratory Data Analysis in Unit 2, Probability in Unit 3, and Inference in Unit 4.
+:alt: The four steps in process order with the unit that covers each. Producing Data is covered in Unit 1, Exploratory Data Analysis in Unit 2, Probability (drawn as a cloud to represent theory) in Unit 3, and Inference in Unit 4.
 ```
 
 As you'll see, the Big Picture is the basis upon which the entire book is built, both conceptually and structurally. We will refer to it often, and having it in mind will help you as you go through the units.

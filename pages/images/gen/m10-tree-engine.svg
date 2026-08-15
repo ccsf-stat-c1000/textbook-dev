@@ -1,28 +1,68 @@
-<svg viewBox="0 0 640 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
-  <text x="320" y="24" text-anchor="middle" font-size="15" font-weight="bold">Probability Tree: Overheating (H), then Warning Light (W)</text>
-  <circle cx="70" cy="170" r="6" fill="#333333"/>
-  <g stroke="#2b6cb0" stroke-width="2" fill="none">
-    <line x1="70" y1="170" x2="240" y2="95"/>
-    <line x1="70" y1="170" x2="240" y2="245"/>
-    <line x1="240" y1="95" x2="410" y2="60"/>
-    <line x1="240" y1="95" x2="410" y2="130"/>
-    <line x1="240" y1="245" x2="410" y2="210"/>
-    <line x1="240" y1="245" x2="410" y2="280"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 640 310">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 15px;
+      }
+
+      .st0, .st1 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .st0, .st1, .st2, .st3 {
+        fill: #333;
+      }
+
+      .st0, .st1, .st3 {
+        isolation: isolate;
+      }
+
+      .st4 {
+        fill: none;
+        stroke: #2b6cb0;
+        stroke-width: 2px;
+      }
+
+      .st5 {
+        fill: #2b6cb0;
+      }
+
+      .st1, .st3 {
+        font-size: 13px;
+      }
+
+      .st3 {
+        font-family: Helvetica, Helvetica;
+      }
+    </style>
+  </defs>
+  <text class="st0" transform="translate(116.52 24)"><tspan x="0" y="0">Probability Tree: Overheating (H), then Warning Light (W)</tspan></text>
+  <circle class="st2" cx="70" cy="170" r="6"/>
+  <g>
+    <line class="st4" x1="70" y1="170" x2="240" y2="95"/>
+    <line class="st4" x1="70" y1="170" x2="240" y2="245"/>
+    <line class="st4" x1="240" y1="95" x2="410" y2="60"/>
+    <line class="st4" x1="240" y1="95" x2="410" y2="130"/>
+    <line class="st4" x1="240" y1="245" x2="410" y2="210"/>
+    <line class="st4" x1="240" y1="245" x2="410" y2="280"/>
   </g>
-  <circle cx="240" cy="95" r="5" fill="#2b6cb0"/>
-  <circle cx="240" cy="245" r="5" fill="#2b6cb0"/>
-  <g font-size="13" font-weight="bold">
-    <text x="130" y="115">H: 0.03</text>
-    <text x="120" y="228">not H: 0.97</text>
-    <text x="290" y="62">W | H: 0.98</text>
-    <text x="285" y="130">not W | H: 0.02</text>
-    <text x="280" y="212">W | not H: 0.01</text>
-    <text x="275" y="282">not W | not H: 0.99</text>
+  <circle class="st5" cx="240" cy="95" r="5"/>
+  <circle class="st5" cx="240" cy="245" r="5"/>
+  <g>
+    <text class="st1" transform="translate(93.9 119)"><tspan x="0" y="0">H: 0.03</tspan></text>
+    <text class="st1" transform="translate(83.9 232)"><tspan x="0" y="0">not H: 0.97</tspan></text>
+    <text class="st1" transform="translate(253.9 66)"><tspan x="0" y="0">W | H: 0.98</tspan></text>
+    <text class="st1" transform="translate(248.9 134)"><tspan x="0" y="0">not W | H: 0.02</tspan></text>
+    <text class="st1" transform="translate(243.9 216)"><tspan x="0" y="0">W | not H: 0.01</tspan></text>
+    <text class="st1" transform="translate(238.9 286)"><tspan x="0" y="0">not W | not H: 0.99</tspan></text>
   </g>
-  <g font-size="13">
-    <text x="425" y="64">P(H and W) = 0.0294</text>
-    <text x="425" y="134">P(H and not W) = 0.0006</text>
-    <text x="425" y="214">P(not H and W) = 0.0097</text>
-    <text x="425" y="284">P(not H and not W) = 0.9603</text>
+  <g>
+    <text class="st3" transform="translate(425 64)"><tspan x="0" y="0">P(H and W) = 0.0294</tspan></text>
+    <text class="st3" transform="translate(425 134)"><tspan x="0" y="0">P(H and not W) = 0.0006</tspan></text>
+    <text class="st3" transform="translate(425 214)"><tspan x="0" y="0">P(not H and W) = 0.0097</tspan></text>
+    <text class="st3" transform="translate(425 284)"><tspan x="0" y="0">P(not H and not W) = 0.9603</tspan></text>
   </g>
 </svg>

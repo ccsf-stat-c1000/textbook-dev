@@ -1,18 +1,77 @@
-<svg viewBox="0 0 640 280" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" fill="#333333">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 640 315">
+  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
   <defs>
-    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0L10 5L0 10z" fill="#333333"/>
-    </marker>
+    <style>
+      .st0 {
+        fill: none;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8 {
+        isolation: isolate;
+      }
+
+      .st1, .st6, .st9 {
+        fill: #333;
+      }
+
+      .st1, .st6, .st7 {
+        font-family: Helvetica-Oblique, Helvetica;
+        font-style: oblique;
+      }
+
+      .st1, .st7 {
+        font-size: 13px;
+      }
+
+      .st2 {
+        fill: #c53030;
+      }
+
+      .st2, .st3, .st6 {
+        font-size: 14px;
+      }
+
+      .st2, .st5, .st8 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .st10 {
+        fill: #eaf2fb;
+        stroke: #2b6cb0;
+        stroke-width: 2px;
+      }
+
+      .st3, .st4 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .st3, .st4, .st5, .st7, .st8 {
+        fill: #2b6cb0;
+      }
+
+      .st4, .st5 {
+        font-size: 15px;
+      }
+
+      .st8 {
+        font-size: 16px;
+      }
+    </style>
   </defs>
-  <ellipse cx="170" cy="145" rx="130" ry="105" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="170" y="125" text-anchor="middle" font-size="16" font-weight="bold" fill="#2b6cb0">Population:</text>
-  <text x="170" y="147" text-anchor="middle" font-size="15" fill="#2b6cb0">all U.S. adults</text>
-  <text x="170" y="172" text-anchor="middle" font-size="13" font-style="italic" fill="#2b6cb0">% in favor = ?</text>
-  <line x1="305" y1="120" x2="395" y2="105" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
-  <text x="350" y="88" text-anchor="middle" font-size="13" font-style="italic">random sample</text>
-  <circle cx="475" cy="130" r="72" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
-  <text x="475" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b6cb0">Sample:</text>
-  <text x="475" y="133" text-anchor="middle" font-size="14" fill="#2b6cb0">1,200 adults</text>
-  <text x="475" y="158" text-anchor="middle" font-size="14" font-weight="bold" fill="#c53030">62% in favor</text>
-  <text x="320" y="255" text-anchor="middle" font-size="14" font-style="italic">How close is the sample's 62% likely to be to the population percentage?</text>
+  <ellipse class="st10" cx="170" cy="145" rx="130" ry="105"/>
+  <text class="st8" transform="translate(126.01 125)"><tspan x="0" y="0">Population:</tspan></text>
+  <text class="st4" transform="translate(123.73 147)"><tspan x="0" y="0">all U.S. adults</tspan></text>
+  <text class="st7" transform="translate(130.08 172)"><tspan x="0" y="0">% in favor = ?</tspan></text>
+  <path class="st0" d=""/>
+  <path class="st9" d="M382.4,98l14,7-14,7v-14Z"/>
+  <path class="st9" d="M395,105" marker-end="url(#arr)"/>
+  <text class="st1" transform="translate(305.2 88)"><tspan x="0" y="0">random sample</tspan></text>
+  <circle class="st10" cx="475" cy="130" r="72"/>
+  <text class="st5" transform="translate(445.82 112)"><tspan x="0" y="0">Sample:</tspan></text>
+  <text class="st3" transform="translate(436.86 133)"><tspan x="0" y="0">1,200 adults</tspan></text>
+  <text class="st2" transform="translate(433.76 158)"><tspan x="0" y="0">62% in favor</tspan></text>
+  <text class="st6" transform="translate(93.63 274.32)"><tspan x="0" y="0">How close is the sample&apos;s 62% likely to be to the population percentage?</tspan></text>
+  <rect class="st9" x="313" y="103" width="69.4" height="3"/>
 </svg>

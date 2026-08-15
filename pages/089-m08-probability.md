@@ -3,7 +3,7 @@
 Recall the Big Picture—the four-step process that encompasses statistics (as it is presented in this course):
 
 ```{figure} images/gen/big-picture-probability.svg
-:alt: The Big Picture of statistics with Step 3, Probability, highlighted. Data are produced from a sample of the population (Step 1), the data are summarized with exploratory data analysis (Step 2), and probability (Step 3, the focus of this unit) provides the machinery for the final inference step back to the population.
+:alt: The Big Picture of statistics with Step 3, Probability, highlighted. Data are produced from a sample of the population (Step 1), the data are summarized with exploratory data analysis (Step 2), and probability (Step 3, the focus of this unit, drawn as a cloud to represent theory) provides the machinery for the final inference step back to the population.
 ```
 
 So far, we've discussed the first two steps:
