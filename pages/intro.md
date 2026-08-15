@@ -1,4 +1,4 @@
-# STAT C1000: Introduction to Statistics
+# Introduction to Statistics
 
 ## About This Book
 
