@@ -1,10 +1,10 @@
-# Case $C \to C$: Relationships Between Categorical Variables
+# Case $C → C$: Relationships Between Categorical Variables
 
 ## Inference for the Relationship Between Two Categorical Variables (Chi-Square Test for Independence)
 
 ### Overview
 
-The last three procedures that we studied (two-sample t, paired t, and ANOVA) all involve the relationship between a categorical explanatory variable and a quantitative response variable, corresponding to case $C \to Q$ in the role-type classification table. Next, we will consider inferences about the relationships between *two categorical variables*, corresponding to case $C \to C$.
+The last three procedures that we studied (two-sample t, paired t, and ANOVA) all involve the relationship between a categorical explanatory variable and a quantitative response variable, corresponding to case $C → Q$ in the role-type classification table. Next, we will consider inferences about the relationships between *two categorical variables*, corresponding to case $C → C$.
 
 ```{figure} images/gen/m05-role-type-cc.svg
 :alt: The role-type classification table with the C to C case highlighted: a categorical explanatory variable paired with a categorical response variable.

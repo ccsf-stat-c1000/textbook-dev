@@ -40,7 +40,7 @@ To summarize:
 
 ## Check Your Understanding: Independent, Paired, or More Than Two Groups?
 
-Each of the following three questions is an example of a situation in case $C \to Q$ (categorical explanatory and quantitative response), and therefore calls for comparing means of several (sub-)populations. Your task is to decide which of the sub-cases of case $C \to Q$ each of the examples represents.
+Each of the following three questions is an example of a situation in case $C → Q$ (categorical explanatory and quantitative response), and therefore calls for comparing means of several (sub-)populations. Your task is to decide which of the sub-cases of case $C → Q$ each of the examples represents.
 
 (*Comment:* you'll note that each of these examples is a variation on the same story, yet differs in the sub-case it represents. This was done on purpose to highlight the differences between the sub-cases.)
 

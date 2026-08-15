@@ -1,6 +1,6 @@
-# Comparing Groups on a Quantitative Response (Case $C \to Q)$
+# Comparing Groups on a Quantitative Response (Case $C → Q)$
 
-## Case $C \to Q$: Categorical Explanatory Variable and Quantitative Response Variable
+## Case $C → Q$: Categorical Explanatory Variable and Quantitative Response Variable
 
 Recall the role-type classification table for framing our discussion about the relationship between two variables:
 
@@ -8,7 +8,7 @@ Recall the role-type classification table for framing our discussion about the r
 :alt: The role-type classification table with the C to Q cell highlighted, indicating that this part covers a categorical explanatory variable paired with a quantitative response variable.
 ```
 
-We are now ready to start with Case $C \to Q$, exploring the relationship between two variables where the explanatory variable is categorical, and the response variable is quantitative. As you'll discover, exploring relationships of this type is something we've already discussed in this course, but we didn't frame the discussion this way.
+We are now ready to start with Case $C → Q$, exploring the relationship between two variables where the explanatory variable is categorical, and the response variable is quantitative. As you'll discover, exploring relationships of this type is something we've already discussed in this course, but we didn't frame the discussion this way.
 
 ::::{admonition} Example: Hot Dogs
 :class: tip
@@ -54,4 +54,4 @@ Let's summarize the results we got and interpret them in the context of the ques
 By examining the three side-by-side boxplots and the numerical summaries, we see at once that poultry hot dogs, as a group, contain fewer calories than those made of beef or meat. The median number of calories in poultry hot dogs (113) is less than the median (and even the first quartile) of either of the other two distributions (medians 152.5 and 153). The spread of the three distributions is about the same, if IQR is considered (all slightly above 40), but the (full) ranges vary slightly more (beef: 79, meat: 88, poultry: 66). The general recommendation to the health-conscious consumer is to eat poultry hot dogs. It should be noted, though, that since each of the three types of hot dogs shows quite a large spread among brands, simply buying a poultry hot dog does not guarantee a low-calorie food.
 ::::
 
-What we learn from this example is that when exploring the relationship between a categorical explanatory variable and a quantitative response (Case $C \to Q)$, we essentially *compare the distributions of the quantitative response for each category of the explanatory variable* using side-by-side boxplots supplemented by descriptive statistics. Recall that we have actually done this before when we talked about the boxplot and argued that boxplots are most useful when presented side by side for comparing distributions of two or more groups. This is exactly what we are doing here!
+What we learn from this example is that when exploring the relationship between a categorical explanatory variable and a quantitative response (Case $C → Q)$, we essentially *compare the distributions of the quantitative response for each category of the explanatory variable* using side-by-side boxplots supplemented by descriptive statistics. Recall that we have actually done this before when we talked about the boxplot and argued that boxplots are most useful when presented side by side for comparing distributions of two or more groups. This is exactly what we are doing here!

@@ -1,4 +1,4 @@
-# Case $C \to Q$ in Practice: Boxplots That Tell a Story
+# Case $C → Q$ in Practice: Boxplots That Tell a Story
 
 Here is another example:
 
@@ -33,7 +33,7 @@ Side-by-side boxplots supplemented by descriptive statistics allow us to compare
 | Max | 200 | 187 |
 ::::
 
-## Check Your Understanding: Comparing Groups (Case $C \to Q)$
+## Check Your Understanding: Comparing Groups (Case $C → Q)$
 
 Use the boxplots and the table to explore whether there is a "gender effect" on SSHA scores.
 

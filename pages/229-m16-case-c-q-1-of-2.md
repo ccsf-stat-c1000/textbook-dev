@@ -1,4 +1,4 @@
-# Case $C \to Q$: Comparing Groups
+# Case $C → Q$: Comparing Groups
 
 Recall the role-type classification table framing our discussion on inference about the relationship between two variables.
 
@@ -6,7 +6,7 @@ Recall the role-type classification table framing our discussion on inference ab
 :alt: The role-type classification table with the C to Q case highlighted: a categorical explanatory variable paired with a quantitative response variable.
 ```
 
-We start with case $C \to Q$, where the explanatory variable is categorical and the response variable is quantitative. Recall that in the Exploratory Data Analysis unit, examining the relationship between X and Y in this case amounts, in practice, to comparing the distributions of the (quantitative) response Y for each value (category) of the explanatory X. To do that, we used side-by-side boxplots (each representing the distribution of Y in one of the groups defined by X), and supplemented the display with the corresponding descriptive statistics.
+We start with case $C → Q$, where the explanatory variable is categorical and the response variable is quantitative. Recall that in the Exploratory Data Analysis unit, examining the relationship between X and Y in this case amounts, in practice, to comparing the distributions of the (quantitative) response Y for each value (category) of the explanatory X. To do that, we used side-by-side boxplots (each representing the distribution of Y in one of the groups defined by X), and supplemented the display with the corresponding descriptive statistics.
 
 What will we do in inference? To understand the logic, we'll start with an example and then generalize.
 
@@ -34,9 +34,9 @@ It makes sense that the inference about the relationship between year and GPA ha
 ```
 ::::
 
-In general, then, making inferences about the relationship between X and Y in case $C \to Q$ boils down to comparing the means of Y in the sub-populations, which are created by the categories defined by X (say k categories).
+In general, then, making inferences about the relationship between X and Y in case $C → Q$ boils down to comparing the means of Y in the sub-populations, which are created by the categories defined by X (say k categories).
 
-As the introduction to this module mentioned, we will learn three inferential methods in case $C \to Q$, corresponding to a sub-division of this case. First we will distinguish between cases where the explanatory X has only two categories (k = 2), and cases where X has more than two categories (k > 2). In other words, we will look separately at cases where we are comparing two sub-population means:
+As the introduction to this module mentioned, we will learn three inferential methods in case $C → Q$, corresponding to a sub-division of this case. First we will distinguish between cases where the explanatory X has only two categories (k = 2), and cases where X has more than two categories (k > 2). In other words, we will look separately at cases where we are comparing two sub-population means:
 
 ```{figure} images/gen/m16-cq-two-subpops.svg
 :alt: A population, for which we ask whether Y and X are related, is broken into two sub-populations because X has two categories. Sub-population 1 has mean of Y mu 1 and sub-population 2 has mean of Y mu 2. Inference requires comparing these two means.

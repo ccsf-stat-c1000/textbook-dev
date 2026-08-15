@@ -1,6 +1,6 @@
-# Two-Way Tables: Relationships Between Categories (Case $C \to C)$
+# Two-Way Tables: Relationships Between Categories (Case $C → C)$
 
-## Case $C \to C$: Two Categorical Variables
+## Case $C → C$: Two Categorical Variables
 
 Recall the role-type classification table for framing our discussion about the relationship between two variables:
 
@@ -8,7 +8,7 @@ Recall the role-type classification table for framing our discussion about the r
 :alt: The role-type classification table with the C to C cell highlighted, indicating that this part covers a categorical explanatory variable paired with a categorical response variable.
 ```
 
-We are done with case $C \to Q$, and will now move on to case $C \to C$, where we examine the relationship between two categorical variables.
+We are done with case $C → Q$, and will now move on to case $C → C$, where we examine the relationship between two categorical variables.
 
 Earlier in the course (when we discussed the distribution of a *single* categorical variable) we examined the data obtained when a random sample of 1,200 U.S. college students were asked about their body image (underweight, overweight, or about right). We are now returning to this example, to address the following question:
 
