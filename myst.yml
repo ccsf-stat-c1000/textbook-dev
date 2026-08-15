@@ -61,5 +61,6 @@ site:
     logo: ccsf.png
     favicon: favicon.ico
     logo_text: "Introduction to Statistics"
+    analytics_google: G-2QP7TPFF21
   template: book-theme
 
