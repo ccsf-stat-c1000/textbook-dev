@@ -137,7 +137,7 @@ Big Picture → Unit 1 Producing Data → Unit 2 Exploratory Data Analysis →
 Unit 3 Probability → Unit 4 Inference.
 
 Page numbers refer to the flat page numbers encoded in the `pages/` filenames
-(e.g. `164-m12-sampling-distributions.md` is page 164), which is the numbering students
+(e.g. `p164-m12-sampling-distributions.md` is page 164), which is the numbering students
 see in the sidebar.
 
 Content page totals by module:

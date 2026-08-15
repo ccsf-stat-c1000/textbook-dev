@@ -4,13 +4,13 @@ version: 1
 #   1. Swap the "Unit 1"/"Unit 2" blocks below and renumber their sections
 #      (EDA sections become 1-2, Producing Data sections become 3-4).
 #   2. Swap the Unit 1/Unit 2 labels in pages/images/gen/m03-big-picture-units.svg.
-#   3. In pages/009-m03-the-big-picture.md, pages/010-m04-exploratory-data-analysis-1-of-2.md,
-#      and pages/067-m06-introduction-to-producing-data.md, swap the active sentence with
+#   3. In pages/p009-m03-the-big-picture.md, pages/p010-m04-exploratory-data-analysis-1-of-2.md,
+#      and pages/p067-m06-introduction-to-producing-data.md, swap the active sentence with
 #      the alternative kept in a "%" comment right next to it.
 project:
   toc:
   - file: pages/intro.md
-  - file: pages/009-m03-the-big-picture.md
+  - file: pages/p009-m03-the-big-picture.md
   - title: "Unit 1: Producing Data"
     children:
     - title: "Section 1: Sampling"

@@ -56,7 +56,7 @@ MODULES = {
 
 
 def classify(source_name: str) -> tuple[str, str]:
-    """Map a source filename such as '019-m04-histogram-1-of-3.md' to unit/section."""
+    """Map a source filename such as 'p019-m04-histogram-1-of-3.md' to unit/section."""
     match = re.search(r"\bm\d{2}\b", source_name)
     if match and match.group(0) in MODULES:
         return MODULES[match.group(0)]

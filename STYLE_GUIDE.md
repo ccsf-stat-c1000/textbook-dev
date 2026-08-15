@@ -31,7 +31,7 @@ this book, so pages go straight from the H1 into the body.
 ## Quizzes (concept checks)
 
 - Use the `{quiz}` / `{quiz-multi}` directives (plugin: `pages/quiz.mjs`).
-  See `pages/011-m04-exploratory-data-analysis-2-of-2.md` for the reference page.
+  See `pages/p011-m04-exploratory-data-analysis-2-of-2.md` for the reference page.
 - Every former OLI activity placeholder ("Did I Get This?", "Learn By Doing")
   is replaced with one or more authored quizzes at the same location,
   written from the surrounding content.

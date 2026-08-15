@@ -3,7 +3,7 @@
 Build new filenames (with page num + module num) and generate _toc.yml.
 
 New filename format: {page_num:03d}-m{module_num:02d}-{page_slug}.md
-  e.g. 009-m03-the-big-picture.md
+  e.g. p009-m03-the-big-picture.md
 
 Unit→module mapping:
   Unit 1: Introduction              → Modules 1–3

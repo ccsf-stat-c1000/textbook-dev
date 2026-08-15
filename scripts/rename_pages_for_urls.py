@@ -5,7 +5,7 @@ MyST builds a page's URL slug from its filename, but `createSlug()` calls
 `removeLeadingEnumeration()` first, which strips a leading run of
 [0-9_.-] characters. So:
 
-    pages/259-m17-case-c-c-5-of-5.md  ->  /pages/m17-case-c-c-5-of-5
+    pages/p259-m17-case-c-c-5-of-5.md  ->  /pages/m17-case-c-c-5-of-5
 
 The prefix survives only if it does NOT start with a digit-ish character
 (or if there are 5+ leading digits). Renaming 259- to p259- therefore gives:
