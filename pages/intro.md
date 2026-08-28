@@ -1,4 +1,8 @@
-# Introduction to Statistics
+---
+title: 'Introduction'
+numbering:
+  title: false
+---
 
 ## About This Book
 
