@@ -2,7 +2,13 @@
 title: 'Introduction'
 numbering:
   title: false
+authors:
+ - name: Mathematics Department
+   email: mathematics@ccsf.edu
+   url: https://www.ccsf.edu/math
+   github: ccsf-stat-c1000/textbook
 ---
+
 
 ## About This Book
 
@@ -10,7 +16,7 @@ This book introduces you to the core ideas of probability and statistics, the to
 
 You'll start by learning how to gather, describe, and visualize data, then build up a theoretical foundation in probability and, finally, explore the concept of statistical inference, the process of using sample data to answer questions about the wider world. Along the way, you'll see how these methods apply across fields from medicine to economics to everyday decision-making.
 
-## About This Course
+## About This Course: STAT C1000
 
 ### Course Description
 This course is an introduction to statistical thinking and processes, including methods and concepts for discovery and decision-making using data. Topics include descriptive statistics; probability and sampling distributions; statistical inference; correlation and linear regression; analysis of variance, chi-squared, and t-tests; and application of technology for statistical analysis, including the interpretation of the relevance of the statistical findings. Students apply methods and processes to applications using data from a broad range of disciplines.
