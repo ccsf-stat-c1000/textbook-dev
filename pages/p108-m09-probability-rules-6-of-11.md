@@ -73,7 +73,7 @@ About 38% of the time, two randomly chosen U.S. people would have the same blood
 ```{admonition} Comment
 :class: important
 
-The purpose of this comment is to point out the magnitude of P(A or B) and of P(A and B) relative to either one of the individual probabilities. Since probabilities are never negative, the probability of one event *or* another is always at least as large as either of the individual probabilities. Since probabilities are never more than 1, the probability of one event *and* another generally involves multiplying numbers that are less than 1, and therefore can never be more than either of the individual probabilities.
+The purpose of this comment is to point out the magnitude of P(A or B) and of P(A and B) relative to either one of the individual probabilities. Since probabilities are never negative, the probability of one event *or* another is always at least as large as either of the individual probabilities. The probability of one event *and* another is never larger than either of the individual probabilities, since "A and B" can occur only on those occasions when A occurs, and only on those occasions when B occurs. (When A and B happen to be independent this is also easy to see algebraically, since P(A and B) is then the product of two numbers that are each no more than 1.)
 ```
 
 Here is an example:

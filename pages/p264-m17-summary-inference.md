@@ -12,7 +12,7 @@ This summary provides a quick recap of the big ideas you've learned in the infer
 
 2. We typically estimate: the population mean $\mu$ by the sample mean $\bar{x}$; the population proportion p by the sample proportion $\hat{p}$; and the population standard deviation $\sigma$ and the population variance $\sigma^2$ by the sample standard deviation s and the sample variance $s^2$. (Note that the last two parameters are not covered in detail in this course.)
 
-3. $\bar{x}$, $\hat{p}$, s, and $s^2$ are unbiased estimators for $\mu$, p, $\sigma$, and $\sigma^2$, respectively. Their precision increases with the sample size.
+3. $\bar{x}$, $\hat{p}$, and $s^2$ are unbiased estimators for $\mu$, p, and $\sigma^2$, respectively. (The sample standard deviation s is *not* an unbiased estimator of $\sigma$, although the bias is small and shrinks as the sample grows.) The precision of all of these estimators increases with the sample size.
 
 ## Interval Estimation
 

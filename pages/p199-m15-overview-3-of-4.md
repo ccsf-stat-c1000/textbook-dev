@@ -80,7 +80,7 @@ As we saw, this is the step where we calculate how likely it is to get data like
 In our three examples, the p-values were given to you (and you were reassured that you didn't need to worry about how these were derived):
 
 - Example 1: p-value = 0.106
-- Example 2: p-value = 0.0007
+- Example 2: p-value = 0.0014
 - Example 3: p-value = 0.29
 
 Obviously, the smaller the p-value, the more surprising it is to get data like ours when $H_0$ is true, and therefore, the stronger the evidence the data provide against $H_0$. Looking at the three p-values of our three examples, we see that the data that we observed in example 2 provide the strongest evidence against the null hypothesis, followed by example 1, while the data in example 3 provide the least evidence against $H_0$.

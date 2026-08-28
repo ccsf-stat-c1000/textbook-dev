@@ -42,8 +42,8 @@ $$P(A) = P(A \text{ and } B) + P(A \text{ and not } B) = 0.75 + 0.15 = 0.90$$
 
 P(A) = 0.90 means that in 90% of the cases when service A is used, it delivers the document on time. These cases of on-time delivery by service A can be decomposed into two sub-cases:
 
-- P(A and B) = $0.75 \to 75%$ of the time the document is delivered on time also by service B (i.e., the document is delivered on time by both services)
-- P(A and not B) = $0.15 \to 15%$ of the time the document is not delivered on time by service B (i.e., delivered on time only by service A).
+- P(A and B) = $0.75 \to 75\%$ of the time the document is delivered on time also by service B (i.e., the document is delivered on time by both services)
+- P(A and not B) = $0.15 \to 15\%$ of the time the document is not delivered on time by service B (i.e., delivered on time only by service A).
 
 Similarly, reading down the first column:
 

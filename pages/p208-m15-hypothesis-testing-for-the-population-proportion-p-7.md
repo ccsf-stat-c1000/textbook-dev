@@ -93,9 +93,10 @@ With respect to the z-test for the population proportion: steps 1, 2, and 3 are 
 
 In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial situation as "good." We want to know if the proportion is smaller this year. We gather a random sample of 100 U.S. adults this year and find that 39 rate their financial situation as "good." Statistical software gives the following output:
 
-| Test of $p = 0.45$ vs $p < 0.45$ | | | | |
+*Test of $p = 0.45$ vs $p < 0.45$:*
+
+| X | N | Sample p | Z-Value | {term}`P-Value <p-value>` |
 | --- | --- | --- | --- | --- |
-| **X** | **N** | **Sample p** | **Z-Value** | **{term}`P-Value <p-value>`** |
 | 39 | 100 | 0.39 | -1.21 | 0.114 |
 
 :::{quiz} According to the output, what is the value of the test statistic, and what does it mean?
@@ -123,7 +124,7 @@ In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial s
 :feedback-0: Correct! Since $0.114 > 0.05$, the data do not provide enough evidence to conclude that the proportion has decreased.
 :feedback-1: 0.114 is LARGER than 0.05, so we cannot reject $H_0$.
 :feedback-2: Failing to reject $H_0$ does not prove the proportion is still 0.45.
-* *Do not reject $H_0—there$ is not enough evidence that the proportion rating their situation "good" has decreased
+* *Do not reject $H_0$—there is not enough evidence that the proportion rating their situation "good" has decreased
 * Reject $H_0$ and conclude the proportion has decreased
 * Accept $H_0$ and conclude the proportion is still 0.45
 :::
@@ -132,9 +133,10 @@ In 2007, a Gallup poll estimated that 45% of U.S. adults rated their financial s
 
 The trustees of a local school district commission a survey to determine voter opinions about a possible bond measure to fund school upgrades. In a poll of 293 of the district's 5,019 registered voters, 178 would support the bond measure. A hypothesis test was conducted to determine if such a bond would pass with the required 55% of the vote. Statistical software gives the following output:
 
-| Test of $p = 0.55$ vs $p > 0.55$ | | | | |
+*Test of $p = 0.55$ vs $p > 0.55$:*
+
+| X | N | Sample p | Z-Value | {term}`P-Value <p-value>` |
 | --- | --- | --- | --- | --- |
-| **X** | **N** | **Sample p** | **Z-Value** | **{term}`P-Value <p-value>`** |
 | 178 | 293 | 0.6075 | 1.98 | 0.024 |
 
 :::{quiz} Using $\alpha = 0.05$, what should the trustees conclude?
@@ -142,8 +144,8 @@ The trustees of a local school district commission a survey to determine voter o
 :feedback-0: Correct! Since $0.024 < 0.05$, the data provide significant evidence that more than 55% of registered voters support the measure—suggesting the bond would pass.
 :feedback-1: 0.024 is smaller than 0.05, so the result IS statistically significant.
 :feedback-2: The conclusion needs context: rejecting $H_0$ here means support exceeds the required 55%.
-* *Reject $H_0—there$ is significant evidence that support exceeds 55%, so the bond is likely to pass
-* Do not reject $H_0—the$ evidence is not strong enough
+* *Reject $H_0$—there is significant evidence that support exceeds 55%, so the bond is likely to pass
+* Do not reject $H_0$—the evidence is not strong enough
 * Reject $H_0$ (nothing further can be said)
 :::
 

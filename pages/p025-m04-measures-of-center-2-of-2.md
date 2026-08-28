@@ -8,7 +8,7 @@ To get a deeper understanding of the differences between these two measures of c
 
 Here are two datasets:
 
-| | |
+| Dataset | Values |
 | --- | --- |
 | Dataset A | 64 65 66 68 70 71 **73** |
 | Dataset B | 64 65 66 68 70 71 **730** |

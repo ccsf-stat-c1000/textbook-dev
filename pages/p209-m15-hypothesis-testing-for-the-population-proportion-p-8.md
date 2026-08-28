@@ -71,16 +71,16 @@ Two hypothesis tests were conducted. In test I, a significance level of 0.05 was
 :hint: Compare the p-value 0.025 with $\alpha = 0.05$.
 :feedback-0: Correct! $0.025 < 0.05$, so the results are significant and $H_0$ is rejected.
 :feedback-1: 0.025 is smaller than the significance level 0.05, so $H_0$ IS rejected.
-* *Reject $H_0—the$ results are statistically significant at the 0.05 level
-* Do not reject $H_0—the$ results are not statistically significant
+* *Reject $H_0$—the results are statistically significant at the 0.05 level
+* Do not reject $H_0$—the results are not statistically significant
 :::
 
 :::{quiz} What is the conclusion of test II?
 :hint: Compare the p-value 0.025 with $\alpha = 0.01$.
 :feedback-0: Correct! $0.025 > 0.01$, so at the stricter 0.01 level the data do not provide enough evidence to reject $H_0$.
 :feedback-1: At the 0.01 level, a p-value of 0.025 is NOT small enough to reject $H_0$.
-* *Do not reject $H_0—the$ results are not statistically significant at the 0.01 level
-* Reject $H_0—the$ results are statistically significant
+* *Do not reject $H_0$—the results are not statistically significant at the 0.01 level
+* Reject $H_0$—the results are statistically significant
 :::
 
 :::{quiz} The same p-value (0.025) led to different conclusions in tests I and II. What does this illustrate?

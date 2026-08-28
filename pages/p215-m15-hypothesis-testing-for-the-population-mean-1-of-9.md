@@ -8,8 +8,8 @@ So far we have talked about the logic behind hypothesis testing and then illustr
 
 2. This section will have two parts, as we need to distinguish between two cases: the case where the population standard deviation $(\sigma)$ is known, and the case where $\sigma$ is unknown.
 
-   - In the first case $(\sigma$ known), the test is called the *z-test for the population mean $\mu*$.
-   - In the second case $(\sigma$ unknown), the test is called the *t-test for the population mean $\mu*$.
+   - In the first case $(\sigma$ known), the test is called the *z-test for the population mean $\mu$*.
+   - In the second case $(\sigma$ unknown), the test is called the *t-test for the population mean $\mu$*.
 
 The reason for the different names (z vs. t) is exactly the same reason that the test for the proportion (p) is called a z-test. In the first case, the test statistic will have a standard normal (z) distribution (when $H_0$ is true), and in the second case, the test statistic will have a t-distribution (when $H_0$ is true).
 

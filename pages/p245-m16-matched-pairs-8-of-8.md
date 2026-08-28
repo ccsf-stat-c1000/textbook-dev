@@ -10,7 +10,7 @@
 - Once we verify that we can safely proceed with the paired t-test, we use software output to carry it out.
 - A 95% confidence interval for $\mu_d$ can be very insightful after a test has rejected the null hypothesis, and can also be used for testing in the two-sided case.
 
-## Check Your Understanding
+## Check Your Understanding: Choosing Between Paired and Two-Sample Designs
 
 :::{quiz} Which of the following studies calls for a paired t-test rather than a two-sample t-test?
 :hint: Look for a design where each observation in one sample is linked to one in the other.
@@ -28,6 +28,6 @@
 :feedback-1: The sample mean of the differences is the estimate, not the parameter.
 :feedback-2: The hypotheses concern one parameter $(\mu_d)$, not the two separate means individually.
 * *$\mu_d$, the population mean of the differences
-* x-bar_d, the sample mean of the differences
+* $\bar{x}_d$, the sample mean of the differences
 * $\mu_1$ and $\mu_2$ separately
 :::

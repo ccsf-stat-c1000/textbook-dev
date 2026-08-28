@@ -75,7 +75,7 @@ Statistical software will often do the splitting for you, when appropriate.
 :alt: The split-stem stemplot rotated 90 degrees so the stems run along the bottom and the leaves stack upward like histogram bars. The columns are tall around stems 2 and 3 and short and scattered at stems 6, 7, and 8, making the right-skewed shape visible.
 ```
 
-This orientation makes the right-skewedness of the distribution clearly visible.
+This orientation makes the right-skewness of the distribution clearly visible.
 ::::
 
 The stemplot has additional unique features:

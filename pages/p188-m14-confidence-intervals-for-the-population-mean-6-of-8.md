@@ -51,7 +51,7 @@ Round up to be safe, and take a sample of 374 students.
 ## Check Your Understanding: Sample Size for a Mean
 
 :::{quiz} A researcher wants to estimate the mean pregnancy length of women who smoke $(\sigma = 16$ days) with 95% confidence and a margin of error of 2 days. What sample size is required?
-:hint: $n = (z*\sigma/m)^2 = (2 \times 16/2)^2$.
+:hint: $n = \left(\frac{z^{*}\sigma}{m}\right)^{2} = \left(\frac{2(16)}{2}\right)^{2}$.
 :feedback-0: Correct! $n = (32/2)^2 = 16^2 = 256$ women.
 :feedback-1: 64 comes from forgetting to square; the formula squares the whole quantity.
 :feedback-2: Use z* = 2 for 95% confidence, giving $(2 \times 16/2)^2 = 256$.

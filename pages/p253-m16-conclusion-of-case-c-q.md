@@ -18,7 +18,7 @@ The following summary discusses each of the above-named sub-cases of $C → Q$ w
 | --- | --- | --- |
 | Two-sample t-test | $H_0: \mu_1 - \mu_2 = 0$ (same as $\mu_1 = \mu_2$) | One of: $H_a: \mu_1-\mu_2 < 0$, $H_a: \mu_1-\mu_2 > 0$, $H_a: \mu_1-\mu_2 \neq 0$ |
 | Paired t-test | $H_0: \mu_d = 0$ | One of: $H_a: \mu_d < 0$, $H_a: \mu_d > 0$, $H_a: \mu_d \neq 0$ |
-| ANOVA F-test | $H_0: \mu_1 = \mu_2 = \cdots = \mu_k$ | $H_a$: not all the $\mu's$ are equal |
+| ANOVA F-test | $H_0: \mu_1 = \mu_2 = \cdots = \mu_k$ | $H_a$: not all the $\mu$'s are equal |
 
 ## Step 2: Check Conditions, and Summarize the Data Using a Test Statistic
 

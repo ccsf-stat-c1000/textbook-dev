@@ -55,12 +55,12 @@ A machine fills bottles with a target of 500 ml. A quality check tests $H_0: \mu
 
 :::{quiz} What is the conclusion of the test, and what extra insight does the interval give?
 :hint: Is 500 inside (500.8, 503.2)? Where does the whole interval lie relative to 500?
-:feedback-0: Correct! 500 is outside the interval, so we reject $H_0—and$ since the interval lies entirely above 500, we learn the machine is overfilling, by roughly 1 to 3 ml.
+:feedback-0: Correct! 500 is outside the interval, so we reject $H_0$—and since the interval lies entirely above 500, we learn the machine is overfilling, by roughly 1 to 3 ml.
 :feedback-1: 500 is NOT inside the interval (it is below 500.8), so we do reject $H_0$.
 :feedback-2: The interval lies above 500, indicating OVERfilling, not underfilling.
-* *Reject $H_0—the$ machine appears to be overfilling by about 1 to 3 ml
-* Do not reject $H_0—500$ is a plausible value
-* Reject $H_0—the$ machine appears to be underfilling
+* *Reject $H_0$—the machine appears to be overfilling by about 1 to 3 ml
+* Do not reject $H_0$—500 is a plausible value
+* Reject $H_0$—the machine appears to be underfilling
 :::
 
 We are done with the case where the population standard deviation, $\sigma$, is known. We now move on to the more common case where $\sigma$ is unknown.

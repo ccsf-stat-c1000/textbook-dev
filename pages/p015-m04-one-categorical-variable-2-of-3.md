@@ -22,7 +22,7 @@ Note that the pie chart emphasizes how each category relates to the whole (all 1
 :::{quiz} Using the displays above, what percentage of the sampled students felt that their weight was NOT about right?
 :hint: Combine the categories other than "About right"—or subtract from 100%.
 :feedback-0: 19.6% is only the Overweight category; don't forget Underweight.
-:feedback-1: Correct! $19.6% + 9.2% = 28.8%$ (or equivalently $100% - 71.3%$, up to rounding).
+:feedback-1: Correct! $19.6\% + 9.2\% = 28.8\%$ (or equivalently $100\% - 71.3\%$, up to rounding).
 :feedback-2: 9.2% is only the Underweight category; don't forget Overweight.
 :feedback-3: 71.3% is the percentage who felt about right.
 * 19.6%

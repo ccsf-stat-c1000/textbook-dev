@@ -8,7 +8,7 @@ Sometimes, survey questions are ordered in such a way as to deliberately bias th
 
 "The First Amendment protects the right of individuals to create a private organization consisting of a specific group of people based on age, gender, race, ethnicity, or interest."
 
-"The First Amendment protects the right of organizations like the Boy Scouts, the Girls Scouts, and the National Association for the Advancement of Colored People to exist."
+"The First Amendment protects the right of organizations like the Boy Scouts, the Girl Scouts, and the National Association for the Advancement of Colored People to exist."
 
 "Individuals have a right to join a private group, club, or organization that consists of people who share the same interests and personal backgrounds as they do if they so desire."
 
@@ -44,7 +44,7 @@ Besides using the randomized response method, surveyors may encourage honest ans
 
 ## Let's summarize
 
-A sample surveyis a type of observational study in which respondents assess variables' values (often by giving an opinion).
+A sample survey is a type of observational study in which respondents assess variables' values (often by giving an opinion).
 
 * Open questions are less restrictive, but responses are more difficult to summarize.
 

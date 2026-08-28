@@ -27,8 +27,8 @@ Let's draw our conclusion regarding the relationship between participation in th
 :feedback-0: Correct! The tiny p-value provides strong evidence against independence, so we conclude that alcohol risk is related to participation in the 9/11 rescue: participants show a higher risk (28% vs. 20%).
 :feedback-1: 0.0004 is far below 0.05, so we DO reject $H_0$.
 :feedback-2: Since this is an observational study, we can conclude association, but the direction of the observed difference (participants at higher risk) is part of a complete conclusion.
-* *Reject $H_0—alcohol$ risk among firefighters is related to 9/11 rescue participation, with participants at higher risk
-* Do not reject $H_0—the$ evidence is insufficient
+* *Reject $H_0$—alcohol risk among firefighters is related to 9/11 rescue participation, with participants at higher risk
+* Do not reject $H_0$—the evidence is insufficient
 * Reject $H_0$ and conclude that 9/11 participation causes alcoholism
 :::
 

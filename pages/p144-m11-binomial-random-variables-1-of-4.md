@@ -34,13 +34,13 @@ The random variable X that represents the number of successes in those n trials 
 
 Let's consider a few random experiments. In each of them, we'll decide whether the random variable is binomial. If it is, we'll determine the values for n and p. If it isn't, we'll explain why not.
 
-1. A fair coin is flipped 20 times; X represents the number of heads. *X is binomial with $n = 20$ and $p = 0.5*$.
-2. You roll a fair die 50 times; X is the number of times you get a six. *X is binomial with $n = 50$ and $p = 1/6*$.
+1. A fair coin is flipped 20 times; X represents the number of heads. *X is binomial with $n = 20$ and $p = 0.5$*.
+2. You roll a fair die 50 times; X is the number of times you get a six. *X is binomial with $n = 50$ and $p = 1/6$*.
 3. Roll a fair die repeatedly; X is the number of rolls it takes to get a six. *X is not binomial, because the number of trials is not fixed*.
 4. Draw 3 cards at random, one after the other, *without replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. *X is not binomial, because the selections are not independent.* (The probability (p) of success is not constant, because it is affected by previous selections.)
-5. Draw 3 cards at random, one after the other, *with replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. Sampling with replacement ensures independence. *X is binomial with $n = 3$ and $p = 1/4*$.
-6. Approximately 1 in every 20 children has a certain disease. Let X be the number of children with the disease out of a random sample of 100 children. Although the children are sampled without replacement, it is assumed that we are sampling from such a vast population that the selections are virtually independent. *X is binomial with $n = 100$ and $p = 1/20 = 0.05*$.
-7. The probability of having blood type B is 0.1. Choose 4 people at random; X is the number with blood type B. *X is binomial with $n = 4$ and $p = 0.1*$.
+5. Draw 3 cards at random, one after the other, *with replacement*, from a set of 4 cards consisting of one club, one diamond, one heart, and one spade; X is the number of diamonds selected. Sampling with replacement ensures independence. *X is binomial with $n = 3$ and $p = 1/4$*.
+6. Approximately 1 in every 20 children has a certain disease. Let X be the number of children with the disease out of a random sample of 100 children. Although the children are sampled without replacement, it is assumed that we are sampling from such a vast population that the selections are virtually independent. *X is binomial with $n = 100$ and $p = 1/20 = 0.05$*.
+7. The probability of having blood type B is 0.1. Choose 4 people at random; X is the number with blood type B. *X is binomial with $n = 4$ and $p = 0.1$*.
 8. A student answers 10 quiz questions completely at random; the first five are true/false, the second five are multiple choice, with four options each. X represents the number of correct answers. *X is not binomial, because p changes from 1/2 to 1/4*.
 :::
 

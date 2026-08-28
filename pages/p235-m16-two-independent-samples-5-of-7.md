@@ -59,7 +59,7 @@ Recall the pregnancy length study: to check the claim that the pregnancy length 
 :feedback-0: Correct! Since $0.024 < 0.05$, we reject $H_0$ and conclude that pregnancies of smokers are, on average, shorter than those of non-smokers.
 :feedback-1: 0.024 is smaller than 0.05, so the results ARE significant.
 :feedback-2: The conclusion should be about mean pregnancy length in the populations, stated in context.
-* *Reject $H_0—the$ data provide evidence that smoking during pregnancy is associated with shorter pregnancies
-* Do not reject $H_0—the$ evidence is insufficient
+* *Reject $H_0$—the data provide evidence that smoking during pregnancy is associated with shorter pregnancies
+* Do not reject $H_0$—the evidence is insufficient
 * Reject $H_0$ (no context needed)
 :::

@@ -28,7 +28,7 @@ To see how this rule works in practice, consider the following example:
 The following histogram represents height (in inches) of 50 males. Note that the data are roughly normal, so we would like to see how the Standard Deviation Rule works for this example.
 
 ```{figure} images/gen/m04-male-height-histogram.svg
-:alt: A roughly symmetric, mound-shaped histogram of the heights of 50 males, ranging from 64 to 78 inches with a peak around 70 to 72 inches.
+:alt: A roughly symmetric, mound-shaped histogram of the heights of 50 males, ranging from 64 to 77 inches with a peak around 70 to 72 inches.
 ```
 
 Here are the numerical summaries of the distribution. Note that the key players here, the mean and standard deviation, have been highlighted.

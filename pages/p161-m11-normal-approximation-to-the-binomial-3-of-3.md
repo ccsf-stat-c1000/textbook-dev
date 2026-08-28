@@ -37,7 +37,7 @@ Let X be the number of left-handed students (success) out of the 225 students (t
 Clearly, doing this using the binomial distribution formula is out of the question.
 
 :::{quiz} Is the normal approximation appropriate here, and if so, what are the mean and standard deviation of the approximating normal variable?
-:hint: Check np and n(1 - p), then compute $\mu$ = np and $\sigma = \sqrt{np(}$ - p)).
+:hint: Check np and n(1 - p), then compute $\mu$ = np and $\sigma = \sqrt{np(1-p)}$.
 :feedback-0: Correct! np = 22.5 and n(1 - p) = 202.5 both exceed 10, so the approximation applies with $\mu = 22.5$ and $\sigma = \sqrt{20.25} = 4.5$.
 :feedback-1: np = $225 \times 0.1 = 22.5$, which does satisfy the rule of thumb.
 :feedback-2: The standard deviation is $\sqrt{np(1-p)} = \sqrt{20.25} = 4.5$, not 20.25 (that's the variance).

@@ -68,7 +68,7 @@ Suppose a survey was conducted in which a random sample of 1,100 U.S. adults was
 :feedback-1: 0.002 is SMALLER than 0.05, so we do reject $H_0$.
 :feedback-2: We do reject $H_0$, but the conclusion must be stated in context—about the proportion of supporters, not just symbols.
 * *Reject $H_0$ and conclude that a majority of U.S. adults support gay marriage
-* Do not reject $H_0—the$ evidence is not strong enough
+* Do not reject $H_0$—the evidence is not strong enough
 * Accept $H_0$ and conclude that exactly 50% support gay marriage
 :::
 
@@ -103,10 +103,10 @@ In a survey, 1,600 randomly selected drivers were asked the number of miles they
 
 :::{quiz} Based on the p-value of 0.068, what is the correct conclusion?
 :hint: Compare 0.068 with 0.05, and be careful with the wording.
-:feedback-0: Correct! Since $0.068 > 0.05$, the data do not provide enough evidence to reject $H_0$. Note that we cannot ACCEPT $H_0—we$ simply lack evidence against it.
+:feedback-0: Correct! Since $0.068 > 0.05$, the data do not provide enough evidence to reject $H_0$. Note that we cannot ACCEPT $H_0$—we simply lack evidence against it.
 :feedback-1: 0.068 is larger than 0.05, so the results are not statistically significant.
 :feedback-2: Failing to reject $H_0$ is not the same as accepting it—the data do not prove the average is 12,000.
-* *Do not reject $H_0—the$ data do not provide enough evidence that the average is less than 12,000 miles
+* *Do not reject $H_0$—the data do not provide enough evidence that the average is less than 12,000 miles
 * Reject $H_0$ and conclude the average is less than 12,000 miles
 * Accept $H_0$ and conclude the average is exactly 12,000 miles
 :::

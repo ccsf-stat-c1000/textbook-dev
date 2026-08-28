@@ -4,7 +4,7 @@ A good visual illustration of this conditional probability is provided by the tw
 
 | | Pierced | Not Pierced | Total |
 | --- | --- | --- | --- |
-| **Male** | **36** | *144* | *180* |
+| *Male* | **36** | *144* | *180* |
 | Female | 288 | 32 | 320 |
 | Total | 324 | 176 | 500 |
 
@@ -16,7 +16,7 @@ Another way to visualize conditional probability is using a Venn diagram:
 :alt: A Venn diagram with overlapping circles M and E inside the sample space of all 500 students. The M circle is shaded light green with probability 0.36, and its overlap with E is shaded dark green with probability 0.072. The conditional probability of E given M is the dark region as a fraction of the whole M circle: 0.072 divided by 0.36 equals 0.20.
 ```
 
-In both the two-way table and the Venn diagram, the reduced sample space (comprised of only males) is shaded light green, and within this sample space, the event of interest (having ears pierced) is shaded darker green. The two-way table illustrates the idea via counts, while the Venn diagram converts the counts to probabilities, which are presented as regions rather than cells.
+In the two-way table, the reduced sample space (the Male row, comprised of only males) is set in italics, and within this sample space the count for the event of interest (having ears pierced) is set in bold. The Venn diagram shows the same two regions, with the reduced sample space shaded light green and the event of interest shaded darker green. The two-way table illustrates the idea via counts, while the Venn diagram converts the counts to probabilities, which are presented as regions rather than cells.
 
 We may work with counts, as presented in the two-way table, to write
 

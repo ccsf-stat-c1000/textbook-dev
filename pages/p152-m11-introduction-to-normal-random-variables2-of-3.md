@@ -52,7 +52,7 @@ Now you should try a few. (Use the figure in the example to help you.)
 
 :::{quiz} (d) What is the probability that a randomly chosen adult male will have a foot length between 9.5 and 12.5 inches?
 :hint: 9.5 and 12.5 are each 1 standard deviation from the mean of 11.
-:feedback-0: Correct! This is the $within-1\sigma$ interval, so the probability is 0.68.
+:feedback-0: Correct! This is the within-$1\sigma$ interval, so the probability is 0.68.
 :feedback-1: 0.95 corresponds to within 2 standard deviations (8 to 14 inches).
 :feedback-2: 0.16 is the probability in ONE tail beyond 1 standard deviation.
 * *0.68

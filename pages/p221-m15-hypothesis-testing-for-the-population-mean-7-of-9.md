@@ -38,7 +38,7 @@ We are now done introducing the t distribution. What are the implications of all
 :::{quiz} Why does using s instead of $\sigma$ change the null distribution from Z to t?
 :hint: How many randomly varying quantities appear in each formula?
 :feedback-0: Correct! s varies from sample to sample, adding a second source of variability on top of x-bar's, which fattens the tails of the distribution of the statistic.
-:feedback-1: s is not systematically larger than $\sigma—it$ varies around it.
+:feedback-1: s is not systematically larger than $\sigma$—it varies around it.
 :feedback-2: The change affects small samples most, but the reason is the extra variability, not a calculation error.
 * *Using s adds a second source of sample-to-sample variability, giving the statistic more spread than a z-score
 * Because s is always larger than $\sigma$

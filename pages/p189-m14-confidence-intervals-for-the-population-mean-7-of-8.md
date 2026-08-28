@@ -73,11 +73,11 @@ There is an important difference between the confidence multipliers we have used
 
 :::{quiz} A researcher has a random sample of 45 observations with sample mean 82 and sample standard deviation 12; $\sigma$ is unknown. Which confidence interval should be used for $\mu$?
 :hint: $\sigma$ has been replaced by s—which multiplier goes with that?
-:feedback-0: Correct! With $\sigma$ unknown, we use s and the t multiplier: x-bar $\pm t*(s/\sqrt{n})$.
+:feedback-0: Correct! With $\sigma$ unknown, we use s and the t multiplier: $\bar{x} \pm t^{*}\cdot\frac{s}{\sqrt{n}}$.
 :feedback-1: The z interval with $\sigma$ requires knowing the population standard deviation, which we don't.
 :feedback-2: The margin of error must divide s by $\sqrt{n}$, not use s alone.
-* *$82 \pm t*(12/\sqrt{45})$
-* $82 \pm z*(\sigma/\sqrt{45})$
+* *$82 \pm t^{*}\cdot\frac{12}{\sqrt{45}}$
+* $82 \pm z^{*}\cdot\frac{\sigma}{\sqrt{45}}$
 * $82 \pm$ t*(12)
 :::
 

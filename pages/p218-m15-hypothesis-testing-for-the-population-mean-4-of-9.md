@@ -45,7 +45,7 @@ Let's revisit example 1 and see what a larger sample would have done. Suppose th
 :feedback-0: Correct! With $0.006 < 0.05$ we now reject $H_0$. The same sample mean carries far more weight when it comes from a larger sample.
 :feedback-1: 0.006 is much smaller than 0.05, so the results ARE significant.
 :feedback-2: The data did not change in direction—the increased sample size is what strengthened the evidence.
-* *Reject $H_0—the$ same sample mean of 550 becomes convincing evidence when based on 25 students instead of 4
-* Do not reject $H_0—the$ results are still not significant
+* *Reject $H_0$—the same sample mean of 550 becomes convincing evidence when based on 25 students instead of 4
+* Do not reject $H_0$—the results are still not significant
 * The conclusion is unrelated to the sample size
 :::

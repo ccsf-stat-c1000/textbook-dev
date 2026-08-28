@@ -30,7 +30,7 @@ Here is some additional information:
 
 What is the probability that a randomly chosen person is a potential donor for a person with blood type A?
 
-From the information given, we know that being a potential donor for a person with blood type A means having blood type A or O. We therefore need to find P(A or O). Since the events A and O are disjoint, we can use the addition rule for disjoint events to get: P(A or O) = P(A) + P(O) = $0.42 + 0.44 = 0.86$. It is easy to see why adding the probabilities actually makes sense. If 42% of the population has blood type A and 44% of the population has blood type O, then $42% + 44% = 86%$ of the population has either blood type A or O, and thus are potential donors to a person with blood type A. (Picture the pie chart of blood types: the A and O slices together take up 86% of the pie.)
+From the information given, we know that being a potential donor for a person with blood type A means having blood type A or O. We therefore need to find P(A or O). Since the events A and O are disjoint, we can use the addition rule for disjoint events to get: P(A or O) = P(A) + P(O) = $0.42 + 0.44 = 0.86$. It is easy to see why adding the probabilities actually makes sense. If 42% of the population has blood type A and 44% of the population has blood type O, then $42\% + 44\% = 86\%$ of the population has either blood type A or O, and thus are potential donors to a person with blood type A. (Picture the pie chart of blood types: the A and O slices together take up 86% of the pie.)
 :::
 
 :::{quiz} Using the blood type table, what is the probability that a randomly chosen person has blood type B or AB?

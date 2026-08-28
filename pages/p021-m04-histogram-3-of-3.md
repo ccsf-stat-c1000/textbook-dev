@@ -18,7 +18,7 @@ The {term}`spread` (also called *variability*) of the distribution can be descri
 
 In our example:
 
-| | |
+| Measure | Approximate value |
 | --- | --- |
 | Approximate min: | 45 (the middle of the lowest interval of scores) |
 | Approximate max: | 95 (the middle of the highest interval of scores) |

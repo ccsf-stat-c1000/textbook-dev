@@ -65,7 +65,7 @@ Test statistic: $\chi^2 = 14.626$. Note that the "largest contributors" to the t
 
 - The conditions for safe use are a random sample and large enough expected counts (all above 5, by the conservative rule). Once we verify these, we use software to carry out the test and use the p-value to guide our conclusions.
 
-## Check Your Understanding
+## Check Your Understanding: Interpreting the Chi-Square Results
 
 :::{quiz} In the steroid example, which cells provided the strongest evidence against independence, and in what direction?
 :hint: Look at the largest contributions to the chi-square statistic.

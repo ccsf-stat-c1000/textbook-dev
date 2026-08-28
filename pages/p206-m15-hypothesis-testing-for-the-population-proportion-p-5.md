@@ -91,7 +91,7 @@ In each of the following scenarios, decide whether it is appropriate to use the 
 :feedback-0: Correct! $np_0 = 8.7$, which is below 10, so the sampling distribution of p-hat cannot be assumed normal—the z-test should not be used.
 :feedback-1: The sample IS random; the problem is that $np_0 = 8.7 < 10$.
 :feedback-2: Check the products $np_0$ and n(1 - $p_0)$: one of them fails.
-* *$No—np_0 = 8.7$ is less than 10
+* *No—$np_0 = 8.7$ is less than 10
 * No—the sample was not random
 * Yes—all conditions are met
 :::
@@ -114,7 +114,7 @@ In each of the following scenarios, decide whether it is appropriate to use the 
 :feedback-1: The sample size conditions are fine (712 and 488); the problem is the sampling.
 :feedback-2: The sample fails to represent the population of interest, so the test's conclusions would not apply to all U.S. households.
 * *No—a sample from one metropolitan area is not a random sample of all U.S. households
-* $No—np_0$ or n(1 - $p_0)$ is below 10
+* No—$np_0$ or n(1 - $p_0)$ is below 10
 * Yes—all conditions are met
 :::
 
@@ -126,7 +126,7 @@ In each of the following scenarios, decide whether it is appropriate to use the 
 :feedback-1: $np_0 = 32$ is fine, but BOTH conditions must hold—n(1 - $p_0) = 8$ fails.
 :feedback-2: The sample is random; the problem is the sample size condition.
 * *No—n(1 - $p_0) = 8$ is less than 10
-* $Yes—np_0 = 32$ is at least 10
+* Yes—$np_0 = 32$ is at least 10
 * No—the sample was not random
 :::
 

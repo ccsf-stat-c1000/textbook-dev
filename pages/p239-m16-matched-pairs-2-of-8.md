@@ -12,7 +12,7 @@ The idea behind the paired t-test is to reduce this two-sample situation, where 
 [Matched Pairs](https://www.youtube.com/watch?v=URPrSH0Lg_M)
 ```
 
-In our drunk drivers example, instead of comparing the 20 "before" reaction times with the 20 "after" reaction times as two separate samples, we compute for each driver the *difference* in reaction time (before - after). By doing this, we are reducing the problem from a problem where we're comparing two means (i.e., doing inference on $\mu_1-\mu_2$) to a problem where we are making an inference about a *single $mean*—\mu$, the mean of the differences in reaction time (before two beers - after two beers) in the population of all drivers, based on one sample of 20 differences.
+In our drunk drivers example, instead of comparing the 20 "before" reaction times with the 20 "after" reaction times as two separate samples, we compute for each driver the *difference* in reaction time (before - after). By doing this, we are reducing the problem from a problem where we're comparing two means (i.e., doing inference on $\mu_1-\mu_2$) to a problem where we are making an inference about a *single mean*—$\mu$, the mean of the differences in reaction time (before two beers - after two beers) in the population of all drivers, based on one sample of 20 differences.
 
 In general, in every matched pairs problem, our data consist of 2 samples which are organized in n pairs. We reduce the two samples to only one by calculating, for each pair, the difference between the two observations:
 

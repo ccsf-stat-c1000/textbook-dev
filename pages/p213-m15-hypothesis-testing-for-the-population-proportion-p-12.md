@@ -68,8 +68,8 @@ The UCLA Internet Report (February 2003) estimated that roughly 8.7% of Internet
 :feedback-0: Correct! 0.087 lies inside (0.08, 0.14), so it is a plausible value for p and we cannot reject $H_0$.
 :feedback-1: Check again: 0.087 is between 0.08 and 0.14, so it IS inside the interval.
 :feedback-2: The interval method applies directly here since the alternative is two-sided and the confidence level (95%) matches $\alpha = 0.05$.
-* *Do not reject $H_0—0.087$ is inside the interval, so it remains a plausible value for p
-* Reject $H_0—0.087$ is outside the interval
+* *Do not reject $H_0$—0.087 is inside the interval, so it remains a plausible value for p
+* Reject $H_0$—0.087 is outside the interval
 * The confidence interval cannot be used to draw a conclusion here
 :::
 

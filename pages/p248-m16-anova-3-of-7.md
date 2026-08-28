@@ -41,7 +41,7 @@ Thus, in the language of hypothesis tests, we would say that if the data were co
 * The sample sizes differ between the scenarios
 :::
 
-Let's summarize what we learned from this. The question we need to answer is: *are the differences among the sample means due to true differences among the $\mu's$ (alternative hypothesis), or merely due to sampling variability (null hypothesis)?*
+Let's summarize what we learned from this. The question we need to answer is: *are the differences among the sample means due to true differences among the $\mu$'s (alternative hypothesis), or merely due to sampling variability (null hypothesis)?*
 
 In order to answer this question using our data, we obviously need to look at the variation among the sample means, but this alone is not enough. We need to look at the variation among the sample means *relative to* the variation within the groups. In other words, we need to look at the quantity:
 

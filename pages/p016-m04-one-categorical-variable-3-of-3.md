@@ -8,7 +8,7 @@
 
 3. *Beware:* Pictograms can be misleading. Consider the following pictogram, in which the amount spent on advertising in each of three news magazines is represented by the size of a pen:
 
-   ```{figure} images/one_cat_var5.jpg
+   ```{figure} images/gen/m04-pictogram-pens.svg
    :alt: A pictogram showing advertising spending in three magazines as pens of different sizes. The Time pen (\$4,433,879) is dramatically larger than the Newsweek pen (\$2,698,386), which in turn dwarfs the U.S. News pen (\$1,537,617), because both the height and the width of each pen were scaled to the dollar amounts.
    ```
 

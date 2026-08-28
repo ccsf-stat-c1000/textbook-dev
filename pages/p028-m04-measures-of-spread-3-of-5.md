@@ -38,11 +38,11 @@ Note that in this example, the range covered by all the ages is 59 years, while 
 
 Software packages use different formulas to calculate the quartiles Q1 and Q3. This should not worry you, as long as you understand the idea behind these concepts. For example, here are the quartile values provided by three different statistical software packages for the age of Best Actress Oscar winners:
 
-| Software | Q1 | Q3 |
+| Quartile definition | Q1 | Q3 |
 | --- | --- | --- |
-| Package A | 32.50 | 41.25 |
-| Package B | 31.50 | 41.75 |
-| Package C | 32.50 | 41.25 |
+| Tukey's hinges (the method used above) | 30.50 | 42.00 |
+| Linear interpolation (a common software default) | 30.75 | 42.00 |
+| Weibull definition | 30.25 | 42.00 |
 
-*Note* that Q1 and Q3 as reported by the various software packages differ from each other and are also slightly different from the ones we found here. There are different acceptable ways to find the median and the quartiles. These can give different results occasionally, especially for datasets where n (the number of observations) is fairly small. As long as you know what the numbers mean, and how to interpret them in context, it doesn't really matter much what method you use to find them, since the differences are really negligible.
+*Note* that Q1 as reported under the various definitions differs slightly from one to the next; here they happen to agree on Q3. There are different acceptable ways to find the median and the quartiles. These can give different results occasionally, especially for datasets where n (the number of observations) is fairly small. As long as you know what the numbers mean, and how to interpret them in context, it doesn't really matter much what method you use to find them, since the differences are really negligible.
 :::

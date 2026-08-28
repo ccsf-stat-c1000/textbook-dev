@@ -91,7 +91,7 @@ This makes sense, because when we create the sampling distribution, we assume th
 
 Similarly, if the significance level is 1 percent, then we can expect the sample results to lead us to reject the null hypothesis 1 percent of the time when it is actually true. In other words, about one in 100 data sets would show "rare" results, leading us to reject a true null hypothesis. So the probability of a type I error in this case is 1 percent.
 
-*In general, the probability of a type I error is $\alpha.*$
+*In general, the probability of a type I error is $\alpha.$*
 
 ## What Is the Probability That We Will Make a Type II Error?
 

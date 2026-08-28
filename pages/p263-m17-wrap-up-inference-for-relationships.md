@@ -13,7 +13,7 @@ The following table summarizes both EDA and inference for the relationship betwe
 | $Q \to C$ (quantitative explanatory, categorical response) | — | — | Logistic regression: not covered in this course |
 | $Q \to Q$ (quantitative explanatory, quantitative response) | Scatterplot (explanatory on the horizontal axis, response on the vertical axis) | Correlation coefficient r | Significance test for the linear relationship (t-test for the slope), followed by the least squares regression line |
 
-## Check Your Understanding
+## Check Your Understanding: Choosing the Right Inferential Method
 
 For each research question, choose the appropriate inferential method.
 

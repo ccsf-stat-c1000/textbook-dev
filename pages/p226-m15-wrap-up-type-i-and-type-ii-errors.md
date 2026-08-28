@@ -12,7 +12,7 @@ However, it is not possible to know when either a type I or type II error has oc
 | **Reject $H_0$** | Type I error | Correct decision |
 | **Fail to reject $H_0$** | Correct decision | Type II error |
 
-## Check Your Understanding
+## Check Your Understanding: Identifying the Type of Error
 
 :::{quiz} A quality inspector tests $H_0$: "the production line is working correctly" and, based on the data, shuts down a line that was actually working fine. Which type of error is this?
 :hint: The inspector rejected a true null hypothesis.

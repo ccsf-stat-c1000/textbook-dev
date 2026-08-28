@@ -66,9 +66,9 @@ These examples should convince you that, depending on the variables of interest,
 
 * The explanatory variable's values are controlled by researchers (treatment is imposed).
 
-* Randomized assignment to treatments automatically controls for all lurking variables.
+* Randomized assignment to treatments balances lurking variables across the treatment groups, so that on average the groups should not differ systematically with respect to them.
 
-* Making subjects blind avoids the placebo effect.
+* Making subjects blind ensures that the placebo effect operates equally in every treatment group, so it cannot be mistaken for a treatment effect.
 
 * Making researchers blind avoids conscious or subconscious influences on their subjective assessment of responses.
 

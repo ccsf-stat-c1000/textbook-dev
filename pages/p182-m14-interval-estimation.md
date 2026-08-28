@@ -17,9 +17,9 @@ Suppose that we are interested in studying the IQ levels of students at Smart Un
 
 In point estimation we used $\bar{x}=115$ as the point estimate for $\mu$. However, we had no idea of what the estimation error involved in such an estimation might be. Interval estimation takes point estimation a step further and says something like:
 
-    "I am 95% confident that by using the point estimate $\bar{x}=115$ to estimate $\mu$, I am off by no more than 3 IQ points. In other words, I am 95% confident that $\mu$ is within 3 of 115, or between $112 (115 - 3)$ and $118 (115 + 3)$."
+"I am 95% confident that by using the point estimate $\bar{x}=115$ to estimate $\mu$, I am off by no more than 3 IQ points. In other words, I am 95% confident that $\mu$ is within 3 of 115, or between $112 (115 - 3)$ and $118 (115 + 3)$."
 
-    Yet another way to say the same thing is: I am 95% confident that $\mu$ is somewhere in (or covered by) the interval (112,118). (*Comment:* At this point you should not worry about, or try to figure out, how we got these numbers. We'll do that later. All we want to do here is make sure you understand the idea.)
+Yet another way to say the same thing is: I am 95% confident that $\mu$ is somewhere in (or covered by) the interval (112,118). (*Comment:* At this point you should not worry about, or try to figure out, how we got these numbers. We'll do that later. All we want to do here is make sure you understand the idea.)
 
 Note that while point estimation provided just one number as an estimate for $\mu (115)$, interval estimation provides a whole interval of "plausible values" for $\mu$ (between 112 and 118), and also attaches the level of our confidence that this interval indeed includes the value of $\mu$ to our estimation (in our example, 95% confidence). The interval (112, 118) is therefore called "a 95% confidence interval for $\mu$."
 :::

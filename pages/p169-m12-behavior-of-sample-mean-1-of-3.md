@@ -7,13 +7,13 @@ So far, we've discussed the behavior of the statistic $\hat{p}$, the sample prop
 :::{admonition} Example: Birth Weights
 :class: tip
 
-Birth weights are recorded for all babies in a town. The mean birth weight is 3,500 grams, µ = 3,500 g. If we collect many random samples of 9 babies at a time, how do you think sample means will behave?
+Birth weights are recorded for all babies in a town. The mean birth weight is 3,500 grams, $\mu = 3{,}500$ g. If we collect many random samples of 9 babies at a time, how do you think sample means will behave?
 
 Here again, we are working with a random variable, since random samples will have means that vary unpredictably in the short run but exhibit patterns in the long run.
 
 Based on our intuition and what we have learned about the behavior of sample proportions, we might expect the following about the distribution of sample means:
 
-{term}`Center <center>`: Some sample means will be on the low side—say 3,000 grams or so—while others will be on the high side—say 4,000 grams or so. In repeated sampling, we might expect that the random samples will average out to the underlying population mean of 3,500 g. In other words, the mean of the sample means will be µ, just as the mean of sample proportions was p.
+{term}`Center <center>`: Some sample means will be on the low side—say 3,000 grams or so—while others will be on the high side—say 4,000 grams or so. In repeated sampling, we might expect that the random samples will average out to the underlying population mean of 3,500 g. In other words, the mean of the sample means will be $\mu$, just as the mean of sample proportions was p.
 
 {term}`Spread <spread>`: For large samples, we might expect that sample means will not stray too far from the population mean of 3,500. Sample means lower than 3,000 or higher than 4,000 might be surprising. For smaller samples, we would be less surprised by sample means that varied quite a bit from 3,500. In other words, we might expect greater variability in sample means for smaller samples. So sample size will again play a role in the spread of the distribution of sample means, as we observed for sample proportions.
 

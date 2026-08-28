@@ -47,7 +47,7 @@ These two steps are illustrated in the following relative frequency table:
 | [70–80) | 5 | $5/15 \approx 0.33$ |
 | [80–90) | 2 | $2/15 \approx 0.13$ |
 | [90–100] | 1 | $1/15 \approx 0.07$ |
-| *Total* | *$n = 15*$ | *1.00* |
+| *Total* | *$n = 15$* | *1.00* |
 
 It is also possible to determine the number of scores for an interval, if you have the total number of observations and the relative frequency for that interval. For instance, suppose there are 15 scores (or observations) in a set of data and the relative frequency for an interval is 0.13. To determine the number of scores in that interval, multiply the total number of observations by the relative frequency and round to the nearest whole number: $15 \times 0.13 = 1.95$, which rounds to 2 observations.
 

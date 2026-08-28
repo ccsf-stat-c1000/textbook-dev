@@ -20,7 +20,7 @@ $\hat{p}$ has an approximately normal distribution with mean $\mu_{\hat{p}}=p$ a
 
 Let's apply this result to our example and see how it compares with our simulation.
 
-In our example, $n = 25$ (sample size) and $p = 0.6$. Note that np = $15 \geq 10$ and n(1 - p) = $10 \geq 10$. Therefore we can conclude that $\hat{p}$ is approximately normal with mean $p = 0.6$ and standard deviation $\sqrt{\frac{0.6(0.4)}{25}}=0.098$ (which is very close to what we saw in our simulation).
+In our example, $n = 100$ (sample size) and $p = 0.6$. Note that $np = 60 \geq 10$ and $n(1 - p) = 40 \geq 10$. Therefore we can conclude that $\hat{p}$ is approximately normal with mean $p = 0.6$ and standard deviation $\sqrt{\frac{0.6(0.4)}{100}}=0.049$ (which is very close to what we saw in our simulation).
 
 ## Check Your Understanding: The Sampling Distribution of the Sample Proportion
 

@@ -6,9 +6,10 @@ Since that is the case, the researchers would now like to estimate the equation 
 
 In the Exploratory Data Analysis unit, we presented the actual formulas for the slope and intercept of the line. We are not going to repeat those here; we will obtain the values from software output:
 
-| Regression analysis: Distance vs. Age | | | | |
+*Regression analysis: Distance vs. Age*
+
+| Predictor | Coef | SE Coef | T | P |
 | --- | --- | --- | --- | --- |
-| **Predictor** | **Coef** | **SE Coef** | **T** | **P** |
 | Constant | 576.68 | 23.47 | 24.57 | 0.000 |
 | Age | -3.0068 | 0.4243 | -7.09 | 0.000 |
 

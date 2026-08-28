@@ -40,7 +40,7 @@ However, we feel that it is important to mention the test statistic for two reas
 :feedback-0: Correct! The p-value is large, so the data do not provide enough evidence of a difference between the two methods' mean scores.
 :feedback-1: 0.40 is much larger than 0.05—the results are not significant.
 :feedback-2: Failing to reject $H_0$ does not prove the two methods are equally effective; we simply lack evidence of a difference.
-* *Do not reject $H_0—there$ is not enough evidence that the mean scores differ
+* *Do not reject $H_0$—there is not enough evidence that the mean scores differ
 * Reject $H_0$ and conclude the methods differ
 * Accept $H_0$ and conclude the methods are equally effective
 :::

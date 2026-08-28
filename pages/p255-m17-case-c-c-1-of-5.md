@@ -43,8 +43,8 @@ Before we introduce the chi-square test, let's conduct an exploratory data analy
 
 | | Drank alcohol: Yes | Drank alcohol: No | Total |
 | --- | --- | --- | --- |
-| **Male** | $77/481 = 16.0%$ | $404/481 = 84.0%$ | 100% |
-| **Female** | $16/138 = 11.6%$ | $122/138 = 88.4%$ | 100% |
+| **Male** | $77/481 = 16.0\%$ | $404/481 = 84.0\%$ | 100% |
+| **Female** | $16/138 = 11.6\%$ | $122/138 = 88.4\%$ | 100% |
 
 For the 619 sampled drivers, a larger percentage of males were found to have been drinking than females (16.0% vs. 11.6%). Our data, in other words, provide some evidence that drunk driving is related to gender; however, this in itself is not enough to conclude that such a relationship exists in the larger population of drivers under 20. We need to further investigate the data and decide between the following two points of view:
 
@@ -78,7 +78,7 @@ Using the data from this research, we would like to investigate whether alcohol 
 
 :::{quiz} What are the appropriate conditional percentages for the exploratory analysis, and what do they suggest?
 :hint: Compute the percentage at moderate-to-severe risk within each participation group: 309/1102 and 110/551.
-:feedback-0: Correct! $309/1102 \approx 28%$ of participants were at risk vs. $110/551 \approx 20%$ of non-participants—suggesting a possible relationship, which inference must confirm.
+:feedback-0: Correct! $309/1102 \approx 28\%$ of participants were at risk vs. $110/551 \approx 20\%$ of non-participants—suggesting a possible relationship, which inference must confirm.
 :feedback-1: Percentages should be computed within each row (participation group), not out of the overall total.
 :feedback-2: The sample percentages DO differ (28% vs. 20%); the question for inference is whether this difference is statistically significant.
 * *About 28% of participants vs. 20% of non-participants were at risk—a possible relationship worth testing

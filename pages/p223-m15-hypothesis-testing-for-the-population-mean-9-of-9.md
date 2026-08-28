@@ -74,9 +74,10 @@ Note that here the difference between the p-values is quite negligible (0.002). 
 
 A group of Internet users 50-65 years of age were randomly chosen and asked to report the weekly number of hours they spend online. The purpose of the study was to determine whether the mean weekly number of hours that Internet users in that age group spend online differs from the mean for Internet users in general, which is 12.5. Statistical software gives the following output:
 
-| Test of $\mu = 12.5$ vs $\neq 12.5$ | | | | | |
+*Test of $\mu = 12.5$ vs $\mu \neq 12.5$:*
+
+| N | Mean | StDev | SE Mean | T | P |
 | --- | --- | --- | --- | --- | --- |
-| **N** | **Mean** | **StDev** | **SE Mean** | **T** | **P** |
 | 125 | 12.008 | 3.214 | 0.287 | -1.71 | 0.090 |
 
 :::{quiz} Using $\alpha = 0.05$, what is the correct conclusion from this output?
@@ -84,7 +85,7 @@ A group of Internet users 50-65 years of age were randomly chosen and asked to r
 :feedback-0: Correct! Since $0.090 > 0.05$, the data do not provide enough evidence that the mean for this age group differs from 12.5 hours.
 :feedback-1: 0.090 exceeds 0.05, so the results are NOT statistically significant.
 :feedback-2: Failing to reject $H_0$ does not prove the mean is exactly 12.5.
-* *Do not reject $H_0—there$ is not enough evidence that the mean differs from 12.5 hours
+* *Do not reject $H_0$—there is not enough evidence that the mean differs from 12.5 hours
 * Reject $H_0$ and conclude the mean differs from 12.5 hours
 * Accept $H_0$ and conclude the mean is exactly 12.5 hours
 :::
@@ -136,7 +137,7 @@ A group of Internet users 50-65 years of age were randomly chosen and asked to r
 :feedback-0: Correct! $\sigma$ is unknown (we only have the sample standard deviation 1.11), so we use the t-test; the small sample (n = 5) is acceptable because thickness is known to vary normally.
 :feedback-1: We only know the SAMPLE standard deviation, so the z-test is not appropriate.
 :feedback-2: Since the population is known to be normal, the small sample size is not a problem.
-* *The $t-test—\sigma$ is unknown, and the normal population makes the small sample acceptable
+* *The t-test—$\sigma$ is unknown, and the normal population makes the small sample acceptable
 * The z-test—the standard deviation is known to be 1.11
 * Neither—the sample size of 5 is too small
 :::
@@ -146,9 +147,9 @@ A group of Internet users 50-65 years of age were randomly chosen and asked to r
 :feedback-0: Correct! The p-value is far below 0.05, so we reject $H_0$ and conclude the process mean is not 12 mm—the boards are running thin, and the process needs attention.
 :feedback-1: 0.004 is much smaller than 0.05—the results are highly significant.
 :feedback-2: The direction matters for the practical conclusion: the sample mean (9.13) is well below the target 12 mm.
-* *Reject $H_0—the$ mean thickness differs from 12 mm (the boards appear too thin)
-* Do not reject $H_0—the$ evidence is insufficient
-* Reject $H_0—the$ boards appear too thick
+* *Reject $H_0$—the mean thickness differs from 12 mm (the boards appear too thin)
+* Do not reject $H_0$—the evidence is insufficient
+* Reject $H_0$—the boards appear too thick
 :::
 
 Now, suppose that Intel is testing a brand-new manufacturing process, for which prior information isn't available. In particular, for this new process, *the population distribution's shape isn't known*.

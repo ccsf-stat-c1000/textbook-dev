@@ -23,7 +23,7 @@ In a certain region, one in every thousand people (0.001) of all individuals is 
 
 (a) Express the information that is given in the problem in terms of the events H and T.
 
-"one in every thousand people (0.001) of all individuals are infected with HIV" $\to$ *P(H) = 0.001*
+"one in every thousand individuals (0.001) is infected with HIV" $\to$ *P(H) = 0.001*
 
 "If someone actually has HIV, the probability of testing positive is 0.95" $\to$ *P(T | H) = 0.95*
 

@@ -33,7 +33,7 @@ We learned quite a lot about hypothesis testing. We learned the logic behind it,
 :feedback-1: 0.016 is smaller than 0.05, so the data DO provide significant evidence against $H_0$.
 :feedback-2: The conclusion must be drawn in context, not just stated symbolically.
 * *Reject $H_0$ and conclude that the proportion of low-birth-weight babies among smokers is higher than 7.8%
-* Do not reject $H_0—the$ evidence is not strong enough
+* Do not reject $H_0$—the evidence is not strong enough
 * Reject $H_0$ (no further conclusion is needed)
 :::
 
@@ -54,14 +54,14 @@ The same researchers also wanted to examine whether second-hand smoking (exposur
 :feedback-0: Correct! Since $0.119 > 0.05$, the data do not provide enough evidence to conclude that second-hand smoking increases the risk of low birth weight.
 :feedback-1: The p-value exceeds 0.05, so the results are NOT statistically significant.
 :feedback-2: Failing to reject $H_0$ does not prove that second-hand smoking has no effect—we simply lack sufficient evidence of one.
-* *Do not reject $H_0—the$ data do not provide enough evidence that second-hand smoking increases the risk
+* *Do not reject $H_0$—the data do not provide enough evidence that second-hand smoking increases the risk
 * Reject $H_0$ and conclude that second-hand smoking increases the risk
 * Accept $H_0$ and conclude that second-hand smoking has no effect on birth weight
 :::
 
 :::{quiz} Even though the sample proportion among second-hand smokers (10.2%) was above 7.8%, the study did not reach a significant result, while the smoking study did. Which factor best explains why a sample result can fail to be significant?
-:hint: Think about what makes an observed difference "surprising" under $H_0—both$ the size of the difference and the sample size matter.
-:feedback-0: Correct! With a smaller sample (175 vs. 400) and a modest difference, a sample proportion of 10.2% is not surprising enough under $H_0—chance$ alone could reasonably produce it.
+:hint: Think about what makes an observed difference "surprising" under $H_0$—both the size of the difference and the sample size matter.
+:feedback-0: Correct! With a smaller sample (175 vs. 400) and a modest difference, a sample proportion of 10.2% is not surprising enough under $H_0$—chance alone could reasonably produce it.
 :feedback-1: The direction of the difference was consistent with $H_a$; the issue is the strength of the evidence, not its direction.
 :feedback-2: The p-value was computed correctly—non-significance reflects insufficient evidence, not an error.
 * *The observed difference was small enough, and the sample small enough, that chance alone could plausibly explain it

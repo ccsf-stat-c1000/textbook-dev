@@ -18,7 +18,7 @@ In our example, we look at each gender separately and convert the counts to perc
 
 | Gender | About right | Overweight | Underweight | Total |
 | --- | --- | --- | --- | --- |
-| Female | $560/760 = 73.7%$ | $163/760 = 21.5%$ | $37/760 = 4.9%$ | $760/760 = 100%$ |
+| Female | $560/760 = 73.7\%$ | $163/760 = 21.5\%$ | $37/760 = 4.9\%$ | $760/760 = 100\%$ |
 
 Note that each count is converted to percents by dividing by the total number of females, 760. These numerical summaries are called *conditional percentages*, since we find them by "conditioning" on one of the genders.
 
@@ -27,7 +27,7 @@ Note that each count is converted to percents by dividing by the total number of
 :::{quiz} Now compute the conditional percentages for the males. What percentage of the males feel they are underweight?
 :hint: Divide the count of underweight males by the total number of males, 440.
 :feedback-0: 4.9% is the percentage of *females* who feel underweight.
-:feedback-1: Correct! $73/440 \approx 16.6%$ of the males feel underweight.
+:feedback-1: Correct! $73/440 \approx 16.6\%$ of the males feel underweight.
 :feedback-2: 73 is the raw count; convert it to a percentage of the 440 males.
 * 4.9%
 * *16.6%
@@ -86,8 +86,8 @@ Suppose a study were done to answer the question: "Is the smoking of students re
 
 :::{quiz} What percentage of students whose parents smoke are smokers themselves, and how does it compare to students whose parents do not smoke?
 :hint: Compute 816/4019 and 188/1356, then compare.
-:feedback-0: Correct! $816/4019 \approx 20.3%$ of students with smoking parents smoke, versus $188/1356 \approx 13.9%$ of students with non-smoking parents—suggesting an association between parents' and students' smoking.
-:feedback-1: $816/1004 \approx 81%$ is a row percentage—the share of student smokers whose parents smoke—which conditions on the wrong variable.
+:feedback-0: Correct! $816/4019 \approx 20.3\%$ of students with smoking parents smoke, versus $188/1356 \approx 13.9\%$ of students with non-smoking parents—suggesting an association between parents' and students' smoking.
+:feedback-1: $816/1004 \approx 81\%$ is a row percentage—the share of student smokers whose parents smoke—which conditions on the wrong variable.
 :feedback-2: The two percentages differ noticeably (20.3% vs. 13.9%), suggesting the variables are related.
 * *About 20.3%, compared with about 13.9%—students with smoking parents are more likely to smoke
 * About 81%, compared with about 19%

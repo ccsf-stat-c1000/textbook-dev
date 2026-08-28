@@ -8,7 +8,7 @@ Since normal curves are symmetric about their mean, it follows that the curve of
 
 The normal table outlines the precise behavior of the standard normal random variable Z, the number of standard deviations a normal value x is below or above its mean. The normal table provides probabilities that a standardized normal random variable Z would take a value less than or equal to a particular value z*.
 
-These particular values are listed in the form *.* in rows along the left margins of the table, specifying the ones and tenths. The columns fine-tune these values to hundredths, allowing us to look up the probability of being below any standardized value z of the form *.**. Here is part of the table.
+These particular values are listed in the form \*.\* in rows along the left margins of the table, specifying the ones and tenths. The columns fine-tune these values to hundredths, allowing us to look up the probability of being below any standardized value z of the form \*.\*\*. Here is part of the table.
 
 | z | .00 | .01 | .02 | .03 | .04 | .05 | .06 | .07 | .08 | .09 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -62,7 +62,7 @@ The test statistic tells us what the data say about $\mu_1-\mu_2$. In this case,
 
 ## Check Your Understanding: The Two-Sample t-Test Statistic
 
-:::{quiz} In the looks vs. personality example, which quantity does $y-bar_1 - y-bar_2 = -2.6$ estimate?
+:::{quiz} In the looks vs. personality example, which quantity does $\bar{y}_1 - \bar{y}_2 = -2.6$ estimate?
 :hint: The sample difference estimates the corresponding population quantity.
 :feedback-0: Correct! The difference between the sample means estimates $\mu_1 - \mu_2$, the difference between the population means.
 :feedback-1: The test statistic is the standardized version of the difference, not the difference itself.

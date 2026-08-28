@@ -10,7 +10,7 @@ It has a different structure from all the test statistics we've looked at so far
 
 ## Check Your Understanding: Understanding the F-Statistic
 
-Consider a situation in which we compare $k = 3$ populations with independent samples of size 100 each, and the sample means are $\bar{y}_1=35$, $\bar{y}_2=30$, and $\bar{y}_3=25$. We are testing $H_0: \mu_1=\mu_2=\mu_3$ vs. $H_a$: not all the $\mu's$ are equal. Two possible scenarios of the data (both with these same sample means):
+Consider a situation in which we compare $k = 3$ populations with independent samples of size 100 each, and the sample means are $\bar{y}_1=35$, $\bar{y}_2=30$, and $\bar{y}_3=25$. We are testing $H_0: \mu_1=\mu_2=\mu_3$ vs. $H_a$: not all the $\mu$'s are equal. Two possible scenarios of the data (both with these same sample means):
 
 - *Scenario 1:* the three samples have very little spread, and their dotplots barely overlap.
 - *Scenario 2:* the three samples have wide spread, and their dotplots overlap substantially.

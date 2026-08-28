@@ -17,7 +17,7 @@ The measure that the researchers used to assess the level of the ads was the num
 
 Our question of interest is whether the number of words in ads (Y) is related to the educational level of the magazine (X). To answer this question, we need to compare $\mu_1, \mu_2, \mu_3$, the mean number of words in ads of the three magazine groups. It seems that what the data suggest makes sense: the magazines in group 1 have the largest number of words per ad (on average), followed by group 2, and then group 3.
 
-The question is whether these differences between the sample means are significant. In other words, are the differences among the observed sample means due to true differences among the $\mu's$, or merely due to sampling variability? To answer this question, we need to carry out the ANOVA F-test.
+The question is whether these differences between the sample means are significant. In other words, are the differences among the observed sample means due to true differences among the $\mu$'s, or merely due to sampling variability? To answer this question, we need to carry out the ANOVA F-test.
 
 *Step 1: Stating the hypotheses.* We are testing:
 

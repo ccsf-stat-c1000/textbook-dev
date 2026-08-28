@@ -47,11 +47,11 @@ Based on the collected data, a 95% confidence interval for $\mu_d$, the mean dif
 
 :::{quiz} Based on the confidence interval, what is the conclusion of the two-sided test at the 0.05 significance level?
 :hint: Is 0 inside (2.5, 7.8)?
-:feedback-0: Correct! 0 falls outside the interval, so it is not a plausible value for $\mu_d$, and we reject $H_0—typing$ speeds differ between the two word processors.
+:feedback-0: Correct! 0 falls outside the interval, so it is not a plausible value for $\mu_d$, and we reject $H_0$—typing speeds differ between the two word processors.
 :feedback-1: 0 is NOT inside (2.5, 7.8)—the interval starts at 2.5.
 :feedback-2: The interval method applies here directly, since the test is two-sided and the levels match (95% and 0.05).
-* *Reject $H_0—typing$ speeds differ between the two word processors
-* Do not reject $H_0—0$ is a plausible value for $\mu_d$
+* *Reject $H_0$—typing speeds differ between the two word processors
+* Do not reject $H_0$—0 is a plausible value for $\mu_d$
 * The confidence interval cannot be used to carry out the test
 :::
 

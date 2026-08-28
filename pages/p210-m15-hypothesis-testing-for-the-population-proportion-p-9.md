@@ -70,8 +70,8 @@ A city claims that 30% of its residents bike to work at least once a week. A loc
 :feedback-0: Correct! Since $0.026 < 0.05$, we reject $H_0$ and conclude that fewer than 30% of residents bike to work weekly.
 :feedback-1: 0.026 is smaller than 0.05, so the results ARE significant.
 :feedback-2: The conclusion must be in context—about the proportion of residents who bike to work.
-* *Reject $H_0—the$ data provide significant evidence that fewer than 30% of residents bike to work weekly
-* Do not reject $H_0—the$ evidence is not strong enough
+* *Reject $H_0$—the data provide significant evidence that fewer than 30% of residents bike to work weekly
+* Do not reject $H_0$—the evidence is not strong enough
 * Reject $H_0$ (no context needed)
 :::
 

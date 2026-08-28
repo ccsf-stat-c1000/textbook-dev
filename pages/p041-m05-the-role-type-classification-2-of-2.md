@@ -28,7 +28,7 @@ Now let's go back to our eight examples and determine which of the four cases re
 
 - *Gender* is the *explanatory* variable, and it is *categorical*.
 - *Test score* is the *response* variable, and it is *quantitative*.
-- Therefore, this is an example of *case $C \to Q*$.
+- Therefore, this is an example of *case $C \to Q$*.
 :::
 
 :::{admonition} Example: 3
@@ -36,7 +36,7 @@ Now let's go back to our eight examples and determine which of the four cases re
 
 - *Light Type* is the *explanatory* variable, and it is *categorical*.
 - *Nearsightedness* is the *response* variable, and it is *categorical*.
-- Therefore, this is an example of *case $C \to C*$.
+- Therefore, this is an example of *case $C \to C$*.
 :::
 
 :::{admonition} Example: 5
@@ -44,7 +44,7 @@ Now let's go back to our eight examples and determine which of the four cases re
 
 - *SAT Score* is the *explanatory* variable, and it is *quantitative*.
 - *GPA of Freshman Year* is the *response* variable, and it is *quantitative*.
-- Therefore, this is an example of *case $Q \to Q*$.
+- Therefore, this is an example of *case $Q \to Q$*.
 :::
 
 :::{admonition} Example: 7
@@ -52,7 +52,7 @@ Now let's go back to our eight examples and determine which of the four cases re
 
 - *Time* is the *explanatory* variable, and it is *quantitative*.
 - *Driving Test Outcome* is the *response* variable, and it is *categorical*.
-- Therefore, this is an example of *case $Q \to C*$.
+- Therefore, this is an example of *case $Q \to C$*.
 :::
 
 ## Check Your Understanding: Classifying Relationships by Role and Type

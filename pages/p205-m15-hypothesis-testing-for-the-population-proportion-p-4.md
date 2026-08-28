@@ -125,7 +125,9 @@ Ann and Sam are both testing the hypothesis that 40% of plain M&M's are orange, 
 :feedback-0: True! Evidence is measured by the test statistic, and Ann's |z| = 1.25 exceeds Sam's |z| = 1.
 :feedback-1: True! Sam's difference (0.10) is larger than Ann's (0.05), yet his z is smaller—so his standard error must be larger, meaning his sample was smaller.
 :feedback-2: False—raw distance from the null value doesn't determine evidence strength; the standardized distance does.
+:feedback-3: False—both test statistics are positive and neither is large, so neither sample gives strong evidence; and in any case a test never proves that $H_0$ is true.
 * *Ann's data provide stronger evidence against $H_0$ than Sam's, because her test statistic is larger
 * *Sam's sample must be smaller than Ann's
 * Sam's data provide stronger evidence against $H_0$, because his sample proportion is farther from 0.40
+* Both results confirm that exactly 40% of plain M&M's are orange
 :::

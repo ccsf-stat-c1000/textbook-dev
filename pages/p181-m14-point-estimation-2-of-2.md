@@ -50,7 +50,7 @@ In both cases, the larger the sample size, the more accurate the point estimator
 
 :::{quiz} What does it mean to say that x-bar is an "unbiased" estimator of $\mu$?
 :hint: Think about where the sampling distribution of x-bar is centered.
-:feedback-0: Correct! Unbiased means the sampling distribution of x-bar is centered exactly at $\mu—it$ neither systematically overestimates nor underestimates.
+:feedback-0: Correct! Unbiased means the sampling distribution of $\bar{x}$ is centered exactly at $\mu$—it neither systematically overestimates nor underestimates.
 :feedback-1: Individual sample means almost never equal $\mu$ exactly; unbiasedness is a long-run, on-average property.
 :feedback-2: Unbiasedness concerns the center of the estimator's distribution, not its spread.
 * *In repeated random samples, the values of x-bar average out to exactly $\mu$

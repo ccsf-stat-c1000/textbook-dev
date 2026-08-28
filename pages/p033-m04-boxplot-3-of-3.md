@@ -7,7 +7,7 @@ As we learned in the beginning of this module, the distribution of a quantitativ
 ::::{admonition} Example: Best Actor/Actress Oscar Winners
 :class: tip
 
-So far we have examined the age distributions of Oscar winners for males and females separately.
+So far we have examined the age distribution of the Best Actress Oscar winners.
 
 It will be interesting to *compare* the age distributions of actors and actresses who won best acting Oscars. To do that we will look at side-by-side boxplots of the age distributions by gender, supplemented by the five-number summary of each distribution (calculated using statistical software):
 
