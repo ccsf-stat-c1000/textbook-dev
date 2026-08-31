@@ -1,3 +1,6 @@
+---
+enumerator: "123."
+---
 # Expected Value in the Real World: Games, Insurance, and Decisions
 
 Here is another example:
@@ -84,7 +87,7 @@ Let the random variable X be the insurance company's annual gain from such a pol
 :feedback-0: Correct! Over many, many policies of this kind, the company gains an average of \$750 per policy per year—even though on any single policy it either gains \$1,350 or takes a large loss.
 :feedback-1: On any single policy the gain is never exactly \$750; the mean describes the long-run average.
 :feedback-2: The company can absolutely lose money on an individual policy (when a fire occurs)—just not on average across many policies.
-* *In the long run, the company averages a gain of $750 per policy per year
-* The company earns exactly $750 from this customer each year
+* *In the long run, the company averages a gain of \$750 per policy per year
+* The company earns exactly \$750 from this customer each year
 * The company can never lose money on this policy
 :::

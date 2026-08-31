@@ -1,3 +1,6 @@
+---
+enumerator: "138."
+---
 # Standardizing Values: The z-score
 
 Let's go back to our example of foot length:
@@ -73,9 +76,9 @@ Scores on the final exam in Professor Meyer's statistics class follow a normal d
 :feedback-0: Correct! $z = 5/5 = +1$: the score is 1 standard deviation above the mean.
 :feedback-1: -1 would be the z-score of 77, which is below the mean.
 :feedback-2: 5 is the raw distance from the mean; divide by the standard deviation.
-* *+1
-* -1
-* +5
+* *$+1$
+* $-1$
+* $+5$
 :::
 
 :::{quiz} What is the z-score of an exam score of 74.5?
@@ -83,9 +86,9 @@ Scores on the final exam in Professor Meyer's statistics class follow a normal d
 :feedback-0: Correct! $z = -7.5/5 = -1.5$: the score is 1.5 standard deviations below the mean.
 :feedback-1: +1.5 would be the z-score of 89.5, above the mean.
 :feedback-2: -7.5 is the raw deviation; divide by 5 to standardize it.
-* *-1.5
-* +1.5
-* -7.5
+* *$-1.5$
+* $+1.5$
+* $-7.5$
 :::
 
 :::{quiz} A student's exam z-score is +2.2. What was the student's actual score?

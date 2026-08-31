@@ -1,3 +1,6 @@
+---
+enumerator: "069."
+---
 # Predicting with Care: Interpolation vs. Extrapolation
 
 Let's go back now to our motivating example, in which we wanted to predict the maximum distance at which a sign is legible for a 60-year-old. Now that we have found the least squares regression line, this prediction becomes quite easy:
@@ -41,9 +44,9 @@ $$\text{Predicted distance} = 576 - 3 \times 60 = 396$$
 :feedback-0: Correct! Predicted = $-1.4 + 72 = 70.6$, so the error is $74 - 70.6 = 3.4$.
 :feedback-1: -3.4 would mean the actual value was below the prediction; here the student did better than predicted.
 :feedback-2: 2 is the difference between 74 and 72; compare the actual value with the predicted value, 70.6.
-* *3.4
-* -3.4
-* 2
+* *$3.4$
+* $-3.4$
+* $2$
 :::
 
 ## Predicting Beyond the Data

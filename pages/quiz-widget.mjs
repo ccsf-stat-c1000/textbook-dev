@@ -147,6 +147,101 @@ async function typesetMath(shadow) {
   }
 }
 
+// ── Spoken math ───────────────────────────────────────────────────────────────
+// KaTeX marks its visual output aria-hidden and puts the real content in a
+// MathML branch. Browsers skip that branch when computing the *accessible name*
+// of a form control, so a radio labelled "P(Z $\leq -1.5)$" would announce as
+// just "P(Z " — indistinguishable from "P(Z $\geq -1.5)$". We therefore build a
+// spoken-language version of each choice and attach it with aria-label.
+//
+// This affects naming only; math in the question, hint, feedback and
+// explanation is read from KaTeX's MathML as normal.
+
+const TEX_WORDS = {
+  mu: 'mu', sigma: 'sigma', alpha: 'alpha', beta: 'beta', chi: 'chi', pi: 'pi',
+  approx: 'approximately', neq: 'not equal to', ne: 'not equal to',
+  leq: 'less than or equal to', le: 'less than or equal to',
+  geq: 'greater than or equal to', ge: 'greater than or equal to',
+  pm: 'plus or minus', mp: 'minus or plus',
+  times: 'times', cdot: 'times', div: 'divided by',
+  to: 'to', rightarrow: 'to', implies: 'implies',
+  ldots: 'and so on', cdots: 'and so on', dots: 'and so on',
+  infty: 'infinity', percent: 'percent',
+  quad: ' ', qquad: ' ', left: ' ', right: ' ', displaystyle: ' ', tfrac: ' ',
+};
+
+// Turn one TeX fragment into words. Order matters: \sqrt, \hat and \bar are
+// expanded before \frac so a nested argument no longer contains braces, and the
+// "negative number" pass runs before the generic minus pass.
+function speakTex(tex) {
+  let s = ' ' + String(tex ?? '') + ' ';
+  s = s.replace(/\\text\s*\{([^{}]*)\}/g, ' $1 ');
+  s = s.replace(/\\sqrt\s*\{([^{}]*)\}/g, ' the square root of $1 ');
+  s = s.replace(/\\hat\s*\{([^{}]*)\}/g, ' $1 hat ');
+  s = s.replace(/\\hat\s*([A-Za-z])/g, ' $1 hat ');
+  s = s.replace(/\\bar\s*\{([^{}]*)\}/g, ' $1 bar ');
+  s = s.replace(/\\bar\s*([A-Za-z])/g, ' $1 bar ');
+  for (let k = 0; k < 3; k++) {
+    s = s.replace(/\\d?frac\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, ' $1 over $2 ');
+    s = s.replace(/\\sqrt\s*\{([^{}]*)\}/g, ' the square root of $1 ');
+  }
+  s = s.replace(/\|([^|]{1,24})\|/g, ' the absolute value of $1 ');
+  s = s.replace(/\{,\}/g, ',');
+  s = s.replace(/\\%/g, ' percent ');
+  s = s.replace(/\^\s*\{?\s*\*\s*\}?/g, ' star ');
+  s = s.replace(/_\s*\{([^{}]*)\}/g, ' sub $1 ');
+  s = s.replace(/_\s*([A-Za-z0-9])/g, ' sub $1 ');
+  s = s.replace(/\^\s*\{([^{}]*)\}/g, ' to the power $1 ');
+  s = s.replace(/\^\s*([A-Za-z0-9])/g, ' to the power $1 ');
+  s = s.replace(/\\([a-zA-Z]+)/g,
+    (m, c) => TEX_WORDS[c] !== undefined ? ' ' + TEX_WORDS[c] + ' ' : ' ' + c + ' ');
+  s = s.replace(/\\[,;: ]/g, ' ');
+  s = s.replace(/[{}]/g, ' ');
+  s = s.replace(/(^|[\s=(<>,])-\s*(?=[\d.])/g, '$1 negative ');
+  s = s.replace(/-/g, ' minus ');
+  s = s.replace(/\+/g, ' plus ');
+  s = s.replace(/</g, ' less than ');
+  s = s.replace(/>/g, ' greater than ');
+  s = s.replace(/=/g, ' equals ');
+  s = s.replace(/\//g, ' over ');
+  s = s.replace(/\*/g, ' times ');
+  return s.replace(/\s+/g, ' ').trim();
+}
+
+// Plain-text rendering of a whole choice: prose kept as-is, math spoken.
+// Mirrors renderInline's tokenizer so the two never disagree about delimiters.
+function speakChoice(text) {
+  const src = String(text ?? '');
+  let out = '', i = 0;
+  while (i < src.length) {
+    if (src[i] === '\\' && src[i + 1] === '$') { out += '$'; i += 2; continue; }
+    if (src[i] === '$') {
+      const dd = src[i + 1] === '$';
+      const close = src.indexOf(dd ? '$$' : '$', i + (dd ? 2 : 1));
+      if (close < 0) { out += src.slice(i); break; }
+      out += ' ' + speakTex(src.slice(i + (dd ? 2 : 1), close)) + ' ';
+      i = close + (dd ? 2 : 1);
+      continue;
+    }
+    if (src[i] === '`') {
+      const close = src.indexOf('`', i + 1);
+      if (close < 0) { out += src.slice(i); break; }
+      out += ' ' + src.slice(i + 1, close) + ' ';
+      i = close + 1;
+      continue;
+    }
+    out += src[i]; i++;
+  }
+  return out.replace(/\s+/g, ' ').trim();
+}
+
+// Only override the accessible name when the choice actually contains math.
+// Prose-only choices keep native label semantics, so the visible text and the
+// accessible name stay identical (WCAG 2.5.3 Label in Name).
+function hasMath(text) {
+  return /(?<!\\)\$/.test(String(text ?? ''));
+}
+
 // ── Styles ────────────────────────────────────────────────────────────────────
 
 const CSS = `
@@ -168,7 +263,7 @@ const CSS = `
 .quiz-hdr svg { flex-shrink: 0; }
 .quiz-body { padding: 14px 16px 16px; }
 .question { font-weight: 500; line-height: 1.55; margin: 0 0 10px; }
-.multinote { font-size: .83em; color: #64748b; font-style: italic; margin: -4px 0 8px; }
+.multinote { font-size: .83em; color: #556377; font-style: italic; margin: -4px 0 8px; }
 .choices { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
 
 /* Choice row — wraps input + content + feedback pill */
@@ -176,12 +271,22 @@ const CSS = `
 .choice {
   display: flex; align-items: flex-start; gap: 8px;
   padding: 8px 10px; border-radius: 4px;
-  border: 1px solid #cbd5e1; background: #fff;
+  border: 1px solid #7e8b99; background: #fff;
   cursor: pointer; font-size: .93em; line-height: 1.5;
   transition: border-color .12s, background .12s;
   user-select: none;
 }
-.choice:hover { border-color: #0284c7; background: #f0f9ff; }
+.choice:hover { border-color: #0369a1; background: #f0f9ff; }
+/* Mirror the input's focus ring onto the whole clickable card. */
+.choice:focus-within { outline: 2px solid #0369a1; outline-offset: 1px; }
+/* Locked after submission. We use aria-disabled rather than the disabled
+   attribute so the options stay focusable and a keyboard or screen-reader user
+   can still review what they picked and read the feedback attached to it. */
+.choice[aria-disabled="true"] { cursor: default; }
+.choice[aria-disabled="true"]:hover { border-color: #7e8b99; background: #fff; }
+.choice[aria-disabled="true"].ok:hover     { border-color: #16a34a; background: #f0fdf4; }
+.choice[aria-disabled="true"].bad:hover    { border-color: #dc2626; background: #fef2f2; }
+.choice[aria-disabled="true"].missed:hover { border-color: #d97706; background: #fffbeb; }
 .choice input { margin-top: 2px; accent-color: #0284c7; flex-shrink: 0; cursor: pointer; }
 .choice-text { flex: 1; }
 
@@ -256,12 +361,14 @@ button {
   cursor: pointer; font-size: .88em; font-family: inherit;
   transition: background .12s;
 }
-.btn-check { background: #0284c7; color: #fff; border-color: #0369a1; }
-.btn-check:hover { background: #0369a1; }
-.btn-hint  { background: #fef9c3; color: #713f12; border-color: #fde047; }
+.btn-check { background: #0369a1; color: #fff; border-color: #075985; }
+.btn-check:hover { background: #075985; }
+.btn-hint  { background: #fef9c3; color: #713f12; border-color: #ca8a04; }
 .btn-hint:hover { background: #fef08a; }
-.btn-reset { background: transparent; color: #0284c7; border-color: #0284c7; display: none; }
+.btn-reset { background: transparent; color: #0369a1; border-color: #0369a1; display: none; }
 .btn-reset:hover { background: #e0f2fe; }
+/* The result banner receives focus after submission, so it needs its own ring. */
+.fb:focus-visible { outline: 2px solid #0369a1; outline-offset: 2px; }
 
 /* Dark mode — driven by the MyST .dark class on <html>, mirrored onto the
    host as [data-theme="dark"] (see render). We avoid prefers-color-scheme
@@ -269,8 +376,11 @@ button {
 :host([data-theme="dark"]) .quiz { background: #0c1a27; border-color: #1e3a4f; border-left-color: #0284c7; color: #e2e8f0; }
 :host([data-theme="dark"]) .quiz-hdr { background: #0c2940; border-color: #1e4060; color: #7dd3fc; }
 :host([data-theme="dark"]) .question { color: #e2e8f0; }
-:host([data-theme="dark"]) .choice { background: #1a2535; border-color: #2d3f55; color: #e2e8f0; }
-:host([data-theme="dark"]) .choice:hover { background: #0c2030; border-color: #0284c7; }
+:host([data-theme="dark"]) .multinote { color: #9db2c6; }
+:host([data-theme="dark"]) .choice { background: #1a2535; border-color: #6a80a1; color: #e2e8f0; }
+:host([data-theme="dark"]) .choice:hover { background: #0c2030; border-color: #38bdf8; }
+:host([data-theme="dark"]) .choice[aria-disabled="true"]:hover { background: #1a2535; border-color: #6a80a1; }
+:host([data-theme="dark"]) .choice:focus-within { outline-color: #38bdf8; }
 :host([data-theme="dark"]) .choice.ok     { background: #052e16 !important; border-color: #16a34a !important; }
 :host([data-theme="dark"]) .choice.bad    { background: #2d0a0a !important; border-color: #dc2626 !important; }
 :host([data-theme="dark"]) .choice.missed { background: #1c1208 !important; border-color: #d97706 !important; }
@@ -321,9 +431,12 @@ function render({ model, el }) {
 
   const root = document.createElement('div');
   root.className = 'quiz';
+  const QID = `q-${NAME}`;
+  const HID = `h-${NAME}`;
   root.innerHTML = `
     <div class="quiz-hdr">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+           aria-hidden="true" focusable="false">
         <circle cx="8" cy="8" r="7" stroke="#0369a1" stroke-width="1.2"/>
         <text x="8" y="12" text-anchor="middle" font-size="10"
               fill="#0369a1" font-family="sans-serif" font-weight="600">?</text>
@@ -331,13 +444,14 @@ function render({ model, el }) {
       <span>Concept check</span>
     </div>
     <div class="quiz-body">
-      <p class="question">${renderInline(question)}</p>
+      <p class="question" id="${QID}">${renderInline(question)}</p>
       ${multi ? '<p class="multinote">Select <strong>all</strong> that apply.</p>' : ''}
-      <div class="choices">
+      <div class="choices" role="${multi ? 'group' : 'radiogroup'}" aria-labelledby="${QID}">
         ${choices.map((c, i) => `
           <div class="choice-wrap">
             <label class="choice" data-idx="${i}">
-              <input type="${inputType}" name="${NAME}" value="${i}">
+              <input type="${inputType}" name="${NAME}" value="${i}"${
+                hasMath(c.text) ? ` aria-label="${esc(speakChoice(c.text))}"` : ''}>
               <span class="choice-text">${renderChoice(c.text)}</span>
             </label>
             ${c.feedback
@@ -345,13 +459,13 @@ function render({ model, el }) {
               : ''}
           </div>`).join('')}
       </div>
-      ${hint ? `<div class="hint-box"><span class="box-lbl">💡 Hint</span>${renderInline(hint)}</div>` : ''}
-      <div class="fb"></div>
+      ${hint ? `<div class="hint-box" id="${HID}"><span class="box-lbl">💡 Hint</span>${renderInline(hint)}</div>` : ''}
+      <div class="fb" role="status" tabindex="-1"></div>
       ${explanation ? `<div class="expl-box"><span class="box-lbl">📖 Explanation</span>${renderInline(explanation)}</div>` : ''}
       <div class="actions">
-        ${hint ? '<button class="btn-hint">Show hint</button>' : ''}
-        <button class="btn-check">Check answer</button>
-        <button class="btn-reset">Try again</button>
+        ${hint ? `<button type="button" class="btn-hint" aria-expanded="false" aria-controls="${HID}">Show hint</button>` : ''}
+        <button type="button" class="btn-check">Check answer</button>
+        <button type="button" class="btn-reset">Try again</button>
       </div>
     </div>`;
   shadow.appendChild(root);
@@ -393,6 +507,28 @@ function render({ model, el }) {
   const btnReset   = shadow.querySelector('.btn-reset');
   const btnHint    = shadow.querySelector('.btn-hint');
 
+  // ── Answer locking ──────────────────────────────────────────────────────────
+  // After submission the options must stop responding, but they must NOT get the
+  // `disabled` attribute: that drops them out of the tab order, so a keyboard or
+  // screen-reader user could no longer review their answer or the per-choice
+  // feedback. Instead we mark them aria-disabled and swallow the interaction,
+  // which covers both mouse clicks and the keyboard (Space fires click too).
+  let locked = false;
+  inputs.forEach(input => {
+    input.addEventListener('click', e => { if (locked) e.preventDefault(); });
+  });
+  const setLocked = on => {
+    locked = on;
+    choiceEls.forEach(lbl => {
+      if (on) lbl.setAttribute('aria-disabled', 'true');
+      else    lbl.removeAttribute('aria-disabled');
+    });
+    inputs.forEach(i => {
+      if (on) i.setAttribute('aria-disabled', 'true');
+      else    i.removeAttribute('aria-disabled');
+    });
+  };
+
   // ── Submit ──────────────────────────────────────────────────────────────────
   btnCheck.addEventListener('click', () => {
     const selected = inputs.filter(i => i.checked).map(i => +i.value);
@@ -401,6 +537,7 @@ function render({ model, el }) {
       fb.textContent = 'Please select an answer before checking.';
       fb.className = 'fb bad';
       fb.style.display = 'block';
+      fb.focus();
       return;
     }
 
@@ -424,18 +561,32 @@ function render({ model, el }) {
         lbl.classList.add('missed');
         if (cfEl) { cfEl.classList.add('visible', 'fb-missed'); }
       }
-      lbl.querySelector('input').disabled = true;
+      // Point the option at its own feedback now that the feedback is visible.
+      // A hidden element contributes nothing to the description, so this is only
+      // wired up once the text is actually on screen.
+      if (cfEl && cfEl.classList.contains('visible')) {
+        lbl.querySelector('input').setAttribute('aria-describedby', `cf-${i}`);
+      }
     });
+    setLocked(true);
 
+    // State is carried in words as well as colour, so the outcome does not
+    // depend on being able to see the green/red tint (WCAG 1.4.1).
     fb.textContent = ok
       ? (multi ? '✅ Correct! You selected all the right answers.' : '✅ Correct!')
-      : (multi ? '❌ Not quite.' : '❌ Not quite.');
+      : (multi ? '❌ Not quite. Review the feedback under each option.'
+               : '❌ Not quite. Review the feedback under each option.');
     fb.className = 'fb ' + (ok ? 'ok' : 'bad');
     fb.style.display = 'block';
 
     if (explBox) explBox.style.display = 'block';
     btnCheck.style.display = 'none';
     btnReset.style.display = 'inline-block';
+
+    // The button that was just activated is about to be hidden, which would
+    // otherwise drop focus onto <body>. Move focus to the result instead: it
+    // fixes the focus order and announces the outcome in one step.
+    fb.focus();
   });
 
   // ── Hint ────────────────────────────────────────────────────────────────────
@@ -444,12 +595,14 @@ function render({ model, el }) {
       const show = hintBox.style.display !== 'block';
       hintBox.style.display = show ? 'block' : 'none';
       btnHint.textContent = show ? 'Hide hint' : 'Show hint';
+      btnHint.setAttribute('aria-expanded', show ? 'true' : 'false');
     });
   }
 
   // ── Reset ───────────────────────────────────────────────────────────────────
   btnReset.addEventListener('click', () => {
-    inputs.forEach(i => { i.checked = false; i.disabled = false; });
+    inputs.forEach(i => { i.checked = false; i.removeAttribute('aria-describedby'); });
+    setLocked(false);
     choiceEls.forEach(l => l.classList.remove('ok', 'bad', 'missed'));
     shadow.querySelectorAll('.choice-feedback').forEach(el => {
       el.classList.remove('visible', 'fb-correct', 'fb-incorrect', 'fb-missed');
@@ -457,9 +610,15 @@ function render({ model, el }) {
     fb.style.display = 'none'; fb.textContent = '';
     if (explBox)  explBox.style.display = 'none';
     if (hintBox)  hintBox.style.display = 'none';
-    if (btnHint)  btnHint.textContent = 'Show hint';
+    if (btnHint) {
+      btnHint.textContent = 'Show hint';
+      btnHint.setAttribute('aria-expanded', 'false');
+    }
     btnCheck.style.display = 'inline-block';
     btnReset.style.display = 'none';
+    // Send focus back to the first option so the keyboard user resumes where
+    // the question actually starts, rather than at the top of the document.
+    if (inputs.length) inputs[0].focus();
   });
 
   return () => { if (themeObserver) themeObserver.disconnect(); shadow.innerHTML = ''; };

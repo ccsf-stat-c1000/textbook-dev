@@ -1,3 +1,6 @@
+---
+enumerator: "036."
+---
 # Mean vs. Median: How Shape and Outliers Decide
 
 ## Comparing the Mean and the Median
@@ -56,8 +59,8 @@ We will therefore use $\bar{x}$ as a measure of center for symmetric distributio
 :feedback-0: In a skewed-left distribution the long tail is on the low side, pulling the mean down, not up.
 :feedback-1: Correct! The long left tail pulls the mean below the median.
 :feedback-2: Mean and median are approximately equal only for symmetric distributions.
-* Mean > Median
-* *Mean < Median
+* Mean $>$ Median
+* *Mean $<$ Median
 * Mean $\approx$ Median
 :::
 

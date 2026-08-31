@@ -1,3 +1,6 @@
+---
+enumerator: "023."
+---
 # Data and Variables: The Raw Material of Statistics
 
 Before we jump into exploratory data analysis and really appreciate its importance in the process of statistical analysis, let's step back for a minute and ask:
@@ -60,6 +63,8 @@ We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 :::{quiz} What type of variable is zipcode?
 :hint: A categorical variable puts individuals into categories. A quantitative variable is a numerical measurement that can be averaged.
 :explanation: Zipcode is a categorical variable because it categorizes individuals by geographic location.
+:feedback-0: Not quite. Zipcodes are written with digits, but averaging them is meaningless, so they are not quantitative.
+:feedback-1: Correct! Zipcode is categorical: it sorts individuals by geographic location rather than measuring anything.
 * Quantitative
 * *Categorical
 :::
@@ -67,6 +72,8 @@ We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 :::{quiz} What type of variable is Family_Size?
 :hint: A categorical variable puts individuals into categories. A quantitative variable is a numerical measurement that can be averaged.
 :explanation: Family_Size is a variable with numerical values that can be averaged.
+:feedback-0: Correct! Family_Size counts people, and a mean family size is a meaningful number.
+:feedback-1: Not quite. Family_Size is a count, and counts can be averaged, which makes it quantitative.
 * *Quantitative
 * Categorical
 :::
@@ -74,6 +81,8 @@ We took a random sample from the 2000 U.S. Census. Here is part of the dataset:
 :::{quiz} What type of variable is Annual_income?
 :hint: A categorical variable puts individuals into categories. A quantitative variable is a numerical measurement that can be averaged.
 :explanation: Annual_income is a variable with numerical values that can be averaged.
+:feedback-0: Correct! Annual_income is measured in dollars, and a mean income is a meaningful number.
+:feedback-1: Not quite. Income is a numerical measurement that can be averaged, which makes it quantitative.
 * *Quantitative
 * Categorical
 :::
