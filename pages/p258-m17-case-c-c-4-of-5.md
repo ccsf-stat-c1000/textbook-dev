@@ -1,3 +1,6 @@
+---
+enumerator: "237."
+---
 # The Chi-Square Test: P-value and Conclusion
 
 ## Step 3: Finding the P-value
@@ -43,7 +46,7 @@ This is a good opportunity to illustrate an important idea that was discussed ea
 | **Female** | 48 | 366 | 414 |
 | **Total** | 279 | 1,578 | 1,857 |
 
-Obviously, the conditional percents remain the same (males: $231/1443 = 16.0%$ drank; females: $48/414 = 11.6%$ drank). In other words, the sample provides the "same" results, but this time they are based on a much larger sample (1,857 instead of 619). This is reflected by the chi-square test. In this case, software gives us a chi-square statistic of 4.91 and a p-value of 0.027.
+Obviously, the conditional percents remain the same (males: $231/1443 = 16.0\%$ drank; females: $48/414 = 11.6\%$ drank). In other words, the sample provides the "same" results, but this time they are based on a much larger sample (1,857 instead of 619). This is reflected by the chi-square test. In this case, software gives us a chi-square statistic of 4.91 and a p-value of 0.027.
 
 When done with software, the original chi-square statistic was 1.637 (software doesn't round as much as we did by hand). Since the observed counts are triple what they were before, the expected counts are also tripled, and the chi-square statistic is $3 \times 1.637 = 4.91$ (which now is in the "large" range for a 2-by-2 table). Therefore, the p-value is smaller and is now 0.027.
 

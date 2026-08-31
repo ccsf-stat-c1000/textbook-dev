@@ -1,3 +1,6 @@
+---
+enumerator: "090."
+---
 # Rules 1 and 2: What Every Probability Must Obey
 
 ## Basic Probability Rules
@@ -7,7 +10,7 @@ In the previous section we considered situations in which all the possible outco
 ```{admonition} Rule 1
 :class: note
 
-*For any event A, $0 \leq$ P(A) $\leq 1.*$
+*For any event A, $0 \leq$ P(A) $\leq 1$.*
 ```
 
 This first rule simply reminds us of the basic property of probability that we've already learned. The probability of an event, which informs us of the likelihood of it occurring, can range anywhere from 0 (indicating that the event will never occur) to 1 (indicating that the event is certain). One practical use of this rule is that it can be used to identify any probability calculation that comes out to be more than 1 as wrong.

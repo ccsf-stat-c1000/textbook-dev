@@ -1,3 +1,6 @@
+---
+enumerator: "165."
+---
 # Confidence Intervals for a Mean: An Overview
 
 ## Overview
@@ -46,5 +49,5 @@ So, if we happen to get a sample mean of $\bar{x}=115$, then we are 95% sure tha
 ```{admonition} Comment
 :class: important
 
-Note that the first phrasing is about $\bar{x}$, which is a random variable; that's why it makes sense to use probability language. But the second phrasing is about $\mu$, which is a parameter, and thus is a "fixed" value that doesn’t change, and that's why we shouldn’t use probability language to discuss it. This point will become clearer after you do the activities on the next page.
+Note that the first phrasing is about $\bar{x}$, which is a random variable; that's why it makes sense to use probability language. But the second phrasing is about $\mu$, which is a parameter, and thus is a "fixed" value that doesn't change, and that's why we shouldn't use probability language to discuss it. This point will become clearer after you do the activities on the next page.
 ```
